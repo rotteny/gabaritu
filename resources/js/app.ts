@@ -4,6 +4,7 @@ import AlunoLayout from '@/layouts/AlunoLayout.vue';
 import AuthLayout from '@/layouts/AuthLayout.vue';
 import QuestaoLayout from '@/layouts/QuestaoLayout.vue';
 import { initializeFlashToast } from '@/lib/flashToast';
+import { instalarDestravamento } from '@/lib/motorSom';
 
 const appName = import.meta.env.VITE_APP_NAME || 'Laravel';
 
@@ -37,6 +38,7 @@ void createInertiaApp({
 
 // This will set light / dark mode on page load...
 initializeTheme();
+instalarDestravamento();
 
 // This will listen for flash toast data from the server...
 initializeFlashToast();

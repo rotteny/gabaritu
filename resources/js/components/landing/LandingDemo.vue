@@ -1,5 +1,8 @@
 <script setup lang="ts">
+import { watch } from 'vue';
 import { useDemoSound } from '@/composables/useDemoSound';
+import { useFalaDigitada } from '@/composables/useFalaDigitada';
+import { useMovimentoReduzido } from '@/composables/useMovimentoReduzido';
 import { usePeixotoDemo } from '@/composables/usePeixotoDemo';
 import { alternativasDemo, questaoDemo } from '@/data/landingDemo';
 import DemoBurst from './DemoBurst.vue';
@@ -19,7 +22,24 @@ const {
     escolher,
     reiniciar,
 } = usePeixotoDemo();
-const { ligado: somLigado, tocar, alternar: alternarSom } = useDemoSound();
+const {
+    ligado: somLigado,
+    tocar,
+    alternar: alternarSom,
+    bipe,
+} = useDemoSound();
+const reduzido = useMovimentoReduzido();
+const { digitado, falar } = useFalaDigitada(reduzido, bipe);
+const falaHumor = {
+    idle: 'neutro',
+    mad: 'bravo',
+    happy: 'feliz',
+    help: 'ajuda',
+} as const;
+
+watch([fala, humor], ([texto, h]) => void falar(texto, falaHumor[h]), {
+    immediate: true,
+});
 
 function responder(letra: string) {
     const resultado = escolher(letra);
@@ -59,7 +79,7 @@ function estadoDaAlternativa(
             <div class="l-demo-grid">
                 <div class="l-demo-fish">
                     <p class="l-speech" :data-humor="humor" aria-live="polite">
-                        {{ fala }}
+                        {{ digitado || fala }}
                     </p>
                     <div class="l-float">
                         <div class="l-puff" :style="{ '--puff': inchaco }">
