@@ -74,7 +74,7 @@ export function instalarSomInterface() {
             }
 
             // Alternativas têm som próprio de acerto/erro.
-            if (el && !el.closest('.q-alt') && pode()) {
+            if (el && !el.closest('.q-alt, .nadador-btn') && pode()) {
                 tokClique();
             }
         },

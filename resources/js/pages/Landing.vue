@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { Head } from '@inertiajs/vue3';
-import { onBeforeUnmount, onMounted } from 'vue';
+import { onBeforeUnmount, onMounted, ref } from 'vue';
+import PeixotoNadador from '@/components/PeixotoNadador.vue';
+import { useMovimentoReduzido } from '@/composables/useMovimentoReduzido';
 import { observarSecoes } from '@/lib/somInterface';
 import BotaoSom from '@/components/BotaoSom.vue';
 import LandingDemo from '@/components/landing/LandingDemo.vue';
@@ -22,13 +24,28 @@ defineProps<{
     repositorioUrl: string;
 }>();
 
+const reduzido = useMovimentoReduzido();
+const heroVisivel = ref(true);
 let parar = () => {};
+let olhoHero: IntersectionObserver | null = null;
 onMounted(() => {
+    const peixeHero = document.querySelector('.l-hero-peixoto');
+
+    if (peixeHero) {
+        olhoHero = new IntersectionObserver(([e]) => {
+            heroVisivel.value = e.isIntersecting;
+        });
+        olhoHero.observe(peixeHero);
+    }
+
     parar = observarSecoes([
         ...document.querySelectorAll('main#conteudo > section'),
     ]);
 });
-onBeforeUnmount(() => parar());
+onBeforeUnmount(() => {
+    parar();
+    olhoHero?.disconnect();
+});
 </script>
 
 <template>
@@ -56,6 +73,7 @@ onBeforeUnmount(() => parar());
             <LandingPrivacy />
             <LandingOpenSource :repositorio-url="repositorioUrl" />
         </main>
+        <PeixotoNadador :oculto="heroVisivel" :reduzido="reduzido" />
         <LandingFooter
             :email-contato="emailContato"
             :repositorio-url="repositorioUrl"

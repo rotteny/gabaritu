@@ -337,3 +337,88 @@
 .l-hero-peixoto {
     cursor: pointer;
 }
+
+/* Peixoto nadador: fixo no canto, acompanha a rolagem (só transform/opacity). */
+.nadador {
+    position: fixed;
+    right: 10px;
+    bottom: 96px;
+    z-index: 20;
+    width: 64px;
+    pointer-events: none;
+}
+.nadador-btn {
+    display: block;
+    width: 100%;
+    padding: 0;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    pointer-events: auto;
+}
+.nadador-corpo {
+    display: block;
+    will-change: transform;
+}
+.nadador-boia {
+    display: block;
+    animation: l-float 3.2s ease-in-out infinite;
+}
+.nadador-boia.is-inchado {
+    animation: nadador-puff 0.6s ease-out;
+}
+.nadador--nadando .nadador-boia {
+    animation: none;
+}
+.nadador--nadando .pei-tail {
+    animation: none;
+}
+.nadador-bolha {
+    position: absolute;
+    left: 4px;
+    top: 14px;
+    width: 12px;
+    height: 12px;
+    background: rgb(255 255 255 / 0.7);
+    border: 2px solid var(--ink, #1b1030);
+    border-radius: 50%;
+    animation: nadador-sobe 1.4s ease-out forwards;
+}
+.nadador--reduzido .nadador-boia,
+.nadador--reduzido .pei-tail,
+.nadador--reduzido .pei-fin {
+    animation: none;
+}
+@keyframes nadador-puff {
+    0%,
+    100% {
+        transform: scale(1);
+    }
+    35% {
+        transform: scale(1.35);
+    }
+}
+@keyframes nadador-sobe {
+    from {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+    to {
+        transform: translate(var(--dx), -90px);
+        opacity: 0;
+    }
+}
+@media (min-width: 768px) {
+    .nadador {
+        right: 22px;
+        bottom: 28px;
+        width: 96px;
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+    .nadador-boia,
+    .nadador .pei-tail,
+    .nadador .pei-fin {
+        animation: none;
+    }
+}
