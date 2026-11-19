@@ -1,0 +1,53 @@
+{
+    "component": "Materia",
+    "props": {
+        "materia": {
+            "slug": "biologia",
+            "nome": "Biologia"
+        },
+        "assuntos": [
+            {
+                "slug": "citologia",
+                "nome": "Citologia",
+                "nota": 520,
+                "amostra_baixa": true,
+                "questionarios": [
+                    {
+                        "id": 1,
+                        "titulo": "Organelas e energia da célula",
+                        "ordem": 1,
+                        "feito": true,
+                        "melhor_acertos": 2
+                    },
+                    {
+                        "id": 2,
+                        "titulo": "Membrana e transporte",
+                        "ordem": 2,
+                        "feito": false,
+                        "melhor_acertos": null
+                    }
+                ]
+            },
+            {
+                "slug": "genetica",
+                "nome": "Genética",
+                "nota": null,
+                "amostra_baixa": false,
+                "questionarios": [
+                    {
+                        "id": 3,
+                        "titulo": "Primeira lei de Mendel",
+                        "ordem": 1,
+                        "feito": false,
+                        "melhor_acertos": null
+                    }
+                ]
+            }
+        ],
+        "fala": {
+            "texto": "Biologia, a matéria em que tudo é uma célula, até a sua dúvida.",
+            "humor": "neutro",
+            "variacao_id": 4
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "component": "Erro",
+    "props": {
+        "status": 404,
+        "fala": {
+            "texto": "Procurei em tudo que é canto do aquário. Essa página não tá aqui.",
+            "humor": "neutro",
+            "variacao_id": 8
+        }
+    },
+    "anonimo": true
+}

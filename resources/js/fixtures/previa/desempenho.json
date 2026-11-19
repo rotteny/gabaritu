@@ -1,0 +1,92 @@
+{
+    "component": "Desempenho",
+    "props": {
+        "materias": [
+            {
+                "slug": "matematica",
+                "nome": "Matemática",
+                "nota": 560,
+                "amostra_baixa": false,
+                "evolucao": [
+                    {
+                        "data": "2026-11-10",
+                        "nota": 480
+                    },
+                    {
+                        "data": "2026-11-12",
+                        "nota": 500
+                    },
+                    {
+                        "data": "2026-11-14",
+                        "nota": 490
+                    },
+                    {
+                        "data": "2026-11-16",
+                        "nota": 530
+                    },
+                    {
+                        "data": "2026-11-18",
+                        "nota": 560
+                    }
+                ],
+                "diagnostico": [
+                    {
+                        "etiqueta": "conceito",
+                        "nome": "confundir conceitos",
+                        "percentual": 60
+                    },
+                    {
+                        "etiqueta": "conta",
+                        "nome": "erro de conta",
+                        "percentual": 30
+                    }
+                ],
+                "assuntos": [
+                    {
+                        "slug": "porcentagem",
+                        "nome": "Porcentagem",
+                        "nota": 580,
+                        "amostra_baixa": true,
+                        "evolucao": [
+                            {
+                                "data": "2026-11-10",
+                                "nota": 480
+                            },
+                            {
+                                "data": "2026-11-12",
+                                "nota": 500
+                            },
+                            {
+                                "data": "2026-11-14",
+                                "nota": 490
+                            }
+                        ],
+                        "diagnostico": []
+                    },
+                    {
+                        "slug": "geometria",
+                        "nome": "Geometria",
+                        "nota": null,
+                        "amostra_baixa": false,
+                        "evolucao": [],
+                        "diagnostico": []
+                    }
+                ]
+            },
+            {
+                "slug": "biologia",
+                "nome": "Biologia",
+                "nota": null,
+                "amostra_baixa": false,
+                "evolucao": [],
+                "diagnostico": [],
+                "assuntos": []
+            }
+        ],
+        "fala": {
+            "texto": "Gráfico bonito. Sobe aí que eu quero ver essa linha chegar no teto.",
+            "humor": "neutro",
+            "variacao_id": 6
+        }
+    }
+}

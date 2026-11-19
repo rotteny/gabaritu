@@ -1,0 +1,10 @@
+{
+    "component": "Privacidade",
+    "props": {
+        "fala": {
+            "texto": "Resumindo: eu sei pouco de você e não conto pra ninguém.",
+            "humor": "feliz",
+            "variacao_id": 7
+        }
+    }
+}

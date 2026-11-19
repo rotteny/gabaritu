@@ -1,0 +1,22 @@
+{
+    "auth": {
+        "user": {
+            "id": 1,
+            "apelido": "Estudante",
+            "serie": "2em",
+            "idade": 16,
+            "preferencias": {
+                "zoeira": "sarc",
+                "zoeira_maxima": "sem",
+                "som": true,
+                "reduzir_movimento": false,
+                "ultima_materia": "biologia"
+            }
+        }
+    },
+    "gabaritu": {
+        "email_contato": "gabaritu@gorilash.com.br",
+        "repositorio_url": "https://github.com/rotteny/gabaritu",
+        "cadastro_aberto": true
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "component": "Resultado",
+    "props": {
+        "tentativa_id": 3,
+        "acertos": 2,
+        "total": 3,
+        "erro_mais_comum": {
+            "etiqueta": "conceito",
+            "nome": "Confundiu as organelas",
+            "vezes": 1
+        },
+        "nota_assunto": {
+            "antes": 500,
+            "depois": 520
+        },
+        "tem_erradas": true,
+        "proximo_questionario": {
+            "id": 2,
+            "titulo": "Membrana e transporte"
+        },
+        "fala": {
+            "texto": "Dois de três! O terceiro eu finjo que não vi. Finjo mal.",
+            "humor": "feliz",
+            "variacao_id": 5
+        }
+    }
+}
