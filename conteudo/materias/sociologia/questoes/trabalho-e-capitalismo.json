@@ -1,0 +1,902 @@
+[
+  {
+    "id": "soc-trabalho-e-capitalismo-001",
+    "materia": "sociologia",
+    "assunto": "trabalho-e-capitalismo",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "De onde veio a fábrica",
+    "enunciado": "A Primeira Revolução Industrial, que transformou o trabalho artesanal em trabalho de fábrica com máquinas, começou",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "no Brasil, em 1500",
+        "correta": false,
+        "etiqueta": "soc-anacronismo"
+      },
+      {
+        "letra": "B",
+        "texto": "na Inglaterra, no século XVIII, com máquinas a vapor e fábricas",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "nos Estados Unidos, no século XX",
+        "correta": false,
+        "etiqueta": "soc-anacronismo"
+      },
+      {
+        "letra": "D",
+        "texto": "na Itália, durante o Renascimento",
+        "correta": false,
+        "etiqueta": "soc-anacronismo"
+      },
+      {
+        "letra": "E",
+        "texto": "na China, no século XXI",
+        "correta": false,
+        "etiqueta": "soc-anacronismo"
+      }
+    ],
+    "explicacao": "A Revolução Industrial teve início na Inglaterra, no século XVIII, com mecanização da produção têxtil e a máquina a vapor, e mudou radicalmente o modo de trabalhar.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-trabalho-e-capitalismo-002",
+    "materia": "sociologia",
+    "assunto": "trabalho-e-capitalismo",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Cada um faz uma parte",
+    "enunciado": "Em uma fábrica, cada operário realiza uma única etapa da produção de um objeto. Essa forma de organizar o trabalho é a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "mais-valia",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "sindicalização",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "solidariedade mecânica",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "divisão do trabalho",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "greve",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      }
+    ],
+    "explicacao": "A divisão do trabalho reparte a produção em tarefas especializadas, aumentando a produtividade. Para Marx ela também pode aprofundar a alienação.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-trabalho-e-capitalismo-003",
+    "materia": "sociologia",
+    "assunto": "trabalho-e-capitalismo",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Cronômetro na mão",
+    "enunciado": "Um gerente cronometra cada gesto dos operários para eliminar movimentos 'inúteis' e aumentar a produção. Esse método de organização é o",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "taylorismo",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "toyotismo",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "fordismo",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "artesanato",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "teletrabalho",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      }
+    ],
+    "explicacao": "O taylorismo (administração científica) estuda tempos e movimentos para aumentar a eficiência. O fordismo acrescentou a linha de montagem.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-trabalho-e-capitalismo-004",
+    "materia": "sociologia",
+    "assunto": "trabalho-e-capitalismo",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Esteira de montagem",
+    "enunciado": "Produção em série com esteira de montagem, peças padronizadas e operários com tarefas repetitivas, no início do século XX, caracterizam o",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "toyotismo",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "artesanato",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "trabalho em plataformas digitais",
+        "correta": false,
+        "etiqueta": "soc-anacronismo"
+      },
+      {
+        "letra": "D",
+        "texto": "teletrabalho",
+        "correta": false,
+        "etiqueta": "soc-anacronismo"
+      },
+      {
+        "letra": "E",
+        "texto": "fordismo",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "O fordismo combina linha de montagem, produção em massa e padronização, com salários que permitiam aos trabalhadores consumir o que produziam.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-trabalho-e-capitalismo-005",
+    "materia": "sociologia",
+    "assunto": "trabalho-e-capitalismo",
+    "questionario": 1,
+    "dificuldade": 1,
+    "contexto": "Equipe enxuta",
+    "enunciado": "Uma empresa fictícia reduz sua equipe fixa, terceiriza etapas e contrata temporários conforme a demanda. Essa estratégia de flexibilização pode gerar",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "estabilidade total para todos",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "B",
+        "texto": "garantia de aumento de salários",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "C",
+        "texto": "redução de custos para a empresa e maior instabilidade e menos direitos para parte dos trabalhadores",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "fim do desemprego",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "E",
+        "texto": "fim da concorrência entre empresas",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      }
+    ],
+    "explicacao": "A flexibilização barateia custos e permite ajustar a produção, mas muitas vezes aumenta a insegurança de quem trabalha com contratos temporários ou terceirizados.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-trabalho-e-capitalismo-006",
+    "materia": "sociologia",
+    "assunto": "trabalho-e-capitalismo",
+    "questionario": 2,
+    "dificuldade": -1,
+    "contexto": "Carteira e direitos",
+    "enunciado": "A CLT, de 1943, é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "uma constituição estadual",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "uma lei de terras",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "uma lei contra monopólios",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "o código penal",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "o conjunto de normas que regula as relações de trabalho e os direitos dos trabalhadores",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "A Consolidação das Leis do Trabalho reuniu regras sobre carteira assinada, jornada, férias e outros direitos.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-trabalho-e-capitalismo-007",
+    "materia": "sociologia",
+    "assunto": "trabalho-e-capitalismo",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Trabalho por aplicativo",
+    "enunciado": "Entregadores e motoristas de aplicativo trabalham por demanda e escolhem horários, mas, em geral, sem vínculo formal, sem férias remuneradas e arcando com os custos de combustível e manutenção. Esse modelo é discutido sob o nome de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "plataformização, ou 'uberização', do trabalho, com autonomia aparente e precarização",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "fordismo",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "pleno emprego com carteira assinada",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "D",
+        "texto": "trabalho escravo colonial",
+        "correta": false,
+        "etiqueta": "soc-anacronismo"
+      },
+      {
+        "letra": "E",
+        "texto": "artesanato tradicional",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      }
+    ],
+    "explicacao": "O trabalho em plataformas digitais combina flexibilidade com insegurança: falta de proteção, custos transferidos ao trabalhador e controle por algoritmos.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-trabalho-e-capitalismo-008",
+    "materia": "sociologia",
+    "assunto": "trabalho-e-capitalismo",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Robôs na linha",
+    "enunciado": "Uma fábrica fictícia substitui parte das linhas de produção por robôs. Do ponto de vista sociológico, um efeito possível é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o fim do trabalho humano para sempre",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "B",
+        "texto": "o aumento garantido de empregos",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "C",
+        "texto": "a redução de certos postos, exigindo requalificação e gerando desemprego tecnológico para quem não se recoloca",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "a queda da produtividade",
+        "correta": false,
+        "etiqueta": "soc-causa-consequencia"
+      },
+      {
+        "letra": "E",
+        "texto": "o fim do capitalismo",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      }
+    ],
+    "explicacao": "A automação elimina funções repetitivas e cria outras, mas a transição pode deixar trabalhadores sem emprego se não houver requalificação.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-trabalho-e-capitalismo-009",
+    "materia": "sociologia",
+    "assunto": "trabalho-e-capitalismo",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Sem carteira",
+    "enunciado": "Um vendedor ambulante e uma diarista sem carteira assinada vivem uma situação de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "empreendedorismo, sempre com direitos garantidos",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "B",
+        "texto": "informalidade, sem acesso pleno a direitos como FGTS, férias e previdência",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "trabalho ilegal que o Estado não pode admitir",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "trabalho formal em cooperativa",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "teletrabalho",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      }
+    ],
+    "explicacao": "A informalidade é o trabalho sem registro formal e, em geral, sem proteção social completa. Não é o mesmo que ilegalidade.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-trabalho-e-capitalismo-010",
+    "materia": "sociologia",
+    "assunto": "trabalho-e-capitalismo",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Artesã e operário",
+    "enunciado": "Uma artesã faz uma peça do início ao fim, decide o design e vende; um operário monta uma única peça de milhares, sem decidir nada. Em termos marxistas, a diferença está em",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a artesã ser sempre mais rica",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "B",
+        "texto": "o operário trabalhar menos horas",
+        "correta": false,
+        "etiqueta": "soc-causa-consequencia"
+      },
+      {
+        "letra": "C",
+        "texto": "o trabalho do operário ser natural",
+        "correta": false,
+        "etiqueta": "soc-naturalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "o operário ter menos controle sobre o processo e o produto, vivendo a alienação",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "a artesã nascer em outra classe",
+        "correta": false,
+        "etiqueta": "soc-naturalizou"
+      }
+    ],
+    "explicacao": "Para Marx, no trabalho alienado o trabalhador perde o controle sobre o processo e o produto, enquanto na produção artesanal esse controle é maior.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-trabalho-e-capitalismo-011",
+    "materia": "sociologia",
+    "assunto": "trabalho-e-capitalismo",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Para que servem os sindicatos",
+    "enunciado": "Os sindicatos surgiram para",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "reduzir os salários",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "substituir o Estado",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      },
+      {
+        "letra": "C",
+        "texto": "defender os interesses e os direitos coletivos dos trabalhadores",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "ajudar as empresas a demitir",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "lucrar com a venda de produtos",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      }
+    ],
+    "explicacao": "Sindicatos são organizações de trabalhadores que negociam salários e condições de trabalho e defendem direitos coletivos.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-trabalho-e-capitalismo-012",
+    "materia": "sociologia",
+    "assunto": "trabalho-e-capitalismo",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Trabalho assalariado",
+    "enunciado": "Qual característica define o trabalho assalariado capitalista?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o trabalhador é propriedade do patrão",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "o pagamento é só em comida",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "o trabalhador produz só para si",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "o trabalho não tem contrato",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "o trabalhador vende sua força de trabalho em troca de salário",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "No trabalho assalariado, a pessoa é livre e vende sua força de trabalho por um salário. No escravismo, ela era tratada como propriedade.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-trabalho-e-capitalismo-013",
+    "materia": "sociologia",
+    "assunto": "trabalho-e-capitalismo",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Home office sem hora",
+    "enunciado": "Uma analista em home office responde a mensagens do trabalho até de madrugada. Sociólogos apontam que o teletrabalho pode",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "eliminar a necessidade de leis trabalhistas",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "B",
+        "texto": "sempre melhorar a vida pessoal",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "C",
+        "texto": "aumentar o contato presencial entre colegas",
+        "correta": false,
+        "etiqueta": "soc-causa-consequencia"
+      },
+      {
+        "letra": "D",
+        "texto": "ampliar a flexibilidade, mas também diluir os limites entre o tempo de trabalho e o de descanso",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "acabar com a jornada de trabalho",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      }
+    ],
+    "explicacao": "O teletrabalho tem vantagens, como economia de deslocamento, mas pode confundir tempo de trabalho e tempo livre, exigindo regras sobre desconexão.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-trabalho-e-capitalismo-014",
+    "materia": "sociologia",
+    "assunto": "trabalho-e-capitalismo",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Trabalho infantil",
+    "enunciado": "No Brasil, a Constituição proíbe o trabalho de menores de 16 anos, salvo na condição de aprendiz a partir dos 14. Essa proibição tem fundamento sociológico em",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "proteger a infância e a escolarização, evitando que a pobreza reproduza a exploração do trabalho precoce",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "diminuir a população",
+        "correta": false,
+        "etiqueta": "soc-causa-consequencia"
+      },
+      {
+        "letra": "C",
+        "texto": "a ideia de que a criança nada aprende trabalhando",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "D",
+        "texto": "interesses só das empresas",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      },
+      {
+        "letra": "E",
+        "texto": "uma tradição sem relação com a realidade",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      }
+    ],
+    "explicacao": "O trabalho precoce atrapalha estudo e desenvolvimento e tende a perpetuar ciclos de pobreza. Por isso, a lei o restringe.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-trabalho-e-capitalismo-015",
+    "materia": "sociologia",
+    "assunto": "trabalho-e-capitalismo",
+    "questionario": 3,
+    "dificuldade": 1,
+    "contexto": "Muitos desempregados",
+    "enunciado": "Quando há muitos desempregados dispostos a trabalhar, os empregadores tendem a oferecer salários menores. Marx chamou esse contingente de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "burguesia",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "classe dominante",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "exército industrial de reserva",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "elite do poder",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "fato social",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      }
+    ],
+    "explicacao": "Para Marx, o 'exército industrial de reserva' é o conjunto de desempregados, que pressiona os salários para baixo por causa da concorrência por vagas.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-trabalho-e-capitalismo-016",
+    "materia": "sociologia",
+    "assunto": "trabalho-e-capitalismo",
+    "questionario": 4,
+    "dificuldade": -1,
+    "contexto": "Parar para negociar",
+    "enunciado": "Trabalhadores de uma empresa param as atividades juntos para exigir melhores salários. Essa ação coletiva é a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "lockout",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "demissão voluntária",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "terceirização",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "greve",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "aposentadoria",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      }
+    ],
+    "explicacao": "Greve é a paralisação coletiva de trabalhadores para reivindicar melhorias. Lockout é o contrário: o empregador é quem paralisa a atividade.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-trabalho-e-capitalismo-017",
+    "materia": "sociologia",
+    "assunto": "trabalho-e-capitalismo",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Limpeza terceirizada",
+    "enunciado": "Uma escola contrata uma empresa para fazer a limpeza, em vez de contratar funcionários diretamente. Essa prática é a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "estatização",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "cooperativismo",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "terceirização, em que o trabalho é feito por pessoas vinculadas a outra empresa",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "greve",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "taylorismo",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      }
+    ],
+    "explicacao": "Na terceirização, uma empresa contrata outra para executar uma atividade. Seus defensores falam em especialização; seus críticos, em perda de direitos.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-trabalho-e-capitalismo-018",
+    "materia": "sociologia",
+    "assunto": "trabalho-e-capitalismo",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Quem você é no trabalho",
+    "enunciado": "Quando um jovem responde 'quem é você?' dizendo sua profissão, mostra que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o trabalho serve apenas para ganhar dinheiro",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "B",
+        "texto": "o trabalho é fonte de identidade e de reconhecimento social, além da renda",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "a identidade é biológica",
+        "correta": false,
+        "etiqueta": "soc-naturalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "a profissão define o valor humano",
+        "correta": false,
+        "etiqueta": "soc-descritivo-normativo"
+      },
+      {
+        "letra": "E",
+        "texto": "só os adultos têm identidade",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      }
+    ],
+    "explicacao": "O trabalho organiza a rotina, cria vínculos e dá reconhecimento social. Isso não significa que a profissão defina o valor de alguém.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-trabalho-e-capitalismo-019",
+    "materia": "sociologia",
+    "assunto": "trabalho-e-capitalismo",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Parceiro autônomo?",
+    "enunciado": "Em uma plataforma fictícia, o algoritmo define o valor pago, distribui as corridas e pune quem recusa, embora a empresa chame os entregadores de 'parceiros autônomos'. Qual leitura crítica é adequada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "os entregadores têm autonomia total, sem controle",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "B",
+        "texto": "a situação prova que não há subordinação",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "C",
+        "texto": "é só coincidência",
+        "correta": false,
+        "etiqueta": "soc-causa-consequencia"
+      },
+      {
+        "letra": "D",
+        "texto": "é um efeito natural da tecnologia, sem decisões humanas",
+        "correta": false,
+        "etiqueta": "soc-naturalizou"
+      },
+      {
+        "letra": "E",
+        "texto": "a autonomia declarada convive com forte controle sobre o trabalho, o que alimenta o debate sobre vínculo e direitos",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "A plataforma controla preço, distribuição e punições, o que contrasta com o discurso de autonomia. É esse contraste que gera o debate sobre reconhecimento de direitos.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-trabalho-e-capitalismo-020",
+    "materia": "sociologia",
+    "assunto": "trabalho-e-capitalismo",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Direitos conquistados",
+    "enunciado": "Jornada de oito horas, descanso semanal e proibição do trabalho de crianças nas fábricas apareceram, em muitos países, depois de greves e mobilizações de trabalhadores. Isso indica que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "os direitos trabalhistas resultaram, em grande parte, de lutas coletivas e pressão social",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "foram concessões espontâneas dos patrões",
+        "correta": false,
+        "etiqueta": "soc-causa-consequencia"
+      },
+      {
+        "letra": "C",
+        "texto": "surgiram naturalmente com o progresso tecnológico",
+        "correta": false,
+        "etiqueta": "soc-naturalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "nunca foram objeto de conflito",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "E",
+        "texto": "foram impostos por empresas estrangeiras",
+        "correta": false,
+        "etiqueta": "soc-causa-consequencia"
+      }
+    ],
+    "explicacao": "Muitos direitos foram conquistados por mobilizações e negociações, e não oferecidos espontaneamente. Por isso, a história do trabalho é também uma história de conflitos.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  }
+]

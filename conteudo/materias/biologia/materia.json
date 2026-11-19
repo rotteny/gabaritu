@@ -1,0 +1,12 @@
+{
+  "slug": "biologia",
+  "nome": "Biologia",
+  "area": "Ciências da Natureza e suas Tecnologias",
+  "assuntos": [
+    { "slug": "ecologia", "nome": "Ecologia", "ordem": 1, "por_que": "é o tema mais frequente da prova: cadeias alimentares, ciclos, relações ecológicas e impactos ambientais aparecem todo ano." },
+    { "slug": "genetica", "nome": "Genética", "ordem": 2, "por_que": "cai com cruzamentos, probabilidade, heredogramas e biotecnologia, quase sempre com conta simples e contexto atual." },
+    { "slug": "citologia", "nome": "Citologia e Metabolismo", "ordem": 3, "por_que": "organelas, membrana, divisão celular, fotossíntese e respiração são base para muitas outras questões." },
+    { "slug": "evolucao", "nome": "Evolução", "ordem": 4, "por_que": "seleção natural, adaptação e ancestralidade comum são cobradas com situações de resistência de bactérias e variação entre populações." },
+    { "slug": "fisiologia-humana", "nome": "Fisiologia Humana e Saúde", "ordem": 5, "por_que": "sistemas do corpo, vacinas, doenças e hábitos de saúde conectam a Biologia ao dia a dia e aparecem em quase toda edição." }
+  ]
+}

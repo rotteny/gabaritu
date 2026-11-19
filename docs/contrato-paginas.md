@@ -14,7 +14,7 @@ Referências: `docs/escopo-mvp.md` e `docs/regras-nota.md`. Conteúdo em `~/work
 
 ## Prop compartilhada (HandleInertiaRequests)
 ```ts
-auth.user: { id, apelido, serie, idade, preferencias: { zoeira: 'fofo'|'sarc'|'sem', zoeira_maxima: 'sarc'|'sem', som: boolean, reduzir_movimento: boolean, ultima_materia: string|null } } | null
+auth.user: { id, apelido, serie, idade, preferencias: { zoeira: 'fofo'|'sarc'|'sem', zoeira_maxima: 'sarc'|'sem', som: boolean, musica: boolean, reduzir_movimento: boolean, ultima_materia: string|null } } | null
 gabaritu: { email_contato: string, repositorio_url: string, cadastro_aberto: boolean }
 ```
 
@@ -72,3 +72,16 @@ Erro de validação ou questão já respondida → 422, com mensagem clara.
 - Chave por evento: `acerto`, `acerto_apos_erro`, `erro:<etiqueta>`, `erro_especifico:<questao>` (quando existe `fala_especifica`), `freio`, `boas_vindas`, `proxima`, `resultado:<faixa>`, `inicio`, `vazio:<tela>`, `erro_http:<status>`.
 - Variações elegíveis: nível ≤ preferência efetiva, idade mínima, vigência. Preferência pelas variações que o aluno não viu nas últimas N respostas; reserva atemporal se nada sobrar.
 - As falas das telas (início, vazio, erro, resultado, boas-vindas) também vêm de um pacote: `conteudo/falas-interface.json` no repo, com o mesmo formato de nível e reserva.
+
+## Acréscimos do backend (implementados)
+
+- **Resultado:** `tentativa_id`, `proximo_questionario`, `tipo`. "Revisar erradas" é `POST /tentativas/{id}/revisao` (redirect). A tentativa criada tem `tipo: 'revisao'` no contrato (internamente `revisao_erradas`, que não consome a cota de 10/dia).
+- **Início:** além do contrato, `revisao_amanha` (backlog acima do teto de 10). `GET /revisao` sem nada vencido redireciona para `/inicio` com a fala `vazio:revisao`.
+- **Matéria:** cada assunto traz também `faltam` (respostas que faltam para liberar a nota).
+- **Desempenho:** `materias[]` com `nota`, `amostra_baixa`, `diagnostico`, `diagnostico_erros`, `assuntos[]` (com `evolucao`, `faltam`) e `revisao: {hoje, amanha}`. Nota exibida sempre arredondada de 10 em 10; `diagnostico[].etiqueta` é o código da etiqueta.
+- **Campos em português:** login (`email`, `senha`, `lembrar`), redefinição (`POST /redefinir-senha` com `token`, `email`, `senha`, `senha_confirmation`, erros na chave `senha`), conta (`senha_atual`, `senha`, `senha_confirmation`; `DELETE /conta` com `senha`). Erro de credencial no login vem na chave `email`.
+- **Cadastro:** `GET /cadastro` recebe `series` e `idade_minima`. Menor de 13: erro na chave `ano_nascimento`.
+- **Preferências:** `zoeira` acima do teto da idade responde 422 na chave `zoeira`.
+- **Falas extras** no pacote de interface: `erro`, `freio_saida`, `materia`, `desempenho`, `privacidade`. As falas `freio*` só têm nível `fofo` (modo ajuda ignora o nível).
+- **Recuperação de senha:** resposta idêntica para e-mail existente ou não (`status`).
+- Starter kit removido: 2FA, passkeys, verificação de e-mail, `/dashboard` e `/settings/*` (as páginas `.vue` antigas ficam para a `BULMA` apagar).

@@ -1,0 +1,12 @@
+{
+  "slug": "educacao-fisica",
+  "nome": "Educação Física",
+  "area": "Linguagens, Códigos e suas Tecnologias",
+  "assuntos": [
+    { "slug": "esporte-e-sociedade", "nome": "Esporte e sociedade", "ordem": 1, "por_que": "O ENEM cobra a leitura do esporte como fenômeno social: mídia, mercado, inclusão, gênero, regras e valores." },
+    { "slug": "saude-e-atividade-fisica", "nome": "Saúde e atividade física", "ordem": 2, "por_que": "Conceitos de saúde, atividade física, sono, alimentação e qualidade de vida aparecem em textos e situações do dia a dia." },
+    { "slug": "corpo-e-sociedade", "nome": "Corpo e sociedade", "ordem": 3, "por_que": "A prova pede análise crítica do que a mídia, o consumo e as redes sociais dizem sobre o corpo, com respeito à diversidade." },
+    { "slug": "jogos-e-brincadeiras", "nome": "Jogos e brincadeiras", "ordem": 4, "por_que": "Jogos populares, cooperativos e eletrônicos entram como cultura corporal e como espaço de convivência." },
+    { "slug": "dancas-lutas-e-ginasticas", "nome": "Danças, lutas e ginásticas", "ordem": 5, "por_que": "Capoeira, danças populares, artes marciais e ginásticas são cobradas como patrimônio cultural e prática corporal." }
+  ]
+}

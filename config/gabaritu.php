@@ -10,4 +10,55 @@ return [
     'email_contato' => env('GABARITU_EMAIL_CONTATO', 'gabaritu@gorilash.com.br'),
 
     'repositorio_url' => env('GABARITU_REPOSITORIO_URL', 'https://github.com/rotteny/gabaritu'),
+
+    'idade_minima' => 13,
+
+    'fuso' => 'America/Sao_Paulo',
+
+    /* Regras de nota, revisão e freio: docs/regras-nota.md */
+    'nota' => [
+        'dificuldade_b' => [1 => -1.0, 2 => 0.0, 3 => 1.0],
+        'theta_inicial' => 0.0,
+        'theta_min' => -2.0,
+        'theta_max' => 4.0,
+        'k_inicial' => 0.50,
+        'k_normal' => 0.25,
+        'k_inicial_ate' => 10,
+        'peso_repetida' => 0.25,
+        'min_respostas_nota' => 6,
+        'amostra_boa' => 15,
+        'nota_base' => 500,
+        'nota_escala' => 100,
+    ],
+
+    'chute' => [
+        'ms_min' => 3000,
+        'ms_max' => 8000,
+        'ms_por_caractere' => 20,
+    ],
+
+    'diagnostico' => [
+        'janela' => 50,
+        'min_erros' => 5,
+        'min_ocorrencias' => 3,
+        'max_exibidas' => 3,
+    ],
+
+    'revisao' => [
+        'caixas_dias' => [1 => 1, 2 => 4, 3 => 14],
+        'max_dia' => 10,
+    ],
+
+    'freio' => [
+        'erros' => 3,
+        'saida_acertos' => 2,
+        'sessao_inativa_min' => 30,
+    ],
+
+    'falas' => [
+        'recentes' => 8,
+        'interface' => 'conteudo/falas-interface.json',
+    ],
+
+    'conteudo_path' => 'conteudo/materias',
 ];

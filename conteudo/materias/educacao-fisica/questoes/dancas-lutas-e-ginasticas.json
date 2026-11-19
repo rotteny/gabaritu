@@ -1,0 +1,282 @@
+[
+  {
+    "id": "edf-dancas-lutas-e-ginasticas-001", "materia": "educacao-fisica", "assunto": "dancas-lutas-e-ginasticas", "questionario": 1, "dificuldade": -1,
+    "contexto": "Roda, berimbau e ginga",
+    "enunciado": "Numa praça, pessoas formam uma roda ao som de berimbau, atabaque e pandeiro, enquanto duas delas jogam trocando movimentos de ginga, esquivas e golpes. Qual prática corporal brasileira é essa?",
+    "alternativas": [
+      { "letra": "A", "texto": "Judô", "correta": false, "etiqueta": "edf-origem-errada" },
+      { "letra": "B", "texto": "Capoeira", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Karatê", "correta": false, "etiqueta": "edf-origem-errada" },
+      { "letra": "D", "texto": "Balé clássico", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "E", "texto": "Frevo", "correta": false, "etiqueta": "edf-confundiu-categoria" }
+    ],
+    "explicacao": "Roda, berimbau e ginga são marcas da capoeira, que mistura luta, dança, música e jogo e tem raízes afro-brasileiras. Judô e karatê são de origem japonesa.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-dancas-lutas-e-ginasticas-002", "materia": "educacao-fisica", "assunto": "dancas-lutas-e-ginasticas", "questionario": 1, "dificuldade": -1,
+    "contexto": "Caminho suave",
+    "enunciado": "O judô é uma luta cujo nome significa “caminho suave”, criada no fim do século XIX e hoje presente nos Jogos Olímpicos. Em qual país foi criado?",
+    "alternativas": [
+      { "letra": "A", "texto": "China", "correta": false, "etiqueta": "edf-origem-errada" },
+      { "letra": "B", "texto": "Coreia", "correta": false, "etiqueta": "edf-origem-errada" },
+      { "letra": "C", "texto": "Tailândia", "correta": false, "etiqueta": "edf-origem-errada" },
+      { "letra": "D", "texto": "Brasil", "correta": false, "etiqueta": "edf-origem-errada" },
+      { "letra": "E", "texto": "Japão", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "O judô foi criado no Japão por Jigoro Kano, a partir de técnicas de antigas artes marciais japonesas. Ele valoriza o uso eficiente da força e o respeito mútuo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-dancas-lutas-e-ginasticas-003", "materia": "educacao-fisica", "assunto": "dancas-lutas-e-ginasticas", "questionario": 1, "dificuldade": 0,
+    "contexto": "Do crime ao patrimônio",
+    "enunciado": "No fim do século XIX, a capoeira chegou a ser criminalizada no Brasil. Mais tarde, foi reconhecida como patrimônio cultural. Como esse percurso pode ser explicado?",
+    "alternativas": [
+      { "letra": "A", "texto": "A capoeira nunca sofreu perseguição", "correta": false, "etiqueta": "edf-ignorou-contexto" },
+      { "letra": "B", "texto": "A capoeira sempre foi aceita pela elite", "correta": false, "etiqueta": "edf-ignorou-contexto" },
+      { "letra": "C", "texto": "A capoeira foi criada em tempos recentes", "correta": false, "etiqueta": "edf-origem-errada" },
+      { "letra": "D", "texto": "Foi perseguida por ser prática de pessoas negras e populares, e depois valorizada como expressão cultural brasileira", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Só se tornou conhecida depois de virar esporte olímpico", "correta": false, "etiqueta": "edf-so-rendimento" }
+    ],
+    "explicacao": "A capoeira nasceu entre africanos escravizados e seus descendentes, foi perseguida por ser considerada ameaça à ordem e, no século XX, passou a ser valorizada como expressão cultural do país. O preconceito social explica boa parte dessa história.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-dancas-lutas-e-ginasticas-004", "materia": "educacao-fisica", "assunto": "dancas-lutas-e-ginasticas", "questionario": 1, "dificuldade": 0,
+    "contexto": "Reverência no tatame",
+    "enunciado": "Em aulas de judô, os alunos cumprimentam o colega com uma reverência antes e depois de cada treino. Qual é o significado educativo desse ritual?",
+    "alternativas": [
+      { "letra": "A", "texto": "Expressar respeito pelo adversário e pelos princípios de disciplina e cooperação da luta", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Intimidar o oponente antes do treino", "correta": false, "etiqueta": "edf-ignorou-contexto" },
+      { "letra": "C", "texto": "Marcar o tempo de duração da aula", "correta": false, "etiqueta": "edf-fuga-do-tema" },
+      { "letra": "D", "texto": "Fazer uma cerimônia sem sentido nenhum", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "E", "texto": "Cumprir uma regra que só existe no Japão", "correta": false, "etiqueta": "edf-extremo" }
+    ],
+    "explicacao": "O cumprimento mostra respeito pelo colega, que é quem permite o treino, e reforça valores da luta, como disciplina e ajuda mútua. Essa tradição, que vem do Japão, é seguida em várias partes do mundo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-dancas-lutas-e-ginasticas-005", "materia": "educacao-fisica", "assunto": "dancas-lutas-e-ginasticas", "questionario": 1, "dificuldade": 1,
+    "contexto": "Luta não é briga",
+    "enunciado": "Na escola, o professor explica que praticar lutas é diferente de brigar. Qual critério ajuda a diferenciar as duas situações?",
+    "alternativas": [
+      { "letra": "A", "texto": "Na luta é permitido machucar o colega", "correta": false, "etiqueta": "edf-regra-errada" },
+      { "letra": "B", "texto": "Não existe nenhuma diferença", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "C", "texto": "Na luta há regras, respeito, controle da força e objetivos definidos, buscando não ferir o colega, enquanto a briga é um conflito sem regras", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "A briga tem regras oficiais e árbitro", "correta": false, "etiqueta": "edf-regra-errada" },
+      { "letra": "E", "texto": "Toda luta é uma forma de violência", "correta": false, "etiqueta": "edf-extremo" }
+    ],
+    "explicacao": "Na luta como prática corporal, as pessoas seguem regras, controlam a força e cuidam umas das outras. Na briga não há regras nem cuidado. Por isso as lutas podem ser conteúdo educativo, sem estimular violência.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-dancas-lutas-e-ginasticas-006", "materia": "educacao-fisica", "assunto": "dancas-lutas-e-ginasticas", "questionario": 2, "dificuldade": -1,
+    "contexto": "Aparelhos da rítmica",
+    "enunciado": "Na ginástica rítmica, as atletas combinam movimentos de dança e de ginástica com aparelhos manuais. Qual conjunto reúne aparelhos usados nessa modalidade?",
+    "alternativas": [
+      { "letra": "A", "texto": "Argolas, barra fixa e barras paralelas", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "B", "texto": "Trave, cavalo e barras assimétricas", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "C", "texto": "Trampolim e cama elástica", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "D", "texto": "Halteres e anilhas", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "E", "texto": "Corda, arco, bola, maças e fita", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Os aparelhos da ginástica rítmica são manuais: corda, arco, bola, maças e fita. Argolas, barras e trave são da ginástica artística, e o trampolim tem modalidade própria.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-dancas-lutas-e-ginasticas-007", "materia": "educacao-fisica", "assunto": "dancas-lutas-e-ginasticas", "questionario": 2, "dificuldade": -1,
+    "contexto": "Noite de São João",
+    "enunciado": "Nas festas juninas, pares dançam em grupo, seguindo comandos marcados em voz alta, como “olha a cobra!” e “anarriê!”. Essa dança, de origem europeia e adaptada no Brasil, é a:",
+    "alternativas": [
+      { "letra": "A", "texto": "Frevo", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "B", "texto": "Maracatu", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "C", "texto": "Quadrilha", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Carimbó", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "E", "texto": "Jongo", "correta": false, "etiqueta": "edf-confundiu-categoria" }
+    ],
+    "explicacao": "A quadrilha vem da quadrille francesa, dança de salão que se tornou tradição nas festas juninas brasileiras, com marcações em voz alta e um jeito próprio de brincar. Frevo e maracatu são de Pernambuco, e carimbó é paraense.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-dancas-lutas-e-ginasticas-008", "materia": "educacao-fisica", "assunto": "dancas-lutas-e-ginasticas", "questionario": 2, "dificuldade": 0,
+    "contexto": "Pisar na trave",
+    "enunciado": "Na ginástica artística feminina, a trave de equilíbrio é uma das provas, com uma superfície estreita sobre a qual a atleta executa sequências de movimentos. Qual capacidade é especialmente exigida?",
+    "alternativas": [
+      { "letra": "A", "texto": "Equilíbrio e controle corporal", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Resistência aeróbica de longa duração", "correta": false, "etiqueta": "edf-capacidade-trocada" },
+      { "letra": "C", "texto": "Velocidade de deslocamento em linha reta", "correta": false, "etiqueta": "edf-capacidade-trocada" },
+      { "letra": "D", "texto": "Força máxima de levantamento de peso", "correta": false, "etiqueta": "edf-capacidade-trocada" },
+      { "letra": "E", "texto": "Potência para arremessar objetos", "correta": false, "etiqueta": "edf-capacidade-trocada" }
+    ],
+    "explicacao": "Sobre uma superfície tão estreita, o que se destaca é o equilíbrio, acompanhado de controle do corpo e concentração. As outras capacidades são importantes em provas de outros esportes.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-dancas-lutas-e-ginasticas-009", "materia": "educacao-fisica", "assunto": "dancas-lutas-e-ginasticas", "questionario": 2, "dificuldade": 0,
+    "contexto": "Tambor e roda no Norte",
+    "enunciado": "O carimbó, dança e música em roda marcada por tambores e reconhecida como patrimônio imaterial brasileiro, é uma manifestação cultural típica de qual região?",
+    "alternativas": [
+      { "letra": "A", "texto": "Sul, no Rio Grande do Sul", "correta": false, "etiqueta": "edf-origem-errada" },
+      { "letra": "B", "texto": "Nordeste, em Pernambuco", "correta": false, "etiqueta": "edf-origem-errada" },
+      { "letra": "C", "texto": "Sudeste, em Minas Gerais", "correta": false, "etiqueta": "edf-origem-errada" },
+      { "letra": "D", "texto": "Norte, no Pará", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Centro-Oeste, em Goiás", "correta": false, "etiqueta": "edf-origem-errada" }
+    ],
+    "explicacao": "O carimbó nasceu no Pará, na região Norte, e mistura influências indígenas, africanas e europeias. Frevo e maracatu são de Pernambuco, no Nordeste.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-dancas-lutas-e-ginasticas-010", "materia": "educacao-fisica", "assunto": "dancas-lutas-e-ginasticas", "questionario": 2, "dificuldade": 1,
+    "contexto": "Giros no chão",
+    "enunciado": "O breaking, dança do hip hop com giros, apoios e movimentos no chão, surgiu entre jovens de bairros periféricos de Nova York nos anos 1970. Qual função social ele cumpria nesse contexto?",
+    "alternativas": [
+      { "letra": "A", "texto": "Substituir todos os esportes da escola", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "B", "texto": "Servir de expressão e identidade para jovens, ocupando o espaço público com criatividade", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Servir apenas de competição de rendimento", "correta": false, "etiqueta": "edf-so-rendimento" },
+      { "letra": "D", "texto": "Imitar o balé de corte europeu", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "E", "texto": "Ser dança de salão para ocasiões formais", "correta": false, "etiqueta": "edf-confundiu-categoria" }
+    ],
+    "explicacao": "O breaking nasceu nas ruas e festas dos bairros e deu a jovens um jeito de se expressar, criar identidade e ocupar espaços públicos. Só mais tarde virou também competição e chegou a eventos esportivos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-dancas-lutas-e-ginasticas-011", "materia": "educacao-fisica", "assunto": "dancas-lutas-e-ginasticas", "questionario": 3, "dificuldade": -1,
+    "contexto": "Ginástica para todo mundo",
+    "enunciado": "Uma ginástica não competitiva reúne pessoas de várias idades e níveis, combinando dança, jogos, elementos acrobáticos e uso de aparelhos, com foco na participação de todos. Qual é o nome dela?",
+    "alternativas": [
+      { "letra": "A", "texto": "Ginástica artística", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "B", "texto": "Ginástica rítmica", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "C", "texto": "Ginástica de trampolim", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "D", "texto": "Ginástica geral", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Ginástica de rendimento", "correta": false, "etiqueta": "edf-so-rendimento" }
+    ],
+    "explicacao": "A ginástica geral não é competitiva e valoriza a participação, a criatividade e a cultura de cada grupo. As demais modalidades listadas têm competições e regras de pontuação.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-dancas-lutas-e-ginasticas-012", "materia": "educacao-fisica", "assunto": "dancas-lutas-e-ginasticas", "questionario": 3, "dificuldade": 0,
+    "contexto": "Dança do Rio da Prata",
+    "enunciado": "Uma dança de par enlaçado, com passos marcados e muita expressividade, surgiu no fim do século XIX na região do Rio da Prata, entre Argentina e Uruguai. Qual é essa dança?",
+    "alternativas": [
+      { "letra": "A", "texto": "Forró", "correta": false, "etiqueta": "edf-origem-errada" },
+      { "letra": "B", "texto": "Tango", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Valsa vienense", "correta": false, "etiqueta": "edf-origem-errada" },
+      { "letra": "D", "texto": "Samba no pé", "correta": false, "etiqueta": "edf-origem-errada" },
+      { "letra": "E", "texto": "Frevo", "correta": false, "etiqueta": "edf-origem-errada" }
+    ],
+    "explicacao": "O tango nasceu na região do Rio da Prata, em cidades como Buenos Aires e Montevidéu. Forró, samba e frevo são brasileiros, e a valsa vienense é de origem centro-europeia.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-dancas-lutas-e-ginasticas-013", "materia": "educacao-fisica", "assunto": "dancas-lutas-e-ginasticas", "questionario": 3, "dificuldade": 0,
+    "contexto": "Uma luta que mudou de país",
+    "enunciado": "O jiu-jítsu brasileiro foi desenvolvido a partir de técnicas de lutas japonesas, adaptadas no Brasil por lutadores como os da família Gracie. Que processo cultural esse exemplo ilustra?",
+    "alternativas": [
+      { "letra": "A", "texto": "Criação totalmente nova, sem influência de nenhuma outra prática", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "B", "texto": "Cópia fiel, sem nenhuma mudança", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "C", "texto": "Origem exclusivamente indígena", "correta": false, "etiqueta": "edf-origem-errada" },
+      { "letra": "D", "texto": "Origem exclusivamente europeia", "correta": false, "etiqueta": "edf-origem-errada" },
+      { "letra": "E", "texto": "Adaptação e recriação de uma prática estrangeira, que ganhou características próprias no Brasil", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Práticas corporais viajam entre países e se transformam ao entrar em novos contextos. O jiu-jítsu brasileiro é resultado dessa adaptação, com ênfase em técnicas de solo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-dancas-lutas-e-ginasticas-014", "materia": "educacao-fisica", "assunto": "dancas-lutas-e-ginasticas", "questionario": 3, "dificuldade": 1,
+    "contexto": "Duas rodas de capoeira",
+    "enunciado": "Numa roda de capoeira, o ritmo é lento, o jogo é mais baixo e o ritual tem destaque. Em outra roda, o ritmo é mais rápido, com golpes e acrobacias. Essas duas formas são conhecidas como capoeira Angola e capoeira Regional. Como entender a diferença?",
+    "alternativas": [
+      { "letra": "A", "texto": "Só uma delas é capoeira de verdade", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "B", "texto": "São lutas completamente diferentes, sem relação", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "C", "texto": "São estilos que mostram que a capoeira é diversa e mudou ao longo do tempo, com duas tradições principais", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "São danças de salão, sem relação com a roda", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "E", "texto": "São versões criadas apenas para competir", "correta": false, "etiqueta": "edf-so-rendimento" }
+    ],
+    "explicacao": "A capoeira tem estilos diferentes, com ritmos, movimentos e rituais próprios. Angola e Regional são duas tradições importantes que conversam entre si, e nenhuma é a única capoeira verdadeira.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-dancas-lutas-e-ginasticas-015", "materia": "educacao-fisica", "assunto": "dancas-lutas-e-ginasticas", "questionario": 3, "dificuldade": 1,
+    "contexto": "Ginástica a serviço da nação",
+    "enunciado": "No século XIX, na Europa, surgiram métodos ginásticos que buscavam fortalecer e disciplinar o povo, como parte de projetos de educação e de preparo para o trabalho e a defesa da nação. O que isso mostra sobre a ginástica?",
+    "alternativas": [
+      { "letra": "A", "texto": "Que ela foi usada com objetivos de saúde, educação e preparo físico ligados aos projetos de sociedade da época", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Que ela surgiu para competições esportivas apenas", "correta": false, "etiqueta": "edf-so-rendimento" },
+      { "letra": "C", "texto": "Que ela nunca teve relação com política", "correta": false, "etiqueta": "edf-ignorou-contexto" },
+      { "letra": "D", "texto": "Que todos os métodos eram idênticos", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "E", "texto": "Que só mulheres a praticavam", "correta": false, "etiqueta": "edf-ignorou-contexto" }
+    ],
+    "explicacao": "Os métodos ginásticos europeus do século XIX estavam ligados a ideias de educação, saúde e preparo do povo para a vida social e para a defesa da nação. Cada país tinha propostas diferentes, e não eram voltadas só a competições.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-dancas-lutas-e-ginasticas-016", "materia": "educacao-fisica", "assunto": "dancas-lutas-e-ginasticas", "questionario": 4, "dificuldade": -1,
+    "contexto": "Tambores no cortejo",
+    "enunciado": "O maracatu de baque virado, com grandes tambores e um cortejo que leva reis e rainhas, é uma manifestação cultural afro-brasileira típica de qual estado?",
+    "alternativas": [
+      { "letra": "A", "texto": "Pernambuco", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Rio Grande do Sul", "correta": false, "etiqueta": "edf-origem-errada" },
+      { "letra": "C", "texto": "Pará", "correta": false, "etiqueta": "edf-origem-errada" },
+      { "letra": "D", "texto": "Mato Grosso", "correta": false, "etiqueta": "edf-origem-errada" },
+      { "letra": "E", "texto": "Santa Catarina", "correta": false, "etiqueta": "edf-origem-errada" }
+    ],
+    "explicacao": "O maracatu de baque virado é típico de Pernambuco, em especial da região de Recife. Os cortejos de reis e rainhas têm raízes nas tradições afro-brasileiras de coroação.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-dancas-lutas-e-ginasticas-017", "materia": "educacao-fisica", "assunto": "dancas-lutas-e-ginasticas", "questionario": 4, "dificuldade": 0,
+    "contexto": "Pirâmide humana",
+    "enunciado": "Na ginástica acrobática, duplas e grupos realizam pirâmides e elementos de equilíbrio com apoio entre os integrantes. Que valor é fundamental para essa prática?",
+    "alternativas": [
+      { "letra": "A", "texto": "Rivalidade entre os integrantes", "correta": false, "etiqueta": "edf-so-rendimento" },
+      { "letra": "B", "texto": "Individualismo", "correta": false, "etiqueta": "edf-confundiu-conceito" },
+      { "letra": "C", "texto": "Velocidade acima de tudo", "correta": false, "etiqueta": "edf-capacidade-trocada" },
+      { "letra": "D", "texto": "Cooperação e confiança entre os integrantes", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Uso obrigatório de bola", "correta": false, "etiqueta": "edf-regra-errada" }
+    ],
+    "explicacao": "Quem sustenta e quem sobe dependem uns dos outros, por isso a cooperação e a confiança são essenciais. Individualismo e rivalidade tornam as formações inseguras.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-dancas-lutas-e-ginasticas-018", "materia": "educacao-fisica", "assunto": "dancas-lutas-e-ginasticas", "questionario": 4, "dificuldade": 0,
+    "contexto": "Jongo na comunidade",
+    "enunciado": "O jongo, dança de origem africana com tambores, cantos improvisados e roda, é mantido por comunidades de várias cidades do Sudeste e foi registrado como patrimônio imaterial. Qual é a função dessa prática para a comunidade?",
+    "alternativas": [
+      { "letra": "A", "texto": "Ser apenas um espetáculo comercial", "correta": false, "etiqueta": "edf-so-rendimento" },
+      { "letra": "B", "texto": "Substituir a escola na formação dos jovens", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "C", "texto": "Preservar memória, identidade e laços comunitários, transmitindo saberes entre gerações", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Servir só de entretenimento infantil", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "E", "texto": "Ser uma competição por pontos", "correta": false, "etiqueta": "edf-so-rendimento" }
+    ],
+    "explicacao": "O jongo é uma forma de expressão que liga as pessoas à sua história e à sua comunidade, e transmite saberes entre gerações. Seu valor vai muito além do espetáculo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-dancas-lutas-e-ginasticas-019", "materia": "educacao-fisica", "assunto": "dancas-lutas-e-ginasticas", "questionario": 4, "dificuldade": 1,
+    "contexto": "Da tradição ao esporte olímpico",
+    "enunciado": "Ao se tornar esporte olímpico, o judô passou a ter regras de pontuação, tempo de luta e arbitragem padronizadas, ao mesmo tempo em que manteve rituais de respeito. O que isso mostra sobre práticas tradicionais?",
+    "alternativas": [
+      { "letra": "A", "texto": "Que o judô foi inventado nas Olimpíadas", "correta": false, "etiqueta": "edf-origem-errada" },
+      { "letra": "B", "texto": "Que, ao virarem esporte, práticas tradicionais passam por mudanças de regras e de objetivos, mas podem manter parte de seus valores", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Que a tradição desaparece por completo", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "D", "texto": "Que as práticas nunca mudam ao longo do tempo", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "E", "texto": "Que só se pratica judô no Japão", "correta": false, "etiqueta": "edf-extremo" }
+    ],
+    "explicacao": "Quando uma prática vira esporte organizado, regras e objetivos costumam mudar para permitir competições padronizadas, mas rituais e valores de origem podem permanecer. A tradição se transforma, e não desaparece.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-dancas-lutas-e-ginasticas-020", "materia": "educacao-fisica", "assunto": "dancas-lutas-e-ginasticas", "questionario": 4, "dificuldade": 1,
+    "contexto": "Dança tradicional no palco do turismo",
+    "enunciado": "Grupos de dança tradicional passaram a se apresentar para turistas, adaptando figurinos e reduzindo o tempo das apresentações. Como analisar essa situação?",
+    "alternativas": [
+      { "letra": "A", "texto": "Qualquer adaptação destrói a dança", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "B", "texto": "As tradições nunca sofrem mudanças", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "C", "texto": "O turismo é sempre negativo para as culturas", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "D", "texto": "Dança tradicional é apenas espetáculo", "correta": false, "etiqueta": "edf-ignorou-contexto" },
+      { "letra": "E", "texto": "Adaptar pode ajudar a manter a prática e gerar renda, mas é preciso ouvir os grupos para que a dança não perca o sentido para a comunidade", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Apresentações para turistas podem apoiar a continuidade da tradição e a renda do grupo, desde que o sentido da dança para a comunidade seja respeitado. A decisão cabe principalmente aos próprios grupos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]

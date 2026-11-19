@@ -1,0 +1,282 @@
+[
+  {
+    "id": "art-movimentos-artisticos-001", "materia": "artes", "assunto": "movimentos-artisticos", "questionario": 1, "dificuldade": -1,
+    "contexto": "Exposição de pintura",
+    "enunciado": "Ana visitou uma exposição com telas de pinceladas rápidas e visíveis, cores vibrantes e paisagens em que o importante era a impressão da luz num fim de tarde à beira de um rio. Esse conjunto de características é típico de qual movimento?",
+    "alternativas": [
+      { "letra": "A", "texto": "Cubismo", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "B", "texto": "Barroco", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "C", "texto": "Impressionismo", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Surrealismo", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "E", "texto": "Neoclassicismo", "correta": false, "etiqueta": "art-errou-epoca" }
+    ],
+    "explicacao": "Pinceladas soltas, cores vivas e a luz do instante como assunto são marcas do Impressionismo, surgido na França no fim do século XIX. O Cubismo decompõe formas em planos geométricos e o Barroco é anterior, com luz dramática. A pegadinha é que vários movimentos mexem com luz, mas só o impressionista a toma como tema principal.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-movimentos-artisticos-002", "materia": "artes", "assunto": "movimentos-artisticos", "questionario": 1, "dificuldade": -1,
+    "contexto": "Perspectiva e anatomia no século XV",
+    "enunciado": "No século XV, artistas italianos passaram a usar a perspectiva linear para criar profundidade e a estudar anatomia para representar corpos com realismo. Essas práticas expressam qual valor típico do Renascimento?",
+    "alternativas": [
+      { "letra": "A", "texto": "A valorização do ser humano e da razão, chamada de antropocentrismo", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "A submissão total das imagens à visão de mundo medieval, centrada só em Deus", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "C", "texto": "A recusa de observar a natureza, trocada por formas puramente abstratas", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "D", "texto": "A exaltação da velocidade e da máquina", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "E", "texto": "A crítica ao consumo de massa por meio da repetição de imagens", "correta": false, "etiqueta": "art-confundiu-movimento" }
+    ],
+    "explicacao": "Estudar o corpo e a profundidade do espaço mostra interesse pelo ser humano e pela observação racional da natureza, o antropocentrismo renascentista. A visão medieval era mais voltada ao divino e as outras opções pertencem a movimentos do século XX.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-movimentos-artisticos-003", "materia": "artes", "assunto": "movimentos-artisticos", "questionario": 1, "dificuldade": 0,
+    "contexto": "O violão em pedaços",
+    "enunciado": "Num quadro do início do século XX, um violão aparece decomposto em planos geométricos, visto ao mesmo tempo de frente e de lado, sem uma perspectiva única. Qual é o principal objetivo dessa proposta?",
+    "alternativas": [
+      { "letra": "A", "texto": "Reproduzir fielmente a luz natural de um momento do dia", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "B", "texto": "Retratar sonhos e o inconsciente com imagens ilógicas", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "C", "texto": "Expressar a emoção do artista com cores intensas e figuras distorcidas", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "D", "texto": "Seguir a perspectiva linear para criar ilusão de profundidade", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "E", "texto": "Mostrar o objeto sob vários pontos de vista ao mesmo tempo, rompendo com a perspectiva tradicional", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Essa é a proposta do Cubismo: decompor o objeto e mostrar vários ângulos num só plano. A perspectiva linear, usada desde o Renascimento, é justamente o que o Cubismo abandona. As demais alternativas descrevem Impressionismo, Surrealismo e Expressionismo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-movimentos-artisticos-004", "materia": "artes", "assunto": "movimentos-artisticos", "questionario": 1, "dificuldade": 0,
+    "contexto": "O urinol na galeria",
+    "enunciado": "Em 1917, o artista francês Marcel Duchamp enviou a uma exposição um urinol de louça, comprado pronto e assinado com pseudônimo, chamado de “Fonte”. O gesto gerou debate sobre o que pode ser arte. O que essa obra questiona?",
+    "alternativas": [
+      { "letra": "A", "texto": "A importância da perspectiva linear na pintura", "correta": false, "etiqueta": "art-fuga-do-tema" },
+      { "letra": "B", "texto": "A ideia de que arte exige objeto único e habilidade manual do artista", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "O uso de cores puras e vibrantes nas telas", "correta": false, "etiqueta": "art-fuga-do-tema" },
+      { "letra": "D", "texto": "A representação de cenas religiosas na arte sacra", "correta": false, "etiqueta": "art-ignorou-contexto" },
+      { "letra": "E", "texto": "A busca de beleza idealizada inspirada na Antiguidade", "correta": false, "etiqueta": "art-confundiu-movimento" }
+    ],
+    "explicacao": "O ready-made, objeto industrial escolhido e deslocado para o espaço da arte, desafia a ideia de que obra é algo feito à mão pelo artista. O conceito e o contexto passam a contar mais que a técnica. As outras opções falam de pintura e de temas que não estão em jogo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-movimentos-artisticos-005", "materia": "artes", "assunto": "movimentos-artisticos", "questionario": 1, "dificuldade": 1,
+    "contexto": "Carro de corrida e escultura clássica",
+    "enunciado": "Um manifesto publicado em 1909 afirmava que a beleza de um automóvel em alta velocidade superava a de uma escultura clássica, e pedia o rompimento com o passado. Que contexto histórico ajuda a explicar essa exaltação da máquina?",
+    "alternativas": [
+      { "letra": "A", "texto": "O predomínio da vida rural e da produção artesanal na Europa", "correta": false, "etiqueta": "art-ignorou-contexto" },
+      { "letra": "B", "texto": "O domínio da Igreja sobre toda a produção artística", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "C", "texto": "A recente descoberta da perspectiva linear", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "D", "texto": "A industrialização e as novas tecnologias de transporte e comunicação no início do século XX", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "O fim da Segunda Guerra e a crítica ao consumo", "correta": false, "etiqueta": "art-errou-epoca" }
+    ],
+    "explicacao": "O texto é do Futurismo, que nasceu quando automóveis, aviões e fábricas transformavam a vida urbana. A empolgação com a velocidade só faz sentido nesse cenário de industrialização. A Segunda Guerra termina em 1945, bem depois de 1909.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-movimentos-artisticos-006", "materia": "artes", "assunto": "movimentos-artisticos", "questionario": 2, "dificuldade": -1,
+    "contexto": "Relógios derretendo",
+    "enunciado": "Uma tela mostra relógios derretendo sobre uma paisagem deserta, como numa cena de sonho. Qual movimento explorou esse universo onírico e o inconsciente?",
+    "alternativas": [
+      { "letra": "A", "texto": "Surrealismo", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Realismo", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "C", "texto": "Neoclassicismo", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "D", "texto": "Impressionismo", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "E", "texto": "Pop Art", "correta": false, "etiqueta": "art-confundiu-movimento" }
+    ],
+    "explicacao": "O Surrealismo, que ganhou força nos anos 1920, buscava expressar sonhos e o inconsciente com imagens ilógicas. O Realismo, ao contrário, mostra o cotidiano como ele é. A pegadinha é achar que “paisagem” significa Impressionismo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-movimentos-artisticos-007", "materia": "artes", "assunto": "movimentos-artisticos", "questionario": 2, "dificuldade": -1,
+    "contexto": "Embalagens em série",
+    "enunciado": "Uma artista exibe telas que repetem, em cores chapadas, embalagens de produtos industrializados e rostos de celebridades. Que aspecto da sociedade o movimento da Pop Art toma como tema?",
+    "alternativas": [
+      { "letra": "A", "texto": "A vida no campo e o trabalho agrícola", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "B", "texto": "Os mitos da Antiguidade clássica", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "C", "texto": "Os sonhos e o inconsciente", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "D", "texto": "A cultura de massa e o consumo", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "A fé e a religiosidade medieval", "correta": false, "etiqueta": "art-errou-epoca" }
+    ],
+    "explicacao": "A Pop Art, dos anos 1950 e 1960, usa imagens da publicidade, da TV e do consumo para refletir sobre a sociedade de massa. Repetição em série e cores chapadas lembram a produção industrial.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-movimentos-artisticos-008", "materia": "artes", "assunto": "movimentos-artisticos", "questionario": 2, "dificuldade": 0,
+    "contexto": "Luz na escuridão",
+    "enunciado": "Numa pintura do século XVII, o fundo é escuro e um feixe de luz destaca o rosto de uma santa, criando forte contraste. Esse recurso, chamado claro-escuro, é típico do Barroco. Qual é o efeito buscado?",
+    "alternativas": [
+      { "letra": "A", "texto": "Representar o espaço com neutralidade científica", "correta": false, "etiqueta": "art-fuga-do-tema" },
+      { "letra": "B", "texto": "Dramatizar a cena e emocionar quem observa", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Eliminar a figura humana em favor da forma pura", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "D", "texto": "Registrar rapidamente a luz natural ao ar livre", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "E", "texto": "Imitar o equilíbrio sereno da Antiguidade clássica", "correta": false, "etiqueta": "art-confundiu-movimento" }
+    ],
+    "explicacao": "O Barroco, ligado em boa parte à Contrarreforma, usava contrastes de luz e sombra para criar emoção e teatralidade. Registrar luz ao ar livre é coisa do Impressionismo, e serenidade clássica remete ao Neoclassicismo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-movimentos-artisticos-009", "materia": "artes", "assunto": "movimentos-artisticos", "questionario": 2, "dificuldade": 0,
+    "contexto": "Céu avermelhado",
+    "enunciado": "Em 1893, um pintor norueguês retratou uma figura de rosto deformado, com as mãos junto ao rosto, sob um céu de linhas onduladas em vermelho e laranja, para exprimir angústia. Essa obra é característica de qual movimento?",
+    "alternativas": [
+      { "letra": "A", "texto": "Impressionismo, que registra a luz com objetividade", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "B", "texto": "Realismo, que mostra a realidade sem exagero", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "C", "texto": "Cubismo, que fragmenta o objeto em planos", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "D", "texto": "Renascimento, que busca proporção e idealização", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "E", "texto": "Expressionismo, que privilegia a emoção subjetiva sobre a fidelidade visual", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Cores fora do real e formas distorcidas para comunicar um sentimento são a marca do Expressionismo. O céu não é vermelho porque o pintor viu assim, e sim porque era assim que ele sentia a cena.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-movimentos-artisticos-010", "materia": "artes", "assunto": "movimentos-artisticos", "questionario": 2, "dificuldade": 1,
+    "contexto": "Operários na estrada",
+    "enunciado": "No século XIX, um pintor francês expôs uma grande tela mostrando operários quebrando pedras numa estrada, sem idealização, o que incomodou parte da crítica. Essa escolha de tema e de tratamento indica que o artista:",
+    "alternativas": [
+      { "letra": "A", "texto": "buscava emoção por meio de cenários grandiosos e idealizados da natureza", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "B", "texto": "seguia a tradição religiosa do Barroco europeu", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "C", "texto": "valorizava o cotidiano de pessoas comuns, com olhar crítico sobre a sociedade", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "exaltava heróis da Antiguidade, como fazia o Neoclassicismo", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "E", "texto": "defendia abandonar a figura humana em favor da abstração", "correta": false, "etiqueta": "art-extremo" }
+    ],
+    "explicacao": "Trabalhadores comuns, mostrados sem enfeite, são tema do Realismo, que quer retratar a vida e os problemas sociais do seu tempo. O incômodo da crítica vinha justamente de a arte “séria” antes reservar o centro da tela a heróis e santos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-movimentos-artisticos-011", "materia": "artes", "assunto": "movimentos-artisticos", "questionario": 3, "dificuldade": -1,
+    "contexto": "Volta à Antiguidade",
+    "enunciado": "No século XVIII, artistas passaram a valorizar o equilíbrio, a razão e os modelos da Grécia e da Roma antigas, em sintonia com as ideias iluministas. Qual movimento tem essas características?",
+    "alternativas": [
+      { "letra": "A", "texto": "Barroco", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "B", "texto": "Expressionismo", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "C", "texto": "Dadaísmo", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "D", "texto": "Surrealismo", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "E", "texto": "Neoclassicismo", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "O Neoclassicismo retomou a ordem e a simplicidade greco-romanas, em oposição ao exagero do Barroco. Expressionismo, Dadaísmo e Surrealismo são do século XX, bem depois do Iluminismo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-movimentos-artisticos-012", "materia": "artes", "assunto": "movimentos-artisticos", "questionario": 3, "dificuldade": 0,
+    "contexto": "Razão ou emoção",
+    "enunciado": "O Neoclassicismo valorizava a razão e a ordem inspiradas na Antiguidade. No início do século XIX, o Romantismo reagiu a esse ideal. Qual característica diferencia o Romantismo?",
+    "alternativas": [
+      { "letra": "A", "texto": "A recusa de qualquer tema ligado à natureza", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "B", "texto": "A imitação de modelos greco-romanos", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "C", "texto": "A valorização da emoção, da imaginação e da individualidade", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "A repetição de imagens da cultura de massa", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "E", "texto": "A decomposição da forma em planos geométricos", "correta": false, "etiqueta": "art-confundiu-movimento" }
+    ],
+    "explicacao": "O Romantismo colocou o sentimento, a subjetividade e a natureza no centro, em contraste com a frieza racional do Neoclassicismo. Imitar modelos clássicos era o que o movimento anterior fazia, e planos geométricos são do Cubismo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-movimentos-artisticos-013", "materia": "artes", "assunto": "movimentos-artisticos", "questionario": 3, "dificuldade": 0,
+    "contexto": "Painel em preto e branco",
+    "enunciado": "Em 1937, depois do bombardeio de uma cidade basca durante a Guerra Civil Espanhola, um pintor espanhol criou um grande painel em preto, branco e cinza, com figuras fragmentadas e em sofrimento. Qual é a função principal dessa obra?",
+    "alternativas": [
+      { "letra": "A", "texto": "Denunciar a violência da guerra e provocar reflexão", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Decorar um prédio público com uma cena alegre", "correta": false, "etiqueta": "art-funcao-so-decorativa" },
+      { "letra": "C", "texto": "Registrar o acontecimento com exatidão fotográfica", "correta": false, "etiqueta": "art-leitura-literal" },
+      { "letra": "D", "texto": "Exaltar uma vitória militar", "correta": false, "etiqueta": "art-ignorou-contexto" },
+      { "letra": "E", "texto": "Testar combinações de cores sem ligação com um tema", "correta": false, "etiqueta": "art-fuga-do-tema" }
+    ],
+    "explicacao": "Guernica usa figuras fragmentadas e uma paleta sem cor para expressar horror e denunciar a violência contra civis. Não é registro fiel nem decoração. Entender o contexto histórico é a chave para ler a obra.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-movimentos-artisticos-014", "materia": "artes", "assunto": "movimentos-artisticos", "questionario": 3, "dificuldade": 1,
+    "contexto": "Arte depois da guerra",
+    "enunciado": "O Dadaísmo surgiu em 1916, em Zurique, com poemas sem sentido, colagens e apresentações provocativas. Que relação existe entre esse movimento e o seu contexto histórico?",
+    "alternativas": [
+      { "letra": "A", "texto": "É uma reação à Revolução Industrial e ao uso de máquinas", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "B", "texto": "É uma consequência da crise da Igreja medieval", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "C", "texto": "É um resultado da expansão marítima europeia", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "D", "texto": "É uma resposta ao horror da Primeira Guerra, que levou a questionar a razão e os valores que levaram ao conflito", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "É uma exploração do inconsciente a partir das teorias de Freud", "correta": false, "etiqueta": "art-confundiu-movimento" }
+    ],
+    "explicacao": "O Dadaísmo nasceu durante a Primeira Guerra Mundial, e o absurdo era uma forma de recusar uma lógica que tinha produzido tanta destruição. A exploração do inconsciente a partir de Freud é a marca do Surrealismo, que veio depois.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-movimentos-artisticos-015", "materia": "artes", "assunto": "movimentos-artisticos", "questionario": 3, "dificuldade": 1,
+    "contexto": "A câmera mudou o jogo",
+    "enunciado": "Com a popularização da fotografia no século XIX, a pintura deixou de ser a única forma de registrar fielmente a realidade. Como esse fato influenciou os pintores do fim do século?",
+    "alternativas": [
+      { "letra": "A", "texto": "Fez os pintores abandonarem a pintura por completo", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "B", "texto": "Estimulou propostas que a câmera não fazia, como a impressão subjetiva da luz e, depois, a abstração", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Levou ao retorno ao realismo clássico do Renascimento", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "D", "texto": "Tornou a perspectiva linear uma invenção totalmente nova", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "E", "texto": "Não teve nenhuma relação com as mudanças na pintura", "correta": false, "etiqueta": "art-ignorou-contexto" }
+    ],
+    "explicacao": "Se a câmera copiava a realidade, os pintores passaram a explorar o que ela não capturava: a sensação, a cor, a subjetividade. Esse caminho leva do Impressionismo às vanguardas. Ninguém abandonou a pintura, e a perspectiva linear é bem anterior à fotografia.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-movimentos-artisticos-016", "materia": "artes", "assunto": "movimentos-artisticos", "questionario": 4, "dificuldade": -1,
+    "contexto": "Só linhas, formas e cores",
+    "enunciado": "Numa tela sem figuras reconhecíveis, só há linhas, formas e cores combinadas como numa melodia. Esse tipo de obra é chamado de:",
+    "alternativas": [
+      { "letra": "A", "texto": "retrato", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "B", "texto": "arte abstrata", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "paisagem", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "D", "texto": "natureza-morta", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "E", "texto": "arte figurativa", "correta": false, "etiqueta": "art-confundiu-linguagem" }
+    ],
+    "explicacao": "Obra abstrata não representa objetos ou pessoas do mundo visível, e trabalha com elementos como linha, forma e cor. Retrato, paisagem, natureza-morta e arte figurativa mostram algo reconhecível.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-movimentos-artisticos-017", "materia": "artes", "assunto": "movimentos-artisticos", "questionario": 4, "dificuldade": 0,
+    "contexto": "Pintura do Renascimento",
+    "enunciado": "Um professor pede que os alunos identifiquem entre as descrições abaixo a que melhor combina com uma pintura renascentista. Qual deve ser marcada?",
+    "alternativas": [
+      { "letra": "A", "texto": "Diagonais intensas, gestos teatrais e luz dramática", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "B", "texto": "Cores sem ligação com a realidade para expressar sentimentos", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "C", "texto": "Objeto fragmentado em planos vistos de ângulos diferentes", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "D", "texto": "Objetos do cotidiano repetidos em série", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "E", "texto": "Composição equilibrada e simétrica, com perspectiva linear e figuras idealizadas", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "O Renascimento busca harmonia, proporção, perspectiva e idealização. Diagonais e luz teatral são do Barroco, planos fragmentados do Cubismo, e a repetição em série é da Pop Art.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-movimentos-artisticos-018", "materia": "artes", "assunto": "movimentos-artisticos", "questionario": 4, "dificuldade": 0,
+    "contexto": "Linha do tempo",
+    "enunciado": "Um estudante monta uma linha do tempo com cinco movimentos: Barroco, Cubismo, Impressionismo, Pop Art e Renascimento. Qual sequência está em ordem cronológica, do mais antigo ao mais recente?",
+    "alternativas": [
+      { "letra": "A", "texto": "Barroco, Renascimento, Cubismo, Impressionismo, Pop Art", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "B", "texto": "Renascimento, Impressionismo, Barroco, Pop Art, Cubismo", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "C", "texto": "Impressionismo, Renascimento, Barroco, Cubismo, Pop Art", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "D", "texto": "Renascimento, Barroco, Impressionismo, Cubismo, Pop Art", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Renascimento, Barroco, Cubismo, Impressionismo, Pop Art", "correta": false, "etiqueta": "art-errou-epoca" }
+    ],
+    "explicacao": "Renascimento (séculos XV e XVI), Barroco (XVII), Impressionismo (fim do XIX), Cubismo (início do XX) e Pop Art (anos 1950 e 1960). O erro comum é inverter Impressionismo e Cubismo, que são vizinhos no tempo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-movimentos-artisticos-019", "materia": "artes", "assunto": "movimentos-artisticos", "questionario": 4, "dificuldade": 1,
+    "contexto": "Pintar o que sente",
+    "enunciado": "Um artista escreveu num caderno: “Pintar o que vejo não basta. Pinto o que sinto diante do que vejo, e por isso o céu pode ser vermelho.” Essa declaração se alinha à proposta de qual perfil de artista?",
+    "alternativas": [
+      { "letra": "A", "texto": "Um realista, que busca retratar fielmente o que observa", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "B", "texto": "Um neoclássico, que prioriza ordem e modelos antigos", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "C", "texto": "Um expressionista, que privilegia a emoção subjetiva em vez da fidelidade visual", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Um cubista, que decompõe o objeto em planos geométricos", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "E", "texto": "Um impressionista, que registra com objetividade a luz natural", "correta": false, "etiqueta": "art-confundiu-movimento" }
+    ],
+    "explicacao": "A frase troca a fidelidade ao visível pelo sentimento, e isso é Expressionismo. O impressionista também foge da cópia exata, mas seu foco é a sensação da luz, não a emoção interior que distorce a cor.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-movimentos-artisticos-020", "materia": "artes", "assunto": "movimentos-artisticos", "questionario": 4, "dificuldade": 1,
+    "contexto": "O que as vanguardas têm em comum",
+    "enunciado": "Cubismo, Futurismo, Dadaísmo e Surrealismo foram chamados de vanguardas europeias do início do século XX. Apesar das diferenças, o que elas têm em comum?",
+    "alternativas": [
+      { "letra": "A", "texto": "A ruptura com a representação tradicional e a busca de novas linguagens", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "O retorno às regras da arte acadêmica da Antiguidade", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "C", "texto": "A produção exclusiva de pintura religiosa", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "D", "texto": "O uso obrigatório da perspectiva linear", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "E", "texto": "A defesa de uma única técnica adotada por todos os artistas", "correta": false, "etiqueta": "art-generalizou" }
+    ],
+    "explicacao": "Todas buscavam romper com a tradição e experimentar formas novas de criar, cada uma à sua maneira. Justamente por isso não compartilham uma única técnica, e nenhuma defendia a volta ao academicismo ou à perspectiva linear.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]

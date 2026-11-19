@@ -1,0 +1,315 @@
+/* Páginas do aluno: início, matéria, resultado, desempenho, conta, privacidade e erro. */
+.gb-titulo--cartao {
+    margin-bottom: 6px;
+    font-size: 28px;
+}
+.gb-auth-cartao {
+    display: grid;
+    gap: 14px;
+}
+.gb-auth-peixe {
+    width: 74px;
+}
+
+/* Início */
+.gb-revisao {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px 20px;
+}
+.gb-area {
+    display: grid;
+    gap: 12px;
+}
+.gb-area-titulo {
+    justify-self: start;
+    margin: 0;
+    padding: 2px 16px 4px;
+    border: var(--line) solid var(--ink);
+    border-radius: 14px 10px 16px 11px;
+    box-shadow: 3px 3px 0 var(--ink);
+    font-family: var(--font-display);
+    font-size: 22px;
+    font-weight: 400;
+    rotate: -1deg;
+}
+.gb-area-titulo--orange {
+    background: var(--orange);
+}
+.gb-area-titulo--yellow {
+    background: var(--yellow);
+}
+.gb-area-titulo--slime {
+    background: var(--slime);
+}
+.gb-area-titulo--cyan {
+    background: var(--white);
+}
+.gb-materias {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    gap: 14px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.gb-materia {
+    display: grid;
+    gap: 4px;
+    height: 100%;
+    padding: 12px 14px;
+    background: var(--paper);
+    border: var(--line) solid var(--ink);
+    border-radius: 20px 15px 22px 16px;
+    box-shadow: 5px 5px 0 var(--ink);
+    color: var(--ink);
+    text-decoration: none;
+    transition:
+        transform 0.08s,
+        box-shadow 0.08s;
+}
+.gb-materia:hover {
+    box-shadow: 7px 7px 0 var(--ink);
+    transform: translate(-2px, -2px);
+}
+.gb-materia:active {
+    box-shadow: 1px 1px 0 var(--ink);
+    transform: translate(3px, 3px);
+}
+.gb-materia-nome {
+    font-family: var(--font-display);
+    font-size: 22px;
+    line-height: 1.1;
+}
+.gb-materia-info {
+    font-size: 14px;
+}
+.gb-materia .gb-tag {
+    justify-self: start;
+}
+
+/* Matéria */
+.gb-lista {
+    display: grid;
+    gap: 16px;
+}
+.gb-assunto {
+    display: grid;
+    gap: 12px;
+}
+.gb-assunto-topo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px 14px;
+}
+.gb-assunto-topo .gb-subtitulo {
+    margin: 0;
+}
+.gb-questionarios {
+    display: grid;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.gb-questionario {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px 14px;
+    padding: 8px 12px;
+    background: var(--white);
+    border: 3px solid var(--ink);
+    border-radius: 14px 10px 15px 11px;
+}
+.gb-questionario-titulo {
+    margin: 0;
+}
+.gb-questionario .l-btn {
+    min-height: 44px;
+    font-size: 16px;
+}
+
+/* Resultado */
+.gb-placar {
+    display: grid;
+    justify-items: center;
+    background: var(--yellow);
+    text-align: center;
+}
+.gb-placar-num {
+    margin: 0;
+    font-family: var(--font-display);
+    font-size: clamp(56px, 14vw, 92px);
+    line-height: 1;
+    paint-order: stroke fill;
+    -webkit-text-stroke: 3px var(--ink);
+    color: var(--white);
+    text-shadow: 4px 4px 0 var(--ink);
+}
+.gb-placar-de {
+    font-size: 0.4em;
+}
+
+/* Desempenho */
+.gb-desempenho {
+    display: grid;
+    gap: 10px;
+    padding-block: 6px;
+}
+.gb-detalhes {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 3px dashed var(--ink);
+}
+.gb-detalhes summary {
+    cursor: pointer;
+    font-family: var(--font-display);
+    font-size: 17px;
+}
+.gb-detalhes .gb-desempenho {
+    margin-top: 10px;
+    padding: 10px 12px;
+    background: var(--white);
+    border: 3px solid var(--ink);
+    border-radius: 14px 10px 15px 11px;
+}
+.gb-diagnostico {
+    display: grid;
+    gap: 6px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.gb-grafico {
+    margin: 0;
+    max-width: 440px;
+}
+.gb-grafico svg {
+    display: block;
+    width: 100%;
+    height: auto;
+    background: var(--white);
+    border: 3px solid var(--ink);
+    border-radius: 12px 9px 13px 9px;
+}
+.gb-grafico-base {
+    stroke: var(--ink);
+    stroke-width: 3;
+}
+.gb-grafico-linha {
+    fill: none;
+    stroke: var(--orange-d);
+    stroke-width: 5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.gb-grafico-ponto {
+    fill: var(--yellow);
+    stroke: var(--ink);
+    stroke-width: 3;
+}
+.gb-grafico-eixo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2px;
+}
+
+/* Conta */
+.gb-interruptor {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    cursor: pointer;
+}
+.gb-interruptor input {
+    position: absolute;
+    opacity: 0;
+}
+.gb-interruptor-trilho {
+    position: relative;
+    flex: none;
+    width: 56px;
+    height: 32px;
+    background: #d9cdf2;
+    border: 3px solid var(--ink);
+    border-radius: 18px;
+    transition: background-color 0.15s;
+}
+.gb-interruptor-trilho i {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 20px;
+    height: 20px;
+    background: var(--white);
+    border: 3px solid var(--ink);
+    border-radius: 50%;
+    transition: translate 0.15s;
+}
+.gb-interruptor input:checked + .gb-interruptor-trilho {
+    background: var(--slime);
+}
+.gb-interruptor input:checked + .gb-interruptor-trilho i {
+    translate: 24px 0;
+}
+.gb-interruptor input:focus-visible + .gb-interruptor-trilho {
+    outline: 4px solid var(--ink);
+    outline-offset: 3px;
+}
+.gb-interruptor-texto {
+    display: grid;
+}
+
+/* Privacidade */
+.gb-prosa {
+    display: grid;
+    gap: 8px;
+}
+.gb-prosa .gb-subtitulo {
+    margin: 0;
+}
+.gb-lista-simples {
+    display: grid;
+    gap: 6px;
+    margin: 0;
+    padding-left: 22px;
+}
+.gb-definicoes {
+    display: grid;
+    gap: 4px 12px;
+    margin: 0;
+}
+.gb-definicoes dt {
+    font-family: var(--font-display);
+    font-size: 16px;
+    font-weight: 400;
+}
+.gb-definicoes dd {
+    margin: 0 0 6px;
+}
+
+/* Erro */
+.gb-erro-codigo {
+    margin: 0;
+    font-family: var(--font-display);
+    font-size: clamp(72px, 20vw, 140px);
+    line-height: 0.9;
+    paint-order: stroke fill;
+    -webkit-text-stroke: 4px var(--ink);
+    color: var(--yellow);
+    text-shadow: 5px 5px 0 var(--ink);
+}
+
+@media (min-width: 720px) {
+    .gb-definicoes {
+        grid-template-columns: 11rem minmax(0, 1fr);
+    }
+    .gb-definicoes dd {
+        margin: 0;
+    }
+}

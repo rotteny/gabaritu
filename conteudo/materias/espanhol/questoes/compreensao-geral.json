@@ -1,0 +1,902 @@
+[
+  {
+    "id": "esp-compreensao-geral-001",
+    "materia": "espanhol",
+    "assunto": "compreensao-geral",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Cachorro perdido",
+    "enunciado": "Perdí a mi perro Toby ayer por la tarde, cerca de la plaza. Es pequeño, marrón y muy cariñoso. Si lo ves, llama al 555-0188.\n\nSegundo o texto, Toby",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "é grande e muito bravo.",
+        "correta": false,
+        "etiqueta": "esp-detalhe-central"
+      },
+      {
+        "letra": "B",
+        "texto": "é pequeno e sumiu perto da praça.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "sumiu hoje de manhã.",
+        "correta": false,
+        "etiqueta": "esp-detalhe-central"
+      },
+      {
+        "letra": "D",
+        "texto": "foi roubado por alguém na praça.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "está na praça esperando o dono.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      }
+    ],
+    "explicacao": "O texto descreve Toby como pequeno, marrom e carinhoso, e diz que o dono o perdeu ontem à tarde perto da praça. Não fala de roubo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-compreensao-geral-002",
+    "materia": "espanhol",
+    "assunto": "compreensao-geral",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Prova de matemática",
+    "enunciado": "Mañana hay prueba de matemáticas a las 8. No olviden traer calculadora y lápiz.\n\nO que os alunos devem levar para a prova?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Caneta e régua.",
+        "correta": false,
+        "etiqueta": "esp-detalhe-central"
+      },
+      {
+        "letra": "B",
+        "texto": "O livro de matemática.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "C",
+        "texto": "Um trabalho impresso.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "D",
+        "texto": "Calculadora e lápis.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "Nada, pois a prova é oral.",
+        "correta": false,
+        "etiqueta": "esp-ignorou-negacao"
+      }
+    ],
+    "explicacao": "O aviso pede \"calculadora y lápiz\". Nada indica que a prova seja oral ou que precisem de livro.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-compreensao-geral-003",
+    "materia": "espanhol",
+    "assunto": "compreensao-geral",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Abelhas e comida",
+    "enunciado": "Las abejas son esenciales para la agricultura, pues polinizan muchas plantas. Sin ellas, tendríamos menos frutas y verduras en la mesa.\n\nA ideia principal do texto é que as abelhas",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "são importantes porque ajudam a produzir alimentos.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "produzem sozinhas todos os alimentos.",
+        "correta": false,
+        "etiqueta": "esp-generalizou"
+      },
+      {
+        "letra": "C",
+        "texto": "só servem para fazer mel.",
+        "correta": false,
+        "etiqueta": "esp-palavra-solta"
+      },
+      {
+        "letra": "D",
+        "texto": "farão faltar frutas e verduras amanhã.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "não influenciam a agricultura.",
+        "correta": false,
+        "etiqueta": "esp-ignorou-negacao"
+      }
+    ],
+    "explicacao": "O texto diz que as abelhas polinizam plantas e que, sem elas, haveria menos frutas e verduras. Não diz que produzem tudo nem que a falta seja imediata.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-compreensao-geral-004",
+    "materia": "espanhol",
+    "assunto": "compreensao-geral",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Atraso de Camila",
+    "enunciado": "Camila nunca llega tarde a clase, pero hoy llegó media hora después. Dijo que el autobús se averió en el camino.\n\nPor que Camila se atrasou hoje?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Porque ela sempre chega tarde.",
+        "correta": false,
+        "etiqueta": "esp-ignorou-negacao"
+      },
+      {
+        "letra": "B",
+        "texto": "Porque perdeu o ônibus.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "C",
+        "texto": "Porque havia uma greve de transportes.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "D",
+        "texto": "Porque foi a outra aula antes.",
+        "correta": false,
+        "etiqueta": "esp-palavra-solta"
+      },
+      {
+        "letra": "E",
+        "texto": "Porque o ônibus quebrou no caminho.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "\"Nunca llega tarde\" mostra que o atraso foi exceção, e \"el autobús se averió\" dá o motivo: o ônibus quebrou (averiarse).",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-compreensao-geral-005",
+    "materia": "espanhol",
+    "assunto": "compreensao-geral",
+    "questionario": 1,
+    "dificuldade": 1,
+    "contexto": "Dinheiro e felicidade",
+    "enunciado": "Dicen que el dinero no da la felicidad. Puede ser. Pero, a ver, ¿alguien ha visto a un triste en un yate?\n\nO autor do texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "concorda totalmente que dinheiro não traz felicidade.",
+        "correta": false,
+        "etiqueta": "esp-tom-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "informa de modo neutro uma pesquisa sobre iates.",
+        "correta": false,
+        "etiqueta": "esp-tom-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "questiona a frase popular, de modo irônico.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "afirma que só quem não tem dinheiro é triste.",
+        "correta": false,
+        "etiqueta": "esp-generalizou"
+      },
+      {
+        "letra": "E",
+        "texto": "diz que iates deixam as pessoas tristes.",
+        "correta": false,
+        "etiqueta": "esp-palavra-solta"
+      }
+    ],
+    "explicacao": "Depois do \"Puede ser\", o \"pero, a ver\" abre a contestação em forma de pergunta retórica irônica. Ele sugere que o dinheiro ajuda, sem afirmar que só os pobres são tristes.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-compreensao-geral-006",
+    "materia": "espanhol",
+    "assunto": "compreensao-geral",
+    "questionario": 2,
+    "dificuldade": -1,
+    "contexto": "Cartão de Madri",
+    "enunciado": "Hola, Luis. Te escribo desde Madrid. Hace mucho frío, pero la ciudad es linda. Mañana voy al museo del Prado. ¡Un abrazo! Sofía\n\nO que Sofía fará amanhã?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Visitará um museu.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "Voltará para casa.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "C",
+        "texto": "Irá à praia.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "D",
+        "texto": "Enfrentará muito calor.",
+        "correta": false,
+        "etiqueta": "esp-detalhe-central"
+      },
+      {
+        "letra": "E",
+        "texto": "Visitará o amigo Luis.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      }
+    ],
+    "explicacao": "\"Mañana voy al museo del Prado\" diz que ela vai a um museu. O frio é do clima de hoje, e a mensagem é dirigida a Luis, sem encontro marcado.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-compreensao-geral-007",
+    "materia": "espanhol",
+    "assunto": "compreensao-geral",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Parque fechado",
+    "enunciado": "El ayuntamiento cerró el parque central por obras. La reapertura será en marzo. Mientras tanto, los vecinos podrán usar la plaza del norte.\n\nO que os moradores podem fazer enquanto o parque está fechado?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Usar o parque central normalmente.",
+        "correta": false,
+        "etiqueta": "esp-ignorou-negacao"
+      },
+      {
+        "letra": "B",
+        "texto": "Esperar até dezembro para reabrir.",
+        "correta": false,
+        "etiqueta": "esp-detalhe-central"
+      },
+      {
+        "letra": "C",
+        "texto": "Frequentar a praça do sul.",
+        "correta": false,
+        "etiqueta": "esp-detalhe-central"
+      },
+      {
+        "letra": "D",
+        "texto": "Usar a praça do norte.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "Ficar sem nenhuma área pública.",
+        "correta": false,
+        "etiqueta": "esp-generalizou"
+      }
+    ],
+    "explicacao": "O texto diz que a reabertura será em março e que, \"mientras tanto\", poderão usar a praça do norte.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-compreensao-geral-008",
+    "materia": "espanhol",
+    "assunto": "compreensao-geral",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Recreio na escola",
+    "enunciado": "En mi escuela, el recreo dura quince minutos. Muchos estudiantes comen algo y juegan al fútbol. Pocos van a la biblioteca.\n\nSegundo o texto, o que poucos estudantes fazem no recreio?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Jogam futebol.",
+        "correta": false,
+        "etiqueta": "esp-detalhe-central"
+      },
+      {
+        "letra": "B",
+        "texto": "Comem algo.",
+        "correta": false,
+        "etiqueta": "esp-detalhe-central"
+      },
+      {
+        "letra": "C",
+        "texto": "Ficam na sala de aula.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "D",
+        "texto": "Todos vão à biblioteca.",
+        "correta": false,
+        "etiqueta": "esp-generalizou"
+      },
+      {
+        "letra": "E",
+        "texto": "Vão à biblioteca.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "\"Muchos\" jogam e comem; \"pocos\" vão à biblioteca. A palavra \"pocos\" indica a minoria.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-compreensao-geral-009",
+    "materia": "espanhol",
+    "assunto": "compreensao-geral",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Prova impossível",
+    "enunciado": "No digo que el examen fue difícil, digo que ni siquiera el profesor sabía las respuestas.\n\nO autor quer dizer que a prova foi",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "fácil para todo mundo.",
+        "correta": false,
+        "etiqueta": "esp-ignorou-negacao"
+      },
+      {
+        "letra": "B",
+        "texto": "extremamente difícil, e o diz em tom de humor.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "resolvida com facilidade pelo professor.",
+        "correta": false,
+        "etiqueta": "esp-ignorou-negacao"
+      },
+      {
+        "letra": "D",
+        "texto": "corrigida errado pelo professor.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "difícil apenas na opinião de alguns, e o autor não opina.",
+        "correta": false,
+        "etiqueta": "esp-tom-errado"
+      }
+    ],
+    "explicacao": "O exagero (\"ni siquiera el profesor sabía las respuestas\") é um recurso de humor para dizer que a prova foi dificílima.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-compreensao-geral-010",
+    "materia": "espanhol",
+    "assunto": "compreensao-geral",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Histórias do avô",
+    "enunciado": "Cuando era niño, mi abuelo me contaba historias antes de dormir. Hoy, cuando miro el cielo, todavía lo escucho.\n\nO trecho sugere que a lembrança do avô",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "já foi esquecida.",
+        "correta": false,
+        "etiqueta": "esp-ignorou-negacao"
+      },
+      {
+        "letra": "B",
+        "texto": "só existe antes de dormir.",
+        "correta": false,
+        "etiqueta": "esp-palavra-solta"
+      },
+      {
+        "letra": "C",
+        "texto": "continua viva e emocionalmente presente.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "é a de um professor de astronomia.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "é de um avô que ainda conta histórias toda noite.",
+        "correta": false,
+        "etiqueta": "esp-detalhe-central"
+      }
+    ],
+    "explicacao": "Os verbos \"contaba\" (passado) e \"todavía lo escucho\" (presente) mostram que as histórias eram do passado, mas a lembrança permanece. Nada fala de astronomia.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-compreensao-geral-011",
+    "materia": "espanhol",
+    "assunto": "compreensao-geral",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Padaria de domingo",
+    "enunciado": "La panadería abre de lunes a sábado, de 7 a 20 horas. Los domingos abre solo hasta las 12.\n\nNo domingo, a padaria",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "fica fechada o dia todo.",
+        "correta": false,
+        "etiqueta": "esp-ignorou-negacao"
+      },
+      {
+        "letra": "B",
+        "texto": "funciona até as 20 horas.",
+        "correta": false,
+        "etiqueta": "esp-palavra-solta"
+      },
+      {
+        "letra": "C",
+        "texto": "abre somente à tarde.",
+        "correta": false,
+        "etiqueta": "esp-detalhe-central"
+      },
+      {
+        "letra": "D",
+        "texto": "funciona 24 horas.",
+        "correta": false,
+        "etiqueta": "esp-generalizou"
+      },
+      {
+        "letra": "E",
+        "texto": "abre só até o meio-dia.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "\"Solo hasta las 12\" indica abertura parcial, só de manhã. O horário até as 20h vale de segunda a sábado.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-compreensao-geral-012",
+    "materia": "espanhol",
+    "assunto": "compreensao-geral",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "A gata Nube",
+    "enunciado": "Mi gata se llama Nube. Duerme mucho y come poco. Le encanta mirar por la ventana.\n\nO que a gata Nube adora fazer?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Comer bastante.",
+        "correta": false,
+        "etiqueta": "esp-ignorou-negacao"
+      },
+      {
+        "letra": "B",
+        "texto": "Olhar pela janela.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "Dormir ao ar livre.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "D",
+        "texto": "Brincar no quintal.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "Correr pela casa.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      }
+    ],
+    "explicacao": "\"Le encanta mirar por la ventana\" indica o que ela adora. Ela dorme muito e come pouco, o oposto de comer bastante.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-compreensao-geral-013",
+    "materia": "espanhol",
+    "assunto": "compreensao-geral",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Dia bom, dia ruim",
+    "enunciado": "No todos los días son buenos, pero casi todos tienen algo bueno. A veces es solo un café calentito.\n\nA mensagem do texto é que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "mesmo os dias ruins costumam ter algo de bom.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "todos os dias são ruins.",
+        "correta": false,
+        "etiqueta": "esp-generalizou"
+      },
+      {
+        "letra": "C",
+        "texto": "só o café resolve os problemas.",
+        "correta": false,
+        "etiqueta": "esp-palavra-solta"
+      },
+      {
+        "letra": "D",
+        "texto": "dias bons não existem.",
+        "correta": false,
+        "etiqueta": "esp-ignorou-negacao"
+      },
+      {
+        "letra": "E",
+        "texto": "o autor odeia café.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      }
+    ],
+    "explicacao": "\"No todos... pero casi todos tienen algo bueno\" sugere que, mesmo quando o dia não é bom, há algo positivo, até pequeno como um café quentinho.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-compreensao-geral-014",
+    "materia": "espanhol",
+    "assunto": "compreensao-geral",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Orgulho na derrota",
+    "enunciado": "El equipo perdió 3-0, pero el entrenador dijo que se sentía orgulloso. \"Dimos todo\", afirmó.\n\nO que o técnico disse?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Que estava decepcionado com a equipe.",
+        "correta": false,
+        "etiqueta": "esp-tom-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "Que o time venceu por 3 a 0.",
+        "correta": false,
+        "etiqueta": "esp-detalhe-central"
+      },
+      {
+        "letra": "C",
+        "texto": "Que estava orgulhoso apesar da derrota.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "Que o árbitro prejudicou o time.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "Que vai trocar todos os jogadores.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      }
+    ],
+    "explicacao": "O time perdeu por 3 a 0 (\"perdió\"), mas o técnico estava orgulhoso porque \"dimos todo\" (demos tudo).",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-compreensao-geral-015",
+    "materia": "espanhol",
+    "assunto": "compreensao-geral",
+    "questionario": 3,
+    "dificuldade": 1,
+    "contexto": "Entrada gratuita",
+    "enunciado": "El museo es gratis los domingos, salvo para grupos de más de diez personas, que deben reservar y pagar una tarifa reducida.\n\nUm grupo de 12 pessoas que visita o museu num domingo deve",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "entrar de graça sem reserva.",
+        "correta": false,
+        "etiqueta": "esp-ignorou-negacao"
+      },
+      {
+        "letra": "B",
+        "texto": "pagar o ingresso completo.",
+        "correta": false,
+        "etiqueta": "esp-detalhe-central"
+      },
+      {
+        "letra": "C",
+        "texto": "desistir, pois o museu não aceita grupos.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "D",
+        "texto": "reservar e pagar uma tarifa reduzida.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "pagar só se tiver menos de dez pessoas.",
+        "correta": false,
+        "etiqueta": "esp-ignorou-negacao"
+      }
+    ],
+    "explicacao": "\"Salvo para grupos de más de diez personas\" abre a exceção: o grupo de 12 precisa reservar e pagar tarifa reduzida, não o valor completo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-compreensao-geral-016",
+    "materia": "espanhol",
+    "assunto": "compreensao-geral",
+    "questionario": 4,
+    "dificuldade": -1,
+    "contexto": "Obrigada, vovó",
+    "enunciado": "Querida abuela: gracias por el suéter. Me queda perfecto y es muy abrigado. Te quiero mucho.\n\nO que a pessoa diz sobre o suéter?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Que serve bem e é bem quentinho.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "Que é grande demais.",
+        "correta": false,
+        "etiqueta": "esp-tom-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "Que é muito fino e não esquenta.",
+        "correta": false,
+        "etiqueta": "esp-ignorou-negacao"
+      },
+      {
+        "letra": "D",
+        "texto": "Que ela gostaria de trocá-lo.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "Que vai devolvê-lo à avó.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      }
+    ],
+    "explicacao": "\"Me queda perfecto\" é serve perfeitamente, e \"abrigado\" quer dizer que esquenta, ideal para o frio.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-compreensao-geral-017",
+    "materia": "espanhol",
+    "assunto": "compreensao-geral",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Futebol por obrigação de carinho",
+    "enunciado": "A mí no me gusta el fútbol, pero voy a los partidos porque mi hermano juega.\n\nPor que a pessoa vai aos jogos?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Porque gosta muito de futebol.",
+        "correta": false,
+        "etiqueta": "esp-ignorou-negacao"
+      },
+      {
+        "letra": "B",
+        "texto": "Porque o pai joga.",
+        "correta": false,
+        "etiqueta": "esp-detalhe-central"
+      },
+      {
+        "letra": "C",
+        "texto": "Para encontrar os amigos.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "D",
+        "texto": "Porque a escola obriga.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "Porque o irmão joga.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "A pessoa diz que não gosta de futebol (\"a mí no me gusta\"), mas vai porque o irmão joga.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-compreensao-geral-018",
+    "materia": "espanhol",
+    "assunto": "compreensao-geral",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Chuva sem parar",
+    "enunciado": "Hoy la lluvia no paró ni un minuto. Las calles se inundaron y muchas personas llegaron tarde al trabajo.\n\nQual foi a consequência da chuva?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A chuva parou no meio da manhã.",
+        "correta": false,
+        "etiqueta": "esp-ignorou-negacao"
+      },
+      {
+        "letra": "B",
+        "texto": "Ninguém saiu de casa.",
+        "correta": false,
+        "etiqueta": "esp-generalizou"
+      },
+      {
+        "letra": "C",
+        "texto": "O trabalho foi cancelado.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "D",
+        "texto": "Ruas alagadas e atrasos no trabalho.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "A chuva durou apenas um minuto.",
+        "correta": false,
+        "etiqueta": "esp-palavra-solta"
+      }
+    ],
+    "explicacao": "\"No paró ni un minuto\" diz que choveu sem parar. Como consequência, as ruas inundaram e muita gente se atrasou.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-compreensao-geral-019",
+    "materia": "espanhol",
+    "assunto": "compreensao-geral",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Dormir pouco",
+    "enunciado": "Aunque muchos creen que dormir poco es señal de productividad, los médicos advierten que la falta de sueño reduce la atención y la memoria.\n\nA posição defendida no texto é que dormir pouco",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "é sinal de produtividade.",
+        "correta": false,
+        "etiqueta": "esp-tom-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "prejudica a atenção e a memória.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "é recomendado pelos médicos.",
+        "correta": false,
+        "etiqueta": "esp-ignorou-negacao"
+      },
+      {
+        "letra": "D",
+        "texto": "faz todo mundo esquecer tudo.",
+        "correta": false,
+        "etiqueta": "esp-generalizou"
+      },
+      {
+        "letra": "E",
+        "texto": "é um costume sem relação com a saúde.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      }
+    ],
+    "explicacao": "\"Aunque\" apresenta a crença popular, e depois os médicos advertem que a falta de sono reduz atenção e memória. O texto não diz que todos esquecem tudo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-compreensao-geral-020",
+    "materia": "espanhol",
+    "assunto": "compreensao-geral",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Prática ajuda",
+    "enunciado": "Nadie dijo que sería fácil, pero tampoco que sería imposible. Con práctica, hasta lo que parece enorme se vuelve pequeño.\n\nO texto transmite a ideia de que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "é impossível chegar lá.",
+        "correta": false,
+        "etiqueta": "esp-ignorou-negacao"
+      },
+      {
+        "letra": "B",
+        "texto": "tudo é fácil desde o início.",
+        "correta": false,
+        "etiqueta": "esp-ignorou-negacao"
+      },
+      {
+        "letra": "C",
+        "texto": "com prática, tarefas difíceis ficam mais fáceis.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "praticar é inútil.",
+        "correta": false,
+        "etiqueta": "esp-tom-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "só gigantes conseguem grandes tarefas.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      }
+    ],
+    "explicacao": "\"Nadie dijo que sería fácil\" nega a facilidade, e \"tampoco... imposible\" nega a impossibilidade. A prática reduz o tamanho do desafio.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  }
+]

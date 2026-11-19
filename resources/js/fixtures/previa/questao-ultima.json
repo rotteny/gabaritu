@@ -1,0 +1,57 @@
+{
+    "component": "Questao",
+    "props": {
+        "tentativa": {
+            "id": 3,
+            "tipo": "questionario",
+            "titulo": "Organelas e energia da célula",
+            "materia": {
+                "slug": "biologia",
+                "nome": "Biologia"
+            },
+            "assunto": {
+                "slug": "citologia",
+                "nome": "Citologia"
+            },
+            "posicao": 3,
+            "total": 3
+        },
+        "questao": {
+            "id": 11,
+            "contexto": null,
+            "enunciado": "Qual organela da célula produz a maior parte do ATP, a energia que ela usa?",
+            "alternativas": [
+                {
+                    "id": 101,
+                    "letra": "A",
+                    "texto": "Ribossomo"
+                },
+                {
+                    "id": 102,
+                    "letra": "B",
+                    "texto": "Mitocôndria"
+                },
+                {
+                    "id": 103,
+                    "letra": "C",
+                    "texto": "Lisossomo"
+                },
+                {
+                    "id": 104,
+                    "letra": "D",
+                    "texto": "Complexo de Golgi"
+                },
+                {
+                    "id": 105,
+                    "letra": "E",
+                    "texto": "Retículo endoplasmático rugoso"
+                }
+            ]
+        },
+        "fala": {
+            "texto": "Escolhe uma alternativa. Eu fico aqui, de boa.",
+            "humor": "neutro",
+            "variacao_id": 1
+        }
+    }
+}

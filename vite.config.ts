@@ -12,9 +12,6 @@ export default defineConfig({
             input: ['resources/css/app.css', 'resources/js/app.ts'],
             refresh: true,
             fonts: [
-                bunny('Instrument Sans', {
-                    weights: [400, 500, 600],
-                }),
                 bunny('Titan One', {
                     weights: [400],
                 }),
@@ -77,6 +74,8 @@ export default defineConfig({
             'composer.json',
             'resources/js/components/ui/*',
             'resources/views/mail/*',
+            'conteudo/**',
+            'docs/**',
         ],
         sortTailwindcss: {
             functions: ['clsx', 'cn', 'cva'],

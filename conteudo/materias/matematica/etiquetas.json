@@ -1,0 +1,21 @@
+[
+  { "id": "mat-esqueceu-base", "nome": "Esqueceu a base", "descricao": "Calculou a porcentagem ou a razão sobre o valor errado." },
+  { "id": "mat-parou-no-intermediario", "nome": "Parou no intermediário", "descricao": "Entregou um resultado parcial sem concluir o que a pergunta pedia." },
+  { "id": "mat-proporcao-invertida", "nome": "Proporção invertida", "descricao": "Tratou grandezas inversas como diretas, ou o contrário." },
+  { "id": "mat-somou-porcentagens", "nome": "Somou porcentagens", "descricao": "Somou ou subtraiu variações percentuais sucessivas em vez de compô-las." },
+  { "id": "mat-confundiu-media-mediana", "nome": "Confundiu média, mediana e moda", "descricao": "Trocou uma medida de tendência central por outra." },
+  { "id": "mat-ignorou-frequencia", "nome": "Ignorou a frequência", "descricao": "Tratou valores repetidos como se fossem únicos, sem ponderar." },
+  { "id": "mat-formula-errada", "nome": "Fórmula errada", "descricao": "Usou a fórmula de outra figura ou de outra grandeza." },
+  { "id": "mat-erro-de-conta", "nome": "Erro de conta", "descricao": "Montou certo, mas errou uma operação aritmética." },
+  { "id": "mat-unidade", "nome": "Unidade não convertida", "descricao": "Misturou unidades (cm e m, horas e minutos, decimal e sexagesimal)." },
+  { "id": "mat-sinal", "nome": "Erro de sinal", "descricao": "Trocou soma por subtração ou errou o sinal de um termo." },
+  { "id": "mat-casos-favoraveis", "nome": "Contagem de casos errada", "descricao": "Contou casos favoráveis ou possíveis de forma incorreta em probabilidade." },
+  { "id": "mat-somou-em-vez-de-multiplicar", "nome": "Somou em vez de multiplicar", "descricao": "Usou adição onde a situação pedia multiplicação, como em eventos sucessivos." },
+  { "id": "mat-escala-quadrado", "nome": "Escala sem o quadrado", "descricao": "Aplicou a razão linear em área ou volume sem elevar ao quadrado ou ao cubo." },
+  { "id": "mat-vertice-raiz", "nome": "Vértice no lugar da raiz", "descricao": "Confundiu o vértice da parábola com as raízes, ou o contrário." },
+  { "id": "mat-coeficientes-trocados", "nome": "Coeficientes trocados", "descricao": "Confundiu o coeficiente angular com o linear (ou a com b) na função." },
+  { "id": "mat-pontos-percentuais", "nome": "Pontos percentuais", "descricao": "Tratou diferença em pontos percentuais como variação percentual." },
+  { "id": "mat-dividiu-igual", "nome": "Dividiu em partes iguais", "descricao": "Ignorou a proporção e repartiu tudo igualmente." },
+  { "id": "mat-pegou-parte-errada", "nome": "Pegou a parte errada", "descricao": "Calculou corretamente, mas respondeu a parte de outro item ou grupo." },
+  { "id": "mat-ignorou-dado", "nome": "Ignorou um dado", "descricao": "Deixou de usar uma informação do enunciado que mudava a resposta." }
+]

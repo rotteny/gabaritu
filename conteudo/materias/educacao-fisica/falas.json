@@ -1,0 +1,327 @@
+[
+  {
+    "etiqueta": "edf-so-rendimento",
+    "fofo": [
+      "Medalha é um capítulo, não o livro inteiro. Tenta de novo olhando as outras páginas!",
+      "Você só viu a vitória e esqueceu a diversão. A pelada de domingo também é esporte e tem mais risada!",
+      "Quase! Esporte também é lazer e escola. O pódio é só a parte que aparece na TV.",
+      "Você deu medalha pro placar e esqueceu de dar pra risada. A risada também treinou muito!",
+      "Esporte tem várias portas e você só bateu na do pódio. As outras tão abertas e tem lanche."
+    ],
+    "sarc": [
+      "Claro, esporte só existe pra superar recorde. Ninguém joga por diversão, né?",
+      "Que visão olímpica: sem pódio, não conta. O pique-pega da infância quer o troféu dele.",
+      "Maravilha reduzir tudo a cronômetro. Imagina como seria uma brincadeira de rua com tabela.",
+      "Pela sua lógica, o futebol do recreio só vale se tiver VAR e transmissão ao vivo.",
+      "Ah, sim, a amarelinha só conta se tiver patrocínio e hino nacional no final."
+    ],
+    "sem": [
+      "Você reduziu o esporte ao placar! O futebol de rua com chinelo de trave está profundamente magoado!",
+      "URGENTE: vôlei da família no fim de semana descobre que não conta como esporte e exige reconhecimento!",
+      "PÓDIO NÃO É TUDO! O VALDIR SAI DA CONCHA TODA SEMANA!",
+      "Eu aposto corrida com o filtro desde que me conheço e nunca ganhei! E nunca me diverti tanto!",
+      "O Coubertin recriou as Olimpíadas e você transformou tudo numa planilha de resultados!"
+    ],
+    "reserva": "Esporte pode ser rendimento, lazer ou educação: veja qual deles a questão pede."
+  },
+  {
+    "etiqueta": "edf-confundiu-categoria",
+    "fofo": [
+      "Jogo, esporte, dança e luta moram no mesmo prédio, mas em andares diferentes. Bora achar o andar certo?",
+      "Você pôs a dança na turma do esporte. Ela foi, fez uma pose bonita e voltou pro andar dela.",
+      "Quase! Pique-esconde e campeonato são primos. Um tem regra de rua, o outro tem regra de livro. Confere!",
+      "Você chamou o frevo de luta. Ele respondeu com a sombrinha e voltou pra festa dele, sem mágoa.",
+      "Você inscreveu a dança no campeonato de luta. Ela foi educada e só deu um giro pra sair."
+    ],
+    "sarc": [
+      "Uma categoria só pra tudo. Economia de gavetas, eu admiro.",
+      "Brincadeira de roda é esporte olímpico. Faltou só a medalha e o hino.",
+      "Ah, claro, ciranda e xadrez no mesmo balaio. Que organização.",
+      "Pra você, ginástica é luta e luta é dança. O professor de Educação Física tá revendo o plano de aula.",
+      "Que bonito ver todas as práticas juntas. Pena que a prova pediu pra separar."
+    ],
+    "sem": [
+      "Categoria errada! Capoeira não é pique-esconde! Ninguém se esconde na roda, a roda é redonda!",
+      "Você juntou tudo na mesma cesta! E a cesta era de basquete! Agora ninguém acha nada!",
+      "O Naismith inventou o basquete com regra escrita e você botou ele na gaveta das brincadeiras!",
+      "Jogo, esporte e dança têm nome próprio! Eu fiz etiqueta pra cada um e você descolou todas!",
+      "A GINÁSTICA NÃO É LUTA! NINGUÉM BRIGA DE ESTRELINHA!"
+    ],
+    "reserva": "Jogo, esporte, dança, luta e ginástica são manifestações diferentes. Veja a pedida."
+  },
+  {
+    "etiqueta": "edf-saude-so-doenca",
+    "fofo": [
+      "Saúde é mais que não ter consulta marcada. Tem bem-estar, convivência e descanso. Bora ver o conjunto?",
+      "Você olhou só um pedaço da saúde. O resto é alegria, amigos, sono e sossego. Tenta com mais cor!",
+      "Saúde é como uma casa: não basta o teto, precisa de janela e gente dentro. Reforma a resposta!",
+      "Quase! Você tirou a foto da saúde e cortou metade da turma. Bota todo mundo de volta na foto!",
+      "Seu conceito esqueceu de convidar a risada com os amigos e a noite bem dormida. Chama os dois!"
+    ],
+    "sarc": [
+      "Saúde é só não ir ao médico. Resumo rápido e elegante.",
+      "Que conceito sucinto: saúde é ausência de queixa. A Organização Mundial da Saúde quer uma conversa.",
+      "Pra você, estar bem é não ter nada. Que visão minimalista.",
+      "Amizade, descanso e lazer viraram decoração. O importante é o exame, né?",
+      "Pela sua lógica, um dia sem queixa e sem nenhum amigo é o auge do bem-estar. Que festa animada."
+    ],
+    "sem": [
+      "Saúde não é só ausência de problema! Eu tô sem problema nenhum e mesmo assim preciso de um abraço!",
+      "SAÚDE NÃO É SÓ AUSÊNCIA DE DOENÇA! ATÉ A OMS SUSPIROU!",
+      "O bem-estar social e o mental ficaram do lado de fora da resposta, batendo no vidro igual eu!",
+      "Saúde pela metade! É comprar o bolo e levar só a vela pra festa!",
+      "Eu tenho água limpa e ração, mas se a pedrinha sumir eu não fico bem! Isso também é saúde!"
+    ],
+    "reserva": "Saúde envolve bem-estar físico, mental e social, não só a ausência de problemas."
+  },
+  {
+    "etiqueta": "edf-confundiu-conceito",
+    "fofo": [
+      "Atividade física e exercício físico são parentes próximos, mas cada um tem o seu RG. Bora conferir?",
+      "Você trocou dois termos que se parecem muito. Calma, até os professores têm que olhar de novo!",
+      "Aptidão, exercício, atividade: o trio é confuso mesmo. Vamos organizar um por um?",
+      "Quase! O conceito existe, só tá usando o crachá do vizinho. Devolve o crachá que ele volta feliz.",
+      "Você chamou um termo pelo apelido do outro. Eles riram, mas cada um prefere o próprio nome."
+    ],
+    "sarc": [
+      "Claro, termos técnicos são sinônimos. Aprender é um luxo.",
+      "Aptidão, exercício e atividade como a mesma coisa. Que economia de vocabulário.",
+      "Se eu juntar todos os conceitos num só, a aula acaba mais cedo. Boa estratégia, mas não.",
+      "Que lindo, três termos dividindo um único significado. Parece república de estudante.",
+      "Varrer a casa e treinar pra maratona, a mesma coisa. A vassoura agradece o título de atleta."
+    ],
+    "sem": [
+      "Conceitos trocados! O exercício e a atividade acordaram com o nome um do outro e tão em crise!",
+      "Você juntou dois termos que não são o mesmo! O dicionário do professor caiu da mesa!",
+      "Eu nado o dia todo e nunca chamei isso de treino! É só a minha vida! Tem diferença, sim!",
+      "NEM O VALDIR CHAMA TUDO DE 'MEXER'! RESPOSTA ERRADA!",
+      "Três conceitos, uma resposta e nenhum acerto! É o triângulo mais confuso da educação física!"
+    ],
+    "reserva": "Atividade física, exercício e aptidão são termos diferentes. Veja a definição pedida."
+  },
+  {
+    "etiqueta": "edf-ignorou-contexto",
+    "fofo": [
+      "A prática não nasceu do nada. Tinha gente, época e lugar. Releia o contexto e conte a história!",
+      "Você olhou o jogo, mas esqueceu de quem jogava e por quê. Dá uma espiada no enredo completo!",
+      "Sem o contexto, o esporte vira uma foto sem legenda. Vamos pôr a legenda?",
+      "Quase! Você assistiu à partida e esqueceu de perguntar em que estádio e em que ano. Pergunta lá!",
+      "A capoeira guarda uma história inteira na ginga. Dá uma ouvidinha no berimbau que ele conta!"
+    ],
+    "sarc": [
+      "O esporte surgiu por geração espontânea, sem sociedade, sem época. Que modernidade.",
+      "Ah, então a prática sempre foi assim e ninguém mudou nada. Que mundo estável.",
+      "Que visão prática: pegar o jogo, ignorar a história e ainda marcar a resposta.",
+      "Claro, o futebol chegou ao Brasil já com torcida, narrador e álbum de figurinha. Tudo pronto de fábrica.",
+      "Contexto social é detalhe. O Mestre Bimba abriu uma escola de capoeira só porque tava entediado, né?"
+    ],
+    "sem": [
+      "O contexto importa! Eu assisti à aula inteira pelo vidro e o contexto tava lá, acenando!",
+      "Você ignorou a época e a sociedade! A prática pediu a certidão de nascimento dela de volta!",
+      "URGENTE: esporte é lido sem a história dele e a história exige direito de resposta!",
+      "TINHA UMA SOCIEDADE INTEIRA! VOCÊ VIU SÓ A QUADRA!",
+      "Você assistiu ao jogo com a TV no mudo e sem saber o campeonato! Como assim?!"
+    ],
+    "reserva": "Toda prática nasce num contexto histórico e social. Releia o cenário."
+  },
+  {
+    "etiqueta": "edf-regra-errada",
+    "fofo": [
+      "Regra trocada! Acontece até com quem joga há anos. Bora conferir o regulamento juntos?",
+      "Quase! Na quadra, cada modalidade tem o seu apito. Esse ficou com o da vizinha.",
+      "Fundamento técnico é como receita de bolo: troca um ingrediente e vira outro bolo. Tenta de novo!",
+      "Você trouxe a regra do handebol pro vôlei. Ela entrou meio perdida, mas tava animada pra jogar!",
+      "Seu regulamento tá quase certo, só tem uma página trocada de outro esporte. Arranca ela, com carinho."
+    ],
+    "sarc": [
+      "Ah, então no basquete vale sair correndo com a bola debaixo do braço. Os árbitros ficaram surpresos.",
+      "Inventou uma regra nova. Quem sabe a federação adota na próxima reunião.",
+      "Que criatividade com o regulamento. Só falta alguém ter avisado o juiz.",
+      "Regra errada com confiança total. É um combo raro.",
+      "O William Morgan inventou o vôlei com regras bem simples. Você deu um jeito de complicar."
+    ],
+    "sem": [
+      "REGRA ERRADA! O APITO TOCOU SÓ PRA VOCÊ!",
+      "Você reescreveu o regulamento sem abrir o livro! A federação pediu vista!",
+      "Fundamento errado! O bandeirinha levantou a bandeira tão alto que bateu no teto do ginásio!",
+      "O var chamou o juiz, o juiz chamou o comitê e o comitê me chamou! Eu nem sei apitar debaixo d'água!",
+      "Cartão amarelo pra essa resposta! Mais uma dessa e eu mesmo saio de campo, quer dizer, de aquário!"
+    ],
+    "reserva": "Cada modalidade tem suas regras e fundamentos. Confira a regra da que a questão pede."
+  },
+  {
+    "etiqueta": "edf-receita-unica",
+    "fofo": [
+      "Existe mais de um jeito de se mexer. Cada pessoa tem o seu estilo, e todos valem. Bora respeitar a variedade?",
+      "Você achou um caminho único, mas tem muita trilha boa. Nem todo mundo ama a mesma!",
+      "Receita única é bolo sem variedade. Tem gente que prefere dança, tem gente que prefere caminhada!",
+      "Quase! Você montou um cardápio com um prato só. Tem gente que quer o prato do lado, e tudo bem!",
+      "Eu nado, o Valdir passeia e a pedrinha medita. Cada um no seu jeito, e o aquário é feliz assim!"
+    ],
+    "sarc": [
+      "Só existe um jeito certo de praticar. Pra todo mundo, em qualquer lugar. Que pacote prático.",
+      "Que bela convicção: o que serve pra um serve pra todos. Tamanho único, igual boné de brinde.",
+      "Mundo ideal: todos amam a mesma coisa. Pena que a gente não vive nele.",
+      "Pela sua resposta, a turma inteira faz a mesma atividade, no mesmo horário, com o mesmo sorriso. Que filme.",
+      "Receita única: todo mundo corre, todo mundo gosta. Quanta praticidade."
+    ],
+    "sem": [
+      "NÃO EXISTE JEITO ÚNICO! CADA UM NADA DO SEU!",
+      "Um jeito só? Até eu, um baiacu, tenho muitas formas de nadar! (E uma de entrar em pânico!)",
+      "Você deu a mesma chuteira pra todo mundo! O bailarino, o nadador e o enxadrista estão confusos!",
+      "URGENTE: pessoas descobrem que gostam de coisas diferentes e a receita única pede desculpas!",
+      "Se todo mundo tivesse que fazer igual, o Valdir já teria sido transferido de aquário!"
+    ],
+    "reserva": "Existem muitas formas de praticar, e todas dependem de gosto, contexto e condição."
+  },
+  {
+    "etiqueta": "edf-extremo",
+    "fofo": [
+      "Sempre, nunca, apenas: essas palavras entram em campo de chuteira de trava alta. Desconfia delas!",
+      "Alternativa tão certeira que não deixou nenhuma exceção. Mas a vida sempre deixa uma. Tenta outra!",
+      "A palavra 'apenas' fecha a porta demais. Experimenta a que deixa uma fresta!",
+      "Quase! O 'nunca' é aquele colega que entra no jogo e já quer mudar a regra. Fica de olho nele!",
+      "Até o juiz mais rígido apita diferente de vez em quando. Alternativa sem exceção merece olhar de canto!"
+    ],
+    "sarc": [
+      "Sempre. Nunca. Apenas. Que bonito ver uma alternativa com tanta certeza.",
+      "Uma regra sem exceção na educação física. Fico emocionado.",
+      "Se a questão tem 'apenas', geralmente o erro também tem. Mas a confiança é linda.",
+      "O 'nunca' tava piscando na alternativa feito placar eletrônico e você achou que era decoração.",
+      "Alternativa absoluta, tipo torcedor jurando que o time nunca perde. Spoiler: perde."
+    ],
+    "sem": [
+      "Sempre? Nunca? Apenas? Essa alternativa tá mais confiante que narrador em final de campeonato!",
+      "TEM EXCEÇÃO, SIM! JÁ VI UMA! ERA UM CARAMUJO!",
+      "O juiz apitou, o 'apenas' reclamou e foi expulso de campo! E você tava torcendo pra ele!",
+      "Uma regra sem exceção! O único absoluto que eu conheço é o meu medo da faxina do aquário!",
+      "Isso é absoluto demais! O juiz viu o replay três vezes e ainda assim não acreditou!"
+    ],
+    "reserva": "Desconfie de 'sempre', 'nunca' e 'apenas': no esporte e na prova, exceção é o que não falta."
+  },
+  {
+    "etiqueta": "edf-fuga-do-tema",
+    "fofo": [
+      "Sua resposta é verdadeira, mas jogou na quadra do lado. A bola é boa, só não é dessa partida!",
+      "Você chutou bonito, só que no gol do outro campo. Volta pro enunciado que o seu gol tá lá!",
+      "Quase! Você respondeu o treino de ontem. O de hoje pediu outra coisa, e tá te esperando.",
+      "Essa frase entrou no jogo errado de uniforme certinho. O técnico agradeceu e mandou ela pro banco.",
+      "Informação certa, partida errada. Dá uma relida no enunciado que a escalação certa aparece!"
+    ],
+    "sarc": [
+      "Ótimo passe. Pena que foi pro time adversário.",
+      "A pergunta pediu vôlei e você respondeu com xadrez. Muito bem jogado, aliás.",
+      "Fato verdadeiro e totalmente fora de campo. O bandeirinha ficou sem saber se marcava impedimento.",
+      "Você respondeu a pergunta que gostaria de ter recebido. Bonito sonho. A prova acordou.",
+      "Correto e sem relação nenhuma. É gol de placa num jogo que já tinha acabado."
+    ],
+    "sem": [
+      "Você correu pro gol errado com uma confiança que eu nunca vi! A torcida ficou em silêncio!",
+      "É VERDADE, MAS É OUTRO JOGO! GOL NO BASQUETE NÃO VALE!",
+      "O enunciado pediu uma coisa e você entregou outra! Eu tô aqui grudado no vidro, desacreditado!",
+      "Resposta certa na partida errada! O narrador ficou rouco de tanto gritar 'não é esse campo!'",
+      "Tecnicamente certo e totalmente fora de campo! O juiz tá procurando a regra pra isso e não acha!"
+    ],
+    "reserva": "Resposta verdadeira nem sempre é a resposta da pergunta. Volte ao enunciado e veja o que ele pede."
+  },
+  {
+    "etiqueta": "edf-acritico-midia",
+    "fofo": [
+      "Propaganda é boa em prometer e esquece de contar o resto. Vamos olhar com um pouquinho de desconfiança?",
+      "Você acreditou no anúncio que era bonito. Todo anúncio é. Vamos ver o que está por trás?",
+      "Anúncio tem pressa de vender. A gente tem tempo de analisar. Bora usar?",
+      "Eu também já acreditei que um tênis novo me faria nadar mais rápido. Spoiler: não. E eu nem tenho pé!",
+      "Quase! O comercial falou bonito e você deu like. Agora relê com a lupa de detetive!"
+    ],
+    "sarc": [
+      "Se a propaganda disse, então deve ser verdade. Ninguém ganha nada com isso, claro.",
+      "Que confiança no anúncio. A empresa deve ter te mandado um agradecimento.",
+      "Análise crítica é opcional quando o slogan é bonito, né?",
+      "O comercial prometeu felicidade em 30 segundos e você acreditou. O comercial ficou até sem graça.",
+      "Claro, se o anúncio tem música animada e câmera lenta, só pode ser verdade."
+    ],
+    "sem": [
+      "Você engoliu o anúncio inteiro! Eu já fui fisgado por isca e olha o meu trauma de pescaria!",
+      "O slogan piscou, a música subiu e você comprou a resposta errada em doze vezes sem juros!",
+      "ACREDITOU NO SLOGAN! O PENSAMENTO CRÍTICO FEZ COMUNICADO!",
+      "Propaganda não é verdade absoluta! O marketing tá comemorando sua fé com bolo e balão!",
+      "O anúncio disse 'confia' e você confiou! Eu digo 'lê o enunciado' e ninguém me ouve! Injustiça!"
+    ],
+    "reserva": "Mídia e mercado têm interesses. Analise o discurso antes de aceitá-lo."
+  },
+  {
+    "etiqueta": "edf-ignorou-inclusao",
+    "fofo": [
+      "Todo mundo tem lugar na quadra. Faltou lembrar de todas as pessoas, com seus jeitos e condições. Bora incluir?",
+      "Uma prática boa cabe todo mundo. Revisa a resposta com mais gente na roda!",
+      "Participar é um direito de todo mundo. Quando a regra se adapta, o jogo fica mais divertido. Releia!",
+      "Quase! Seu time tá ótimo, só esqueceu de chamar metade da turma. Abre a roda que cabe!",
+      "No aquário, o caramujo, a pedra e o baiacu brincam juntos, cada um do seu jeito. A quadra também pode!"
+    ],
+    "sarc": [
+      "Esporte só pra quem já sabe jogar. Que exclusivo, parece clube fechado.",
+      "Ótima ideia: montar o jogo e deixar parte da turma assistindo. A arquibancada agradece a audiência.",
+      "Inclusão como detalhe. Detalhe que, por acaso, é o assunto da questão inteira.",
+      "A quadra é de todos, menos de quem a resposta esqueceu. Hum.",
+      "Que regra rígida. Ela prefere ver metade da turma sentada a mudar uma vírgula."
+    ],
+    "sem": [
+      "Todo mundo cabe na quadra! A resposta esqueceu parte do time e eu tô batendo no vidro de indignação!",
+      "DEIXOU GENTE DE FORA! O JOGO FICOU PELA METADE!",
+      "A inclusão não é opcional! Até eu, que sou um peixe, jogo bola com a pedrinha! Ela é goleira!",
+      "Você fechou o portão da quadra! Tem gente lá fora com vontade de jogar e o apito tá triste!",
+      "Eu investi em você e você monta um time que deixa metade da turma no banco! Que técnico é esse?!"
+    ],
+    "reserva": "Toda pessoa tem direito de participar. Veja como a prática pode acolher todos."
+  },
+  {
+    "etiqueta": "edf-origem-errada",
+    "fofo": [
+      "Você mandou a prática pra outro país. Ela foi, curtiu a viagem, mas quer voltar pra casa. Confere o mapa!",
+      "Quase! Essa modalidade tem outra terra natal. Ela tá olhando o globo e apontando com saudade.",
+      "Você acertou o esporte e errou a cidade natal dele. Ele mandou um cartão-postal de lá pra ajudar!",
+      "A peteca tem raiz bem brasileira e ficou surpresa com a viagem que você deu pra ela.",
+      "O mapa do esporte é grande mesmo. Você só pegou o caminho do vizinho. Bora achar a casa certa?"
+    ],
+    "sarc": [
+      "O Charles Miller trouxe o futebol de navio e você mandou o esporte desembarcar em outro porto. Ótima rota.",
+      "Que geografia criativa. O atlas pediu pra rever as provas.",
+      "Você mudou a nacionalidade da modalidade sem nem pedir documento. Burocracia zero, eu respeito.",
+      "Pela sua resposta, a capoeira nasceu num lugar sem berimbau. Ousado.",
+      "Origem trocada com muita segurança. O GPS esportivo tá recalculando a rota até agora."
+    ],
+    "sem": [
+      "Você deu outro passaporte pra modalidade! Ela tá na alfândega tentando se explicar!",
+      "O GLOBO GIROU TRÊS VEZES PROCURANDO ESSE LUGAR!",
+      "O judô tá de quimono no aeroporto errado, perguntando pra todo mundo onde fica a casa dele!",
+      "Eu nunca saí do aquário e sei mais geografia esportiva que essa resposta! E eu nem tenho mapa!",
+      "Você mandou a modalidade pro outro lado do mundo! Ela chegou lá e ninguém sabia as regras!"
+    ],
+    "reserva": "Cada prática tem uma história de origem. Confira de qual povo ou lugar ela veio."
+  },
+  {
+    "etiqueta": "edf-capacidade-trocada",
+    "fofo": [
+      "Força, resistência, velocidade, equilíbrio: são vizinhas de rua, mas cada uma mora numa casa. Bora achar a certa?",
+      "Você pôs um nome de capacidade no lugar de outra. A etiqueta deve ter caído! Tenta de novo!",
+      "Coordenação e equilíbrio parecem parentes, mas têm certidões separadas. Reveja a pista!",
+      "Quase! O enunciado deu uma dica gentil e você foi cumprimentar a capacidade do lado. Ela acenou de volta!",
+      "O Valdir confunde 'rápido' com 'resistente'. Por isso chega atrasado, mas chega! Releia a pista!"
+    ],
+    "sarc": [
+      "Resistência, força, velocidade: tudo a mesma coisa. Que visão sintética.",
+      "Flexibilidade é equilíbrio. Quem diria que a ciência esportiva era tão simples.",
+      "Coordenação, agilidade, equilíbrio: sinônimos oficiais, né?",
+      "Pela sua resposta, o maratonista e o velocista treinam igualzinho. Os dois tão rindo juntos agora.",
+      "Você deu a medalha de equilíbrio pra prova de força. O pódio ficou meio torto."
+    ],
+    "sem": [
+      "CAPACIDADE ERRADA! O TERMO CERTO ESTAVA ALI!",
+      "Você trocou um termo por outro! O cronômetro e a trena estão se olhando sem saber quem mede o quê!",
+      "Resistência e velocidade trocaram de crachá e a tabela do professor entrou em parafuso!",
+      "Força não é resistência! O filtro do aquário trabalha a noite toda e nunca se achou forte, só teimoso!",
+      "Plot twist: equilíbrio não é coordenação! A gangorra e o malabarista exigem respeito!"
+    ],
+    "reserva": "Força, resistência, flexibilidade, velocidade e equilíbrio são capacidades diferentes."
+  }
+]

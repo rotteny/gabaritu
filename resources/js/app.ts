@@ -1,24 +1,30 @@
 import { createInertiaApp } from '@inertiajs/vue3';
 import { initializeTheme } from '@/composables/useAppearance';
-import AppLayout from '@/layouts/AppLayout.vue';
+import AlunoLayout from '@/layouts/AlunoLayout.vue';
 import AuthLayout from '@/layouts/AuthLayout.vue';
-import SettingsLayout from '@/layouts/settings/Layout.vue';
+import QuestaoLayout from '@/layouts/QuestaoLayout.vue';
 import { initializeFlashToast } from '@/lib/flashToast';
+import { instalarDestravamento } from '@/lib/motorSom';
+import { iniciarSomGlobal } from '@/composables/useMusica';
+import { instalarSomInterface } from '@/lib/somInterface';
 
-const appName = import.meta.env.VITE_APP_NAME || 'Laravel';
+const appName = 'Gabaritu';
 
 void createInertiaApp({
-    title: (title) => (title ? `${title} - ${appName}` : appName),
+    title: (title) =>
+        !title || title.startsWith(appName)
+            ? title || appName
+            : `${title} · ${appName}`,
     layout: (name) => {
         switch (true) {
             case name === 'Landing':
                 return null;
+            case name === 'Questao':
+                return QuestaoLayout;
             case name.startsWith('auth/'):
                 return AuthLayout;
-            case name.startsWith('settings/'):
-                return [AppLayout, SettingsLayout];
             default:
-                return AppLayout;
+                return AlunoLayout;
         }
     },
     withApp: (app) => {
@@ -31,12 +37,15 @@ void createInertiaApp({
         });
     },
     progress: {
-        color: '#4B5563',
+        color: '#e2640a',
     },
 });
 
 // This will set light / dark mode on page load...
 initializeTheme();
+instalarDestravamento();
+instalarSomInterface();
+iniciarSomGlobal();
 
 // This will listen for flash toast data from the server...
 initializeFlashToast();

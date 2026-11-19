@@ -1,0 +1,12 @@
+{
+  "slug": "fisica",
+  "nome": "Física",
+  "area": "Ciências da Natureza e suas Tecnologias",
+  "assuntos": [
+    { "slug": "eletrodinamica", "nome": "Eletrodinâmica", "ordem": 1, "por_que": "Corrente, resistência, potência e consumo de energia elétrica aparecem todo ano, quase sempre ligados à conta de luz." },
+    { "slug": "cinematica", "nome": "Cinemática", "ordem": 2, "por_que": "Velocidade média, MRU e MRUV em trânsito e esporte são a base de várias questões de leitura de situação." },
+    { "slug": "termologia", "nome": "Termologia e calorimetria", "ordem": 3, "por_que": "Calor, temperatura e mudanças de estado aparecem em situações de cozinha, clima e máquinas térmicas." },
+    { "slug": "ondulatoria", "nome": "Ondulatória e acústica", "ordem": 4, "por_que": "Som, luz e ondas do dia a dia (rádio, eco, instrumentos) são cobrados com v = λ·f e conceitos de frequência." },
+    { "slug": "dinamica-energia", "nome": "Dinâmica e energia mecânica", "ordem": 5, "por_que": "Leis de Newton, trabalho, potência e conservação de energia explicam de freios a montanhas-russas." }
+  ]
+}

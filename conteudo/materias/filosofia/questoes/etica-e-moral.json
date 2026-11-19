@@ -1,0 +1,282 @@
+[
+  {
+    "id": "fil-etica-e-moral-001", "materia": "filosofia", "assunto": "etica-e-moral", "questionario": 1, "dificuldade": -1,
+    "contexto": "Ética ou moral?",
+    "enunciado": "Na filosofia, a moral é o conjunto de normas, valores e costumes que orientam o comportamento em uma sociedade, enquanto a ética é a reflexão crítica sobre o fundamento dessas normas. Qual situação ilustra uma reflexão ética?",
+    "alternativas": [
+      { "letra": "A", "texto": "seguir a regra de não falar alto na biblioteca", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "B", "texto": "debater por que a honestidade é um valor e se ela vale para todas as pessoas", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "memorizar o regimento da escola", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "D", "texto": "obedecer à tradição da família sem questionar", "correta": false, "etiqueta": "fil-moral-senso-comum" },
+      { "letra": "E", "texto": "contar quantas pessoas cumprem a lei", "correta": false, "etiqueta": "fil-simplificou-demais" }
+    ],
+    "explicacao": "Seguir regras é viver a moral; perguntar por que elas valem e se são justas é fazer ética. As outras opções descrevem obedecer, memorizar ou contar, e não refletir sobre o fundamento dos valores.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-etica-e-moral-002", "materia": "filosofia", "assunto": "etica-e-moral", "questionario": 1, "dificuldade": -1,
+    "contexto": "Lei para todo mundo",
+    "enunciado": "Kant formulou o imperativo categórico, que pode ser resumido assim: age apenas segundo uma máxima que possas querer que se torne lei universal. Na prática, isso significa que:",
+    "alternativas": [
+      { "letra": "A", "texto": "uma ação é boa se trouxer vantagem a quem a pratica", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "B", "texto": "uma ação é boa se agradar à maioria", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "C", "texto": "uma ação é boa se a lei local a permite", "correta": false, "etiqueta": "fil-moral-senso-comum" },
+      { "letra": "D", "texto": "uma ação só é moralmente correta se qualquer pessoa pudesse agir do mesmo modo sem contradição", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "uma ação é boa se faz parte da tradição", "correta": false, "etiqueta": "fil-moral-senso-comum" }
+    ],
+    "explicacao": "O teste kantiano pergunta: e se todo mundo fizesse isso? Se a regra não puder valer para todos sem se anular, como mentir para ganhar vantagem, a ação é errada. Agradar à maioria é critério do utilitarismo, e não de Kant.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-etica-e-moral-003", "materia": "filosofia", "assunto": "etica-e-moral", "questionario": 1, "dificuldade": 0,
+    "contexto": "Verba do grêmio",
+    "enunciado": "Texto autoral: o grêmio precisa decidir como gastar a verba do ano. Em vez de seguir a preferência dos mais barulhentos, a diretoria faz uma enquete e escolhe a opção que traz benefício ao maior número de alunos. Esse critério lembra:",
+    "alternativas": [
+      { "letra": "A", "texto": "o utilitarismo, que avalia ações pelas consequências, buscando a maior felicidade para o maior número", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "o imperativo categórico de Kant, que avalia pelo dever universal", "correta": false, "etiqueta": "fil-confundiu-filosofo" },
+      { "letra": "C", "texto": "o relativismo cultural, que depende da cultura de cada grupo", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "D", "texto": "o intelectualismo socrático, segundo o qual a virtude é conhecimento", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "E", "texto": "a ética das virtudes de Aristóteles, centrada no caráter", "correta": false, "etiqueta": "fil-confundiu-filosofo" }
+    ],
+    "explicacao": "O utilitarismo, de Bentham e Mill, julga as ações pelos resultados e busca maximizar o bem-estar geral. Kant olharia o dever, e Aristóteles, o caráter de quem age.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-etica-e-moral-004", "materia": "filosofia", "assunto": "etica-e-moral", "questionario": 1, "dificuldade": 0,
+    "contexto": "Nem de mais, nem de menos",
+    "enunciado": "Aristóteles defendia que a virtude é um meio-termo entre dois extremos viciosos, um por falta e outro por excesso, definido pela razão prática. A coragem, por exemplo, está entre:",
+    "alternativas": [
+      { "letra": "A", "texto": "a avareza e o desperdício", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "B", "texto": "a justiça e a injustiça", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "C", "texto": "a covardia e a prudência", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "D", "texto": "a tristeza e a alegria", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "E", "texto": "a covardia, por falta, e a temeridade, por excesso", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Quem tem medo de tudo é covarde; quem enfrenta qualquer perigo sem pensar é temerário; o corajoso age com medida. Avareza e desperdício são os extremos da generosidade, outra virtude.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-etica-e-moral-005", "materia": "filosofia", "assunto": "etica-e-moral", "questionario": 1, "dificuldade": 1,
+    "contexto": "Dilema da passarela",
+    "enunciado": "Dilema de ética: um bonde desgovernado vai atingir cinco pessoas nos trilhos. Para pará-lo, você teria de empurrar uma pessoa de uma passarela: o corpo dela travaria o bonde e salvaria as cinco. Qual alternativa descreve melhor a diferença entre o raciocínio utilitarista e o kantiano?",
+    "alternativas": [
+      { "letra": "A", "texto": "Ambos concordam, porque todas as vidas valem o mesmo", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "B", "texto": "O kantiano calcula o saldo de vidas, e o utilitarista segue o dever", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "C", "texto": "O utilitarista olha o saldo de vidas salvas, e o kantiano rejeita usar uma pessoa apenas como meio, mesmo para um bom resultado", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "O utilitarista rejeita calcular as consequências", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "E", "texto": "Nenhum dos dois leva em conta o valor da vida humana", "correta": false, "etiqueta": "fil-ideia-oposta" }
+    ],
+    "explicacao": "O utilitarismo avalia pelo resultado, então tende a aceitar sacrificar uma pessoa para salvar cinco. Para Kant, a pessoa não pode ser tratada apenas como instrumento, independentemente do saldo. Os dois dão valor à vida, mas por critérios diferentes.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-etica-e-moral-006", "materia": "filosofia", "assunto": "etica-e-moral", "questionario": 2, "dificuldade": -1,
+    "contexto": "Cada cultura, um jeito",
+    "enunciado": "O relativismo cultural sustenta que valores e costumes só podem ser avaliados dentro da cultura em que surgem, pois não existiria um padrão moral único válido para todas. Qual frase expressa essa ideia?",
+    "alternativas": [
+      { "letra": "A", "texto": "Existe uma moral única, igual em todas as culturas", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "B", "texto": "Cada pessoa decide sozinha o que é certo, sem nenhuma influência social", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "C", "texto": "O que é considerado certo ou errado varia de acordo com a cultura", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "As culturas devem ser ordenadas da melhor para a pior", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "E", "texto": "A moral não existe", "correta": false, "etiqueta": "fil-confundiu-corrente" }
+    ],
+    "explicacao": "O relativismo cultural defende que cada cultura tem seus próprios padrões morais. Ordenar culturas do melhor ao pior é etnocentrismo, justamente o que o relativismo critica. Dizer que a moral não existe é outra posição, o niilismo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-etica-e-moral-007", "materia": "filosofia", "assunto": "etica-e-moral", "questionario": 2, "dificuldade": -1,
+    "contexto": "Colar ou não colar",
+    "enunciado": "Para Kant, agir com autonomia é seguir uma lei que a própria razão reconhece como válida, e não apenas obedecer por medo de punição ou por interesse. Qual aluno age com autonomia?",
+    "alternativas": [
+      { "letra": "A", "texto": "O que não cola porque considera errado enganar, mesmo sabendo que ninguém veria", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "O que não cola porque o fiscal está olhando", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "C", "texto": "O que não cola porque ganhará um prêmio por isso", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "D", "texto": "O que não cola porque o amigo pediu", "correta": false, "etiqueta": "fil-moral-senso-comum" },
+      { "letra": "E", "texto": "O que cola quando a nota pesa menos", "correta": false, "etiqueta": "fil-opiniao-pessoal" }
+    ],
+    "explicacao": "Autonomia é agir por uma regra que a própria razão aprova. Quem obedece por medo ou por recompensa age por heteronomia, ou seja, movido por algo externo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-etica-e-moral-008", "materia": "filosofia", "assunto": "etica-e-moral", "questionario": 2, "dificuldade": 0,
+    "contexto": "Ninguém erra de propósito",
+    "enunciado": "Para Sócrates, ninguém pratica o mal de propósito: quem age mal o faz por ignorância do que é realmente bom, pois a virtude é um tipo de conhecimento. Segundo essa ideia, a melhor forma de reduzir as más ações é:",
+    "alternativas": [
+      { "letra": "A", "texto": "apenas aumentar as punições", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "B", "texto": "confiar na opinião da maioria", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "C", "texto": "estimular a obediência cega à tradição", "correta": false, "etiqueta": "fil-moral-senso-comum" },
+      { "letra": "D", "texto": "incentivar cada um a fazer o que quiser", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "E", "texto": "educar e levar as pessoas a refletir sobre o que é o bem", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Se o mal vem da ignorância, o remédio é o conhecimento, por meio do diálogo e da reflexão. Esse é o chamado intelectualismo moral socrático.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-etica-e-moral-009", "materia": "filosofia", "assunto": "etica-e-moral", "questionario": 2, "dificuldade": 0,
+    "contexto": "Fim, nunca só meio",
+    "enunciado": "Kant formulou o princípio de que devemos tratar a humanidade, em nós e nos outros, sempre como fim e nunca apenas como meio. Qual situação viola esse princípio?",
+    "alternativas": [
+      { "letra": "A", "texto": "um professor que explica a matéria a um aluno", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "B", "texto": "uma empresa que explora trabalhadores sem pagá-los, tratando-os apenas como ferramenta de lucro", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "um cliente que pede o troco e agradece", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "D", "texto": "um grupo que divide tarefas combinando com todos", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "E", "texto": "um médico que cobra pela consulta", "correta": false, "etiqueta": "fil-simplificou-demais" }
+    ],
+    "explicacao": "Violar o princípio é tratar pessoas só como instrumentos, ignorando sua dignidade. Relações de troca, cobrança justa ou cooperação não violam o princípio, pois a pessoa continua sendo respeitada como fim.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-etica-e-moral-010", "materia": "filosofia", "assunto": "etica-e-moral", "questionario": 2, "dificuldade": 1,
+    "contexto": "A mentira e o dever",
+    "enunciado": "Em um texto de 1797, Kant sustentou que mentir é sempre errado, mesmo para quem é perguntado por alguém mal-intencionado sobre o paradeiro de um amigo. Essa posição mostra que a ética kantiana é:",
+    "alternativas": [
+      { "letra": "A", "texto": "utilitarista: avalia as ações pelas consequências", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "B", "texto": "relativista: depende da cultura", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "C", "texto": "hedonista: busca o prazer", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "D", "texto": "deontológica: avalia a ação pelo dever, independentemente das consequências", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "uma ética das virtudes, como a de Aristóteles", "correta": false, "etiqueta": "fil-confundiu-filosofo" }
+    ],
+    "explicacao": "Na ética do dever (deontologia), certas ações são obrigatórias ou proibidas por princípio, sem depender do resultado. Essa posição rigorosa de Kant é bastante criticada, mas ilustra bem a diferença para o utilitarismo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-etica-e-moral-011", "materia": "filosofia", "assunto": "etica-e-moral", "questionario": 3, "dificuldade": -1,
+    "contexto": "Legal, mas certo?",
+    "enunciado": "Furar a fila de uma lanchonete não é crime, mas muita gente considera a atitude moralmente errada. Essa situação mostra que:",
+    "alternativas": [
+      { "letra": "A", "texto": "tudo o que é legal é moralmente correto", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "B", "texto": "moral e lei são exatamente a mesma coisa", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "C", "texto": "só a lei tem valor ético", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "D", "texto": "a moral deixa de existir quando a lei é omissa", "correta": false, "etiqueta": "fil-moral-senso-comum" },
+      { "letra": "E", "texto": "o que é legal nem sempre coincide com o que é moralmente correto", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Lei e moral se relacionam, mas não são a mesma coisa. Há ações legais que consideramos moralmente erradas e, ao longo da história, há leis que foram questionadas por serem injustas.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-etica-e-moral-012", "materia": "filosofia", "assunto": "etica-e-moral", "questionario": 3, "dificuldade": 0,
+    "contexto": "Valores mudam?",
+    "enunciado": "Há dois séculos, a escravidão era aceita por muitas leis e sociedades, ainda que sempre resistida pelas pessoas escravizadas. Hoje ela é condenada por praticamente todos os países e por declarações de direitos humanos. Essa mudança mostra que:",
+    "alternativas": [
+      { "letra": "A", "texto": "a moral nunca muda", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "B", "texto": "normas morais e jurídicas mudam historicamente, e as sociedades podem rever seus valores por meio de argumentos e lutas", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "o que a maioria aceita é sempre correto", "correta": false, "etiqueta": "fil-moral-senso-comum" },
+      { "letra": "D", "texto": "a escravidão era moralmente correta na época, porque era legal", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "E", "texto": "valores não podem ser discutidos racionalmente", "correta": false, "etiqueta": "fil-simplificou-demais" }
+    ],
+    "explicacao": "A condenação da escravidão resultou de lutas, argumentos e mudanças históricas, a começar pela resistência dos próprios escravizados. Se a maioria ou a lei bastassem para tornar algo correto, nenhuma crítica a uma prática aceita seria possível.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-etica-e-moral-013", "materia": "filosofia", "assunto": "etica-e-moral", "questionario": 3, "dificuldade": 0,
+    "contexto": "Felicidade de verdade",
+    "enunciado": "Para Aristóteles, a felicidade (eudaimonia) é o bem supremo, buscado por si mesmo. Ela não se resume a um prazer passageiro, mas a uma vida bem vivida, com virtudes e uso da razão. Qual exemplo se aproxima mais dessa ideia?",
+    "alternativas": [
+      { "letra": "A", "texto": "alguém que busca o máximo de diversão a cada fim de semana", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "B", "texto": "alguém que acumula riquezas, achando que isso basta", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "C", "texto": "alguém que evita qualquer esforço", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "D", "texto": "alguém que cultiva amizades, estuda e age com justiça e coragem ao longo da vida, realizando-se nisso", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "alguém que segue regras sem pensar", "correta": false, "etiqueta": "fil-moral-senso-comum" }
+    ],
+    "explicacao": "A eudaimonia é uma realização da vida inteira, que combina virtude, razão e relações. Diversão e dinheiro podem fazer parte, mas não bastam, e seguir regras sem pensar dispensa justamente a razão.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-etica-e-moral-014", "materia": "filosofia", "assunto": "etica-e-moral", "questionario": 3, "dificuldade": 1,
+    "contexto": "Prazer tem qualidade",
+    "enunciado": "John Stuart Mill, utilitarista, defendeu que os prazeres não valem todos o mesmo: os intelectuais e morais seriam superiores aos meramente corporais. Segundo ele, seria melhor ser um Sócrates insatisfeito do que um tolo satisfeito. Essa ideia responde a qual crítica ao utilitarismo?",
+    "alternativas": [
+      { "letra": "A", "texto": "a de que ele ignora as consequências das ações", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "B", "texto": "a de que ele defende apenas o interesse individual", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "C", "texto": "a de que ele reduziria a vida a prazeres vulgares, sem distinguir qualidade", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "a de que ele se baseia em deveres universais", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "E", "texto": "a de que ele nega o uso da razão", "correta": false, "etiqueta": "fil-ideia-oposta" }
+    ],
+    "explicacao": "A crítica era que o utilitarismo seria uma doutrina de porcos, ao medir tudo por prazer. Mill respondeu que existe diferença de qualidade entre os prazeres. Deveres universais são o terreno de Kant, e não do utilitarismo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-etica-e-moral-015", "materia": "filosofia", "assunto": "etica-e-moral", "questionario": 3, "dificuldade": 1,
+    "contexto": "O preço do saldo",
+    "enunciado": "Uma crítica comum ao utilitarismo é que, ao somar benefícios e prejuízos, ele poderia justificar o sacrifício dos direitos de uma minoria se isso aumentasse o bem-estar da maioria. Essa crítica se apoia na ideia de que:",
+    "alternativas": [
+      { "letra": "A", "texto": "as pessoas têm direitos e dignidade que não podem ser trocados por vantagens coletivas", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "só o interesse individual importa", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "C", "texto": "as consequências das ações nunca importam", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "D", "texto": "a maioria nunca deve decidir nada", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "E", "texto": "a moral depende exclusivamente da cultura", "correta": false, "etiqueta": "fil-confundiu-corrente" }
+    ],
+    "explicacao": "A crítica diz que a dignidade das pessoas limita o que se pode fazer em nome do bem coletivo, o que é um argumento próximo ao de Kant. Isso não significa que as consequências sejam irrelevantes nem que a maioria nunca deva decidir.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-etica-e-moral-016", "materia": "filosofia", "assunto": "etica-e-moral", "questionario": 4, "dificuldade": -1,
+    "contexto": "Responsabilidade moral",
+    "enunciado": "Para a filosofia moral, só faz sentido responsabilizar alguém por uma ação quando a pessoa tem alguma liberdade de escolha. Em qual caso a pessoa NÃO é moralmente responsável pelo ato?",
+    "alternativas": [
+      { "letra": "A", "texto": "quem mente de propósito para tirar vantagem", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "B", "texto": "quem joga lixo no chão porque viu todo mundo fazendo", "correta": false, "etiqueta": "fil-moral-senso-comum" },
+      { "letra": "C", "texto": "quem descumpre um combinado porque achou que não era importante", "correta": false, "etiqueta": "fil-opiniao-pessoal" },
+      { "letra": "D", "texto": "quem, empurrado por uma multidão sem poder resistir, esbarra em alguém", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "quem copia a lição do colega porque estava sem tempo", "correta": false, "etiqueta": "fil-simplificou-demais" }
+    ],
+    "explicacao": "Responsabilidade pressupõe escolha. Quem é empurrado sem poder resistir não escolheu o ato. Nos demais casos houve escolha, e ter uma desculpa ou ver outros fazendo o mesmo não elimina a responsabilidade.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-etica-e-moral-017", "materia": "filosofia", "assunto": "etica-e-moral", "questionario": 4, "dificuldade": 0,
+    "contexto": "Carteira achada",
+    "enunciado": "Três amigos discutem devolver uma carteira achada. Ana diz: 'Devolvo, porque é meu dever, qualquer que seja o resultado.' Bia diz: 'Devolvo, porque isso gera mais bem-estar para todos.' Clara diz: 'Devolvo, porque uma pessoa honesta age assim.' Em ordem, as falas correspondem a:",
+    "alternativas": [
+      { "letra": "A", "texto": "utilitarismo, ética kantiana e ética das virtudes", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "B", "texto": "ética das virtudes, ética kantiana e utilitarismo", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "C", "texto": "ética do dever (kantiana), utilitarismo e ética das virtudes", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "relativismo, ética kantiana e utilitarismo", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "E", "texto": "utilitarismo nas três falas", "correta": false, "etiqueta": "fil-generalizou-pensador" }
+    ],
+    "explicacao": "Ana apela ao dever, independente do resultado, que é a posição de Kant. Bia olha para as consequências e o bem-estar geral, como o utilitarismo. Clara fala de caráter e de ser uma pessoa honesta, que é o foco da ética das virtudes.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-etica-e-moral-018", "materia": "filosofia", "assunto": "etica-e-moral", "questionario": 4, "dificuldade": 0,
+    "contexto": "Troco certo",
+    "enunciado": "Para Kant, uma ação só tem valor moral quando é feita por dever, e não apenas conforme o dever. Dois comerciantes dão o troco certo: um por medo de perder clientes, o outro porque acredita ser seu dever agir com honestidade. Segundo Kant:",
+    "alternativas": [
+      { "letra": "A", "texto": "as duas ações têm o mesmo valor moral, pois o troco foi certo", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "B", "texto": "só a ação do segundo tem valor moral, pois ele age por dever", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "só a ação do primeiro tem valor moral, pois ele pensa nas consequências", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "D", "texto": "nenhuma tem valor, porque dar troco não é um assunto moral", "correta": false, "etiqueta": "fil-leitura-literal" },
+      { "letra": "E", "texto": "o primeiro age melhor, porque agiu por interesse", "correta": false, "etiqueta": "fil-ideia-oposta" }
+    ],
+    "explicacao": "Os dois atos são conformes ao dever, mas apenas o do segundo comerciante é motivado por respeito ao dever. Para Kant, o que dá valor moral é a motivação, e não só o resultado.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-etica-e-moral-019", "materia": "filosofia", "assunto": "etica-e-moral", "questionario": 4, "dificuldade": 1,
+    "contexto": "Limite do relativismo",
+    "enunciado": "Uma crítica ao relativismo cultural extremo é que, se todo valor dependesse apenas da cultura, não seria possível condenar práticas como a tortura ou o genocídio, nem reconhecer progresso moral. Essa crítica sugere que:",
+    "alternativas": [
+      { "letra": "A", "texto": "talvez existam valores básicos, como a dignidade humana, que valem além das fronteiras culturais", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "todas as culturas têm exatamente os mesmos costumes", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "C", "texto": "a cultura não exerce nenhuma influência sobre a moral", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "D", "texto": "só a cultura ocidental está correta", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "E", "texto": "a moral não existe", "correta": false, "etiqueta": "fil-confundiu-corrente" }
+    ],
+    "explicacao": "A crítica não nega que as culturas variem, mas aponta que o relativismo extremo impede condenar violações graves. Por isso, muitos defendem direitos humanos como base comum, sem afirmar que uma cultura é superior às outras.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-etica-e-moral-020", "materia": "filosofia", "assunto": "etica-e-moral", "questionario": 4, "dificuldade": 1,
+    "contexto": "Convicção ou responsabilidade",
+    "enunciado": "O sociólogo Max Weber distinguiu a ética da convicção, que age por princípios sem se preocupar com as consequências, e a ética da responsabilidade, que leva em conta os efeitos previsíveis dos próprios atos. Uma prefeita que pondera os efeitos previsíveis de uma obra sobre moradores e meio ambiente, em vez de apenas cumprir uma promessa, age mais de acordo com:",
+    "alternativas": [
+      { "letra": "A", "texto": "a ética da convicção", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "B", "texto": "o imperativo categórico de Kant", "correta": false, "etiqueta": "fil-confundiu-filosofo" },
+      { "letra": "C", "texto": "o relativismo cultural", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "D", "texto": "o hedonismo", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "E", "texto": "a ética da responsabilidade", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Quem pondera as consequências previsíveis de seus atos age pela ética da responsabilidade. Quem se apega a princípios ou promessas sem olhar o resultado age pela ética da convicção.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]

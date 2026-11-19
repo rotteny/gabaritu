@@ -1,0 +1,15 @@
+[
+  { "id": "qui-erro-massa-molar", "nome": "Errou a massa molar", "descricao": "Somou as massas atômicas de forma errada, esqueceu um átomo ou um índice da fórmula." },
+  { "id": "qui-esqueceu-balancear", "nome": "Ignorou os coeficientes", "descricao": "Usou a equação sem balancear ou ignorou a proporção dada pelos coeficientes." },
+  { "id": "qui-confundiu-unidade", "nome": "Confundiu unidades", "descricao": "Misturou mL e L, g e mg, mol e massa, ou volume e massa." },
+  { "id": "qui-inverteu-razao", "nome": "Inverteu a divisão ou a proporção", "descricao": "Multiplicou onde devia dividir, ou o contrário, ao montar a regra de três." },
+  { "id": "qui-ignorou-limitante-rendimento", "nome": "Ignorou limitante, rendimento ou pureza", "descricao": "Esqueceu o reagente limitante, o rendimento da reação ou a pureza da amostra." },
+  { "id": "qui-erro-diluicao", "nome": "Errou a diluição", "descricao": "Confundiu volume adicionado com volume final, ou não manteve a quantidade de soluto." },
+  { "id": "qui-erro-ph", "nome": "Errou a escala de pH", "descricao": "Tratou a escala de pH como linear, ou confundiu ácido com base." },
+  { "id": "qui-confundiu-funcao-organica", "nome": "Confundiu a função orgânica", "descricao": "Trocou funções orgânicas ou errou nomenclatura, cadeia ou isomeria." },
+  { "id": "qui-erro-sinal-energia", "nome": "Errou o sinal da energia", "descricao": "Confundiu reação exotérmica com endotérmica, ou o sinal do ΔH." },
+  { "id": "qui-erro-oxirreducao", "nome": "Trocou oxidação e redução", "descricao": "Confundiu quem oxida e quem reduz, ou ânodo e cátodo, ou o sentido dos elétrons." },
+  { "id": "qui-erro-conta", "nome": "Erro de conta", "descricao": "Errou a operação aritmética ou parou num resultado intermediário." },
+  { "id": "qui-senso-comum", "nome": "Usou o senso comum", "descricao": "Respondeu com a ideia do dia a dia em vez do conceito químico." },
+  { "id": "qui-ignorou-dado", "nome": "Ignorou um dado do enunciado", "descricao": "Respondeu sem usar uma informação decisiva que estava no texto." }
+]

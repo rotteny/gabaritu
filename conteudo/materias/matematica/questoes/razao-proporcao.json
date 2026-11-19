@@ -1,0 +1,282 @@
+[
+  {
+    "id": "mat-razao-proporcao-001", "materia": "matematica", "assunto": "razao-proporcao", "questionario": 1, "dificuldade": -1,
+    "contexto": "Pizza da turma",
+    "enunciado": "Para fazer 4 pizzas, a pizzaria da escola usa 600 g de queijo. Para a festa de formatura, vão ser feitas 10 pizzas com a mesma receita. Quantos gramas de queijo serão necessários?",
+    "alternativas": [
+      { "letra": "A", "texto": "150 g", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "B", "texto": "1.500 g", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "240 g", "correta": false, "etiqueta": "mat-proporcao-invertida" },
+      { "letra": "D", "texto": "750 g", "correta": false, "etiqueta": "mat-somou-em-vez-de-multiplicar" },
+      { "letra": "E", "texto": "1.200 g", "correta": false, "etiqueta": "mat-erro-de-conta" }
+    ],
+    "explicacao": "Mais pizzas pedem mais queijo (grandezas diretamente proporcionais). Cada pizza usa 600 ÷ 4 = 150 g, e 10 pizzas usam 10 × 150 = 1.500 g. Os 150 g são só o passo do meio.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-razao-proporcao-002", "materia": "matematica", "assunto": "razao-proporcao", "questionario": 1, "dificuldade": -1,
+    "contexto": "Viagem no mapa",
+    "enunciado": "Em um mapa de escala 1:500.000, a distância entre duas cidades é de 6 cm. Qual é a distância real entre elas?",
+    "alternativas": [
+      { "letra": "A", "texto": "3 km", "correta": false, "etiqueta": "mat-unidade" },
+      { "letra": "B", "texto": "300 km", "correta": false, "etiqueta": "mat-unidade" },
+      { "letra": "C", "texto": "3.000.000 km", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "D", "texto": "30 km", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "0,3 km", "correta": false, "etiqueta": "mat-unidade" }
+    ],
+    "explicacao": "Cada 1 cm no mapa vale 500.000 cm reais. Então 6 cm valem 3.000.000 cm. Como 1 km tem 100.000 cm, a distância real é 30 km. O número 3.000.000 está em centímetros, não em quilômetros.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-razao-proporcao-003", "materia": "matematica", "assunto": "razao-proporcao", "questionario": 1, "dificuldade": 0,
+    "contexto": "Rifa do grêmio",
+    "enunciado": "Três amigos juntaram dinheiro para montar uma barraca de lanche: o primeiro investiu R$ 200, o segundo R$ 300 e o terceiro R$ 500. O lucro foi de R$ 1.800 e deve ser dividido em partes proporcionais ao valor investido. Quanto cabe ao segundo amigo?",
+    "alternativas": [
+      { "letra": "A", "texto": "R$ 540", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "R$ 600", "correta": false, "etiqueta": "mat-dividiu-igual" },
+      { "letra": "C", "texto": "R$ 360", "correta": false, "etiqueta": "mat-pegou-parte-errada" },
+      { "letra": "D", "texto": "R$ 1.080", "correta": false, "etiqueta": "mat-esqueceu-base" },
+      { "letra": "E", "texto": "R$ 1.000", "correta": false, "etiqueta": "mat-parou-no-intermediario" }
+    ],
+    "explicacao": "O total investido é 200 + 300 + 500 = 1.000. O segundo amigo investiu 300 de 1.000, ou seja, 30% do total, e 30% de 1.800 dá R$ 540. Dividir por 500 (e não por 1.000) infla o resultado.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-razao-proporcao-004", "materia": "matematica", "assunto": "razao-proporcao", "questionario": 1, "dificuldade": 0,
+    "contexto": "Ônibus da excursão",
+    "enunciado": "Um ônibus, a 60 km/h, faz o trajeto até a praia em 3 horas. Mantendo o mesmo trajeto, se ele viajasse a 90 km/h, quanto tempo levaria?",
+    "alternativas": [
+      { "letra": "A", "texto": "4 h 30 min", "correta": false, "etiqueta": "mat-proporcao-invertida" },
+      { "letra": "B", "texto": "40 min", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "C", "texto": "2 h 30 min", "correta": false, "etiqueta": "mat-erro-de-conta" },
+      { "letra": "D", "texto": "3 h", "correta": false, "etiqueta": "mat-ignorou-dado" },
+      { "letra": "E", "texto": "2 h", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "A distância é 60 × 3 = 180 km. A 90 km/h, o tempo é 180 ÷ 90 = 2 h. Velocidade e tempo são inversamente proporcionais: mais velocidade, menos tempo, então 4 h 30 min não faz sentido.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-razao-proporcao-005", "materia": "matematica", "assunto": "razao-proporcao", "questionario": 1, "dificuldade": 1,
+    "contexto": "Reforma da quadra",
+    "enunciado": "Doze operários, trabalhando 8 horas por dia, reformam uma quadra em 20 dias. Se forem apenas 8 operários, trabalhando 10 horas por dia, em quantos dias a mesma reforma ficará pronta?",
+    "alternativas": [
+      { "letra": "A", "texto": "10,7 dias", "correta": false, "etiqueta": "mat-proporcao-invertida" },
+      { "letra": "B", "texto": "30 dias", "correta": false, "etiqueta": "mat-ignorou-dado" },
+      { "letra": "C", "texto": "24 dias", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "16 dias", "correta": false, "etiqueta": "mat-ignorou-dado" },
+      { "letra": "E", "texto": "37,5 dias", "correta": false, "etiqueta": "mat-proporcao-invertida" }
+    ],
+    "explicacao": "Operários, horas por dia e dias são grandezas em que o produto é constante: 12 × 8 × 20 = 1.920. Com 8 operários e 10 h/dia, 8 × 10 × d = 1.920, logo d = 24. Quem ignora as horas chega a 30, e quem ignora os operários chega a 16.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-razao-proporcao-006", "materia": "matematica", "assunto": "razao-proporcao", "questionario": 2, "dificuldade": -1,
+    "contexto": "Turma de 36 alunos",
+    "enunciado": "Em uma turma de 36 alunos, a razão entre o número de meninas e o de meninos é 5/4. Quantas meninas há nessa turma?",
+    "alternativas": [
+      { "letra": "A", "texto": "16", "correta": false, "etiqueta": "mat-pegou-parte-errada" },
+      { "letra": "B", "texto": "9", "correta": false, "etiqueta": "mat-esqueceu-base" },
+      { "letra": "C", "texto": "20", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "45", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "E", "texto": "4", "correta": false, "etiqueta": "mat-parou-no-intermediario" }
+    ],
+    "explicacao": "Se são 5k meninas e 4k meninos, então 9k = 36 e k = 4. As meninas são 5 × 4 = 20. O valor 16 é a quantidade de meninos e o 4 é só o valor de k.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-razao-proporcao-007", "materia": "matematica", "assunto": "razao-proporcao", "questionario": 2, "dificuldade": 0,
+    "contexto": "Planta da sala",
+    "enunciado": "A planta de uma sala retangular de 4 m por 3 m foi desenhada na escala 1:50. Qual é a área da sala no desenho, em cm²?",
+    "alternativas": [
+      { "letra": "A", "texto": "48 cm²", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "2.400 cm²", "correta": false, "etiqueta": "mat-escala-quadrado" },
+      { "letra": "C", "texto": "28 cm²", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "D", "texto": "0,48 cm²", "correta": false, "etiqueta": "mat-unidade" },
+      { "letra": "E", "texto": "4.800 cm²", "correta": false, "etiqueta": "mat-unidade" }
+    ],
+    "explicacao": "No desenho, 4 m = 400 cm viram 400 ÷ 50 = 8 cm e 3 m = 300 cm viram 6 cm. A área é 8 × 6 = 48 cm². Dividir a área real por 50 não funciona, porque a escala vale para comprimentos e a área depende de dois deles.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-razao-proporcao-008", "materia": "matematica", "assunto": "razao-proporcao", "questionario": 2, "dificuldade": 0,
+    "contexto": "Caixa-d'água",
+    "enunciado": "Uma torneira enche um balde de 120 L em 15 minutos, sempre com a mesma vazão. Quanto tempo ela levaria para encher um tanque de 200 L?",
+    "alternativas": [
+      { "letra": "A", "texto": "9 min", "correta": false, "etiqueta": "mat-proporcao-invertida" },
+      { "letra": "B", "texto": "15 min", "correta": false, "etiqueta": "mat-ignorou-dado" },
+      { "letra": "C", "texto": "35 min", "correta": false, "etiqueta": "mat-erro-de-conta" },
+      { "letra": "D", "texto": "8 min", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "E", "texto": "25 min", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "A vazão é 120 ÷ 15 = 8 L por minuto. Para 200 L, o tempo é 200 ÷ 8 = 25 minutos. Os 8 do meio são litros por minuto, não minutos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-razao-proporcao-009", "materia": "matematica", "assunto": "razao-proporcao", "questionario": 2, "dificuldade": 1,
+    "contexto": "Suco concentrado",
+    "enunciado": "Num suco, 600 mL de concentrado são misturados com água na razão 2:5 (concentrado para água). Depois, 400 mL de água são acrescentados à mistura. Qual fração do volume final é de concentrado?",
+    "alternativas": [
+      { "letra": "A", "texto": "2/7", "correta": false, "etiqueta": "mat-ignorou-dado" },
+      { "letra": "B", "texto": "6/25", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "6/19", "correta": false, "etiqueta": "mat-esqueceu-base" },
+      { "letra": "D", "texto": "2/5", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "E", "texto": "3/10", "correta": false, "etiqueta": "mat-erro-de-conta" }
+    ],
+    "explicacao": "Com 600 mL de concentrado na razão 2:5, a água é 1.500 mL. Depois de somar 400 mL, a água vai a 1.900 mL e o total é 600 + 1.900 = 2.500 mL. A fração de concentrado é 600/2.500 = 6/25. A fração 2/7 vale antes da água extra, e 6/19 divide só pela água.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-razao-proporcao-010", "materia": "matematica", "assunto": "razao-proporcao", "questionario": 2, "dificuldade": 1,
+    "contexto": "Engrenagens da bicicleta",
+    "enunciado": "Duas engrenagens estão acopladas. A engrenagem A tem 40 dentes e gira a 90 rotações por minuto (rpm). A engrenagem B tem 30 dentes. Quantas rpm faz a engrenagem B?",
+    "alternativas": [
+      { "letra": "A", "texto": "67,5 rpm", "correta": false, "etiqueta": "mat-proporcao-invertida" },
+      { "letra": "B", "texto": "90 rpm", "correta": false, "etiqueta": "mat-ignorou-dado" },
+      { "letra": "C", "texto": "3.600 rpm", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "D", "texto": "120 rpm", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "60 rpm", "correta": false, "etiqueta": "mat-erro-de-conta" }
+    ],
+    "explicacao": "Engrenagens acopladas movem o mesmo número de dentes por minuto: 40 × 90 = 3.600 dentes por minuto. Na engrenagem B, com 30 dentes, são 3.600 ÷ 30 = 120 rpm. A menor gira mais rápido (grandezas inversas).",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-razao-proporcao-011", "materia": "matematica", "assunto": "razao-proporcao", "questionario": 3, "dificuldade": -1,
+    "contexto": "Material escolar",
+    "enunciado": "Cinco canetas iguais custam R$ 12,50 no total. Quanto custam 8 dessas canetas?",
+    "alternativas": [
+      { "letra": "A", "texto": "R$ 15,00", "correta": false, "etiqueta": "mat-somou-em-vez-de-multiplicar" },
+      { "letra": "B", "texto": "R$ 7,81", "correta": false, "etiqueta": "mat-proporcao-invertida" },
+      { "letra": "C", "texto": "R$ 17,50", "correta": false, "etiqueta": "mat-erro-de-conta" },
+      { "letra": "D", "texto": "R$ 2,50", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "E", "texto": "R$ 20,00", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Cada caneta custa 12,50 ÷ 5 = R$ 2,50. Oito canetas custam 8 × 2,50 = R$ 20,00. O preço de uma caneta é só o passo do meio.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-razao-proporcao-012", "materia": "matematica", "assunto": "razao-proporcao", "questionario": 3, "dificuldade": -1,
+    "contexto": "Treino de basquete",
+    "enunciado": "Em um treino, Ana acertou 18 de 24 arremessos. Qual é a razão entre o número de acertos e o número total de arremessos?",
+    "alternativas": [
+      { "letra": "A", "texto": "3/1", "correta": false, "etiqueta": "mat-esqueceu-base" },
+      { "letra": "B", "texto": "3/4", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "1/3", "correta": false, "etiqueta": "mat-pegou-parte-errada" },
+      { "letra": "D", "texto": "4/3", "correta": false, "etiqueta": "mat-proporcao-invertida" },
+      { "letra": "E", "texto": "1/4", "correta": false, "etiqueta": "mat-pegou-parte-errada" }
+    ],
+    "explicacao": "A razão pedida é acertos/total = 18/24 = 3/4. A razão 3/1 compara acertos com erros (18 para 6), e 1/4 compara erros com o total.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-razao-proporcao-013", "materia": "matematica", "assunto": "razao-proporcao", "questionario": 3, "dificuldade": 0,
+    "contexto": "Arroz para a festa junina",
+    "enunciado": "Com 2 kg de arroz, uma receita rende 12 porções. Para servir 45 pessoas, uma porção para cada, quantos quilogramas de arroz são necessários?",
+    "alternativas": [
+      { "letra": "A", "texto": "0,53 kg", "correta": false, "etiqueta": "mat-proporcao-invertida" },
+      { "letra": "B", "texto": "3,75 kg", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "C", "texto": "6 kg", "correta": false, "etiqueta": "mat-erro-de-conta" },
+      { "letra": "D", "texto": "7,5 kg", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "22,5 kg", "correta": false, "etiqueta": "mat-formula-errada" }
+    ],
+    "explicacao": "Regra de três: 2 kg estão para 12 porções assim como x está para 45. Então x = 2 × 45 ÷ 12 = 7,5 kg. O valor 3,75 é 45 ÷ 12, que dá quantas receitas, e falta multiplicar por 2.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-razao-proporcao-014", "materia": "matematica", "assunto": "razao-proporcao", "questionario": 3, "dificuldade": 0,
+    "contexto": "Mesada em partes inversas",
+    "enunciado": "Um pai dividiu R$ 300 entre dois filhos, de 10 e 15 anos, em partes inversamente proporcionais às idades. Quanto recebeu o filho de 10 anos?",
+    "alternativas": [
+      { "letra": "A", "texto": "R$ 120", "correta": false, "etiqueta": "mat-proporcao-invertida" },
+      { "letra": "B", "texto": "R$ 150", "correta": false, "etiqueta": "mat-dividiu-igual" },
+      { "letra": "C", "texto": "R$ 180", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "R$ 200", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "E", "texto": "R$ 90", "correta": false, "etiqueta": "mat-erro-de-conta" }
+    ],
+    "explicacao": "Partes inversamente proporcionais às idades são proporcionais a 1/10 e 1/15, que equivalem a 3 e 2. A soma é 5 partes de R$ 60, então o de 10 anos recebe 3 × 60 = R$ 180. Os R$ 120 seriam a divisão direta, em que o mais velho recebe mais.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-razao-proporcao-015", "materia": "matematica", "assunto": "razao-proporcao", "questionario": 3, "dificuldade": 1,
+    "contexto": "Duas impressoras",
+    "enunciado": "A impressora A imprime 100 cópias de um simulado em 4 horas, e a impressora B faz as mesmas 100 cópias em 6 horas. Funcionando juntas, em quanto tempo imprimem as 100 cópias?",
+    "alternativas": [
+      { "letra": "A", "texto": "2 h 24 min", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "5 h", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "C", "texto": "10 h", "correta": false, "etiqueta": "mat-somou-em-vez-de-multiplicar" },
+      { "letra": "D", "texto": "2 h 40 min", "correta": false, "etiqueta": "mat-unidade" },
+      { "letra": "E", "texto": "1 h 12 min", "correta": false, "etiqueta": "mat-erro-de-conta" }
+    ],
+    "explicacao": "Em 1 hora, A faz 1/4 do trabalho e B faz 1/6, juntas 5/12. O tempo é 12/5 = 2,4 horas. Como 0,4 h = 24 min, o resultado é 2 h 24 min. Escrever 2 h 40 min confunde o 0,4 decimal com minutos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-razao-proporcao-016", "materia": "matematica", "assunto": "razao-proporcao", "questionario": 4, "dificuldade": -1,
+    "contexto": "Consumo do carro",
+    "enunciado": "Um carro percorreu 270 km gastando 30 L de combustível. Qual foi o consumo médio, em km por litro?",
+    "alternativas": [
+      { "letra": "A", "texto": "0,11 km/L", "correta": false, "etiqueta": "mat-proporcao-invertida" },
+      { "letra": "B", "texto": "300 km/L", "correta": false, "etiqueta": "mat-somou-em-vez-de-multiplicar" },
+      { "letra": "C", "texto": "90 km/L", "correta": false, "etiqueta": "mat-erro-de-conta" },
+      { "letra": "D", "texto": "9 km/L", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "240 km/L", "correta": false, "etiqueta": "mat-sinal" }
+    ],
+    "explicacao": "O consumo é a razão entre distância e combustível: 270 ÷ 30 = 9 km/L. Dividir 30 por 270 dá litros por quilômetro, que é a razão invertida.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-razao-proporcao-017", "materia": "matematica", "assunto": "razao-proporcao", "questionario": 4, "dificuldade": 0,
+    "contexto": "Tempo de viagem no mapa",
+    "enunciado": "Em um mapa de escala 1:250.000, dois pontos distam 12 cm. Um carro percorre o trajeto reto entre eles a 60 km/h. Quanto tempo leva?",
+    "alternativas": [
+      { "letra": "A", "texto": "5 h", "correta": false, "etiqueta": "mat-unidade" },
+      { "letra": "B", "texto": "50 min", "correta": false, "etiqueta": "mat-unidade" },
+      { "letra": "C", "texto": "30 min", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "12 min", "correta": false, "etiqueta": "mat-ignorou-dado" },
+      { "letra": "E", "texto": "2 h", "correta": false, "etiqueta": "mat-proporcao-invertida" }
+    ],
+    "explicacao": "A distância real é 12 × 250.000 = 3.000.000 cm, ou seja, 30 km. A 60 km/h, o tempo é 30 ÷ 60 = 0,5 h, que são 30 minutos. Escrever 50 min confunde 0,5 decimal com minutos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-razao-proporcao-018", "materia": "matematica", "assunto": "razao-proporcao", "questionario": 4, "dificuldade": 0,
+    "contexto": "Mistura de combustível",
+    "enunciado": "Um tanque tem 60 L de uma mistura de álcool e gasolina na razão 1:4 (álcool para gasolina). Quantos litros de álcool puro precisam ser adicionados para que a razão passe a ser 1:3?",
+    "alternativas": [
+      { "letra": "A", "texto": "12 L", "correta": false, "etiqueta": "mat-ignorou-dado" },
+      { "letra": "B", "texto": "4 L", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "8 L", "correta": false, "etiqueta": "mat-erro-de-conta" },
+      { "letra": "D", "texto": "16 L", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "E", "texto": "15 L", "correta": false, "etiqueta": "mat-esqueceu-base" }
+    ],
+    "explicacao": "Na razão 1:4, os 60 L têm 12 L de álcool e 48 L de gasolina. Para 1:3 com 48 L de gasolina, o álcool total precisa ser 16 L. Como já há 12 L, faltam 16 − 12 = 4 L. Os 16 L são o total de álcool, não o que se adiciona.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-razao-proporcao-019", "materia": "matematica", "assunto": "razao-proporcao", "questionario": 4, "dificuldade": 1,
+    "contexto": "Pintando a sala",
+    "enunciado": "Uma sala tem duas paredes de 3 m × 4 m e duas de 3 m × 5 m, com uma porta de 2 m² e uma janela de 3 m² (nas paredes). Cada litro de tinta cobre 7 m² em uma demão. Serão dadas duas demãos. Quantos litros de tinta são necessários?",
+    "alternativas": [
+      { "letra": "A", "texto": "14 L", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "7 L", "correta": false, "etiqueta": "mat-ignorou-dado" },
+      { "letra": "C", "texto": "15,4 L", "correta": false, "etiqueta": "mat-ignorou-dado" },
+      { "letra": "D", "texto": "98 L", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "E", "texto": "3,5 L", "correta": false, "etiqueta": "mat-formula-errada" }
+    ],
+    "explicacao": "A área das paredes é 2 × 12 + 2 × 15 = 54 m². Descontando porta e janela, restam 49 m². Uma demão usa 49 ÷ 7 = 7 L e duas demãos usam 14 L. Os 7 L ignoram a segunda demão, e os 15,4 L ignoram o desconto da porta e da janela.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-razao-proporcao-020", "materia": "matematica", "assunto": "razao-proporcao", "questionario": 4, "dificuldade": 1,
+    "contexto": "Aquário da escola",
+    "enunciado": "Em um aquário, a razão entre peixes azuis e vermelhos é 3:5. Depois que 6 peixes vermelhos foram retirados, a razão passou a ser 3:4. Quantos peixes havia no aquário antes da retirada?",
+    "alternativas": [
+      { "letra": "A", "texto": "8", "correta": false, "etiqueta": "mat-esqueceu-base" },
+      { "letra": "B", "texto": "18", "correta": false, "etiqueta": "mat-pegou-parte-errada" },
+      { "letra": "C", "texto": "30", "correta": false, "etiqueta": "mat-pegou-parte-errada" },
+      { "letra": "D", "texto": "42", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "E", "texto": "48", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Sejam 3k azuis e 5k vermelhos. Após a retirada, 3k/(5k − 6) = 3/4, então 12k = 15k − 18 e k = 6. Antes havia 18 azuis e 30 vermelhos, total 48. Conferindo: 18 e 24 estão na razão 3:4. O 42 é o total depois da retirada.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]

@@ -44,7 +44,18 @@ cd /app/www/gabaritu && scripts/deploy-producao.sh            # origin/main
 cd /app/www/gabaritu && scripts/deploy-producao.sh <sha|ref>  # outra ref (rollback por código)
 ```
 
-`scripts/deploy-producao.sh`: atualiza o código, builda as imagens (tag = sha), sobe o `db`, roda `migrate --force` com a imagem nova (se falhar, o que está no ar não muda), vira a tag `current`, recria `app` e `gabaritu-web` e confere `/up`. Guarda `previous` e as 3 últimas imagens por sha. Rollback rápido: `docker tag gabaritu-app:previous gabaritu-app:current` (idem `gabaritu-web`) e `scripts/producao-compose.sh up -d --force-recreate app gabaritu-web`; não desfaz migrations.
+`scripts/deploy-producao.sh`: atualiza o código, builda as imagens (tag = sha), sobe o `db`, faz `pg_dump` (passo abaixo), roda `migrate --force` e depois `gabaritu:importar-conteudo` com a imagem nova (se qualquer um falhar, o que está no ar não muda), vira a tag `current`, recria `app` e `gabaritu-web` e confere `/up`. Guarda `previous` e as 3 últimas imagens por sha. Rollback rápido: `docker tag gabaritu-app:previous gabaritu-app:current` (idem `gabaritu-web`) e `scripts/producao-compose.sh up -d --force-recreate app gabaritu-web`; não desfaz migrations (para isso, restaurar o dump pré-deploy, ver "Backup e restauração").
+
+**Backup pré-migrate:** todo deploy grava `~gorillas/backups/gabaritu-predeploy/<data>-<sha>.dump` (`pg_dump -Fc`, 0700, últimos 5; dump vazio aborta o deploy). É separado do backup diário em `/data/backups/gabaritu/`, que é do root.
+
+**Conteúdo:** `conteudo/` (matérias, questões, falas) e `lang/` vão na imagem do `app` (ver `infra/producao/Dockerfile`). O importador é idempotente: reexecutar não duplica. Só entra conteúdo que estiver no commit; para mudar o banco de questões, commit na `main` e deploy.
+
+Reimportar à mão, no servidor (usa a imagem `current`):
+
+```bash
+cd /app/www/gabaritu
+scripts/producao-compose.sh run --rm -T --no-deps app php artisan gabaritu:importar-conteudo
+```
 
 ## Logs e estado
 
@@ -75,7 +86,7 @@ tail -f /app/laradock/logs/nginx/gabaritu-error.log
 `scripts/producao-backup.sh`. Instalação, uma vez, no servidor: `sudo scripts/producao-backup.sh install` (copia para `/usr/local/sbin/gabaritu-backup` e cria `/etc/cron.d/gabaritu-backup`: todo dia 03:40, log em `/var/log/gabaritu-backup.log`). Depois de mudar o script, rode `install` de novo.
 
 - Destino: `/data/backups/gabaritu/<AAAAMMDD-HHMMSS>.dump` (`pg_dump -Fc`, root, 0700) com `.sha256`. Retenção de 7 dias.
-- Manual: `sudo gabaritu-backup run`.
+- Manual: `sudo gabaritu-backup run`. Os dumps pré-deploy (`~gorillas/backups/gabaritu-predeploy/`) restauram do mesmo jeito.
 - **Cópia fora do servidor: pendente** (mesma situação dos outros projetos do servidor).
 
 Restaurar:

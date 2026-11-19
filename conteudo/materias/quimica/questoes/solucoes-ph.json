@@ -1,0 +1,282 @@
+[
+  {
+    "id": "qui-solucoes-ph-001", "materia": "quimica", "assunto": "solucoes-ph", "questionario": 1, "dificuldade": -1,
+    "contexto": "Salmoura para conserva",
+    "enunciado": "Para preparar uma salmoura, dissolvem-se 20 g de sal em água até completar 500 mL de solução. Qual a concentração comum dessa solução, em g/L?",
+    "alternativas": [
+      { "letra": "A", "texto": "10 g/L", "correta": false, "etiqueta": "qui-inverteu-razao" },
+      { "letra": "B", "texto": "40 g/L", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "0,04 g/L", "correta": false, "etiqueta": "qui-confundiu-unidade" },
+      { "letra": "D", "texto": "20 g/L", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "E", "texto": "10.000 g/L", "correta": false, "etiqueta": "qui-confundiu-unidade" }
+    ],
+    "explicacao": "A concentração é a massa de soluto dividida pelo volume em litros. 500 mL = 0,5 L, então 20 ÷ 0,5 = 40 g/L. Dividir 20 por 500 sem converter dá 0,04, e multiplicar 20 por 0,5 dá 10, que é o contrário do que se pede.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-solucoes-ph-002", "materia": "quimica", "assunto": "solucoes-ph", "questionario": 1, "dificuldade": -1,
+    "contexto": "Rótulo de produto de limpeza",
+    "enunciado": "O rótulo de um desentupidor informa pH = 12 a 25 °C. Como essa solução é classificada?",
+    "alternativas": [
+      { "letra": "A", "texto": "Ácida, pois o número é alto.", "correta": false, "etiqueta": "qui-erro-ph" },
+      { "letra": "B", "texto": "Neutra, pois todos os líquidos têm pH 7.", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "C", "texto": "Fortemente ácida.", "correta": false, "etiqueta": "qui-erro-ph" },
+      { "letra": "D", "texto": "Básica (alcalina).", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Ligeiramente ácida.", "correta": false, "etiqueta": "qui-erro-ph" }
+    ],
+    "explicacao": "A 25 °C, pH menor que 7 indica meio ácido, pH igual a 7 indica meio neutro e pH maior que 7 indica meio básico. Com pH 12, a solução é básica, e por isso produtos desse tipo exigem cuidado ao serem manuseados.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-solucoes-ph-003", "materia": "quimica", "assunto": "solucoes-ph", "questionario": 1, "dificuldade": 0,
+    "contexto": "Diluindo uma solução no laboratório",
+    "enunciado": "Um estudante pega 100 mL de uma solução de glicose 0,5 mol/L e adiciona água até completar 250 mL. Qual a concentração final da solução?",
+    "alternativas": [
+      { "letra": "A", "texto": "0,2 mol/L", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "0,14 mol/L", "correta": false, "etiqueta": "qui-erro-diluicao" },
+      { "letra": "C", "texto": "1,25 mol/L", "correta": false, "etiqueta": "qui-inverteu-razao" },
+      { "letra": "D", "texto": "0,25 mol/L", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "E", "texto": "0,5 mol/L", "correta": false, "etiqueta": "qui-senso-comum" }
+    ],
+    "explicacao": "Na diluição, a quantidade de soluto não muda: C1·V1 = C2·V2. Então 0,5 × 100 = C2 × 250, e C2 = 0,2 mol/L. O volume final é 250 mL (e não 250 + 100). Dizer que a concentração continua 0,5 ignora que a água adicionada dilui o soluto.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-solucoes-ph-004", "materia": "quimica", "assunto": "solucoes-ph", "questionario": 1, "dificuldade": 0,
+    "contexto": "Escala de pH não é régua",
+    "enunciado": "Um suco de fruta (A) tem pH 3 e um refrigerante de gengibre (B) tem pH 5. Quantas vezes a concentração de íons H⁺ do suco A é maior que a do B?",
+    "alternativas": [
+      { "letra": "A", "texto": "2 vezes", "correta": false, "etiqueta": "qui-erro-ph" },
+      { "letra": "B", "texto": "10 vezes", "correta": false, "etiqueta": "qui-erro-ph" },
+      { "letra": "C", "texto": "1,67 vez", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "D", "texto": "1.000 vezes", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "E", "texto": "100 vezes", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "pH = −log[H⁺], então [H⁺] = 10^(−pH). O suco A tem 10⁻³ mol/L e o B tem 10⁻⁵ mol/L. A razão é 10⁻³ ÷ 10⁻⁵ = 10² = 100. Cada unidade de pH muda a concentração 10 vezes, e a escala não é linear.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-solucoes-ph-005", "materia": "quimica", "assunto": "solucoes-ph", "questionario": 1, "dificuldade": 1,
+    "contexto": "pH de uma base forte",
+    "enunciado": "Uma solução de NaOH (base forte, totalmente dissociada) tem concentração 0,001 mol/L a 25 °C. Considerando pH + pOH = 14, qual o pH dessa solução?",
+    "alternativas": [
+      { "letra": "A", "texto": "3", "correta": false, "etiqueta": "qui-erro-ph" },
+      { "letra": "B", "texto": "1", "correta": false, "etiqueta": "qui-erro-ph" },
+      { "letra": "C", "texto": "11", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "12", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "E", "texto": "7", "correta": false, "etiqueta": "qui-senso-comum" }
+    ],
+    "explicacao": "[OH⁻] = 10⁻³ mol/L, então pOH = 3. Como pH + pOH = 14, pH = 14 − 3 = 11. A resposta 3 é o pOH, e não o pH. Como a solução é básica, o pH tem que ser maior que 7.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-solucoes-ph-006", "materia": "quimica", "assunto": "solucoes-ph", "questionario": 2, "dificuldade": -1,
+    "contexto": "Quem é quem na salmoura",
+    "enunciado": "Na salmoura (sal dissolvido em água), qual componente é o soluto?",
+    "alternativas": [
+      { "letra": "A", "texto": "A água, porque está em maior quantidade.", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "B", "texto": "A mistura inteira.", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "C", "texto": "O sal.", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "O recipiente que contém a mistura.", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "E", "texto": "O gelo da geladeira.", "correta": false, "etiqueta": "qui-senso-comum" }
+    ],
+    "explicacao": "Em uma solução, o soluto é a substância dissolvida, em geral a que está em menor quantidade, e o solvente é quem dissolve. Na salmoura, o sal é o soluto e a água é o solvente. A mistura inteira é a solução.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-solucoes-ph-007", "materia": "quimica", "assunto": "solucoes-ph", "questionario": 2, "dificuldade": 0,
+    "contexto": "Soro fisiológico caseiro de laboratório",
+    "enunciado": "Em um laboratório, dissolvem-se 11,7 g de NaCl (58,5 g/mol) em água até completar 500 mL de solução. Qual a concentração em mol/L?",
+    "alternativas": [
+      { "letra": "A", "texto": "0,4 mol/L", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "0,2 mol/L", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "C", "texto": "23,4 mol/L", "correta": false, "etiqueta": "qui-confundiu-unidade" },
+      { "letra": "D", "texto": "0,0004 mol/L", "correta": false, "etiqueta": "qui-confundiu-unidade" },
+      { "letra": "E", "texto": "4 mol/L", "correta": false, "etiqueta": "qui-erro-conta" }
+    ],
+    "explicacao": "n = 11,7 ÷ 58,5 = 0,2 mol de NaCl. O volume é 500 mL = 0,5 L, então M = 0,2 ÷ 0,5 = 0,4 mol/L. Responder 0,2 esquece de dividir pelo volume, e 23,4 é a concentração em g/L.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-solucoes-ph-008", "materia": "quimica", "assunto": "solucoes-ph", "questionario": 2, "dificuldade": 0,
+    "contexto": "Misturando duas garrafas",
+    "enunciado": "Misturam-se 200 mL de uma solução de sacarose 0,5 mol/L com 300 mL de outra solução de sacarose, também 0,5 mol/L. Qual a concentração da solução obtida?",
+    "alternativas": [
+      { "letra": "A", "texto": "1,0 mol/L", "correta": false, "etiqueta": "qui-erro-diluicao" },
+      { "letra": "B", "texto": "0,25 mol/L", "correta": false, "etiqueta": "qui-erro-diluicao" },
+      { "letra": "C", "texto": "0,3 mol/L", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "D", "texto": "0,2 mol/L", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "E", "texto": "0,5 mol/L", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Somando os solutos: 0,5 × 0,2 + 0,5 × 0,3 = 0,25 mol, em 0,5 L, e 0,25 ÷ 0,5 = 0,5 mol/L. Quando se misturam soluções do mesmo soluto e da mesma concentração, a concentração não muda. Somar as concentrações (1,0) é erro típico.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-solucoes-ph-009", "materia": "quimica", "assunto": "solucoes-ph", "questionario": 2, "dificuldade": 1,
+    "contexto": "Quanta água acrescentar",
+    "enunciado": "Um técnico tem 50 mL de uma solução ácida 2 mol/L e precisa de uma solução 0,5 mol/L do mesmo ácido. Que volume de água ele deve adicionar à solução inicial?",
+    "alternativas": [
+      { "letra": "A", "texto": "200 mL", "correta": false, "etiqueta": "qui-erro-diluicao" },
+      { "letra": "B", "texto": "150 mL", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "100 mL", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "D", "texto": "300 mL", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "E", "texto": "50 mL", "correta": false, "etiqueta": "qui-ignorou-dado" }
+    ],
+    "explicacao": "O soluto se mantém: 2 × 50 = 0,5 × V2, então V2 = 200 mL de volume final. Como já havia 50 mL, a água a adicionar é 200 − 50 = 150 mL. Responder 200 mL confunde volume final com volume adicionado.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-solucoes-ph-010", "materia": "quimica", "assunto": "solucoes-ph", "questionario": 2, "dificuldade": 1,
+    "contexto": "Diluição de um ácido forte",
+    "enunciado": "Uma solução de HCl 0,001 mol/L (ácido forte, totalmente ionizado) é diluída com água até seu volume ficar 100 vezes maior. Quais são, respectivamente, o pH antes e depois da diluição?",
+    "alternativas": [
+      { "letra": "A", "texto": "3 e 3", "correta": false, "etiqueta": "qui-erro-diluicao" },
+      { "letra": "B", "texto": "3 e 1", "correta": false, "etiqueta": "qui-erro-ph" },
+      { "letra": "C", "texto": "3 e 0,03", "correta": false, "etiqueta": "qui-erro-ph" },
+      { "letra": "D", "texto": "3 e 5", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "3 e 7", "correta": false, "etiqueta": "qui-senso-comum" }
+    ],
+    "explicacao": "Antes: [H⁺] = 10⁻³ mol/L, então pH = 3. Após diluir 100 vezes: [H⁺] = 10⁻⁵ mol/L, então pH = 5. Diluir um ácido faz o pH subir, mas nunca o leva a 7 de repente, e ele não diminui nem fica igual.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-solucoes-ph-011", "materia": "quimica", "assunto": "solucoes-ph", "questionario": 3, "dificuldade": -1,
+    "contexto": "pH da água pura",
+    "enunciado": "A 25 °C, a água pura tem uma concentração de íons H⁺ igual à de íons OH⁻. Qual é o pH dela?",
+    "alternativas": [
+      { "letra": "A", "texto": "0", "correta": false, "etiqueta": "qui-erro-ph" },
+      { "letra": "B", "texto": "14", "correta": false, "etiqueta": "qui-erro-ph" },
+      { "letra": "C", "texto": "1", "correta": false, "etiqueta": "qui-erro-ph" },
+      { "letra": "D", "texto": "10", "correta": false, "etiqueta": "qui-erro-ph" },
+      { "letra": "E", "texto": "7", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Quando [H⁺] = [OH⁻] = 10⁻⁷ mol/L (a 25 °C), a solução é neutra e o pH vale 7. Valores abaixo de 7 são ácidos e acima de 7, básicos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-solucoes-ph-012", "materia": "quimica", "assunto": "solucoes-ph", "questionario": 3, "dificuldade": -1,
+    "contexto": "Experimento com repolho roxo",
+    "enunciado": "O suco de repolho roxo é um indicador natural: fica rosa-avermelhado em meio ácido, roxo em meio neutro e azul-esverdeado em meio básico. Ao pingar um produto no suco roxo, ele ficou verde-azulado. Como é o meio desse produto?",
+    "alternativas": [
+      { "letra": "A", "texto": "Ácido", "correta": false, "etiqueta": "qui-erro-ph" },
+      { "letra": "B", "texto": "Neutro", "correta": false, "etiqueta": "qui-erro-ph" },
+      { "letra": "C", "texto": "Básico", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Não é possível saber sem outro teste.", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "E", "texto": "Ácido forte", "correta": false, "etiqueta": "qui-erro-ph" }
+    ],
+    "explicacao": "A cor do indicador mostra o meio: rosa indica ácido, roxo indica neutro e verde-azulado indica básico. O enunciado dá a tabela de cores, e basta compará-la com o resultado.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-solucoes-ph-013", "materia": "quimica", "assunto": "solucoes-ph", "questionario": 3, "dificuldade": 0,
+    "contexto": "Porcentagem em massa",
+    "enunciado": "Um produto de limpeza é vendido como solução de 20% em massa de um sal (20 g de soluto em cada 100 g de solução). Que massa de soluto há em 250 g dessa solução?",
+    "alternativas": [
+      { "letra": "A", "texto": "20 g", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "B", "texto": "5 g", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "C", "texto": "200 g", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "D", "texto": "50 g", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "1.250 g", "correta": false, "etiqueta": "qui-inverteu-razao" }
+    ],
+    "explicacao": "20% de 250 g = 0,20 × 250 = 50 g de soluto. Responder 200 g seria a massa de solvente (80%), e dividir 250 por 0,2 inverte a operação.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-solucoes-ph-014", "materia": "quimica", "assunto": "solucoes-ph", "questionario": 3, "dificuldade": 0,
+    "contexto": "Neutralizando a acidez",
+    "enunciado": "Que volume de solução de NaOH 0,2 mol/L é necessário para neutralizar totalmente 100 mL de solução de HCl 0,1 mol/L (reação 1 : 1)?",
+    "alternativas": [
+      { "letra": "A", "texto": "50 mL", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "100 mL", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "C", "texto": "200 mL", "correta": false, "etiqueta": "qui-inverteu-razao" },
+      { "letra": "D", "texto": "25 mL", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "E", "texto": "0,05 mL", "correta": false, "etiqueta": "qui-confundiu-unidade" }
+    ],
+    "explicacao": "n(HCl) = 0,1 mol/L × 0,1 L = 0,01 mol. Como a reação é 1 : 1, são necessários 0,01 mol de NaOH: V = 0,01 ÷ 0,2 = 0,05 L = 50 mL. Como o NaOH é o dobro mais concentrado, ele precisa de metade do volume.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-solucoes-ph-015", "materia": "quimica", "assunto": "solucoes-ph", "questionario": 3, "dificuldade": 1,
+    "contexto": "Ácido clorídrico diluído",
+    "enunciado": "Em um frasco, 10 mL de HCl 0,1 mol/L (ácido forte, totalmente ionizado) recebem 90 mL de água. Qual o pH da solução final?",
+    "alternativas": [
+      { "letra": "A", "texto": "1", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "B", "texto": "2", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "3", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "D", "texto": "12", "correta": false, "etiqueta": "qui-erro-ph" },
+      { "letra": "E", "texto": "7", "correta": false, "etiqueta": "qui-senso-comum" }
+    ],
+    "explicacao": "O volume final é 10 + 90 = 100 mL, 10 vezes maior. A concentração cai de 0,1 para 0,01 mol/L, então [H⁺] = 10⁻² e pH = 2. Antes da diluição o pH era 1, e a água acrescentada só o fez subir uma unidade.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-solucoes-ph-016", "materia": "quimica", "assunto": "solucoes-ph", "questionario": 4, "dificuldade": -1,
+    "contexto": "Chá bem adoçado",
+    "enunciado": "Em 2 litros de chá estão dissolvidos 30 g de açúcar. Qual a concentração de açúcar, em g/L?",
+    "alternativas": [
+      { "letra": "A", "texto": "60 g/L", "correta": false, "etiqueta": "qui-inverteu-razao" },
+      { "letra": "B", "texto": "0,067 g/L", "correta": false, "etiqueta": "qui-inverteu-razao" },
+      { "letra": "C", "texto": "30 g/L", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "D", "texto": "15 g/L", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "32 g/L", "correta": false, "etiqueta": "qui-erro-conta" }
+    ],
+    "explicacao": "Concentração em g/L é massa dividida por volume: 30 ÷ 2 = 15 g/L. Multiplicar (60) ou inverter (0,067) não faz sentido, porque dobrar o volume dilui a solução e a concentração diminui.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-solucoes-ph-017", "materia": "quimica", "assunto": "solucoes-ph", "questionario": 4, "dificuldade": 0,
+    "contexto": "Preparando soda cáustica",
+    "enunciado": "Para preparar 250 mL de solução de NaOH (40 g/mol) 0,2 mol/L, qual massa de NaOH deve ser pesada?",
+    "alternativas": [
+      { "letra": "A", "texto": "8 g", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "B", "texto": "2 g", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "0,2 g", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "D", "texto": "40 g", "correta": false, "etiqueta": "qui-erro-massa-molar" },
+      { "letra": "E", "texto": "0,05 g", "correta": false, "etiqueta": "qui-confundiu-unidade" }
+    ],
+    "explicacao": "n = M × V = 0,2 mol/L × 0,25 L = 0,05 mol. A massa é 0,05 × 40 = 2 g. Responder 8 g ignora o volume (calcula para 1 L inteiro).",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-solucoes-ph-018", "materia": "quimica", "assunto": "solucoes-ph", "questionario": 4, "dificuldade": 0,
+    "contexto": "Quando o sal não dissolve mais",
+    "enunciado": "A solubilidade de um sal em água a 20 °C é 36 g por 100 g de água. Colocam-se 100 g desse sal em 200 g de água a 20 °C e a mistura é agitada por bastante tempo. Qual a massa de sal que fica sem dissolver no fundo?",
+    "alternativas": [
+      { "letra": "A", "texto": "72 g", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "B", "texto": "64 g", "correta": false, "etiqueta": "qui-inverteu-razao" },
+      { "letra": "C", "texto": "28 g", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "0 g", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "E", "texto": "36 g", "correta": false, "etiqueta": "qui-ignorou-dado" }
+    ],
+    "explicacao": "Em 200 g de água dissolvem-se, no máximo, 2 × 36 = 72 g de sal. Como foram colocados 100 g, restam 100 − 72 = 28 g no fundo (corpo de fundo). Usar 36 g ignora que a quantidade de água é o dobro de 100 g.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-solucoes-ph-019", "materia": "quimica", "assunto": "solucoes-ph", "questionario": 4, "dificuldade": 1,
+    "contexto": "Água de piscina",
+    "enunciado": "A água de uma piscina tem pH 9 a 25 °C. Considerando que Kw = [H⁺][OH⁻] = 10⁻¹⁴, qual a concentração de íons OH⁻ nessa água?",
+    "alternativas": [
+      { "letra": "A", "texto": "10⁻⁹ mol/L", "correta": false, "etiqueta": "qui-erro-ph" },
+      { "letra": "B", "texto": "10⁻¹⁴ mol/L", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "C", "texto": "10⁵ mol/L", "correta": false, "etiqueta": "qui-erro-ph" },
+      { "letra": "D", "texto": "10⁻⁷ mol/L", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "E", "texto": "10⁻⁵ mol/L", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "pH = 9 significa [H⁺] = 10⁻⁹ mol/L. Pelo produto iônico, [OH⁻] = 10⁻¹⁴ ÷ 10⁻⁹ = 10⁻⁵ mol/L. Equivalentemente, pOH = 14 − 9 = 5. Os 10⁻⁹ são a concentração de H⁺, e não de OH⁻.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-solucoes-ph-020", "materia": "quimica", "assunto": "solucoes-ph", "questionario": 4, "dificuldade": 1,
+    "contexto": "Neutralização parcial",
+    "enunciado": "Misturam-se 100 mL de HCl 0,2 mol/L com 100 mL de NaOH 0,1 mol/L (reação 1 : 1). Qual a concentração de H⁺ que sobra na solução final?",
+    "alternativas": [
+      { "letra": "A", "texto": "0,05 mol/L", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "0,1 mol/L", "correta": false, "etiqueta": "qui-erro-diluicao" },
+      { "letra": "C", "texto": "0,15 mol/L", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "D", "texto": "0 mol/L, pois houve neutralização", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "E", "texto": "0,01 mol/L", "correta": false, "etiqueta": "qui-erro-conta" }
+    ],
+    "explicacao": "n(H⁺) = 0,2 × 0,1 = 0,02 mol e n(OH⁻) = 0,1 × 0,1 = 0,01 mol. Sobra 0,01 mol de H⁺ em 0,2 L: 0,01 ÷ 0,2 = 0,05 mol/L. Ficar com 0,1 mol/L esquece que o volume total dobrou, e 0 só valeria se as quantidades de ácido e base fossem iguais.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]

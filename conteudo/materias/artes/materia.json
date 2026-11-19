@@ -1,0 +1,12 @@
+{
+  "slug": "artes",
+  "nome": "Artes",
+  "area": "Linguagens, Códigos e suas Tecnologias",
+  "assuntos": [
+    { "slug": "movimentos-artisticos", "nome": "Movimentos artísticos", "ordem": 1, "por_que": "O ENEM adora pedir pra reconhecer um movimento pela descrição da obra e ligar o estilo ao contexto histórico." },
+    { "slug": "arte-brasileira", "nome": "Arte brasileira", "ordem": 2, "por_que": "Do barroco mineiro ao modernismo, a prova cobra como a arte do Brasil dialoga com a nossa identidade e a nossa história." },
+    { "slug": "musica", "nome": "Música", "ordem": 3, "por_que": "Elementos musicais, gêneros brasileiros e a função social da música aparecem sempre em textos e situações do dia a dia." },
+    { "slug": "patrimonio-cultural", "nome": "Patrimônio cultural", "ordem": 4, "por_que": "Patrimônio material e imaterial, cultura popular e preservação são temas recorrentes e ligados à cidadania." },
+    { "slug": "linguagens-artisticas", "nome": "Linguagens artísticas", "ordem": 5, "por_que": "Teatro, dança, cinema, fotografia, grafite e arte contemporânea entram na prova pedindo leitura das funções e dos recursos de cada linguagem." }
+  ]
+}

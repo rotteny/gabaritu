@@ -1,0 +1,15 @@
+[
+  { "id": "soc-etnocentrismo-relativismo", "nome": "Confundiu etnocentrismo e relativismo", "descricao": "Julgou outra cultura pelos próprios padrões, ou trocou um conceito pelo outro." },
+  { "id": "soc-naturalizou", "nome": "Naturalizou o social", "descricao": "Tratou desigualdade, costume ou papel social como algo natural ou biológico." },
+  { "id": "soc-so-esforco", "nome": "Só esforço individual", "descricao": "Explicou um problema social apenas por mérito ou culpa individual, ignorando a estrutura." },
+  { "id": "soc-autor-trocado", "nome": "Trocou o autor ou a teoria", "descricao": "Atribuiu a Durkheim, Marx ou Weber (ou a outro autor) o conceito de outro." },
+  { "id": "soc-conceito-trocado", "nome": "Trocou conceitos parecidos", "descricao": "Confundiu termos vizinhos, como preconceito e discriminação, ou greve e lockout." },
+  { "id": "soc-generalizou", "nome": "Generalizou demais", "descricao": "Estendeu algo verdadeiro para um grupo a todos os grupos, ou o contrário." },
+  { "id": "soc-absoluto", "nome": "Alternativa absoluta", "descricao": "Caiu em afirmação com 'sempre', 'nunca', 'só' ou 'tudo' que a Sociologia não sustenta." },
+  { "id": "soc-causa-consequencia", "nome": "Inverteu causa e consequência", "descricao": "Trocou o que provoca pelo que é provocado, ou deu causa única a um fenômeno complexo." },
+  { "id": "soc-anacronismo", "nome": "Anacronismo", "descricao": "Colocou um fato, processo ou conceito no período histórico errado." },
+  { "id": "soc-direito-favor", "nome": "Tratou direito como favor", "descricao": "Viu como privilégio ou benesse o que é direito garantido." },
+  { "id": "soc-cidadania-restrita", "nome": "Cidadania só no voto", "descricao": "Reduziu a cidadania a votar, ter documento ou pagar imposto." },
+  { "id": "soc-leitura-literal", "nome": "Leu ao pé da letra", "descricao": "Interpretou um conceito pelo sentido cotidiano da palavra, não pelo sentido sociológico." },
+  { "id": "soc-descritivo-normativo", "nome": "Confundiu descrever com aprovar", "descricao": "Achou que explicar ou descrever um fenômeno significa defendê-lo ou que ele é o ideal." }
+]

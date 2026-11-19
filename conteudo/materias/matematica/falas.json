@@ -1,0 +1,477 @@
+[
+  {
+    "etiqueta": "mat-esqueceu-base",
+    "fofo": [
+      "Você calculou a porcentagem perfeita… do número vizinho. Ele mandou agradecer.",
+      "A conta tá linda. Só foi entregue no endereço errado.",
+      "Sua porcentagem foi educadíssima: cumprimentou o preço novo achando que era o antigo. Apresento os dois e você tenta de novo?",
+      "O 100% ficou na porta com a plaquinha 'sou eu, a base'. Ele não guarda mágoa. Vai lá buscar!",
+      "Você fez tudo certo com o número errado. É dar o presente perfeito pro primo. Ainda é amor, só redireciona!"
+    ],
+    "sarc": [
+      "Tecnicamente você acertou uma porcentagem. De outra questão. Talvez de outra prova.",
+      "Escolher a base certa era muito mainstream, né? Você prefere o estilo autoral.",
+      "Ah, 20% calculado sobre o preço que já tinha desconto. A loja amou. O contador da loja te mandou flores.",
+      "Que conta segura. Firme, limpa, decidida. Pena que sobre um número que a questão nem convidou.",
+      "Adorei a parte em que você olhou o enunciado, viu o 100% e decidiu seguir o coração."
+    ],
+    "sem": [
+      "A BASE ERA OUTRA! Inchei tanto que agora sou uma bola de praia com olhos.",
+      "MENOS MIL DE AURA. Você pegou a base errada com uma confiança que eu, um peixe, nunca tive.",
+      "EU INCHEI DE NERVOSO!",
+      "Você deu desconto no desconto e chamou de preço original! O 100% verdadeiro tá no enunciado gritando 'eu existo'!",
+      "Eu investi em você! Ração, torcida, bolhinha de apoio! E você calcula sobre o número errado?!"
+    ],
+    "reserva": "A porcentagem estava certíssima. Ela só foi aplicada no número que passava na rua."
+  },
+  {
+    "etiqueta": "mat-parou-no-intermediario",
+    "fofo": [
+      "Você subiu 9 dos 10 degraus e sentou pra comemorar. Lindo! Só falta o último, que é onde mora a resposta.",
+      "Seu resultado é o trailer. Ótimo trailer! Mas a questão comprou ingresso pro filme inteiro.",
+      "Você entregou a massa do bolo crua com tanto carinho que eu quase aceitei. Quase. Mais um passo no forno!",
+      "Esse número é só a parada antes da sua. Não desce do ônibus ainda, o seu ponto é o próximo!",
+      "Eu também paro no meio do aquário pra descansar. Mas a ração fica do outro lado, e a resposta também!"
+    ],
+    "sarc": [
+      "Que bela resposta intermediária. Emoldurei. Pena que a questão pediu a final.",
+      "Ah, você corre a maratona até o km 41 e pede um táxi. Estratégia ousada.",
+      "Você fez 90% da conta e entregou. Se a questão fosse de porcentagem, até seria bonito.",
+      "Final aberto. Muito cinema de arte. A banca, infelizmente, só assiste filme com final.",
+      "Parabéns, você achou o número que ajuda a achar a resposta. A resposta mandou um oi de longe."
+    ],
+    "sem": [
+      "VOCÊ SAIU DO CINEMA ANTES DO FINAL E VEIO ME CONTAR O FILME!",
+      "Eu nadei até o vidro de emoção e você parou! Fiquei colado no vidro feito adesivo de geladeira!",
+      "O resultado estava a um passo! Um. Eu tô inchando de suspense feito último capítulo de novela!",
+      "A pergunta pediu o destino e você entregou a escala! Nem o filtro para no meio do ciclo, e ele é preguiçoso!",
+      "POV: você monta o quebra-cabeça inteiro e guarda a última peça no bolso. EU TÔ OLHANDO O BURACO ATÉ AGORA!"
+    ],
+    "reserva": "Seu número tá certo. Só que ele é o penúltimo. A resposta ficou esperando sozinha na plataforma."
+  },
+  {
+    "etiqueta": "mat-proporcao-invertida",
+    "fofo": [
+      "Mais pedreiros, menos dias. Você deu mais dias. A obra agradece o carinho, mas quer terminar logo!",
+      "Sua regra de três ficou de frente pro espelho. Linda, mas tudo trocado de lado. Vira ela de volta!",
+      "Você tratou a gangorra como elevador: achou que os dois lados subiam juntos. Na gangorra um sobe e o outro desce!",
+      "Os dois números eram rivais e você apresentou como melhores amigos. Que coração bom! Mas eles não se bicam.",
+      "Se o filtro trabalha dobrado, a água limpa na metade do tempo. Pelo menos é o que ele me promete. Inverte e refaz!"
+    ],
+    "sarc": [
+      "Claro, com o dobro de pedreiros a obra demora o dobro. Eles devem ficar conversando.",
+      "Pela sua conta, dez pessoas levam dez horas pra comer uma pizza. Que pizza grande. Ou que gente educada.",
+      "Mais velocidade, mais tempo de viagem. Faz sentido se o motorista parar em cada quiosque da estrada.",
+      "Que regra de três convicta. Errada, mas convicta. Admiro quem erra com postura.",
+      "Tales mediu a pirâmide pela sombra. Você não mediu nem pra que lado a conta ia. Cada século com seu desafio."
+    ],
+    "sem": [
+      "MAIS GENTE TRABALHANDO E A OBRA DEMORA MAIS?!",
+      "Era inversa! Você escreveu a conta de cabeça pra baixo e eu tive que nadar de costas pra ler!",
+      "Se fosse assim, dez peixes levariam dez vezes mais pra comer a ração! E eu ainda tô esperando a minha!",
+      "Você inventou o carro que quanto mais corre, mais demora! Parece a fila do banco em dia de pagamento!",
+      "Quanto mais torneira, mais demora pra encher? Eu moro num aquário! Eu sei como torneira funciona!"
+    ],
+    "reserva": "Pela sua conta, quanto mais gente ajuda, mais a obra atrasa. Isso só é verdade em mudança de família."
+  },
+  {
+    "etiqueta": "mat-somou-porcentagens",
+    "fofo": [
+      "Você somou os aumentos como quem junta figurinha. Fofo! Mas porcentagem é ciumenta: cada uma quer a base nova.",
+      "O segundo aumento chegou e o preço já tinha mudado de roupa. Ele aplicou no visual novo! Refaz nessa ordem.",
+      "Somar 10% com 10% é a coisa mais gentil do mundo. A loja, infelizmente, não é gentil. Ela multiplica.",
+      "Sua conta é a que eu queria que existisse quando a ração sobe de preço. Mas a vida multiplica. Bora refazer!",
+      "Quase! Seus aumentos chegaram juntos na festa, mas entraram um de cada vez. A ordem da fila conta!"
+    ],
+    "sarc": [
+      "Desconto de 50% e depois aumento de 50% volta ao preço original. Que lojista honesto. Me passa o endereço.",
+      "Juros sobre juros não existem na sua conta. Que mundo lindo. Pena que o banco mora no outro.",
+      "Fibonacci estudou até coelho se multiplicando. Você pegou dois aumentos e somou. Os coelhos ficaram ofendidos.",
+      "Somou as variações e chegou rapidinho. Rapidinho e aproximadamente errado. Mas rapidinho.",
+      "Dois descontos de 20% viram 40%. Avisa a loja, que ela tá cobrando errado há anos. A favor dela."
+    ],
+    "sem": [
+      "10% mais 10% não dá 20%! O segundo 10% caiu num preço novo e você nem cumprimentou ele!",
+      "Se porcentagem se somasse, eu já morava numa mansão de vidro com cascata! Eu moro num pote!",
+      "VOCÊ SOMOU 50% COM 50% E A LOJA FICOU DEVENDO O PRODUTO PRA VOCÊ!",
+      "Chat, isso é real? Dois aumentos viraram uma soma? Não! Não é real. O preço mudou no meio!",
+      "Porcentagem em cima de porcentagem é escada, não é fila! Você colocou todo mundo no mesmo degrau!"
+    ],
+    "reserva": "Pela sua soma, dois descontos de 50% deixam o produto de graça. Bonito. O caixa não pensa assim."
+  },
+  {
+    "etiqueta": "mat-confundiu-media-mediana",
+    "fofo": [
+      "Média, mediana e moda são trigêmeas e usam a mesma roupa. Hoje você chamou uma pelo nome da irmã. Acontece em família!",
+      "A mediana é a do meio, e é paciente. Ela nem ficou brava de ser chamada de média. Só pede que você ache ela.",
+      "Você chamou a moda e ela veio toda arrumada. Pena que a festa era da mediana. Manda um convite pra ela!",
+      "Eu decoro assim: a pedrinha fica no meio do aquário, então ela é a mediana. Funciona pra mim. Testa aí!",
+      "Você pegou a medida certa com o crachá errado. Troca o crachá e a nota sobe sozinha!"
+    ],
+    "sarc": [
+      "Média, mediana, moda. Três palavras com M. Que diferença pode haver, né? Só a questão inteira.",
+      "Ótimo, você somou e dividiu tudo. A pergunta queria só que você olhasse o do meio. Esforço extra, admiro.",
+      "Pediram o valor do meio e você trouxe a média. É pedir o recheio e receber o bolo inteiro. Generoso.",
+      "Você deu o nome da moda pra mediana. Elas vão se vingar no simulado. Elas sempre se vingam no simulado.",
+      "Pascal inventou uma máquina de calcular aos 19 anos. Ela também não distinguia média de mediana. Empate técnico."
+    ],
+    "sem": [
+      "A MEDIANA NÃO É A MÉDIA! ELA É A DO MEIO!",
+      "Você trocou as trigêmeas no berçário! Agora a moda responde pelo nome da média na chamada!",
+      "Pediram a mediana e você deu a média com a confiança de quem pede o sabor de sempre! O sabor era outro!",
+      "Você criou uma quarta irmã! A estatística tinha três e agora tem uma desconhecida na foto de família!",
+      "Red flag: calcular a média quando pediram a mediana! Eu inchei até virar a moda do aquário: só dá eu!"
+    ],
+    "reserva": "Pediram o valor do meio e chegou outro. A mediana ficou na janela esperando, de casaco e mala pronta."
+  },
+  {
+    "etiqueta": "mat-ignorou-frequencia",
+    "fofo": [
+      "O valor que aparece 40 vezes levantou a mão 40 vezes. Você deu a palavra uma vez só. Dá a vez pra ele!",
+      "Você tratou todo mundo igual, e isso diz muito do seu coração. A média ponderada, porém, tem favoritos.",
+      "A coluna da frequência tava toda arrumadinha esperando ser lida. Dá uma olhada nela, que ela fica feliz!",
+      "Você contou um cardume inteiro como se fosse um peixe só. Eu me sinto muito representado, mas a conta não.",
+      "Quase! Seu cálculo ouviu cada valor uma vez. Alguns falaram várias. Volta e escuta todo mundo."
+    ],
+    "sarc": [
+      "Claro: um aluno que tirou 10 pesa o mesmo que trinta que tiraram 5. A turma toda adorou sua justiça.",
+      "A coluna da frequência estava lá só de enfeite, imagino. Uma decoração de tabela. Bonita, inclusive.",
+      "Você deu um voto pra cada valor, até pro que apareceu 40 vezes. Democracia estatística. A eleição foi anulada.",
+      "A tabela te deu as repetições mastigadinhas. Você tratou como nota de rodapé.",
+      "Tem um valor que aparece 12 vezes e você contou uma. Os outros 11 estão no grupo da família comentando."
+    ],
+    "sem": [
+      "A FREQUÊNCIA TÁ NA COLUNA DO LADO ACENANDO DESDE O COMEÇO DA PROVA!",
+      "Você contou uma vez o número que aparece quarenta! Ele fez um abaixo-assinado com quarenta assinaturas dele mesmo!",
+      "Eu sou um peixe e conto ração grão por grão! Você pulou 39 repetições como se fossem propaganda!",
+      "A média ponderada viu que você não ponderou e foi embora só como 'média'! Ela perdeu o sobrenome!",
+      "Ninguém: absolutamente ninguém: você: 'vou contar cada valor uma vez só, a tabela que lute!'"
+    ],
+    "reserva": "Esse valor apareceu doze vezes e foi contado uma. Ele vai mandar o currículo de novo, mais onze vezes."
+  },
+  {
+    "etiqueta": "mat-formula-errada",
+    "fofo": [
+      "Fórmula linda! Só que é de outra figura. Ela deve estar procurando o dono até agora, com o crachá na mão.",
+      "A fórmula do triângulo entrou na festa do cilindro. Educada, sem convite e dançando. Leva ela pra casa!",
+      "Você usou a fórmula do círculo no quadrado. Eles se acharam parecidos, mas o quadrado tem quina. Troca!",
+      "Eu também confundo as coisas. Ontem achei que a pedrinha era ração. Ela não era. Confere a figura e tenta de novo!",
+      "Quase! Pegou a chave certa, mas da porta do vizinho. Pergunta o nome da figura e escolhe de novo."
+    ],
+    "sarc": [
+      "Você usou a fórmula do cone no cilindro. Foi só um terço de diferença. Coisa pequena. Um terço de tudo.",
+      "Arquimedes gritou 'Eureka' quando achou a resposta. Você achou a fórmula de outra figura e gritou também.",
+      "Que memória! Lembrou uma fórmula inteirinha, sem errar uma letra. Da figura errada, mas inteirinha.",
+      "Uma fórmula só pra todas as figuras. Muito prático. A geometria tem várias só por vaidade mesmo.",
+      "Usar a fórmula do círculo no quadrado: o jeito mais criativo de arredondar uma questão."
+    ],
+    "sem": [
+      "ESSA FÓRMULA É DE OUTRA FIGURA!",
+      "Área no lugar de volume! Você pintou a parede do meu aquário e disse que encheu de água. Eu tô no seco!",
+      "Fórmula do círculo num quadrado! É calçar chinelo na nadadeira. Não serve e eu nem tenho pé!",
+      "Euclides escreveu treze livros pra isso não acontecer! Treze. E você pegou a fórmula da figura do lado!",
+      "Fórmula de triângulo no cubo?! O cubo tá no espelho perguntando em que momento ele ficou pontudo!"
+    ],
+    "reserva": "Fórmula impecável, só que de outra figura. O cilindro recebeu uma carta endereçada ao cone e abriu por educação."
+  },
+  {
+    "etiqueta": "mat-erro-de-conta",
+    "fofo": [
+      "Você montou tudo como um arquiteto e tropeçou no último tijolinho. O prédio tá lindo, só arruma o tijolo!",
+      "A parte difícil você fez de olho fechado. A fácil te passou a perna. Típico da parte fácil. Refaz com calma!",
+      "Um 7 se fantasiou de 9 e passou na sua frente sem ninguém ver. Ele é bom de disfarce. Confere os dígitos!",
+      "Raciocínio nota 10, continha nota 6. A média ainda passa! Mas vamos tirar 10 nas duas?",
+      "Eu também erro conta quando o filtro faz barulho. Aqui tá silêncio, e você é bem melhor de conta que eu. Bora!"
+    ],
+    "sarc": [
+      "Gauss somou de 1 a 100 de cabeça aos nove anos. Você errou 7 vezes 8 de caneta. Cada um com seu superpoder.",
+      "A montagem foi digna de engenheiro. A aritmética foi digna de quem queria ir embora. Ela foi.",
+      "Erro de conta: o jeito mais elegante de ter razão e mesmo assim errar. Pelo menos teve razão.",
+      "O raciocínio subiu no pódio. A soma ficou no vestiário amarrando o tênis.",
+      "Tudo certo até a última linha. Aí 8 mais 5 deu 12. O 13 achou uma grosseria."
+    ],
+    "sem": [
+      "VOCÊ MONTOU TUDO CERTO E ERROU UMA SOMA!",
+      "A questão inteira perdida por um 8 que virou 6! A pedrinha tá chocada, e ela é uma pedra. Ela não se choca com nada!",
+      "Urgente: raciocínio perfeito é encontrado ao lado de um 7 vezes 8 igual a 54. Peritos não se conformam.",
+      "Era conta de mais! De mais. Eu, um peixe sem dedo nenhum, contei com as bolhas e deu certo!",
+      "Você tinha a resposta na mão e deixou cair no último segundo! É pegar a ração e soltar na porta da boca!"
+    ],
+    "reserva": "O raciocínio estava perfeito. Aí 7 vezes 8 deu 54 e o 56 ficou sabendo pelos outros."
+  },
+  {
+    "etiqueta": "mat-unidade",
+    "fofo": [
+      "Você misturou cm e m sem apresentar um pro outro. Eles passaram a conta inteira se olhando sem graça!",
+      "Quase! Os minutos entraram na conta das horas sem crachá. Eles são simpáticos, mas precisam de conversão!",
+      "Metro e centímetro são da mesma família, mas um é cem vezes o outro. Almoço de família é assim mesmo!",
+      "Eu já pedi um aquário de 2 metros e veio um de 2 centímetros. Sei bem como é. Converte que dá certo!",
+      "Sua conta tá linda, mas falava dois idiomas ao mesmo tempo. Escolhe um e ela fica fluente!"
+    ],
+    "sarc": [
+      "Centímetro e metro, dois nomes pra mesma coisa. Com uma diferencinha de 100 vezes. Quem conta zero, né.",
+      "A unidade estava escrita no enunciado, em negrito. Você deu um jeito de não ver. Isso exige treino.",
+      "Quem precisa de conversão quando se tem coragem? Você tem muita coragem. A nota, nem tanto.",
+      "Somou cm² com m². Alguém avisa o metro quadrado que ele encolheu dez mil vezes numa tarde.",
+      "Que ousadia temporal: minutos e horas na mesma soma, sem intérprete. O relógio sentou pra assistir."
+    ],
+    "sem": [
+      "VOCÊ SOMOU CENTÍMETRO COM METRO!",
+      "Litro com mililitro! Se fosse a água do meu aquário, eu estaria nadando no teto da sala!",
+      "Uma hora e meia não é 1h50! O relógio se recusa a girar até você pedir desculpas!",
+      "Se um centímetro fosse um metro, meu aquário seria uma piscina olímpica! Eu queria, mas não é!",
+      "Metro quadrado não é metro! Você comprou piso pra sala inteira e chegou um rodapé!"
+    ],
+    "reserva": "Centímetro e metro entraram juntos na conta e nenhum dos dois quis converter primeiro. Ficou o impasse."
+  },
+  {
+    "etiqueta": "mat-sinal",
+    "fofo": [
+      "Um sinalzinho de menos mudou tudo. Ele é minúsculo e manda na resposta inteira. Tipo eu no aquário!",
+      "Sua resposta tá certinha, só que do outro lado do zero. Ela atravessou a rua sem olhar. Traz ela de volta!",
+      "O menos ficou escondido atrás do parêntese, tímido. Ele não quer briga, só quer ser visto. Confere e volta!",
+      "Quase! O sinal virou do avesso no meio da conta. Acontece até com placa de trânsito. Confere e refaz!",
+      "Esse resultado é lindo no espelho. Fora do espelho, ele é o contrário. Vira e fecha a questão!"
+    ],
+    "sarc": [
+      "Você inventou um novo sinal: o 'tanto faz'. Pena que a matemática só aceita mais e menos.",
+      "Que tracinho pequeno, né? Imagina se um detalhe desse tamanho ia mudar a resposta inteira. Mudou.",
+      "Descartes desenhou os negativos bem à esquerda no plano. Você mandou eles passear na direita.",
+      "Ótimo, o saldo deu positivo. O banco não concorda, mas o otimismo é todo seu.",
+      "Um menos virou mais no meio da conta. Discretamente. Ninguém viu. Só a banca, que é paga pra ver."
+    ],
+    "sem": [
+      "Um sinalzinho! Um. E você virou a resposta do avesso! Eu tô nadando em círculo de nervoso!",
+      "Você trocou o menos pelo mais e o zero ficou parado no meio da rua sem saber pra que lado olhar!",
+      "O RESULTADO DEU 5 E ERA MENOS 5!",
+      "Plot twist: tinha um menos na frente do parêntese! Ele estava lá o tempo todo, igual vilão de novela!",
+      "Menos com menos não dá menos! Eu sou um peixe e até eu... Não, peraí, eu também errava. Mas eu melhorei!"
+    ],
+    "reserva": "Sua resposta é exatamente a certa, só que no espelho. O zero olhou de um lado, olhou do outro e desistiu."
+  },
+  {
+    "etiqueta": "mat-casos-favoraveis",
+    "fofo": [
+      "Você contou os casos com carinho de quem conta estrelas. Mas estrela não cai na prova! Faz uma listinha.",
+      "Um caso ficou fora da foto da turma. Ele chegou atrasado, mas faz parte! Chama ele pra foto.",
+      "Quase! Sobrou um caso, ou faltou, ou os dois brincaram de esconde-esconde. Lista todo mundo!",
+      "Eu também conto errado quando a ração cai em monte. Mas você tem papel e lápis, eu tenho nadadeira. Vantagem sua!",
+      "Pascal e Fermat criaram a probabilidade trocando cartas sobre um jogo de dados. Ótima companhia. Só reconta!"
+    ],
+    "sarc": [
+      "Nessa contagem eu acredito, desde que o dado tenha sete lados.",
+      "Você contou o mesmo resultado duas vezes. Ele adorou aparecer em dobro. Os outros, nem tanto.",
+      "Contar caso favorável é fácil mesmo. É só contar. Foi o que eu achei também, antes de ver a sua conta.",
+      "Parabéns, você inventou um caso favorável novo. A probabilidade está analisando o pedido de patente.",
+      "Sua lista de casos tem a precisão de quem conta carneirinho. Funciona pra dormir. Pra probabilidade, não."
+    ],
+    "sem": [
+      "VOCÊ CONTOU O 3 DUAS VEZES E ESQUECEU O 5!",
+      "Se sobra um na contagem da pescaria, quem vai pro balde sou eu! Conta direito, pelo amor da ração!",
+      "Os casos possíveis foram desconvidados da festa! A probabilidade tá dançando sozinha na pista!",
+      "Lista! Faz lista. Eu faço lista até dos grãos de ração! E olha que eu nem sei escrever!",
+      "Probabilidade maior que 1?! Você inventou um dado que cai com duas faces pra cima! Eu quero um!"
+    ],
+    "reserva": "Sua contagem tem um caso a mais. Ele não foi convidado, mas comeu o bolo e saiu na foto com todo mundo."
+  },
+  {
+    "etiqueta": "mat-somou-em-vez-de-multiplicar",
+    "fofo": [
+      "Você somou onde era hora de multiplicar e a conta ficou pequenininha. Ela quer crescer! Deixa ela.",
+      "Seu cardápio tem muito mais combinações do que você contou! Notícia boa: mais opções de almoço. Multiplica e confere!",
+      "A adição foi chamada pra fazer trabalho de multiplicação. Foi por educação, coitada. Dispensa ela com carinho.",
+      "Quase! Você contou os caminhos como quem conta degraus. Mas era um labirinto! Cada porta abre outras portas.",
+      "Eu também somo quando devia multiplicar. Aí meu aquário fica pequenininho na conta. Não faz isso comigo, multiplica!"
+    ],
+    "sarc": [
+      "Quatro estradas e cinco pontes são nove caminhos. A prefeitura agradece a economia de asfalto.",
+      "Que conta comportada. Não cresce, não incomoda, não acerta. Muito educada.",
+      "Somar em vez de multiplicar: o jeito mais rápido de encolher qualquer possibilidade. Funciona sempre.",
+      "Você tratou duas escolhas como uma só. A multiplicação ficou esperando na porta, de casaco.",
+      "A sorveteria tem 5 sabores e 3 caldas, e você contou 8 sorvetes. Que sorveteria triste você frequenta."
+    ],
+    "sem": [
+      "3 camisas e 4 calças são 7 looks? Na minha conta são 12, e eu não tenho nem uma meia!",
+      "A MULTIPLICAÇÃO ESTAVA NA FILA E VOCÊ CHAMOU A SOMA!",
+      "Você somou as senhas possíveis! Se cadeado fosse assim, o Valdir abria com a antena!",
+      "Chat, isso é real? Você somou as combinações e deu um número que cabe nos dedos! Não é real!",
+      "Eu queria um aquário com todas as combinações de enfeite e você me deu só 7! Eu mereço 12!"
+    ],
+    "reserva": "Você somou as combinações e o resultado coube num bilhetinho. A multiplicação tinha pedido uma folha inteira."
+  },
+  {
+    "etiqueta": "mat-escala-quadrado",
+    "fofo": [
+      "Você dobrou o lado e dobrou a área. A área ficou chateadinha: ela gosta de crescer elevada ao quadrado!",
+      "O volume pediu o cubo e você deu um 'x2' simpático. Ele aceitou por educação, mas esperava muito mais.",
+      "Quase! A área é exibida: quando o lado cresce, ela cresce mais rápido só pra se mostrar. Deixa ela brilhar!",
+      "Mapa não é régua! A escala do mapa adora um quadradinho quando o assunto é área. Põe o chapéu nela!",
+      "Esse fator de escala estava doido pra ser elevado ao quadrado. Ele treinou o ano inteiro pra isso. Dá essa chance!"
+    ],
+    "sarc": [
+      "Se o lado dobra, a área dobra. Lindo. Alguém avisa a geometria, que ela anda enganada há dois mil anos.",
+      "Triplicou o lado e triplicou o volume. O pedreiro vai adorar: sobra cimento pra outra casa.",
+      "Escala 1:2 e área 1:2. Seu mapa é muito otimista com o tamanho das cidades.",
+      "Você esqueceu o quadrado. Ele não ficou bravo. Só deixou um recado: 'eu estava no expoente'.",
+      "Pitágoras vivia cercado de quadrados. Você esqueceu de um. Ele mandou dizer que entende, mas não aceita."
+    ],
+    "sem": [
+      "O LADO DOBROU E VOCÊ DOBROU A ÁREA!",
+      "Esqueceu o quadrado! Ele ficou tão ofendido que chamou o primo dele, o cubo, pra conversar com você!",
+      "Eu pedi um aquário com o dobro do lado e você acha que cabe o dobro de água?! Não faz isso com meus sonhos!",
+      "POV: você amplia a foto 2 vezes e jura que ela ocupa só o dobro da parede. A PAREDE DISCORDA!",
+      "Sem quadrado, sem cubo, sem respeito! A geometria tá ligando pra sua régua e a régua não atende!"
+    ],
+    "reserva": "Pela sua conta, uma pizza com o dobro do diâmetro alimenta o dobro de gente. Alimenta o quádruplo. Sorte sua."
+  },
+  {
+    "etiqueta": "mat-vertice-raiz",
+    "fofo": [
+      "Você achou um ponto lindo na parábola. Só que era o vizinho! Vértice e raiz moram na mesma rua, em casas diferentes.",
+      "Quase! Você tocou a campainha do vértice e quem devia atender era a raiz. Volta e tenta a outra porta!",
+      "A parábola tem o topo e tem os pés no chão. Você foi visitar o topo. Linda vista, mas a questão queria o chão!",
+      "Eu confundo vértice e raiz igual o Valdir confunde o fundo do aquário com a parede. Mas você é bem mais rápido!",
+      "Você deu o ponto mais famoso da parábola. Pena que ela queria apresentar os outros. Dá uma chance pras raízes!"
+    ],
+    "sarc": [
+      "Ótimo, você achou o ponto mais alto. A pergunta queria onde ela encosta no chão. Mas a vista lá de cima é linda.",
+      "Vértice ou raiz, tanto faz, são pontos da mesma curva. Igual Rio e Paris são pontos do mesmo planeta.",
+      "Bhaskara deixou uma fórmula inteira só pras raízes. Você foi atrás do vértice. A fórmula ficou sem graça.",
+      "Que parábola bem estudada. Você conhece o topo dela de cor. As raízes não te conhecem.",
+      "Vértice e raiz: dois conceitos, uma troca, zero hesitação. Admiro a confiança."
+    ],
+    "sem": [
+      "VOCÊ DEU O VÉRTICE PRA QUEM PEDIU A RAIZ!",
+      "O vértice roubou a vaga da raiz e ainda estacionou torto! A parábola tá buzinando até agora!",
+      "É pedir onde a montanha encosta no chão e receber o pico! Eu não vou escalar nada, eu sou um peixe!",
+      "Raiz cruza o eixo! Cruza. O vértice nem chegou perto do eixo, ele tá lá em cima se achando!",
+      "A parábola te deu duas raízes de presente e você escolheu o laço do embrulho! Eu tô inchado de desgosto!"
+    ],
+    "reserva": "Você subiu no topo da parábola pra tirar foto. A questão estava esperando lá embaixo, onde ela toca o eixo."
+  },
+  {
+    "etiqueta": "mat-coeficientes-trocados",
+    "fofo": [
+      "O 'a' e o 'b' trocaram de crachá no recreio. Eles são amigos, mas cada um tem seu trabalho. Devolve os crachás!",
+      "A reta tem inclinação e ponto de partida. Você deu o endereço pra quem perguntou o humor dela. Quase!",
+      "Quase! Trocou o a pelo b. É como errar o nome do professor: ele entende, mas a nota não.",
+      "A função perguntou 'quem sou eu?' e você apresentou a irmã dela. Ela adorou a irmã, mas quer o próprio nome!",
+      "Eu também troco as letras quando fico nervoso. Olha onde cada uma mora na fórmula e volta com calma!"
+    ],
+    "sarc": [
+      "a e b. Duas letras do começo do alfabeto. Tão parecidas que dá vontade de usar uma só, né.",
+      "Você trocou a inclinação pelo corte no eixo. Muito prático. Quase uma fusão de empresas.",
+      "Trocar os coeficientes muda só a reta inteira. Detalhe. A reta nem gosta tanto de ser reta.",
+      "O coeficiente linear foi chamado de angular e ficou ofendido. Ele guarda rancor. Por várias provas.",
+      "Parabéns, você criou a reta que inclina onde devia cortar. Revolucionária. A geometria não pediu revolução."
+    ],
+    "sem": [
+      "O 'A' VIROU 'B' E O 'B' VIROU 'A'!",
+      "Você trocou a inclinação pelo ponto de corte! A reta subiu onde devia descer e tá acenando de longe!",
+      "Trocou o A pelo B e o filtro engasgou de susto! Ele só engasga de madrugada. E hoje!",
+      "A reta era uma rampa suave e você transformou num tobogã! Eu amo tobogã, mas não na prova!",
+      "Eu sou um baiacu e sei qual letra anda com o X! Você tem lápis, borracha e folha de rascunho!"
+    ],
+    "reserva": "O a e o b trocaram de lugar e a reta saiu inclinada pro lado errado. Ela até gostou da vista, mas não é ela."
+  },
+  {
+    "etiqueta": "mat-pontos-percentuais",
+    "fofo": [
+      "Ponto percentual e porcentagem têm o mesmo sobrenome, mas moram em cidades diferentes. Confere o endereço!",
+      "Quase! A taxa subiu uns pontinhos e você falou em porcentagem. Troca a roupa dela e volta!",
+      "Os pontos percentuais pediram uma mesa só deles e você sentou eles com a porcentagem. Cada um no seu lugar!",
+      "Eu confundo os dois toda vez que o filtro liga de madrugada. Mas você tá acordado e afiado. Bora!",
+      "A taxa foi de 10% pra 20% e ela tá orgulhosa: dobrou! Você disse que subiu só 10%. Elogia ela direito!"
+    ],
+    "sarc": [
+      "De 10% para 20% foi um aumento de 10%. A inflação te mandou um abraço apertado.",
+      "Pontos percentuais e porcentagem, tudo igual. Como metro e metrô. Uma letra só.",
+      "A diferença entre 20% e 25% é 5%. É assim que um ponto vira um tsunami.",
+      "A questão escreveu 'pontos percentuais' com todas as letras. Deve ter sido só pra enfeitar o enunciado.",
+      "Você disse que a taxa subiu 10%. Ela dobrou. Que humildade, tirar o mérito dela assim."
+    ],
+    "sem": [
+      "PONTO PERCENTUAL NÃO É PORCENTAGEM!",
+      "De 10% pra 20% é dobrar! Dobrar. Se minha ração dobrasse eu não IA dizer que subiu 'um pouquinho'!",
+      "Urgente: taxa dobra de valor e aluno noticia alta de 10%. A taxa pede direito de resposta.",
+      "Você trocou ponto por porcentagem e a calculadora pediu férias! E ainda levou a vírgula junto!",
+      "Não é 5%! São 5 pontos. Um dia essa diferença vai decidir seu financiamento e eu não vou estar lá!"
+    ],
+    "reserva": "A taxa dobrou e você disse que ela subiu um pouquinho. Ela ficou modesta à força."
+  },
+  {
+    "etiqueta": "mat-dividiu-igual",
+    "fofo": [
+      "Dividir igualzinho é muito fofo. Mas o enunciado pediu proporção: cada um ganha a fatia do tamanho que colocou!",
+      "Seu coração é democrático e eu amo isso. A sociedade da questão, porém, é bem capitalista. Ajusta as fatias!",
+      "Eu divido a ração por igual com o Valdir. Mas ele quase não come, então eu fico com tudo. Isso é proporção!",
+      "Quase! Você cortou a pizza em fatias iguais e o enunciado queria fatias do tamanho da fome de cada um!",
+      "A divisão foi gentil, mas um sócio colocou dez vezes mais dinheiro. Ele tá esperando o abraço proporcional dele!"
+    ],
+    "sarc": [
+      "O sócio que investiu dez vezes mais vai amar receber a mesma parte. Ele já está preparando o discurso.",
+      "Que gentileza dividir por igual. A proporção que se vire. E ela se virou: foi parar no gabarito.",
+      "Você repartiu de um jeito tão justo que a questão ficou injusta. Isso é uma arte.",
+      "Partes iguais: a solução perfeita pra qualquer problema que você não leu até o fim.",
+      "Os Três Mosqueteiros diziam 'um por todos'. Sua divisão levou isso a sério demais, até no lucro."
+    ],
+    "sem": [
+      "Dividiu igual! O sócio que colocou 80% tá na porta com uma planilha e sem a menor intenção de ir embora!",
+      "Proporção não é opcional! Você transformou a herança da família num capítulo de novela!",
+      "SE FOSSE ASSIM, EU E A PEDRINHA DIVIDÍAMOS A ÁGUA DO AQUÁRIO AO MEIO!",
+      "Todo mundo ganhou igual?! Quem trabalhou três Dias e quem trabalhou um? O de um dia tá dançando na sala!",
+      "Você ignorou a palavra 'proporcional'! Ela estava no enunciado, grandona, com quatro sílabas. Eu inchei!"
+    ],
+    "reserva": "Você dividiu o lucro igual pra todo mundo. O sócio que só deu a ideia achou ótimo. Os outros, nem tanto."
+  },
+  {
+    "etiqueta": "mat-pegou-parte-errada",
+    "fofo": [
+      "Você calculou direitinho a parte do vizinho. Ele agradeceu e disse que você é sempre bem-vindo. Mas a sua é a outra!",
+      "Quase! A conta tá certa, só foi parar na caixinha errada. Troca a etiqueta e pronto!",
+      "O cálculo ficou lindo, mas a pergunta era sobre o outro grupo. Ele tá ali no canto esperando a vez dele!",
+      "Você respondeu com tanto capricho! Só que a pergunta era a da outra metade. Dá a ela o mesmo carinho!",
+      "Eu também já respondi o que o filtro perguntou em vez do que a prova perguntou. O filtro não pergunta nada. Releia!"
+    ],
+    "sarc": [
+      "Resposta certa pra pergunta errada: o mal-entendido mais bem calculado da prova.",
+      "Você calculou o grupo A com maestria. A pergunta era sobre o B. Detalhe de rodapé.",
+      "É sempre bom ter uma resposta pronta. Mesmo que seja pra outra pergunta. Vai que alguém pergunta.",
+      "Que precisão! Você acertou em cheio o que ninguém pediu. Isso exige mira.",
+      "Sherlock Holmes resolvia o caso certo. Você resolveu um caso muito bem resolvido. Do vizinho."
+    ],
+    "sem": [
+      "VOCÊ RESPONDEU A PERGUNTA DA QUESTÃO AO LADO!",
+      "Plot twist: a pergunta era sobre os que não gostam! Você fez uma obra-prima pra plateia errada!",
+      "Você entregou a pizza certa na casa errada! O cliente tá esperando e eu também, e eu nem pedi pizza!",
+      "Era o outro grupo! O grupo certo tá no enunciado de braços cruzados e o errado tá comemorando!",
+      "A última frase do enunciado dizia tudo! Tudo. Eu li daqui de dentro, com o vidro embaçado, e vi!"
+    ],
+    "reserva": "A conta ficou perfeita e foi entregue na questão errada. Lá do outro lado, alguém ganhou um presente sem motivo."
+  },
+  {
+    "etiqueta": "mat-ignorou-dado",
+    "fofo": [
+      "O enunciado deu um dado e você deixou ele sentadinho na sala de espera. Ele tá esperando ser chamado. Chama!",
+      "Quase! Tinha uma informação escondidinha no texto que mudava tudo. Ela é tímida, mas é a chave!",
+      "Esse número ficou na bancada sem ser usado, que nem o ovo que a gente esquece no bolo. Coloca ele!",
+      "Você montou a conta sem o dado mais importante. Ele não ficou bravo, só fez biquinho. Dá atenção pra ele!",
+      "Leu o enunciado na velocidade que eu fujo da rede do pet shop. Rápido demais! Lê de novo, que tem coisa lá."
+    ],
+    "sarc": [
+      "O enunciado deu um dado de presente e você nem desembrulhou. Que desapego.",
+      "Aquele número no meio do texto estava ali só de enfeite, certo? Um adorno numérico.",
+      "Ignorar um dado é uma decisão. Uma decisão que a banca vai comentar.",
+      "Você usou tudo, menos o que importava. Uma eficiência admirável. Ao contrário.",
+      "Hercule Poirot nunca deixava uma pista de lado. Você deixou, e era justamente a que entregava o culpado."
+    ],
+    "sem": [
+      "O DADO ESTAVA LÁ! NA PRIMEIRA LINHA!",
+      "Você ignorou um dado e ele tá contando tudo pros outros números! Já virou fofoca no enunciado!",
+      "É montar o quebra-cabeça, sobrar uma peça e dizer 'deve ser decoração'! Não é. É o nariz do cachorro!",
+      "Urgente: número do enunciado é ignorado e promete voltar no simulado de domingo. Estamos todos avisados.",
+      "Eu, que estudei pelo vidro, vi esse dado! Você, que tinha a folha na sua frente, não viu. Eu tô inchando!"
+    ],
+    "reserva": "O enunciado deu o dado de bandeja. Você agradeceu, guardou na gaveta e resolveu sem ele."
+  }
+]

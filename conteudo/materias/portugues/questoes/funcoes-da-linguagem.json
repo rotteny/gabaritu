@@ -1,0 +1,902 @@
+[
+  {
+    "id": "por-funcoes-da-linguagem-001",
+    "materia": "portugues",
+    "assunto": "funcoes-da-linguagem",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Ligação ruim",
+    "enunciado": "Leia o diálogo: “— Alô? Alô? Tá me ouvindo? — Tô, tô! Pode falar.” Nesse trecho, a função da linguagem predominante é a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "emotiva, pois o foco é a expressão dos sentimentos do emissor.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "B",
+        "texto": "fática, pois os falantes testam e mantêm o canal de comunicação.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "referencial, pois o foco é informar sobre um fato do mundo.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "D",
+        "texto": "conativa, pois o foco é convencer o receptor de algo.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "E",
+        "texto": "metalinguística, pois o foco é explicar o código usado.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      }
+    ],
+    "explicacao": "As falas servem para verificar se a ligação funciona: “Tá me ouvindo?” e “Tô, tô!”. Quando o foco está no canal de comunicação, a função é fática. Ainda não há informação nem emoção em jogo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-funcoes-da-linguagem-002",
+    "materia": "portugues",
+    "assunto": "funcoes-da-linguagem",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Doe sangue",
+    "enunciado": "Cartaz de campanha: “Doe sangue. Salve vidas. Procure o hemocentro mais próximo.” A função predominante da linguagem é a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "conativa, pois o texto tenta levar o receptor a agir.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "emotiva, pois o texto expressa os sentimentos de quem escreveu.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "C",
+        "texto": "poética, pois o texto trabalha a sonoridade das palavras.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "D",
+        "texto": "metalinguística, pois o texto fala sobre a própria língua.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "E",
+        "texto": "fática, pois o texto só testa se o canal está aberto.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      }
+    ],
+    "explicacao": "Os verbos no imperativo (doe, salve, procure) e o foco no receptor caracterizam a função conativa, típica de campanhas e anúncios. O objetivo é provocar uma ação do leitor.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-funcoes-da-linguagem-003",
+    "materia": "portugues",
+    "assunto": "funcoes-da-linguagem",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Rio Amazonas",
+    "enunciado": "“O Rio Amazonas nasce nos Andes peruanos e deságua no Oceano Atlântico, no litoral norte do Brasil.” Esse enunciado tem como função predominante a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "emotiva, pois revela o ponto de vista de quem escreve.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "B",
+        "texto": "referencial, pois informa dados objetivos sobre o mundo.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "conativa, pois dá ordens ao leitor.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "D",
+        "texto": "poética, pois valoriza a beleza da forma das palavras.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "E",
+        "texto": "fática, pois estabelece contato com o leitor.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      }
+    ],
+    "explicacao": "O foco é o contexto, ou seja, o rio e sua geografia, em 3ª pessoa e linguagem objetiva. Essa é a função referencial, comum em notícias, verbetes e textos científicos.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-funcoes-da-linguagem-004",
+    "materia": "portugues",
+    "assunto": "funcoes-da-linguagem",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Prova virtual",
+    "enunciado": "“Que raiva! Passei a tarde estudando e a luz acabou justo na hora da prova virtual.” Nesse enunciado, a função predominante é a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "referencial, pois o foco é descrever a prova com neutralidade.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "B",
+        "texto": "conativa, pois o emissor pede uma atitude ao ouvinte.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "C",
+        "texto": "emotiva, pois o foco está nos sentimentos de quem fala.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "metalinguística, pois o emissor explica o que é uma prova.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "E",
+        "texto": "fática, pois o emissor checa se o ouvinte está ouvindo.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      }
+    ],
+    "explicacao": "A exclamação, o “Que raiva!” e a primeira pessoa mostram que o foco está no emissor e em sua emoção. Há informação sobre o fato, mas ela serve para justificar o sentimento. Por isso a função emotiva predomina.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-funcoes-da-linguagem-005",
+    "materia": "portugues",
+    "assunto": "funcoes-da-linguagem",
+    "questionario": 1,
+    "dificuldade": 1,
+    "contexto": "Versos sem versos",
+    "enunciado": "“Escrevo este verso para dizer que não sei escrever versos.” O fato de o texto falar sobre o próprio ato de escrever poesia indica o predomínio da função",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "emotiva, pois o eu lírico fala de si mesmo em 1ª pessoa.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "B",
+        "texto": "referencial, pois informa fatos objetivos sobre poesia.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "C",
+        "texto": "metalinguística, pois o texto usa a linguagem para falar da própria linguagem.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "poética, pois só essa função aparece em versos.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "E",
+        "texto": "conativa, pois o poeta pede que o leitor escreva versos.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      }
+    ],
+    "explicacao": "O poema tem como assunto o próprio fazer poético: é o código falando de si. Isso é metalinguagem. A presença de 1ª pessoa ou de versos não decide a função: o que decide é o foco do enunciado.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-funcoes-da-linguagem-006",
+    "materia": "portugues",
+    "assunto": "funcoes-da-linguagem",
+    "questionario": 2,
+    "dificuldade": -1,
+    "contexto": "Verbete de dicionário",
+    "enunciado": "Em um dicionário, lê-se: “Casa: s.f. Construção destinada à moradia.” Esse verbete exemplifica a função",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "referencial, pois apenas informa sobre um objeto do mundo.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "B",
+        "texto": "metalinguística, pois usa a língua para explicar uma palavra da própria língua.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "emotiva, pois revela o gosto pessoal de quem escreveu.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "D",
+        "texto": "conativa, pois orienta o leitor sobre o que ele deve fazer.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "E",
+        "texto": "poética, pois trabalha a musicalidade da palavra.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      }
+    ],
+    "explicacao": "Um verbete explica o significado de uma palavra, e a língua é usada para descrever a própria língua. É a função metalinguística. A informação sobre “casa” é sobre a palavra, e não sobre uma casa específica.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-funcoes-da-linguagem-007",
+    "materia": "portugues",
+    "assunto": "funcoes-da-linguagem",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Sol e sal",
+    "enunciado": "Leia o verso autoral: “Sol sobre o sal, sal sobre o sol: o mar salgado soletra o sul.” O que mais chama a atenção na construção do verso é a repetição de sons e a simetria entre as palavras, o que caracteriza a função",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "referencial, pois informa dados sobre o mar.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "B",
+        "texto": "conativa, pois dá uma ordem ao leitor.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "C",
+        "texto": "poética, pois a atenção se volta para a forma da mensagem.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "fática, pois testa o canal entre os falantes.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "E",
+        "texto": "metalinguística, pois fala do código da língua.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      }
+    ],
+    "explicacao": "A aliteração do “s” e o jogo simétrico entre “sol” e “sal” trabalham a sonoridade e a estrutura. Quando a forma da mensagem ganha destaque, a função é poética. O verso quase não informa nem manda nada.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-funcoes-da-linguagem-008",
+    "materia": "portugues",
+    "assunto": "funcoes-da-linguagem",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "No elevador",
+    "enunciado": "Em qual situação predomina a função fática da linguagem?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Uma aluna lê o verbete “cacofonia” em um dicionário.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "B",
+        "texto": "Um locutor lê a previsão do tempo no rádio.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "C",
+        "texto": "Um garoto escreve um poema de amor para a namorada.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "D",
+        "texto": "Dois vizinhos no elevador: “Calorão, né? — Nossa, demais.”",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "Uma faixa na rua pede: “Doe agasalhos”.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      }
+    ],
+    "explicacao": "A conversa no elevador não troca informação relevante: serve para manter o contato social e evitar o silêncio. Isso é a função fática. As outras situações centram-se no código (metalinguística), no contexto (referencial), na emoção ou na forma (emotiva e poética) e no receptor (conativa).",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-funcoes-da-linguagem-009",
+    "materia": "portugues",
+    "assunto": "funcoes-da-linguagem",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Palavra que falta",
+    "enunciado": "Leia o trecho autoral: “Eu, que sempre soube de cor / o nome de todos os pássaros, / agora só sei dizer ‘saudade’ / e a palavra me falta.” A função predominante no trecho é a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "metalinguística, pois a palavra “palavra” aparece no texto.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "B",
+        "texto": "referencial, pois informa sobre o nome dos pássaros.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "C",
+        "texto": "emotiva, pois o eu lírico expressa seu sentimento em primeira pessoa.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "conativa, pois o eu lírico se dirige a um receptor.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "E",
+        "texto": "fática, pois o eu lírico tenta manter contato com alguém.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      }
+    ],
+    "explicacao": "A menção à “palavra” é tentadora, mas o assunto central é o sentimento do eu lírico (saudade) e sua dificuldade de expressá-lo. O foco em quem fala e no que sente caracteriza a função emotiva. A metalinguagem seria dominante se o texto discutisse a língua em si.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-funcoes-da-linguagem-010",
+    "materia": "portugues",
+    "assunto": "funcoes-da-linguagem",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Café Aroma",
+    "enunciado": "Anúncio autoral: “Eu não vivo sem meu cafezinho de manhã. Experimente o Café Aroma e você também não vai viver.” No segundo período, a função predominante é a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "emotiva, pois o emissor só expressa o que sente.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "B",
+        "texto": "referencial, pois informa dados técnicos sobre o produto.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "C",
+        "texto": "metalinguística, pois explica o sentido da palavra “café”.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "D",
+        "texto": "fática, pois checa se o canal de comunicação está aberto.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "E",
+        "texto": "conativa, pois o texto procura convencer o consumidor a experimentar o produto.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "O primeiro período tem tom emotivo (1ª pessoa, gosto pessoal), mas o segundo traz imperativo e o “você”, voltados ao receptor, na intenção de convencer. Por isso, no trecho pedido, predomina a função conativa.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-funcoes-da-linguagem-011",
+    "materia": "portugues",
+    "assunto": "funcoes-da-linguagem",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Função emotiva",
+    "enunciado": "A função emotiva da linguagem tem como marcas principais",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "foco no receptor, com o uso do imperativo e de vocativos.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "B",
+        "texto": "foco no código, com explicações sobre a própria língua.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "C",
+        "texto": "foco no contexto, com linguagem objetiva e em 3ª pessoa.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "D",
+        "texto": "foco no emissor, com o uso de 1ª pessoa, exclamações e expressão de sentimentos.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "foco na mensagem, com jogos de som e de imagem.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      }
+    ],
+    "explicacao": "O emissor é o ponto central na função emotiva, também chamada expressiva. Os traços típicos são a 1ª pessoa, as interjeições e a marcação de emoções. As outras alternativas descrevem as funções conativa, metalinguística, referencial e poética.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-funcoes-da-linguagem-012",
+    "materia": "portugues",
+    "assunto": "funcoes-da-linguagem",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Função referencial",
+    "enunciado": "Um texto escrito em 3ª pessoa, com linguagem objetiva, voltado a informar o leitor sobre um fato ou conceito, tem como função predominante a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "emotiva, que tem foco no emissor.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "B",
+        "texto": "conativa, que tem foco no receptor.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "C",
+        "texto": "fática, que tem foco no canal.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "D",
+        "texto": "referencial, que tem foco no contexto.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "poética, que tem foco na mensagem.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      }
+    ],
+    "explicacao": "Quando o texto quer informar sobre algo do mundo, o foco é o contexto, e a função é referencial. É a mais comum em notícias, reportagens e textos didáticos. Cada função da linguagem é associada a um elemento do processo de comunicação.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-funcoes-da-linguagem-013",
+    "materia": "portugues",
+    "assunto": "funcoes-da-linguagem",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Para quem passa a vida no celular",
+    "enunciado": "“Ei, você que passa a vida no celular: levanta a cabeça e olha a rua!” O uso do vocativo e do imperativo indica que predomina a função",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "conativa, voltada ao receptor.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "emotiva, voltada ao emissor.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "C",
+        "texto": "referencial, voltada ao contexto.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "D",
+        "texto": "poética, voltada à mensagem.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "E",
+        "texto": "metalinguística, voltada ao código.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      }
+    ],
+    "explicacao": "O vocativo (“Ei, você”) e o imperativo (“levanta”, “olha”) dirigem-se diretamente ao receptor, tentando provocar uma ação. É o traço mais claro da função conativa. Ela aparece em anúncios, discursos e pedidos.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-funcoes-da-linguagem-014",
+    "materia": "portugues",
+    "assunto": "funcoes-da-linguagem",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Sumida!",
+    "enunciado": "“Oi, sumida! Tudo bem? Quanto tempo, hein?” Dita por duas amigas que se encontram na rua, essa fala tem como principal função",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "iniciar e manter o contato entre as interlocutoras, o que é próprio da função fática.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "expressar uma emoção intensa da emissora, como na função emotiva.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "C",
+        "texto": "informar um dado do mundo, como na função referencial.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "D",
+        "texto": "convencer a outra a fazer algo, como na função conativa.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "E",
+        "texto": "explicar o sentido das palavras, como na função metalinguística.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      }
+    ],
+    "explicacao": "Cumprimentos e perguntas como “Tudo bem?” raramente pedem resposta detalhada: servem para abrir e sustentar a conversa. Esse é o papel da função fática. A emoção e a informação são secundárias.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-funcoes-da-linguagem-015",
+    "materia": "portugues",
+    "assunto": "funcoes-da-linguagem",
+    "questionario": 3,
+    "dificuldade": 1,
+    "contexto": "Né?",
+    "enunciado": "“Então a gente chegou lá, né? E aí o ônibus quebrou, né? Aí a gente foi a pé, né?” O uso repetido de “né” ao final das frases tem principalmente a função de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "informar dados novos sobre o que aconteceu, como na função referencial.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "B",
+        "texto": "expressar um sentimento do falante, como na função emotiva.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "C",
+        "texto": "dar ordens ao ouvinte, como na função conativa.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "D",
+        "texto": "falar do código da língua, como na função metalinguística.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "E",
+        "texto": "checar se o ouvinte acompanha e manter a atenção dele, o que é próprio da função fática.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "Os fatos narrados são referenciais, mas o “né” não acrescenta informação: ele testa o canal e busca a confirmação do ouvinte. Esses marcadores de conversa são exemplos clássicos da função fática.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-funcoes-da-linguagem-016",
+    "materia": "portugues",
+    "assunto": "funcoes-da-linguagem",
+    "questionario": 4,
+    "dificuldade": -1,
+    "contexto": "Como se escreve?",
+    "enunciado": "Em uma tirinha, um menino pergunta à professora: “Como se escreve ‘exceção’? Com x ou com ss?” A pergunta do menino se refere ao",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "contexto da aula, o que caracteriza a função referencial.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "B",
+        "texto": "canal de comunicação, o que caracteriza a função fática.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "C",
+        "texto": "sentimento do aluno, o que caracteriza a função emotiva.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "D",
+        "texto": "código da língua, o que caracteriza a função metalinguística.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "receptor da mensagem, o que caracteriza a função conativa.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      }
+    ],
+    "explicacao": "A dúvida é sobre a grafia de uma palavra, ou seja, sobre o próprio código. Usar a língua para falar sobre a língua é metalinguagem. Ela aparece em dicionários, gramáticas e perguntas como essa.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-funcoes-da-linguagem-017",
+    "materia": "portugues",
+    "assunto": "funcoes-da-linguagem",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Amor é fogo",
+    "enunciado": "Camões escreveu: “Amor é fogo que arde sem se ver; / é ferida que dói e não se sente”. Nesses versos, a função poética se evidencia sobretudo",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pela construção de imagens e paradoxos em paralelismo, que chamam a atenção para a forma da mensagem.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "pelo uso de vocativos e do imperativo para convencer o leitor.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "C",
+        "texto": "pelo uso exclusivo de 1ª pessoa para expor um sentimento íntimo.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "D",
+        "texto": "pela linguagem objetiva, que informa fatos sobre o amor.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "E",
+        "texto": "pelas explicações sobre o significado da palavra “amor”.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      }
+    ],
+    "explicacao": "As metáforas (fogo, ferida) e os paradoxos (arde sem se ver, dói e não se sente) são organizados em paralelismo, e isso valoriza a forma e o modo de dizer. Essa elaboração da mensagem é a marca da função poética. As outras alternativas descrevem outras funções.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-funcoes-da-linguagem-018",
+    "materia": "portugues",
+    "assunto": "funcoes-da-linguagem",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Comenta aí",
+    "enunciado": "Postagem autoral: “Gente, quem aí já assistiu? Comenta aí o que achou!” O trecho “Comenta aí o que achou!” cumpre, principalmente, a função",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "emotiva, pois expressa o sentimento de quem posta.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "B",
+        "texto": "fática, pois só verifica se o canal está funcionando.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "C",
+        "texto": "referencial, pois informa sobre o filme.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "D",
+        "texto": "metalinguística, pois explica o sentido de “comentar”.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "E",
+        "texto": "conativa, pois pede uma ação do receptor.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "O imperativo “comenta” dirige-se ao leitor e pede uma atitude. O “Gente” inicial chama a atenção (fática), mas o pedido é o foco do trecho indicado. Por isso a função predominante é a conativa.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-funcoes-da-linguagem-019",
+    "materia": "portugues",
+    "assunto": "funcoes-da-linguagem",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Origem de uma palavra",
+    "enunciado": "“A palavra ‘ônibus’ vem do latim ‘omnibus’, que significa ‘para todos’.” Nesse enunciado, a função da linguagem predominante é a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "referencial, pois informa sobre o transporte coletivo.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "B",
+        "texto": "emotiva, pois o emissor expressa o que sente pelo ônibus.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "C",
+        "texto": "poética, pois trabalha a sonoridade das palavras latinas.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "D",
+        "texto": "conativa, pois dá ordens ao leitor sobre como usar o ônibus.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "E",
+        "texto": "metalinguística, pois o enunciado trata do significado e da origem de uma palavra.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "O assunto do enunciado é a palavra “ônibus”, e não o veículo: fala-se de etimologia e de significado, isto é, do código. A tentação é marcar a função referencial porque há informação, mas informação sobre a língua é metalinguagem.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-funcoes-da-linguagem-020",
+    "materia": "portugues",
+    "assunto": "funcoes-da-linguagem",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Manual do aparelho",
+    "enunciado": "Em um manual: “Para ligar o aparelho, pressione o botão verde por três segundos.” Embora o texto seja informativo e objetivo, a função predominante é a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "referencial, pois a linguagem é objetiva e sem emoção.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "B",
+        "texto": "conativa, pois o texto dirige-se ao leitor com uma instrução no imperativo.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "emotiva, pois o texto fala na primeira pessoa.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "D",
+        "texto": "poética, pois o texto elabora a forma da mensagem.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      },
+      {
+        "letra": "E",
+        "texto": "fática, pois o texto testa o canal de comunicação.",
+        "correta": false,
+        "etiqueta": "por-confundiu-funcao"
+      }
+    ],
+    "explicacao": "Objetividade não é sinônimo de função referencial. O texto procura levar o leitor a executar uma ação, com o verbo no imperativo (“pressione”). Em instruções, receitas e manuais, a função conativa predomina.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  }
+]

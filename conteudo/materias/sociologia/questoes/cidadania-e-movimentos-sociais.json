@@ -1,0 +1,902 @@
+[
+  {
+    "id": "soc-cidadania-e-movimentos-sociais-001",
+    "materia": "sociologia",
+    "assunto": "cidadania-e-movimentos-sociais",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "O que é ser cidadão",
+    "enunciado": "Em Sociologia e em Direito, cidadania é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "ter nascido em uma cidade",
+        "correta": false,
+        "etiqueta": "soc-leitura-literal"
+      },
+      {
+        "letra": "B",
+        "texto": "o conjunto de direitos e deveres que permite participar da vida social e política",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "apenas o direito de votar",
+        "correta": false,
+        "etiqueta": "soc-cidadania-restrita"
+      },
+      {
+        "letra": "D",
+        "texto": "apenas ter documentos",
+        "correta": false,
+        "etiqueta": "soc-cidadania-restrita"
+      },
+      {
+        "letra": "E",
+        "texto": "apenas pagar impostos",
+        "correta": false,
+        "etiqueta": "soc-cidadania-restrita"
+      }
+    ],
+    "explicacao": "Cidadania é mais do que votar: envolve direitos civis, políticos e sociais e também deveres, e a possibilidade de participar das decisões da vida coletiva.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cidadania-e-movimentos-sociais-002",
+    "materia": "sociologia",
+    "assunto": "cidadania-e-movimentos-sociais",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Educação e saúde",
+    "enunciado": "O direito à educação, à saúde, ao trabalho e à previdência pertence, na classificação de T. H. Marshall, à categoria dos direitos",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "civis",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "políticos",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "militares",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "sociais",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "religiosos",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      }
+    ],
+    "explicacao": "Marshall distinguiu direitos civis (liberdades individuais), políticos (participação no poder) e sociais (bem-estar, como educação, saúde e trabalho).",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cidadania-e-movimentos-sociais-003",
+    "materia": "sociologia",
+    "assunto": "cidadania-e-movimentos-sociais",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Quem pode não votar",
+    "enunciado": "No Brasil, o voto é facultativo para",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "jovens de 16 e 17 anos, maiores de 70 anos e analfabetos",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "apenas mulheres",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "apenas universitários",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "todos os cidadãos",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "apenas pessoas alfabetizadas",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      }
+    ],
+    "explicacao": "O voto é obrigatório de 18 a 70 anos e facultativo para analfabetos, maiores de 70 e jovens de 16 e 17 anos.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cidadania-e-movimentos-sociais-004",
+    "materia": "sociologia",
+    "assunto": "cidadania-e-movimentos-sociais",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Estado ou governo?",
+    "enunciado": "A diferença entre Estado e governo é que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "são sinônimos",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "o governo é permanente, e o Estado muda a cada eleição",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "o Estado é uma empresa privada",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "governo é apenas o presidente da República",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      },
+      {
+        "letra": "E",
+        "texto": "o Estado é o conjunto permanente de instituições, e o governo é o grupo que exerce temporariamente o poder",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "O Estado permanece (instituições, território, leis). Os governos mudam, conforme eleições ou outras formas de sucessão.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cidadania-e-movimentos-sociais-005",
+    "materia": "sociologia",
+    "assunto": "cidadania-e-movimentos-sociais",
+    "questionario": 1,
+    "dificuldade": 1,
+    "contexto": "Direitos que vieram de cima",
+    "enunciado": "Análises sobre a cidadania no Brasil destacam que direitos sociais trabalhistas se ampliaram nos anos 1930 e 1940, em períodos de restrição de direitos políticos e civis. Isso sugere que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "direitos sociais surgem sempre depois dos políticos",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "B",
+        "texto": "não houve direitos antes de 1988",
+        "correta": false,
+        "etiqueta": "soc-anacronismo"
+      },
+      {
+        "letra": "C",
+        "texto": "a ampliação de direitos nem sempre segue a ordem civil, política e social, e pode ser concedida de cima para baixo",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "direitos trabalhistas resultaram só de eleições livres",
+        "correta": false,
+        "etiqueta": "soc-causa-consequencia"
+      },
+      {
+        "letra": "E",
+        "texto": "o Estado não produziu nenhuma lei no período",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      }
+    ],
+    "explicacao": "Na Inglaterra estudada por Marshall, a ordem foi civis, políticos e sociais. No Brasil, houve direitos sociais antes da ampliação dos políticos e civis, em contextos autoritários.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cidadania-e-movimentos-sociais-006",
+    "materia": "sociologia",
+    "assunto": "cidadania-e-movimentos-sociais",
+    "questionario": 2,
+    "dificuldade": -1,
+    "contexto": "O que são movimentos sociais",
+    "enunciado": "Movimentos sociais são",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "grupos que se reúnem só para festas",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "partidos políticos, obrigatoriamente",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "ações dos governos",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "empresas privadas",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "ações coletivas organizadas para reivindicar direitos ou mudanças na sociedade",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "Movimentos sociais são formas de ação coletiva com objetivos comuns, como ampliação de direitos, que podem ou não ter vínculo com partidos.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cidadania-e-movimentos-sociais-007",
+    "materia": "sociologia",
+    "assunto": "cidadania-e-movimentos-sociais",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Votar não foi sempre assim",
+    "enunciado": "O direito de voto das mulheres no Brasil foi",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "reconhecido no Código Eleitoral de 1932, fruto da mobilização de movimentos feministas",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "concedido em 1500",
+        "correta": false,
+        "etiqueta": "soc-anacronismo"
+      },
+      {
+        "letra": "C",
+        "texto": "conquistado só em 1988",
+        "correta": false,
+        "etiqueta": "soc-anacronismo"
+      },
+      {
+        "letra": "D",
+        "texto": "garantido desde sempre",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "E",
+        "texto": "concedido em 1964",
+        "correta": false,
+        "etiqueta": "soc-anacronismo"
+      }
+    ],
+    "explicacao": "O voto feminino foi reconhecido em 1932, depois de campanhas de sufragistas. Ele ainda foi restrito até a Constituição de 1934.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cidadania-e-movimentos-sociais-008",
+    "materia": "sociologia",
+    "assunto": "cidadania-e-movimentos-sociais",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Passeata é crime?",
+    "enunciado": "Passeatas, abaixo-assinados e atos pacíficos em espaços públicos são, em uma democracia,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "crimes em qualquer circunstância",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "B",
+        "texto": "permitidos só no período eleitoral",
+        "correta": false,
+        "etiqueta": "soc-cidadania-restrita"
+      },
+      {
+        "letra": "C",
+        "texto": "formas legítimas de participação política, protegidas pela liberdade de expressão e de reunião",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "substitutos da Constituição",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "direitos restritos a adultos",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      }
+    ],
+    "explicacao": "A Constituição de 1988 garante a liberdade de reunião e de manifestação pacífica, que são parte da participação política em uma democracia.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cidadania-e-movimentos-sociais-009",
+    "materia": "sociologia",
+    "assunto": "cidadania-e-movimentos-sociais",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Consultas ao povo",
+    "enunciado": "A Constituição de 1988 prevê mecanismos de democracia direta. A consulta ao povo sobre uma lei já aprovada, para ratificá-la ou rejeitá-la, chama-se",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "plebiscito, em que o povo opina antes de a lei existir",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "referendo",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "iniciativa popular, em que a população propõe projeto de lei",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "veto",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "sufrágio",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      }
+    ],
+    "explicacao": "No plebiscito, a consulta ocorre antes da lei. No referendo, depois. Na iniciativa popular, os cidadãos apresentam projetos de lei.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cidadania-e-movimentos-sociais-010",
+    "materia": "sociologia",
+    "assunto": "cidadania-e-movimentos-sociais",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Depois da guerra",
+    "enunciado": "A Declaração Universal dos Direitos Humanos foi proclamada pela ONU em 1948. Seu contexto e princípio central foram",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o pós-Primeira Guerra, com direitos só para cidadãos de países ricos",
+        "correta": false,
+        "etiqueta": "soc-anacronismo"
+      },
+      {
+        "letra": "B",
+        "texto": "a Guerra Fria, com direitos só para países capitalistas",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      },
+      {
+        "letra": "C",
+        "texto": "o século XVI, com direitos de reis",
+        "correta": false,
+        "etiqueta": "soc-anacronismo"
+      },
+      {
+        "letra": "D",
+        "texto": "o pós-Segunda Guerra e a ideia de que todas as pessoas têm direitos pela condição humana, independentemente da nacionalidade",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "a Revolução Industrial, com direitos só de operários",
+        "correta": false,
+        "etiqueta": "soc-anacronismo"
+      }
+    ],
+    "explicacao": "O horror da Segunda Guerra levou à ideia de direitos universais, válidos para todos, sem distinção de origem.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cidadania-e-movimentos-sociais-011",
+    "materia": "sociologia",
+    "assunto": "cidadania-e-movimentos-sociais",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Participando além do voto",
+    "enunciado": "Qual das alternativas é uma forma de participação política?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Descumprir as leis",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "Ficar em silêncio diante de qualquer decisão pública",
+        "correta": false,
+        "etiqueta": "soc-cidadania-restrita"
+      },
+      {
+        "letra": "C",
+        "texto": "Participar de grêmio estudantil, conselho ou associação de bairro e acompanhar as decisões públicas",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "Fraudar uma votação",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "Espalhar notícias falsas",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      }
+    ],
+    "explicacao": "Grêmios, conselhos, associações e o acompanhamento de decisões públicas são formas de participação política, além do voto.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cidadania-e-movimentos-sociais-012",
+    "materia": "sociologia",
+    "assunto": "cidadania-e-movimentos-sociais",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Direitos dos pequenos",
+    "enunciado": "O Estatuto da Criança e do Adolescente (ECA), de 1990, é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "um regulamento só de escolas",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      },
+      {
+        "letra": "B",
+        "texto": "uma lei que pune crianças como adultos",
+        "correta": false,
+        "etiqueta": "soc-leitura-literal"
+      },
+      {
+        "letra": "C",
+        "texto": "o estatuto do esporte",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "uma lei só sobre trabalho",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      },
+      {
+        "letra": "E",
+        "texto": "uma lei que garante direitos a crianças e adolescentes, com proteção integral",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "O ECA considera crianças e adolescentes pessoas em desenvolvimento, com direitos à vida, saúde, educação, convivência e proteção.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cidadania-e-movimentos-sociais-013",
+    "materia": "sociologia",
+    "assunto": "cidadania-e-movimentos-sociais",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Seringueiros e floresta",
+    "enunciado": "Nos anos 1980, seringueiros do Acre se organizaram para defender a floresta, da qual dependiam, e propuseram as reservas extrativistas, aliando uso sustentável e modo de vida tradicional. Esse movimento ilustra",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "um movimento contra qualquer uso da floresta",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "B",
+        "texto": "uma ação do mercado de madeira",
+        "correta": false,
+        "etiqueta": "soc-causa-consequencia"
+      },
+      {
+        "letra": "C",
+        "texto": "uma ação só de partidos políticos",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "como movimentos sociais podem unir pautas ambientais e sociais, defendendo direitos de populações tradicionais",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "um protesto sem reivindicação",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      }
+    ],
+    "explicacao": "Os seringueiros uniram a defesa da floresta à defesa de seu modo de vida, o que mostra como as pautas social e ambiental podem caminhar juntas.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cidadania-e-movimentos-sociais-014",
+    "materia": "sociologia",
+    "assunto": "cidadania-e-movimentos-sociais",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Rampa não é favor",
+    "enunciado": "Uma escola instala rampas e contrata intérprete de Libras para estudantes com deficiência física e surdos. Do ponto de vista da cidadania, isso",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "garante condições de igualdade de acesso aos direitos, como o direito à educação",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "é um favor da escola",
+        "correta": false,
+        "etiqueta": "soc-direito-favor"
+      },
+      {
+        "letra": "C",
+        "texto": "é um privilégio",
+        "correta": false,
+        "etiqueta": "soc-direito-favor"
+      },
+      {
+        "letra": "D",
+        "texto": "prejudica os demais estudantes",
+        "correta": false,
+        "etiqueta": "soc-causa-consequencia"
+      },
+      {
+        "letra": "E",
+        "texto": "vale só para a escola privada",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      }
+    ],
+    "explicacao": "Acessibilidade é condição para que todos exerçam o direito à educação e à participação, e não benesse. A legislação brasileira garante esses recursos.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cidadania-e-movimentos-sociais-015",
+    "materia": "sociologia",
+    "assunto": "cidadania-e-movimentos-sociais",
+    "questionario": 3,
+    "dificuldade": 1,
+    "contexto": "Maioria pode tudo?",
+    "enunciado": "Um grupo afirma: 'se a maioria aprovar, é possível retirar direitos de uma minoria'. Em um Estado democrático de direito,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a maioria pode tudo",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "B",
+        "texto": "a vontade da maioria encontra limite nos direitos fundamentais, que protegem inclusive as minorias",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "as minorias governam sozinhas",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "os direitos dependem só da votação do momento",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "E",
+        "texto": "os direitos fundamentais valem só para a maioria",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      }
+    ],
+    "explicacao": "Democracia não é só regra da maioria: direitos fundamentais funcionam como limites que a maioria não pode simplesmente derrubar.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cidadania-e-movimentos-sociais-016",
+    "materia": "sociologia",
+    "assunto": "cidadania-e-movimentos-sociais",
+    "questionario": 4,
+    "dificuldade": -1,
+    "contexto": "Quem faz as leis",
+    "enunciado": "No Brasil, quem elabora as leis é o poder",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Executivo",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "Judiciário",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "Moderador",
+        "correta": false,
+        "etiqueta": "soc-anacronismo"
+      },
+      {
+        "letra": "D",
+        "texto": "Legislativo",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "Militar",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      }
+    ],
+    "explicacao": "A função típica do Legislativo (Congresso, assembleias e câmaras) é elaborar leis. O Executivo administra, e o Judiciário julga. O Poder Moderador existiu no Império.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cidadania-e-movimentos-sociais-017",
+    "materia": "sociologia",
+    "assunto": "cidadania-e-movimentos-sociais",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Monopólio da força",
+    "enunciado": "Para Max Weber, o que caracteriza o Estado moderno é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a posse de todas as empresas",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "a ausência de leis",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "o monopólio do uso legítimo da força em um território",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "o governo de um rei",
+        "correta": false,
+        "etiqueta": "soc-anacronismo"
+      },
+      {
+        "letra": "E",
+        "texto": "uma religião oficial",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      }
+    ],
+    "explicacao": "Weber definiu o Estado como a instituição que reivindica, com sucesso, o monopólio do uso legítimo da força física em um território.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cidadania-e-movimentos-sociais-018",
+    "materia": "sociologia",
+    "assunto": "cidadania-e-movimentos-sociais",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Liberdade tem limite",
+    "enunciado": "Alguém publica ofensas racistas e diz que 'é liberdade de expressão'. No ordenamento brasileiro,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a liberdade de expressão é absoluta",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "B",
+        "texto": "a liberdade de expressão é direito fundamental, mas não protege crimes como o racismo, definido na Constituição como crime inafiançável e imprescritível",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "racismo é opinião",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "a regra vale só na internet",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      },
+      {
+        "letra": "E",
+        "texto": "só se pode criticar o governo",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      }
+    ],
+    "explicacao": "A liberdade de expressão tem limites quando entra em conflito com outros direitos, como a dignidade. O racismo é crime inafiançável e imprescritível pela Constituição.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cidadania-e-movimentos-sociais-019",
+    "materia": "sociologia",
+    "assunto": "cidadania-e-movimentos-sociais",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Abaixo-assinado",
+    "enunciado": "Moradores de um bairro fictício se organizaram, pressionaram a câmara municipal e conseguiram a criação de uma creche. Esse caso mostra que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a cidadania se limita ao voto, e a ação não teria peso",
+        "correta": false,
+        "etiqueta": "soc-cidadania-restrita"
+      },
+      {
+        "letra": "B",
+        "texto": "a conquista foi um favor pessoal do prefeito",
+        "correta": false,
+        "etiqueta": "soc-direito-favor"
+      },
+      {
+        "letra": "C",
+        "texto": "a conquista foi coincidência",
+        "correta": false,
+        "etiqueta": "soc-causa-consequencia"
+      },
+      {
+        "letra": "D",
+        "texto": "só vale reivindicar se houver violência",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "E",
+        "texto": "a mobilização coletiva e organizada é forma de participação que pode transformar demandas em políticas públicas",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "A participação organizada é um modo de a população influenciar decisões. Cidadania vai além do voto.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cidadania-e-movimentos-sociais-020",
+    "materia": "sociologia",
+    "assunto": "cidadania-e-movimentos-sociais",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Ativismo na rede",
+    "enunciado": "Campanhas online ampliaram a visibilidade de pautas sociais. Uma análise equilibrada diria que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "as redes ampliam o alcance e a mobilização, mas não substituem a organização coletiva e o acesso a informação confiável",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "as redes substituem todas as outras formas de participação",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "C",
+        "texto": "o ativismo online é inútil",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "D",
+        "texto": "tudo que viraliza é verdadeiro",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "E",
+        "texto": "só jovens usam redes",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      }
+    ],
+    "explicacao": "A internet amplia vozes e facilita a mobilização, mas viralizar não garante qualidade da informação nem substitui a organização no mundo real.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  }
+]

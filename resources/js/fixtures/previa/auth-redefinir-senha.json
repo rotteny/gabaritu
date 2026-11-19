@@ -1,0 +1,8 @@
+{
+    "component": "auth/RedefinirSenha",
+    "props": {
+        "token": "abc",
+        "email": "estudante@exemplo.com"
+    },
+    "anonimo": true
+}

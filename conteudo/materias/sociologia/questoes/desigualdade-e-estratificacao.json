@@ -1,0 +1,902 @@
+[
+  {
+    "id": "soc-desigualdade-e-estratificacao-001",
+    "materia": "sociologia",
+    "assunto": "desigualdade-e-estratificacao",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Camadas da sociedade",
+    "enunciado": "Estratificação social é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a diferença biológica entre as pessoas",
+        "correta": false,
+        "etiqueta": "soc-naturalizou"
+      },
+      {
+        "letra": "B",
+        "texto": "a divisão da sociedade em camadas hierarquizadas segundo renda, prestígio e poder",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "a união igualitária de todos os grupos",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "a divisão do território em estados",
+        "correta": false,
+        "etiqueta": "soc-leitura-literal"
+      },
+      {
+        "letra": "E",
+        "texto": "a classificação de alimentos por tipo",
+        "correta": false,
+        "etiqueta": "soc-leitura-literal"
+      }
+    ],
+    "explicacao": "Estratificar é ordenar grupos em camadas, como as classes sociais, de acordo com critérios como renda, prestígio e poder. É um fenômeno social, não biológico.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-desigualdade-e-estratificacao-002",
+    "materia": "sociologia",
+    "assunto": "desigualdade-e-estratificacao",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Subindo na vida",
+    "enunciado": "A filha de um trabalhador de baixa renda conclui a faculdade, consegue um emprego bem pago e passa a integrar outra camada social. Esse caso é de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "mobilidade social descendente",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "alienação",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "êxodo rural",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "mobilidade social ascendente",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "anomia",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      }
+    ],
+    "explicacao": "Mobilidade social é a mudança de posição na hierarquia social. Quando a pessoa passa a uma camada superior, a mobilidade é ascendente.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-desigualdade-e-estratificacao-003",
+    "materia": "sociologia",
+    "assunto": "desigualdade-e-estratificacao",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Lugar definido pelo berço",
+    "enunciado": "Um sistema em que o nascimento define para sempre o lugar social da pessoa, sem possibilidade legítima de mudar de camada, é chamado de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "casta",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "classe social",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "meritocracia",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "ação afirmativa",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "sindicato",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      }
+    ],
+    "explicacao": "Nas castas, o pertencimento é hereditário e rígido. Nas classes, a posição depende da situação econômica e há, em princípio, possibilidade de mobilidade.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-desigualdade-e-estratificacao-004",
+    "materia": "sociologia",
+    "assunto": "desigualdade-e-estratificacao",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Livros em casa",
+    "enunciado": "Dois estudantes frequentam a mesma escola. Um cresceu com livros, museus e viagens em casa, o outro não. Para Pierre Bourdieu, o primeiro tem mais",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "dom natural",
+        "correta": false,
+        "etiqueta": "soc-naturalizou"
+      },
+      {
+        "letra": "B",
+        "texto": "esforço individual, apenas",
+        "correta": false,
+        "etiqueta": "soc-so-esforco"
+      },
+      {
+        "letra": "C",
+        "texto": "sorte, apenas",
+        "correta": false,
+        "etiqueta": "soc-naturalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "alienação",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "capital cultural, que favorece a trajetória escolar",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "Capital cultural reúne conhecimentos, hábitos, gostos e acesso a bens culturais. Ele costuma ser herdado da família e influencia o desempenho escolar.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-desigualdade-e-estratificacao-005",
+    "materia": "sociologia",
+    "assunto": "desigualdade-e-estratificacao",
+    "questionario": 1,
+    "dificuldade": 1,
+    "contexto": "Todo mundo chega lá?",
+    "enunciado": "Um político fictício diz: 'quem se esforça sempre chega lá; quem não chegou não se esforçou'. Do ponto de vista da Sociologia, essa afirmação",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "está corretíssima, pois o esforço é o único fator",
+        "correta": false,
+        "etiqueta": "soc-so-esforco"
+      },
+      {
+        "letra": "B",
+        "texto": "prova que a desigualdade não existe",
+        "correta": false,
+        "etiqueta": "soc-so-esforco"
+      },
+      {
+        "letra": "C",
+        "texto": "ignora condições de partida desiguais, como renda, capital cultural e discriminação, que influenciam os resultados além do esforço",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "é uma verdade científica comprovada",
+        "correta": false,
+        "etiqueta": "soc-so-esforco"
+      },
+      {
+        "letra": "E",
+        "texto": "deve ser descartada porque a Sociologia nega qualquer papel ao esforço",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      }
+    ],
+    "explicacao": "Esforço importa, mas as oportunidades de partida variam muito. Explicar a posição social só pelo mérito individual (meritocracia como regra única) ignora a estrutura social.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-desigualdade-e-estratificacao-006",
+    "materia": "sociologia",
+    "assunto": "desigualdade-e-estratificacao",
+    "questionario": 2,
+    "dificuldade": -1,
+    "contexto": "Medindo a desigualdade",
+    "enunciado": "O índice de Gini mede a desigualdade de renda de um país. Quanto mais próximo de 1, ele indica",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "menor desigualdade",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "maior renda média",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "mais população",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "maior mobilidade social",
+        "correta": false,
+        "etiqueta": "soc-causa-consequencia"
+      },
+      {
+        "letra": "E",
+        "texto": "maior desigualdade",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "O Gini vai de 0 (igualdade perfeita) a 1 (desigualdade máxima, quando uma só pessoa concentra toda a renda).",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-desigualdade-e-estratificacao-007",
+    "materia": "sociologia",
+    "assunto": "desigualdade-e-estratificacao",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Cotas nas universidades",
+    "enunciado": "Políticas de ação afirmativa, como as cotas em universidades públicas, têm como objetivo",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "corrigir desigualdades históricas de acesso a oportunidades de grupos discriminados",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "premiar quem não se esforça",
+        "correta": false,
+        "etiqueta": "soc-so-esforco"
+      },
+      {
+        "letra": "C",
+        "texto": "acabar com as avaliações",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "criar privilégios para sempre",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "E",
+        "texto": "tratar todos exatamente iguais, ignorando as diferenças",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      }
+    ],
+    "explicacao": "Ações afirmativas são medidas temporárias que visam reduzir desigualdades de acesso decorrentes de discriminação e de condições históricas desfavoráveis.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-desigualdade-e-estratificacao-008",
+    "materia": "sociologia",
+    "assunto": "desigualdade-e-estratificacao",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Quem cuida da casa",
+    "enunciado": "Pesquisas costumam mostrar que, em muitas famílias, as mulheres dedicam mais tempo aos afazeres domésticos e aos cuidados, mesmo quando trabalham fora. A explicação sociológica mais adequada é que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "elas têm aptidão natural para esses afazeres",
+        "correta": false,
+        "etiqueta": "soc-naturalizou"
+      },
+      {
+        "letra": "B",
+        "texto": "o desinteresse masculino é inato",
+        "correta": false,
+        "etiqueta": "soc-naturalizou"
+      },
+      {
+        "letra": "C",
+        "texto": "papéis de gênero construídos socialmente atribuem às mulheres o cuidado, reforçando desigualdades",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "uma lei obriga as mulheres a cuidar da casa",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "E",
+        "texto": "a desigualdade de gênero inexiste",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      }
+    ],
+    "explicacao": "Os papéis de gênero são aprendidos e variam entre culturas e épocas. A divisão desigual do trabalho doméstico decorre de normas sociais, e não de aptidão natural.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-desigualdade-e-estratificacao-009",
+    "materia": "sociologia",
+    "assunto": "desigualdade-e-estratificacao",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Mesma escolaridade, rendas diferentes",
+    "enunciado": "Estudos mostram que, mesmo com escolaridade equivalente, trabalhadores negros tendem a receber menos que brancos no Brasil. A explicação sociológica mais consistente é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "diferenças individuais de motivação, que explicam tudo",
+        "correta": false,
+        "etiqueta": "soc-so-esforco"
+      },
+      {
+        "letra": "B",
+        "texto": "discriminação e desigualdades históricas que se reproduzem em instituições e práticas, e não apenas diferenças individuais",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "coincidência estatística, sem relação com a sociedade",
+        "correta": false,
+        "etiqueta": "soc-causa-consequencia"
+      },
+      {
+        "letra": "D",
+        "texto": "o fim da escravidão eliminou as desvantagens imediatamente",
+        "correta": false,
+        "etiqueta": "soc-anacronismo"
+      },
+      {
+        "letra": "E",
+        "texto": "o mercado de trabalho trata todos igualmente, e os dados estão errados",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      }
+    ],
+    "explicacao": "Quando a escolaridade é a mesma e a renda difere, o esforço individual não explica a diferença. Preconceito, redes de contato e herança histórica ajudam a entender a persistência da desigualdade.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-desigualdade-e-estratificacao-010",
+    "materia": "sociologia",
+    "assunto": "desigualdade-e-estratificacao",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Depois de 1888",
+    "enunciado": "A Lei Áurea (1888) acabou com a escravidão no Brasil, mas não veio acompanhada de políticas amplas de acesso à terra, à educação e ao trabalho para as pessoas libertas. Esse contexto ajuda a explicar",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o fim imediato das desigualdades",
+        "correta": false,
+        "etiqueta": "soc-anacronismo"
+      },
+      {
+        "letra": "B",
+        "texto": "por que o racismo é problema só do passado",
+        "correta": false,
+        "etiqueta": "soc-anacronismo"
+      },
+      {
+        "letra": "C",
+        "texto": "a eliminação do racismo por lei",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "D",
+        "texto": "por que as desigualdades raciais se reproduziram depois da abolição",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "a igualdade de renda entre ex-escravizados e ex-senhores",
+        "correta": false,
+        "etiqueta": "soc-anacronismo"
+      }
+    ],
+    "explicacao": "Sem reparação, acesso à terra ou educação, os libertos ficaram em desvantagem. Essa herança ajuda a entender desigualdades raciais que persistem.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-desigualdade-e-estratificacao-011",
+    "materia": "sociologia",
+    "assunto": "desigualdade-e-estratificacao",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "O que é desigualdade",
+    "enunciado": "Desigualdade social pode ser definida como",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "diferença de gostos pessoais",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "diferença natural entre pessoas",
+        "correta": false,
+        "etiqueta": "soc-naturalizou"
+      },
+      {
+        "letra": "C",
+        "texto": "distribuição desigual de renda, poder, oportunidades e direitos entre grupos sociais",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "o mesmo que diversidade cultural",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "resultado da culpa dos pobres",
+        "correta": false,
+        "etiqueta": "soc-so-esforco"
+      }
+    ],
+    "explicacao": "Desigualdade social é a distribuição desigual de recursos e oportunidades entre grupos. Não é o mesmo que diferença cultural ou de gosto.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-desigualdade-e-estratificacao-012",
+    "materia": "sociologia",
+    "assunto": "desigualdade-e-estratificacao",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Pobreza além da renda",
+    "enunciado": "Uma família tem renda razoável, mas vive sem água tratada, sem esgoto e longe de escola e posto de saúde. A análise que melhor descreve essa situação é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "não é pobre, pois só conta a renda",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      },
+      {
+        "letra": "B",
+        "texto": "a família é rica",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      },
+      {
+        "letra": "C",
+        "texto": "a classe social é alta",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "é mobilidade social ascendente",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "a pobreza tem dimensões além da renda, como acesso a serviços e direitos",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "A pobreza multidimensional considera saneamento, educação, saúde e moradia, e não apenas a renda.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-desigualdade-e-estratificacao-013",
+    "materia": "sociologia",
+    "assunto": "desigualdade-e-estratificacao",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Recusar por ser mulher",
+    "enunciado": "Uma empresa fictícia recusa candidatas a uma vaga de engenheira, alegando que 'esse trabalho não é para mulher'. O ato de recusar por esse motivo é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "meritocracia",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "seleção neutra",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "relativismo cultural",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "discriminação, isto é, tratamento desigual baseado em preconceito",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "mobilidade social",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      }
+    ],
+    "explicacao": "Preconceito é um juízo prévio; discriminação é a ação que prejudica alguém por causa dele. Recusar candidatas por serem mulheres é discriminação de gênero.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-desigualdade-e-estratificacao-014",
+    "materia": "sociologia",
+    "assunto": "desigualdade-e-estratificacao",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Vários marcadores juntos",
+    "enunciado": "Pesquisas costumam indicar que mulheres negras enfrentam obstáculos diferentes dos que atingem homens negros e mulheres brancas. A análise que combina gênero, raça e classe é chamada de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "interseccional, pois diferentes formas de desigualdade se combinam",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "explicação só pelo gênero, que explica tudo",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "C",
+        "texto": "biológica, pois raça é uma categoria biológica",
+        "correta": false,
+        "etiqueta": "soc-naturalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "irrelevante, pois só o mérito importa",
+        "correta": false,
+        "etiqueta": "soc-so-esforco"
+      },
+      {
+        "letra": "E",
+        "texto": "etnocêntrica",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      }
+    ],
+    "explicacao": "A perspectiva interseccional mostra que as discriminações se cruzam e produzem experiências diferentes de desigualdade.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-desigualdade-e-estratificacao-015",
+    "materia": "sociologia",
+    "assunto": "desigualdade-e-estratificacao",
+    "questionario": 3,
+    "dificuldade": 1,
+    "contexto": "Média que engana",
+    "enunciado": "Em um país fictício, a renda média cresceu 20% em dez anos, mas os 10% mais ricos ficaram com quase todo o aumento, e a renda dos 50% mais pobres ficou estável. A conclusão correta é que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a desigualdade caiu, pois a média subiu",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "o crescimento da média não implica redução da desigualdade, que pode até ter aumentado",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "todos melhoraram igualmente",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "os mais pobres enriqueceram",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "os dados são insuficientes mesmo com essas informações",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      }
+    ],
+    "explicacao": "A média esconde como a renda se distribui. Se o aumento foi concentrado no topo, a desigualdade pode ter crescido, mesmo com a média maior.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-desigualdade-e-estratificacao-016",
+    "materia": "sociologia",
+    "assunto": "desigualdade-e-estratificacao",
+    "questionario": 4,
+    "dificuldade": -1,
+    "contexto": "Sem computador",
+    "enunciado": "Estudantes de uma escola fictícia não têm computador nem internet em casa e ficam em desvantagem nas aulas online. Esse quadro ilustra",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "mobilidade social",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "meritocracia",
+        "correta": false,
+        "etiqueta": "soc-so-esforco"
+      },
+      {
+        "letra": "C",
+        "texto": "etnocentrismo",
+        "correta": false,
+        "etiqueta": "soc-etnocentrismo-relativismo"
+      },
+      {
+        "letra": "D",
+        "texto": "exclusão digital, a desigualdade de acesso às tecnologias",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "anomia",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      }
+    ],
+    "explicacao": "A exclusão digital é a desigualdade no acesso a equipamentos, conexão e habilidades digitais, e pode ampliar outras desigualdades.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-desigualdade-e-estratificacao-017",
+    "materia": "sociologia",
+    "assunto": "desigualdade-e-estratificacao",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Lei que protege",
+    "enunciado": "A Lei Maria da Penha, de 2006, tem como foco",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "regular o trabalho doméstico",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "criar cotas para mulheres em empresas",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "coibir e prevenir a violência doméstica e familiar contra a mulher",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "punir só agressores desconhecidos",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "regular o casamento",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      }
+    ],
+    "explicacao": "A lei cria mecanismos de proteção, como medidas protetivas, e de punição à violência doméstica e familiar contra a mulher.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-desigualdade-e-estratificacao-018",
+    "materia": "sociologia",
+    "assunto": "desigualdade-e-estratificacao",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Indicação que abre portas",
+    "enunciado": "Duas pessoas igualmente qualificadas disputam uma vaga. Uma consegue entrevista por indicação de conhecidos, e a outra não. O que ajudou a primeira foi o seu",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "capital econômico",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "capital social, isto é, a rede de relações",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "dom natural",
+        "correta": false,
+        "etiqueta": "soc-naturalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "estado de anomia",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "destino já definido",
+        "correta": false,
+        "etiqueta": "soc-naturalizou"
+      }
+    ],
+    "explicacao": "Capital social são as redes de contatos e relações que facilitam o acesso a oportunidades. A indicação é um exemplo clássico.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-desigualdade-e-estratificacao-019",
+    "materia": "sociologia",
+    "assunto": "desigualdade-e-estratificacao",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Desigualdade natural?",
+    "enunciado": "Um argumento afirma: 'a desigualdade é natural, como alguns nascem mais altos e outros mais baixos'. Do ponto de vista sociológico, o erro do argumento é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "afirmar que existem diferenças entre as pessoas",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "ignorar que a biologia explica toda desigualdade",
+        "correta": false,
+        "etiqueta": "soc-causa-consequencia"
+      },
+      {
+        "letra": "C",
+        "texto": "defender que a sociedade nunca muda",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "negar que existam classes",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "tratar como natural algo produzido por relações sociais, leis e história, que podem mudar",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "Altura é uma diferença biológica; a distribuição de renda e de oportunidades é uma construção social. Chamar o social de 'natural' bloqueia a discussão sobre como mudá-lo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-desigualdade-e-estratificacao-020",
+    "materia": "sociologia",
+    "assunto": "desigualdade-e-estratificacao",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "O papel da escola",
+    "enunciado": "Segundo Bourdieu, a escola, ao valorizar saberes e jeitos de falar mais comuns nas camadas privilegiadas, pode",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "reproduzir desigualdades ao tratar como 'mérito' o que é herança cultural",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "garantir igualdade total de resultados",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "C",
+        "texto": "eliminar o capital cultural das famílias",
+        "correta": false,
+        "etiqueta": "soc-causa-consequencia"
+      },
+      {
+        "letra": "D",
+        "texto": "ser irrelevante para a mobilidade social",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "E",
+        "texto": "criar castas formais",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      }
+    ],
+    "explicacao": "Para Bourdieu, a escola não é neutra: ao premiar o capital cultural de quem já o tem, pode transformar vantagem herdada em aparente mérito.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  }
+]

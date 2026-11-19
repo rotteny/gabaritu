@@ -1,0 +1,18 @@
+[
+  { "id": "fis-unidade", "nome": "Unidade não convertida", "descricao": "Misturou unidades (km/h e m/s, min e s, g e kg, kWh e J) sem converter." },
+  { "id": "fis-formula-trocada", "nome": "Fórmula trocada", "descricao": "Usou a fórmula de outra grandeza ou de outro fenômeno." },
+  { "id": "fis-conta", "nome": "Erro de conta", "descricao": "Escolheu a fórmula certa, mas errou uma operação aritmética." },
+  { "id": "fis-media-aritmetica", "nome": "Média aritmética da velocidade", "descricao": "Fez a média simples das velocidades em vez de dividir distância total pelo tempo total." },
+  { "id": "fis-serie-paralelo", "nome": "Série e paralelo trocados", "descricao": "Somou resistências em paralelo como se fossem em série, ou o contrário." },
+  { "id": "fis-potencia-energia", "nome": "Potência no lugar de energia", "descricao": "Confundiu potência (taxa) com energia (acumulada), esquecendo o tempo." },
+  { "id": "fis-esqueceu-quadrado", "nome": "Esqueceu o quadrado", "descricao": "Não elevou ao quadrado velocidade, tempo ou corrente onde a fórmula pede." },
+  { "id": "fis-calor-latente", "nome": "Calor latente esquecido", "descricao": "Ignorou a mudança de estado ou confundiu calor sensível com calor latente." },
+  { "id": "fis-escala-temperatura", "nome": "Escalas de temperatura misturadas", "descricao": "Misturou °C e K, ou aplicou a conversão errada." },
+  { "id": "fis-proporcao-invertida", "nome": "Proporção invertida", "descricao": "Tratou uma relação inversa como direta, ou o contrário." },
+  { "id": "fis-sinal-direcao", "nome": "Sinal ou direção errados", "descricao": "Errou o sentido da aceleração, da força ou do deslocamento." },
+  { "id": "fis-massa-peso", "nome": "Massa e peso confundidos", "descricao": "Usou massa onde era peso (ou o contrário), esquecendo a gravidade." },
+  { "id": "fis-frequencia-periodo", "nome": "Frequência e período trocados", "descricao": "Usou o período como se fosse frequência, ou o contrário." },
+  { "id": "fis-esqueceu-etapa", "nome": "Esqueceu uma etapa", "descricao": "Montou parte do raciocínio e deixou de fora uma etapa necessária." },
+  { "id": "fis-ignorou-dado", "nome": "Ignorou um dado", "descricao": "Deixou de usar uma informação do enunciado que mudava a resposta." },
+  { "id": "fis-parou-no-intermediario", "nome": "Parou no intermediário", "descricao": "Entregou um resultado parcial sem concluir o que a pergunta pedia." }
+]

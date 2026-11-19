@@ -1,0 +1,536 @@
+/* Tela de questão: altura fixa, sem scroll da página (360x640 a 1366x768). */
+.q-tela {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    grid-template-rows: auto auto minmax(0, 1fr);
+    gap: 8px;
+    height: 100%;
+    max-width: 1040px;
+    margin-inline: auto;
+    padding: 8px max(14px, env(safe-area-inset-right)) 12px
+        max(14px, env(safe-area-inset-left));
+}
+
+/* HUD */
+.q-hud {
+    position: relative;
+    z-index: 10;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas: 'titulo acoes' 'prog marca';
+    align-items: center;
+    gap: 3px 10px;
+    padding: 6px 12px;
+    background: var(--paper);
+    border: var(--line) solid var(--ink);
+    border-radius: 18px 14px 20px 14px;
+    box-shadow: 4px 4px 0 var(--ink);
+}
+.q-hud-marca {
+    --marca-tam: 18px;
+    --marca-borda: 3px;
+    --marca-sombra: 2px;
+    grid-area: marca;
+    justify-self: end;
+}
+.q-hud-titulo {
+    grid-area: titulo;
+    min-width: 0;
+}
+.q-h1 {
+    margin: 0;
+    overflow: hidden;
+    font-family: var(--font-display);
+    font-size: clamp(15px, 4.4vw, 20px);
+    font-weight: 400;
+    line-height: 1.1;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.q-hud-sub {
+    display: none;
+    margin: 2px 0 0;
+    font-size: 14px;
+    font-weight: 800;
+}
+.q-hud-acoes {
+    grid-area: acoes;
+    display: flex;
+    gap: 8px;
+}
+.q-hud-acoes .l-icon-btn {
+    width: 38px;
+    height: 38px;
+}
+.q-progresso {
+    grid-area: prog;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.q-hud-rotulo {
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.q-segs {
+    display: flex;
+    gap: 4px;
+}
+.q-segs i {
+    width: 24px;
+    height: 12px;
+    background: var(--white);
+    border: 3px solid var(--ink);
+    border-radius: 7px 4px 8px 4px;
+}
+.q-segs i.is-feita {
+    background: var(--orange);
+}
+.q-segs i.is-atual {
+    background: var(--yellow);
+}
+
+/* Palco: balão + Peixoto, sempre visíveis */
+.q-palco {
+    position: relative;
+    z-index: 3;
+    display: grid;
+    grid-template-columns: 84px minmax(0, 1fr);
+    grid-template-areas: 'peixe balao';
+    align-items: end;
+    gap: 8px;
+    min-height: 96px;
+}
+.q-peixe {
+    grid-area: peixe;
+    width: 76px;
+    margin-bottom: 8px;
+}
+.q-flutua {
+    animation: l-float 2.6s ease-in-out infinite;
+}
+.q-infla {
+    transform: scale(var(--puff, 1));
+    transform-origin: 50% 60%;
+    transition: transform 0.55s cubic-bezier(0.3, 1.6, 0.5, 1);
+}
+.q-ato--acerto {
+    animation: q-giro 0.85s ease-in-out;
+}
+.q-ato--erro {
+    animation: q-treme 0.8s linear;
+}
+.q-balao {
+    grid-area: balao;
+    position: relative;
+    align-self: start;
+    padding: 8px 14px 10px;
+    background: var(--white);
+    border: var(--line) solid var(--ink);
+    border-radius: 26px 30px 22px 32px / 30px 24px 32px 22px;
+    box-shadow: 4px 4px 0 var(--ink);
+    font-family: var(--font-display);
+    font-size: clamp(14px, 2.3vh, 17px);
+    line-height: 1.25;
+    transition: background-color 0.2s;
+}
+.q-balao[data-humor='bravo'] {
+    background: #ffd9d1;
+}
+.q-balao[data-humor='feliz'] {
+    background: #fff0a3;
+}
+.q-balao[data-humor='ajuda'] {
+    background: #d6f3ff;
+}
+.q-balao::after {
+    content: '';
+    position: absolute;
+    left: -11px;
+    top: 30px;
+    width: 18px;
+    height: 18px;
+    background: inherit;
+    border-bottom: var(--line) solid var(--ink);
+    border-left: var(--line) solid var(--ink);
+    rotate: 45deg;
+}
+.q-balao-corpo {
+    position: relative;
+    display: block;
+}
+.q-fantasma {
+    display: block;
+    visibility: hidden;
+}
+.q-digitado {
+    position: absolute;
+    inset: 0;
+    display: block;
+}
+.q-pular {
+    position: absolute;
+    right: 8px;
+    bottom: -30px;
+    padding: 1px 10px;
+    background: var(--yellow);
+    border: 3px solid var(--ink);
+    border-radius: 10px 7px 11px 7px;
+    box-shadow: 2px 2px 0 var(--ink);
+    color: var(--ink);
+    cursor: pointer;
+    font-family: var(--font-display);
+    font-size: 13px;
+}
+
+/* Jogo: pergunta, alternativas e explicação */
+.q-jogo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-height: 0;
+}
+.q-conteudo {
+    display: grid;
+    flex: 0 1 auto;
+    gap: clamp(6px, 1.2vh, 12px);
+    align-content: start;
+    min-height: 0;
+    padding: 2px 8px 8px 2px;
+    margin: -2px -8px -8px -2px;
+    overflow: hidden auto;
+}
+.q-cartao {
+    padding: clamp(6px, 1.2vh, 14px) 14px clamp(7px, 1.3vh, 14px);
+    background: var(--paper);
+    border: var(--line) solid var(--ink);
+    border-radius: 20px 26px 18px 24px;
+    box-shadow: 5px 5px 0 var(--ink);
+}
+.q-contexto {
+    margin: 0 0 6px;
+    font-size: clamp(12px, 1.8vh, 15px);
+    font-weight: 700;
+    line-height: 1.3;
+}
+.q-enunciado {
+    margin: 0;
+    max-width: 66ch;
+    font-size: clamp(13px, 2.1vh, 19px);
+    font-weight: 800;
+    line-height: 1.3;
+}
+.q-cartao--compacto .q-enunciado {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+.q-alts {
+    display: grid;
+    gap: clamp(5px, 1.1vh, 12px);
+    margin: 0;
+    padding: 2px 6px 4px 2px;
+    list-style: none;
+}
+.q-alt {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    min-width: 0;
+    padding: clamp(3px, 0.8vh, 10px) 12px;
+    background: var(--paper);
+    border: var(--line) solid var(--ink);
+    border-radius: 18px 24px 20px 22px;
+    box-shadow: 4px 4px 0 var(--ink);
+    color: var(--ink);
+    cursor: pointer;
+    font: inherit;
+    font-size: clamp(13px, 2vh, 17px);
+    line-height: 1.25;
+    text-align: left;
+    transition:
+        transform 0.08s,
+        box-shadow 0.08s;
+}
+.q-alts li:nth-child(5n + 1) .q-alt {
+    rotate: -1deg;
+}
+.q-alts li:nth-child(5n + 2) .q-alt {
+    rotate: 0.8deg;
+    border-radius: 22px 18px 24px 20px;
+}
+.q-alts li:nth-child(5n + 3) .q-alt {
+    rotate: -0.5deg;
+}
+.q-alts li:nth-child(5n + 4) .q-alt {
+    rotate: 1.1deg;
+    border-radius: 24px 20px 22px 18px;
+}
+.q-alts li:nth-child(5n + 5) .q-alt {
+    rotate: -0.8deg;
+}
+.q-alt-letra {
+    display: grid;
+    flex: none;
+    place-items: center;
+    width: clamp(26px, 3.6vh, 38px);
+    height: clamp(26px, 3.6vh, 38px);
+    background: var(--orange);
+    border: 3px solid var(--ink);
+    border-radius: 50% 44% 52% 46%;
+    font-family: var(--font-display);
+    font-size: clamp(14px, 2.2vh, 20px);
+}
+.q-alt-texto {
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+.q-alts:not(.q-alts--travada) .q-alt:hover {
+    box-shadow: 6px 6px 0 var(--ink);
+    transform: translate(-2px, -2px);
+}
+.q-alts:not(.q-alts--travada) .q-alt:active {
+    box-shadow: 1px 1px 0 var(--ink);
+    transform: translate(3px, 3px);
+}
+.q-alts--travada .q-alt {
+    cursor: default;
+}
+.q-alt--pendente {
+    background: var(--yellow);
+}
+.q-alt--errada {
+    background: #d9cdf2;
+    animation: q-bonk 0.6s ease-out forwards;
+}
+.q-alt--errada .q-alt-letra {
+    background: #d9cdf2;
+}
+.q-alt--certa {
+    background: var(--slime);
+    outline: 4px dashed var(--ink);
+    outline-offset: 3px;
+    animation: q-pop 0.5s cubic-bezier(0.3, 1.6, 0.5, 1);
+}
+.q-alt--certa .q-alt-letra {
+    background: var(--yellow);
+}
+.q-alts li:has(.q-alt--recolhida) {
+    animation: q-some 0.35s ease-in 0.45s forwards;
+}
+.q-alt--recolhida {
+    pointer-events: none;
+}
+.q-explosao {
+    border-radius: inherit;
+}
+.q-explosao .l-burst-star,
+.q-explosao .l-confete {
+    animation-duration: 1s;
+}
+.q-explosao--erro polygon {
+    fill: var(--purple);
+}
+
+/* Gosma menor: a alternativa é baixa e o texto precisa continuar legível */
+.q-alt .l-slime.is-on::before {
+    height: 9px;
+}
+.q-alt .l-slime.is-on .l-slime-drip {
+    height: min(var(--h), 20px);
+    width: 14px;
+}
+
+/* Explicação */
+.q-depois {
+    display: grid;
+    flex: none;
+    gap: clamp(6px, 1.2vh, 12px);
+}
+.q-explicacao {
+    padding: clamp(6px, 1.2vh, 14px) 14px clamp(7px, 1.3vh, 14px);
+    background: var(--cyan-l);
+    border: var(--line) solid var(--ink);
+    border-radius: 22px 16px 24px 18px;
+    box-shadow: 5px 5px 0 var(--ink);
+    animation: q-pop 0.45s cubic-bezier(0.3, 1.6, 0.5, 1);
+}
+.q-explicacao-titulo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+    margin: 0 0 3px;
+    font-family: var(--font-display);
+    font-size: clamp(16px, 2.6vh, 22px);
+    font-weight: 400;
+}
+.q-explicacao p {
+    max-height: 22vh;
+    margin: 0;
+    overflow-y: auto;
+    font-size: clamp(13px, 1.9vh, 17px);
+    line-height: 1.3;
+}
+.q-proxima {
+    justify-self: end;
+    min-height: 44px;
+}
+
+/* Alterações por tamanho */
+@media (max-height: 700px) {
+    .q-hud-rotulo {
+        font-size: 12px;
+    }
+    .q-palco {
+        min-height: 88px;
+    }
+}
+@media (min-width: 900px) {
+    .q-tela {
+        grid-template-columns: 360px minmax(0, 1fr);
+        grid-template-rows: auto minmax(0, 1fr);
+        gap: 12px 22px;
+        padding-block: 12px 16px;
+    }
+    .q-hud {
+        grid-column: 1 / -1;
+        grid-template-columns: auto minmax(0, 1fr) auto auto;
+        grid-template-areas: 'marca titulo prog acoes';
+        gap: 14px;
+        padding: 8px 16px;
+    }
+    .q-hud-marca {
+        --marca-tam: 24px;
+        --marca-borda: 4px;
+        justify-self: start;
+    }
+    .q-h1 {
+        font-size: clamp(18px, 3.2vh, 24px);
+    }
+    .q-hud-sub {
+        display: block;
+    }
+    .q-segs i {
+        width: 30px;
+    }
+    .q-palco {
+        grid-template-columns: minmax(0, 1fr);
+        grid-template-areas: 'balao' 'peixe';
+        align-content: start;
+        align-items: start;
+    }
+    .q-balao {
+        font-size: clamp(15px, 2.4vh, 19px);
+    }
+    .q-balao::after {
+        top: auto;
+        bottom: -13px;
+        left: 56px;
+        border-bottom: var(--line) solid var(--ink);
+        border-left: 0;
+        border-right: var(--line) solid var(--ink);
+    }
+    .q-peixe {
+        width: clamp(160px, 36vh, 280px);
+        margin: 22px 0 0 40px;
+    }
+}
+
+/* Efeitos */
+.q-tela--pulou .q-alt,
+.q-tela--pulou .q-alts li,
+.q-tela--pulou .q-ato,
+.q-tela--pulou .q-infla {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0s !important;
+    transition-duration: 0.01ms !important;
+}
+
+@keyframes q-giro {
+    0% {
+        transform: translateY(0) rotate(0);
+    }
+    45% {
+        transform: translateY(-26px) rotate(200deg) scale(1.1);
+    }
+    100% {
+        transform: translateY(0) rotate(360deg);
+    }
+}
+@keyframes q-treme {
+    0%,
+    100% {
+        transform: none;
+    }
+    15% {
+        transform: translate(-6px, 2px) rotate(-4deg);
+    }
+    30% {
+        transform: translate(6px, -2px) rotate(4deg);
+    }
+    50% {
+        transform: translate(-5px, 1px) rotate(-3deg);
+    }
+    70% {
+        transform: translate(4px, 0) rotate(2deg);
+    }
+}
+@keyframes q-bonk {
+    0% {
+        transform: none;
+    }
+    18% {
+        transform: translate(-7px, 2px) rotate(-3deg);
+    }
+    36% {
+        transform: translate(7px, 3px) rotate(3deg);
+    }
+    100% {
+        transform: translateY(6px) rotate(2deg);
+    }
+}
+@keyframes q-pop {
+    0% {
+        transform: scale(0.85);
+    }
+    55% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes q-some {
+    from {
+        max-height: 140px;
+    }
+    to {
+        max-height: 0;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        opacity: 0;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .q-alts li:has(.q-alt--recolhida) {
+        display: none;
+    }
+}
+.gb[data-reduzir='true'] .q-alts li:has(.q-alt--recolhida) {
+    display: none;
+}
+
+/* Balão de grito na questão: folga para as pontas e o rabicho, sem empurrar o jogo para fora da tela. */
+html .q-balao.gb-grito-alvo[data-grito='true'] {
+    margin: 10px 16px 18px 14px;
+    padding: 12px 22px 14px;
+}

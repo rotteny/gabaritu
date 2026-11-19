@@ -1,5 +1,5 @@
 /* Landing do Gabaritu: tokens, base e botões. Visual cartoon: contorno grosso, sombra sólida, cor chapada. */
-.landing {
+:is(.landing, .gb) {
     --ink: #1b1030;
     --paper: #fff6d9;
     --white: #fff;
@@ -20,7 +20,9 @@
     --line: 4px;
     --font-display: 'Titan One', 'Arial Black', Impact, sans-serif;
     --font-body: 'Nunito', 'Segoe UI', system-ui, sans-serif;
+}
 
+.landing {
     min-height: 100dvh;
     overflow-x: clip;
     background: var(--cyan);
@@ -31,7 +33,7 @@
     line-height: 1.45;
 }
 
-.landing *:focus-visible {
+:is(.landing, .gb) *:focus-visible {
     outline: 4px solid var(--focus, var(--ink));
     outline-offset: 3px;
 }
@@ -57,19 +59,12 @@
 }
 
 .l-header {
-    padding-block: 14px;
+    padding-block: 8px;
 }
-
-.l-logo {
-    display: inline-block;
-    padding: 2px 16px 4px;
-    background: var(--orange);
-    border: var(--line) solid var(--ink);
-    border-radius: 18px 12px 20px 14px;
-    box-shadow: 4px 4px 0 var(--ink);
-    font-family: var(--font-display);
-    font-size: 26px;
-    rotate: -2deg;
+@media (min-width: 768px) {
+    .l-header {
+        padding-block: 14px;
+    }
 }
 
 .l-btn {
@@ -207,4 +202,142 @@
     .l-burst {
         display: none;
     }
+}
+
+/* Wordmark do Gabaritu: Titan One, contorno grosso, sombra sólida, letras saltitantes (estático). */
+.marca {
+    --marca-tam: 30px;
+    --marca-borda: 5px;
+    --marca-sombra: 3px;
+    position: relative;
+    display: inline-flex;
+    align-items: flex-end;
+    gap: 0.2em;
+    color: var(--yellow, #ffd60a);
+    font-family: var(--font-display, 'Titan One', 'Arial Black', sans-serif);
+    font-size: var(--marca-tam);
+    font-weight: 400;
+    line-height: 1;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.marca--sm {
+    --marca-tam: 22px;
+    --marca-borda: 4px;
+    --marca-sombra: 2px;
+}
+.marca--hero {
+    --marca-tam: clamp(40px, 12.5vw, 112px);
+    --marca-borda: clamp(6px, 1.8vw, 14px);
+    --marca-sombra: clamp(3px, 1vw, 8px);
+}
+.marca-sr {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+}
+.marca-letras {
+    display: inline-flex;
+    padding: 0.08em 0.1em 0.12em;
+}
+.marca-letra {
+    display: inline-block;
+    color: var(--yellow, #ffd60a);
+    paint-order: stroke fill;
+    -webkit-text-stroke: var(--marca-borda) var(--ink, #1b1030);
+    text-shadow: var(--marca-sombra) var(--marca-sombra) 0 var(--ink, #1b1030);
+    letter-spacing: 0.02em;
+}
+.marca-letra:nth-child(1) {
+    rotate: -7deg;
+    translate: 0 0.05em;
+    color: var(--orange, #ff8a1f);
+}
+.marca-letra:nth-child(2) {
+    rotate: 4deg;
+    translate: 0 -0.07em;
+}
+.marca-letra:nth-child(3) {
+    rotate: -3deg;
+    translate: 0 0.04em;
+}
+.marca-letra:nth-child(4) {
+    rotate: 6deg;
+    translate: 0 -0.06em;
+    color: var(--slime, #7ddc1f);
+}
+.marca-letra:nth-child(5) {
+    rotate: -5deg;
+    translate: 0 0.05em;
+}
+.marca-letra:nth-child(6) {
+    rotate: 3deg;
+    translate: 0 -0.05em;
+}
+.marca-letra:nth-child(7) {
+    rotate: -6deg;
+    translate: 0 0.04em;
+    color: var(--pink, #ff7eb6);
+}
+.marca-letra:nth-child(8) {
+    rotate: 5deg;
+    translate: 0 -0.06em;
+}
+.marca-bolhas {
+    display: inline-flex;
+    gap: 0.12em;
+    align-self: flex-start;
+    margin-left: -0.1em;
+}
+.marca-bolhas i {
+    display: block;
+    width: 0.2em;
+    height: 0.2em;
+    background: var(--white, #fff);
+    border: calc(var(--marca-borda) * 0.5) solid var(--ink, #1b1030);
+    border-radius: 50%;
+}
+.marca-bolhas i:nth-child(2) {
+    margin-top: 0.22em;
+    scale: 0.7;
+}
+.marca-bolhas i:nth-child(3) {
+    margin-top: -0.1em;
+    scale: 0.5;
+}
+
+/* Linha de crédito: texto discreto, fundo transparente, contraste AA sobre o ciano/areia. */
+.credito {
+    position: relative;
+    z-index: 2;
+    margin: 0;
+    padding: 6px 16px 10px;
+    background: transparent;
+    color: var(--ink, #1b1030);
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.3;
+    text-align: center;
+}
+.credito-icone {
+    display: inline-block;
+    width: 1.1em;
+    height: 1.1em;
+    vertical-align: -0.2em;
+}
+.credito a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+.credito a:hover {
+    text-decoration-thickness: 2px;
+}
+
+.l-header-in {
+    display: flex;
+    justify-content: flex-end;
 }

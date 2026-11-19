@@ -1,0 +1,902 @@
+[
+  {
+    "id": "lit-realismo-naturalismo-001",
+    "materia": "literatura",
+    "assunto": "realismo-naturalismo",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Marcas do Realismo",
+    "enunciado": "O Realismo surge na segunda metade do século XIX em oposição ao Romantismo. Entre suas características estão",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a idealização do herói e do amor como forças puras.",
+        "correta": false,
+        "etiqueta": "lit-idealizacao-x-critica"
+      },
+      {
+        "letra": "B",
+        "texto": "o subjetivismo exagerado e a fuga da realidade.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "C",
+        "texto": "o objetivismo, a análise crítica da sociedade e a representação verossímil das pessoas e dos costumes.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "o nacionalismo indianista e a exaltação da natureza.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "E",
+        "texto": "a musicalidade e as sugestões místicas, com pouca clareza.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      }
+    ],
+    "explicacao": "O Realismo quer retratar a realidade como ela é, com olhar crítico para a sociedade, a hipocrisia e as relações de interesse. As alternativas erradas descrevem Romantismo (idealização, subjetivismo, indianismo) e Simbolismo (musicalidade e misticismo).",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-realismo-naturalismo-002",
+    "materia": "literatura",
+    "assunto": "realismo-naturalismo",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Marco do Realismo",
+    "enunciado": "O Realismo brasileiro costuma ter como marco inicial, em 1881, a publicação de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "“O Guarani”, de José de Alencar.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "B",
+        "texto": "“Iracema”, também de José de Alencar.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "C",
+        "texto": "“Memórias Póstumas de Brás Cubas”, de Machado de Assis.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "“Missal”, de Cruz e Sousa.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "E",
+        "texto": "“Macunaíma”, de Mário de Andrade.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      }
+    ],
+    "explicacao": "A obra de Machado de Assis inaugura o Realismo com um narrador defunto, ironia e visão crítica. “O Guarani” e “Iracema” são românticos, “Missal” é simbolista (1893) e “Macunaíma” é modernista (1928).",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-realismo-naturalismo-003",
+    "materia": "literatura",
+    "assunto": "realismo-naturalismo",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "O defunto-autor",
+    "enunciado": "Em “Memórias Póstumas de Brás Cubas”, a história é contada por",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "um narrador em primeira pessoa que já morreu, o que lhe permite contar a vida com ironia e sem pudor.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "um narrador em terceira pessoa, onisciente e neutro.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-narrador"
+      },
+      {
+        "letra": "C",
+        "texto": "uma testemunha que não participou dos fatos.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-narrador"
+      },
+      {
+        "letra": "D",
+        "texto": "uma criança que narra a história do que vê em casa.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-narrador"
+      },
+      {
+        "letra": "E",
+        "texto": "vários narradores que se alternam a cada capítulo.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-narrador"
+      }
+    ],
+    "explicacao": "Brás Cubas conta a própria vida depois de morto, com liberdade para ironizar a si mesmo e à sociedade. Essa originalidade é marca do estilo machadiano. O narrador é personagem e fala em 1ª pessoa.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-realismo-naturalismo-004",
+    "materia": "literatura",
+    "assunto": "realismo-naturalismo",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "O legado da miséria",
+    "enunciado": "No final de “Memórias Póstumas de Brás Cubas”, o narrador afirma: “Não tive filhos, não transmiti a nenhuma criatura o legado da nossa miséria.” Esse trecho expressa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a tristeza por não ter deixado herdeiros para continuar a família.",
+        "correta": false,
+        "etiqueta": "lit-leitura-literal"
+      },
+      {
+        "letra": "B",
+        "texto": "o orgulho do narrador pelo patrimônio que construiu.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      },
+      {
+        "letra": "C",
+        "texto": "o pessimismo do narrador, que vê a vida humana como miséria e considera positivo não tê-la perpetuado.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "uma crítica política ao governo imperial.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "E",
+        "texto": "o desejo de ter filhos para ensinar a eles uma boa moral.",
+        "correta": false,
+        "etiqueta": "lit-leitura-literal"
+      }
+    ],
+    "explicacao": "A frase é irônica e pessimista: o que ele não transmitiu é o “legado da miséria”, e isso é visto como saldo positivo do balanço final da vida. Lida ao pé da letra, parece lamento, mas na verdade é alívio sarcástico.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-realismo-naturalismo-005",
+    "materia": "literatura",
+    "assunto": "realismo-naturalismo",
+    "questionario": 1,
+    "dificuldade": 1,
+    "contexto": "A dúvida de Capitu",
+    "enunciado": "Em “Dom Casmurro”, o leitor permanece em dúvida se Capitu traiu Bentinho. Isso acontece porque",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o narrador é onisciente e apresenta provas claras da traição.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-narrador"
+      },
+      {
+        "letra": "B",
+        "texto": "Capitu confessa a traição no final do romance.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      },
+      {
+        "letra": "C",
+        "texto": "uma testemunha neutra narra os fatos com imparcialidade.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-narrador"
+      },
+      {
+        "letra": "D",
+        "texto": "o narrador é o próprio Bentinho, parte interessada, que conta tudo do seu ponto de vista e deixa a dúvida em aberto.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "Escobar escreve uma carta que esclarece toda a história.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      }
+    ],
+    "explicacao": "O romance é narrado em 1ª pessoa por Bentinho, que acusa Capitu com base em suas impressões e ciúmes. A parcialidade do narrador faz com que o leitor desconfie da própria versão. Essa ambiguidade é um dos grandes méritos do livro.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-realismo-naturalismo-006",
+    "materia": "literatura",
+    "assunto": "realismo-naturalismo",
+    "questionario": 2,
+    "dificuldade": -1,
+    "contexto": "O Cortiço",
+    "enunciado": "O romance “O Cortiço” (1890), de Aluísio Azevedo, é uma obra representativa do",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Romantismo, que idealiza a natureza e o herói nacional.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "B",
+        "texto": "Naturalismo, que apresenta o meio social como determinante do comportamento das personagens.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "Simbolismo, que explora a musicalidade e o misticismo.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "D",
+        "texto": "Arcadismo, que valoriza a vida pastoril e a razão.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "E",
+        "texto": "Parnasianismo, que privilegia o rigor formal e a arte pela arte.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      }
+    ],
+    "explicacao": "O cortiço, espaço coletivo e quase um organismo vivo, molda o comportamento de seus moradores, e isso caracteriza o Naturalismo. Aluísio Azevedo é seu principal nome no Brasil.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-realismo-naturalismo-007",
+    "materia": "literatura",
+    "assunto": "realismo-naturalismo",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Meio, raça e momento",
+    "enunciado": "Segundo o determinismo, ideia comum no Naturalismo, o comportamento humano é determinado principalmente por",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "um destino traçado por Deus, que ninguém pode mudar.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "B",
+        "texto": "a vontade livre e total de cada indivíduo.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "C",
+        "texto": "os sentimentos e as paixões do coração romântico.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "D",
+        "texto": "fatores como o meio, a hereditariedade (raça) e o momento histórico.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "a razão e a educação clássica recebidas na infância.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      }
+    ],
+    "explicacao": "A teoria determinista, ligada a Taine, Darwin e Zola, afirma que o indivíduo é produto de seu ambiente, sua hereditariedade e sua época. Isso afasta a ideia de livre-arbítrio plena, comum no Romantismo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-realismo-naturalismo-008",
+    "materia": "literatura",
+    "assunto": "realismo-naturalismo",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "O Primo Basílio",
+    "enunciado": "O romance “O Primo Basílio” (1878), do escritor português Eça de Queirós, tem como núcleo",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a vida em uma habitação coletiva no Rio de Janeiro.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-contexto-social"
+      },
+      {
+        "letra": "B",
+        "texto": "uma aventura marítima de exploradores portugueses.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      },
+      {
+        "letra": "C",
+        "texto": "a idealização da vida simples no campo.",
+        "correta": false,
+        "etiqueta": "lit-idealizacao-x-critica"
+      },
+      {
+        "letra": "D",
+        "texto": "a luta de um povo indígena contra o colonizador.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      },
+      {
+        "letra": "E",
+        "texto": "o adultério de uma mulher da burguesia de Lisboa e a crítica à moral hipócrita da sociedade.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "Luísa trai o marido com o primo e acaba chantageada pela criada. Eça de Queirós, nome central do Realismo português, usa o enredo para criticar a burguesia, o casamento e a educação das mulheres da época.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-realismo-naturalismo-009",
+    "materia": "literatura",
+    "assunto": "realismo-naturalismo",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Ao vencedor, as batatas",
+    "enunciado": "Em “Quincas Borba”, de Machado de Assis, a frase “Ao vencedor, as batatas” resume a filosofia do Humanitismo. Esse lema expressa, com ironia,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "um conselho prático sobre agricultura e alimentação.",
+        "correta": false,
+        "etiqueta": "lit-leitura-literal"
+      },
+      {
+        "letra": "B",
+        "texto": "a defesa da solidariedade e da partilha entre todos.",
+        "correta": false,
+        "etiqueta": "lit-idealizacao-x-critica"
+      },
+      {
+        "letra": "C",
+        "texto": "a crítica à fome nas áreas rurais do Brasil.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-contexto-social"
+      },
+      {
+        "letra": "D",
+        "texto": "o elogio da humildade e da vida simples.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      },
+      {
+        "letra": "E",
+        "texto": "a ideia de que só os mais fortes se beneficiam, o que justifica a desigualdade e o descarte dos fracos.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "O Humanitismo, doutrina inventada por Quincas Borba, é uma sátira às teorias que justificam a desigualdade pela lei do mais forte (darwinismo social). “As batatas” são o prêmio, e quem perde não tem direito a nada. Machado ridiculariza essa filosofia por meio da ironia.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-realismo-naturalismo-010",
+    "materia": "literatura",
+    "assunto": "realismo-naturalismo",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Machado e Aluísio",
+    "enunciado": "É correto distinguir o Realismo de Machado de Assis do Naturalismo de Aluísio Azevedo da seguinte forma:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Machado enfatiza o determinismo biológico, e Aluísio, a psicologia e a ironia.",
+        "correta": false,
+        "etiqueta": "lit-generalizou"
+      },
+      {
+        "letra": "B",
+        "texto": "os dois evitam crítica social e se concentram na paisagem.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "C",
+        "texto": "Machado escreve poesia, e Aluísio, teatro.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-forma"
+      },
+      {
+        "letra": "D",
+        "texto": "Machado enfatiza a análise psicológica e a ironia, e Aluísio destaca o determinismo do meio e dos instintos.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "os dois idealizam os heróis e valorizam a emoção acima da razão.",
+        "correta": false,
+        "etiqueta": "lit-idealizacao-x-critica"
+      }
+    ],
+    "explicacao": "Machado de Assis explora a consciência, as aparências e a hipocrisia social com ironia e humor. Aluísio Azevedo analisa grupos sociais como produtos do meio, com cientificismo e foco em instintos. Ambos são críticos, e nenhum idealiza.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-realismo-naturalismo-011",
+    "materia": "literatura",
+    "assunto": "realismo-naturalismo",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Quem escreveu O Cortiço?",
+    "enunciado": "O romance “O Cortiço”, que retrata a vida em uma habitação coletiva no Rio de Janeiro, é de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Machado de Assis.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      },
+      {
+        "letra": "B",
+        "texto": "Aluísio Azevedo.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "Raul Pompeia.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      },
+      {
+        "letra": "D",
+        "texto": "Eça de Queirós.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      },
+      {
+        "letra": "E",
+        "texto": "José de Alencar.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      }
+    ],
+    "explicacao": "Aluísio Azevedo é o principal naturalista brasileiro, autor de “O Mulato” (1881) e “O Cortiço” (1890). Pompeia escreveu “O Ateneu”, Eça é português, Machado é realista e Alencar é romântico.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-realismo-naturalismo-012",
+    "materia": "literatura",
+    "assunto": "realismo-naturalismo",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Olhos de ressaca",
+    "enunciado": "Capitu, que tem “olhos de ressaca” e é descrita como “cigana oblíqua e dissimulada”, é personagem de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "“Dom Casmurro”, de Machado de Assis.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "“Senhora”, de José de Alencar.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      },
+      {
+        "letra": "C",
+        "texto": "“O Cortiço”, de Aluísio Azevedo.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      },
+      {
+        "letra": "D",
+        "texto": "“Iracema”, de José de Alencar.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      },
+      {
+        "letra": "E",
+        "texto": "“Os Maias”, de Eça de Queirós.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      }
+    ],
+    "explicacao": "Capitu é a personagem central do mistério de “Dom Casmurro” (1899): traiu ou não traiu Bentinho? A expressão “olhos de ressaca” sugere a atração e o perigo, como o mar. Machado de Assis é o autor.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-realismo-naturalismo-013",
+    "materia": "literatura",
+    "assunto": "realismo-naturalismo",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Gente como formigas",
+    "enunciado": "Leia o trecho autoral: “Aquela gente fervilhava no pátio como formigas, movida mais pelo instinto que pela razão.” O recurso característico do Naturalismo presente na passagem é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a animalização das personagens, que sugere que os instintos e o meio determinam o comportamento.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "a personificação da natureza, que ganha sentimentos humanos.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-recurso"
+      },
+      {
+        "letra": "C",
+        "texto": "a ironia machadiana, que diz o contrário do que pensa.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-recurso"
+      },
+      {
+        "letra": "D",
+        "texto": "a sinestesia simbolista, que mistura sensações.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-recurso"
+      },
+      {
+        "letra": "E",
+        "texto": "a idealização romântica da vida do povo.",
+        "correta": false,
+        "etiqueta": "lit-idealizacao-x-critica"
+      }
+    ],
+    "explicacao": "Comparar pessoas a animais (zoomorfismo) é um procedimento naturalista típico, usado para mostrar o peso dos instintos e do meio sobre o comportamento. Em “O Cortiço”, esse recurso aparece várias vezes.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-realismo-naturalismo-014",
+    "materia": "literatura",
+    "assunto": "realismo-naturalismo",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "O Ateneu",
+    "enunciado": "“O Ateneu” (1888), de Raul Pompeia, narra a experiência de um garoto em um colégio interno. A obra critica",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a vida de povos indígenas e a perda de suas terras.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      },
+      {
+        "letra": "B",
+        "texto": "uma viagem marítima cheia de aventuras exóticas.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      },
+      {
+        "letra": "C",
+        "texto": "o casamento por interesse entre classes ricas.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      },
+      {
+        "letra": "D",
+        "texto": "as secas e a migração no sertão nordestino.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      },
+      {
+        "letra": "E",
+        "texto": "o ambiente escolar elitista, a hipocrisia e as relações de poder na educação da época.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "O narrador, Sérgio, relembra a vida no internato e revela um mundo de vaidades, favoritismos e violência velada. O romance, de estilo impressionista, é uma crítica à formação das elites do Império.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-realismo-naturalismo-015",
+    "materia": "literatura",
+    "assunto": "realismo-naturalismo",
+    "questionario": 3,
+    "dificuldade": 1,
+    "contexto": "Jantar de aparências",
+    "enunciado": "Leia o trecho autoral: “Sentou-se à mesa, elogiou o jantar, a casa e a conversa; depois, ao sair, contou aos outros que aquela família era insuportável.” O trecho ilustra, como no Realismo,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a idealização da família como espaço de pureza e harmonia.",
+        "correta": false,
+        "etiqueta": "lit-idealizacao-x-critica"
+      },
+      {
+        "letra": "B",
+        "texto": "a crítica à hipocrisia e ao jogo de aparências na vida social.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "o determinismo biológico que explica o caráter das pessoas.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "D",
+        "texto": "a exaltação da hospitalidade como valor nacional.",
+        "correta": false,
+        "etiqueta": "lit-leitura-literal"
+      },
+      {
+        "letra": "E",
+        "texto": "o nacionalismo ufanista em torno da vida doméstica.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      }
+    ],
+    "explicacao": "A personagem diz uma coisa e pensa outra: elogia em público e critica em privado. Esse desmascaramento da hipocrisia é central em Machado, Eça e outros realistas. O contraste entre aparência e essência é o foco.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-realismo-naturalismo-016",
+    "materia": "literatura",
+    "assunto": "realismo-naturalismo",
+    "questionario": 4,
+    "dificuldade": -1,
+    "contexto": "Ciência e Realismo",
+    "enunciado": "O Realismo e o Naturalismo surgiram em um contexto marcado, na Europa e no Brasil, por",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a independência política do Brasil em 1822.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "B",
+        "texto": "avanços científicos, o positivismo e o evolucionismo, além da crise de valores tradicionais.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "a Contrarreforma católica e as guerras de religião.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "D",
+        "texto": "a Semana de Arte Moderna e as vanguardas europeias.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "E",
+        "texto": "o retorno ao ideal clássico de equilíbrio e razão.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      }
+    ],
+    "explicacao": "O século XIX viu o triunfo da ciência (Darwin, Comte, Taine) e das mudanças sociais (industrialização, fim da escravidão no Brasil). A literatura passou a analisar a realidade de modo objetivo e crítico.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-realismo-naturalismo-017",
+    "materia": "literatura",
+    "assunto": "realismo-naturalismo",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "O Crime do Padre Amaro",
+    "enunciado": "O romance “O Crime do Padre Amaro”, de Eça de Queirós, é uma crítica",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "à falta de religiosidade da população, que abandonou a Igreja.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      },
+      {
+        "letra": "B",
+        "texto": "às ideias do Iluminismo, que ameaçam a fé tradicional.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "C",
+        "texto": "à hipocrisia e à corrupção moral do clero e da sociedade provinciana portuguesa.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "ao Parnasianismo, pela busca do rigor formal.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "E",
+        "texto": "à colonização portuguesa, que explorava os povos nativos.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      }
+    ],
+    "explicacao": "O padre Amaro seduz uma jovem e sacrifica a moral em nome de sua carreira e da reputação, com a cumplicidade de uma sociedade que apoia as aparências. É um dos romances realistas mais fortes de Eça.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-realismo-naturalismo-018",
+    "materia": "literatura",
+    "assunto": "realismo-naturalismo",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "O amor realista",
+    "enunciado": "Em comparação com o Romantismo, o Realismo trata o amor",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "como um sentimento puro e eterno, que vence todos os obstáculos.",
+        "correta": false,
+        "etiqueta": "lit-idealizacao-x-critica"
+      },
+      {
+        "letra": "B",
+        "texto": "como assunto proibido, que nunca aparece nas obras.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      },
+      {
+        "letra": "C",
+        "texto": "como uma busca mística da união com o divino.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "D",
+        "texto": "como uma relação marcada por interesses, convenções sociais e até adultério, sem idealização.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "como instrumento a serviço da exaltação nacionalista.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      }
+    ],
+    "explicacao": "Os realistas observam o amor dentro de relações sociais reais: casamentos por dinheiro, traições, convenções. Por isso, em vez de heróis perfeitos, aparecem personagens falhos e contraditórios.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-realismo-naturalismo-019",
+    "materia": "literatura",
+    "assunto": "realismo-naturalismo",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Fases de Machado",
+    "enunciado": "A obra de Machado de Assis é dividida em fase romântica e fase realista. Pertencem à fase realista",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "“Ressurreição”, “A Mão e a Luva” e “Helena”.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "B",
+        "texto": "“Helena”, “Iaiá Garcia” e “Quincas Borba”.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "C",
+        "texto": "“Dom Casmurro”, “Ressurreição” e “Iaiá Garcia”.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "D",
+        "texto": "“A Mão e a Luva”, “Memórias Póstumas” e “Helena”.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "E",
+        "texto": "“Memórias Póstumas de Brás Cubas”, “Quincas Borba” e “Dom Casmurro”.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "A fase romântica (1872 a 1878) inclui “Ressurreição”, “A Mão e a Luva”, “Helena” e “Iaiá Garcia”. A fase realista começa em 1881, com “Memórias Póstumas”, e inclui “Quincas Borba” e “Dom Casmurro”. Cada alternativa errada mistura obras das duas fases.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-realismo-naturalismo-020",
+    "materia": "literatura",
+    "assunto": "realismo-naturalismo",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Naturalismo radical",
+    "enunciado": "O Naturalismo é muitas vezes visto como radicalização do Realismo porque",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "aplica leis científicas, como o determinismo e a hereditariedade, para explicar o comportamento humano, com foco em instintos e patologias.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "abandona a crítica social e se concentra na paisagem.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "C",
+        "texto": "idealiza o ser humano como livre de qualquer influência.",
+        "correta": false,
+        "etiqueta": "lit-idealizacao-x-critica"
+      },
+      {
+        "letra": "D",
+        "texto": "valoriza a psicologia sutil e a ironia fina como centro do texto.",
+        "correta": false,
+        "etiqueta": "lit-generalizou"
+      },
+      {
+        "letra": "E",
+        "texto": "é uma corrente exclusivamente poética, sem romances.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-forma"
+      }
+    ],
+    "explicacao": "Se o Realismo observa e critica, o Naturalismo quer explicar cientificamente o que as pessoas fazem, por meio da biologia e do meio. Isso leva à descrição de instintos, doenças e miséria. A psicologia sutil é mais característica do Realismo machadiano.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  }
+]

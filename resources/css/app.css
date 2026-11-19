@@ -9,9 +9,8 @@
 
 @theme inline {
     --font-sans:
-        'Instrument Sans', ui-sans-serif, system-ui, sans-serif,
-        'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
-        'Noto Color Emoji';
+        'Nunito', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+        'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 
     --radius-lg: var(--radius);
     --radius-md: calc(var(--radius) - 2px);
@@ -140,4 +139,13 @@
     body {
         @apply bg-background text-foreground;
     }
+}
+
+/* Link para fora da plataforma: ícone pequeno depois do texto. */
+.link-externo-icone {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin-left: 3px;
+    vertical-align: -1px;
 }

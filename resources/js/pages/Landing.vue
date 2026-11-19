@@ -1,5 +1,10 @@
 <script setup lang="ts">
 import { Head } from '@inertiajs/vue3';
+import { onBeforeUnmount, onMounted, ref } from 'vue';
+import PeixotoNadador from '@/components/PeixotoNadador.vue';
+import { useMovimentoReduzido } from '@/composables/useMovimentoReduzido';
+import { observarSecoes } from '@/lib/somInterface';
+import BotaoSom from '@/components/BotaoSom.vue';
 import LandingDemo from '@/components/landing/LandingDemo.vue';
 import LandingFooter from '@/components/landing/LandingFooter.vue';
 import LandingHero from '@/components/landing/LandingHero.vue';
@@ -18,10 +23,33 @@ defineProps<{
     emailContato: string;
     repositorioUrl: string;
 }>();
+
+const reduzido = useMovimentoReduzido();
+const heroVisivel = ref(true);
+let parar = () => {};
+let olhoHero: IntersectionObserver | null = null;
+onMounted(() => {
+    const peixeHero = document.querySelector('.l-hero-peixoto');
+
+    if (peixeHero) {
+        olhoHero = new IntersectionObserver(([e]) => {
+            heroVisivel.value = e.isIntersecting;
+        });
+        olhoHero.observe(peixeHero);
+    }
+
+    parar = observarSecoes([
+        ...document.querySelectorAll('main#conteudo > section'),
+    ]);
+});
+onBeforeUnmount(() => {
+    parar();
+    olhoHero?.disconnect();
+});
 </script>
 
 <template>
-    <Head title="Estude pro ENEM com um baiacu que zoa a sua resposta">
+    <Head title="Gabaritu: estude pro ENEM com um baiacu">
         <meta
             name="description"
             content="Plataforma gratuita e open source de estudo pro ENEM, pra quem tem 13 anos ou mais. Acertou, vira festa. Errou, o Peixoto zoa a resposta e explica o porquê."
@@ -30,7 +58,7 @@ defineProps<{
     <div class="landing">
         <a href="#conteudo" class="l-skip">Pular para o conteúdo</a>
         <header class="l-header">
-            <div class="l-wrap"><span class="l-logo">Gabaritu</span></div>
+            <div class="l-wrap l-header-in"><BotaoSom /></div>
         </header>
         <main id="conteudo">
             <LandingHero
@@ -45,6 +73,10 @@ defineProps<{
             <LandingPrivacy />
             <LandingOpenSource :repositorio-url="repositorioUrl" />
         </main>
-        <LandingFooter :email-contato="emailContato" />
+        <PeixotoNadador :discreto="heroVisivel" :reduzido="reduzido" />
+        <LandingFooter
+            :email-contato="emailContato"
+            :repositorio-url="repositorioUrl"
+        />
     </div>
 </template>

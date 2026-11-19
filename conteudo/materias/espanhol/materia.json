@@ -1,0 +1,12 @@
+{
+  "slug": "espanhol",
+  "nome": "Espanhol",
+  "area": "Linguagens, Códigos e suas Tecnologias",
+  "assuntos": [
+    { "slug": "compreensao-geral", "nome": "Compreensão geral do texto", "ordem": 1, "por_que": "a prova de espanhol é toda de leitura, e a ideia principal e as informações diretas do texto aparecem em quase todas as questões." },
+    { "slug": "generos-e-proposito", "nome": "Gêneros textuais e intenção do autor", "ordem": 2, "por_que": "anúncios, cartas, tirinhas e notícias aparecem o tempo todo, e saber para que o texto foi escrito resolve muita questão." },
+    { "slug": "vocabulario-em-contexto", "nome": "Vocabulário em contexto", "ordem": 3, "por_que": "o ENEM pergunta o sentido de palavras e expressões a partir do contexto, e muita palavra espanhola muda de sentido de uma frase para outra." },
+    { "slug": "falsos-amigos", "nome": "Heterossemânticos (falsos amigos)", "ordem": 4, "por_que": "a semelhança com o português ajuda na leitura, mas palavras como exquisito, embarazada e largo têm outro sentido e derrubam muita gente." },
+    { "slug": "gramatica-em-contexto", "nome": "Gramática em contexto", "ordem": 5, "por_que": "pronomes, conectores e tempos verbais mostram como as ideias se ligam, e o ENEM cobra isso nas questões de interpretação." }
+  ]
+}

@@ -1,0 +1,902 @@
+[
+  {
+    "id": "geo-espaco-agrario-001",
+    "materia": "geografia",
+    "assunto": "espaco-agrario",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Uma só cultura",
+    "enunciado": "Uma grande fazenda planta soja em milhares de hectares e não cultiva mais nenhum outro produto. Esse tipo de plantio de uma única cultura em grande extensão é chamado de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "policultura",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "monocultura",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "agricultura de subsistência",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "agricultura orgânica",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "pecuária extensiva",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      }
+    ],
+    "explicacao": "Monocultura é o cultivo de um único produto em grande área, geralmente voltado ao mercado. O oposto é a policultura, com vários produtos na mesma propriedade.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-espaco-agrario-002",
+    "materia": "geografia",
+    "assunto": "espaco-agrario",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Plantar para comer",
+    "enunciado": "Uma família planta mandioca, feijão e milho, consome a maior parte e vende só o que sobra. Esse tipo de produção é chamado de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "plantation",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "agronegócio exportador",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "produção de commodities",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "agricultura de subsistência",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "latifúndio exportador",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      }
+    ],
+    "explicacao": "Na agricultura de subsistência, a produção é voltada ao consumo da própria família, com venda apenas do excedente. Plantation e agronegócio têm foco no mercado.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-espaco-agrario-003",
+    "materia": "geografia",
+    "assunto": "espaco-agrario",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Poucos donos, muita terra",
+    "enunciado": "Um levantamento fictício mostra que 5% dos estabelecimentos rurais de um estado ocupam 60% da área agrícola. Esse dado indica",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "concentração fundiária, tema ligado ao debate sobre reforma agrária",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "desconcentração da terra",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "C",
+        "texto": "predomínio de minifúndios na área total",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "D",
+        "texto": "maioria da área ocupada por agricultura familiar",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "E",
+        "texto": "êxodo urbano",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      }
+    ],
+    "explicacao": "Poucos estabelecimentos controlando a maior parte da área caracteriza concentração fundiária, um dos pontos centrais da questão agrária no Brasil.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-espaco-agrario-004",
+    "materia": "geografia",
+    "assunto": "espaco-agrario",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Mais produtividade com insumos",
+    "enunciado": "A partir da metade do século XX, sementes melhoradas, fertilizantes, agrotóxicos e mecanização aumentaram muito a produtividade agrícola, mas trouxeram dependência de insumos e impactos ambientais. Esse processo ficou conhecido como",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "retorno aos métodos tradicionais",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "B",
+        "texto": "fim do uso de máquinas no campo",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "C",
+        "texto": "agricultura de subsistência",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "colonização portuguesa",
+        "correta": false,
+        "etiqueta": "geo-cronologia"
+      },
+      {
+        "letra": "E",
+        "texto": "Revolução Verde",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "A Revolução Verde modernizou a agricultura com tecnologia e insumos químicos, elevando a produção, mas gerando custos ambientais e sociais.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-espaco-agrario-005",
+    "materia": "geografia",
+    "assunto": "espaco-agrario",
+    "questionario": 1,
+    "dificuldade": 1,
+    "contexto": "Soja no Cerrado",
+    "enunciado": "A expansão da soja para o Cerrado, a partir das décadas finais do século XX, só foi possível graças a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "solos naturalmente muito férteis",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "B",
+        "texto": "clima frio, parecido com o do Sul",
+        "correta": false,
+        "etiqueta": "geo-fator-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "correção da acidez do solo, fertilizantes, variedades adaptadas e mecanização em áreas planas",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "volta da mão de obra escravizada",
+        "correta": false,
+        "etiqueta": "geo-cronologia"
+      },
+      {
+        "letra": "E",
+        "texto": "irrigação com água do Rio Amazonas",
+        "correta": false,
+        "etiqueta": "geo-fator-errado"
+      }
+    ],
+    "explicacao": "Os solos do Cerrado são naturalmente ácidos e pobres. Calagem, adubação, pesquisa de variedades adaptadas e relevo plano favorável à mecanização viabilizaram a soja.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-espaco-agrario-006",
+    "materia": "geografia",
+    "assunto": "espaco-agrario",
+    "questionario": 2,
+    "dificuldade": -1,
+    "contexto": "Comida na mesa",
+    "enunciado": "Sobre a agricultura familiar no Brasil, é correto afirmar que ela",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "domina a exportação de commodities",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "ocupa só grandes latifúndios",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "C",
+        "texto": "não produz alimentos",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "D",
+        "texto": "é sinônimo de agronegócio",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "produz boa parte dos alimentos básicos e emprega muita mão de obra em áreas pequenas",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "A agricultura familiar usa trabalho da própria família em propriedades pequenas e é importante na produção de alimentos básicos e na geração de ocupação no campo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-espaco-agrario-007",
+    "materia": "geografia",
+    "assunto": "espaco-agrario",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Engenhos coloniais",
+    "enunciado": "No Brasil colonial, os engenhos de cana-de-açúcar funcionavam em grandes propriedades, com uma única cultura voltada à exportação e trabalho escravizado. Esse modelo é conhecido como",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "plantation",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "agricultura familiar com trabalho assalariado",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "agricultura de subsistência indígena",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "agricultura mecanizada com colheitadeiras",
+        "correta": false,
+        "etiqueta": "geo-cronologia"
+      },
+      {
+        "letra": "E",
+        "texto": "produção voltada ao mercado interno",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      }
+    ],
+    "explicacao": "Plantation é o sistema colonial de grande propriedade, monocultura de exportação e mão de obra escravizada. Era o contrário da agricultura de subsistência.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-espaco-agrario-008",
+    "materia": "geografia",
+    "assunto": "espaco-agrario",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Muito pasto, pouco gado",
+    "enunciado": "Uma fazenda tem grandes áreas de pasto e poucos animais por hectare, com baixo investimento em tecnologia. Esse tipo de criação é a pecuária",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "intensiva, com confinamento e alta tecnologia",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "de pequena área, com muitos animais por hectare",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "C",
+        "texto": "extensiva, de baixa densidade e pouco capital por área",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "de subsistência, sem venda",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      },
+      {
+        "letra": "E",
+        "texto": "sem pastagem, apenas com ração",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      }
+    ],
+    "explicacao": "Na pecuária extensiva, usa-se muita terra para poucos animais, com baixa produtividade por hectare. A intensiva usa mais tecnologia e confinamento.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-espaco-agrario-009",
+    "materia": "geografia",
+    "assunto": "espaco-agrario",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Função social da terra",
+    "enunciado": "Pela Constituição de 1988, o descumprimento da função social pode levar à desapropriação de um imóvel rural para a reforma agrária. Uma propriedade rural cumpre sua função social quando",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pertence a um dono que nunca a vende",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      },
+      {
+        "letra": "B",
+        "texto": "é explorada de forma adequada, respeita o meio ambiente e as leis trabalhistas e favorece o bem-estar de quem nela trabalha",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "qualquer pessoa pode ocupá-la sem autorização",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      },
+      {
+        "letra": "D",
+        "texto": "o dono só paga os impostos",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "é terra do poder público",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      }
+    ],
+    "explicacao": "A função social envolve aproveitamento racional, uso adequado dos recursos naturais, respeito às leis trabalhistas e bem-estar de proprietários e trabalhadores.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-espaco-agrario-010",
+    "materia": "geografia",
+    "assunto": "espaco-agrario",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Preço lá fora",
+    "enunciado": "Um país exporta principalmente soja e minério de ferro, cujos preços dependem do mercado internacional. Qual é o principal risco dessa estrutura?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "garantia de renda estável todo ano",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "B",
+        "texto": "preços que sempre sobem",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      },
+      {
+        "letra": "C",
+        "texto": "industrialização automática",
+        "correta": false,
+        "etiqueta": "geo-causa-consequencia"
+      },
+      {
+        "letra": "D",
+        "texto": "vulnerabilidade a oscilações de preço e de demanda no mercado internacional",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "independência total em relação ao exterior",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      }
+    ],
+    "explicacao": "Commodities têm preço definido em mercados globais, então o país fica exposto a quedas de preço e demanda, que afetam renda e emprego.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-espaco-agrario-011",
+    "materia": "geografia",
+    "assunto": "espaco-agrario",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Alterando os genes",
+    "enunciado": "Um organismo que recebeu um gene de outra espécie para ganhar uma característica, como resistência a pragas, é chamado de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "orgânico",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "híbrido natural",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "transgênico",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "nativo",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "irradiado",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      }
+    ],
+    "explicacao": "Transgênicos são organismos modificados geneticamente com genes de outras espécies. Orgânico se refere ao modo de cultivo, sem agrotóxicos sintéticos.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-espaco-agrario-012",
+    "materia": "geografia",
+    "assunto": "espaco-agrario",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Para que reforma agrária",
+    "enunciado": "O objetivo central de uma reforma agrária é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "juntar propriedades em grandes latifúndios",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "B",
+        "texto": "proibir qualquer produção para exportação",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      },
+      {
+        "letra": "C",
+        "texto": "entregar terras só a grandes empresas",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "D",
+        "texto": "estatizar toda a produção de alimentos",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      },
+      {
+        "letra": "E",
+        "texto": "redistribuir terras para diminuir a concentração fundiária e ampliar o acesso à terra",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "A reforma agrária busca reduzir a concentração da propriedade da terra e ampliar o acesso de famílias que querem produzir, em geral acompanhada de crédito e apoio técnico.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-espaco-agrario-013",
+    "materia": "geografia",
+    "assunto": "espaco-agrario",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Menos veneno na lavoura",
+    "enunciado": "Agricultores de uma cooperativa fictícia reduziram o uso de agrotóxicos com controle biológico de pragas, rotação de culturas e adubação verde. Essa prática se aproxima da",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "plantation",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "Revolução Verde, que ampliou o uso de insumos químicos",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "monocultura intensiva",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "agroecologia e do manejo integrado, que busca produzir preservando solo e água",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "agricultura de subsistência, necessariamente",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      }
+    ],
+    "explicacao": "O manejo integrado e a agroecologia combinam técnicas que dependem menos de insumos químicos, preservando solo e água. A Revolução Verde seguiu na direção contrária.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-espaco-agrario-014",
+    "materia": "geografia",
+    "assunto": "espaco-agrario",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Fiscalização no campo",
+    "enunciado": "Uma fiscalização encontra trabalhadores em alojamentos precários, endividados com o patrão por alimentos e ferramentas, sem liberdade para deixar a fazenda. Esse quadro configura",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "trabalho análogo ao de escravo, crime previsto na legislação brasileira",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "trabalho voluntário comum",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "contrato regular de parceria agrícola",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "prática legal do agronegócio moderno",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      },
+      {
+        "letra": "E",
+        "texto": "caso que nunca ocorre no Brasil atual",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      }
+    ],
+    "explicacao": "Servidão por dívida, condições degradantes e restrição de liberdade são características do trabalho análogo ao de escravo, que é crime e combatido por fiscalização.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-espaco-agrario-015",
+    "materia": "geografia",
+    "assunto": "espaco-agrario",
+    "questionario": 3,
+    "dificuldade": 1,
+    "contexto": "Culturas na mesma terra",
+    "enunciado": "Um sistema de integração lavoura-pecuária-floresta combina atividades na mesma área. A vantagem desse sistema é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "substituir toda vegetação por soja",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "B",
+        "texto": "recuperar pastagens degradadas, aumentar a produtividade e reduzir a pressão por novas áreas desmatadas",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "usar apenas queimadas para limpar o terreno",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "D",
+        "texto": "ser igual a latifúndio improdutivo",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "ser um modelo exclusivo de subsistência",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      }
+    ],
+    "explicacao": "A integração diversifica a produção, melhora o solo e a produtividade da área já aberta, o que pode reduzir a necessidade de desmatar novas áreas.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-espaco-agrario-016",
+    "materia": "geografia",
+    "assunto": "espaco-agrario",
+    "questionario": 4,
+    "dificuldade": -1,
+    "contexto": "Sem agrotóxico sintético",
+    "enunciado": "Na agricultura orgânica, o produtor evita",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a rotação de culturas",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "o uso do solo",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "qualquer venda",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "agrotóxicos e fertilizantes químicos sintéticos",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "o cultivo no Brasil",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      }
+    ],
+    "explicacao": "A produção orgânica dispensa agrotóxicos e adubos químicos sintéticos e usa técnicas como adubação orgânica, rotação de culturas e controle biológico.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-espaco-agrario-017",
+    "materia": "geografia",
+    "assunto": "espaco-agrario",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Faixa de expansão",
+    "enunciado": "Matopiba é uma sigla formada pelas iniciais de quatro estados. Ela designa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "uma área de mineração na Amazônia",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "um bloco econômico sul-americano",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "uma faixa de expansão da fronteira agrícola em áreas de Cerrado do Maranhão, Tocantins, Piauí e Bahia",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "o pampa gaúcho",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "uma região metropolitana nordestina",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      }
+    ],
+    "explicacao": "Matopiba reúne Maranhão, Tocantins, Piauí e Bahia, região de expansão agrícola recente, com grãos como soja e milho em áreas de Cerrado.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-espaco-agrario-018",
+    "materia": "geografia",
+    "assunto": "espaco-agrario",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Terra de quilombo",
+    "enunciado": "A Constituição de 1988 reconhece aos remanescentes de comunidades quilombolas que estejam ocupando suas terras a propriedade definitiva. Isso se liga ao tema agrário porque",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "extingue a propriedade privada no país",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      },
+      {
+        "letra": "B",
+        "texto": "trata do direito à terra de comunidades tradicionais, ligando identidade e território",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "vale só para terras urbanas",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "D",
+        "texto": "proíbe a agricultura em qualquer terra",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      },
+      {
+        "letra": "E",
+        "texto": "foi revogado logo depois",
+        "correta": false,
+        "etiqueta": "geo-cronologia"
+      }
+    ],
+    "explicacao": "O reconhecimento das terras quilombolas liga território, modo de vida e identidade de comunidades tradicionais, sendo parte do debate sobre acesso à terra.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-espaco-agrario-019",
+    "materia": "geografia",
+    "assunto": "espaco-agrario",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Produzir mais com a mesma área",
+    "enunciado": "Em um país fictício, a produção de grãos cresceu 40% em dez anos, enquanto a área plantada cresceu apenas 5%. A conclusão mais coerente é que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a produção cresceu só por expansão de área",
+        "correta": false,
+        "etiqueta": "geo-causa-consequencia"
+      },
+      {
+        "letra": "B",
+        "texto": "a produtividade caiu",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "C",
+        "texto": "a área plantada diminuiu",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "D",
+        "texto": "não dá para tirar nenhuma conclusão, mesmo com esses dados",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      },
+      {
+        "letra": "E",
+        "texto": "o aumento decorreu, em grande parte, de ganhos de produtividade, como tecnologia e insumos",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "Se a produção cresceu muito mais que a área, cada hectare passou a produzir mais. Isso aponta para ganhos de produtividade, ainda que parte do crescimento possa vir da expansão.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-espaco-agrario-020",
+    "materia": "geografia",
+    "assunto": "espaco-agrario",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Mandioca virou soja",
+    "enunciado": "Um município fictício substituiu lavouras de feijão e mandioca por monocultura de exportação, e o preço local dos alimentos subiu. Uma explicação plausível é que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a oferta local de alimentos básicos diminuiu, pressionando preços, o que mostra a importância de apoiar a agricultura familiar",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "a mandioca deixou de existir",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      },
+      {
+        "letra": "C",
+        "texto": "o aumento de preços é inevitável e sem relação com a mudança",
+        "correta": false,
+        "etiqueta": "geo-causa-consequencia"
+      },
+      {
+        "letra": "D",
+        "texto": "exportar sempre reduz os preços locais",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "E",
+        "texto": "o feijão virou produto de luxo por motivos culturais",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      }
+    ],
+    "explicacao": "Quando culturas voltadas ao consumo local dão lugar a produtos para exportação, a oferta local de alimentos pode cair e os preços subir.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  }
+]

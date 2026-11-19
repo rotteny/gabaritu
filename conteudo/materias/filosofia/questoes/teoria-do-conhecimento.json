@@ -1,0 +1,282 @@
+[
+  {
+    "id": "fil-teoria-do-conhecimento-001", "materia": "filosofia", "assunto": "teoria-do-conhecimento", "questionario": 1, "dificuldade": -1,
+    "contexto": "De onde vem o saber?",
+    "enunciado": "Empirismo e racionalismo são duas correntes que discutem a origem do conhecimento. Os empiristas, como Locke e Hume, afirmam que:",
+    "alternativas": [
+      { "letra": "A", "texto": "todo conhecimento vem apenas da razão, independentemente da experiência", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "B", "texto": "todo conhecimento vem, em última instância, da experiência dos sentidos", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "o conhecimento é impossível", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "D", "texto": "o conhecimento vem da revelação divina", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "E", "texto": "o conhecimento é inato, nascemos sabendo", "correta": false, "etiqueta": "fil-inverteu-conceito" }
+    ],
+    "explicacao": "Empirismo vem de empeiria, experiência: as ideias derivam da experiência sensível. A tese de que a razão é a fonte principal é do racionalismo. Dizer que o conhecimento é impossível é ceticismo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-teoria-do-conhecimento-002", "materia": "filosofia", "assunto": "teoria-do-conhecimento", "questionario": 1, "dificuldade": -1,
+    "contexto": "Penso, logo existo",
+    "enunciado": "Em 1637, no Discurso do Método, Descartes chegou à frase 'Penso, logo existo'. Para ele, essa frase é importante porque:",
+    "alternativas": [
+      { "letra": "A", "texto": "prova que o mundo exterior existe", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "B", "texto": "mostra que só os sentidos nos dão certeza", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "C", "texto": "defende que pensar é perigoso", "correta": false, "etiqueta": "fil-leitura-literal" },
+      { "letra": "D", "texto": "mesmo duvidando de tudo, a própria dúvida prova que há alguém pensando: uma primeira certeza indubitável", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "nega a existência do pensamento", "correta": false, "etiqueta": "fil-inverteu-conceito" }
+    ],
+    "explicacao": "Se estou duvidando, estou pensando, e se penso, existo. Essa foi a primeira certeza de Descartes, a base sobre a qual ele tentou reconstruir o conhecimento. Ela não prova, por si só, a existência do mundo exterior.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-teoria-do-conhecimento-003", "materia": "filosofia", "assunto": "teoria-do-conhecimento", "questionario": 1, "dificuldade": 0,
+    "contexto": "Duvidar para chegar",
+    "enunciado": "Descartes decidiu duvidar de tudo o que pudesse ser posto em dúvida, até encontrar algo absolutamente certo. Esse procedimento é chamado de dúvida metódica e se diferencia do ceticismo porque:",
+    "alternativas": [
+      { "letra": "A", "texto": "a dúvida é um método provisório para alcançar a certeza, e não uma conclusão final", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "o cético busca a certeza e Descartes a rejeita", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "C", "texto": "Descartes nunca duvidou dos sentidos", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "D", "texto": "o ceticismo é o método científico experimental", "correta": false, "etiqueta": "fil-confundiu-metodo" },
+      { "letra": "E", "texto": "Descartes concluiu que nada pode ser conhecido", "correta": false, "etiqueta": "fil-confundiu-corrente" }
+    ],
+    "explicacao": "Para Descartes, duvidar é um caminho para encontrar uma base segura. O cético, em geral, mantém a dúvida ou suspende o juízo como conclusão. Descartes duvidou, inclusive, dos sentidos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-teoria-do-conhecimento-004", "materia": "filosofia", "assunto": "teoria-do-conhecimento", "questionario": 1, "dificuldade": 0,
+    "contexto": "Observar para generalizar",
+    "enunciado": "No Novum Organum (1620), Francis Bacon criticou o raciocínio baseado apenas em autoridades antigas e defendeu que o conhecimento da natureza deve partir da observação e da experimentação, para chegar a conclusões gerais. Esse método é chamado de:",
+    "alternativas": [
+      { "letra": "A", "texto": "dedução, que parte de princípios gerais já aceitos", "correta": false, "etiqueta": "fil-confundiu-metodo" },
+      { "letra": "B", "texto": "maiêutica, que parte de perguntas ao interlocutor", "correta": false, "etiqueta": "fil-confundiu-metodo" },
+      { "letra": "C", "texto": "dialética, que opõe tese e antítese", "correta": false, "etiqueta": "fil-confundiu-metodo" },
+      { "letra": "D", "texto": "revelação, que depende de uma fonte divina", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "E", "texto": "indução, que parte de casos observados para conclusões gerais", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Indução vai do particular ao geral: observar muitos casos para chegar a uma regra. A dedução faz o caminho contrário, do geral para o particular, e a maiêutica é o método de Sócrates.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-teoria-do-conhecimento-005", "materia": "filosofia", "assunto": "teoria-do-conhecimento", "questionario": 1, "dificuldade": 1,
+    "contexto": "Bolas de bilhar",
+    "enunciado": "O empirista David Hume observou que, ao ver uma bola de bilhar bater em outra e esta se mover, vemos uma sequência de eventos, mas não vemos a conexão necessária entre eles. Para Hume, nossa crença de que uma coisa causa a outra vem:",
+    "alternativas": [
+      { "letra": "A", "texto": "de uma percepção direta da força que liga os eventos", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "B", "texto": "de ideias inatas sobre causa e efeito", "correta": false, "etiqueta": "fil-confundiu-filosofo" },
+      { "letra": "C", "texto": "do hábito de ver eventos acontecerem em sequência repetidamente", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "de uma lei lógica que pode ser demonstrada", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "E", "texto": "de uma revelação religiosa", "correta": false, "etiqueta": "fil-confundiu-corrente" }
+    ],
+    "explicacao": "Para Hume, o que a experiência mostra é a sucessão regular dos fenômenos; a ideia de conexão necessária nasce do hábito da mente. Essa análise abala a certeza absoluta das leis causais e inspirou Kant.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-teoria-do-conhecimento-006", "materia": "filosofia", "assunto": "teoria-do-conhecimento", "questionario": 2, "dificuldade": -1,
+    "contexto": "Folha em branco",
+    "enunciado": "Para John Locke, a mente humana ao nascer é como uma folha em branco (tábula rasa), e as ideias surgem da experiência. Essa tese se opõe à ideia de que:",
+    "alternativas": [
+      { "letra": "A", "texto": "o conhecimento vem da experiência", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "B", "texto": "os sentidos fornecem dados à mente", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "C", "texto": "existem ideias inatas, presentes na mente desde o nascimento", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "a aprendizagem é importante", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "E", "texto": "a mente é capaz de refletir sobre suas ideias", "correta": false, "etiqueta": "fil-simplificou-demais" }
+    ],
+    "explicacao": "Tábula rasa significa folha em branco: nada seria inato, e tudo viria da experiência. A tese oposta é o inatismo, defendido por Descartes, de que certas ideias já nascem conosco.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-teoria-do-conhecimento-007", "materia": "filosofia", "assunto": "teoria-do-conhecimento", "questionario": 2, "dificuldade": -1,
+    "contexto": "Suspender o juízo",
+    "enunciado": "Os céticos, como Pirro, defendiam a suspensão do juízo: diante de argumentos opostos igualmente fortes, é melhor não afirmar nem negar. Qual atitude é cética nesse sentido?",
+    "alternativas": [
+      { "letra": "A", "texto": "diante de duas versões contraditórias e sem provas suficientes, não se posicionar até ter mais evidências", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "aceitar a primeira versão ouvida", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "C", "texto": "acreditar sempre na maioria", "correta": false, "etiqueta": "fil-moral-senso-comum" },
+      { "letra": "D", "texto": "negar com total convicção que qualquer verdade exista", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "E", "texto": "seguir a autoridade de quem fala com mais firmeza", "correta": false, "etiqueta": "fil-inverteu-conceito" }
+    ],
+    "explicacao": "A atitude cética é suspender o juízo quando não há razões suficientes. Negar com convicção que exista verdade seria uma afirmação dogmática, que o cético evita.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-teoria-do-conhecimento-008", "materia": "filosofia", "assunto": "teoria-do-conhecimento", "questionario": 2, "dificuldade": 0,
+    "contexto": "Meio-termo entre dois lados",
+    "enunciado": "Kant tentou conciliar racionalistas e empiristas. Segundo ele, sem a experiência (a sensibilidade) os pensamentos ficam vazios, e sem os conceitos do entendimento as intuições ficam cegas. Para Kant, portanto, o conhecimento depende:",
+    "alternativas": [
+      { "letra": "A", "texto": "só da experiência", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "B", "texto": "só da razão", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "C", "texto": "só da fé", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "D", "texto": "de nenhum dos dois, pois o conhecimento é impossível", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "E", "texto": "da experiência e das estruturas da razão, em conjunto", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "A síntese kantiana diz que a experiência fornece o material e a razão fornece as formas que organizam esse material. Sem uma das duas, não há conhecimento.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-teoria-do-conhecimento-009", "materia": "filosofia", "assunto": "teoria-do-conhecimento", "questionario": 2, "dificuldade": 0,
+    "contexto": "Senso comum e ciência",
+    "enunciado": "O conhecimento de senso comum é adquirido no dia a dia, é prático e muitas vezes aceito sem questionamento. O conhecimento científico se diferencia porque:",
+    "alternativas": [
+      { "letra": "A", "texto": "é sempre absolutamente certo e nunca muda", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "B", "texto": "busca explicações sistemáticas, verificáveis e abertas à crítica e à revisão", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "dispensa a observação", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "D", "texto": "se baseia na tradição", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "E", "texto": "é igual ao senso comum, só com palavras difíceis", "correta": false, "etiqueta": "fil-simplificou-demais" }
+    ],
+    "explicacao": "A ciência trabalha com métodos, testes e crítica, e aceita rever suas conclusões. O senso comum pode ser útil, mas costuma aceitar crenças sem testar.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-teoria-do-conhecimento-010", "materia": "filosofia", "assunto": "teoria-do-conhecimento", "questionario": 2, "dificuldade": 1,
+    "contexto": "Fenômeno e coisa em si",
+    "enunciado": "Para Kant, conhecemos as coisas como elas nos aparecem, ordenadas pelas formas da nossa sensibilidade e pelas categorias do entendimento (fenômenos), e não como são em si mesmas (coisa em si). Isso significa que:",
+    "alternativas": [
+      { "letra": "A", "texto": "conhecemos as coisas exatamente como são em si", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "B", "texto": "a realidade não existe", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "C", "texto": "só Deus pode conhecer, e os humanos nada conhecem", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "D", "texto": "nosso conhecimento se limita à experiência possível, e sobre a coisa em si não temos conhecimento", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "a ciência é impossível", "correta": false, "etiqueta": "fil-ideia-oposta" }
+    ],
+    "explicacao": "Kant não nega que a realidade exista nem que a ciência seja possível: ela vale para os fenômenos. O que ele afirma é que o conhecimento humano tem limites e não alcança a coisa em si.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-teoria-do-conhecimento-011", "materia": "filosofia", "assunto": "teoria-do-conhecimento", "questionario": 3, "dificuldade": -1,
+    "contexto": "Notícia chocante",
+    "enunciado": "Um estudante lê no celular uma notícia chocante, sem indicação de fonte, e quase a compartilha. Qual atitude se aproxima do espírito crítico da filosofia do conhecimento?",
+    "alternativas": [
+      { "letra": "A", "texto": "compartilhar, porque muita gente já compartilhou", "correta": false, "etiqueta": "fil-moral-senso-comum" },
+      { "letra": "B", "texto": "acreditar porque confirma o que já pensa", "correta": false, "etiqueta": "fil-opiniao-pessoal" },
+      { "letra": "C", "texto": "ignorar toda notícia, pois nada é verdadeiro", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "D", "texto": "confiar em quem escreve com mais convicção", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "E", "texto": "verificar a origem, comparar com outras fontes e procurar evidências antes de compartilhar", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "O espírito crítico pede justificar o que se afirma: checar fontes e evidências. Muita gente acreditando ou uma redação convicta não são provas, e duvidar de tudo sem critério também não resolve.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-teoria-do-conhecimento-012", "materia": "filosofia", "assunto": "teoria-do-conhecimento", "questionario": 3, "dificuldade": 0,
+    "contexto": "Cisnes brancos",
+    "enunciado": "Um observador vê mil cisnes, todos brancos, e conclui que todos os cisnes são brancos. Mais tarde, descobre-se que existem cisnes negros na Austrália. O raciocínio do observador era:",
+    "alternativas": [
+      { "letra": "A", "texto": "dedutivo, pois a conclusão é certa", "correta": false, "etiqueta": "fil-confundiu-metodo" },
+      { "letra": "B", "texto": "indutivo, pois generaliza a partir de casos observados, mas pode ser contrariado por um único caso", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "inútil, porque toda indução é inválida", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "D", "texto": "um silogismo aristotélico perfeito", "correta": false, "etiqueta": "fil-confundiu-metodo" },
+      { "letra": "E", "texto": "uma prova definitiva", "correta": false, "etiqueta": "fil-inverteu-conceito" }
+    ],
+    "explicacao": "Generalizar a partir de casos observados é indução, que dá conclusões prováveis e não garantidas. Um único cisne negro basta para refutar a generalização. Isso não torna a indução inútil, só limitada.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-teoria-do-conhecimento-013", "materia": "filosofia", "assunto": "teoria-do-conhecimento", "questionario": 3, "dificuldade": 0,
+    "contexto": "Sempre foi assim",
+    "enunciado": "Dogmatismo, em filosofia, é a atitude de aceitar uma ideia como verdadeira sem examinar seus fundamentos. Qual exemplo é dogmático?",
+    "alternativas": [
+      { "letra": "A", "texto": "pesquisar fontes diferentes antes de opinar", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "B", "texto": "rever uma opinião diante de novas evidências", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "C", "texto": "perguntar por que uma regra existe", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "D", "texto": "afirmar que algo é verdade porque sempre foi assim e se recusar a discutir", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "testar uma hipótese em um experimento", "correta": false, "etiqueta": "fil-confundiu-termo" }
+    ],
+    "explicacao": "O dogmático não examina os fundamentos de suas crenças e se recusa a discuti-las. Pesquisar, rever opiniões, perguntar por que e testar são atitudes críticas.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-teoria-do-conhecimento-014", "materia": "filosofia", "assunto": "teoria-do-conhecimento", "questionario": 3, "dificuldade": 1,
+    "contexto": "Falseabilidade",
+    "enunciado": "Karl Popper propôs que uma teoria só é científica se puder, em princípio, ser refutada por observações. Esse critério é chamado de falseabilidade. Qual alternativa o descreve corretamente?",
+    "alternativas": [
+      { "letra": "A", "texto": "uma teoria é científica se já foi provada verdadeira para sempre", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "B", "texto": "uma teoria é científica se for falsa", "correta": false, "etiqueta": "fil-leitura-literal" },
+      { "letra": "C", "texto": "uma teoria é científica se puder ser testada de modo que observações possam contradizê-la", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "uma teoria é científica se concordar com a maioria dos cientistas", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "E", "texto": "uma teoria é científica se nunca for testada", "correta": false, "etiqueta": "fil-ideia-oposta" }
+    ],
+    "explicacao": "Falseável não quer dizer falso, e sim passível de refutação. Teorias que explicam tudo e não admitem nenhum teste possível deixam de ser científicas nesse critério.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-teoria-do-conhecimento-015", "materia": "filosofia", "assunto": "teoria-do-conhecimento", "questionario": 3, "dificuldade": 1,
+    "contexto": "Paradigmas",
+    "enunciado": "Em A Estrutura das Revoluções Científicas (1962), Thomas Kuhn argumenta que a ciência normal funciona dentro de paradigmas, modelos compartilhados pela comunidade científica. Quando se acumulam muitas anomalias que o paradigma não explica, pode ocorrer uma revolução científica. Para Kuhn, portanto:",
+    "alternativas": [
+      { "letra": "A", "texto": "a ciência avança também por rupturas, quando um paradigma é substituído por outro", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "a ciência é sempre um acúmulo linear de verdades", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "C", "texto": "paradigmas são inúteis", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "D", "texto": "revoluções científicas são atos violentos entre cientistas", "correta": false, "etiqueta": "fil-leitura-literal" },
+      { "letra": "E", "texto": "a ciência é só uma questão de opinião pessoal", "correta": false, "etiqueta": "fil-opiniao-pessoal" }
+    ],
+    "explicacao": "Para Kuhn, a história da ciência alterna períodos de ciência normal e rupturas em que um novo paradigma substitui o anterior, como na passagem da física de Newton para a de Einstein. O avanço não é apenas linear.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-teoria-do-conhecimento-016", "materia": "filosofia", "assunto": "teoria-do-conhecimento", "questionario": 4, "dificuldade": -1,
+    "contexto": "Razão em primeiro lugar",
+    "enunciado": "Racionalistas, como Descartes e Leibniz, afirmam que:",
+    "alternativas": [
+      { "letra": "A", "texto": "só os sentidos fornecem conhecimento", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "B", "texto": "o conhecimento é impossível", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "C", "texto": "a fé é superior à razão", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "D", "texto": "a razão é a principal fonte do conhecimento verdadeiro, e a matemática é um modelo de certeza", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "o conhecimento é apenas opinião", "correta": false, "etiqueta": "fil-confundiu-corrente" }
+    ],
+    "explicacao": "Os racionalistas valorizam a razão e a dedução, tendo a matemática como exemplo de certeza. A tese de que só os sentidos dão conhecimento é empirista.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-teoria-do-conhecimento-017", "materia": "filosofia", "assunto": "teoria-do-conhecimento", "questionario": 4, "dificuldade": 0,
+    "contexto": "Palpite que deu certo",
+    "enunciado": "Uma definição clássica, discutida por Platão no Teeteto, diz que conhecimento é crença verdadeira justificada. Segundo essa definição, quando alguém tem apenas um palpite que acerta por sorte:",
+    "alternativas": [
+      { "letra": "A", "texto": "tem conhecimento, pois acertou", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "B", "texto": "tem conhecimento, pois acreditou com muita força", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "C", "texto": "tem uma crença verdadeira, mas não conhecimento, pois falta justificação", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "não tem sequer uma crença", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "E", "texto": "tem justificação, pois acertou", "correta": false, "etiqueta": "fil-confundiu-termo" }
+    ],
+    "explicacao": "Acertar por sorte não basta: é preciso ter razões que sustentem a crença. Sem justificação, é um palpite, ainda que verdadeiro.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-teoria-do-conhecimento-018", "materia": "filosofia", "assunto": "teoria-do-conhecimento", "questionario": 4, "dificuldade": 0,
+    "contexto": "Gênio maligno",
+    "enunciado": "Na primeira das Meditações, Descartes imagina um gênio maligno muito poderoso que o enganaria sobre tudo, até sobre as verdades matemáticas. Esse recurso serve para:",
+    "alternativas": [
+      { "letra": "A", "texto": "provar que o mal existe", "correta": false, "etiqueta": "fil-leitura-literal" },
+      { "letra": "B", "texto": "levar a dúvida ao extremo e testar se existe alguma certeza que resista", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "defender a existência de espíritos", "correta": false, "etiqueta": "fil-leitura-literal" },
+      { "letra": "D", "texto": "negar o valor da razão", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "E", "texto": "mostrar que a matemática é falsa", "correta": false, "etiqueta": "fil-simplificou-demais" }
+    ],
+    "explicacao": "O gênio maligno é um experimento mental: se mesmo diante de um enganador onipotente há algo que resiste à dúvida, é uma certeza sólida. Essa certeza será o cogito.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-teoria-do-conhecimento-019", "materia": "filosofia", "assunto": "teoria-do-conhecimento", "questionario": 4, "dificuldade": 1,
+    "contexto": "Ideias de nascença?",
+    "enunciado": "Descartes sustentava que há ideias inatas, como a de Deus e a de infinito, presentes na mente independentemente da experiência. Locke rejeitou o inatismo. Um dos argumentos de Locke era que:",
+    "alternativas": [
+      { "letra": "A", "texto": "se as ideias fossem inatas, todos as teriam desde sempre, mas crianças e povos diferentes não mostram ter as mesmas ideias", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "ideias inatas foram comprovadas em experimentos", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "C", "texto": "Locke concordava com Descartes nesse ponto", "correta": false, "etiqueta": "fil-confundiu-filosofo" },
+      { "letra": "D", "texto": "a razão não existe", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "E", "texto": "Kant já havia provado a existência de ideias inatas", "correta": false, "etiqueta": "fil-misturou-epocas" }
+    ],
+    "explicacao": "Locke observou que, se houvesse ideias universais e inatas, todos as teriam, inclusive crianças e pessoas de culturas diferentes, e isso não se verifica. Kant é posterior a Locke, e não provou o inatismo no sentido de Descartes.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-teoria-do-conhecimento-020", "materia": "filosofia", "assunto": "teoria-do-conhecimento", "questionario": 4, "dificuldade": 1,
+    "contexto": "Ídolos de Bacon",
+    "enunciado": "Bacon identificou ídolos, isto é, falsas noções e preconceitos que bloqueiam o conhecimento: da tribo (limites da natureza humana), da caverna (visão individual), do foro (palavras e linguagem) e do teatro (sistemas filosóficos e autoridades aceitos sem exame). Qual situação ilustra os ídolos do teatro?",
+    "alternativas": [
+      { "letra": "A", "texto": "achar que o mundo gira em torno do ser humano, por sermos humanos", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "B", "texto": "julgar tudo apenas pelas experiências da própria criação", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "C", "texto": "confundir palavras de sentido vago numa conversa", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "D", "texto": "testar uma hipótese várias vezes antes de aceitá-la", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "E", "texto": "acreditar numa explicação apenas porque um sábio famoso a defendeu há séculos, sem testá-la", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Os ídolos do teatro nascem de aceitar teorias e autoridades sem exame, como quem acredita numa peça. As outras opções correspondem à tribo, à caverna e ao foro. Testar hipóteses é justamente o remédio proposto por Bacon.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]

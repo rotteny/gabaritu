@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { Mail } from '@lucide/vue';
+import LinhaCredito from '@/components/LinhaCredito.vue';
 
-defineProps<{ emailContato: string }>();
+defineProps<{ emailContato: string; repositorioUrl: string }>();
 </script>
 
 <template>
@@ -13,10 +14,7 @@ defineProps<{ emailContato: string }>();
                     <Mail class="size-5" aria-hidden="true" />{{ emailContato }}
                 </a>
             </div>
-            <p class="l-footer-small">
-                Gabaritu. Código sob licença MIT, conteúdo sob CC BY-SA. Nenhum
-                baiacu foi ofendido na produção desta página.
-            </p>
+            <LinhaCredito :repositorio-url="repositorioUrl" />
         </div>
     </footer>
 </template>

@@ -1,0 +1,282 @@
+[
+  {
+    "id": "bio-fisiologia-humana-001", "materia": "biologia", "assunto": "fisiologia-humana", "questionario": 1, "dificuldade": -1,
+    "contexto": "Onde o lanche é absorvido",
+    "enunciado": "Depois de um lanche, os nutrientes já digeridos precisam passar do tubo digestório para o sangue. Em qual órgão ocorre a maior parte dessa absorção?",
+    "alternativas": [
+      { "letra": "A", "texto": "Estômago", "correta": false, "etiqueta": "bio-troca-orgao-funcao" },
+      { "letra": "B", "texto": "Intestino delgado", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Esôfago", "correta": false, "etiqueta": "bio-troca-orgao-funcao" },
+      { "letra": "D", "texto": "Intestino grosso", "correta": false, "etiqueta": "bio-troca-orgao-funcao" },
+      { "letra": "E", "texto": "Fígado", "correta": false, "etiqueta": "bio-troca-orgao-funcao" }
+    ],
+    "explicacao": "O intestino delgado é longo e tem vilosidades, que aumentam a superfície de absorção dos nutrientes. O estômago faz digestão (principalmente de proteínas), o intestino grosso absorve água e o fígado produz bile.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-fisiologia-humana-002", "materia": "biologia", "assunto": "fisiologia-humana", "questionario": 1, "dificuldade": -1,
+    "contexto": "Quem leva o oxigênio",
+    "enunciado": "O gás oxigênio que respiramos é transportado dos pulmões para as células do corpo por uma proteína presente em certas células do sangue. Quais são essas células?",
+    "alternativas": [
+      { "letra": "A", "texto": "Leucócitos", "correta": false, "etiqueta": "bio-troca-orgao-funcao" },
+      { "letra": "B", "texto": "Plaquetas", "correta": false, "etiqueta": "bio-troca-orgao-funcao" },
+      { "letra": "C", "texto": "Linfócitos", "correta": false, "etiqueta": "bio-troca-orgao-funcao" },
+      { "letra": "D", "texto": "Hemácias", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Células do plasma", "correta": false, "etiqueta": "bio-confundiu-conceitos" }
+    ],
+    "explicacao": "As hemácias (glóbulos vermelhos) têm hemoglobina, proteína que se liga ao oxigênio. Os leucócitos fazem defesa, as plaquetas participam da coagulação e o plasma é a parte líquida do sangue.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-fisiologia-humana-003", "materia": "biologia", "assunto": "fisiologia-humana", "questionario": 1, "dificuldade": 0,
+    "contexto": "Como a vacina funciona",
+    "enunciado": "Uma criança recebeu uma vacina contra o sarampo, doença causada por vírus. Como a vacina protege a criança de uma infecção futura?",
+    "alternativas": [
+      { "letra": "A", "texto": "Estimula o sistema imunológico a produzir anticorpos e células de memória, sem causar a doença.", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Introduz anticorpos prontos, que protegem a criança pelo resto da vida.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "C", "texto": "Mata os vírus que já estão no sangue, como um antibiótico.", "correta": false, "etiqueta": "bio-confundiu-agente" },
+      { "letra": "D", "texto": "Cura a criança que já está doente em poucas horas.", "correta": false, "etiqueta": "bio-senso-comum" },
+      { "letra": "E", "texto": "Deixa o corpo imune imediatamente, sem precisar de tempo.", "correta": false, "etiqueta": "bio-generalizou" }
+    ],
+    "explicacao": "A vacina apresenta ao corpo versões inofensivas do agente (ou parte dele). O sistema imune reage e guarda memória, e em um contato real responde mais rápido. Anticorpos prontos são do soro, e a vacina tem efeito preventivo, não curativo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-fisiologia-humana-004", "materia": "biologia", "assunto": "fisiologia-humana", "questionario": 1, "dificuldade": 0,
+    "contexto": "Gripe e antibiótico",
+    "enunciado": "Um adolescente com gripe pede à mãe um antibiótico que sobrou de um tratamento antigo. Por que o antibiótico não é indicado nesse caso?",
+    "alternativas": [
+      { "letra": "A", "texto": "Porque a gripe é causada por uma bactéria muito resistente.", "correta": false, "etiqueta": "bio-confundiu-agente" },
+      { "letra": "B", "texto": "Porque antibióticos só funcionam em adultos.", "correta": false, "etiqueta": "bio-senso-comum" },
+      { "letra": "C", "texto": "Porque antibióticos matam vírus, mas só em doses dobradas.", "correta": false, "etiqueta": "bio-confundiu-agente" },
+      { "letra": "D", "texto": "Porque a gripe não é infecção, e sim uma alergia.", "correta": false, "etiqueta": "bio-senso-comum" },
+      { "letra": "E", "texto": "Porque a gripe é causada por vírus, e antibióticos agem contra bactérias.", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Antibióticos atuam em bactérias e não têm efeito sobre vírus. Além de inútil, o uso sem necessidade favorece a seleção de bactérias resistentes. Na gripe, o tratamento é repouso, hidratação e, se necessário, medicamentos indicados por profissional de saúde.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-fisiologia-humana-005", "materia": "biologia", "assunto": "fisiologia-humana", "questionario": 1, "dificuldade": 1,
+    "contexto": "Prevenção da dengue no bairro",
+    "enunciado": "Em um bairro com muitos casos de dengue, a prefeitura quer uma medida coletiva eficaz de prevenção. A dengue é causada por um vírus transmitido pela picada da fêmea do mosquito Aedes aegypti. Qual medida atua diretamente sobre a cadeia de transmissão?",
+    "alternativas": [
+      { "letra": "A", "texto": "Distribuir antibióticos à população como prevenção.", "correta": false, "etiqueta": "bio-confundiu-agente" },
+      { "letra": "B", "texto": "Orientar sobre a lavagem de alimentos antes do consumo.", "correta": false, "etiqueta": "bio-meia-verdade" },
+      { "letra": "C", "texto": "Eliminar recipientes com água parada, onde o mosquito deposita ovos e se reproduz.", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Isolar as pessoas doentes, pois o vírus passa de pessoa a pessoa pelo ar.", "correta": false, "etiqueta": "bio-confundiu-agente" },
+      { "letra": "E", "texto": "Ampliar a rede de esgoto, que é a principal fonte do vírus.", "correta": false, "etiqueta": "bio-meia-verdade" }
+    ],
+    "explicacao": "Como o vírus é transmitido por um vetor, o melhor caminho é reduzir os criadouros do mosquito, que se reproduz em água parada limpa. Lavar alimentos e tratar esgoto são medidas boas de saúde, mas não atuam sobre a dengue. Antibióticos não agem em vírus.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-fisiologia-humana-006", "materia": "biologia", "assunto": "fisiologia-humana", "questionario": 2, "dificuldade": -1,
+    "contexto": "Onde o ar troca de lugar com o sangue",
+    "enunciado": "Em qual estrutura dos pulmões ocorrem as trocas gasosas entre o ar e o sangue, com entrada de O2 e saída de CO2?",
+    "alternativas": [
+      { "letra": "A", "texto": "Traqueia", "correta": false, "etiqueta": "bio-troca-orgao-funcao" },
+      { "letra": "B", "texto": "Brônquios", "correta": false, "etiqueta": "bio-troca-orgao-funcao" },
+      { "letra": "C", "texto": "Alvéolos pulmonares", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Diafragma", "correta": false, "etiqueta": "bio-troca-orgao-funcao" },
+      { "letra": "E", "texto": "Laringe", "correta": false, "etiqueta": "bio-troca-orgao-funcao" }
+    ],
+    "explicacao": "Os alvéolos são sacos minúsculos de parede fina, cercados por capilares, onde acontecem as trocas gasosas por difusão. Traqueia, brônquios e laringe conduzem o ar, e o diafragma é o músculo que ajuda na ventilação.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-fisiologia-humana-007", "materia": "biologia", "assunto": "fisiologia-humana", "questionario": 2, "dificuldade": 0,
+    "contexto": "O caminho do sangue oxigenado",
+    "enunciado": "Depois de passar pelos pulmões, o sangue rico em oxigênio retorna ao coração antes de ser enviado ao resto do corpo. Por onde e em qual cavidade ele entra no coração?",
+    "alternativas": [
+      { "letra": "A", "texto": "Pelas veias pulmonares, no átrio esquerdo.", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Pelas veias cavas, no átrio direito.", "correta": false, "etiqueta": "bio-sentido-fluxo" },
+      { "letra": "C", "texto": "Pela artéria pulmonar, no ventrículo direito.", "correta": false, "etiqueta": "bio-sentido-fluxo" },
+      { "letra": "D", "texto": "Pela artéria aorta, no ventrículo esquerdo.", "correta": false, "etiqueta": "bio-sentido-fluxo" },
+      { "letra": "E", "texto": "Pelas veias cavas, no ventrículo esquerdo.", "correta": false, "etiqueta": "bio-sentido-fluxo" }
+    ],
+    "explicacao": "O sangue oxigenado vem dos pulmões pelas veias pulmonares e chega ao átrio esquerdo, passa ao ventrículo esquerdo e é bombeado para o corpo pela aorta. As veias cavas trazem sangue pobre em O2 do corpo ao átrio direito.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-fisiologia-humana-008", "materia": "biologia", "assunto": "fisiologia-humana", "questionario": 2, "dificuldade": 0,
+    "contexto": "Doce demais, açúcar no sangue",
+    "enunciado": "Depois de tomar um refrigerante muito doce, a concentração de glicose no sangue aumenta. Como o corpo reage para trazer a glicemia de volta ao normal?",
+    "alternativas": [
+      { "letra": "A", "texto": "O fígado libera insulina, que aumenta a glicose no sangue.", "correta": false, "etiqueta": "bio-troca-orgao-funcao" },
+      { "letra": "B", "texto": "O pâncreas libera adrenalina, que remove a glicose do sangue.", "correta": false, "etiqueta": "bio-troca-orgao-funcao" },
+      { "letra": "C", "texto": "A insulina transforma a glicose em proteínas no próprio sangue.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "D", "texto": "O pâncreas libera insulina, que faz a glicemia aumentar ainda mais.", "correta": false, "etiqueta": "bio-inverteu-causa-efeito" },
+      { "letra": "E", "texto": "O pâncreas libera insulina, que favorece a entrada da glicose nas células e seu armazenamento no fígado e nos músculos.", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "A insulina é produzida pelo pâncreas e diminui a glicose no sangue: leva as células a absorvê-la e favorece seu armazenamento, como glicogênio. Em quem tem diabetes, esse mecanismo falha.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-fisiologia-humana-009", "materia": "biologia", "assunto": "fisiologia-humana", "questionario": 2, "dificuldade": 1,
+    "contexto": "Xixi escuro em dia de calor",
+    "enunciado": "Em um dia quente, um aluno bebeu pouca água e notou que a urina ficou escura e em pequeno volume. O que explica esse efeito?",
+    "alternativas": [
+      { "letra": "A", "texto": "Os rins deixam de filtrar o sangue quando há pouca água no corpo.", "correta": false, "etiqueta": "bio-ignorou-dado" },
+      { "letra": "B", "texto": "O hormônio antidiurético (ADH) aumenta a reabsorção de água nos rins, produzindo urina mais concentrada e em menor volume.", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "O ADH diminui a reabsorção de água, e o corpo elimina a água que sobra.", "correta": false, "etiqueta": "bio-inverteu-causa-efeito" },
+      { "letra": "D", "texto": "O suor passa a eliminar todas as excretas, e a urina fica só com pigmento.", "correta": false, "etiqueta": "bio-senso-comum" },
+      { "letra": "E", "texto": "O fígado passa a produzir urina para compensar a falta de água.", "correta": false, "etiqueta": "bio-troca-orgao-funcao" }
+    ],
+    "explicacao": "Com pouca água, o corpo libera ADH, que faz os rins reabsorverem mais água. A urina sai menos volumosa, mais concentrada e escura. Os rins continuam filtrando, e a urina é produzida nos rins, não no fígado.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-fisiologia-humana-010", "materia": "biologia", "assunto": "fisiologia-humana", "questionario": 2, "dificuldade": 1,
+    "contexto": "Soro ou vacina?",
+    "enunciado": "Após ser picada por uma cobra venenosa, uma pessoa deve receber soro antiofídico, e não vacina. Qual é a razão dessa escolha?",
+    "alternativas": [
+      { "letra": "A", "texto": "O soro contém o veneno enfraquecido, que estimula a memória imunológica.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "B", "texto": "A vacina só funciona contra bactérias, nunca contra venenos.", "correta": false, "etiqueta": "bio-generalizou" },
+      { "letra": "C", "texto": "O soro mata a cobra que mordeu a pessoa.", "correta": false, "etiqueta": "bio-senso-comum" },
+      { "letra": "D", "texto": "O soro fornece anticorpos prontos, de ação imediata, enquanto a vacina levaria dias para o corpo produzir os seus.", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "O soro é sempre mais barato que a vacina.", "correta": false, "etiqueta": "bio-ignorou-dado" }
+    ],
+    "explicacao": "O veneno age em pouco tempo, e o corpo não teria tempo de produzir anticorpos próprios. O soro traz anticorpos produzidos em outro animal e neutraliza o veneno na hora (imunização passiva), mas sem criar memória. A vacina é preventiva e de efeito mais lento.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-fisiologia-humana-011", "materia": "biologia", "assunto": "fisiologia-humana", "questionario": 3, "dificuldade": -1,
+    "contexto": "Pão com saliva",
+    "enunciado": "Se você mastigar um pedaço de pão por bastante tempo, vai sentir um gosto levemente adocicado, pois a saliva contém uma enzima. Que nutriente começa a ser digerido na boca?",
+    "alternativas": [
+      { "letra": "A", "texto": "Proteínas", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "B", "texto": "Lipídios (gorduras)", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "C", "texto": "Vitaminas", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "D", "texto": "Sais minerais", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "E", "texto": "Carboidratos, como o amido", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "A amilase salivar quebra o amido do pão em açúcares menores, e é por isso que o gosto fica adocicado. As proteínas começam a ser digeridas no estômago e as gorduras, principalmente no intestino.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-fisiologia-humana-012", "materia": "biologia", "assunto": "fisiologia-humana", "questionario": 3, "dificuldade": -1,
+    "contexto": "Quem causa a malária",
+    "enunciado": "Cada doença infecciosa é causada por um tipo de agente. A malária, transmitida pela picada do mosquito Anopheles, é causada por um:",
+    "alternativas": [
+      { "letra": "A", "texto": "vírus, assim como a gripe", "correta": false, "etiqueta": "bio-confundiu-agente" },
+      { "letra": "B", "texto": "bactéria, assim como a tuberculose", "correta": false, "etiqueta": "bio-confundiu-agente" },
+      { "letra": "C", "texto": "protozoário do gênero Plasmodium", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "verme intestinal", "correta": false, "etiqueta": "bio-confundiu-agente" },
+      { "letra": "E", "texto": "fungo que vive na pele", "correta": false, "etiqueta": "bio-confundiu-agente" }
+    ],
+    "explicacao": "A malária é causada por protozoários do gênero Plasmodium, transmitidos pelo mosquito Anopheles. Gripe e dengue são causadas por vírus e tuberculose e cólera, por bactérias.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-fisiologia-humana-013", "materia": "biologia", "assunto": "fisiologia-humana", "questionario": 3, "dificuldade": 0,
+    "contexto": "A fofoca entre neurônios",
+    "enunciado": "O impulso nervoso percorre o neurônio em um sentido definido. Em um neurônio típico, por qual caminho o impulso passa?",
+    "alternativas": [
+      { "letra": "A", "texto": "Axônio, corpo celular e dendritos.", "correta": false, "etiqueta": "bio-sentido-fluxo" },
+      { "letra": "B", "texto": "Dendritos, axônio e corpo celular.", "correta": false, "etiqueta": "bio-sentido-fluxo" },
+      { "letra": "C", "texto": "Sempre de axônio para axônio.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "D", "texto": "Dendritos, corpo celular e axônio.", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Em sentido aleatório, conforme o estímulo.", "correta": false, "etiqueta": "bio-senso-comum" }
+    ],
+    "explicacao": "Os dendritos recebem o estímulo, o impulso passa pelo corpo celular e segue pelo axônio, até as sinapses com outra célula. O sentido é sempre esse em um neurônio.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-fisiologia-humana-014", "materia": "biologia", "assunto": "fisiologia-humana", "questionario": 3, "dificuldade": 0,
+    "contexto": "Calculando o IMC",
+    "enunciado": "O IMC (índice de massa corporal) é calculado dividindo a massa, em kg, pelo quadrado da altura, em metros. Segundo a OMS, de 25 a 29,9 é considerado sobrepeso. Qual o IMC de uma pessoa de 60 kg e 1,50 m e como ela é classificada?",
+    "alternativas": [
+      { "letra": "A", "texto": "26,7, sobrepeso", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "40,0, obesidade", "correta": false, "etiqueta": "bio-erro-calculo" },
+      { "letra": "C", "texto": "20,0, peso normal", "correta": false, "etiqueta": "bio-erro-calculo" },
+      { "letra": "D", "texto": "90,0, obesidade", "correta": false, "etiqueta": "bio-erro-calculo" },
+      { "letra": "E", "texto": "17,8, abaixo do peso", "correta": false, "etiqueta": "bio-erro-calculo" }
+    ],
+    "explicacao": "1,50² = 2,25, e 60 ÷ 2,25 ≈ 26,7, que está entre 25 e 29,9: sobrepeso. Dividir por 1,50 (40) esquece de elevar ao quadrado, e multiplicar (90) usa a operação errada. O IMC é só um indicador, e o ideal é conversar com um profissional de saúde.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-fisiologia-humana-015", "materia": "biologia", "assunto": "fisiologia-humana", "questionario": 3, "dificuldade": 1,
+    "contexto": "Prevenção dupla",
+    "enunciado": "Em uma aula de saúde, discutiu-se qual método previne ao mesmo tempo a gravidez e infecções sexualmente transmissíveis (IST), como o HIV. Qual das opções oferece as duas proteções?",
+    "alternativas": [
+      { "letra": "A", "texto": "Pílula anticoncepcional", "correta": false, "etiqueta": "bio-meia-verdade" },
+      { "letra": "B", "texto": "Preservativo (camisinha)", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "DIU de cobre", "correta": false, "etiqueta": "bio-meia-verdade" },
+      { "letra": "D", "texto": "Tabelinha (contagem de dias do ciclo)", "correta": false, "etiqueta": "bio-ignorou-dado" },
+      { "letra": "E", "texto": "Interromper a relação antes do fim", "correta": false, "etiqueta": "bio-ignorou-dado" }
+    ],
+    "explicacao": "O preservativo cria uma barreira que reduz o risco de gravidez e de IST. Pílula e DIU previnem a gravidez, mas não protegem contra IST. Tabelinha e interrupção da relação são pouco confiáveis para os dois objetivos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-fisiologia-humana-016", "materia": "biologia", "assunto": "fisiologia-humana", "questionario": 4, "dificuldade": -1,
+    "contexto": "O filtro do corpo",
+    "enunciado": "Os rins são órgãos do sistema urinário. Qual é a principal função deles?",
+    "alternativas": [
+      { "letra": "A", "texto": "Produzir bile para digerir gorduras.", "correta": false, "etiqueta": "bio-troca-orgao-funcao" },
+      { "letra": "B", "texto": "Bombear o sangue pelo corpo.", "correta": false, "etiqueta": "bio-troca-orgao-funcao" },
+      { "letra": "C", "texto": "Realizar as trocas gasosas.", "correta": false, "etiqueta": "bio-troca-orgao-funcao" },
+      { "letra": "D", "texto": "Filtrar o sangue, eliminando excretas e controlando a água e os sais pela urina.", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Digerir proteínas com enzimas.", "correta": false, "etiqueta": "bio-troca-orgao-funcao" }
+    ],
+    "explicacao": "Os rins filtram o sangue, retiram excretas (como a ureia) e regulam o equilíbrio de água e sais. A bile vem do fígado, o sangue é bombeado pelo coração e as trocas gasosas ocorrem nos pulmões.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-fisiologia-humana-017", "materia": "biologia", "assunto": "fisiologia-humana", "questionario": 4, "dificuldade": 0,
+    "contexto": "Feijoada pesada",
+    "enunciado": "Após uma refeição muito gordurosa, a vesícula biliar libera bile no intestino delgado. Qual é o papel da bile na digestão?",
+    "alternativas": [
+      { "letra": "A", "texto": "Digerir as proteínas dos alimentos.", "correta": false, "etiqueta": "bio-troca-orgao-funcao" },
+      { "letra": "B", "texto": "Emulsificar as gorduras, formando gotículas menores que facilitam a ação das lipases.", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Absorver a água do bolo alimentar.", "correta": false, "etiqueta": "bio-troca-orgao-funcao" },
+      { "letra": "D", "texto": "Matar os vírus que chegam com o alimento.", "correta": false, "etiqueta": "bio-senso-comum" },
+      { "letra": "E", "texto": "Produzir insulina para controlar a glicemia.", "correta": false, "etiqueta": "bio-troca-orgao-funcao" }
+    ],
+    "explicacao": "A bile é produzida no fígado e guardada na vesícula. Ela não tem enzimas: age como um detergente, que divide a gordura em gotículas e facilita a ação das lipases do suco pancreático.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-fisiologia-humana-018", "materia": "biologia", "assunto": "fisiologia-humana", "questionario": 4, "dificuldade": 0,
+    "contexto": "Doação de sangue",
+    "enunciado": "Uma pessoa de sangue tipo A (com anticorpos anti-B no plasma) precisa de uma transfusão. Desconsiderando o fator Rh, de quais tipos ela pode receber sangue com segurança?",
+    "alternativas": [
+      { "letra": "A", "texto": "A e B", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "B", "texto": "A e AB", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "C", "texto": "A e O", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Apenas A", "correta": false, "etiqueta": "bio-meia-verdade" },
+      { "letra": "E", "texto": "Qualquer tipo", "correta": false, "etiqueta": "bio-generalizou" }
+    ],
+    "explicacao": "Quem tem sangue tipo A tem anticorpos anti-B, então não pode receber sangue B nem AB, pois as hemácias seriam atacadas. O tipo A é compatível, e o tipo O, que não tem aglutinogênios, também é. Receber só do tipo A é seguro, mas não é a lista completa.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-fisiologia-humana-019", "materia": "biologia", "assunto": "fisiologia-humana", "questionario": 4, "dificuldade": 1,
+    "contexto": "Por que a AIDS derruba as defesas",
+    "enunciado": "Pessoas com AIDS não tratada adoecem com facilidade por infecções que raramente afetam pessoas saudáveis (as infecções oportunistas). Qual a explicação para isso?",
+    "alternativas": [
+      { "letra": "A", "texto": "O vírus HIV destrói as hemácias, deixando o corpo sem oxigênio.", "correta": false, "etiqueta": "bio-troca-orgao-funcao" },
+      { "letra": "B", "texto": "A AIDS é causada por uma bactéria que libera toxinas em todo o corpo.", "correta": false, "etiqueta": "bio-confundiu-agente" },
+      { "letra": "C", "texto": "O HIV impede o pâncreas de produzir insulina, e o corpo fica sem energia.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "D", "texto": "As bactérias oportunistas se transformam em vírus dentro do corpo.", "correta": false, "etiqueta": "bio-senso-comum" },
+      { "letra": "E", "texto": "O HIV infecta e destrói linfócitos T auxiliares, o que compromete a resposta imunológica.", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "O HIV ataca os linfócitos T auxiliares (CD4), peças centrais na coordenação da defesa do corpo. Com poucos deles, o organismo não responde bem a outros agentes, e surgem as infecções oportunistas. O tratamento com antirretrovirais controla o vírus e protege o sistema imune.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-fisiologia-humana-020", "materia": "biologia", "assunto": "fisiologia-humana", "questionario": 4, "dificuldade": 1,
+    "contexto": "Coração de atleta",
+    "enunciado": "O débito cardíaco é o volume de sangue bombeado pelo coração por minuto: frequência cardíaca × volume de sangue por batimento. Um atleta em repouso tem 60 batimentos por minuto e bombeia 80 mL por batimento. Qual é o débito cardíaco dele?",
+    "alternativas": [
+      { "letra": "A", "texto": "4,8 L/min", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "0,48 L/min", "correta": false, "etiqueta": "bio-erro-calculo" },
+      { "letra": "C", "texto": "48 L/min", "correta": false, "etiqueta": "bio-erro-calculo" },
+      { "letra": "D", "texto": "140 L/min", "correta": false, "etiqueta": "bio-erro-calculo" },
+      { "letra": "E", "texto": "80 L/min", "correta": false, "etiqueta": "bio-ignorou-dado" }
+    ],
+    "explicacao": "60 × 80 mL = 4.800 mL/min, ou 4,8 L/min (1 L = 1.000 mL). Errar a conversão de unidades leva a 0,48 ou 48. Somar 60 e 80 não faz sentido, pois a grandeza pedida é um produto.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]

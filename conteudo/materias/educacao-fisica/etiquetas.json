@@ -1,0 +1,15 @@
+[
+  { "id": "edf-so-rendimento", "nome": "Só rendimento", "descricao": "Reduziu esporte e prática corporal a vencer, bater recordes e competir." },
+  { "id": "edf-confundiu-categoria", "nome": "Confundiu a categoria", "descricao": "Misturou jogo, esporte, dança, luta, ginástica ou outras manifestações da cultura corporal." },
+  { "id": "edf-saude-so-doenca", "nome": "Saúde só como ausência de doença", "descricao": "Entendeu saúde apenas como não estar doente, esquecendo bem-estar físico, mental e social." },
+  { "id": "edf-confundiu-conceito", "nome": "Confundiu os conceitos", "descricao": "Trocou atividade física, exercício físico, sedentarismo, aptidão ou outros termos de saúde." },
+  { "id": "edf-ignorou-contexto", "nome": "Ignorou o contexto social", "descricao": "Esqueceu o contexto histórico, social e cultural que explica a prática." },
+  { "id": "edf-regra-errada", "nome": "Regra ou fundamento errado", "descricao": "Errou uma regra, um fundamento técnico ou uma característica de uma modalidade." },
+  { "id": "edf-receita-unica", "nome": "Receita única", "descricao": "Tratou um jeito de praticar como o único certo para todas as pessoas, esquecendo diferenças de gosto, condição e contexto." },
+  { "id": "edf-extremo", "nome": "Alternativa extrema", "descricao": "Escolheu uma afirmação absoluta, com sempre, nunca ou apenas, que a realidade não sustenta." },
+  { "id": "edf-fuga-do-tema", "nome": "Fugiu do tema", "descricao": "Escolheu uma afirmação que pode ser verdadeira, mas não responde ao que o enunciado perguntou." },
+  { "id": "edf-acritico-midia", "nome": "Engoliu o discurso da mídia", "descricao": "Aceitou sem análise o que propaganda, mídia ou mercado dizem sobre prática corporal e consumo." },
+  { "id": "edf-ignorou-inclusao", "nome": "Esqueceu a inclusão", "descricao": "Ignorou a participação de todas as pessoas, com suas diferenças de gênero, deficiência, idade e condição." },
+  { "id": "edf-origem-errada", "nome": "Origem errada", "descricao": "Atribuiu a prática a um povo, lugar ou época que não é o dela." },
+  { "id": "edf-capacidade-trocada", "nome": "Trocou a capacidade física", "descricao": "Confundiu força, resistência, flexibilidade, velocidade, equilíbrio ou coordenação." }
+]

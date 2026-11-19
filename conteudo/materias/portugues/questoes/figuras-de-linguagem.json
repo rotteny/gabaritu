@@ -1,0 +1,902 @@
+[
+  {
+    "id": "por-figuras-de-linguagem-001",
+    "materia": "portugues",
+    "assunto": "figuras-de-linguagem",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Fera da matemática",
+    "enunciado": "Na frase “Aquele aluno é uma fera em Matemática”, a expressão “uma fera” é uma",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "comparação, pois usa o conectivo “como” para ligar os termos.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "B",
+        "texto": "hipérbole, pois exagera uma característica do aluno.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "C",
+        "texto": "metáfora, pois transfere ao aluno a ideia de habilidade e ferocidade sem usar termo de comparação.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "metonímia, pois troca o aluno pela sua profissão.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "E",
+        "texto": "descrição literal, pois o aluno é um animal selvagem.",
+        "correta": false,
+        "etiqueta": "por-sentido-literal"
+      }
+    ],
+    "explicacao": "Metáfora é a comparação implícita: o aluno “é” uma fera, no sentido de ser muito bom. Não há conectivo como “como” ou “parece”. Se houvesse, seria comparação.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-figuras-de-linguagem-002",
+    "materia": "portugues",
+    "assunto": "figuras-de-linguagem",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Forte como um touro",
+    "enunciado": "Em “Ele é forte como um touro”, a figura de linguagem presente é a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "metáfora, pois não há termo que ligue as duas ideias.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "B",
+        "texto": "antítese, pois opõe duas ideias contrárias.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "C",
+        "texto": "hipérbole, pois diminui uma característica.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "D",
+        "texto": "comparação, pois aproxima dois seres por meio do conectivo “como”.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "personificação, pois dá características humanas ao touro.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      }
+    ],
+    "explicacao": "A comparação explicita a semelhança com um conectivo (como, tal qual, feito). Isso a distingue da metáfora, que identifica um termo ao outro diretamente. Nenhuma outra figura aparece na frase.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-figuras-de-linguagem-003",
+    "materia": "portugues",
+    "assunto": "figuras-de-linguagem",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Li Machado nas férias",
+    "enunciado": "Na frase “Li Machado de Assis nas férias”, o nome do autor aparece no lugar de sua obra. Essa substituição caracteriza a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "metáfora, pois compara o autor a um livro.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "B",
+        "texto": "metonímia, pois troca um termo por outro com o qual mantém relação de proximidade (autor pela obra).",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "catacrese, pois usa palavra emprestada por falta de termo específico.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "D",
+        "texto": "ironia, pois diz o contrário do que se pensa.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "E",
+        "texto": "hipérbole, pois exagera a quantidade lida.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      }
+    ],
+    "explicacao": "Na metonímia, uma palavra substitui outra por relação lógica, como autor pela obra, continente pelo conteúdo ou marca pelo produto. A metáfora, ao contrário, se baseia em semelhança.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-figuras-de-linguagem-004",
+    "materia": "portugues",
+    "assunto": "figuras-de-linguagem",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Fila interminável",
+    "enunciado": "“Esperei uma eternidade na fila do banco.” O exagero em “uma eternidade” caracteriza uma",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "ironia, pois diz o contrário do que quer dizer.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "B",
+        "texto": "eufemismo, pois suaviza uma ideia desagradável.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "C",
+        "texto": "gradação, pois organiza ideias em ordem crescente.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "D",
+        "texto": "hipérbole, pois amplia de forma exagerada a duração da espera.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "paradoxo, pois une duas ideias que se contradizem.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      }
+    ],
+    "explicacao": "Ninguém espera literalmente uma eternidade: o exagero serve para enfatizar a demora. Esse recurso é a hipérbole. A ironia exigiria que o falante dissesse o oposto do que pensa.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-figuras-de-linguagem-005",
+    "materia": "portugues",
+    "assunto": "figuras-de-linguagem",
+    "questionario": 1,
+    "dificuldade": 1,
+    "contexto": "Choveu no piquenique",
+    "enunciado": "Em um dia de piquenique, começa uma chuva forte e Léa comenta: “Que beleza! Choveu justo hoje.” A fala de Léa é uma",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "ironia, pois ela diz o contrário do que sente, para criticar a situação.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "hipérbole, pois ela exagera o tamanho da chuva.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "C",
+        "texto": "eufemismo, pois ela suaviza uma má notícia.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "D",
+        "texto": "paradoxo, pois ela une ideias contraditórias em um mesmo termo.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "E",
+        "texto": "antítese, pois ela contrasta chuva e piquenique.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      }
+    ],
+    "explicacao": "Léa elogia (“Que beleza!”) uma situação que a desagrada. Dizer o oposto do que se pensa, com intenção crítica ou humorística, é ironia. O contexto (chuva no piquenique) é o que revela o sentido.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-figuras-de-linguagem-006",
+    "materia": "portugues",
+    "assunto": "figuras-de-linguagem",
+    "questionario": 2,
+    "dificuldade": -1,
+    "contexto": "O vento sussurrava",
+    "enunciado": "“O vento sussurrava segredos às folhas.” A atribuição de ações humanas (sussurrar, contar segredos) ao vento é chamada de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "sinestesia, pois mistura sensações de sentidos diferentes.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "B",
+        "texto": "onomatopeia, pois imita o som do vento.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "C",
+        "texto": "metonímia, pois troca o vento por sua causa.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "D",
+        "texto": "hipérbole, pois exagera a força do vento.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "E",
+        "texto": "personificação (ou prosopopeia).",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "Quando seres inanimados ganham ações ou sentimentos humanos, há personificação. Aqui o vento “sussurra” e conta segredos. A onomatopeia, por sua vez, reproduziria o som, como em “shhh”.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-figuras-de-linguagem-007",
+    "materia": "portugues",
+    "assunto": "figuras-de-linguagem",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Som doce",
+    "enunciado": "“O doce som da flauta enchia a sala.” A expressão “doce som” mistura uma sensação do paladar com uma sensação auditiva. Essa figura é a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "catacrese, pois usa uma palavra emprestada por falta de termo específico.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "B",
+        "texto": "pleonasmo, pois repete uma ideia desnecessariamente.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "C",
+        "texto": "sinestesia, pois une sensações de sentidos diferentes.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "ironia, pois diz o contrário do que pensa.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "E",
+        "texto": "metonímia, pois troca a parte pelo todo.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      }
+    ],
+    "explicacao": "A sinestesia cruza campos sensoriais (aqui, paladar e audição). Expressões como “cor quente” e “voz aveludada” seguem o mesmo princípio. Não há troca de palavras por proximidade nem exagero.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-figuras-de-linguagem-008",
+    "materia": "portugues",
+    "assunto": "figuras-de-linguagem",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Rir por fora",
+    "enunciado": "“Ria por fora, mas chorava por dentro.” A oposição entre “rir” e “chorar”, e entre “fora” e “dentro”, constitui uma",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "paradoxo, pois afirma uma ideia logicamente impossível.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "B",
+        "texto": "antítese, pois aproxima termos de sentidos opostos.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "gradação, pois organiza as ações em ordem crescente.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "D",
+        "texto": "eufemismo, pois suaviza uma ideia dura.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "E",
+        "texto": "ironia, pois diz o contrário do que se pensa.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      }
+    ],
+    "explicacao": "Antítese é o contraste entre palavras ou ideias opostas dentro do mesmo enunciado. Aqui as ações (rir/chorar) e os lugares (fora/dentro) se opõem. Não há afirmação impossível, o que afastaria o paradoxo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-figuras-de-linguagem-009",
+    "materia": "portugues",
+    "assunto": "figuras-de-linguagem",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "O braço da cadeira",
+    "enunciado": "Em “Maria quebrou o braço da cadeira”, a palavra “braço” é usada para designar uma parte do móvel porque a língua não tem outro nome específico para ela. Essa figura, que se tornou tão comum que já não é percebida como figura, é a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "metáfora criativa, que surpreende o leitor com uma imagem nova.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "B",
+        "texto": "catacrese, uma metáfora desgastada pelo uso.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "personificação, pois a cadeira age como um ser humano.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "D",
+        "texto": "metonímia, pois troca o móvel pelo seu dono.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "E",
+        "texto": "hipérbole, pois exagera o dano feito à cadeira.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      }
+    ],
+    "explicacao": "Na catacrese, uma palavra é emprestada para nomear algo que não tem termo próprio (braço da cadeira, pé da mesa, boca do túnel). Por ser tão usada, perde o efeito de novidade. A metáfora criativa, ao contrário, ainda surpreende.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-figuras-de-linguagem-010",
+    "materia": "portugues",
+    "assunto": "figuras-de-linguagem",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Vovô nos deixou",
+    "enunciado": "“Meu avô nos deixou ontem, depois de um longo tempo doente.” Ao dizer “nos deixou” no lugar de “morreu”, o falante utiliza",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "eufemismo, para suavizar uma ideia dolorosa.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "ironia, pois diz o contrário do que realmente pensa.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "C",
+        "texto": "hipérbole, pois exagera o tamanho da perda.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "D",
+        "texto": "gradação, pois organiza ideias do menor para o maior.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "E",
+        "texto": "personificação, pois dá ações humanas ao avô.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      }
+    ],
+    "explicacao": "O eufemismo troca uma palavra considerada dura por outra mais branda. “Nos deixou” e “descansou” são exemplos clássicos para a morte. Não há aqui intenção de dizer o oposto, como na ironia.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-figuras-de-linguagem-011",
+    "materia": "portugues",
+    "assunto": "figuras-de-linguagem",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Tique-taque",
+    "enunciado": "“O tique-taque do relógio quebrava o silêncio da sala.” A expressão “tique-taque” é uma",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "onomatopeia, pois imita o som produzido pelo relógio.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "aliteração, pois repete o mesmo som consonantal no início das palavras.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "C",
+        "texto": "anáfora, pois repete uma palavra no começo de versos.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "D",
+        "texto": "hipérbole, pois exagera o barulho do relógio.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "E",
+        "texto": "ironia, pois diz o contrário do que pensa.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      }
+    ],
+    "explicacao": "Onomatopeia é a palavra que reproduz sons (tique-taque, pum, miau). Aliteração, por outro lado, é a repetição de consoantes ao longo de uma frase, sem necessariamente imitar um som.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-figuras-de-linguagem-012",
+    "materia": "portugues",
+    "assunto": "figuras-de-linguagem",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Subir para cima",
+    "enunciado": "A frase “Vou subir para cima para pegar o casaco” contém uma repetição desnecessária, em que “para cima” reforça a ideia já contida em “subir”. Esse recurso é o",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "elipse, pois omite uma palavra facilmente subentendida.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "B",
+        "texto": "paradoxo, pois une duas ideias contraditórias.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "C",
+        "texto": "antítese, pois opõe duas ideias contrárias.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "D",
+        "texto": "hipérbole, pois exagera o esforço da subida.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "E",
+        "texto": "pleonasmo.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "Pleonasmo é a repetição de uma ideia já presente, para enfatizá-la ou por hábito (entrar para dentro, ver com os olhos). A elipse, ao contrário, é a omissão de um termo subentendido.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-figuras-de-linguagem-013",
+    "materia": "portugues",
+    "assunto": "figuras-de-linguagem",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Ó mar salgado",
+    "enunciado": "No poema “Mar Português”, de Fernando Pessoa, lê-se: “Ó mar salgado, quanto do teu sal / São lágrimas de Portugal!”. O trecho “Ó mar salgado”, em que o poeta se dirige diretamente ao mar, exemplifica a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "metonímia, pois troca o mar por uma parte dele.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "B",
+        "texto": "apóstrofe, que consiste em interpelar um ser, real ou imaginário, ausente ou inanimado.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "ironia, pois diz o contrário do que o poeta pensa.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "D",
+        "texto": "onomatopeia, pois imita o barulho das ondas.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "E",
+        "texto": "elipse, pois omite um verbo facilmente subentendido.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      }
+    ],
+    "explicacao": "O vocativo precedido de “Ó” chama o mar como se ele pudesse ouvir: é a apóstrofe. Em seguida, a imagem do sal como lágrimas é uma metáfora. Apóstrofe é o chamamento, e não a imagem.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-figuras-de-linguagem-014",
+    "materia": "portugues",
+    "assunto": "figuras-de-linguagem",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Por ti",
+    "enunciado": "“Por ti esperei, por ti chorei, por ti voltei.” A repetição da expressão “por ti” no começo de cada oração caracteriza",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "gradação, pois organiza as ideias em ordem de intensidade.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "B",
+        "texto": "polissíndeto, pois repete a conjunção “e” entre os termos.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "C",
+        "texto": "aliteração, pois repete consoantes dentro das palavras.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "D",
+        "texto": "anáfora, pois repete o mesmo termo no início de frases ou versos sucessivos.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "pleonasmo, pois repete uma ideia já contida no verbo.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      }
+    ],
+    "explicacao": "Anáfora é a repetição de uma palavra ou expressão no início de segmentos consecutivos, o que dá ênfase e ritmo. O polissíndeto, por exemplo, repete conectivos, como o “e”, entre os elementos.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-figuras-de-linguagem-015",
+    "materia": "portugues",
+    "assunto": "figuras-de-linguagem",
+    "questionario": 3,
+    "dificuldade": 1,
+    "contexto": "E correu e caiu",
+    "enunciado": "“E chorou, e riu, e correu, e caiu, e levantou.” A repetição da conjunção “e” antes de cada termo é um caso de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "assíndeto, pois omite as conjunções entre os termos.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "B",
+        "texto": "anáfora, pois repete a palavra no início dos versos.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "C",
+        "texto": "gradação, pois ordena as ideias em intensidade crescente.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "D",
+        "texto": "polissíndeto, que dá ideia de ações contínuas e encadeadas.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "elipse, pois omite um termo subentendido.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      }
+    ],
+    "explicacao": "O polissíndeto repete conectivos para criar ritmo e dar sensação de acúmulo. O assíndeto faz o contrário, suprimindo as conjunções (“chorou, riu, correu”). A diferença é a presença ou ausência do conectivo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-figuras-de-linguagem-016",
+    "materia": "portugues",
+    "assunto": "figuras-de-linguagem",
+    "questionario": 4,
+    "dificuldade": -1,
+    "contexto": "Coração de ouro",
+    "enunciado": "Ao dizer “Meu tio tem coração de ouro”, a pessoa quer dizer que o tio",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "tem um órgão feito de metal precioso, de valor elevado.",
+        "correta": false,
+        "etiqueta": "por-sentido-literal"
+      },
+      {
+        "letra": "B",
+        "texto": "é rico e gosta de ostentar sua fortuna.",
+        "correta": false,
+        "etiqueta": "por-leitura-superficial"
+      },
+      {
+        "letra": "C",
+        "texto": "é generoso e bondoso, pois a expressão está em sentido figurado.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "é frio e calculista nos negócios.",
+        "correta": false,
+        "etiqueta": "por-contradicao-texto"
+      },
+      {
+        "letra": "E",
+        "texto": "tem uma doença rara que afeta o coração.",
+        "correta": false,
+        "etiqueta": "por-sentido-literal"
+      }
+    ],
+    "explicacao": "“Coração de ouro” é uma metáfora para bondade e valor moral. Em expressões figuradas, o sentido não é o das palavras ao pé da letra. A comparação com o ouro é de qualidade (algo precioso), e não de riqueza material.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-figuras-de-linguagem-017",
+    "materia": "portugues",
+    "assunto": "figuras-de-linguagem",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Vento varre a vila",
+    "enunciado": "“O vento varre a vila vazia, vencendo as vozes do vale.” A repetição do som “v” em várias palavras da frase é uma",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "assonância, pois repete sons vocálicos.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "B",
+        "texto": "onomatopeia, pois imita o som de um objeto.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "C",
+        "texto": "aliteração, pois repete sons consonantais para criar efeito sonoro.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "anáfora, pois repete uma palavra no início de cada frase.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "E",
+        "texto": "paradoxo, pois une ideias contraditórias.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      }
+    ],
+    "explicacao": "Aliteração é a repetição de consoantes (aqui, o /v/), e assonância é a repetição de vogais. A sonoridade do /v/ pode lembrar o som do vento. Mas imitar som diretamente, como em “zum-zum”, é onomatopeia.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-figuras-de-linguagem-018",
+    "materia": "portugues",
+    "assunto": "figuras-de-linguagem",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Dedicatória ao verme",
+    "enunciado": "Machado de Assis abre “Memórias Póstumas de Brás Cubas” com a dedicatória: “Ao verme que primeiro roeu as frias carnes do meu cadáver dedico como saudosa lembrança estas Memórias Póstumas.” O tom de “saudosa lembrança” para o verme que devora o corpo do narrador produz",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "ironia, pois trata com falsa ternura o animal que devora o cadáver, criando efeito sarcástico.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "hipérbole, pois exagera o amor do narrador por animais.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "C",
+        "texto": "eufemismo, pois suaviza a ideia de morte para o leitor.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "D",
+        "texto": "sinestesia, pois mistura sensações de sentidos diferentes.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "E",
+        "texto": "metonímia, pois troca o verme pelo cadáver.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      }
+    ],
+    "explicacao": "O narrador defunto agradece, com doçura aparente, ao verme que roeu seu corpo: o contraste entre o tom afetuoso e o horror do fato é irônico. Essa ironia é marca do estilo machadiano e prenuncia o tom de toda a obra.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-figuras-de-linguagem-019",
+    "materia": "portugues",
+    "assunto": "figuras-de-linguagem",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Saudade e silêncio",
+    "enunciado": "“No coração, saudade; na boca, silêncio.” Na segunda parte da frase, o verbo é omitido, mas o leitor o subentende com facilidade (“havia”, “restava”). Essa omissão é uma",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "zeugma, pois omite um termo que já apareceu antes na frase.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "B",
+        "texto": "hipérbato, pois inverte a ordem natural das palavras.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "C",
+        "texto": "anáfora, pois repete a mesma palavra no início de frases.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "D",
+        "texto": "pleonasmo, pois repete desnecessariamente uma ideia.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "E",
+        "texto": "elipse, pois suprime um termo facilmente subentendido pelo contexto.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "A elipse omite uma palavra que o contexto permite recuperar. Aqui o verbo não aparece em nenhuma das duas partes e é subentendido. O zeugma é um caso particular em que o termo omitido já foi citado antes na frase.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-figuras-de-linguagem-020",
+    "materia": "portugues",
+    "assunto": "figuras-de-linguagem",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Brado retumbante",
+    "enunciado": "Os primeiros versos do Hino Nacional dizem: “Ouviram do Ipiranga as margens plácidas / De um povo heroico o brado retumbante”. A ordem direta seria “As margens plácidas do Ipiranga ouviram o brado retumbante de um povo heroico”. A alteração da ordem normal dos termos é um",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pleonasmo, pois repete uma ideia já presente na frase.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "B",
+        "texto": "polissíndeto, pois repete a conjunção várias vezes.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "C",
+        "texto": "elipse, pois omite um termo subentendido.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "D",
+        "texto": "apóstrofe, pois dirige-se diretamente a um ser ausente.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      },
+      {
+        "letra": "E",
+        "texto": "hipérbato, que inverte a sequência esperada para dar destaque e musicalidade.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "No hipérbato, os termos aparecem fora da ordem direta (sujeito, verbo, complemento), o que é comum na poesia e em textos solenes. Aqui, o sujeito (as margens plácidas) vem depois do verbo, e o objeto é intercalado.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  }
+]

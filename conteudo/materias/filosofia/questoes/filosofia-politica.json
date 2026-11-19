@@ -1,0 +1,282 @@
+[
+  {
+    "id": "fil-filosofia-politica-001", "materia": "filosofia", "assunto": "filosofia-politica", "questionario": 1, "dificuldade": -1,
+    "contexto": "Política como ela é",
+    "enunciado": "Em O Príncipe, escrito no início do século XVI, Nicolau Maquiavel analisa como conquistar e manter o poder, descrevendo a política como ela é, e não como deveria ser segundo a moral religiosa. Por isso, ele é lembrado como pensador que:",
+    "alternativas": [
+      { "letra": "A", "texto": "defendeu o direito divino dos reis", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "B", "texto": "tratou a política como atividade com lógica própria, separada da moral religiosa", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "foi um filósofo da Grécia antiga", "correta": false, "etiqueta": "fil-misturou-epocas" },
+      { "letra": "D", "texto": "defendeu a anarquia", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "E", "texto": "foi o criador da teoria do contrato social", "correta": false, "etiqueta": "fil-confundiu-filosofo" }
+    ],
+    "explicacao": "Maquiavel inaugura a análise moderna da política: ele descreve como o poder funciona sem partir de um dever-ser religioso. Viveu na Renascença italiana, e a teoria do contrato é de Hobbes, Locke e Rousseau.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-politica-002", "materia": "filosofia", "assunto": "filosofia-politica", "questionario": 1, "dificuldade": -1,
+    "contexto": "Guerra de todos",
+    "enunciado": "Em Leviatã (1651), Thomas Hobbes imaginou o estado de natureza, sem governo nem leis, e concluiu que ele seria uma guerra de todos contra todos. Para escapar dela, as pessoas aceitariam:",
+    "alternativas": [
+      { "letra": "A", "texto": "viver sem Estado, porque a natureza humana é boa", "correta": false, "etiqueta": "fil-confundiu-filosofo" },
+      { "letra": "B", "texto": "dividir o poder em três ramos independentes", "correta": false, "etiqueta": "fil-confundiu-filosofo" },
+      { "letra": "C", "texto": "um governo limitado, que respeite sobretudo a propriedade", "correta": false, "etiqueta": "fil-confundiu-filosofo" },
+      { "letra": "D", "texto": "transferir poder a um soberano forte, que garanta paz e segurança", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "a anarquia, para voltar à natureza", "correta": false, "etiqueta": "fil-ideia-oposta" }
+    ],
+    "explicacao": "Para Hobbes, sem um poder comum que imponha ordem, a vida seria insegura e violenta. A solução é o pacto em que as pessoas transferem poder a um soberano. A divisão em três poderes é de Montesquieu, e a natureza boa é ideia associada a Rousseau.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-politica-003", "materia": "filosofia", "assunto": "filosofia-politica", "questionario": 1, "dificuldade": 0,
+    "contexto": "Direitos naturais",
+    "enunciado": "John Locke defendeu que todos têm direitos naturais, como vida, liberdade e propriedade, e que o governo existe para protegê-los. Se o governante viola sistematicamente esses direitos, para Locke:",
+    "alternativas": [
+      { "letra": "A", "texto": "o povo pode resistir e substituir o governo", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "o povo deve obedecer sempre, pois o rei tem poder divino", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "C", "texto": "o governo passa automaticamente a ser absoluto", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "D", "texto": "nada pode ser feito, pois o contrato não pode ser desfeito", "correta": false, "etiqueta": "fil-confundiu-filosofo" },
+      { "letra": "E", "texto": "o governante deve ser punido sem qualquer julgamento", "correta": false, "etiqueta": "fil-simplificou-demais" }
+    ],
+    "explicacao": "Para Locke, o governo é legítimo enquanto protege os direitos naturais; se os viola, perde a legitimidade e o povo pode resistir. Essa ideia influenciou revoluções liberais. Quem defende um soberano praticamente irresistível é Hobbes.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-politica-004", "materia": "filosofia", "assunto": "filosofia-politica", "questionario": 1, "dificuldade": 0,
+    "contexto": "Vontade geral",
+    "enunciado": "No Contrato Social (1762), Rousseau defende que a autoridade legítima nasce de um pacto entre os cidadãos, que formam um corpo político guiado pela vontade geral. Isso significa que, para ele:",
+    "alternativas": [
+      { "letra": "A", "texto": "a soberania pertence ao rei por direito divino", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "B", "texto": "a vontade geral é a soma dos interesses individuais de cada um", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "C", "texto": "o povo deve entregar todo o poder a um soberano absoluto", "correta": false, "etiqueta": "fil-confundiu-filosofo" },
+      { "letra": "D", "texto": "a propriedade privada é o fundamento do Estado", "correta": false, "etiqueta": "fil-confundiu-filosofo" },
+      { "letra": "E", "texto": "a soberania pertence ao povo, e as leis legítimas expressam o interesse comum", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Para Rousseau, a vontade geral visa ao bem comum e não se confunde com a soma dos interesses particulares. A soberania é do povo. Entregar todo poder a um soberano absoluto é a solução de Hobbes.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-politica-005", "materia": "filosofia", "assunto": "filosofia-politica", "questionario": 1, "dificuldade": 1,
+    "contexto": "Trio contratualista",
+    "enunciado": "Hobbes, Locke e Rousseau são chamados de contratualistas. Considere as ideias: (I) o governo protege direitos naturais e pode ser destituído se os violar; (II) a legitimidade vem da vontade geral do povo; (III) o estado de natureza é de guerra e exige um soberano forte. A associação correta, respectivamente, é:",
+    "alternativas": [
+      { "letra": "A", "texto": "I Hobbes, II Locke, III Rousseau", "correta": false, "etiqueta": "fil-confundiu-filosofo" },
+      { "letra": "B", "texto": "I Rousseau, II Hobbes, III Locke", "correta": false, "etiqueta": "fil-confundiu-filosofo" },
+      { "letra": "C", "texto": "I Locke, II Rousseau, III Hobbes", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "I Hobbes, II Rousseau, III Locke", "correta": false, "etiqueta": "fil-confundiu-filosofo" },
+      { "letra": "E", "texto": "I Locke, II Hobbes, III Rousseau", "correta": false, "etiqueta": "fil-confundiu-filosofo" }
+    ],
+    "explicacao": "A ideia I é de Locke (direitos naturais e governo limitado), a II é de Rousseau (vontade geral) e a III é de Hobbes (guerra no estado de natureza). Um truque é lembrar de uma palavra-chave para cada um: soberano forte, direitos naturais, vontade geral.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-politica-006", "materia": "filosofia", "assunto": "filosofia-politica", "questionario": 2, "dificuldade": -1,
+    "contexto": "Três poderes",
+    "enunciado": "Em O Espírito das Leis (1748), Montesquieu propôs dividir o poder do Estado em Executivo, Legislativo e Judiciário, independentes e capazes de se fiscalizar. O objetivo dessa divisão era:",
+    "alternativas": [
+      { "letra": "A", "texto": "permitir que um só poder decida tudo", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "B", "texto": "fortalecer o poder absoluto do rei", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "C", "texto": "evitar a concentração de poder e o abuso, protegendo a liberdade dos cidadãos", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "criar uma religião de Estado", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "E", "texto": "acabar com as leis escritas", "correta": false, "etiqueta": "fil-simplificou-demais" }
+    ],
+    "explicacao": "Montesquieu temia que quem concentra poder acabe abusando dele. Dividir funções entre órgãos independentes cria freios e contrapesos, ideia presente em várias constituições modernas, inclusive a brasileira.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-politica-007", "materia": "filosofia", "assunto": "filosofia-politica", "questionario": 2, "dificuldade": -1,
+    "contexto": "Democracia de Atenas",
+    "enunciado": "Na Atenas clássica, os cidadãos decidiam diretamente os assuntos da cidade na assembleia. Mas a cidadania era restrita a homens adultos nascidos de pais atenienses. Ficavam de fora das decisões:",
+    "alternativas": [
+      { "letra": "A", "texto": "mulheres, escravizados e estrangeiros", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "os homens pobres", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "C", "texto": "os comerciantes", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "D", "texto": "os filósofos", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "E", "texto": "os filhos de pais atenienses", "correta": false, "etiqueta": "fil-inverteu-conceito" }
+    ],
+    "explicacao": "A democracia ateniense era direta, mas excludente: só homens adultos filhos de pais atenienses eram cidadãos, o que deixava a maioria da população de fora. Homens pobres podiam participar.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-politica-008", "materia": "filosofia", "assunto": "filosofia-politica", "questionario": 2, "dificuldade": 0,
+    "contexto": "Pacto ou direito divino?",
+    "enunciado": "Hobbes, Locke e Rousseau divergem em vários pontos, mas partilham a ideia de que o Estado e a sociedade política surgem de um pacto entre indivíduos. Essa ideia se opõe à teoria segundo a qual o poder dos reis:",
+    "alternativas": [
+      { "letra": "A", "texto": "deve ser limitado por leis", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "B", "texto": "vem da vontade geral", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "C", "texto": "depende de eleições", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "D", "texto": "é exercido por três poderes", "correta": false, "etiqueta": "fil-confundiu-filosofo" },
+      { "letra": "E", "texto": "tem origem divina e não depende do consentimento dos governados", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "O contratualismo afirma que a autoridade política se funda no consentimento dos indivíduos. Ela contraria a tese do direito divino dos reis, segundo a qual o poder vem de Deus e dispensa o consentimento do povo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-politica-009", "materia": "filosofia", "assunto": "filosofia-politica", "questionario": 2, "dificuldade": 0,
+    "contexto": "A frase famosa",
+    "enunciado": "Costuma-se atribuir a Maquiavel a frase 'os fins justificam os meios'. Na verdade, ela não aparece assim em O Príncipe, no qual o autor trata do que um governante precisa fazer para manter o Estado, avaliando a eficácia das ações e as circunstâncias. Isso mostra que:",
+    "alternativas": [
+      { "letra": "A", "texto": "Maquiavel defendia a crueldade gratuita", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "B", "texto": "a frase é um resumo popular que simplifica o pensamento do autor", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Maquiavel era contra qualquer forma de poder", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "D", "texto": "a frase é de Hobbes", "correta": false, "etiqueta": "fil-confundiu-filosofo" },
+      { "letra": "E", "texto": "Maquiavel negava a importância das leis", "correta": false, "etiqueta": "fil-simplificou-demais" }
+    ],
+    "explicacao": "A expressão resume de forma popular e distorcida a ideia do autor. Maquiavel discute virtù, fortuna e a necessidade de eficácia política, inclusive o valor das boas leis e das boas armas. Daí vem o adjetivo maquiavélico, que simplifica o pensamento dele.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-politica-010", "materia": "filosofia", "assunto": "filosofia-politica", "questionario": 2, "dificuldade": 1,
+    "contexto": "Formas de governo",
+    "enunciado": "Em Política, Aristóteles classificou os governos conforme o número de governantes e o interesse que buscam. O governo de um só pelo bem comum é monarquia, e pelo interesse próprio é tirania. O governo de muitos pelo bem comum é a politeia, e sua forma desviada seria a democracia, que governa em favor de uma parte. Assim, a diferença entre uma forma boa e sua degeneração está:",
+    "alternativas": [
+      { "letra": "A", "texto": "apenas no número de governantes", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "B", "texto": "na riqueza do governante", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "C", "texto": "na religião da cidade", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "D", "texto": "em quem governa visando ao bem comum ou apenas ao interesse próprio de uma parte", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "na duração do mandato", "correta": false, "etiqueta": "fil-confundiu-termo" }
+    ],
+    "explicacao": "Aristóteles usa dois critérios: quantos governam e para quem governam. A forma é boa quando visa ao bem comum e se degenera quando favorece só uma parte. Note que a palavra democracia, para ele, tinha o sentido de governo dos pobres em causa própria, diferente do nosso uso.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-politica-011", "materia": "filosofia", "assunto": "filosofia-politica", "questionario": 3, "dificuldade": -1,
+    "contexto": "Lei vale pra todo mundo",
+    "enunciado": "Um princípio do Estado de direito é que as leis valem para todos, inclusive para os governantes, que também devem obedecê-las. Qual situação viola esse princípio?",
+    "alternativas": [
+      { "letra": "A", "texto": "um juiz que se declara impedido de julgar um parente", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "B", "texto": "um cidadão que paga multa após desrespeitar a lei", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "C", "texto": "um parlamentar que vota conforme a lei", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "D", "texto": "um prefeito que presta contas dos gastos", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "E", "texto": "um governante que se coloca acima da lei e não responde por seus atos", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "No Estado de direito, ninguém está acima da lei. As demais situações mostram a lei sendo cumprida por pessoas comuns ou por autoridades.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-politica-012", "materia": "filosofia", "assunto": "filosofia-politica", "questionario": 3, "dificuldade": 0,
+    "contexto": "Por que obedecer?",
+    "enunciado": "Para Hobbes, as pessoas aceitam se submeter a um soberano forte principalmente por:",
+    "alternativas": [
+      { "letra": "A", "texto": "bondade natural dos seres humanos", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "B", "texto": "medo da morte violenta e desejo de segurança", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "amor pela monarquia como forma de governo", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "D", "texto": "um mandato divino dado ao rei", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "E", "texto": "interesse exclusivo em proteger propriedades", "correta": false, "etiqueta": "fil-confundiu-filosofo" }
+    ],
+    "explicacao": "Em Hobbes, o motor do pacto é o medo da morte violenta e o desejo de paz e segurança. A bondade natural é ideia mais ligada a Rousseau, e a proteção da propriedade é um tema central de Locke.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-politica-013", "materia": "filosofia", "assunto": "filosofia-politica", "questionario": 3, "dificuldade": 0,
+    "contexto": "Trabalho e propriedade",
+    "enunciado": "Locke defendeu que a propriedade nasce do trabalho: ao misturar seu trabalho a algo da natureza, a pessoa passa a ter direito sobre aquilo. Isso implica que:",
+    "alternativas": [
+      { "letra": "A", "texto": "toda propriedade é um roubo", "correta": false, "etiqueta": "fil-confundiu-filosofo" },
+      { "letra": "B", "texto": "a propriedade deve ser coletiva", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "C", "texto": "toda a terra pertence ao rei", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "D", "texto": "o trabalho é fonte do direito de propriedade, e o governo deve protegê-la", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "a propriedade dispensa qualquer proteção do Estado", "correta": false, "etiqueta": "fil-inverteu-conceito" }
+    ],
+    "explicacao": "Locke vê a propriedade como direito natural ligado ao trabalho, e um dos motivos para criar o governo é protegê-la. A frase 'propriedade é roubo' é de Proudhon, um anarquista.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-politica-014", "materia": "filosofia", "assunto": "filosofia-politica", "questionario": 3, "dificuldade": 1,
+    "contexto": "Livre só no dia do voto?",
+    "enunciado": "Rousseau escreveu que o povo inglês acredita ser livre, mas só o é durante a eleição dos membros do parlamento: depois disso, é escravo, não é nada. Essa crítica sugere que, para ele:",
+    "alternativas": [
+      { "letra": "A", "texto": "a democracia representativa é o melhor modelo possível", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "B", "texto": "o voto é desnecessário em qualquer sistema", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "C", "texto": "a soberania não pode ser plenamente representada, e o povo deveria participar diretamente das decisões que o afetam", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "o rei deve decidir tudo pelos cidadãos", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "E", "texto": "a liberdade vem do parlamento, e não do povo", "correta": false, "etiqueta": "fil-inverteu-conceito" }
+    ],
+    "explicacao": "Rousseau desconfiava da representação: para ele, a vontade geral não se transfere. Ele valorizava a participação direta do povo na elaboração das leis. A crítica ainda inspira debates sobre democracia participativa.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-politica-015", "materia": "filosofia", "assunto": "filosofia-politica", "questionario": 3, "dificuldade": 1,
+    "contexto": "O poder freia o poder",
+    "enunciado": "Texto de apoio (Montesquieu, O Espírito das Leis, adaptado): 'Todo homem que tem poder é levado a abusar dele; vai até onde encontra limites. Para que não se possa abusar do poder, é preciso que, pela disposição das coisas, o poder freie o poder.' Qual solução institucional o texto sugere?",
+    "alternativas": [
+      { "letra": "A", "texto": "dividir o poder em órgãos independentes que se limitem mutuamente", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "concentrar o poder em quem tem mais experiência", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "C", "texto": "confiar na boa índole dos governantes", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "D", "texto": "eliminar todas as leis", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "E", "texto": "entregar o poder a um soberano absoluto", "correta": false, "etiqueta": "fil-confundiu-filosofo" }
+    ],
+    "explicacao": "O texto diz que o poder tende ao abuso e que a saída é um arranjo em que um poder limite o outro. Esse é o princípio da separação dos poderes. Confiar na índole do governante é exatamente o que o autor considera insuficiente.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-politica-016", "materia": "filosofia", "assunto": "filosofia-politica", "questionario": 4, "dificuldade": -1,
+    "contexto": "Poder do povo",
+    "enunciado": "Em uma democracia, diz-se que a soberania é popular, ou seja, que o poder emana do povo, que o exerce por meio de representantes eleitos ou diretamente. Qual situação expressa a soberania popular?",
+    "alternativas": [
+      { "letra": "A", "texto": "um rei herda o trono de seu pai", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "B", "texto": "um general assume o governo pela força", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "C", "texto": "um conselho de sábios escolhe o governante", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "D", "texto": "os cidadãos escolhem seus governantes por eleições livres", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "uma empresa decide a política do país", "correta": false, "etiqueta": "fil-simplificou-demais" }
+    ],
+    "explicacao": "Soberania popular significa que a autoridade vem do povo, e eleições livres são uma forma de exercê-la. Herança, golpe ou decisão de grupos restritos não dependem da escolha dos cidadãos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-politica-017", "materia": "filosofia", "assunto": "filosofia-politica", "questionario": 4, "dificuldade": 0,
+    "contexto": "Liberalismo clássico",
+    "enunciado": "O liberalismo clássico, que se desenvolve a partir do século XVII, defende liberdades individuais, como as de expressão e de religião, a propriedade privada e a limitação do poder do Estado por leis. Qual afirmação é coerente com essa tradição?",
+    "alternativas": [
+      { "letra": "A", "texto": "o Estado deve controlar todas as atividades econômicas e a vida privada", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "B", "texto": "o poder político deve ser hereditário", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "C", "texto": "o governo deve respeitar direitos individuais e ter seu poder limitado por leis e constituição", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "o indivíduo deve se submeter totalmente à comunidade", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "E", "texto": "só o rei tem direito à liberdade", "correta": false, "etiqueta": "fil-inverteu-conceito" }
+    ],
+    "explicacao": "O liberalismo coloca o indivíduo e seus direitos como limite ao poder do Estado. A hereditariedade do poder e o controle total do Estado sobre a vida privada são posições opostas.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-politica-018", "materia": "filosofia", "assunto": "filosofia-politica", "questionario": 4, "dificuldade": 0,
+    "contexto": "Anarquismo de verdade",
+    "enunciado": "Pensadores anarquistas, como Proudhon e Bakunin, criticaram o Estado e a hierarquia e defenderam uma sociedade organizada de forma livre e cooperativa. No sentido filosófico, anarquismo significa:",
+    "alternativas": [
+      { "letra": "A", "texto": "caos e violência generalizada", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "B", "texto": "ausência de governo imposto, com organização livre e cooperação, e não bagunça sem regras", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "governo de uma pequena elite", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "D", "texto": "defesa de um Estado forte", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "E", "texto": "defesa do liberalismo clássico", "correta": false, "etiqueta": "fil-confundiu-corrente" }
+    ],
+    "explicacao": "No senso comum, anarquia virou sinônimo de bagunça. Na filosofia política, é a proposta de uma ordem sem Estado e sem hierarquia impostas, baseada em cooperação. Pode-se discordar da proposta, mas não confundi-la com caos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-politica-019", "materia": "filosofia", "assunto": "filosofia-politica", "questionario": 4, "dificuldade": 1,
+    "contexto": "Dizer não à lei injusta",
+    "enunciado": "Em 1849, Henry David Thoreau defendeu que uma pessoa pode recusar obedecer a leis que considera injustas. Mais tarde, líderes como Gandhi e Martin Luther King Jr. adotaram ações públicas e não violentas contra leis consideradas injustas, aceitando as consequências legais. Esse tipo de ação é chamado de:",
+    "alternativas": [
+      { "letra": "A", "texto": "desobediência civil", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "anarquia", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "C", "texto": "revolução armada", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "D", "texto": "obediência cega", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "E", "texto": "golpe de Estado", "correta": false, "etiqueta": "fil-confundiu-termo" }
+    ],
+    "explicacao": "A desobediência civil é pública, não violenta e aceita as consequências legais, para chamar a atenção para uma injustiça. Isso a diferencia de golpe ou de revolução armada.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-politica-020", "materia": "filosofia", "assunto": "filosofia-politica", "questionario": 4, "dificuldade": 1,
+    "contexto": "Véu da ignorância",
+    "enunciado": "Em Uma Teoria da Justiça (1971), John Rawls propõe imaginar que pessoas escolhem as regras da sociedade sem saber que posição ocuparão nela: se ricas ou pobres, homens ou mulheres, saudáveis ou doentes. Essa situação hipotética, chamada de véu da ignorância, busca:",
+    "alternativas": [
+      { "letra": "A", "texto": "provar que a ignorância é uma virtude", "correta": false, "etiqueta": "fil-leitura-literal" },
+      { "letra": "B", "texto": "justificar privilégios de nascimento", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "C", "texto": "defender que cada pessoa faça apenas o que quiser", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "D", "texto": "substituir as leis por sorteio", "correta": false, "etiqueta": "fil-leitura-literal" },
+      { "letra": "E", "texto": "chegar a regras justas, pois ninguém escolheria regras que prejudicassem as piores posições, já que poderia ocupá-las", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Se você não sabe qual lugar vai ocupar, tende a escolher regras justas para todos, inclusive para os mais vulneráveis. O véu da ignorância é uma ferramenta de raciocínio sobre justiça, e não um elogio à ignorância.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "id": "his-brasil-colonia-escravidao-001", "materia": "historia", "assunto": "brasil-colonia-escravidao", "questionario": 1, "dificuldade": -1,
+    "contexto": "Dividindo o mundo",
+    "enunciado": "Em 1494, Portugal e Espanha assinaram um tratado que dividia entre os dois reinos as terras descobertas e por descobrir fora da Europa, por meio de uma linha imaginária no Atlântico. Esse acordo ajuda a entender por que o território que viria a ser o Brasil ficou sob domínio português. Qual é o nome do tratado?",
+    "alternativas": [
+      { "letra": "A", "texto": "Tratado de Madri", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "B", "texto": "Tratado de Tordesilhas", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Tratado de Versalhes", "correta": false, "etiqueta": "his-anacronismo" },
+      { "letra": "D", "texto": "Tratado de Methuen", "correta": false, "etiqueta": "his-confundiu-conceito" },
+      { "letra": "E", "texto": "Tratado de Petrópolis", "correta": false, "etiqueta": "his-confundiu-lugar" }
+    ],
+    "explicacao": "O Tratado de Tordesilhas (1494) fixou uma linha a 370 léguas a oeste de Cabo Verde. A pegadinha é o Tratado de Madri (1750), que veio depois e ajustou essa divisão; Versalhes é do século XX e Methuen trata de comércio com a Inglaterra.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-colonia-escravidao-002", "materia": "historia", "assunto": "brasil-colonia-escravidao", "questionario": 1, "dificuldade": -1,
+    "contexto": "Terra repartida",
+    "enunciado": "Em 1534, o rei de Portugal dividiu o litoral do Brasil em grandes faixas de terra entregues a nobres e homens de confiança da Coroa, que ficavam responsáveis por povoar, defender e explorar a terra com recursos próprios. Esse sistema de ocupação é chamado de:",
+    "alternativas": [
+      { "letra": "A", "texto": "Governo-geral", "correta": false, "etiqueta": "his-causa-consequencia-invertida" },
+      { "letra": "B", "texto": "Sesmarias", "correta": false, "etiqueta": "his-confundiu-conceito" },
+      { "letra": "C", "texto": "Feitorias", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "D", "texto": "Capitanias hereditárias", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Bandeiras", "correta": false, "etiqueta": "his-confundiu-conceito" }
+    ],
+    "explicacao": "As capitanias hereditárias transferiam a nobres (donatários) a tarefa e o custo de colonizar. O governo-geral (1549) veio depois, justamente para centralizar a administração diante do fracasso de várias capitanias.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-colonia-escravidao-003", "materia": "historia", "assunto": "brasil-colonia-escravidao", "questionario": 1, "dificuldade": 0,
+    "contexto": "Açúcar para o mundo",
+    "enunciado": "No século XVI, a Coroa portuguesa incentivou a produção de açúcar no litoral nordestino. Ela se organizava em grandes propriedades, voltadas ao mercado europeu e baseadas no trabalho escravizado. Essa forma de organização econômica é conhecida como:",
+    "alternativas": [
+      { "letra": "A", "texto": "Plantation: monocultura em grande propriedade, para exportação e com trabalho escravizado", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Economia de subsistência, com pequenos sítios familiares e trabalho livre", "correta": false, "etiqueta": "his-confundiu-conceito" },
+      { "letra": "C", "texto": "Manufatura urbana, com operários assalariados em fábricas", "correta": false, "etiqueta": "his-anacronismo" },
+      { "letra": "D", "texto": "Economia mineradora, baseada na extração de ouro em lavras", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "E", "texto": "Pecuária extensiva, voltada ao abastecimento do mercado interno", "correta": false, "etiqueta": "his-generalizou" }
+    ],
+    "explicacao": "O engenho açucareiro era o centro da plantation colonial: terra concentrada, produto único, venda ao exterior e mão de obra escravizada. A mineração é do século XVIII e a fábrica com assalariados é uma realidade industrial, bem posterior.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-colonia-escravidao-004", "materia": "historia", "assunto": "brasil-colonia-escravidao", "questionario": 1, "dificuldade": 0,
+    "contexto": "Cruz e colonização",
+    "enunciado": "Os jesuítas chegaram ao Brasil em 1549, junto com o primeiro governador-geral. Além de ensinar a fé católica, organizavam aldeamentos de indígenas. Do ponto de vista da Coroa, uma consequência importante dessa atuação foi:",
+    "alternativas": [
+      { "letra": "A", "texto": "preservar integralmente a cultura indígena, sem qualquer interferência", "correta": false, "etiqueta": "his-mito-popular" },
+      { "letra": "B", "texto": "proibir qualquer trabalho indígena durante todo o período colonial", "correta": false, "etiqueta": "his-generalizou" },
+      { "letra": "C", "texto": "dar fim à escravidão no Brasil colonial", "correta": false, "etiqueta": "his-anacronismo" },
+      { "letra": "D", "texto": "substituir o trabalho africano pelo indígena nos engenhos", "correta": false, "etiqueta": "his-causa-consequencia-invertida" },
+      { "letra": "E", "texto": "facilitar a ocupação do território e o controle de povos indígenas, impondo mudanças profundas em seus modos de vida", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Os aldeamentos ajudavam a Coroa a ocupar e controlar o território e a organizar mão de obra, ao custo de grandes transformações culturais. A tendência histórica foi inversa à da alternativa D: o trabalho africano passou a predominar.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-colonia-escravidao-005", "materia": "historia", "assunto": "brasil-colonia-escravidao", "questionario": 1, "dificuldade": 1,
+    "contexto": "Fronteira redesenhada",
+    "enunciado": "Em 1750, Portugal e Espanha assinaram um tratado que substituiu a linha de Tordesilhas por um princípio segundo o qual cada reino ficaria com as terras que efetivamente ocupava. Esse princípio, que favoreceu Portugal na América, chama-se:",
+    "alternativas": [
+      { "letra": "A", "texto": "Mare clausum, pelo qual o mar pertence a quem o descobriu", "correta": false, "etiqueta": "his-confundiu-conceito" },
+      { "letra": "B", "texto": "Direito de conquista, pelo qual a terra é de quem expulsa o outro", "correta": false, "etiqueta": "his-leitura-superficial" },
+      { "letra": "C", "texto": "Uti possidetis, ligado ao Tratado de Madri", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Pacto colonial, que obrigava a colônia a vender só à metrópole", "correta": false, "etiqueta": "his-confundiu-conceito" },
+      { "letra": "E", "texto": "Tordesilhas, que reafirmou a linha de 1494", "correta": false, "etiqueta": "his-confundiu-periodo" }
+    ],
+    "explicacao": "Uti possidetis significa, mais ou menos, quem possui de fato, fica com a terra. Com o avanço de bandeirantes e colonos além da linha de 1494, o Tratado de Madri reconheceu essa ocupação real. O pacto colonial trata de comércio, não de fronteiras.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-colonia-escravidao-006", "materia": "historia", "assunto": "brasil-colonia-escravidao", "questionario": 2, "dificuldade": -1,
+    "contexto": "Quem manda na colônia",
+    "enunciado": "Para centralizar a administração da colônia e enfrentar os problemas das capitanias, a Coroa criou em 1549 um cargo de autoridade máxima no Brasil, cujo primeiro ocupante foi Tomé de Souza. Esse cargo era o de:",
+    "alternativas": [
+      { "letra": "A", "texto": "vice-rei, com sede em Lisboa", "correta": false, "etiqueta": "his-confundiu-lugar" },
+      { "letra": "B", "texto": "donatário, com poder hereditário sobre uma capitania", "correta": false, "etiqueta": "his-confundiu-personagem" },
+      { "letra": "C", "texto": "governador-geral, com sede em Salvador, representando o rei", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "bandeirante, chefe de expedição ao sertão", "correta": false, "etiqueta": "his-confundiu-personagem" },
+      { "letra": "E", "texto": "presidente de província, nomeado pelo imperador", "correta": false, "etiqueta": "his-anacronismo" }
+    ],
+    "explicacao": "O governo-geral foi instalado em Salvador, em 1549, para centralizar o poder da Coroa sem acabar com as capitanias. Presidente de província é cargo do Império, bem depois.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-colonia-escravidao-007", "materia": "historia", "assunto": "brasil-colonia-escravidao", "questionario": 2, "dificuldade": -1,
+    "contexto": "Serra da Barriga",
+    "enunciado": "Formado por pessoas que fugiram da escravidão nos engenhos de Pernambuco, o Quilombo dos Palmares reuniu milhares de moradores na Serra da Barriga, na atual Alagoas, e resistiu por quase todo o século XVII. Um dos seus líderes mais conhecidos foi:",
+    "alternativas": [
+      { "letra": "A", "texto": "Zumbi", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Tiradentes", "correta": false, "etiqueta": "his-confundiu-personagem" },
+      { "letra": "C", "texto": "Barão de Mauá", "correta": false, "etiqueta": "his-anacronismo" },
+      { "letra": "D", "texto": "Domingos Jorge Velho", "correta": false, "etiqueta": "his-confundiu-personagem" },
+      { "letra": "E", "texto": "Maurício de Nassau", "correta": false, "etiqueta": "his-confundiu-periodo" }
+    ],
+    "explicacao": "Zumbi foi uma das lideranças de Palmares e morreu em 1695. Domingos Jorge Velho era o bandeirante contratado para destruir o quilombo, isto é, do outro lado da história.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-colonia-escravidao-008", "materia": "historia", "assunto": "brasil-colonia-escravidao", "questionario": 2, "dificuldade": 0,
+    "contexto": "Sertão adentro",
+    "enunciado": "Partindo sobretudo de São Paulo a partir do século XVII, as bandeiras avançaram sertão adentro. Entre seus objetivos estavam o apresamento de indígenas e a busca de metais preciosos. Um efeito duradouro dessas expedições foi:",
+    "alternativas": [
+      { "letra": "A", "texto": "a fundação de colônias baseadas em trabalho assalariado", "correta": false, "etiqueta": "his-anacronismo" },
+      { "letra": "B", "texto": "o fim do tráfico de africanos para o Brasil", "correta": false, "etiqueta": "his-causa-consequencia-invertida" },
+      { "letra": "C", "texto": "o respeito às fronteiras de Tordesilhas, mantidas intactas", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "D", "texto": "a substituição da economia açucareira pela industrial", "correta": false, "etiqueta": "his-anacronismo" },
+      { "letra": "E", "texto": "a expansão da ocupação para além da linha de Tordesilhas, com violência contra povos indígenas", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "As bandeiras ultrapassaram a linha de 1494 e ajudaram a formar o território que Portugal depois defendeu, ao custo da escravização e do extermínio de muitos indígenas. Elas não acabaram com o tráfico africano, que seguiu forte.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-colonia-escravidao-009", "materia": "historia", "assunto": "brasil-colonia-escravidao", "questionario": 2, "dificuldade": 0,
+    "contexto": "O quinto do ouro",
+    "enunciado": "No auge da mineração em Minas Gerais, no século XVIII, a Coroa portuguesa cobrava o chamado quinto sobre o ouro extraído. Quando a arrecadação ficava abaixo da meta anual, podia decretar a derrama, cobrança forçada dos atrasados. O quinto correspondia a:",
+    "alternativas": [
+      { "letra": "A", "texto": "50% do ouro, dividido entre a Coroa e a Igreja", "correta": false, "etiqueta": "his-confundiu-conceito" },
+      { "letra": "B", "texto": "20% do ouro extraído, devidos à Coroa", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "5% do ouro, porque quinto lembra o número cinco", "correta": false, "etiqueta": "his-leitura-superficial" },
+      { "letra": "D", "texto": "10% do ouro, como o dízimo da Igreja", "correta": false, "etiqueta": "his-confundiu-conceito" },
+      { "letra": "E", "texto": "um imposto pago apenas por quem tinha escravizados", "correta": false, "etiqueta": "his-generalizou" }
+    ],
+    "explicacao": "Quinto quer dizer a quinta parte, ou seja, 20%. O dízimo era outro tributo, ligado à Igreja, de 10%. A derrama foi um dos estopins da Inconfidência Mineira.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-colonia-escravidao-010", "materia": "historia", "assunto": "brasil-colonia-escravidao", "questionario": 2, "dificuldade": 1,
+    "contexto": "Voz do engenho",
+    "enunciado": "O jesuíta André João Antonil escreveu, em 1711, sobre os engenhos do Brasil: 'Os escravos são as mãos e os pés do senhor do engenho, porque sem eles no Brasil não é possível fazer, conservar e aumentar fazenda' (Cultura e opulência do Brasil, adaptado). Esse trecho revela que, na visão do autor:",
+    "alternativas": [
+      { "letra": "A", "texto": "a abolição imediata da escravidão era necessária", "correta": false, "etiqueta": "his-anacronismo" },
+      { "letra": "B", "texto": "os escravizados eram tratados como sócios do engenho", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "C", "texto": "o trabalho livre e assalariado era a base da produção", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "D", "texto": "a economia colonial dependia do trabalho escravizado, descrito do ponto de vista do senhor", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "a Coroa criticava o uso de escravizados nos engenhos", "correta": false, "etiqueta": "his-extrapolou-fonte" }
+    ],
+    "explicacao": "A metáfora das mãos e dos pés mostra que, sem o trabalho escravizado, o engenho não funcionava. O texto fala pelo olhar do senhor e não propõe abolição nem cita a posição da Coroa.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-colonia-escravidao-011", "materia": "historia", "assunto": "brasil-colonia-escravidao", "questionario": 3, "dificuldade": -1,
+    "contexto": "Levante em Vila Rica",
+    "enunciado": "Em 1789, em Vila Rica, um grupo de intelectuais, militares e proprietários planejava um levante contra o domínio português, motivado pelo peso dos impostos e pela ameaça da derrama. O movimento foi descoberto e Tiradentes foi executado em 1792. Trata-se da:",
+    "alternativas": [
+      { "letra": "A", "texto": "Conjuração Baiana", "correta": false, "etiqueta": "his-confundiu-lugar" },
+      { "letra": "B", "texto": "Revolução Farroupilha", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "C", "texto": "Guerra dos Emboabas", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "D", "texto": "Revolta de Beckman", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "E", "texto": "Inconfidência Mineira", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Vila Rica, derrama e Tiradentes indicam a Inconfidência Mineira. A Conjuração Baiana é de 1798 e a Farroupilha, de 1835.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-colonia-escravidao-012", "materia": "historia", "assunto": "brasil-colonia-escravidao", "questionario": 3, "dificuldade": 0,
+    "contexto": "Holandeses no Nordeste",
+    "enunciado": "Entre 1630 e 1654, a Companhia das Índias Ocidentais manteve domínio sobre parte do Nordeste açucareiro. O governo de Maurício de Nassau (1637-1644) ficou conhecido por obras no Recife e por relativa tolerância religiosa. O principal interesse holandês na região era:",
+    "alternativas": [
+      { "letra": "A", "texto": "buscar ouro e diamantes em Minas Gerais", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "B", "texto": "controlar a produção e o comércio do açúcar, que já refinavam e vendiam na Europa", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "converter os indígenas ao protestantismo, como objetivo único", "correta": false, "etiqueta": "his-causa-unica" },
+      { "letra": "D", "texto": "ocupar a região do Rio da Prata", "correta": false, "etiqueta": "his-confundiu-lugar" },
+      { "letra": "E", "texto": "libertar os escravizados dos engenhos", "correta": false, "etiqueta": "his-anacronismo" }
+    ],
+    "explicacao": "O interesse era econômico: o açúcar era altamente lucrativo e os holandeses já atuavam no refino e na distribuição. A mineração em Minas só decolou no fim do século XVII, e os holandeses mantiveram a escravidão africana.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-colonia-escravidao-013", "materia": "historia", "assunto": "brasil-colonia-escravidao", "questionario": 3, "dificuldade": 0,
+    "contexto": "Corrida do ouro",
+    "enunciado": "No início do século XVIII, o ouro de Minas atraiu gente de várias regiões. A Guerra dos Emboabas (1707-1709) opôs paulistas, que se consideravam descobridores das minas, a forasteiros portugueses e de outras partes da colônia. A principal disputa era:",
+    "alternativas": [
+      { "letra": "A", "texto": "a posse das terras de engenho em Pernambuco", "correta": false, "etiqueta": "his-confundiu-lugar" },
+      { "letra": "B", "texto": "a libertação de indígenas escravizados", "correta": false, "etiqueta": "his-confundiu-conceito" },
+      { "letra": "C", "texto": "a independência da colônia em relação a Portugal", "correta": false, "etiqueta": "his-anacronismo" },
+      { "letra": "D", "texto": "o controle das jazidas e do comércio de abastecimento das minas", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "apenas a cobrança do quinto pela Coroa", "correta": false, "etiqueta": "his-causa-unica" }
+    ],
+    "explicacao": "Era uma disputa local por riqueza e poder nas minas, não contra a metrópole. Por isso difere da Inconfidência Mineira, que mirava o domínio português.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-colonia-escravidao-014", "materia": "historia", "assunto": "brasil-colonia-escravidao", "questionario": 3, "dificuldade": 1,
+    "contexto": "Alfaiates na Bahia",
+    "enunciado": "A Conjuração Baiana (1798) teve forte presença de artesãos, soldados, libertos e escravizados, e circulavam papéis pedindo igualdade, fim da escravidão e liberdade de comércio. Em comparação com a Inconfidência Mineira, o movimento baiano se destaca por:",
+    "alternativas": [
+      { "letra": "A", "texto": "ter sido liderado por grandes donos de minas", "correta": false, "etiqueta": "his-confundiu-personagem" },
+      { "letra": "B", "texto": "defender a manutenção da escravidão", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "C", "texto": "ter composição social mais popular e propostas de igualdade social e racial", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "ter vencido e instalado uma república", "correta": false, "etiqueta": "his-causa-consequencia-invertida" },
+      { "letra": "E", "texto": "ter ocorrido no mesmo ano, em 1789", "correta": false, "etiqueta": "his-confundiu-periodo" }
+    ],
+    "explicacao": "A Conjuração Baiana, também chamada Revolta dos Alfaiates, tinha base popular e pautas bem mais radicais. Ela foi reprimida, e os principais condenados foram homens pobres e de origem humilde.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-colonia-escravidao-015", "materia": "historia", "assunto": "brasil-colonia-escravidao", "questionario": 3, "dificuldade": 1,
+    "contexto": "Reformas de Pombal",
+    "enunciado": "Na segunda metade do século XVIII, o ministro Marquês de Pombal promoveu reformas em Portugal e nas colônias, como a expulsão dos jesuítas (1759) e a criação de companhias de comércio. Um dos objetivos dessas medidas era:",
+    "alternativas": [
+      { "letra": "A", "texto": "fortalecer o controle do Estado sobre a colônia e sua economia", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "reduzir a presença portuguesa e dar mais autonomia ao Brasil", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "C", "texto": "ampliar o poder da Igreja sobre a educação", "correta": false, "etiqueta": "his-causa-consequencia-invertida" },
+      { "letra": "D", "texto": "preparar a independência do Brasil", "correta": false, "etiqueta": "his-anacronismo" },
+      { "letra": "E", "texto": "abolir o pacto colonial", "correta": false, "etiqueta": "his-confundiu-conceito" }
+    ],
+    "explicacao": "Pombal queria fortalecer o Estado e a economia portuguesa, o que significava mais controle sobre a colônia e menos poder para os jesuítas. As medidas não visavam à independência.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-colonia-escravidao-016", "materia": "historia", "assunto": "brasil-colonia-escravidao", "questionario": 4, "dificuldade": -1,
+    "contexto": "Resistir de mil jeitos",
+    "enunciado": "A resistência de pessoas escravizadas não se resumia a formar quilombos. Eram comuns também a fuga individual, a sabotagem do trabalho, a negociação de folgas e a compra da alforria. Esse conjunto de práticas mostra que os africanos e seus descendentes:",
+    "alternativas": [
+      { "letra": "A", "texto": "aceitavam passivamente a escravidão", "correta": false, "etiqueta": "his-ignorou-protagonismo" },
+      { "letra": "B", "texto": "só reagiam quando recebiam ajuda de fora", "correta": false, "etiqueta": "his-ignorou-protagonismo" },
+      { "letra": "C", "texto": "viviam isolados, sem contato com a sociedade colonial", "correta": false, "etiqueta": "his-mito-popular" },
+      { "letra": "D", "texto": "agiram como sujeitos históricos e criaram estratégias variadas de resistência", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "lutavam sempre e somente com armas", "correta": false, "etiqueta": "his-generalizou" }
+    ],
+    "explicacao": "A resistência tinha formas violentas e cotidianas, individuais e coletivas. Ela mostra que os escravizados foram agentes da própria história, e não espectadores.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-colonia-escravidao-017", "materia": "historia", "assunto": "brasil-colonia-escravidao", "questionario": 4, "dificuldade": 0,
+    "contexto": "Irmandades do Rosário",
+    "enunciado": "No Brasil colonial, africanos e seus descendentes fundaram irmandades religiosas, como as de Nossa Senhora do Rosário, que organizavam festas, ajudavam em funerais e, às vezes, reuniam recursos para comprar a liberdade de irmãos. Essas associações mostram:",
+    "alternativas": [
+      { "letra": "A", "texto": "a ausência de preconceito racial na sociedade colonial", "correta": false, "etiqueta": "his-mito-popular" },
+      { "letra": "B", "texto": "o fim da escravidão nas cidades", "correta": false, "etiqueta": "his-generalizou" },
+      { "letra": "C", "texto": "espaços de solidariedade e identidade criados por pessoas escravizadas e libertas dentro da sociedade colonial", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "o controle total da Igreja, sem nenhuma margem de ação para os negros", "correta": false, "etiqueta": "his-ignorou-protagonismo" },
+      { "letra": "E", "texto": "uma imposição da Coroa para reduzir o tráfico", "correta": false, "etiqueta": "his-causa-consequencia-invertida" }
+    ],
+    "explicacao": "As irmandades foram iniciativa de pessoas negras, escravizadas ou libertas, que criaram redes de apoio e preservaram laços culturais. Elas existiam justamente numa sociedade marcada pelo preconceito e pela escravidão.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-colonia-escravidao-018", "materia": "historia", "assunto": "brasil-colonia-escravidao", "questionario": 4, "dificuldade": 0,
+    "contexto": "Negócio do tráfico",
+    "enunciado": "Entre os séculos XVI e XIX, o Brasil recebeu mais africanos escravizados do que qualquer outro território das Américas. O tráfico atlântico era um negócio muito lucrativo para comerciantes e para a Coroa. Isso ajuda a explicar por que a escravidão africana se consolidou no Brasil:",
+    "alternativas": [
+      { "letra": "A", "texto": "porque os africanos aceitavam o trabalho forçado por tradição", "correta": false, "etiqueta": "his-mito-popular" },
+      { "letra": "B", "texto": "porque a compra e venda de pessoas gerava grandes lucros e abastecia a colônia de mão de obra", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "porque todos os indígenas já tinham sido exterminados no século XVI", "correta": false, "etiqueta": "his-generalizou" },
+      { "letra": "D", "texto": "porque não havia interesse comercial, apenas necessidade de mão de obra", "correta": false, "etiqueta": "his-causa-unica" },
+      { "letra": "E", "texto": "porque a Igreja determinou que só africanos poderiam ser escravizados", "correta": false, "etiqueta": "his-leitura-superficial" }
+    ],
+    "explicacao": "O tráfico era um grande negócio, e a mão de obra escravizada sustentava engenhos e minas. Explicar a escravidão por supostas características dos africanos é um mito sem base histórica.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-colonia-escravidao-019", "materia": "historia", "assunto": "brasil-colonia-escravidao", "questionario": 4, "dificuldade": 1,
+    "contexto": "Revolta no Maranhão",
+    "enunciado": "Em 1684, no Maranhão, colonos e comerciantes se revoltaram contra o monopólio de uma companhia de comércio e contra a atuação dos jesuítas na administração de indígenas, sob liderança dos irmãos Manuel e Tomás Beckman. A revolta mostra que:",
+    "alternativas": [
+      { "letra": "A", "texto": "colonos também entravam em conflito com a Coroa quando seus interesses econômicos eram afetados", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "o Maranhão queria se tornar uma república independente", "correta": false, "etiqueta": "his-anacronismo" },
+      { "letra": "C", "texto": "os jesuítas apoiaram a revolta", "correta": false, "etiqueta": "his-confundiu-personagem" },
+      { "letra": "D", "texto": "a Coroa permitia livre comércio na região", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "E", "texto": "a revolta era contra o tráfico de africanos", "correta": false, "etiqueta": "his-causa-consequencia-invertida" }
+    ],
+    "explicacao": "A revolta de Beckman nasceu de disputas por comércio e por mão de obra indígena. Era conflito de interesses dentro da colônia, não um projeto de independência, e os jesuítas eram alvo dos revoltosos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-colonia-escravidao-020", "materia": "historia", "assunto": "brasil-colonia-escravidao", "questionario": 4, "dificuldade": 1,
+    "contexto": "Luanda e os engenhos",
+    "enunciado": "Em 1648, uma expedição saída do Rio de Janeiro, comandada por Salvador Correia de Sá, retomou Luanda dos holandeses. A rápida reação luso-brasileira indica que, para a economia colonial, Angola era importante principalmente como:",
+    "alternativas": [
+      { "letra": "A", "texto": "fonte de ouro para a colônia", "correta": false, "etiqueta": "his-confundiu-lugar" },
+      { "letra": "B", "texto": "sede do governo-geral do Brasil", "correta": false, "etiqueta": "his-confundiu-lugar" },
+      { "letra": "C", "texto": "território espanhol a ser conquistado", "correta": false, "etiqueta": "his-confundiu-conceito" },
+      { "letra": "D", "texto": "aliada dos holandeses na defesa do açúcar", "correta": false, "etiqueta": "his-causa-consequencia-invertida" },
+      { "letra": "E", "texto": "fonte de africanos escravizados para o trabalho nos engenhos", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Os holandeses tomaram Luanda em 1641, cortando o fluxo de africanos escravizados para os engenhos. Reconquistá-la foi uma forma de garantir a mão de obra e mostra a ligação direta entre Brasil e Angola no tráfico.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]

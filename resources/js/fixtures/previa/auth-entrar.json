@@ -1,0 +1,7 @@
+{
+    "component": "auth/Entrar",
+    "props": {
+        "status": null
+    },
+    "anonimo": true
+}

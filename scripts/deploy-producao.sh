@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # Deploy de produção, rodado NO servidor (45.178.177.3) pelo workflow deploy.yml ou à mão.
 # Uso: scripts/deploy-producao.sh [ref]   (padrão: origin/main)
-# Fluxo: atualizar código -> build (tag = sha) -> migrar com a imagem NOVA -> só então virar o `current`.
-# Se o build ou a migration falharem, o que está no ar continua intacto.
+# Fluxo: atualizar código -> build (tag = sha) -> pg_dump -> migrar e importar conteúdo com a imagem NOVA -> só então virar o `current`.
+# Se o build, a migration ou a importação falharem, o que está no ar continua intacto.
 set -euo pipefail
 
 APP_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
@@ -10,6 +10,8 @@ REF="${1:-origin/main}"
 SERVICES=(app gabaritu-web)
 IMAGES=(gabaritu-app gabaritu-web)
 KEEP_SHA_IMAGES=3
+PREDEPLOY_BACKUP_DIR="${PREDEPLOY_BACKUP_DIR:-$HOME/backups/gabaritu-predeploy}"
+KEEP_PREDEPLOY_DUMPS=5
 
 compose() { "$APP_DIR/scripts/producao-compose.sh" "$@"; }
 log() { echo "[deploy-producao] $*"; }
@@ -21,6 +23,17 @@ update_code() {
   git fetch --prune origin
   git reset --hard "$REF"
   log "código em $(git rev-parse --short=12 HEAD)"
+}
+
+# Dump antes do migrate, feito pelo usuário de deploy (o backup diário em /data é só do root).
+backup_before_migrate() {
+  install -d -m 700 "$PREDEPLOY_BACKUP_DIR"
+  local target; target="$PREDEPLOY_BACKUP_DIR/$(date +%Y%m%d-%H%M%S)-$sha.dump"
+  compose exec -T db sh -c 'pg_dump -U "$POSTGRES_USER" -d "$POSTGRES_DB" -Fc' > "$target.partial"
+  [[ -s "$target.partial" ]] || { log "dump vazio, abortando"; rm -f "$target.partial"; exit 1; }
+  mv "$target.partial" "$target"
+  ls -1t "$PREDEPLOY_BACKUP_DIR"/*.dump | tail -n +$((KEEP_PREDEPLOY_DUMPS + 1)) | xargs -r rm -f
+  log "backup: $target"
 }
 
 tag_all() { # $1 origem, $2 destino
@@ -48,8 +61,14 @@ main() {
   compose build
   compose up -d --wait db
 
+  log "backup do banco antes do migrate"
+  backup_before_migrate
+
   log "migrate com a imagem nova"
   compose run --rm -T --no-deps app php artisan migrate --force
+
+  log "importar conteúdo com a imagem nova (idempotente)"
+  compose run --rm -T --no-deps app php artisan gabaritu:importar-conteudo
 
   keep_previous
   tag_all "$sha" current

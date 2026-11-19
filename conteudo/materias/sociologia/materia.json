@@ -1,0 +1,12 @@
+{
+  "slug": "sociologia",
+  "nome": "Sociologia",
+  "area": "Ciências Humanas e suas Tecnologias",
+  "assuntos": [
+    { "slug": "cultura-e-diversidade", "nome": "Cultura, diversidade e identidade", "ordem": 1, "por_que": "Etnocentrismo, relativismo, indústria cultural e diversidade são o tema mais frequente da Sociologia no ENEM." },
+    { "slug": "classicos-da-sociologia", "nome": "Durkheim, Marx e Weber", "ordem": 2, "por_que": "Os conceitos dos clássicos (fato social, mais-valia, ação social) são cobrados em situações do cotidiano." },
+    { "slug": "desigualdade-e-estratificacao", "nome": "Desigualdade e estratificação social", "ordem": 3, "por_que": "Classe, raça, gênero e mobilidade social aparecem em textos e gráficos o tempo todo." },
+    { "slug": "trabalho-e-capitalismo", "nome": "Trabalho e transformações do capitalismo", "ordem": 4, "por_que": "Fordismo, toyotismo, flexibilização e plataformas digitais são cobrados com situações atuais." },
+    { "slug": "cidadania-e-movimentos-sociais", "nome": "Cidadania, direitos e movimentos sociais", "ordem": 5, "por_que": "Direitos, participação política e movimentos sociais conectam a Sociologia com a Constituição e a atualidade." }
+  ]
+}

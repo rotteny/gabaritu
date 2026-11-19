@@ -1,0 +1,352 @@
+[
+  {
+    "etiqueta": "por-leitura-superficial",
+    "fofo": [
+      "O texto piscou pra você e você achou que era cisco. Era uma dica! Olha de novo, com carinho.",
+      "Você nadou só na superfície do texto. Eu entendo, é onde cai a ração. Mas a resposta tava lá no fundo.",
+      "Você leu o cardápio e achou que já jantou. Falta provar o prato, que é a entrelinha.",
+      "Quase! O texto deixou um bilhete escondido debaixo da frase. Levanta ela com jeitinho que ele tá lá.",
+      "Você leu tudo certinho, palavra por palavra. Agora falta a parte divertida: fofocar sobre o que o autor quis dizer."
+    ],
+    "sarc": [
+      "Você leu o texto como a gente lê os termos de uso: rolou até o fim e clicou em aceitar.",
+      "Que leitura econômica. Pegou só o que estava escrito e deixou o resto pro próximo aluno.",
+      "Você leu o texto do jeito que o Valdir assiste à aula: presente, quietinho e sem processar nada.",
+      "Entrelinha? Imagina. Autor nenhum esconde sentido. O Machado de Assis, por exemplo, era super direto.",
+      "Que olhar prático: viu a caixa do presente e já agradeceu pelo papel de embrulho."
+    ],
+    "sem": [
+      "TINHA UM SEGUNDO ANDAR NESSE TEXTO!",
+      "Eu moro num aquário de 40 cm e sou mais profundo que essa leitura! Eu. Um peixe de decoração!",
+      "O autor escondeu um sentido com tanto capricho e você nem procurou! Ele tá esperando atrás da vírgula até agora!",
+      "URGENTE: entrelinha é encontrada sozinha no parágrafo 2, sem leitor há horas. Família pede notícias.",
+      "Leitura rasa assim só vi no pires do café do professor! E o pires pelo menos segura alguma coisa!"
+    ],
+    "reserva": "O texto tinha um porão e você só visitou a sala. A resposta estava lá embaixo, entre as linhas."
+  },
+  {
+    "etiqueta": "por-extrapolacao",
+    "fofo": [
+      "O texto disse 'choveu' e você já tava montando a arca. Que imaginação! Só segura ela um pouquinho.",
+      "Você deu ao texto um final que nem o autor conhecia. Fofo! Mas a prova só quer o que já tá escrito.",
+      "Sua resposta lembra eu contando do dia em que 'vi um tubarão'. Era o Valdir de lado. Fica no que o texto mostrou!",
+      "Você fez igual o Bentinho: viu um detalhe e montou um romance inteiro. Volta pro que tá escrito, vai.",
+      "Que criatividade bonita! Guarda ela pra redação, que lá ela é bem-vinda. Aqui o texto pediu só os fatos dele."
+    ],
+    "sarc": [
+      "Bonita teoria. Em qual linha ela mora? Procurei com as duas nadadeiras e achei só o ponto final.",
+      "Claro, o texto falou de uma árvore, então obviamente defende o reflorestamento do planeta inteiro.",
+      "Adoro resposta com informação exclusiva. Nem o autor sabia disso. Ele vai ler e se surpreender.",
+      "Ah, sim, tá implícito. Bem implícito. Tão implícito que não aparece.",
+      "Você não interpretou o texto, você lançou a temporada 2 dele. Sem o roteirista autorizar, mas tudo bem."
+    ],
+    "sem": [
+      "VOCÊ INVENTOU UM PERSONAGEM QUE NÃO TÁ NO TEXTO!",
+      "O texto disse uma frase e você respondeu um livro! Com prefácio. E agradecimentos!",
+      "Eu inchei. Inchei de verdade. Essa resposta tá tão longe do texto que precisa de passaporte!",
+      "Lore não oficial! O autor não assinou essa fanfic e o advogado dele é um parágrafo muito bravo!",
+      "Ninguém: ... Você: 'o texto claramente quer dizer' uma coisa que ele nunca disse!"
+    ],
+    "reserva": "Sua resposta foi mais longe que o texto. Ele ficou acenando lá atrás, sozinho."
+  },
+  {
+    "etiqueta": "por-reducao",
+    "fofo": [
+      "Você pegou uma fatia e achou que era a pizza inteira. A fatia é ótima, mas a questão pediu a pizza.",
+      "Escolheu o parágrafo preferido e ignorou os irmãos dele. Os outros parágrafos ficaram com ciúme!",
+      "Eu sou assim com o aquário: acho que o mundo é a minha pedrinha. Mas o texto é maior, juro.",
+      "Quase! Você viu uma peça do quebra-cabeça e já pendurou na parede. Faltam as outras 99.",
+      "Leu um capítulo e resumiu a novela. Adorei a confiança. Só falta o resto da temporada."
+    ],
+    "sarc": [
+      "Isso, a ideia central de Os Lusíadas é que tinha um navio. Resumo impecável.",
+      "Resumir o texto por uma frase é corajoso. É tipo descrever o oceano como 'molhado'. Não tá errado...",
+      "Você é do tipo que conta o filme só pela cena pós-créditos, né? Muito eficiente.",
+      "Parabéns: achou a ideia central do segundo parágrafo. O texto tem cinco, mas agradece a atenção parcial.",
+      "Que fidelidade admirável. O texto inteiro acenando e você firme numa frase só, como quem só come a borda."
+    ],
+    "sem": [
+      "VOCÊ RESUMIU A FLORESTA NUMA FOLHA!",
+      "O texto tem começo, meio e fim, e você escolheu... Uma vírgula do meio! Eu tô inchando!",
+      "Isso é dizer que o aquário é só o filtro! O filtro. Aquele que não me deixa dormir!",
+      "Plot twist: o texto tinha mais parágrafos! Um choque pra todos nós, mas principalmente pra você!",
+      "Você transformou um texto inteiro num trailer de 3 segundos! E ainda com o spoiler errado!"
+    ],
+    "reserva": "Você escolheu um pedaço e coroou como rei. O resto do texto pediu recontagem dos votos."
+  },
+  {
+    "etiqueta": "por-contradicao-texto",
+    "fofo": [
+      "O texto disse 'sim' e você ouviu 'não'. Acontece! Eu também confundo o barulho do filtro com aplauso.",
+      "Você foi pro lado oposto com tanta convicção que quase convenceu o autor. Quase! Volta aqui.",
+      "Sua resposta e o texto marcaram encontro em lados opostos da rua. Atravessa, que eles se dão bem.",
+      "Quase! Só trocou o 'a favor' pelo 'contra'. Detalhe pequeno, tipo trocar o norte pelo sul.",
+      "Seu GPS de leitura virou ao contrário. Recalculando rota... com carinho, sem pressa."
+    ],
+    "sarc": [
+      "O autor passou o texto inteiro defendendo uma ideia e você concluiu que ele é contra. Ele vai adorar saber.",
+      "Ótima leitura. Se o texto fosse um espelho.",
+      "Você achou a tese, sim. Só virou ela de cabeça pra baixo, que é como os morcegos leem.",
+      "Que ousadia discordar do texto justo na pergunta sobre o que o texto diz. Admiro, de longe.",
+      "Claro. E O Pequeno Príncipe é um manual contra cuidar de rosas."
+    ],
+    "sem": [
+      "O TEXTO DISSE 'QUENTE' E VOCÊ MARCOU 'GELADO' SEM PISCAR!",
+      "Sua resposta discorda do texto! O texto tá ofendido. Ele pediu pra falar com o gerente!",
+      "Você nadou contra a correnteza do texto! E nem é salmão pra ter desculpa!",
+      "Se o texto fosse um semáforo, você acelerou no vermelho e parou no verde!",
+      "Eu investi em você! E você pegou a ideia do autor e virou do avesso, igual meia na máquina!"
+    ],
+    "reserva": "O texto foi pra um lado e a resposta foi pro outro. Os dois acenaram, mas não se encontraram."
+  },
+  {
+    "etiqueta": "por-ignorou-ironia",
+    "fofo": [
+      "O autor fez uma ironia e você acreditou. Que coração puro! Agora vamos treinar a desconfiança.",
+      "O texto falou 'que dia lindo' debaixo de chuva e você foi passar protetor. Fofo, mas era ironia.",
+      "Você levou o elogio a sério. Eu também levo, mas é porque eu sou lindo mesmo.",
+      "O Machado de Assis escreveu rindo de canto de boca e você leu de cara séria. Ele adora pegar leitor assim.",
+      "A ironia passou por você e acenou. Da próxima vez acena de volta, ela é simpática."
+    ],
+    "sarc": [
+      "Ah, sim, o texto estava elogiando de verdade. Igual eu quando digo que adoro a faxina do aquário.",
+      "Que fofo: alguém disse 'parabéns pelo atraso' e você agradeceu.",
+      "Perfeita, essa sua leitura. Viu? Agora você entendeu como ironia funciona.",
+      "Claro, quando o narrador chama a confusão de 'um sucesso', ele quer dizer sucesso mesmo. Óbvio.",
+      "Você é aquela pessoa que responde 'nossa, que ótimo' com 'né? também achei'. Adorável."
+    ],
+    "sem": [
+      "Era ironia! Ironia. O autor tá rindo até agora e você concordando com ele!",
+      "Você acreditou no elogio! O texto disse 'que genial' do jeito que eu digo quando o Valdir sobe no vidro!",
+      "Se eu disser 'que resposta incrível' agora, você vai acreditar também? Não acredita! É ironia!",
+      "O sarcasmo do texto passou por você igual vento em aquário: nada sentiu!",
+      "A IRONIA ESTAVA EM NEGRITO, SUBLINHADA E PISCANDO EM NEON!"
+    ],
+    "reserva": "O texto dizia o contrário do que parecia. Você ficou com a parte que parecia."
+  },
+  {
+    "etiqueta": "por-tema-x-tese",
+    "fofo": [
+      "Você acertou do que o texto fala! Faltou o que ele acha disso. É saber o assunto da fofoca, mas não o babado.",
+      "Achou o assunto, que já é meio caminho! A outra metade é a opinião do autor, que ficou esperando no ponto.",
+      "Você disse 'o texto é sobre futebol'. Ótimo! Mas ele torce pra quem? Esse era o mistério.",
+      "Tema e tese são tipo eu e o Valdir: moram no mesmo aquário, mas só um tem opinião.",
+      "Você leu o título do debate e esqueceu o lado do debatedor. Pertinho! Agora escuta a voz dele."
+    ],
+    "sarc": [
+      "Tese: 'o texto fala de educação'. Uau. E qual é a sua opinião sobre o mar? 'É de água'.",
+      "Sim, o autor escreveu 30 linhas só pra informar o assunto, sem achar nada. Muito comum. Super normal.",
+      "Você descobriu que a redação é sobre o tema da redação. Bate na porta do corretor e conta a novidade.",
+      "Certíssimo: o texto trata disso. Também trata de palavras, letras e papel.",
+      "A pergunta foi 'o que o autor defende' e você respondeu 'sobre o que ele escreve'. Quase gêmeas. Quase."
+    ],
+    "sem": [
+      "O autor tem opinião! Ele gritou no texto inteiro e você só anotou o assunto da reunião!",
+      "Tema não é tese! Eu repito isso pro filtro toda madrugada e ele não aprende! Você também não?!",
+      "POV: o autor sobe no palanque, defende uma ideia com paixão, e você resume como 'ele falou de coisas'.",
+      "VOCÊ ACHOU O ASSUNTO E PAROU!",
+      "O texto tomou partido e você ficou em cima do muro sozinho, segurando a bandeira do nada!"
+    ],
+    "reserva": "Você descobriu o assunto do texto. O autor, porém, queria saber se você ouviu a opinião dele."
+  },
+  {
+    "etiqueta": "por-sentido-literal",
+    "fofo": [
+      "Alguém disse 'chover canivete' e você foi buscar o guarda-chuva blindado. Fofo! Era só jeito de falar.",
+      "Você leu 'quebrar o galho' e foi direto na árvore. Coitada da árvore, ela só queria ajudar.",
+      "Quando falam 'peixe fora d'água' eu levo pro lado pessoal. Mas no texto era figurado, viu? Respira.",
+      "O texto disse 'mar de gente' e você procurou as ondas. Eu procurei também, confesso.",
+      "Quase! Você pegou a expressão ao pé da letra. O pé tá ótimo, mas o resto da expressão sentiu falta."
+    ],
+    "sarc": [
+      "Claro. 'Ela tem um coração de ouro', então o texto é sobre mineração. Perfeito.",
+      "Ah, 'engolir sapo' é sobre culinária exótica. Tá anotado no meu caderno de jeito nenhum.",
+      "Muito bom. Você tratou a metáfora como um aviso de 'piso molhado'. Ela se sentiu desvalorizada.",
+      "Seguindo sua lógica, quando o aluno 'pega no sono', alguém precisa devolver o sono depois.",
+      "Você é literal assim também quando mandam 'dar um pulo na padaria'? Deve ser cansativo."
+    ],
+    "sem": [
+      "'CHORAR AS PITANGAS' NÃO É SOBRE FRUTA!",
+      "Você leu 'pisar na bola' e foi procurar a bola no texto! Não tem bola. Nunca teve bola!",
+      "A expressão fez poesia e você leu como manual de micro-ondas! A metáfora tá em choque no cantinho!",
+      "URGENTE: metáfora é interpretada ao pé da letra e entra com pedido de férias. Diz que não aguenta mais.",
+      "'Tempo é dinheiro' não quer dizer que o relógio aceita Pix! É figurado, pelo amor das algas!"
+    ],
+    "reserva": "A expressão queria dizer outra coisa, e você levou cada palavra a sério demais."
+  },
+  {
+    "etiqueta": "por-confundiu-funcao",
+    "fofo": [
+      "Você trocou a função da linguagem. Normal! O Jakobson listou seis, ninguém decora tudo no primeiro aquário.",
+      "O texto tava falando de si mesmo e você achou que tava falando com você. Ele ficou lisonjeado!",
+      "Quase! Você olhou pro emissor quando o foco tava no receptor. É tipo dar o presente pro carteiro.",
+      "A função certa tava na mensagem e você foi procurar no canal. O canal mandou um oi, pelo menos.",
+      "Uma propaganda apelando pra você e você achou que era desabafo do anunciante. Que empatia linda!"
+    ],
+    "sarc": [
+      "Claro, o 'alô, tá me ouvindo?' é a função poética. Puro Camões ao telefone.",
+      "Um dicionário explicando palavra e você chamou de emotivo. Ele é sensível, mas nem tanto.",
+      "Você achou que o poema era referencial. 'Informação: o amor é fogo que arde sem se ver.' Muito objetivo.",
+      "O Jakobson fez seis caixinhas e você guardou o texto na caixa do vizinho. Ele vai devolver, educado.",
+      "Ah, sim, o anúncio que diz 'compre já' com certeza só quer compartilhar sentimentos. Muito sincero."
+    ],
+    "sem": [
+      "A propaganda gritou 'você' três vezes e você achou que era com o autor! Era com você. Você!",
+      "Seis funções! Só seis. Eu tenho mais espinhos do que isso e sei o nome de todos!",
+      "O FOCO ERA O CÓDIGO E VOCÊ FOI ATRÁS DO EMISSOR!",
+      "Você chamou 'alô, alô, testando' de poesia! O microfone agradece o elogio, mas não merece!",
+      "O Jakobson desenhou um esquema lindo e você pôs a seta no lugar errado! Ele tá olhando do quadro!"
+    ],
+    "reserva": "Você olhou pro elemento errado da comunicação. A função certa estava em outra ponta da conversa."
+  },
+  {
+    "etiqueta": "por-confundiu-figura",
+    "fofo": [
+      "Você confundiu duas figuras gêmeas. Eu também confundo o Valdir de frente e de costas.",
+      "Você chamou a metonímia de metáfora. Ela ficou sem graça, mas atendeu pelo nome errado por educação.",
+      "Quase! Você pegou a figura vizinha. Elas moram no mesmo prédio, só em apartamentos diferentes.",
+      "Trocou hipérbole por eufemismo? Você foi do 'mil vezes' pro 'só um pouquinho'. Que viagem fofa!",
+      "Figura certa, família certa, nome errado. É tipo chamar a prima pelo nome da tia. Ela perdoa."
+    ],
+    "sarc": [
+      "Hipérbole? Imagina, eu falei um milhão de vezes que não era. Viu? Isso sim é hipérbole.",
+      "Você chamou 'li Machado' de metáfora. Então você leu o próprio Machado? Como ele coube na mochila?",
+      "Eufemismo, você disse. Que eufemismo chamar isso de 'pequena confusão'.",
+      "Antítese e paradoxo trocados. Mas tudo bem: você errou acertando, que é um paradoxo. Viu como é?",
+      "Nossa, que figura de linguagem criativa você inventou: a 'metaforonímia'. Patenteia."
+    ],
+    "sem": [
+      "Trocou a figura! A metáfora tá na porta com a mala pronta porque acha que ninguém a reconhece!",
+      "É PROSOPOPEIA! O TEXTO FEZ O VENTO FALAR E VOCÊ NEM OUVIU!",
+      "Você acabou de chamar um gato de cachorro, só que na gramática! O gato figurativo tá ofendidíssimo!",
+      "Eu inchei tanto com essa troca que virei uma figura de linguagem: hipérbole de baiacu!",
+      "A figura tava na sua frente, penteada e com plaquinha! E você cumprimentou outra!"
+    ],
+    "reserva": "Você chamou a figura pelo nome da vizinha. Elas são parecidas, mas cada uma atende só pelo seu."
+  },
+  {
+    "etiqueta": "por-confundiu-variacao",
+    "fofo": [
+      "Você achou que era sotaque, mas era jeito de falar de outra época. De longe se parecem, de perto são primos.",
+      "Trocou a variação regional pela social. É tipo achar que o 'uai' depende do salário. Não depende!",
+      "O texto usou a língua da bisavó em 1920 e você achou que era do bairro vizinho. Viagem no tempo fofa!",
+      "Quase! Variação situacional é a mesma pessoa mudando de roupa: terno no trabalho, pijama no zap.",
+      "O Policarpo Quaresma queria o tupi como língua oficial. Você só trocou o tipo de variação. Tá de boa."
+    ],
+    "sarc": [
+      "Claro, quem diz 'vosmecê' é de outro estado. Do estado de 1800, talvez.",
+      "Ah, a pessoa falou formal no casamento e informal no churrasco, então é variação regional. Mudou de cidade no meio?",
+      "Que análise. Você pôs o 'tu' do gaúcho e o 'tu' de Camões no mesmo pacote. Eles nem se conhecem.",
+      "Variação histórica? Sim, porque gíria de 2026 é antiquíssima. Pergunta pra qualquer avó.",
+      "Você classificou a variação com a confiança de quem nunca ouviu o tio falando no telefone com o chefe."
+    ],
+    "sem": [
+      "O TEXTO VIAJOU NO TEMPO E VOCÊ ACHOU QUE ELE SÓ MUDOU DE ESTADO!",
+      "Você confundiu sotaque com situação! O cara da padaria e o da reunião podem ser a mesma pessoa!",
+      "Eu falo 'blub' no aquário e 'excelentíssimo' com o dono do pet shop! Isso é situacional. Sou um exemplo vivo!",
+      "A variação era social e você mandou pro mapa! O mapa tá confuso. Ele não tem esse bairro!",
+      "Quatro tipos de variação e você escolheu o quinto, que não existe! Criatividade nível máximo!"
+    ],
+    "reserva": "Você achou a variação, só errou o endereço dela: era de outro tempo, lugar ou situação."
+  },
+  {
+    "etiqueta": "por-preconceito-linguistico",
+    "fofo": [
+      "Você corrigiu a fala como professor bravo. Mas a questão queria saber se ela combinava com a situação. Combinava!",
+      "Falar 'nós vai' no churrasco não é crime, é churrasco. A prova queria adequação, não bronca.",
+      "Língua é tipo roupa: chinelo na praia é perfeito, no casamento não. Você reprovou o chinelo até na praia.",
+      "A pergunta era 'combina com a situação?' e você respondeu 'tá errado!'. Que juiz fofo, mas o tribunal era outro.",
+      "Você deu nota zero pra fala do personagem. Ele só tava conversando com o amigo! Deixa ele, vai."
+    ],
+    "sarc": [
+      "Claro, o vovô do interior deveria falar igual locutor de telejornal no almoço de domingo. Lógico.",
+      "Uau, você reprovou a Carta de Pero Vaz de Caminha por não seguir a gramática de 2026. Rigoroso.",
+      "Que rigor. Daqui a pouco você me pede 'bom dia, prezado' em vez de 'blub'.",
+      "Ótimo. Vamos multar o Adoniran Barbosa por cada 'nóis' que ele cantou.",
+      "Isso, o problema da conversa entre amigos é a falta de mesóclise. Ninguém aguenta papo sem 'dir-te-ei'."
+    ],
+    "sem": [
+      "Não é errado, é adequado! A fala estava no lugar certo e você chamou o fiscal da gramática!",
+      "VOCÊ CORRIGIU A AVÓ DO PERSONAGEM!",
+      "POV: você numa festa junina pedindo pra todo mundo falar na norma-padrão perto da fogueira.",
+      "A língua não é prova de boa conduta! Ela é roupa pra ocasião. E você pôs terno no piquenique!",
+      "Eu falo de um jeito com a pedrinha e de outro com o veterinário! Ninguém me dá zero por isso!"
+    ],
+    "reserva": "A questão perguntava se a fala combinava com a situação, não se ela passava no ditado."
+  },
+  {
+    "etiqueta": "por-conectivo-errado",
+    "fofo": [
+      "Você pôs um 'portanto' onde morava um 'embora'. Os dois são educados, mas não gostam de troca de casa.",
+      "O conectivo é a ponte entre as frases, e você construiu a ponte pro outro lado do rio. Bonita, mas lá não.",
+      "Trocou o 'mas' pelo 'e'. Ficou tudo tão harmonioso que a briga do texto sumiu. Fofo, só que tinha briga.",
+      "Quase! Você pôs um 'porque' onde era 'apesar de'. Virou outra história, com outro final. Bem fofa, mas outra.",
+      "Conectivo trocado é tipo pôr sal no café com toda a convicção. O café entendeu o carinho."
+    ],
+    "sarc": [
+      "Choveu, portanto fui à praia. Faz total sentido. Igual sua escolha de conectivo.",
+      "Ótimo, você transformou uma concessão numa conclusão. O texto mudou de profissão e nem foi avisado.",
+      "Adoro conectivo de oposição ligando duas ideias que concordam. Dá um clima de novela.",
+      "Você usou 'logo' como se fosse 'mas'. O 'logo' tá se perguntando o que fez pra merecer isso.",
+      "Escolher o conectivo pelo som é corajoso. 'Contudo' soa chique mesmo. Só não serve aqui."
+    ],
+    "sem": [
+      "VOCÊ PÔS 'POIS' NO LUGAR DE 'EMBORA'!",
+      "O 'mas' foi demitido sem aviso e o 'portanto' assumiu a vaga sem ter currículo pra isso!",
+      "Oposição não é causa! Causa não é conclusão. Eu tô nadando em círculos de nervoso!",
+      "URGENTE: 'embora' é visto no lugar de 'portanto' e a frase pede guarda compartilhada da lógica.",
+      "Com esse conectivo, 'estudei, mas passei' vira piada! E a piada aqui sou eu, inchado!"
+    ],
+    "reserva": "O conectivo escolhido criou uma relação diferente da que o texto queria. As frases ficaram de mal."
+  },
+  {
+    "etiqueta": "por-referente-errado",
+    "fofo": [
+      "O pronome apontou pra um e você entregou pra outro. É tipo entregar a carta do vizinho. Ele agradece!",
+      "Você ligou o 'ele' à pessoa errada. Agora tem alguém no texto fazendo coisa que nem sabe que fez.",
+      "Esse 'isso' tava apontando lá pra trás e você olhou pra frente. Vira um pouquinho, ele ainda tá apontando.",
+      "Você entregou o pronome pra pessoa errada e ela aceitou, toda educada. Agora devolve pro dono, vai.",
+      "Quase! O pronome é um dedinho apontando. Você seguiu o dedinho, mas parou uma palavra antes."
+    ],
+    "sarc": [
+      "Claro, o 'que' se referia ao cachorro. O cachorro, no caso, assinou o contrato. Faz sentido.",
+      "Que generosidade: o mérito era de uma pessoa e você deu pra outra. A primeira tá pedindo recibo.",
+      "Ótimo, agora a frase diz que a mesa saiu pra trabalhar. A mesa vai adorar o emprego.",
+      "Que leitura democrática: o pronome podia ser de qualquer um e você fez um sorteio.",
+      "O referente tava a duas palavras e você foi buscar um termo lá no primeiro parágrafo. Que fôlego de maratona."
+    ],
+    "sem": [
+      "O 'ela' não era a Maria! A Maria tá até agora tentando entender por que assumiu a culpa!",
+      "VOCÊ GRUDOU O PRONOME NO SUBSTANTIVO ERRADO!",
+      "Plot twist: o 'isso' não era isso! Era aquilo. E o aquilo tá furioso por ser ignorado!",
+      "O pronome apontou, acenou, pulou... E você olhou pro lado errado com determinação!",
+      "Você trocou o dono do pronome! O dono de verdade tá no achados e perdidos do parágrafo!"
+    ],
+    "reserva": "O pronome apontava pra uma palavra e você seguiu pra outra. Ela ficou esperando ser lembrada."
+  },
+  {
+    "etiqueta": "por-confundiu-genero",
+    "fofo": [
+      "Você achou que era notícia porque falava de fato. Mas era crônica de chinelo! Acontece com os melhores.",
+      "O texto parece receita, mas é um poema sobre bolo. Você seguiu o cheirinho. Fofo!",
+      "Quase! Você julgou o gênero pelo assunto. É tipo achar que todo filme com cachorro é documentário.",
+      "Uma carta de reclamação falando de praia não vira guia de turismo. Mas adorei sua vontade de viajar!",
+      "Eu também me confundo: o aquário tem pedra, então achei que era museu de geologia. Olha a finalidade!"
+    ],
+    "sarc": [
+      "Claro, falou de amor, então é poema. Inclusive aquele boleto escrito 'pague com carinho'.",
+      "Ah, a receita fala em 'bater com emoção', então é um texto lírico. Arrebatador.",
+      "Você classificou pelo tema. Então esta frase é uma receita, porque eu acabei de dizer 'bolo'.",
+      "Artigo de opinião que vira notícia na sua mão. Que poder. O jornal quer te contratar como mágico.",
+      "Era um anúncio. Tinha preço, desconto e 'compre agora'. Mas, sim, poderia ser um conto."
+    ],
+    "sem": [
+      "NÃO É NOTÍCIA SÓ PORQUE TEM DATA!",
+      "O texto tinha estrofe, rima e saudade, e você chamou de relatório! O poeta tá inchado igual eu!",
+      "Chat, isso é real? Chamaram um bilhete de geladeira de romance em três volumes!",
+      "O gênero tava no formato, na finalidade, no jeitão! E você julgou o livro pelo marcador de página!",
+      "Se tema definisse gênero, meu diário seria livro de receita! Só falo de ração nele!"
+    ],
+    "reserva": "O assunto do texto enganou você. O gênero se revela pela forma e pelo que o texto quer fazer."
+  }
+]

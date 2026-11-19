@@ -1,0 +1,282 @@
+[
+  {
+    "id": "fil-filosofia-contemporanea-001", "materia": "filosofia", "assunto": "filosofia-contemporanea", "questionario": 1, "dificuldade": -1,
+    "contexto": "Deus está morto?",
+    "enunciado": "No século XIX, Nietzsche escreveu a frase 'Deus está morto'. Nessa passagem, ele quer dizer que:",
+    "alternativas": [
+      { "letra": "A", "texto": "celebra a morte física de uma divindade", "correta": false, "etiqueta": "fil-leitura-literal" },
+      { "letra": "B", "texto": "a fé religiosa e os valores tradicionais perderam a capacidade de dar sentido à vida moderna, o que exige criar novos valores", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "a ciência substituiu Deus e isso resolve todos os problemas", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "D", "texto": "defende o retorno à religião tradicional", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "E", "texto": "anuncia um crime que realmente aconteceu", "correta": false, "etiqueta": "fil-leitura-literal" }
+    ],
+    "explicacao": "A frase é uma metáfora sobre a crise dos valores tradicionais na modernidade: sem eles, surge o risco do niilismo e a tarefa de criar novos valores. Não é um relato literal.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-contemporanea-002", "materia": "filosofia", "assunto": "filosofia-contemporanea", "questionario": 1, "dificuldade": -1,
+    "contexto": "Manifesto de 1848",
+    "enunciado": "No Manifesto Comunista (1848), Marx e Engels afirmam que a história das sociedades até então é a história da luta de classes. Na sociedade capitalista, as duas classes principais em conflito são:",
+    "alternativas": [
+      { "letra": "A", "texto": "a nobreza e o clero", "correta": false, "etiqueta": "fil-misturou-epocas" },
+      { "letra": "B", "texto": "os senhores feudais e os servos", "correta": false, "etiqueta": "fil-misturou-epocas" },
+      { "letra": "C", "texto": "os patrícios e os plebeus", "correta": false, "etiqueta": "fil-misturou-epocas" },
+      { "letra": "D", "texto": "a burguesia, dona dos meios de produção, e o proletariado, que vende sua força de trabalho", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "os cidadãos e os estrangeiros", "correta": false, "etiqueta": "fil-confundiu-termo" }
+    ],
+    "explicacao": "No capitalismo, o conflito central é entre quem possui os meios de produção, a burguesia, e quem depende de vender sua força de trabalho, o proletariado. Senhores feudais e servos, ou patrícios e plebeus, pertencem a outros momentos históricos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-contemporanea-003", "materia": "filosofia", "assunto": "filosofia-contemporanea", "questionario": 1, "dificuldade": 0,
+    "contexto": "Liberdade sem manual",
+    "enunciado": "Para Sartre, a existência precede a essência: não nascemos com uma natureza definida, e nos tornamos o que somos por meio das escolhas que fazemos. Isso significa que:",
+    "alternativas": [
+      { "letra": "A", "texto": "somos livres e responsáveis por construir o sentido da nossa vida", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "nosso destino está escrito desde o nascimento", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "C", "texto": "a essência humana é dada por Deus", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "D", "texto": "não há responsabilidade, pois nada importa", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "E", "texto": "só o instinto define o que somos", "correta": false, "etiqueta": "fil-confundiu-corrente" }
+    ],
+    "explicacao": "No existencialismo de Sartre, primeiro existimos, depois nos definimos pelas escolhas. A liberdade vem junto com a responsabilidade, e não com a ausência de valor.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-contemporanea-004", "materia": "filosofia", "assunto": "filosofia-contemporanea", "questionario": 1, "dificuldade": 0,
+    "contexto": "Tornar-se mulher",
+    "enunciado": "Em O Segundo Sexo (1949), Simone de Beauvoir escreveu: 'Não se nasce mulher, torna-se mulher.' Com essa frase, ela defende que:",
+    "alternativas": [
+      { "letra": "A", "texto": "a diferença biológica entre os sexos não existe", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "B", "texto": "as mulheres não existem", "correta": false, "etiqueta": "fil-leitura-literal" },
+      { "letra": "C", "texto": "a mulher nasce com um destino natural de obediência", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "D", "texto": "só a cultura moderna possui papéis de gênero", "correta": false, "etiqueta": "fil-generalizou-pensador" },
+      { "letra": "E", "texto": "os papéis atribuídos às mulheres são construídos socialmente, e não determinados apenas pela biologia", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Beauvoir distingue o que é biológico do que a sociedade constrói como papel feminino, a partir de educação, costumes e expectativas. Ela não nega que haja diferenças corporais, mas rejeita que o destino social seja natural.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-contemporanea-005", "materia": "filosofia", "assunto": "filosofia-contemporanea", "questionario": 1, "dificuldade": 1,
+    "contexto": "Banalidade do mal",
+    "enunciado": "Ao acompanhar o julgamento de Adolf Eichmann, funcionário nazista, em 1961, Hannah Arendt falou em banalidade do mal. Com essa expressão, ela sugere que:",
+    "alternativas": [
+      { "letra": "A", "texto": "o mal é banal porque tem pouca importância", "correta": false, "etiqueta": "fil-leitura-literal" },
+      { "letra": "B", "texto": "Eichmann era um sádico movido por ódio profundo", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "C", "texto": "grandes crimes podem ser cometidos por pessoas comuns que deixam de pensar criticamente e obedecem a ordens, sem serem necessariamente monstros", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "o mal só existe em regimes autoritários", "correta": false, "etiqueta": "fil-generalizou-pensador" },
+      { "letra": "E", "texto": "obedecer a ordens exime alguém de responsabilidade", "correta": false, "etiqueta": "fil-ideia-oposta" }
+    ],
+    "explicacao": "Arendt impressionou-se com a normalidade de Eichmann, que cumpria ordens sem refletir sobre o que fazia. Isso não diminui a gravidade do crime nem a responsabilidade pessoal, e mostra a importância de pensar por conta própria.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-contemporanea-006", "materia": "filosofia", "assunto": "filosofia-contemporanea", "questionario": 2, "dificuldade": -1,
+    "contexto": "Cultura em série",
+    "enunciado": "Adorno e Horkheimer, da Escola de Frankfurt, criaram o conceito de indústria cultural para criticar a transformação da cultura em mercadoria produzida em série. Qual situação se aproxima dessa crítica?",
+    "alternativas": [
+      { "letra": "A", "texto": "uma oficina artesanal em que cada peça é única", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "B", "texto": "um sarau de poesia na praça", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "C", "texto": "uma fórmula de sucesso repetida em vários produtos culturais, feitos para vender mais do que para provocar reflexão", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "um debate filosófico gratuito", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "E", "texto": "um quadro pintado por um artista isolado", "correta": false, "etiqueta": "fil-inverteu-conceito" }
+    ],
+    "explicacao": "A indústria cultural padroniza produtos culturais e os orienta para o consumo em massa. A crítica não é contra a cultura popular em si, e sim contra a lógica de mercadoria que repete fórmulas.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-contemporanea-007", "materia": "filosofia", "assunto": "filosofia-contemporanea", "questionario": 2, "dificuldade": -1,
+    "contexto": "Torre de vigia",
+    "enunciado": "Michel Foucault analisou o panóptico, prisão ideal em que um vigia pode observar todos os presos sem ser visto, de modo que eles se comportam como se estivessem sempre vigiados. Ele usa esse modelo para mostrar que:",
+    "alternativas": [
+      { "letra": "A", "texto": "o poder moderno funciona também por vigilância e disciplina, como em escolas, fábricas e hospitais", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "o poder só existe nas prisões", "correta": false, "etiqueta": "fil-generalizou-pensador" },
+      { "letra": "C", "texto": "o poder depende apenas da violência física", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "D", "texto": "a vigilância torna as pessoas mais livres", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "E", "texto": "devemos construir panópticos em todas as cidades", "correta": false, "etiqueta": "fil-ideia-oposta" }
+    ],
+    "explicacao": "Foucault usa o panóptico como metáfora da sociedade disciplinar, em que a possibilidade de ser observado leva as pessoas a se autocontrolarem. O objetivo dele é criticar essa lógica, e não defendê-la.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-contemporanea-008", "materia": "filosofia", "assunto": "filosofia-contemporanea", "questionario": 2, "dificuldade": 0,
+    "contexto": "Poder que produz",
+    "enunciado": "Para Foucault, o poder não é apenas repressivo, isto é, algo que proíbe e castiga: ele também produz saberes, comportamentos e identidades, e se espalha por relações do cotidiano. Qual exemplo ilustra o poder em sentido produtivo?",
+    "alternativas": [
+      { "letra": "A", "texto": "uma lei que proíbe uma conduta", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "B", "texto": "uma multa por infração", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "C", "texto": "uma prisão", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "D", "texto": "uma ordem militar direta", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "E", "texto": "normas e exames escolares que definem quem é considerado bom aluno e moldam como as pessoas se veem", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "As opções A a D mostram o poder que proíbe e pune. Os exames e normas escolares produzem classificações e identidades, que as pessoas incorporam, e isso é o poder produtivo de que fala Foucault.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-contemporanea-009", "materia": "filosofia", "assunto": "filosofia-contemporanea", "questionario": 2, "dificuldade": 0,
+    "contexto": "De onde vêm os valores?",
+    "enunciado": "Em Genealogia da Moral, Nietzsche sustenta que certos valores, como a humildade e a piedade, teriam nascido do ressentimento dos fracos contra os fortes, e chama essa moral de moral de rebanho ou de escravos. Isso mostra que ele:",
+    "alternativas": [
+      { "letra": "A", "texto": "defende maltratar os mais frágeis", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "B", "texto": "questiona a origem dos valores morais, em vez de aceitá-los como naturais", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "aceita todos os valores tradicionais", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "D", "texto": "prova que a moral é de origem divina", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "E", "texto": "nega que existam valores", "correta": false, "etiqueta": "fil-simplificou-demais" }
+    ],
+    "explicacao": "A genealogia investiga como os valores surgiram historicamente, e Nietzsche desconfia de que valores aparentemente neutros escondam interesses. Isso não é um convite à crueldade, e sim uma crítica da moral.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-contemporanea-010", "materia": "filosofia", "assunto": "filosofia-contemporanea", "questionario": 2, "dificuldade": 1,
+    "contexto": "Ideias de quem manda",
+    "enunciado": "Em A Ideologia Alemã, Marx e Engels afirmam que as ideias dominantes de uma época são as ideias da classe dominante. Isso sugere que:",
+    "alternativas": [
+      { "letra": "A", "texto": "as ideias são neutras e independem de interesses", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "B", "texto": "as ideias dominantes são sempre verdadeiras", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "C", "texto": "a classe dominante nunca influencia a cultura", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "D", "texto": "as ideias de uma sociedade refletem relações de poder e podem servir para justificar a dominação existente", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "só os filósofos produzem ideias", "correta": false, "etiqueta": "fil-simplificou-demais" }
+    ],
+    "explicacao": "Para Marx, a ideologia é um conjunto de ideias que naturaliza a ordem existente, escondendo interesses de classe. A tarefa crítica é perguntar a quem serve uma ideia aparentemente natural.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-contemporanea-011", "materia": "filosofia", "assunto": "filosofia-contemporanea", "questionario": 3, "dificuldade": -1,
+    "contexto": "Condenados à liberdade",
+    "enunciado": "Sartre disse que estamos condenados a ser livres: mesmo quando não escolhemos, estamos escolhendo. Qual atitude é coerente com essa ideia?",
+    "alternativas": [
+      { "letra": "A", "texto": "culpar o destino por tudo o que acontece", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "B", "texto": "esperar que os outros decidam por você", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "C", "texto": "deixar de escolher, pois assim ninguém erra", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "D", "texto": "seguir o grupo para não ter responsabilidade", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "E", "texto": "assumir a responsabilidade pelas próprias escolhas, sem culpar só as circunstâncias", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Para Sartre, não escolher é também uma escolha, e por isso somos sempre responsáveis. Isso não quer dizer que as circunstâncias não pesem, mas que elas não eliminam nossa responsabilidade.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-contemporanea-012", "materia": "filosofia", "assunto": "filosofia-contemporanea", "questionario": 3, "dificuldade": 0,
+    "contexto": "Má-fé",
+    "enunciado": "Sartre chamou de má-fé a atitude de quem nega a própria liberdade, dizendo, por exemplo, 'sou assim e não posso mudar' ou 'não tive escolha'. Qual frase é um exemplo de má-fé?",
+    "alternativas": [
+      { "letra": "A", "texto": "'Fiz essa escolha e assumo as consequências.'", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "B", "texto": "'Eu não tive escolha, a vida me fez assim', mesmo havendo outras possibilidades.", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "'Posso mudar de curso, se eu quiser.'", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "D", "texto": "'Decidi estudar, apesar das dificuldades.'", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "E", "texto": "'Errei e vou tentar de novo.'", "correta": false, "etiqueta": "fil-inverteu-conceito" }
+    ],
+    "explicacao": "A má-fé é uma forma de autoengano: fingir que não há escolha para escapar da responsabilidade. As outras frases assumem a liberdade e a responsabilidade.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-contemporanea-013", "materia": "filosofia", "assunto": "filosofia-contemporanea", "questionario": 3, "dificuldade": 0,
+    "contexto": "Palavras e mundo",
+    "enunciado": "Wittgenstein, no Tratado Lógico-Filosófico (1921), escreveu que os limites da minha linguagem significam os limites do meu mundo. Essa ideia sugere que:",
+    "alternativas": [
+      { "letra": "A", "texto": "o mundo físico deixa de existir quando não falamos dele", "correta": false, "etiqueta": "fil-leitura-literal" },
+      { "letra": "B", "texto": "as palavras não têm relação com o pensamento", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "C", "texto": "só existe um idioma correto", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "D", "texto": "a linguagem que temos delimita o que conseguimos pensar e dizer sobre o mundo", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "o silêncio é impossível", "correta": false, "etiqueta": "fil-leitura-literal" }
+    ],
+    "explicacao": "A frase ressalta o papel da linguagem na forma como entendemos e descrevemos a realidade. Ela não quer dizer que o mundo físico desaparece quando não falamos, mas que nosso acesso conceitual a ele é mediado pela linguagem.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-contemporanea-014", "materia": "filosofia", "assunto": "filosofia-contemporanea", "questionario": 3, "dificuldade": 1,
+    "contexto": "Política entre diferentes",
+    "enunciado": "Para Hannah Arendt, a política nasce quando pessoas agem e falam em conjunto num espaço público, começando algo novo. A pluralidade, isto é, a existência de pessoas diferentes que dialogam, é condição dessa ação. Qual situação expressa essa ideia?",
+    "alternativas": [
+      { "letra": "A", "texto": "um chefe que decide tudo sozinho", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "B", "texto": "um grupo que repete a mesma opinião sem discussão", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "C", "texto": "moradores de bairros diferentes se reúnem, debatem e decidem juntos como melhorar uma praça comum", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "uma pessoa isolada que reclama em silêncio", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "E", "texto": "um programa de computador que escolhe o que cada um vê", "correta": false, "etiqueta": "fil-confundiu-termo" }
+    ],
+    "explicacao": "Para Arendt, a política exige a presença de pessoas diferentes agindo e conversando em um espaço comum. Decisões tomadas por um só, ou opiniões repetidas sem debate, anulam a pluralidade.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-contemporanea-015", "materia": "filosofia", "assunto": "filosofia-contemporanea", "questionario": 3, "dificuldade": 1,
+    "contexto": "Tudo líquido",
+    "enunciado": "O sociólogo Zygmunt Bauman descreveu a vida contemporânea como modernidade líquida: relações, empregos e identidades mudam rapidamente, sem formas fixas. Qual exemplo se encaixa nesse conceito?",
+    "alternativas": [
+      { "letra": "A", "texto": "vínculos afetivos e de trabalho que se desfazem com facilidade, num mundo de mudanças constantes", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "uma sociedade de castas, com lugares fixos", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "C", "texto": "uma aldeia onde todos fazem o mesmo ofício por gerações", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "D", "texto": "uma instituição com regras estáveis por séculos", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "E", "texto": "um mundo sem nenhuma relação social", "correta": false, "etiqueta": "fil-leitura-literal" }
+    ],
+    "explicacao": "Líquido, em Bauman, é metáfora de instabilidade e mudança rápida, em oposição à solidez de instituições e laços do passado. Não significa ausência de relações, e sim vínculos mais frágeis e provisórios.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-contemporanea-016", "materia": "filosofia", "assunto": "filosofia-contemporanea", "questionario": 4, "dificuldade": -1,
+    "contexto": "Linha de montagem",
+    "enunciado": "Para Marx, no capitalismo o trabalhador se torna alienado: produz mercadorias, mas não controla o que produz nem se reconhece no resultado do seu trabalho. Qual situação ilustra a alienação?",
+    "alternativas": [
+      { "letra": "A", "texto": "um artesão que cria uma peça do início ao fim, decidindo cada detalhe", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "B", "texto": "uma estudante que escolhe o próprio projeto de pesquisa", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "C", "texto": "uma cooperativa que decide coletivamente como produzir", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "D", "texto": "um operário que repete uma única tarefa na linha de montagem, sem decidir como produzir nem saber o destino do produto", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "um escritor que publica o próprio livro", "correta": false, "etiqueta": "fil-inverteu-conceito" }
+    ],
+    "explicacao": "A alienação aparece quando o trabalho é fragmentado e controlado por outros, de modo que o trabalhador não se reconhece no que faz. As outras situações descrevem trabalho com controle sobre o processo e o resultado.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-contemporanea-017", "materia": "filosofia", "assunto": "filosofia-contemporanea", "questionario": 4, "dificuldade": 0,
+    "contexto": "A vida de novo e de novo",
+    "enunciado": "Nietzsche propôs um experimento de pensamento, o eterno retorno: e se você tivesse que viver sua vida exatamente igual, infinitas vezes? Essa pergunta serve para:",
+    "alternativas": [
+      { "letra": "A", "texto": "provar que a reencarnação existe", "correta": false, "etiqueta": "fil-leitura-literal" },
+      { "letra": "B", "texto": "demonstrar que o tempo é circular na física", "correta": false, "etiqueta": "fil-leitura-literal" },
+      { "letra": "C", "texto": "testar se afirmamos nossa vida e nossas escolhas a ponto de aceitar repeti-las", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "defender a resignação diante do sofrimento", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "E", "texto": "mostrar que nada tem valor", "correta": false, "etiqueta": "fil-simplificou-demais" }
+    ],
+    "explicacao": "O eterno retorno é uma prova de afirmação da vida: viveríamos tudo de novo sem mudar nada? É um experimento mental, e não uma teoria física ou religiosa sobre repetição. Por isso as alternativas literais são a pegadinha.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-contemporanea-018", "materia": "filosofia", "assunto": "filosofia-contemporanea", "questionario": 4, "dificuldade": 0,
+    "contexto": "Sísifo feliz?",
+    "enunciado": "Em O Mito de Sísifo (1942), Camus descreve o absurdo como o choque entre o desejo humano de sentido e o silêncio do mundo, que não oferece respostas prontas. Diante disso, Camus propõe:",
+    "alternativas": [
+      { "letra": "A", "texto": "o desespero e a desistência", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "B", "texto": "viver com lucidez e revolta, sem fingir um sentido pronto, e imaginar Sísifo feliz", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "a fé cega como solução", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "D", "texto": "ignorar o problema", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "E", "texto": "a negação de qualquer valor humano", "correta": false, "etiqueta": "fil-simplificou-demais" }
+    ],
+    "explicacao": "Camus recusa tanto o desespero quanto a fuga em respostas prontas. Ele propõe encarar o absurdo com lucidez e revolta, valorizando a vida, e por isso termina dizendo que é preciso imaginar Sísifo feliz.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-contemporanea-019", "materia": "filosofia", "assunto": "filosofia-contemporanea", "questionario": 4, "dificuldade": 1,
+    "contexto": "Saber é poder",
+    "enunciado": "Foucault sustentou que saber e poder estão ligados: as ciências humanas, como a psiquiatria e a criminologia, classificam as pessoas e, ao fazê-lo, também exercem poder sobre elas. Isso sugere que:",
+    "alternativas": [
+      { "letra": "A", "texto": "o conhecimento pode ser usado para governar e controlar populações, e não é totalmente neutro", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "todo saber é falso", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "C", "texto": "o poder nunca depende de saberes", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "D", "texto": "a ciência é sempre neutra", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "E", "texto": "o poder pertence apenas ao Estado", "correta": false, "etiqueta": "fil-generalizou-pensador" }
+    ],
+    "explicacao": "Foucault não diz que todo saber é falso: diz que saberes e poder se reforçam mutuamente e que classificar pessoas é uma forma de agir sobre elas. O poder, para ele, circula em muitas relações, e não só no Estado.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-contemporanea-020", "materia": "filosofia", "assunto": "filosofia-contemporanea", "questionario": 4, "dificuldade": 1,
+    "contexto": "Razão só de meios",
+    "enunciado": "Em Dialética do Esclarecimento (1947), Adorno e Horkheimer criticam a razão instrumental: uma razão voltada apenas a calcular os meios mais eficientes para atingir fins, sem questionar se esses fins são justos. Qual situação exemplifica essa crítica?",
+    "alternativas": [
+      { "letra": "A", "texto": "uma comunidade que debate os objetivos de uma obra antes de executá-la", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "B", "texto": "um grupo que decide por consenso o bem comum", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "C", "texto": "um filósofo que questiona os valores da sociedade", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "D", "texto": "um artista que cria sem objetivo comercial", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "E", "texto": "uma empresa que otimiza a produção para lucrar mais, sem discutir os efeitos sociais e ambientais do que produz", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "A razão instrumental se pergunta como fazer algo de modo eficiente, mas não se vale a pena fazê-lo. As outras situações mostram reflexão sobre os fins, e não só sobre os meios.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]

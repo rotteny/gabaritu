@@ -1,0 +1,902 @@
+[
+  {
+    "id": "ing-cognatos-e-falsos-cognatos-001",
+    "materia": "ingles",
+    "assunto": "cognatos-e-falsos-cognatos",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Livros do bairro",
+    "enunciado": "\"She works in a library near my house.\"\n\nNa frase, \"library\" significa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "livraria.",
+        "correta": false,
+        "etiqueta": "ing-falso-cognato"
+      },
+      {
+        "letra": "B",
+        "texto": "papelaria.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "C",
+        "texto": "escola.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "D",
+        "texto": "loja de discos.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "biblioteca.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "\"Library\" é falso cognato de \"livraria\": significa biblioteca. Livraria, em inglês, é \"bookstore\".",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-cognatos-e-falsos-cognatos-002",
+    "materia": "ingles",
+    "assunto": "cognatos-e-falsos-cognatos",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Jantar em família",
+    "enunciado": "\"My parents are coming to dinner.\"\n\nA palavra \"parents\" quer dizer",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "parentes.",
+        "correta": false,
+        "etiqueta": "ing-falso-cognato"
+      },
+      {
+        "letra": "B",
+        "texto": "pais.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "primos.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "D",
+        "texto": "vizinhos.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "irmãos.",
+        "correta": false,
+        "etiqueta": "ing-palavra-solta"
+      }
+    ],
+    "explicacao": "\"Parents\" é falso cognato: significa pai e mãe. Para parentes, o inglês usa \"relatives\".",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-cognatos-e-falsos-cognatos-003",
+    "materia": "ingles",
+    "assunto": "cognatos-e-falsos-cognatos",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Pizza, não",
+    "enunciado": "\"Actually, I don't like pizza.\"\n\nNessa frase, \"actually\" equivale a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "atualmente.",
+        "correta": false,
+        "etiqueta": "ing-falso-cognato"
+      },
+      {
+        "letra": "B",
+        "texto": "sempre.",
+        "correta": false,
+        "etiqueta": "ing-palavra-solta"
+      },
+      {
+        "letra": "C",
+        "texto": "rapidamente.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "D",
+        "texto": "na verdade.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "obviamente.",
+        "correta": false,
+        "etiqueta": "ing-sentido-errado"
+      }
+    ],
+    "explicacao": "\"Actually\" é falso cognato de \"atualmente\": quer dizer na verdade, de fato. Atualmente é \"currently\".",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-cognatos-e-falsos-cognatos-004",
+    "materia": "ingles",
+    "assunto": "cognatos-e-falsos-cognatos",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Aula sobre robôs",
+    "enunciado": "\"The professor gave a lecture about robots.\"\n\nNo contexto, \"lecture\" é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "leitura.",
+        "correta": false,
+        "etiqueta": "ing-falso-cognato"
+      },
+      {
+        "letra": "B",
+        "texto": "lição de casa.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "C",
+        "texto": "palestra ou aula expositiva.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "livro.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "prova.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      }
+    ],
+    "explicacao": "\"Lecture\" parece \"leitura\", mas é uma exposição oral feita por um professor ou convidado.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-cognatos-e-falsos-cognatos-005",
+    "materia": "ingles",
+    "assunto": "cognatos-e-falsos-cognatos",
+    "questionario": 1,
+    "dificuldade": 1,
+    "contexto": "Dormindo de mentirinha",
+    "enunciado": "\"He pretended to be asleep when his mom came in.\"\n\nO verbo \"pretended\" significa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "fingiu.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "pretendeu.",
+        "correta": false,
+        "etiqueta": "ing-falso-cognato"
+      },
+      {
+        "letra": "C",
+        "texto": "quis muito.",
+        "correta": false,
+        "etiqueta": "ing-sentido-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "tentou.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "precisava.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      }
+    ],
+    "explicacao": "\"Pretend\" é falso cognato de \"pretender\": quer dizer fingir. Pretender é \"intend\" ou \"plan\".",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-cognatos-e-falsos-cognatos-006",
+    "materia": "ingles",
+    "assunto": "cognatos-e-falsos-cognatos",
+    "questionario": 2,
+    "dificuldade": -1,
+    "contexto": "Empurra, não puxa",
+    "enunciado": "\"We need to push the car to the gas station.\"\n\nNessa frase, \"push\" significa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "puxar.",
+        "correta": false,
+        "etiqueta": "ing-falso-cognato"
+      },
+      {
+        "letra": "B",
+        "texto": "pular.",
+        "correta": false,
+        "etiqueta": "ing-palavra-solta"
+      },
+      {
+        "letra": "C",
+        "texto": "esticar.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "D",
+        "texto": "empurrar.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "quebrar.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      }
+    ],
+    "explicacao": "\"Push\" soa como \"puxar\", mas é empurrar. Puxar é \"pull\". Olhar a ação da frase (levar o carro até o posto) ajuda a conferir.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-cognatos-e-falsos-cognatos-007",
+    "materia": "ingles",
+    "assunto": "cognatos-e-falsos-cognatos",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Leitura de fim de semana",
+    "enunciado": "\"I read a novel last weekend and loved it.\"\n\nNessa frase, \"novel\" significa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "novela de TV.",
+        "correta": false,
+        "etiqueta": "ing-falso-cognato"
+      },
+      {
+        "letra": "B",
+        "texto": "romance, livro de ficção.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "novidade.",
+        "correta": false,
+        "etiqueta": "ing-falso-cognato"
+      },
+      {
+        "letra": "D",
+        "texto": "notícia.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "poema.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      }
+    ],
+    "explicacao": "\"Novel\" é falso cognato de \"novela\" e de \"novidade\": é um livro de ficção. A pista é o verbo \"read\".",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-cognatos-e-falsos-cognatos-008",
+    "materia": "ingles",
+    "assunto": "cognatos-e-falsos-cognatos",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Festa à fantasia",
+    "enunciado": "\"He wore a funny costume at the party.\"\n\nNo texto, \"costume\" quer dizer",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "costume, hábito.",
+        "correta": false,
+        "etiqueta": "ing-falso-cognato"
+      },
+      {
+        "letra": "B",
+        "texto": "terno.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "C",
+        "texto": "fantasia.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "uniforme.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "máscara.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      }
+    ],
+    "explicacao": "\"Costume\" é falso cognato de \"costume\" (hábito, que é \"habit\" ou \"custom\"). Em inglês, é a roupa de fantasia.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-cognatos-e-falsos-cognatos-009",
+    "materia": "ingles",
+    "assunto": "cognatos-e-falsos-cognatos",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Volta da turnê",
+    "enunciado": "\"After a long break, the singer will resume her tour next year.\"\n\nO verbo \"resume\" significa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "resumir.",
+        "correta": false,
+        "etiqueta": "ing-falso-cognato"
+      },
+      {
+        "letra": "B",
+        "texto": "assumir.",
+        "correta": false,
+        "etiqueta": "ing-falso-cognato"
+      },
+      {
+        "letra": "C",
+        "texto": "apresentar um currículo.",
+        "correta": false,
+        "etiqueta": "ing-falso-cognato"
+      },
+      {
+        "letra": "D",
+        "texto": "encerrar.",
+        "correta": false,
+        "etiqueta": "ing-sentido-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "retomar.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "\"Resume\" como verbo é retomar algo interrompido, e \"after a long break\" ajuda a ver isso. Resumir é \"summarize\".",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-cognatos-e-falsos-cognatos-010",
+    "materia": "ingles",
+    "assunto": "cognatos-e-falsos-cognatos",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Tarde demais",
+    "enunciado": "\"I didn't realize it was so late.\"\n\nA frase quer dizer que a pessoa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "não percebeu que era tão tarde.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "não realizou que era tarde.",
+        "correta": false,
+        "etiqueta": "ing-falso-cognato"
+      },
+      {
+        "letra": "C",
+        "texto": "não conseguiu fazer a tarefa tarde.",
+        "correta": false,
+        "etiqueta": "ing-falso-cognato"
+      },
+      {
+        "letra": "D",
+        "texto": "esqueceu o horário combinado.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "negou que fosse tarde.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      }
+    ],
+    "explicacao": "\"Realize\" é perceber, dar-se conta. Realizar, no sentido de fazer acontecer, é \"carry out\" ou \"achieve\".",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-cognatos-e-falsos-cognatos-011",
+    "materia": "ingles",
+    "assunto": "cognatos-e-falsos-cognatos",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Irmão na faculdade",
+    "enunciado": "\"My brother is in college.\"\n\nA palavra \"college\" nos Estados Unidos indica",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "colégio.",
+        "correta": false,
+        "etiqueta": "ing-falso-cognato"
+      },
+      {
+        "letra": "B",
+        "texto": "creche.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "C",
+        "texto": "faculdade.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "clube.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "cursinho.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      }
+    ],
+    "explicacao": "\"College\" é o ensino superior e é falso cognato de colégio. Colégio é \"high school\" ou simplesmente \"school\".",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-cognatos-e-falsos-cognatos-012",
+    "materia": "ingles",
+    "assunto": "cognatos-e-falsos-cognatos",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Reunião às três",
+    "enunciado": "\"Please attend the meeting at 3 p.m.\"\n\nO pedido é para que as pessoas",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "atendam a reunião.",
+        "correta": false,
+        "etiqueta": "ing-falso-cognato"
+      },
+      {
+        "letra": "B",
+        "texto": "aprovem a reunião.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "C",
+        "texto": "liguem para a reunião.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "D",
+        "texto": "adiem a reunião.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "participem da reunião.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "\"Attend\" é assistir ou participar. Atender alguém, como no balcão, é \"serve\" ou \"answer\".",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-cognatos-e-falsos-cognatos-013",
+    "materia": "ingles",
+    "assunto": "cognatos-e-falsos-cognatos",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Colega compreensiva",
+    "enunciado": "\"My sister is very sympathetic: she listens to everyone.\"\n\nNessa frase, \"sympathetic\" significa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "simpática.",
+        "correta": false,
+        "etiqueta": "ing-falso-cognato"
+      },
+      {
+        "letra": "B",
+        "texto": "tímida.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "C",
+        "texto": "mandona.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "D",
+        "texto": "compreensiva.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "ocupada.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      }
+    ],
+    "explicacao": "\"Sympathetic\" é falso cognato de \"simpático\": quer dizer compreensivo, solidário. Simpático é \"nice\" ou \"friendly\".",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-cognatos-e-falsos-cognatos-014",
+    "materia": "ingles",
+    "assunto": "cognatos-e-falsos-cognatos",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Tecido da camisa",
+    "enunciado": "\"This shirt is made of a soft fabric.\"\n\nNo texto, \"fabric\" é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "tecido.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "fábrica.",
+        "correta": false,
+        "etiqueta": "ing-falso-cognato"
+      },
+      {
+        "letra": "C",
+        "texto": "estampa.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "D",
+        "texto": "botão.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "cor.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      }
+    ],
+    "explicacao": "\"Fabric\" é o material do qual se faz a roupa, o tecido. Fábrica é \"factory\".",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-cognatos-e-falsos-cognatos-015",
+    "materia": "ingles",
+    "assunto": "cognatos-e-falsos-cognatos",
+    "questionario": 3,
+    "dificuldade": 1,
+    "contexto": "Chegou, enfim",
+    "enunciado": "\"We waited for an hour. Eventually, the bus arrived.\"\n\nNo texto, \"eventually\" quer dizer",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "eventualmente.",
+        "correta": false,
+        "etiqueta": "ing-falso-cognato"
+      },
+      {
+        "letra": "B",
+        "texto": "por fim.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "por acaso.",
+        "correta": false,
+        "etiqueta": "ing-falso-cognato"
+      },
+      {
+        "letra": "D",
+        "texto": "rapidamente.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "de repente.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      }
+    ],
+    "explicacao": "\"Eventually\" indica algo que acontece depois de um tempo, no fim. É falso cognato de \"eventualmente\". A espera de uma hora confirma o sentido.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-cognatos-e-falsos-cognatos-016",
+    "materia": "ingles",
+    "assunto": "cognatos-e-falsos-cognatos",
+    "questionario": 4,
+    "dificuldade": -1,
+    "contexto": "Sorvete de chocolate",
+    "enunciado": "\"I love chocolate and ice cream.\"\n\nQual palavra do texto se parece com o português e tem o mesmo sentido?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "love.",
+        "correta": false,
+        "etiqueta": "ing-palavra-solta"
+      },
+      {
+        "letra": "B",
+        "texto": "ice.",
+        "correta": false,
+        "etiqueta": "ing-palavra-solta"
+      },
+      {
+        "letra": "C",
+        "texto": "and.",
+        "correta": false,
+        "etiqueta": "ing-palavra-solta"
+      },
+      {
+        "letra": "D",
+        "texto": "chocolate.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "ice cream (tradução palavra por palavra).",
+        "correta": false,
+        "etiqueta": "ing-traducao-literal"
+      }
+    ],
+    "explicacao": "\"Chocolate\" é um cognato verdadeiro, com escrita e sentido iguais ao português. As outras palavras não se parecem com seus equivalentes.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-cognatos-e-falsos-cognatos-017",
+    "materia": "ingles",
+    "assunto": "cognatos-e-falsos-cognatos",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Preconceito e voz",
+    "enunciado": "\"Prejudice against people who speak differently is a serious problem.\"\n\nNesse texto, \"prejudice\" significa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "prejuízo.",
+        "correta": false,
+        "etiqueta": "ing-falso-cognato"
+      },
+      {
+        "letra": "B",
+        "texto": "julgamento legal.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "C",
+        "texto": "preconceito.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "preferência.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "doença.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      }
+    ],
+    "explicacao": "\"Prejudice\" é falso cognato de \"prejuízo\": é a opinião formada antes de conhecer, ou seja, preconceito. Prejuízo é \"loss\" ou \"damage\".",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-cognatos-e-falsos-cognatos-018",
+    "materia": "ingles",
+    "assunto": "cognatos-e-falsos-cognatos",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Mulher sensata",
+    "enunciado": "\"My mom is a very sensible woman. She never decides in a hurry.\"\n\nA palavra \"sensible\" significa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "sensível.",
+        "correta": false,
+        "etiqueta": "ing-falso-cognato"
+      },
+      {
+        "letra": "B",
+        "texto": "sensata.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "sensual.",
+        "correta": false,
+        "etiqueta": "ing-falso-cognato"
+      },
+      {
+        "letra": "D",
+        "texto": "emotiva.",
+        "correta": false,
+        "etiqueta": "ing-sentido-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "brava.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      }
+    ],
+    "explicacao": "\"Sensible\" é falso cognato de \"sensível\": é quem pensa com bom senso. A frase seguinte (\"never decides in a hurry\") confirma. Sensível é \"sensitive\".",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-cognatos-e-falsos-cognatos-019",
+    "materia": "ingles",
+    "assunto": "cognatos-e-falsos-cognatos",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Show de rock",
+    "enunciado": "\"The concert was terrific! We sang all night.\"\n\nNesse contexto, \"terrific\" quer dizer",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "terrível.",
+        "correta": false,
+        "etiqueta": "ing-falso-cognato"
+      },
+      {
+        "letra": "B",
+        "texto": "assustador.",
+        "correta": false,
+        "etiqueta": "ing-falso-cognato"
+      },
+      {
+        "letra": "C",
+        "texto": "chato.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "D",
+        "texto": "lotado.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "ótimo, incrível.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "\"Terrific\" é falso cognato de \"terrível\": é elogio. A segunda frase (\"We sang all night\") mostra que a noite foi boa.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-cognatos-e-falsos-cognatos-020",
+    "materia": "ingles",
+    "assunto": "cognatos-e-falsos-cognatos",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Placa na porta",
+    "enunciado": "\"I didn't notice the sign on the door.\"\n\nO verbo \"notice\" quer dizer",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "perceber, reparar.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "noticiar.",
+        "correta": false,
+        "etiqueta": "ing-falso-cognato"
+      },
+      {
+        "letra": "C",
+        "texto": "avisar.",
+        "correta": false,
+        "etiqueta": "ing-sentido-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "ler em voz alta.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "ignorar de propósito.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      }
+    ],
+    "explicacao": "\"Notice\" como verbo é perceber. É falso cognato de \"notícia\", que em inglês é \"news\". \"Didn't notice\" é não ter reparado, sem que fosse de propósito.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "id": "fis-eletrodinamica-001", "materia": "fisica", "assunto": "eletrodinamica", "questionario": 1, "dificuldade": -1,
+    "contexto": "Lanterna de pilha",
+    "enunciado": "A lâmpada de uma lanterna tem resistência de 4 Ω e é ligada a uma bateria de 12 V. Qual é a corrente elétrica que passa pela lâmpada?",
+    "alternativas": [
+      { "letra": "A", "texto": "48 A", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "B", "texto": "3 A", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "0,33 A", "correta": false, "etiqueta": "fis-proporcao-invertida" },
+      { "letra": "D", "texto": "8 A", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "E", "texto": "16 A", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "Pela lei de Ohm, U = R × i, então i = U ÷ R = 12 ÷ 4 = 3 A. Multiplicar a tensão pela resistência (48) mistura as grandezas, e inverter a divisão dá 0,33 A.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-eletrodinamica-002", "materia": "fisica", "assunto": "eletrodinamica", "questionario": 1, "dificuldade": -1,
+    "contexto": "Ferro de passar roupa",
+    "enunciado": "Um ferro de passar é ligado a uma tomada de 220 V e é percorrido por uma corrente de 5 A. Qual é a potência elétrica do ferro?",
+    "alternativas": [
+      { "letra": "A", "texto": "44 W", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "B", "texto": "225 W", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "C", "texto": "1,1 W", "correta": false, "etiqueta": "fis-unidade" },
+      { "letra": "D", "texto": "1.100 W", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "55 W", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "A potência elétrica é P = U × i = 220 × 5 = 1.100 W (ou 1,1 kW). Dividir 220 por 5 dá 44, que não é potência. O 1,1 está em kW, não em W.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-eletrodinamica-003", "materia": "fisica", "assunto": "eletrodinamica", "questionario": 1, "dificuldade": 0,
+    "contexto": "Chuveiro elétrico",
+    "enunciado": "Um chuveiro de 5.000 W é usado 30 minutos por dia, durante 30 dias. Qual é a energia consumida no mês, em kWh?",
+    "alternativas": [
+      { "letra": "A", "texto": "75 kWh", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "2,5 kWh", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "C", "texto": "150 kWh", "correta": false, "etiqueta": "fis-unidade" },
+      { "letra": "D", "texto": "75.000 kWh", "correta": false, "etiqueta": "fis-unidade" },
+      { "letra": "E", "texto": "5 kWh", "correta": false, "etiqueta": "fis-potencia-energia" }
+    ],
+    "explicacao": "5.000 W = 5 kW e 30 min = 0,5 h, então por dia são 5 × 0,5 = 2,5 kWh. Em 30 dias: 2,5 × 30 = 75 kWh. Os 2,5 kWh são só um dia, e os 150 kWh tratam 30 min como 1 h.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-eletrodinamica-004", "materia": "fisica", "assunto": "eletrodinamica", "questionario": 1, "dificuldade": 0,
+    "contexto": "Resistores em série",
+    "enunciado": "Dois resistores, de 10 Ω e 20 Ω, são ligados em série a uma bateria de 6 V. Qual é a corrente no circuito?",
+    "alternativas": [
+      { "letra": "A", "texto": "0,9 A", "correta": false, "etiqueta": "fis-serie-paralelo" },
+      { "letra": "B", "texto": "0,6 A", "correta": false, "etiqueta": "fis-ignorou-dado" },
+      { "letra": "C", "texto": "0,3 A", "correta": false, "etiqueta": "fis-ignorou-dado" },
+      { "letra": "D", "texto": "180 A", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "E", "texto": "0,2 A", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Em série, as resistências se somam: R = 10 + 20 = 30 Ω. A corrente é i = U ÷ R = 6 ÷ 30 = 0,2 A. Os 0,9 A vêm de tratar os resistores como se estivessem em paralelo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-eletrodinamica-005", "materia": "fisica", "assunto": "eletrodinamica", "questionario": 1, "dificuldade": 1,
+    "contexto": "Circuito misto",
+    "enunciado": "Um circuito tem um resistor de 6 Ω em série com dois resistores em paralelo, de 6 Ω e 3 Ω. O conjunto é ligado a uma bateria de 12 V. Qual é a corrente total fornecida pela bateria?",
+    "alternativas": [
+      { "letra": "A", "texto": "0,8 A", "correta": false, "etiqueta": "fis-serie-paralelo" },
+      { "letra": "B", "texto": "2 A", "correta": false, "etiqueta": "fis-ignorou-dado" },
+      { "letra": "C", "texto": "1,5 A", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "6 A", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "E", "texto": "4 A", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "Em paralelo, 6 Ω e 3 Ω equivalem a (6 × 3) ÷ (6 + 3) = 2 Ω. Em série com o resistor de 6 Ω, a resistência total é 8 Ω. A corrente é 12 ÷ 8 = 1,5 A. Somar tudo em série daria 15 Ω e 0,8 A.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-eletrodinamica-006", "materia": "fisica", "assunto": "eletrodinamica", "questionario": 2, "dificuldade": -1,
+    "contexto": "Lâmpada do quarto",
+    "enunciado": "Uma lâmpada de 60 W fica acesa por 5 horas. Qual é a energia elétrica consumida, em kWh?",
+    "alternativas": [
+      { "letra": "A", "texto": "12 kWh", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "B", "texto": "300 kWh", "correta": false, "etiqueta": "fis-unidade" },
+      { "letra": "C", "texto": "0,3 kWh", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "65 kWh", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "E", "texto": "3 kWh", "correta": false, "etiqueta": "fis-unidade" }
+    ],
+    "explicacao": "A energia é potência × tempo: 60 W × 5 h = 300 Wh. Dividindo por 1.000 para passar para kWh, dá 0,3 kWh. Os 300 estão em Wh, não em kWh.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-eletrodinamica-007", "materia": "fisica", "assunto": "eletrodinamica", "questionario": 2, "dificuldade": 0,
+    "contexto": "Geladeira na conta de luz",
+    "enunciado": "Uma geladeira, com consumo médio equivalente a 150 W ligados o tempo todo, funciona 24 h por dia durante 30 dias. Com tarifa de R$ 0,80 por kWh, quanto custa a energia dela no mês?",
+    "alternativas": [
+      { "letra": "A", "texto": "R$ 86,40", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "R$ 2,88", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "C", "texto": "R$ 108,00", "correta": false, "etiqueta": "fis-parou-no-intermediario" },
+      { "letra": "D", "texto": "R$ 86.400,00", "correta": false, "etiqueta": "fis-unidade" },
+      { "letra": "E", "texto": "R$ 21,60", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "A energia é 0,15 kW × 24 h × 30 dias = 108 kWh. O custo é 108 × 0,80 = R$ 86,40. Os 108 são a energia em kWh, e R$ 2,88 é o custo de um único dia.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-eletrodinamica-008", "materia": "fisica", "assunto": "eletrodinamica", "questionario": 2, "dificuldade": 0,
+    "contexto": "Fio de extensão",
+    "enunciado": "Um fio de cobre de 10 m tem resistência de 10 Ω. Outro fio, do mesmo material e da mesma espessura, tem 20 m de comprimento. Qual é a resistência do segundo fio?",
+    "alternativas": [
+      { "letra": "A", "texto": "5 Ω", "correta": false, "etiqueta": "fis-proporcao-invertida" },
+      { "letra": "B", "texto": "10 Ω", "correta": false, "etiqueta": "fis-ignorou-dado" },
+      { "letra": "C", "texto": "40 Ω", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "D", "texto": "30 Ω", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "E", "texto": "20 Ω", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "A resistência de um fio é diretamente proporcional ao comprimento (R = ρ·L/A). Com o dobro do comprimento e a mesma área, a resistência dobra: 20 Ω. Dividir por 2 (5 Ω) trata a relação como inversa.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-eletrodinamica-009", "materia": "fisica", "assunto": "eletrodinamica", "questionario": 2, "dificuldade": 1,
+    "contexto": "Chuveiro na tomada errada",
+    "enunciado": "Um chuveiro de 4.400 W foi fabricado para funcionar em 220 V. Por engano, foi ligado em uma rede de 110 V. Supondo que a resistência não mude, qual é a potência dissipada?",
+    "alternativas": [
+      { "letra": "A", "texto": "2.200 W", "correta": false, "etiqueta": "fis-esqueceu-quadrado" },
+      { "letra": "B", "texto": "1.100 W", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "4.400 W", "correta": false, "etiqueta": "fis-ignorou-dado" },
+      { "letra": "D", "texto": "550 W", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "E", "texto": "17.600 W", "correta": false, "etiqueta": "fis-proporcao-invertida" }
+    ],
+    "explicacao": "Como P = U²/R, a resistência é R = 220² ÷ 4.400 = 11 Ω. Em 110 V: P = 110² ÷ 11 = 1.100 W. A potência cai a 1/4, porque a tensão entra ao quadrado (e não pela metade, como em 2.200 W).",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-eletrodinamica-010", "materia": "fisica", "assunto": "eletrodinamica", "questionario": 2, "dificuldade": 1,
+    "contexto": "Disjuntor da cozinha",
+    "enunciado": "Uma tomada de 220 V é protegida por um disjuntor de 20 A. Quantos aparelhos de 1.100 W cada, no máximo, podem funcionar ao mesmo tempo nessa tomada sem desarmar o disjuntor?",
+    "alternativas": [
+      { "letra": "A", "texto": "20", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "B", "texto": "5", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "C", "texto": "3", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "D", "texto": "4", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "2", "correta": false, "etiqueta": "fis-ignorou-dado" }
+    ],
+    "explicacao": "A potência máxima é P = U × i = 220 × 20 = 4.400 W. Cada aparelho usa 1.100 W, então cabem 4.400 ÷ 1.100 = 4 aparelhos. Usar 110 V no cálculo daria apenas 2.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-eletrodinamica-011", "materia": "fisica", "assunto": "eletrodinamica", "questionario": 3, "dificuldade": -1,
+    "contexto": "Carga no fio",
+    "enunciado": "Por um fio passa uma carga elétrica de 12 C em 4 segundos. Qual é a corrente elétrica média no fio?",
+    "alternativas": [
+      { "letra": "A", "texto": "48 A", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "B", "texto": "8 A", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "C", "texto": "0,33 A", "correta": false, "etiqueta": "fis-proporcao-invertida" },
+      { "letra": "D", "texto": "16 A", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "E", "texto": "3 A", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "A corrente é a carga por unidade de tempo: i = Q ÷ t = 12 ÷ 4 = 3 A. Multiplicar carga por tempo (48) não dá corrente, e inverter a divisão dá 0,33.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-eletrodinamica-012", "materia": "fisica", "assunto": "eletrodinamica", "questionario": 3, "dificuldade": -1,
+    "contexto": "Secador de cabelo",
+    "enunciado": "Um secador de 1.500 W é usado por 20 minutos. Quantos kWh de energia ele consome?",
+    "alternativas": [
+      { "letra": "A", "texto": "30 kWh", "correta": false, "etiqueta": "fis-unidade" },
+      { "letra": "B", "texto": "0,5 kWh", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "1,5 kWh", "correta": false, "etiqueta": "fis-potencia-energia" },
+      { "letra": "D", "texto": "0,05 kWh", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "E", "texto": "5 kWh", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "1.500 W = 1,5 kW e 20 min = 1/3 h. A energia é 1,5 × 1/3 = 0,5 kWh. Os 1,5 são só a potência em kW, e 30 vem de usar 20 como se fossem horas.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-eletrodinamica-013", "materia": "fisica", "assunto": "eletrodinamica", "questionario": 3, "dificuldade": 0,
+    "contexto": "Lâmpada de laboratório",
+    "enunciado": "Em um experimento, uma lâmpada é ligada a 12 V e é percorrida por uma corrente de 0,5 A. Qual é a resistência elétrica da lâmpada?",
+    "alternativas": [
+      { "letra": "A", "texto": "6 Ω", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "B", "texto": "0,04 Ω", "correta": false, "etiqueta": "fis-proporcao-invertida" },
+      { "letra": "C", "texto": "12,5 Ω", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "D", "texto": "24 Ω", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "11,5 Ω", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "Pela lei de Ohm, R = U ÷ i = 12 ÷ 0,5 = 24 Ω. Multiplicar 12 por 0,5 (6) dá a potência em watts, não a resistência.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-eletrodinamica-014", "materia": "fisica", "assunto": "eletrodinamica", "questionario": 3, "dificuldade": 0,
+    "contexto": "Resistor esquentando",
+    "enunciado": "Um resistor de 5 Ω é percorrido por uma corrente de 3 A. Qual é a potência dissipada nele?",
+    "alternativas": [
+      { "letra": "A", "texto": "15 W", "correta": false, "etiqueta": "fis-esqueceu-quadrado" },
+      { "letra": "B", "texto": "75 W", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "C", "texto": "45 W", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "225 W", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "E", "texto": "8 W", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "A potência dissipada em um resistor é P = R × i² = 5 × 3² = 5 × 9 = 45 W. Sem elevar a corrente ao quadrado, daria 15 W.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-eletrodinamica-015", "materia": "fisica", "assunto": "eletrodinamica", "questionario": 3, "dificuldade": 1,
+    "contexto": "Lâmpadas em série",
+    "enunciado": "Duas lâmpadas idênticas, cada uma de 12 V e 24 W, são ligadas em série a uma bateria de 12 V. Supondo que a resistência de cada lâmpada seja constante, qual é a potência total dissipada pelas duas?",
+    "alternativas": [
+      { "letra": "A", "texto": "12 W", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "24 W", "correta": false, "etiqueta": "fis-ignorou-dado" },
+      { "letra": "C", "texto": "48 W", "correta": false, "etiqueta": "fis-serie-paralelo" },
+      { "letra": "D", "texto": "6 W", "correta": false, "etiqueta": "fis-parou-no-intermediario" },
+      { "letra": "E", "texto": "144 W", "correta": false, "etiqueta": "fis-formula-trocada" }
+    ],
+    "explicacao": "Cada lâmpada tem R = U²/P = 144 ÷ 24 = 6 Ω. Em série, a resistência total é 12 Ω e a potência é P = U²/R = 144 ÷ 12 = 12 W. Cada lâmpada fica com 6 W (a metade do total), e 48 W seriam das duas em paralelo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-eletrodinamica-016", "materia": "fisica", "assunto": "eletrodinamica", "questionario": 4, "dificuldade": -1,
+    "contexto": "Lâmpada acesa por uma hora",
+    "enunciado": "Uma lâmpada de 100 W fica acesa por 1 hora. Quantos joules de energia ela consome? (1 hora = 3.600 s)",
+    "alternativas": [
+      { "letra": "A", "texto": "100 J", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "B", "texto": "6.000 J", "correta": false, "etiqueta": "fis-unidade" },
+      { "letra": "C", "texto": "3.600 J", "correta": false, "etiqueta": "fis-parou-no-intermediario" },
+      { "letra": "D", "texto": "360.000 J", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "36.000 J", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "A energia é potência × tempo, com o tempo em segundos: 100 W × 3.600 s = 360.000 J. Usar 60 (minutos) no lugar de 3.600 s dá 6.000 J.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-eletrodinamica-017", "materia": "fisica", "assunto": "eletrodinamica", "questionario": 4, "dificuldade": 0,
+    "contexto": "Micro-ondas na tomada",
+    "enunciado": "Um forno de micro-ondas de 2.200 W é ligado a uma tomada de 220 V. Qual é a corrente que ele puxa da rede?",
+    "alternativas": [
+      { "letra": "A", "texto": "0,1 A", "correta": false, "etiqueta": "fis-proporcao-invertida" },
+      { "letra": "B", "texto": "2.420 A", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "C", "texto": "10 A", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "484.000 A", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "E", "texto": "20 A", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "De P = U × i, a corrente é i = P ÷ U = 2.200 ÷ 220 = 10 A. Dividir ao contrário dá 0,1 A, e multiplicar P por U (484.000) não tem sentido físico.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-eletrodinamica-018", "materia": "fisica", "assunto": "eletrodinamica", "questionario": 4, "dificuldade": 0,
+    "contexto": "Trocando as lâmpadas",
+    "enunciado": "Uma lâmpada incandescente de 60 W é trocada por uma de LED de 9 W, que acende o mesmo tanto. Ela fica ligada 5 h por dia, durante 30 dias, com tarifa de R$ 0,80 por kWh. Quanto se economiza no mês?",
+    "alternativas": [
+      { "letra": "A", "texto": "R$ 7,65", "correta": false, "etiqueta": "fis-parou-no-intermediario" },
+      { "letra": "B", "texto": "R$ 6,12", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "R$ 1,08", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "D", "texto": "R$ 7,20", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "E", "texto": "R$ 6.120,00", "correta": false, "etiqueta": "fis-unidade" }
+    ],
+    "explicacao": "A diferença de potência é 60 − 9 = 51 W. Em 5 × 30 = 150 h, a economia é 0,051 kW × 150 h = 7,65 kWh. Multiplicando pela tarifa: 7,65 × 0,80 = R$ 6,12. Os 7,65 são kWh, não reais.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-eletrodinamica-019", "materia": "fisica", "assunto": "eletrodinamica", "questionario": 4, "dificuldade": 1,
+    "contexto": "Três resistores iguais",
+    "enunciado": "Três resistores de 4 Ω cada são ligados assim: dois em paralelo entre si, e esse par em série com o terceiro. O conjunto é ligado a uma bateria de 12 V. Qual é a corrente em um dos dois resistores que estão em paralelo?",
+    "alternativas": [
+      { "letra": "A", "texto": "1 A", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "2 A", "correta": false, "etiqueta": "fis-parou-no-intermediario" },
+      { "letra": "C", "texto": "3 A", "correta": false, "etiqueta": "fis-ignorou-dado" },
+      { "letra": "D", "texto": "6 A", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "E", "texto": "0,5 A", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "O par em paralelo vale 2 Ω, e com o terceiro resistor a resistência total é 6 Ω. A corrente total é 12 ÷ 6 = 2 A. Ao chegar ao par em paralelo, ela se divide igualmente: cada resistor recebe 1 A. Os 2 A são a corrente total, não a de cada ramo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-eletrodinamica-020", "materia": "fisica", "assunto": "eletrodinamica", "questionario": 4, "dificuldade": 1,
+    "contexto": "Fio esquentando",
+    "enunciado": "Um fio de resistência 0,5 Ω é percorrido por uma corrente de 10 A durante 2 minutos. Qual é a energia dissipada em forma de calor (efeito Joule)?",
+    "alternativas": [
+      { "letra": "A", "texto": "50 J", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "B", "texto": "100 J", "correta": false, "etiqueta": "fis-unidade" },
+      { "letra": "C", "texto": "600 J", "correta": false, "etiqueta": "fis-esqueceu-quadrado" },
+      { "letra": "D", "texto": "12.000 J", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "E", "texto": "6.000 J", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "A energia dissipada é E = R × i² × t, com o tempo em segundos: 2 min = 120 s. Então E = 0,5 × 10² × 120 = 0,5 × 100 × 120 = 6.000 J. Sem converter o tempo, o resultado cai para 100 J.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]

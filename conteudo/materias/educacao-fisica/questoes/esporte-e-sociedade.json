@@ -1,0 +1,282 @@
+[
+  {
+    "id": "edf-esporte-e-sociedade-001", "materia": "educacao-fisica", "assunto": "esporte-e-sociedade", "questionario": 1, "dificuldade": -1,
+    "contexto": "Pelada na rua e campeonato",
+    "enunciado": "Numa aula, a turma discute a diferença entre uma pelada de rua, com regras combinadas na hora, e uma partida de campeonato oficial. O que caracteriza o esporte institucionalizado, como o do campeonato?",
+    "alternativas": [
+      { "letra": "A", "texto": "Regras inventadas na hora pelos próprios jogadores", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "B", "texto": "Ausência total de competição", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "C", "texto": "Regras oficiais padronizadas e organização por federações e competições", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Prática permitida apenas dentro da escola", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "E", "texto": "Uso obrigatório de bola em todas as modalidades", "correta": false, "etiqueta": "edf-regra-errada" }
+    ],
+    "explicacao": "O esporte institucionalizado tem regras oficiais iguais para todos e é organizado por entidades, o que permite competições em qualquer lugar. A pelada de rua é um jogo com regras flexíveis. E nem todo esporte usa bola, como a natação.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-esporte-e-sociedade-002", "materia": "educacao-fisica", "assunto": "esporte-e-sociedade", "questionario": 1, "dificuldade": -1,
+    "contexto": "Jogos da Antiguidade",
+    "enunciado": "Os Jogos Olímpicos da era moderna começaram em 1896, em Atenas, inspirados em competições realizadas na Grécia Antiga. Em que lugar essas competições aconteciam?",
+    "alternativas": [
+      { "letra": "A", "texto": "Olímpia, na Grécia", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Roma, na Itália", "correta": false, "etiqueta": "edf-origem-errada" },
+      { "letra": "C", "texto": "Mênfis, no Egito", "correta": false, "etiqueta": "edf-origem-errada" },
+      { "letra": "D", "texto": "Pequim, na China", "correta": false, "etiqueta": "edf-origem-errada" },
+      { "letra": "E", "texto": "Paris, na França", "correta": false, "etiqueta": "edf-origem-errada" }
+    ],
+    "explicacao": "Os Jogos da Antiguidade eram realizados em Olímpia, na Grécia, e deram nome aos Jogos Olímpicos. Paris foi sede de edições modernas, mas não da origem antiga.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-esporte-e-sociedade-003", "materia": "educacao-fisica", "assunto": "esporte-e-sociedade", "questionario": 1, "dificuldade": 0,
+    "contexto": "Esporte adaptado",
+    "enunciado": "No esporte paralímpico, regras, equipamentos e categorias são adaptados para que pessoas com deficiência possam competir em condições justas. O que essa organização evidencia?",
+    "alternativas": [
+      { "letra": "A", "texto": "Que atletas com deficiência só podem competir entre si, jamais em outras situações", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "B", "texto": "Que a deficiência é motivo para dispensa das aulas de Educação Física", "correta": false, "etiqueta": "edf-ignorou-inclusao" },
+      { "letra": "C", "texto": "Que adaptar regras desvaloriza o esporte", "correta": false, "etiqueta": "edf-ignorou-inclusao" },
+      { "letra": "D", "texto": "Que o esporte adaptado é apenas uma atividade terapêutica, sem competição", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "E", "texto": "Que o esporte pode ser organizado para incluir, com formas variadas de participar e competir", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Adaptações garantem acesso e igualdade de condições, mostrando que o esporte pode ser pensado para incluir. Adaptar regras não desvaloriza a modalidade, e o esporte paralímpico é de alto rendimento, com competição.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-esporte-e-sociedade-004", "materia": "educacao-fisica", "assunto": "esporte-e-sociedade", "questionario": 1, "dificuldade": 0,
+    "contexto": "Torneio de fim de semana",
+    "enunciado": "Um grupo de colegas organiza um torneio de vôlei de fim de semana no bairro, sem prêmios, só para se divertir e conviver. Esse tipo de prática corresponde a qual dimensão do esporte?",
+    "alternativas": [
+      { "letra": "A", "texto": "Esporte de rendimento, com foco em recordes", "correta": false, "etiqueta": "edf-so-rendimento" },
+      { "letra": "B", "texto": "Esporte de participação, ligado ao lazer e à convivência", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Formação de atletas profissionais", "correta": false, "etiqueta": "edf-so-rendimento" },
+      { "letra": "D", "texto": "Reabilitação clínica", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "E", "texto": "Espetáculo televisionado", "correta": false, "etiqueta": "edf-confundiu-categoria" }
+    ],
+    "explicacao": "Quando o objetivo é diversão, encontro e bem-estar, sem foco em resultados, o esporte é de participação ou lazer. O rendimento busca vitória e desempenho máximo em competições organizadas.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-esporte-e-sociedade-005", "materia": "educacao-fisica", "assunto": "esporte-e-sociedade", "questionario": 1, "dificuldade": 1,
+    "contexto": "Esporte na TV",
+    "enunciado": "Para ampliar a audiência na televisão, algumas modalidades alteraram horários de jogos, regras e uniformes. Que análise é adequada sobre a relação entre esporte e mídia?",
+    "alternativas": [
+      { "letra": "A", "texto": "A mídia nunca interfere nas modalidades", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "B", "texto": "Mudar regras para a TV sempre melhora o esporte", "correta": false, "etiqueta": "edf-acritico-midia" },
+      { "letra": "C", "texto": "Só a torcida decide como os jogos são organizados", "correta": false, "etiqueta": "edf-fuga-do-tema" },
+      { "letra": "D", "texto": "O esporte espetáculo sofre influência do mercado e da mídia, e essas mudanças merecem análise crítica", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Esporte e mídia não têm nenhuma relação", "correta": false, "etiqueta": "edf-ignorou-contexto" }
+    ],
+    "explicacao": "Quando o esporte vira produto de mídia, interesses comerciais podem mudar horários e regras. Cabe analisar se isso beneficia quem pratica, quem assiste ou só o mercado. Afirmações absolutas como “nunca” e “sempre” não resolvem a questão.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-esporte-e-sociedade-006", "materia": "educacao-fisica", "assunto": "esporte-e-sociedade", "questionario": 2, "dificuldade": -1,
+    "contexto": "A bola e a honestidade",
+    "enunciado": "Num jogo, um jogador admite que a bola tocou nele por último antes de sair, e assim a posse passa ao adversário, mesmo sem o árbitro ter visto. Essa atitude é um exemplo de:",
+    "alternativas": [
+      { "letra": "A", "texto": "fair play, ou jogo limpo", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "derrota proposital", "correta": false, "etiqueta": "edf-confundiu-conceito" },
+      { "letra": "C", "texto": "trapaça", "correta": false, "etiqueta": "edf-confundiu-conceito" },
+      { "letra": "D", "texto": "estratégia de rendimento", "correta": false, "etiqueta": "edf-so-rendimento" },
+      { "letra": "E", "texto": "indisciplina", "correta": false, "etiqueta": "edf-confundiu-conceito" }
+    ],
+    "explicacao": "Fair play é agir com lealdade e respeito às regras e ao adversário, mesmo quando isso não ajuda a vencer. Reconhecer o próprio toque na bola é um exemplo clássico.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-esporte-e-sociedade-007", "materia": "educacao-fisica", "assunto": "esporte-e-sociedade", "questionario": 2, "dificuldade": -1,
+    "contexto": "A chegada do futebol ao Brasil",
+    "enunciado": "O futebol chegou ao Brasil na década de 1890, trazido por Charles Miller depois de estudar na Inglaterra. No início, a prática ocorria principalmente em clubes de acesso restrito. Quem tinha mais acesso a esses espaços?",
+    "alternativas": [
+      { "letra": "A", "texto": "Apenas trabalhadores de fábricas", "correta": false, "etiqueta": "edf-ignorou-contexto" },
+      { "letra": "B", "texto": "Apenas crianças", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "C", "texto": "Povos indígenas das aldeias", "correta": false, "etiqueta": "edf-origem-errada" },
+      { "letra": "D", "texto": "Principalmente a elite, antes de o esporte se popularizar", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Todas as classes sociais, em igualdade", "correta": false, "etiqueta": "edf-ignorou-contexto" }
+    ],
+    "explicacao": "No começo, o futebol era praticado em clubes de elite, e só depois se espalhou pelas ruas, fábricas e várzeas até virar paixão popular. A pegadinha é achar que sempre foi esporte de todos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-esporte-e-sociedade-008", "materia": "educacao-fisica", "assunto": "esporte-e-sociedade", "questionario": 2, "dificuldade": 0,
+    "contexto": "Futebol e gênero",
+    "enunciado": "No Brasil, uma norma legal impediu mulheres de praticar futebol durante décadas, de 1941 até o fim dos anos 1970. Qual fator ajuda a explicar essa restrição?",
+    "alternativas": [
+      { "letra": "A", "texto": "Falta de interesse das mulheres pelo esporte", "correta": false, "etiqueta": "edf-ignorou-contexto" },
+      { "letra": "B", "texto": "Preconceitos de gênero e a ideia de que certos esportes seriam inadequados às mulheres, hoje contestada pela luta por igualdade", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Diferenças físicas que tornam impossível para as mulheres jogar futebol", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "D", "texto": "Falta de bolas nos clubes", "correta": false, "etiqueta": "edf-fuga-do-tema" },
+      { "letra": "E", "texto": "Pedido das próprias atletas", "correta": false, "etiqueta": "edf-ignorou-contexto" }
+    ],
+    "explicacao": "A proibição refletia preconceitos de uma época em que se dizia que certas práticas não seriam apropriadas às mulheres. A luta pela igualdade derrubou a norma e ampliou o espaço do futebol feminino.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-esporte-e-sociedade-009", "materia": "educacao-fisica", "assunto": "esporte-e-sociedade", "questionario": 2, "dificuldade": 0,
+    "contexto": "Projeto esportivo no bairro",
+    "enunciado": "Um projeto social oferece treino gratuito de vôlei a jovens de um bairro periférico, com reforço escolar e rodas de conversa sobre cidadania. Qual é a principal função social desse projeto?",
+    "alternativas": [
+      { "letra": "A", "texto": "Apenas revelar futuros craques para clubes", "correta": false, "etiqueta": "edf-so-rendimento" },
+      { "letra": "B", "texto": "Afastar os jovens da escola", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "C", "texto": "Substituir totalmente as políticas públicas de educação", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "D", "texto": "Eliminar qualquer forma de competição", "correta": false, "etiqueta": "edf-fuga-do-tema" },
+      { "letra": "E", "texto": "Usar o esporte para formação, convivência e acesso a direitos, e não só para revelar atletas", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "O esporte pode ser ferramenta de formação e de inclusão, e o reforço escolar e as rodas de conversa mostram que o foco vai além de formar atletas. Projetos sociais complementam, e não substituem, as políticas públicas.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-esporte-e-sociedade-010", "materia": "educacao-fisica", "assunto": "esporte-e-sociedade", "questionario": 2, "dificuldade": 1,
+    "contexto": "Substâncias proibidas na competição",
+    "enunciado": "O doping, uso de substâncias proibidas para melhorar o desempenho, é punido nas competições esportivas. Qual é um argumento ético central contra essa prática?",
+    "alternativas": [
+      { "letra": "A", "texto": "Porque as substâncias são sempre caras", "correta": false, "etiqueta": "edf-fuga-do-tema" },
+      { "letra": "B", "texto": "Porque diminui a audiência na TV", "correta": false, "etiqueta": "edf-acritico-midia" },
+      { "letra": "C", "texto": "Porque fere a igualdade de condições entre os competidores e pode trazer riscos à saúde", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Porque atletas nunca devem usar nenhum medicamento", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "E", "texto": "Porque está fora de moda", "correta": false, "etiqueta": "edf-fuga-do-tema" }
+    ],
+    "explicacao": "O doping quebra a ideia de competição justa, em que o mérito vem do treino e do talento, e pode trazer riscos à saúde de quem usa. Medicamentos prescritos e autorizados não são doping.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-esporte-e-sociedade-011", "materia": "educacao-fisica", "assunto": "esporte-e-sociedade", "questionario": 3, "dificuldade": -1,
+    "contexto": "Cesta de pêssego",
+    "enunciado": "O basquete foi criado nos Estados Unidos, em 1891, por James Naismith, professor de uma escola de formação. Qual era o objetivo inicial da criação do jogo?",
+    "alternativas": [
+      { "letra": "A", "texto": "Ser jogado em campos de grama", "correta": false, "etiqueta": "edf-regra-errada" },
+      { "letra": "B", "texto": "Substituir o futebol", "correta": false, "etiqueta": "edf-fuga-do-tema" },
+      { "letra": "C", "texto": "Ser esporte olímpico desde o primeiro dia", "correta": false, "etiqueta": "edf-ignorou-contexto" },
+      { "letra": "D", "texto": "Ser praticado só por mulheres", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "E", "texto": "Manter os alunos ativos em ambiente fechado durante o inverno", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Naismith precisava de uma atividade para os alunos durante o inverno, em local coberto. Por isso o jogo foi pensado para a quadra fechada. A cesta alta evita o contato físico direto, típico de outras modalidades.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-esporte-e-sociedade-012", "materia": "educacao-fisica", "assunto": "esporte-e-sociedade", "questionario": 3, "dificuldade": 0,
+    "contexto": "Trilha e rapel",
+    "enunciado": "Esportes de aventura, como trilha e rapel, acontecem em ambientes naturais, e dependem das condições do local. Qual cuidado é essencial para praticá-los?",
+    "alternativas": [
+      { "letra": "A", "texto": "Dispensar qualquer preparo, pois todos são fáceis", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "B", "texto": "Praticar só quando se busca bater recordes", "correta": false, "etiqueta": "edf-so-rendimento" },
+      { "letra": "C", "texto": "Respeitar o ambiente e as normas de segurança, com preparo e equipamentos adequados", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Ignorar o impacto sobre a natureza", "correta": false, "etiqueta": "edf-ignorou-contexto" },
+      { "letra": "E", "texto": "Evitar equipamentos de proteção", "correta": false, "etiqueta": "edf-regra-errada" }
+    ],
+    "explicacao": "Como acontecem na natureza, esses esportes exigem preparo, equipamento de segurança e cuidado com o ambiente. Sem isso, aumentam os riscos para quem pratica e para o local.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-esporte-e-sociedade-013", "materia": "educacao-fisica", "assunto": "esporte-e-sociedade", "questionario": 3, "dificuldade": 0,
+    "contexto": "Esporte na escola",
+    "enunciado": "Nas aulas de Educação Física, o professor quer trabalhar o esporte de modo que todos participem, aprendam regras e valorizem a cooperação, e não apenas quem já tem muita habilidade. Qual proposta corresponde a esse objetivo?",
+    "alternativas": [
+      { "letra": "A", "texto": "Esporte educacional, com foco na participação e na aprendizagem de todos", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Selecionar os mais habilidosos e deixar os demais de fora", "correta": false, "etiqueta": "edf-so-rendimento" },
+      { "letra": "C", "texto": "Aplicar treinos exaustivos como os de atletas de elite", "correta": false, "etiqueta": "edf-so-rendimento" },
+      { "letra": "D", "texto": "Eliminar as regras para evitar conflitos", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "E", "texto": "Substituir a prática por aulas apenas teóricas", "correta": false, "etiqueta": "edf-fuga-do-tema" }
+    ],
+    "explicacao": "O esporte educacional busca formação, inclusão e aprendizagem, e não a seleção dos melhores. As regras continuam sendo importantes, pois são parte da aprendizagem de conviver e cooperar.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-esporte-e-sociedade-014", "materia": "educacao-fisica", "assunto": "esporte-e-sociedade", "questionario": 3, "dificuldade": 1,
+    "contexto": "Futebol e identidade",
+    "enunciado": "O futebol costuma ser usado como símbolo de identidade nacional, e a seleção brasileira reúne torcedores de todo o país. Que cuidado crítico é necessário ao analisar essa relação?",
+    "alternativas": [
+      { "letra": "A", "texto": "Aceitar que o futebol resolve todos os problemas sociais", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "B", "texto": "Concluir que só homens se identificam com o futebol", "correta": false, "etiqueta": "edf-ignorou-inclusao" },
+      { "letra": "C", "texto": "Concluir que o futebol nunca une pessoas", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "D", "texto": "Reconhecer que o futebol une e representa muita gente, mas não elimina desigualdades nem representa todos do mesmo modo", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Afirmar que o futebol define sozinho toda a identidade do país", "correta": false, "etiqueta": "edf-extremo" }
+    ],
+    "explicacao": "O futebol é um elemento importante de identidade e convivência, mas não resolve problemas sociais nem expressa toda a diversidade do país. A análise crítica evita as afirmações absolutas.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-esporte-e-sociedade-015", "materia": "educacao-fisica", "assunto": "esporte-e-sociedade", "questionario": 3, "dificuldade": 1,
+    "contexto": "Clubes de elite e racismo",
+    "enunciado": "No início do século XX, muitos clubes brasileiros de elite restringiam a entrada de jogadores negros e pobres. Com o tempo, o esporte passou a ser também um espaço de luta contra o racismo. O que isso mostra?",
+    "alternativas": [
+      { "letra": "A", "texto": "Que o esporte é neutro e independe da sociedade", "correta": false, "etiqueta": "edf-ignorou-contexto" },
+      { "letra": "B", "texto": "Que o esporte reflete as desigualdades da sociedade, mas também pode ser espaço de luta por igualdade", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Que o racismo nunca existiu no esporte", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "D", "texto": "Que o esporte resolve sozinho o racismo", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "E", "texto": "Que a luta contra o racismo é só uma questão jurídica", "correta": false, "etiqueta": "edf-extremo" }
+    ],
+    "explicacao": "O esporte reproduz tensões da sociedade, como a desigualdade, mas também pode ser lugar de resistência e mudança. Ele não é neutro nem resolve sozinho problemas sociais.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-esporte-e-sociedade-016", "materia": "educacao-fisica", "assunto": "esporte-e-sociedade", "questionario": 4, "dificuldade": -1,
+    "contexto": "Três toques no vôlei",
+    "enunciado": "No voleibol, cada equipe pode dar no máximo quantos toques consecutivos na bola antes de enviá-la para o outro lado da quadra, sem contar o bloqueio?",
+    "alternativas": [
+      { "letra": "A", "texto": "Dois", "correta": false, "etiqueta": "edf-regra-errada" },
+      { "letra": "B", "texto": "Três", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Quatro", "correta": false, "etiqueta": "edf-regra-errada" },
+      { "letra": "D", "texto": "Cinco", "correta": false, "etiqueta": "edf-regra-errada" },
+      { "letra": "E", "texto": "Quantos a equipe quiser", "correta": false, "etiqueta": "edf-regra-errada" }
+    ],
+    "explicacao": "Pela regra do vôlei, a equipe tem até três toques para devolver a bola. O bloqueio não conta como um desses toques.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-esporte-e-sociedade-017", "materia": "educacao-fisica", "assunto": "esporte-e-sociedade", "questionario": 4, "dificuldade": 0,
+    "contexto": "Esportes coletivos",
+    "enunciado": "Para uma atividade, a professora pede à turma que identifique a lista com apenas modalidades coletivas, em que as equipes interagem com e contra os adversários. Qual alternativa atende a esse pedido?",
+    "alternativas": [
+      { "letra": "A", "texto": "Natação, atletismo e judô", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "B", "texto": "Vôlei, natação e salto em altura", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "C", "texto": "Futsal, judô e ginástica artística", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "D", "texto": "Handebol, tênis de campo e salto com vara", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "E", "texto": "Futsal, handebol e basquete", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Futsal, handebol e basquete são jogados em equipes, com cooperação entre colegas e disputa com o adversário. Nas outras listas aparecem modalidades individuais, como natação, judô e salto.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-esporte-e-sociedade-018", "materia": "educacao-fisica", "assunto": "esporte-e-sociedade", "questionario": 4, "dificuldade": 0,
+    "contexto": "O importante é participar",
+    "enunciado": "O ideal olímpico moderno costuma ser resumido pela ideia de que o importante é participar e competir com respeito, e não apenas vencer. Como essa ideia pode ser interpretada?",
+    "alternativas": [
+      { "letra": "A", "texto": "Defende vencer a qualquer custo", "correta": false, "etiqueta": "edf-so-rendimento" },
+      { "letra": "B", "texto": "Rejeita qualquer tipo de competição", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "C", "texto": "Defende acabar com as regras", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "D", "texto": "Valoriza a participação, o respeito e o esforço, e não só a vitória", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Vale somente para atletas profissionais", "correta": false, "etiqueta": "edf-ignorou-inclusao" }
+    ],
+    "explicacao": "A frase valoriza o encontro, o esforço e o respeito aos adversários como parte do esporte, sem negar a competição. Vencer a qualquer custo contraria essa ideia.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-esporte-e-sociedade-019", "materia": "educacao-fisica", "assunto": "esporte-e-sociedade", "questionario": 4, "dificuldade": 1,
+    "contexto": "Jovens atletas",
+    "enunciado": "Muitos jovens sonham com a carreira de atleta de alto rendimento. Especialistas alertam que treinamento intenso desde muito cedo, sem acompanhamento e sem equilíbrio com escola e descanso, pode prejudicar a saúde e a formação. Qual conclusão decorre desse alerta?",
+    "alternativas": [
+      { "letra": "A", "texto": "Crianças e adolescentes não devem praticar esporte", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "B", "texto": "Buscar rendimento é errado em qualquer situação", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "C", "texto": "A formação de jovens atletas precisa de acompanhamento e de equilíbrio entre treino, escola e descanso", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Só adultos podem desenvolver habilidades esportivas", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "E", "texto": "Descanso atrapalha o desempenho de quem treina", "correta": false, "etiqueta": "edf-confundiu-conceito" }
+    ],
+    "explicacao": "O alerta não é contra o esporte na juventude, mas contra o excesso sem cuidado. Treino, estudo e descanso precisam caminhar juntos, e o descanso faz parte do bom desempenho.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-esporte-e-sociedade-020", "materia": "educacao-fisica", "assunto": "esporte-e-sociedade", "questionario": 4, "dificuldade": 1,
+    "contexto": "Grandes eventos esportivos",
+    "enunciado": "Grandes eventos, como Copas do Mundo e Olimpíadas, movimentam a economia e o turismo, mas também geram debate sobre gastos públicos e sobre o que fica para a população depois deles. Qual é a postura crítica mais adequada?",
+    "alternativas": [
+      { "letra": "A", "texto": "Avaliar custos e benefícios, incluindo o legado social e o uso dos recursos, em vez de aceitar vantagens sem questionar", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Aceitar que tudo o que envolve esses eventos é positivo", "correta": false, "etiqueta": "edf-acritico-midia" },
+      { "letra": "C", "texto": "Rejeitar qualquer grande evento esportivo, sem análise", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "D", "texto": "Considerar apenas o turismo e deixar de lado os demais efeitos", "correta": false, "etiqueta": "edf-fuga-do-tema" },
+      { "letra": "E", "texto": "Afirmar que gastos públicos nunca podem ser questionados", "correta": false, "etiqueta": "edf-extremo" }
+    ],
+    "explicacao": "A análise crítica pesa ganhos e custos e pergunta o que o evento deixa para a população. Aceitar tudo ou rejeitar tudo sem análise são posturas simplificadoras.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]

@@ -1,10 +1,9 @@
 <script setup lang="ts">
-import { RotateCcw, Volume2, VolumeX } from '@lucide/vue';
+import { RotateCcw } from '@lucide/vue';
 import { niveisZoeira } from '@/data/landingDemo';
 import type { Zoeira } from '@/data/landingDemo';
 
-defineProps<{ somLigado: boolean }>();
-defineEmits<{ alternarSom: []; reiniciar: [] }>();
+defineEmits<{ reiniciar: [] }>();
 
 const nivel = defineModel<Zoeira>('nivel', { required: true });
 </script>
@@ -30,20 +29,10 @@ const nivel = defineModel<Zoeira>('nivel', { required: true });
             <button
                 type="button"
                 class="l-icon-btn"
-                :aria-pressed="somLigado"
-                @click="$emit('alternarSom')"
-            >
-                <Volume2 v-if="somLigado" class="size-5" aria-hidden="true" />
-                <VolumeX v-else class="size-5" aria-hidden="true" />
-                <span class="sr-only">Efeitos sonoros</span>
-            </button>
-            <button
-                type="button"
-                class="l-icon-btn"
+                aria-label="Recomeçar a questão"
                 @click="$emit('reiniciar')"
             >
                 <RotateCcw class="size-5" aria-hidden="true" />
-                <span class="sr-only">Recomeçar a questão</span>
             </button>
         </div>
     </div>

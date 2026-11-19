@@ -1,0 +1,282 @@
+[
+  {
+    "id": "art-patrimonio-cultural-001", "materia": "artes", "assunto": "patrimonio-cultural", "questionario": 1, "dificuldade": -1,
+    "contexto": "Tabuleiro da baiana",
+    "enunciado": "O ofício das baianas de acarajé, com seu modo de fazer transmitido de geração em geração, foi registrado pelo IPHAN como bem cultural brasileiro. Esse tipo de bem é classificado como patrimônio:",
+    "alternativas": [
+      { "letra": "A", "texto": "imaterial", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "material imóvel, como um prédio", "correta": false, "etiqueta": "art-patrimonio-so-pedra" },
+      { "letra": "C", "texto": "material móvel, como uma pintura", "correta": false, "etiqueta": "art-patrimonio-so-pedra" },
+      { "letra": "D", "texto": "arqueológico, como um sítio com fósseis", "correta": false, "etiqueta": "art-patrimonio-so-pedra" },
+      { "letra": "E", "texto": "natural, como uma floresta", "correta": false, "etiqueta": "art-fuga-do-tema" }
+    ],
+    "explicacao": "Saberes, ofícios, celebrações e formas de expressão fazem parte do patrimônio imaterial, que vive na prática e na transmissão entre pessoas. A pegadinha é achar que patrimônio é sempre algo que dá pra tocar.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-patrimonio-cultural-002", "materia": "artes", "assunto": "patrimonio-cultural", "questionario": 1, "dificuldade": -1,
+    "contexto": "Quem cuida do patrimônio",
+    "enunciado": "No Brasil, existe um órgão federal criado em 1937 que protege, identifica e registra bens do patrimônio cultural nacional. Qual é ele?",
+    "alternativas": [
+      { "letra": "A", "texto": "IBGE", "correta": false, "etiqueta": "art-fuga-do-tema" },
+      { "letra": "B", "texto": "INEP", "correta": false, "etiqueta": "art-fuga-do-tema" },
+      { "letra": "C", "texto": "ANVISA", "correta": false, "etiqueta": "art-fuga-do-tema" },
+      { "letra": "D", "texto": "IPHAN", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "FUNAI", "correta": false, "etiqueta": "art-fuga-do-tema" }
+    ],
+    "explicacao": "O IPHAN, Instituto do Patrimônio Histórico e Artístico Nacional, nasceu em 1937 e cuida dos bens culturais do país. O IBGE faz estatísticas, o INEP avalia a educação, a ANVISA cuida de vigilância sanitária e a FUNAI atua com povos indígenas.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-patrimonio-cultural-003", "materia": "artes", "assunto": "patrimonio-cultural", "questionario": 1, "dificuldade": 0,
+    "contexto": "Prédio tombado",
+    "enunciado": "Uma prefeitura anunciou o tombamento de um sobrado do século XIX no centro da cidade. Alguns moradores acharam que o prédio seria derrubado. O que significa, de fato, o tombamento?",
+    "alternativas": [
+      { "letra": "A", "texto": "O prédio será demolido para construir um novo", "correta": false, "etiqueta": "art-leitura-literal" },
+      { "letra": "B", "texto": "O prédio passa obrigatoriamente para o poder público", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "C", "texto": "O prédio passa a ter proteção legal, e não pode ser demolido ou descaracterizado sem autorização", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "O prédio só pode ser visitado por turistas", "correta": false, "etiqueta": "art-fuga-do-tema" },
+      { "letra": "E", "texto": "O prédio deixa de ter dono", "correta": false, "etiqueta": "art-extremo" }
+    ],
+    "explicacao": "Tombar é proteger legalmente um bem por seu valor histórico e cultural. O imóvel continua com o dono, mas mudanças e demolição precisam de autorização. A palavra “tombar” engana porque lembra cair.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-patrimonio-cultural-004", "materia": "artes", "assunto": "patrimonio-cultural", "questionario": 1, "dificuldade": 0,
+    "contexto": "O que a Constituição diz",
+    "enunciado": "A Constituição de 1988 define como patrimônio cultural brasileiro os bens de natureza material e imaterial que são referência para a identidade, a ação e a memória dos diferentes grupos formadores da sociedade. Na prática, o que essa definição significa?",
+    "alternativas": [
+      { "letra": "A", "texto": "Só o que é antigo e monumental pode ser patrimônio", "correta": false, "etiqueta": "art-patrimonio-so-pedra" },
+      { "letra": "B", "texto": "Só a cultura das elites merece proteção", "correta": false, "etiqueta": "art-hierarquia-cultural" },
+      { "letra": "C", "texto": "Só a cultura de origem europeia entra na definição", "correta": false, "etiqueta": "art-hierarquia-cultural" },
+      { "letra": "D", "texto": "Só bens públicos podem ser patrimônio", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "E", "texto": "Saberes, celebrações e formas de expressão de vários grupos também são patrimônio, e não só os monumentos", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "O texto fala em “diferentes grupos” e em bens imateriais, ou seja, ampliou a ideia de patrimônio para além de igrejas e palácios. As alternativas erradas restringem a definição com palavras como “só”.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-patrimonio-cultural-005", "materia": "artes", "assunto": "patrimonio-cultural", "questionario": 1, "dificuldade": 1,
+    "contexto": "Roda de capoeira como patrimônio",
+    "enunciado": "A roda de capoeira e o ofício dos mestres foram reconhecidos como patrimônio imaterial. Isso não significa guardar a capoeira como peça de museu, imutável. Qual é a lógica da proteção nesse caso?",
+    "alternativas": [
+      { "letra": "A", "texto": "Impedir qualquer mudança na forma de jogar", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "B", "texto": "Valorizar e apoiar os grupos e mestres que a praticam e transmitem, reconhecendo que ela muda com o tempo", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Proibir a prática fora do Brasil", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "D", "texto": "Tornar a capoeira bem exclusivo do governo", "correta": false, "etiqueta": "art-ignorou-contexto" },
+      { "letra": "E", "texto": "Substituir a transmissão oral por manuais obrigatórios", "correta": false, "etiqueta": "art-patrimonio-so-pedra" }
+    ],
+    "explicacao": "O patrimônio imaterial é vivo: continua existindo porque pessoas o praticam e ensinam, e por isso muda. A proteção busca apoiar quem mantém a tradição, e não congelá-la nem controlá-la.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-patrimonio-cultural-006", "materia": "artes", "assunto": "patrimonio-cultural", "questionario": 2, "dificuldade": -1,
+    "contexto": "Cidade histórica mineira",
+    "enunciado": "Em 1980, uma cidade de Minas Gerais, famosa pelas igrejas barrocas e pelo conjunto colonial, tornou-se o primeiro bem brasileiro reconhecido como Patrimônio Mundial pela UNESCO. Qual é ela?",
+    "alternativas": [
+      { "letra": "A", "texto": "Salvador", "correta": false, "etiqueta": "art-fuga-do-tema" },
+      { "letra": "B", "texto": "Rio de Janeiro", "correta": false, "etiqueta": "art-fuga-do-tema" },
+      { "letra": "C", "texto": "Brasília", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "D", "texto": "Ouro Preto", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Olinda", "correta": false, "etiqueta": "art-origem-errada" }
+    ],
+    "explicacao": "O enunciado já indica Minas Gerais e arquitetura barroca colonial, e Ouro Preto é a cidade mineira desse perfil. Salvador e Olinda ficam em outros estados, e Brasília é do século XX.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-patrimonio-cultural-007", "materia": "artes", "assunto": "patrimonio-cultural", "questionario": 2, "dificuldade": -1,
+    "contexto": "Boi dançando no Maranhão",
+    "enunciado": "O bumba meu boi do Maranhão mistura dança, música, teatro, bordados e artesanato, e é mantido por grupos de comunidades locais. Que tipo de cultura ele representa?",
+    "alternativas": [
+      { "letra": "A", "texto": "Cultura erudita", "correta": false, "etiqueta": "art-hierarquia-cultural" },
+      { "letra": "B", "texto": "Cultura popular", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Arte acadêmica", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "D", "texto": "Arte conceitual", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "E", "texto": "Música sinfônica", "correta": false, "etiqueta": "art-confundiu-linguagem" }
+    ],
+    "explicacao": "O bumba meu boi nasce das comunidades e é transmitido pela tradição, características da cultura popular. Ele reúne várias linguagens, mas não tem relação com a arte acadêmica, conceitual ou sinfônica.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-patrimonio-cultural-008", "materia": "artes", "assunto": "patrimonio-cultural", "questionario": 2, "dificuldade": 0,
+    "contexto": "Sarau de piano e roda de samba",
+    "enunciado": "Numa atividade da escola, os alunos compararam um sarau de música clássica e uma roda de samba de quintal. Qual conclusão é a mais adequada?",
+    "alternativas": [
+      { "letra": "A", "texto": "A música clássica é a única cultura verdadeira", "correta": false, "etiqueta": "art-hierarquia-cultural" },
+      { "letra": "B", "texto": "A roda de samba não é cultura porque não usa partitura", "correta": false, "etiqueta": "art-hierarquia-cultural" },
+      { "letra": "C", "texto": "Só manifestações muito antigas podem ser consideradas cultura", "correta": false, "etiqueta": "art-patrimonio-so-pedra" },
+      { "letra": "D", "texto": "Só o que acontece em teatros tem valor cultural", "correta": false, "etiqueta": "art-hierarquia-cultural" },
+      { "letra": "E", "texto": "As duas são expressões culturais válidas, com origens, públicos e funções diferentes, e nenhuma é superior por natureza", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Cada manifestação nasce de um contexto próprio e tem valor cultural. Usar partitura, ter muita idade ou estar num teatro não definem o que é cultura. Hierarquizar é o erro de quem só olha para um modelo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-patrimonio-cultural-009", "materia": "artes", "assunto": "patrimonio-cultural", "questionario": 2, "dificuldade": 0,
+    "contexto": "História afro-brasileira e indígena na escola",
+    "enunciado": "Uma lei de 2008 tornou obrigatório o ensino da história e da cultura afro-brasileira e indígena nas escolas de ensino fundamental e médio. Qual é a principal finalidade dessa medida?",
+    "alternativas": [
+      { "letra": "A", "texto": "Substituir o estudo da história da Europa", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "B", "texto": "Criar uma disciplina optativa para quem se interessar", "correta": false, "etiqueta": "art-ignorou-contexto" },
+      { "letra": "C", "texto": "Reconhecer a contribuição desses povos e combater estereótipos, ampliando a visão sobre o patrimônio cultural brasileiro", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Restringir o estudo desses povos ao passado, sem tratar do presente", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "E", "texto": "Ensinar apenas aspectos religiosos dessas culturas", "correta": false, "etiqueta": "art-generalizou" }
+    ],
+    "explicacao": "A lei busca valorizar a história e a cultura de povos formadores do Brasil e combater preconceitos, ampliando o que a escola reconhece como patrimônio. O ensino é obrigatório, não opcional, e não substitui outros conteúdos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-patrimonio-cultural-010", "materia": "artes", "assunto": "patrimonio-cultural", "questionario": 2, "dificuldade": 1,
+    "contexto": "Perdas no acervo de um museu",
+    "enunciado": "O incêndio que destruiu grande parte do acervo do Museu Nacional, no Rio de Janeiro, em 2018, levantou discussões sobre a preservação de bens culturais. Que lição esse episódio ajuda a ilustrar?",
+    "alternativas": [
+      { "letra": "A", "texto": "Que manter, proteger e investir em acervos é essencial, pois bens perdidos muitas vezes não podem ser recuperados", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Que cópias digitais tornam desnecessário preservar os originais", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "C", "texto": "Que o patrimônio imaterial não precisa de proteção", "correta": false, "etiqueta": "art-fuga-do-tema" },
+      { "letra": "D", "texto": "Que museus servem apenas para turistas", "correta": false, "etiqueta": "art-funcao-so-decorativa" },
+      { "letra": "E", "texto": "Que a cultura se mantém sozinha, sem recursos", "correta": false, "etiqueta": "art-extremo" }
+    ],
+    "explicacao": "Acervos físicos são insubstituíveis, e sua preservação exige manutenção, segurança e investimento contínuos. Cópias digitais ajudam, mas não substituem o objeto original, e museus têm função de pesquisa e educação, não apenas turismo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-patrimonio-cultural-011", "materia": "artes", "assunto": "patrimonio-cultural", "questionario": 3, "dificuldade": -1,
+    "contexto": "Qual deles é imaterial?",
+    "enunciado": "Uma professora pediu à turma que apontasse, em uma lista de bens culturais, um exemplo de patrimônio imaterial. Qual item deve ser marcado?",
+    "alternativas": [
+      { "letra": "A", "texto": "Uma igreja barroca tombada", "correta": false, "etiqueta": "art-patrimonio-so-pedra" },
+      { "letra": "B", "texto": "O conjunto de casarões de uma cidade histórica", "correta": false, "etiqueta": "art-patrimonio-so-pedra" },
+      { "letra": "C", "texto": "O modo de fazer viola de cocho, transmitido pelos artesãos", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "O acervo de pinturas de um museu", "correta": false, "etiqueta": "art-patrimonio-so-pedra" },
+      { "letra": "E", "texto": "Uma escultura em uma praça", "correta": false, "etiqueta": "art-patrimonio-so-pedra" }
+    ],
+    "explicacao": "O modo de fazer é um saber transmitido entre pessoas, e por isso é imaterial. Igreja, casarões, pinturas e esculturas são bens materiais.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-patrimonio-cultural-012", "materia": "artes", "assunto": "patrimonio-cultural", "questionario": 3, "dificuldade": 0,
+    "contexto": "Turismo na cidade histórica",
+    "enunciado": "Uma cidade com centro histórico tombado passou a receber muitos turistas todos os anos. Qual afirmação descreve melhor os efeitos possíveis dessa situação?",
+    "alternativas": [
+      { "letra": "A", "texto": "Pode gerar renda e valorizar o patrimônio, mas exige cuidado para não descaracterizar a cultura local nem expulsar moradores", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Só traz benefícios, sem nenhum risco", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "C", "texto": "Só traz prejuízos, e por isso o turismo deve ser proibido", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "D", "texto": "Não tem nenhuma relação com a preservação", "correta": false, "etiqueta": "art-ignorou-contexto" },
+      { "letra": "E", "texto": "Elimina a necessidade de proteção legal", "correta": false, "etiqueta": "art-fuga-do-tema" }
+    ],
+    "explicacao": "O turismo pode financiar a conservação e dar visibilidade, mas também pode transformar o lugar em cenário, encarecer a vida local e descaracterizar tradições. A resposta equilibrada considera as duas faces.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-patrimonio-cultural-013", "materia": "artes", "assunto": "patrimonio-cultural", "questionario": 3, "dificuldade": 0,
+    "contexto": "Desenhos no corpo",
+    "enunciado": "Os padrões gráficos da pintura corporal Kusiwa, do povo Wajãpi, comunicam conhecimentos e a identidade do grupo, e foram reconhecidos como patrimônio imaterial. Que leitura é adequada?",
+    "alternativas": [
+      { "letra": "A", "texto": "Os desenhos servem apenas como decoração do corpo", "correta": false, "etiqueta": "art-funcao-so-decorativa" },
+      { "letra": "B", "texto": "Os desenhos não têm significado algum", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "C", "texto": "Os padrões são iguais em todos os povos indígenas", "correta": false, "etiqueta": "art-generalizou" },
+      { "letra": "D", "texto": "Os desenhos têm função social e simbólica, ligando as pessoas ao seu povo e ao seu modo de ver o mundo", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "A prática veio de tradições africanas", "correta": false, "etiqueta": "art-origem-errada" }
+    ],
+    "explicacao": "A pintura corporal é uma linguagem que comunica identidade e conhecimento de um povo específico. Não é só enfeite, e cada povo tem seus próprios padrões e significados, então generalizar é um erro.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-patrimonio-cultural-014", "materia": "artes", "assunto": "patrimonio-cultural", "questionario": 3, "dificuldade": 1,
+    "contexto": "Monumentos contestados",
+    "enunciado": "Em várias cidades do mundo, monumentos a figuras históricas ligadas à escravização passaram a ser contestados por parte da população. O que esse debate mostra sobre o patrimônio?",
+    "alternativas": [
+      { "letra": "A", "texto": "Que o passado pode ser apagado sem nenhuma consequência", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "B", "texto": "Que o patrimônio é construído e interpretado pela sociedade, e a memória oficial pode ser revista, ouvindo grupos antes silenciados", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Que monumentos são sempre neutros e livres de interpretação", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "D", "texto": "Que só pode existir uma única memória sobre cada fato", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "E", "texto": "Que patrimônio é só o que o governo aprova", "correta": false, "etiqueta": "art-ignorou-contexto" }
+    ],
+    "explicacao": "Um monumento reflete quem o construiu e quando. Questioná-lo faz parte de discutir qual memória a sociedade quer valorizar, incluindo vozes antes ignoradas. Isso é diferente de afirmar que o passado possa ser simplesmente apagado.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-patrimonio-cultural-015", "materia": "artes", "assunto": "patrimonio-cultural", "questionario": 3, "dificuldade": 1,
+    "contexto": "Lista de bens tombados",
+    "enunciado": "Nas primeiras décadas do IPHAN, a maioria dos bens tombados no Brasil era de igrejas, fortes e casarões coloniais. O que esse fato revela sobre a visão de patrimônio da época?",
+    "alternativas": [
+      { "letra": "A", "texto": "Que o patrimônio imaterial já era a prioridade", "correta": false, "etiqueta": "art-ignorou-contexto" },
+      { "letra": "B", "texto": "Que não existia nenhuma política de proteção", "correta": false, "etiqueta": "art-ignorou-contexto" },
+      { "letra": "C", "texto": "Que a cultura de massa era a prioridade", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "D", "texto": "Que só quilombos e terreiros eram protegidos", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "E", "texto": "Que se priorizavam obras monumentais de tradição europeia e católica, deixando de lado manifestações populares, indígenas e afro-brasileiras, o que mudou com a ampliação do conceito", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "A política inicial valorizava a arquitetura colonial monumental, e só depois o conceito foi ampliado para incluir saberes e expressões de diversos grupos. A proteção do imaterial veio no começo dos anos 2000.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-patrimonio-cultural-016", "materia": "artes", "assunto": "patrimonio-cultural", "questionario": 4, "dificuldade": -1,
+    "contexto": "A festa que volta todo ano",
+    "enunciado": "Todo ano, uma comunidade se reúne para a mesma festa, com músicas, comidas e danças passadas de geração em geração. Ao manter esses costumes vivos, ela está preservando uma:",
+    "alternativas": [
+      { "letra": "A", "texto": "moda passageira", "correta": false, "etiqueta": "art-ignorou-contexto" },
+      { "letra": "B", "texto": "obra de arte única, de autor conhecido", "correta": false, "etiqueta": "art-patrimonio-so-pedra" },
+      { "letra": "C", "texto": "propaganda comercial", "correta": false, "etiqueta": "art-fuga-do-tema" },
+      { "letra": "D", "texto": "coleção de museu", "correta": false, "etiqueta": "art-patrimonio-so-pedra" },
+      { "letra": "E", "texto": "tradição cultural", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Costumes repetidos e transmitidos entre gerações formam uma tradição cultural, parte do patrimônio imaterial. Não é moda, pois dura no tempo, e não precisa de um autor único nem de um museu.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-patrimonio-cultural-017", "materia": "artes", "assunto": "patrimonio-cultural", "questionario": 4, "dificuldade": 0,
+    "contexto": "Cultura quilombola",
+    "enunciado": "Comunidades quilombolas mantêm modos de vida, culinária, festas e saberes ligados à resistência de seus antepassados. Para preservar essa cultura, o ponto essencial é:",
+    "alternativas": [
+      { "letra": "A", "texto": "transformar tudo em atração turística, sem consulta à comunidade", "correta": false, "etiqueta": "art-ignorou-contexto" },
+      { "letra": "B", "texto": "registrar tudo em livros e deixar de lado as comunidades", "correta": false, "etiqueta": "art-patrimonio-so-pedra" },
+      { "letra": "C", "texto": "reconhecer e proteger os territórios e saberes, com participação das próprias comunidades", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "padronizar os costumes com os das cidades vizinhas", "correta": false, "etiqueta": "art-hierarquia-cultural" },
+      { "letra": "E", "texto": "substituir os costumes locais por outros considerados mais modernos", "correta": false, "etiqueta": "art-hierarquia-cultural" }
+    ],
+    "explicacao": "A cultura vive nas pessoas e no território onde elas vivem. Por isso a preservação passa por reconhecer essas comunidades e ouvi-las. Registrar sem proteger o território, ou impor padrões externos, enfraquece a tradição.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-patrimonio-cultural-018", "materia": "artes", "assunto": "patrimonio-cultural", "questionario": 4, "dificuldade": 0,
+    "contexto": "Roda no Recôncavo",
+    "enunciado": "O samba de roda do Recôncavo Baiano, com viola, pandeiro, palmas e dança em roda, é reconhecido como patrimônio imaterial. De qual tradição e região ele vem?",
+    "alternativas": [
+      { "letra": "A", "texto": "Do Rio Grande do Sul, de tradição gaúcha", "correta": false, "etiqueta": "art-origem-errada" },
+      { "letra": "B", "texto": "Da Bahia, de tradição afro-brasileira", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Do Pará, de tradição amazônica", "correta": false, "etiqueta": "art-origem-errada" },
+      { "letra": "D", "texto": "De Santa Catarina, de tradição açoriana", "correta": false, "etiqueta": "art-origem-errada" },
+      { "letra": "E", "texto": "Da Europa medieval", "correta": false, "etiqueta": "art-errou-epoca" }
+    ],
+    "explicacao": "O Recôncavo é uma região da Bahia, e o samba de roda é uma das raízes do samba, com forte influência afro-brasileira. Pelo nome da região já dá pra localizar o estado.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-patrimonio-cultural-019", "materia": "artes", "assunto": "patrimonio-cultural", "questionario": 4, "dificuldade": 1,
+    "contexto": "Mercado público tradicional",
+    "enunciado": "Um mercado público tradicional existe há mais de cem anos, com comerciantes que vendem produtos locais e tradições culinárias. Além do prédio, o que merece ser protegido para manter o valor cultural do lugar?",
+    "alternativas": [
+      { "letra": "A", "texto": "As práticas e as relações que acontecem ali, que dão sentido ao espaço", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Apenas a fachada do prédio", "correta": false, "etiqueta": "art-patrimonio-so-pedra" },
+      { "letra": "C", "texto": "Apenas os produtos mais caros", "correta": false, "etiqueta": "art-fuga-do-tema" },
+      { "letra": "D", "texto": "Apenas o terreno, como investimento", "correta": false, "etiqueta": "art-patrimonio-so-pedra" },
+      { "letra": "E", "texto": "Apenas as fotos antigas do local", "correta": false, "etiqueta": "art-patrimonio-so-pedra" }
+    ],
+    "explicacao": "Um lugar de cultura é feito de espaço e de vida: o comércio, a culinária e os encontros. Proteger só a estrutura deixa o prédio vazio de significado, o que seria preservar a casca.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-patrimonio-cultural-020", "materia": "artes", "assunto": "patrimonio-cultural", "questionario": 4, "dificuldade": 1,
+    "contexto": "Línguas que desaparecem",
+    "enunciado": "Muitas línguas indígenas brasileiras correm risco de desaparecer quando restam poucos falantes. Por que esse desaparecimento é visto como uma perda de patrimônio cultural?",
+    "alternativas": [
+      { "letra": "A", "texto": "Porque línguas servem apenas para comunicação prática", "correta": false, "etiqueta": "art-funcao-so-decorativa" },
+      { "letra": "B", "texto": "Porque todas as línguas devem ser iguais", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "C", "texto": "Porque só línguas com escrita têm valor", "correta": false, "etiqueta": "art-hierarquia-cultural" },
+      { "letra": "D", "texto": "Porque a língua carrega saberes, histórias e formas de ver o mundo de um povo, que se perdem com ela", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Porque o português deveria ser substituído por elas", "correta": false, "etiqueta": "art-extremo" }
+    ],
+    "explicacao": "Cada língua guarda a memória, os conhecimentos e a identidade de um povo. Quando ela se perde, parte desse patrimônio imaterial se perde junto. A ausência de escrita não torna uma língua menos valiosa.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "id": "his-brasil-imperio-republica-velha-001", "materia": "historia", "assunto": "brasil-imperio-republica-velha", "questionario": 1, "dificuldade": -1,
+    "contexto": "Grito do Ipiranga",
+    "enunciado": "Em 1821, Dom João VI voltou a Portugal, e as Cortes de Lisboa passaram a pressionar para que o Brasil retornasse à condição de colônia. Em 7 de setembro de 1822, às margens do riacho do Ipiranga, o príncipe regente declarou a separação. Quem era ele?",
+    "alternativas": [
+      { "letra": "A", "texto": "José Bonifácio de Andrada e Silva", "correta": false, "etiqueta": "his-confundiu-personagem" },
+      { "letra": "B", "texto": "Dom Pedro, que se tornaria Dom Pedro I", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Dom João VI", "correta": false, "etiqueta": "his-confundiu-personagem" },
+      { "letra": "D", "texto": "Tiradentes", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "E", "texto": "Marechal Deodoro da Fonseca", "correta": false, "etiqueta": "his-anacronismo" }
+    ],
+    "explicacao": "Dom Pedro era o príncipe regente, filho de Dom João VI, que já estava em Portugal. José Bonifácio foi seu ministro e conselheiro importante, mas não proclamou a independência.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-imperio-republica-velha-002", "materia": "historia", "assunto": "brasil-imperio-republica-velha", "questionario": 1, "dificuldade": -1,
+    "contexto": "Corte no Rio",
+    "enunciado": "Em 1808, fugindo das tropas de Napoleão, a corte portuguesa se transferiu para o Brasil. Uma das primeiras medidas de Dom João foi abrir os portos brasileiros às nações amigas de Portugal. Na prática, essa medida beneficiou principalmente:",
+    "alternativas": [
+      { "letra": "A", "texto": "a França, que havia invadido Portugal", "correta": false, "etiqueta": "his-confundiu-personagem" },
+      { "letra": "B", "texto": "a Holanda, que voltava a dominar o açúcar", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "C", "texto": "os produtores brasileiros, que ganharam autonomia política plena", "correta": false, "etiqueta": "his-extrapolou-fonte" },
+      { "letra": "D", "texto": "a Inglaterra, aliada de Portugal e responsável pela escolta da viagem", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Portugal, que passou a ter exclusividade comercial", "correta": false, "etiqueta": "his-oposto-do-texto" }
+    ],
+    "explicacao": "Os ingleses eram os aliados de Portugal e os maiores beneficiados com a abertura dos portos. A medida acabava com o exclusivo comercial português, e a França era justamente a inimiga que forçou a fuga da corte.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-imperio-republica-velha-003", "materia": "historia", "assunto": "brasil-imperio-republica-velha", "questionario": 1, "dificuldade": 0,
+    "contexto": "O quarto poder",
+    "enunciado": "A Constituição de 1824, outorgada por Dom Pedro I, criou um poder exercido exclusivamente pelo imperador, que lhe permitia, por exemplo, dissolver a Câmara dos Deputados e escolher senadores. Esse poder era o:",
+    "alternativas": [
+      { "letra": "A", "texto": "Poder Moderador", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Poder Regencial", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "C", "texto": "Poder Legislativo, eleito pelo voto popular", "correta": false, "etiqueta": "his-confundiu-conceito" },
+      { "letra": "D", "texto": "Poder Constituinte, exercido pelo povo", "correta": false, "etiqueta": "his-confundiu-conceito" },
+      { "letra": "E", "texto": "Poder Absoluto, sem qualquer limite legal", "correta": false, "etiqueta": "his-leitura-superficial" }
+    ],
+    "explicacao": "O Poder Moderador estava na Constituição e dava ao imperador autoridade sobre os demais poderes. Por isso mesmo ele não era um poder absoluto no sentido do antigo regime: existia um texto constitucional, ainda que bastante centralizador.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-imperio-republica-velha-004", "materia": "historia", "assunto": "brasil-imperio-republica-velha", "questionario": 1, "dificuldade": 0,
+    "contexto": "Farrapos no Sul",
+    "enunciado": "Entre 1835 e 1845, estancieiros do Rio Grande do Sul se rebelaram contra o governo imperial, descontentes com a taxação do charque gaúcho e com a pouca autonomia da província. A revolta chegou a proclamar a República Rio-Grandense. Trata-se da:",
+    "alternativas": [
+      { "letra": "A", "texto": "Cabanagem", "correta": false, "etiqueta": "his-confundiu-lugar" },
+      { "letra": "B", "texto": "Balaiada", "correta": false, "etiqueta": "his-confundiu-lugar" },
+      { "letra": "C", "texto": "Revolta dos Malês", "correta": false, "etiqueta": "his-confundiu-personagem" },
+      { "letra": "D", "texto": "Guerra de Canudos", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "E", "texto": "Revolução Farroupilha", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Farroupilha, ou Guerra dos Farrapos, foi a revolta regional dos estancieiros gaúchos no Período Regencial e início do Segundo Reinado. Cabanagem (Pará) e Balaiada (Maranhão) ocorreram em outras províncias, e Canudos é do fim do século XIX.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-imperio-republica-velha-005", "materia": "historia", "assunto": "brasil-imperio-republica-velha", "questionario": 1, "dificuldade": 1,
+    "contexto": "Frei Caneca",
+    "enunciado": "Em 1824, depois que Dom Pedro I dissolveu a Constituinte e outorgou uma Constituição, Pernambuco e províncias vizinhas proclamaram uma república separada. Entre seus líderes estava o religioso Frei Caneca, que criticava o autoritarismo e o centralismo do imperador. O movimento foi a:",
+    "alternativas": [
+      { "letra": "A", "texto": "Revolução Praieira", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "B", "texto": "Inconfidência Mineira", "correta": false, "etiqueta": "his-confundiu-lugar" },
+      { "letra": "C", "texto": "Confederação do Equador", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Guerra dos Mascates", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "E", "texto": "Revolução Pernambucana de 1817", "correta": false, "etiqueta": "his-confundiu-periodo" }
+    ],
+    "explicacao": "A Confederação do Equador (1824) reagiu ao autoritarismo do primeiro imperador. A Revolução de 1817 também foi pernambucana, mas ocorreu ainda no tempo de Dom João VI; a Praieira é de 1848.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-imperio-republica-velha-006", "materia": "historia", "assunto": "brasil-imperio-republica-velha", "questionario": 2, "dificuldade": -1,
+    "contexto": "Passo a passo da abolição",
+    "enunciado": "Antes da abolição total, o Brasil aprovou leis que libertavam apenas parte das pessoas escravizadas. A Lei do Ventre Livre, de 1871, determinava que:",
+    "alternativas": [
+      { "letra": "A", "texto": "todos os escravizados com mais de 60 anos ficavam livres", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "B", "texto": "o tráfico de africanos ficava proibido", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "C", "texto": "filhos de mulheres escravizadas nascidos depois da lei seriam considerados livres, mas ficariam sob tutela do senhor por alguns anos", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "todos os escravizados eram libertados imediatamente", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "E", "texto": "os libertos receberiam terras do governo", "correta": false, "etiqueta": "his-mito-popular" }
+    ],
+    "explicacao": "A Lei do Ventre Livre foi uma abolição gradual e cheia de limites. A lei dos Sexagenários é de 1885, a proibição do tráfico, de 1850, e a Lei Áurea, de 1888. Nenhuma delas previu terras para os libertos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-imperio-republica-velha-007", "materia": "historia", "assunto": "brasil-imperio-republica-velha", "questionario": 2, "dificuldade": -1,
+    "contexto": "Tríplice Aliança",
+    "enunciado": "Entre 1864 e 1870, Brasil, Argentina e Uruguai se uniram numa aliança militar contra o Paraguai, governado por Solano López. Esse conflito, o maior da América do Sul no século XIX, é conhecido como:",
+    "alternativas": [
+      { "letra": "A", "texto": "Guerra do Paraguai", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Guerra do Chaco", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "C", "texto": "Guerra da Cisplatina", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "D", "texto": "Guerra dos Farrapos", "correta": false, "etiqueta": "his-confundiu-lugar" },
+      { "letra": "E", "texto": "Guerra do Contestado", "correta": false, "etiqueta": "his-confundiu-periodo" }
+    ],
+    "explicacao": "É a Guerra do Paraguai, ou Guerra da Tríplice Aliança. A do Chaco foi entre Bolívia e Paraguai, já no século XX, e a Cisplatina (1825-1828) opôs o Brasil às Províncias Unidas do Rio da Prata pelo território do atual Uruguai.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-imperio-republica-velha-008", "materia": "historia", "assunto": "brasil-imperio-republica-velha", "questionario": 2, "dificuldade": 0,
+    "contexto": "Duas leis de 1850",
+    "enunciado": "Em 1850, o Brasil aprovou a Lei Eusébio de Queirós, que proibiu o tráfico de africanos, e a Lei de Terras, segundo a qual terras devolutas só poderiam ser obtidas por compra. Em conjunto, essas leis:",
+    "alternativas": [
+      { "letra": "A", "texto": "distribuíram terras aos libertos", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "B", "texto": "acabaram com a escravidão no país", "correta": false, "etiqueta": "his-confundiu-conceito" },
+      { "letra": "C", "texto": "mantiveram o tráfico em níveis iguais", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "D", "texto": "criaram a reforma agrária no Brasil", "correta": false, "etiqueta": "his-anacronismo" },
+      { "letra": "E", "texto": "dificultaram o acesso dos pobres à terra e favoreceram os grandes proprietários, enquanto o tráfico deixava de repor mão de obra escravizada", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Ao exigir compra, a Lei de Terras barrou o acesso de pobres, libertos e imigrantes sem recursos. Já o fim do tráfico não encerrou a escravidão: ela continuou até 1888, com tráfico interno entre as províncias.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-imperio-republica-velha-009", "materia": "historia", "assunto": "brasil-imperio-republica-velha", "questionario": 2, "dificuldade": 0,
+    "contexto": "Café e imigrantes",
+    "enunciado": "No oeste paulista, a expansão cafeeira da segunda metade do século XIX passou a contar com imigrantes europeus, principalmente italianos, em famílias contratadas sob o sistema de colonato. Esse uso de imigrantes foi motivado por:",
+    "alternativas": [
+      { "letra": "A", "texto": "falta de interesse dos fazendeiros em ampliar os lucros", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "B", "texto": "necessidade de mão de obra diante do fim do tráfico e da crise da escravidão, aliada a ideias racistas de embranquecimento da população", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "proibição legal de que brasileiros livres trabalhassem em fazendas", "correta": false, "etiqueta": "his-leitura-superficial" },
+      { "letra": "D", "texto": "desejo de acabar com os grandes latifúndios", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "E", "texto": "queda do café, que passou a ser substituído por fábricas", "correta": false, "etiqueta": "his-confundiu-conceito" }
+    ],
+    "explicacao": "Com a escassez de escravizados e o fim da escravidão no horizonte, os cafeicultores precisaram de trabalhadores. A política de imigração também tinha um viés racista, que buscava embranquecer o país, e não rompeu com o latifúndio.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-imperio-republica-velha-010", "materia": "historia", "assunto": "brasil-imperio-republica-velha", "questionario": 2, "dificuldade": 1,
+    "contexto": "13 de maio",
+    "enunciado": "A Lei Áurea, de 13 de maio de 1888, costuma ser apresentada como um presente da princesa Isabel. Pesquisas mostram que o fim da escravidão envolveu fugas em massa, ações de libertos, advogados abolicionistas como Luiz Gama e forte pressão social. Qual afirmação está mais de acordo com a historiografia?",
+    "alternativas": [
+      { "letra": "A", "texto": "A princesa Isabel agiu sozinha, por bondade pessoal", "correta": false, "etiqueta": "his-mito-popular" },
+      { "letra": "B", "texto": "A abolição aconteceu apenas por pressão da Inglaterra", "correta": false, "etiqueta": "his-causa-unica" },
+      { "letra": "C", "texto": "A lei garantiu terras e indenização aos libertos, integrando-os à sociedade", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "D", "texto": "A abolição resultou de lutas e pressões sociais, inclusive dos próprios escravizados, e a assinatura da princesa foi o ato final", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Os escravizados esperaram passivamente a decisão do governo", "correta": false, "etiqueta": "his-ignorou-protagonismo" }
+    ],
+    "explicacao": "A Lei Áurea consolidou um processo em que as fugas em massa e o movimento abolicionista tornaram a escravidão insustentável. A lei não previu terra nem reparação, o que ajuda a entender a exclusão social que os libertos enfrentaram depois.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-imperio-republica-velha-011", "materia": "historia", "assunto": "brasil-imperio-republica-velha", "questionario": 3, "dificuldade": -1,
+    "contexto": "15 de novembro",
+    "enunciado": "Em 15 de novembro de 1889, militares derrubaram o governo imperial e proclamaram a República no Brasil. O militar que chefiou o movimento e se tornou o primeiro chefe do governo provisório foi:",
+    "alternativas": [
+      { "letra": "A", "texto": "Floriano Peixoto", "correta": false, "etiqueta": "his-confundiu-personagem" },
+      { "letra": "B", "texto": "Duque de Caxias", "correta": false, "etiqueta": "his-confundiu-personagem" },
+      { "letra": "C", "texto": "Getúlio Vargas", "correta": false, "etiqueta": "his-anacronismo" },
+      { "letra": "D", "texto": "Dom Pedro II", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "E", "texto": "Marechal Deodoro da Fonseca", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Deodoro da Fonseca chefiou o golpe e foi o primeiro presidente. Floriano Peixoto era seu vice e o sucedeu em 1891. Dom Pedro II foi o imperador deposto.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-imperio-republica-velha-012", "materia": "historia", "assunto": "brasil-imperio-republica-velha", "questionario": 3, "dificuldade": 0,
+    "contexto": "Por que caiu o Império",
+    "enunciado": "Nos anos finais do Império, a monarquia perdeu apoios. A abolição de 1888 afastou fazendeiros que não foram indenizados; militares se sentiam desprestigiados após a Guerra do Paraguai; e a Igreja entrou em atrito com o governo na Questão Religiosa. Esse conjunto indica que a queda da monarquia:",
+    "alternativas": [
+      { "letra": "A", "texto": "foi causada apenas por um golpe militar, sem relação com outros setores", "correta": false, "etiqueta": "his-causa-unica" },
+      { "letra": "B", "texto": "teve várias causas, ligadas ao desgaste do regime com setores importantes das elites", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "foi uma revolução popular de massas nas ruas", "correta": false, "etiqueta": "his-mito-popular" },
+      { "letra": "D", "texto": "se deveu apenas à abolição da escravidão", "correta": false, "etiqueta": "his-causa-unica" },
+      { "letra": "E", "texto": "foi consequência de uma derrota militar para o Paraguai", "correta": false, "etiqueta": "his-causa-consequencia-invertida" }
+    ],
+    "explicacao": "A República nasceu de um golpe militar, mas só foi possível porque o Império já estava desgastado com fazendeiros, militares e Igreja. A participação popular foi pequena, e o Brasil venceu a Guerra do Paraguai.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-imperio-republica-velha-013", "materia": "historia", "assunto": "brasil-imperio-republica-velha", "questionario": 3, "dificuldade": 0,
+    "contexto": "O poder do coronel",
+    "enunciado": "Na Primeira República, o coronel, grande fazendeiro com influência local, controlava os votos de sua região, trocando favores por apoio político. Esse sistema, chamado de coronelismo, era sustentado por:",
+    "alternativas": [
+      { "letra": "A", "texto": "voto secreto e universal, que garantia liberdade ao eleitor", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "B", "texto": "partidos nacionais fortes, com programas e disputa ideológica", "correta": false, "etiqueta": "his-confundiu-conceito" },
+      { "letra": "C", "texto": "ausência de grandes propriedades no campo", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "D", "texto": "dependência econômica e social da população rural dos grandes proprietários, somada ao voto aberto, sem sigilo", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "divisão igualitária das terras entre os trabalhadores", "correta": false, "etiqueta": "his-oposto-do-texto" }
+    ],
+    "explicacao": "O coronel controlava terra, emprego e favores, e o voto aberto permitia fiscalizar o eleitor. O voto secreto só foi adotado em 1932, com o Código Eleitoral.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-imperio-republica-velha-014", "materia": "historia", "assunto": "brasil-imperio-republica-velha", "questionario": 3, "dificuldade": 1,
+    "contexto": "Acordo entre oligarquias",
+    "enunciado": "Na presidência de Campos Sales (1898-1902), o governo federal passou a apoiar os grupos dominantes de cada estado, que em troca garantiam a eleição de deputados aliados ao presidente. Essa prática, a política dos governadores, resultou em:",
+    "alternativas": [
+      { "letra": "A", "texto": "fim do poder das oligarquias regionais", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "B", "texto": "centralização total do poder no presidente, sem autonomia estadual", "correta": false, "etiqueta": "his-confundiu-conceito" },
+      { "letra": "C", "texto": "estabilidade política para as oligarquias, com fraude eleitoral e exclusão da maioria da população", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "maior participação popular nas decisões nacionais", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "E", "texto": "fim da importância econômica do café", "correta": false, "etiqueta": "his-confundiu-conceito" }
+    ],
+    "explicacao": "O acordo trocava apoio por controle local: o presidente tinha maioria no Congresso e as oligarquias mantinham o poder nos estados. A conta era paga com fraude e baixa participação.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-imperio-republica-velha-015", "materia": "historia", "assunto": "brasil-imperio-republica-velha", "questionario": 3, "dificuldade": 1,
+    "contexto": "A eleição já estava decidida",
+    "enunciado": "Texto de apoio (autoral): 'Na eleição, o coronel já sabia o resultado antes de abrirem as urnas. Os votos eram contados por mesários amigos, e as atas eram preenchidas com nomes de mortos e de ausentes. Quem tentava votar contra ele ouvia que a terra onde morava era emprestada.' O texto revela que o sistema eleitoral da Primeira República:",
+    "alternativas": [
+      { "letra": "A", "texto": "era marcado por fraude e coação, o que limitava a representatividade real", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "garantia o sigilo do voto", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "C", "texto": "ampliava a participação de analfabetos", "correta": false, "etiqueta": "his-confundiu-conceito" },
+      { "letra": "D", "texto": "era controlado diretamente pelo governo federal em todos os estados", "correta": false, "etiqueta": "his-generalizou" },
+      { "letra": "E", "texto": "provava que o povo apoiava de fato os coronéis", "correta": false, "etiqueta": "his-extrapolou-fonte" }
+    ],
+    "explicacao": "O texto descreve fraude e coação: atas falsas, contagem controlada e ameaça. Isso não prova apoio popular. Além disso, analfabetos não podiam votar, e o controle era principalmente das oligarquias locais.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-imperio-republica-velha-016", "materia": "historia", "assunto": "brasil-imperio-republica-velha", "questionario": 4, "dificuldade": -1,
+    "contexto": "Arraial no sertão",
+    "enunciado": "Em 1896 e 1897, no sertão da Bahia, milhares de sertanejos pobres se reuniram em torno do líder religioso Antônio Conselheiro, no arraial de Canudos. O arraial foi destruído pelo Exército após várias expedições. Esse episódio é conhecido como:",
+    "alternativas": [
+      { "letra": "A", "texto": "Revolta da Chibata", "correta": false, "etiqueta": "his-confundiu-conceito" },
+      { "letra": "B", "texto": "Guerra do Contestado", "correta": false, "etiqueta": "his-confundiu-lugar" },
+      { "letra": "C", "texto": "Cabanagem", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "D", "texto": "Guerra de Canudos", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Revolta da Vacina", "correta": false, "etiqueta": "his-confundiu-lugar" }
+    ],
+    "explicacao": "Canudos foi um dos episódios mais violentos da jovem República. A Chibata ocorreu em 1910, a Vacina em 1904 (no Rio) e o Contestado, em 1912-1916, no Sul.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-imperio-republica-velha-017", "materia": "historia", "assunto": "brasil-imperio-republica-velha", "questionario": 4, "dificuldade": 0,
+    "contexto": "Rio de 1904",
+    "enunciado": "Em 1904, o Rio de Janeiro viveu dias de protestos após uma lei tornar obrigatória a vacinação contra a varíola. Na mesma época, uma reforma urbana derrubava cortiços e empurrava a população pobre para fora do centro. Os revoltosos reagiam:",
+    "alternativas": [
+      { "letra": "A", "texto": "à ciência, por pura ignorância e atraso do povo", "correta": false, "etiqueta": "his-mito-popular" },
+      { "letra": "B", "texto": "a uma ordem do imperador", "correta": false, "etiqueta": "his-anacronismo" },
+      { "letra": "C", "texto": "à forma autoritária da campanha e ao desalojamento causado pela reforma urbana, e não apenas à vacina", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "à proibição de greves", "correta": false, "etiqueta": "his-confundiu-conceito" },
+      { "letra": "E", "texto": "à obrigação de votar", "correta": false, "etiqueta": "his-confundiu-conceito" }
+    ],
+    "explicacao": "A revolta mistura rejeição à vacinação compulsória, sem explicações, com revolta contra as demolições e a exclusão urbana. Reduzir tudo a ignorância é uma leitura simplista.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-imperio-republica-velha-018", "materia": "historia", "assunto": "brasil-imperio-republica-velha", "questionario": 4, "dificuldade": 0,
+    "contexto": "Almirante Negro",
+    "enunciado": "Em 1910, marinheiros se rebelaram no Rio de Janeiro contra os castigos corporais ainda usados na Marinha, mais de duas décadas depois da abolição. Um dos líderes, João Cândido, ficou conhecido como Almirante Negro. A principal reivindicação do movimento era:",
+    "alternativas": [
+      { "letra": "A", "texto": "a restauração da monarquia", "correta": false, "etiqueta": "his-anacronismo" },
+      { "letra": "B", "texto": "o fim dos castigos físicos e melhores condições de trabalho", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "a independência do Rio de Janeiro", "correta": false, "etiqueta": "his-extrapolou-fonte" },
+      { "letra": "D", "texto": "a entrada do Brasil na guerra", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "E", "texto": "o aumento do preço do café", "correta": false, "etiqueta": "his-confundiu-conceito" }
+    ],
+    "explicacao": "A Revolta da Chibata pedia o fim dos castigos físicos, vistos como herança da escravidão, e melhores condições. A chibata era o símbolo do tratamento recebido pelos marinheiros, em grande parte negros e pobres.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-imperio-republica-velha-019", "materia": "historia", "assunto": "brasil-imperio-republica-velha", "questionario": 4, "dificuldade": 1,
+    "contexto": "Terra contestada",
+    "enunciado": "Entre 1912 e 1916, na região disputada entre Paraná e Santa Catarina, camponeses seguidores do monge José Maria enfrentaram o Exército. Entre as causas estavam a expulsão de posseiros de terras ligadas à construção de uma ferrovia e a concessão de terras a uma empresa estrangeira. Esse conflito, a Guerra do Contestado, mostra que:",
+    "alternativas": [
+      { "letra": "A", "texto": "conflitos por terra e exclusão social no campo, com forte dimensão religiosa, marcaram a Primeira República", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "o conflito era apenas religioso, sem disputa por terra", "correta": false, "etiqueta": "his-causa-unica" },
+      { "letra": "C", "texto": "foi uma guerra entre o Paraná e a Argentina", "correta": false, "etiqueta": "his-confundiu-lugar" },
+      { "letra": "D", "texto": "ocorreu durante o Império", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "E", "texto": "foi conduzido por coronéis contra o governo central", "correta": false, "etiqueta": "his-confundiu-personagem" }
+    ],
+    "explicacao": "O Contestado reuniu disputa por terra, desemprego após a obra da ferrovia e crença religiosa. Como Canudos, foi enfrentado com violência pelo Exército e mostra o abandono do campo na Primeira República.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-brasil-imperio-republica-velha-020", "materia": "historia", "assunto": "brasil-imperio-republica-velha", "questionario": 4, "dificuldade": 1,
+    "contexto": "Fim da República Velha",
+    "enunciado": "Na década de 1920, jovens oficiais do Exército, os tenentes, protagonizaram levantes como o dos 18 do Forte (1922) e a Coluna Prestes (1925-1927), criticando as fraudes eleitorais e o domínio das oligarquias. Em 1930, o movimento que levou Getúlio Vargas ao poder:",
+    "alternativas": [
+      { "letra": "A", "texto": "restaurou a monarquia", "correta": false, "etiqueta": "his-anacronismo" },
+      { "letra": "B", "texto": "foi iniciado só pelos tenentes, sem apoio de oligarquias dissidentes", "correta": false, "etiqueta": "his-causa-unica" },
+      { "letra": "C", "texto": "tornou o voto universal imediatamente", "correta": false, "etiqueta": "his-confundiu-conceito" },
+      { "letra": "D", "texto": "aconteceu antes do tenentismo", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "E", "texto": "encerrou a Primeira República, em meio à crise do café e à quebra do acordo entre as elites de São Paulo e Minas", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "A Revolução de 1930 reuniu tenentes e oligarquias dissidentes, num contexto de crise econômica após 1929 e disputa pela sucessão presidencial. O voto feminino veio em 1932, mas o voto universal não.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]

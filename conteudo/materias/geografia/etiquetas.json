@@ -1,0 +1,16 @@
+[
+  { "id": "geo-escala-invertida", "nome": "Inverteu escala grande e pequena", "descricao": "Confundiu escala grande (muito detalhe, área pequena) com escala pequena (pouco detalhe, área grande)." },
+  { "id": "geo-erro-de-conta", "nome": "Errou a conta", "descricao": "Errou conversão de unidades, zeros da escala ou diferença de fusos." },
+  { "id": "geo-fuso-sentido", "nome": "Errou o sentido do fuso", "descricao": "Somou onde devia subtrair: a leste é mais tarde, a oeste é mais cedo." },
+  { "id": "geo-lat-long", "nome": "Trocou latitude por longitude", "descricao": "Misturou paralelos e meridianos, ou seus pontos de partida e limites." },
+  { "id": "geo-tempo-clima", "nome": "Confundiu tempo com clima", "descricao": "Tratou um estado momentâneo da atmosfera como padrão de longo prazo." },
+  { "id": "geo-fator-errado", "nome": "Fator errado", "descricao": "Explicou um fenômeno por um fator que não tem relação com ele (latitude, altitude, correntes etc.)." },
+  { "id": "geo-generalizou", "nome": "Generalizou demais", "descricao": "Estendeu uma característica de um caso a todos os casos, regiões ou grupos." },
+  { "id": "geo-causa-consequencia", "nome": "Inverteu causa e consequência", "descricao": "Trocou o que provoca pelo que é provocado." },
+  { "id": "geo-absoluto", "nome": "Alternativa absoluta", "descricao": "Caiu em afirmação com 'sempre', 'nunca', 'só' ou 'toda' que a realidade não sustenta." },
+  { "id": "geo-conceito-trocado", "nome": "Trocou conceitos parecidos", "descricao": "Confundiu termos vizinhos, como processos, modelos, organismos ou blocos." },
+  { "id": "geo-solucao-simplista", "nome": "Solução simplista", "descricao": "Propôs resposta fácil e de um passo para um problema estrutural." },
+  { "id": "geo-leitura-invertida", "nome": "Leu ao contrário", "descricao": "Interpretou mapa, dado ou texto no sentido oposto ao que mostra." },
+  { "id": "geo-cronologia", "nome": "Embaralhou a cronologia", "descricao": "Colocou fato, processo ou tecnologia no período histórico errado." },
+  { "id": "geo-globalizacao-homogenea", "nome": "Globalização igual pra todo mundo", "descricao": "Achou que a globalização atinge todos do mesmo jeito, apagando diferenças e fronteiras." }
+]

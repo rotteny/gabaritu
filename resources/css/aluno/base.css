@@ -1,0 +1,491 @@
+/* Telas do aluno: fundo de aquário, cabeçalho, formulários e blocos comuns. Tokens vêm de landing/base.css (.gb). */
+.gb {
+    position: relative;
+    min-height: 100dvh;
+    background: var(--cyan);
+    color: var(--ink);
+    font-family: var(--font-body);
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.45;
+    overflow-x: clip;
+}
+
+.gb-tela-fixa,
+.gb-tela-fixa body {
+    height: 100%;
+    overflow: hidden;
+}
+
+.gb-tela-fixa .gb {
+    height: 100dvh;
+    min-height: 0;
+}
+
+.gb[data-reduzir='true'] *,
+.gb[data-reduzir='true'] *::before,
+.gb[data-reduzir='true'] *::after {
+    animation: none !important;
+    transition: none !important;
+}
+
+.gb-sr {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+}
+
+/* Fundo */
+.gb-cena {
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+.gb-cena--desk {
+    display: none;
+}
+.gb-agua {
+    fill: var(--cyan);
+}
+.gb-raio {
+    fill: var(--cyan-l);
+}
+.gb-areia {
+    fill: var(--sand);
+    stroke: var(--ink);
+    stroke-width: 4;
+}
+.gb-pedra {
+    fill: #d9cdf2;
+    stroke: var(--ink);
+    stroke-width: 4;
+}
+.gb-alga-o {
+    fill: none;
+    stroke: var(--ink);
+    stroke-width: 15;
+    stroke-linecap: round;
+}
+.gb-alga {
+    fill: none;
+    stroke: var(--purple);
+    stroke-width: 7;
+    stroke-linecap: round;
+}
+.gb-bolhas {
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+    overflow: hidden;
+    pointer-events: none;
+}
+.gb-bolha {
+    position: absolute;
+    bottom: -30px;
+    left: var(--x);
+    width: var(--s);
+    height: var(--s);
+    background: rgb(255 255 255 / 0.5);
+    border: 3px solid var(--ink);
+    border-radius: 50%;
+    animation: l-rise var(--t) linear var(--d) infinite;
+}
+
+/* Cabeçalho do aluno */
+.gb-topo {
+    position: relative;
+    z-index: 5;
+    padding-block: 12px 4px;
+}
+.gb-topo-in {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px 16px;
+    width: min(100% - 32px, 1100px);
+    margin-inline: auto;
+    padding: 6px 12px;
+    background: var(--paper);
+    border: var(--line) solid var(--ink);
+    border-radius: 20px 16px 22px 14px;
+    box-shadow: 4px 4px 0 var(--ink);
+}
+.gb-logo {
+    display: inline-block;
+    color: var(--ink);
+    text-decoration: none;
+}
+.gb-nav {
+    display: flex;
+    gap: 6px;
+}
+.gb-nav a {
+    padding: 4px 12px;
+    border: 3px solid transparent;
+    border-radius: 14px 9px 15px 10px;
+    color: var(--ink);
+    font-family: var(--font-display);
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.gb-nav a:hover {
+    background: var(--white);
+    border-color: var(--ink);
+}
+.gb-nav a[aria-current='page'] {
+    background: var(--yellow);
+    border-color: var(--ink);
+    box-shadow: 2px 2px 0 var(--ink);
+}
+
+.gb-pagina {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 18px;
+    width: min(100% - 32px, 1100px);
+    margin-inline: auto;
+    padding-block: 16px 48px;
+}
+.gb-pagina--estreita {
+    max-width: 760px;
+}
+
+.gb-titulo {
+    margin: 0;
+    font-family: var(--font-display);
+    font-size: clamp(26px, 5vw, 38px);
+    font-weight: 400;
+    line-height: 1.1;
+}
+.gb-subtitulo {
+    margin: 0 0 8px;
+    font-family: var(--font-display);
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.15;
+}
+.gb-texto {
+    margin: 0;
+    max-width: 62ch;
+}
+.gb-miudo {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 800;
+}
+.gb-voltar {
+    justify-self: start;
+    padding: 2px 12px;
+    background: var(--white);
+    border: 3px solid var(--ink);
+    border-radius: 12px 9px 13px 9px;
+    box-shadow: 2px 2px 0 var(--ink);
+    color: var(--ink);
+    font-size: 15px;
+    text-decoration: none;
+}
+
+/* Peixoto com balão */
+.gb-fala {
+    display: grid;
+    grid-template-columns: 84px minmax(0, 1fr);
+    align-items: end;
+    gap: 10px;
+}
+.gb-fala--grande {
+    grid-template-columns: 120px minmax(0, 1fr);
+}
+.gb-fala .l-speech {
+    margin: 0 0 14px;
+}
+.gb-fala .l-speech::after {
+    left: -11px;
+    top: auto;
+    bottom: 22px;
+    border-right: 0;
+    border-bottom: var(--line) solid var(--ink);
+    border-left: var(--line) solid var(--ink);
+}
+.pei[data-humor='help'] .pei-body {
+    fill: #ffb45e;
+}
+.pei[data-humor='help'] .pei-cheeks {
+    display: block;
+}
+
+/* Cartões, avisos e tags */
+.gb-cartao {
+    padding: 16px 18px;
+    background: var(--paper);
+    border: var(--line) solid var(--ink);
+    border-radius: 22px 16px 24px 18px;
+    box-shadow: 5px 5px 0 var(--ink);
+}
+.gb-aviso {
+    margin: 0;
+    padding: 10px 14px;
+    background: var(--white);
+    border: 3px solid var(--ink);
+    border-radius: 14px 10px 16px 11px;
+    box-shadow: 3px 3px 0 var(--ink);
+    font-size: 15px;
+}
+.gb-aviso--erro {
+    background: #ffd9d1;
+}
+.gb-aviso--ok {
+    background: #e3f9c9;
+}
+.gb-aviso--info {
+    background: var(--cyan-l);
+}
+.gb-tag {
+    display: inline-block;
+    padding: 0 9px;
+    background: var(--yellow);
+    border: 3px solid var(--ink);
+    border-radius: 10px 7px 12px 7px;
+    font-family: var(--font-display);
+    font-size: 13px;
+    font-weight: 400;
+}
+.gb-tag--roxo {
+    background: var(--purple);
+    color: var(--white);
+}
+.gb-tag--verde {
+    background: var(--slime);
+}
+.gb-tag--cinza {
+    background: #d9cdf2;
+}
+.gb-nota {
+    font-family: var(--font-display);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+/* Formulários */
+.gb-form {
+    display: grid;
+    gap: 14px;
+}
+.gb-campo {
+    display: grid;
+    gap: 4px;
+}
+.gb-campo label,
+.gb-legenda {
+    padding: 0;
+    font-family: var(--font-display);
+    font-size: 15px;
+    font-weight: 400;
+}
+.gb-entrada {
+    display: flex;
+}
+.gb-entrada input {
+    flex: 1;
+    min-width: 0;
+    min-height: 48px;
+    padding: 6px 12px;
+    background: var(--white);
+    border: var(--line) solid var(--ink);
+    border-radius: 14px 10px 15px 11px;
+    color: var(--ink);
+    font: inherit;
+}
+.gb-entrada input[aria-invalid='true'] {
+    background: #ffd9d1;
+}
+.gb-entrada button {
+    flex: none;
+    margin-left: 8px;
+    padding: 0 12px;
+    background: var(--yellow);
+    border: 3px solid var(--ink);
+    border-radius: 12px 9px 13px 9px;
+    color: var(--ink);
+    cursor: pointer;
+    font: inherit;
+    font-size: 14px;
+}
+.gb-ajuda {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+}
+.gb-erro {
+    margin: 0;
+    color: #a3150a;
+    font-size: 15px;
+    font-weight: 900;
+}
+.gb-grupo {
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.gb-grupo-opcoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 6px;
+}
+.l-pill {
+    position: relative;
+}
+.l-pill input {
+    position: absolute;
+    inset: 0;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+.gb-check {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+.gb-check input {
+    flex: none;
+    width: 26px;
+    height: 26px;
+    margin-top: 2px;
+    accent-color: var(--orange);
+}
+.gb-link {
+    color: var(--purple-d);
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 3px;
+}
+.l-btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+.l-btn--roxo {
+    background: var(--purple);
+    color: var(--white);
+}
+.l-btn--perigo {
+    background: var(--red);
+    color: var(--white);
+}
+.gb-acoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 14px;
+}
+
+/* Layout de autenticação */
+.gb-auth {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 14px;
+    width: min(100% - 32px, 520px);
+    margin-inline: auto;
+    padding-block: 20px 48px;
+}
+.gb-auth-topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (min-width: 900px) {
+    .gb {
+        font-size: 18px;
+    }
+    .gb-cena--mob {
+        display: none;
+    }
+    .gb-cena--desk {
+        display: block;
+    }
+}
+
+@media (max-width: 520px) {
+    .gb-topo-in {
+        padding-inline: 8px;
+    }
+    .gb-nav {
+        gap: 2px;
+    }
+    .gb-nav a {
+        padding-inline: 8px;
+        font-size: 15px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .gb *,
+    .gb *::before,
+    .gb *::after {
+        animation: none !important;
+        transition: none !important;
+    }
+    .gb-bolhas {
+        display: none;
+    }
+}
+
+/* Botão Sair */
+.gb-sair {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    min-width: 40px;
+    min-height: 40px;
+    padding: 4px 12px;
+    background: var(--white);
+    border: 3px solid var(--ink);
+    border-radius: 14px 9px 15px 10px;
+    box-shadow: 2px 2px 0 var(--ink);
+    color: var(--ink);
+    cursor: pointer;
+    font-family: var(--font-display);
+    font-size: 16px;
+}
+.gb-sair:hover {
+    background: var(--yellow);
+}
+.gb-sair--compacto .gb-sair-rotulo {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+@media (min-width: 640px) {
+    .gb-sair--compacto .gb-sair-rotulo {
+        position: static;
+        width: auto;
+        height: auto;
+        clip: auto;
+    }
+}
+
+/* Grids de formulário não crescem além do cartão em telas de 320 px. */
+.gb-form,
+.gb-campo,
+.gb-auth-cartao {
+    grid-template-columns: minmax(0, 1fr);
+}
+.gb-entrada input {
+    min-width: 0;
+}
