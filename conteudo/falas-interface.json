@@ -1,429 +1,429 @@
 {
   "acerto": {
     "fofo": [
-      "Acertou! O Peixoto inflou de orgulho, do jeito bom.",
-      "Boa! Esse acerto merece um aplauso de nadadeira.",
-      "Mandou bem! Até a água do aquário ficou mais azul.",
-      "Certinho! Você leu, pensou e acertou. Combo raro.",
-      "É isso aí! O Peixoto vai contar pros outros peixes."
+      "Acertou! Vou contar pro Valdir. Ele não vai ligar, é um caramujo, mas eu vou contar.",
+      "Isso foi tão certo que o gabarito pediu seu autógrafo.",
+      "Certinha! Dei uma volta inteira no aquário de alegria. Foram dois segundos, mas foram intensos.",
+      "Acertou! Vou colar essa resposta no vidro do aquário, virada pra fora, pra todo mundo ver.",
+      "Acertou! Eu ia fazer um discurso, mas me emocionei e soltei três bolhinhas. É o meu jeito de aplaudir."
     ],
     "sarc": [
-      "Acertou. Eu fingi que não estava impressionado, mas estava.",
-      "Olha só, funcionou. Eu tava com medo de que fosse sorte.",
-      "Correto. O gabarito mandou um oi e disse que gostou de você.",
-      "Acertou! Já posso desligar o modo desconfiado?",
-      "Certo. Quase como se você tivesse estudado. Quase."
+      "Acertou. Vou fingir que não fiquei chocado… Fiquei.",
+      "Olha você farmando aura no meio da semana. Quem diria.",
+      "Correta. Se continuar assim, vou ter que arrumar outro hobby além de reclamar. Que tristeza.",
+      "Certa. O gabarito duvidou de você. Eu, nunca. Quase nunca. Hoje, nunca.",
+      "Tecnicamente você acertou. E eu tecnicamente nunca duvidei. Tecnicamente."
     ],
     "sem": [
-      "ACERTOU! ISSO NÃO É SORTE, É TALENTO COM CAFEZINHO!",
-      "BOOM! Essa questão nem viu o que a atingiu!",
-      "É O QUE É: GABARITADO NESSA AQUI!",
-      "Resposta certa! O Peixoto vai chorar de orgulho no tanque.",
-      "ACERTOU! Isso aí é nível 'dormi bem ontem'!"
+      "CERTÍSSIMO! EU TÔ CHORANDO, E NUM AQUÁRIO ISSO NEM APARECE, MAS EU TÔ!",
+      "URGENTE: aluno acerta questão e o cursinho cogita dar seu nome ao aquário.",
+      "ACERTOU! LIGA PRA MINHA MÃE! QUER DIZER, EU NÃO TENHO MÃE, SOU DE LOJA! LIGA PRA LOJA!",
+      "A QUESTÃO CHEGOU CONFIANTE E SAIU DE CABEÇA BAIXA! VOCÊ NÃO RESPONDEU, VOCÊ DEU AULA!",
+      "CERTO! O FILTRO PAROU PRA OUVIR O APLAUSO! NÃO TEM APLAUSO, SOU SÓ EU GRITANDO, MAS VALE!"
     ],
     "reserva": "Resposta certa. Segue o nado."
   },
   "acerto_apos_erro": {
     "fofo": [
-      "Errou antes, acertou agora. É assim que se aprende!",
-      "Voltou e acertou! Erro bom é erro que vira aprendizado.",
-      "Essa foi a redenção! O Peixoto aplaudiu em câmera lenta.",
-      "Tentou de novo e deu certo. Isso é o que importa!",
-      "Primeiro o erro, depois o acerto. O combo clássico de quem aprende."
+      "Errou, voltou e acertou. Isso não é recuperação, é final de filme com a música subindo.",
+      "Leu a explicação e voltou afiado. Eu fico orgulhoso assim: com as nadadeiras tremendo.",
+      "Dessa vez o erro saiu de fininho. Ele sabia que você tinha aprendido.",
+      "Antes esse erro era seu. Agora ele é só uma história que você vai contar rindo.",
+      "Tropeçou, olhou o caminho e foi. É esse tipo de aluno que eu ponho no mural do aquário."
     ],
     "sarc": [
-      "Agora sim. Demorou, mas o cérebro carregou.",
-      "Acertou depois de errar. Plot twist de quem estuda.",
-      "Olha o arco de redenção! Falta só a música épica.",
-      "Era só ler de novo, né? Mas tá valendo, parabéns.",
-      "Segunda tentativa, primeiro acerto. Contabilidade criativa."
+      "Olha o arco de redenção! Já posso parar de te olhar torto. Um olho só, o outro segue desconfiado.",
+      "Plot twist: a explicação serve pra alguma coisa. Quem diria.",
+      "Segunda tentativa, primeiro acerto. Contabilidade criativa, mas eu assino.",
+      "Errou e voltou com pose de gato que caiu do sofá e finge que foi de propósito. Mas acertou.",
+      "Agora foi. Fico feliz e levemente ofendido: a explicação funcionou melhor que os meus gritos."
     ],
     "sem": [
-      "A VOLTA DOS QUE NÃO FORAM! ERROU E VOLTOU PRA ACERTAR!",
-      "REDENÇÃO! Digna de final de temporada!",
-      "O ERRO CAIU, A RESPOSTA CERTA LEVANTOU. CINEMA!",
-      "Errou ali, acertou aqui. O Peixoto ficou até emocionado.",
-      "ISSO É ARCO DE PERSONAGEM! Do tropeço ao acerto."
+      "REDENÇÃO! O erro entrou como vilão e saiu como figurante!",
+      "URGENTE: aluno erra, volta e acerta. ESPECIALISTAS CHAMAM ISSO DE 'ESTUDAR'!",
+      "ERROU E ACERTOU! EU INCHEI DE SUSTO E DESINCHEI DE ALEGRIA! FOI UM DIA CHEIO PRAS MINHAS ESCAMAS!",
+      "O ERRO DE ANTES FOI SÓ O TRAILER! O FILME COMPLETO É ESSE ACERTO!",
+      "O VALDIR LEVANTOU A ANTENA PRA ESSE ACERTO! E ELE NUNCA LEVANTA NADA!"
     ],
     "reserva": "Errou, aprendeu e acertou. É isso."
   },
   "erro": {
     "fofo": [
-      "Quase! Essa foi errada, mas a explicação vem logo aí.",
-      "Errar faz parte. Lê a explicação e bora pra próxima!",
-      "Ops! Essa não era a certa. Dá uma olhada no caminho certo.",
-      "Não foi dessa vez. O Peixoto também erra a direção no aquário.",
-      "Tudo bem, essa escapou. Respira e vê a explicação."
+      "Essa não era. Mas tinha cara de certa, e a explicação já tá aí pra mostrar a diferença.",
+      "Essa resposta saiu de casa sem o gabarito. Acontece. A explicação leva ela de volta.",
+      "Ops! Melhor errar aqui comigo do que na prova. Aqui a explicação vem com abraço.",
+      "Errou, e eu também erro. Ontem passei meia hora dando bom-dia pro meu reflexo no vidro.",
+      "Não foi dessa vez. Respira, lê a explicação e volta. Eu guardo seu lugar no aquário."
     ],
     "sarc": [
       "Errou. Mas com muita confiança, o que é quase um talento.",
       "Essa resposta tinha cara de certa. Só a cara.",
-      "Interessante escolha. Pena que o gabarito discorda.",
-      "Errou! O Peixoto inflou só de ler isso.",
-      "A alternativa certa estava ali, olhando. Sem ressentimento."
+      "Interessante escolha. Eu ia dizer 'criativa', mas não quero que o gabarito ouça.",
+      "A alternativa certa estava bem ali. Acenando. Com um cartaz.",
+      "Não foi dessa. Vou fingir que não vi. Pronto, fingi. Agora lê a explicação que eu sigo fingindo."
     ],
     "sem": [
-      "ERROU! O gabarito nem precisou fazer esforço.",
-      "ESSA RESPOSTA FOI UM PLOT TWIST QUE NINGUÉM PEDIU!",
-      "ERROU COM ESTILO, MAS ERROU!",
-      "O ESPINHO DO PEIXOTO ARREPIOU COM ESSA!",
-      "Alternativa errada, confiança nota mil. Vamos revisar!"
+      "ERROU COM TANTA CONVICÇÃO QUE O GABARITO PENSOU EM MUDAR A RESPOSTA!",
+      "EU INCHEI! O FILTRO PAROU E O CASCALHO SE MEXEU SOZINHO! ISSO FOI UM EVENTO GEOLÓGICO!",
+      "ERRO LENDÁRIO! Essa alternativa fez história, só não do jeito que você queria.",
+      "CHAT, ISSO É REAL? ERROU! E o gabarito tá lá, no mesmo lugar de ontem!",
+      "NÃÃÃO! EU JÁ TINHA ENSAIADO A COMEMORAÇÃO! AGORA VOU TER QUE GUARDAR O CONFETE!"
     ],
     "reserva": "Resposta errada. A explicação está logo abaixo."
   },
   "freio": {
     "fofo": [
-      "Pausa pra respirar. Já foram vários erros seguidos, e tudo bem. Agora o Peixoto só ajuda.",
-      "Sem zoeira por enquanto. Lê a dica da explicação com calma, a gente vai junto.",
-      "Modo ajuda ligado: o Peixoto guardou os espinhos. Uma questão de cada vez!",
-      "Tá difícil? Acontece com todo mundo. Vamos devagar, a explicação ajuda.",
-      "Calma, sem pressa. O Peixoto está do seu lado e a piada pode esperar."
+      "Respira. Até eu inflo às vezes, e olha que sou profissional nisso. Lê a explicação com calma, a gente vai junto.",
+      "Dia de questão arisca, acontece. Guardei a zoeira na gaveta: agora é só torcida.",
+      "Modo ajuda ligado: guardei os espinhos. Daqui pra frente somos eu, você e a explicação, com calma.",
+      "Sequência difícil não define ninguém. Lê a explicação com calma, que eu fico aqui boiando do seu lado.",
+      "Tá puxado, eu sei. Parei de zoar e só torço. Até o filtro baixou o volume pra você se concentrar."
     ],
     "reserva": "Modo ajuda ativo. Respira, lê a explicação e tenta a próxima com calma."
   },
   "freio_saida": {
     "fofo": [
-      "Dois acertos seguidos! O Peixoto saiu do modo ajuda e voltou ao normal.",
-      "Você se reergueu! Modo ajuda desligado, zoeira de volta no seu nível.",
-      "Voltou com tudo! O Peixoto está normal de novo.",
-      "Dois certos na sequência. Agora o Peixoto pode voltar a ser ele mesmo.",
-      "Recuperou o ritmo! Fim do modo ajuda, bora seguir."
+      "Dois acertos seguidos! Modo ajuda desligado e zoeira de volta. Confesso que senti falta.",
+      "Você voltou! Os espinhos estão de volta, mas só de enfeite. Pode seguir.",
+      "Dois certos seguidos. A pedrinha fez uma dancinha. Ela não se mexe, mas a intenção valeu.",
+      "Fim do modo ajuda. Eu fiquei na torcida e você fez o resto. Dupla boa, hein?",
+      "Volta por cima confirmada! Inflei de orgulho, e dessa vez foi do jeito bom."
     ],
     "reserva": "Modo ajuda desligado. Seguimos."
   },
   "boas_vindas": {
     "fofo": [
-      "Bora lá! O Peixoto está torcendo por você.",
-      "Questionário novo, cabeça nova. Respira e vai!",
-      "Começou! Lê com calma, o tempo é seu.",
-      "Poucas questões pela frente. Você dá conta!",
-      "O Peixoto preparou a água. Pode mergulhar."
+      "Bora lá! Eu tô torcendo, a pedrinha também e o filtro faz a trilha sonora.",
+      "Questionário novo, página em branco e peixe animado. Bora?",
+      "Lê com calma, o tempo é seu. Tenho memória de peixe, mas a torcida por você eu não esqueço.",
+      "Poucas questões pela frente. Dá tempo até de uma nadadinha de comemoração no final.",
+      "Aquário limpo, água no ponto e baiacu na torcida. Pode mergulhar."
     ],
     "sarc": [
       "Vamos ver se o estudo valeu a pena. Sem pressão, só um pouquinho.",
-      "O Peixoto observa de longe, tentando não julgar. Tentando.",
-      "Questionário começando. Que a leitura do enunciado esteja com você.",
-      "Pode começar. Eu prometo só zoar o que merecer.",
-      "Mais um round. Lê tudo, não só a primeira palavra."
+      "Eu observo de longe, tentando não julgar. 'Tentando' é a palavra importante.",
+      "Que a leitura do enunciado esteja com você. Ele tem bem mais que a primeira palavra.",
+      "Pode começar. Prometo só zoar o que merecer. Já aviso que a minha lista de merecimentos é longa.",
+      "Mais um round. Lê tudo. Sim, até a parte que parece decoração."
     ],
     "sem": [
-      "COMEÇOU! O PEIXOTO ESTÁ PRONTO PRA COMEMORAR OU ZOAR!",
-      "VALENDO! Sem choro, só enunciado!",
-      "É HORA DO SHOW! Quem vai gabaritar hoje?",
-      "Questionário aberto. Que vença a melhor alternativa!",
-      "O TANQUE ESTÁ CHEIO E O TEMPO CORRE. BORA!"
+      "VALENDO! O FILTRO TÁ NA BATERIA, O CASCALHO NA PLATEIA E EU TÔ PRONTO PRA COMENTAR TUDO!",
+      "COMEÇOU O REALITY! QUEM GABARITA, QUEM CHORA, QUEM CULPA O FILTRO? Vamos ver!",
+      "SOLTA O APITO! COMEÇA O QUESTIONÁRIO E EU NARRO CADA LANCE DAQUI DO VIDRO!",
+      "LÊ O ENUNCIADO COMO SE FOSSE FOFOCA: ATÉ O FIM E COM ATENÇÃO NOS DETALHES!",
+      "NPC pula o enunciado. PERSONAGEM PRINCIPAL LÊ TUDO. Escolhe o seu papel!"
     ],
     "reserva": "Questionário iniciado. Boa sorte e boa leitura."
   },
   "proxima": {
     "fofo": [
-      "Próxima questão chegando. Você está indo bem!",
-      "Bora pra próxima! Um passo de cada vez.",
-      "Vamos seguir? O Peixoto está do seu lado.",
-      "Mais uma! Respira e lê com calma.",
-      "Nadando pra próxima. Vem comigo!"
+      "Próxima chegando! Você tá nadando no ritmo certo.",
+      "Bora pra próxima! Um passo de cada vez, ou uma nadada, no meu caso.",
+      "Mais uma! Respira, lê com calma e confia em você. Eu confio.",
+      "A próxima é nova, a água tá calma e o filtro tá em silêncio. Condições perfeitas.",
+      "Uma foi, outra vem. Já tô com a nadadeira levantada pra comemorar."
     ],
     "sarc": [
-      "Próxima. Dessa vez, lê o enunciado até o fim.",
-      "Segue o jogo. O gabarito não vai se escrever sozinho.",
-      "Mais uma questão. O suspense continua.",
-      "Vamos ver se a próxima concorda com você.",
-      "Próxima! O Peixoto está só observando. Com carinho. Mais ou menos."
+      "Próxima. Dessa vez, lê o enunciado até o fim. Eu espero aqui, com cara de quem não está dizendo nada.",
+      "Segue o jogo. O gabarito não vai se escrever sozinho. Eu já tentei.",
+      "Mais uma questão. O suspense está insuportável. Quer dizer, só pra mim.",
+      "Vamos ver se a próxima concorda com você. A anterior fez o que pôde.",
+      "Próxima! Eu continuo observando. Com carinho. Com muito carinho. Quase demais."
     ],
     "sem": [
-      "PRÓXIMA! NÃO PARA AGORA!",
-      "MAIS UMA PRA CONTA! BORA ENCARAR!",
-      "SEGUE O BAILE! A PRÓXIMA JÁ ESTÁ BATENDO NA PORTA!",
-      "NEXT! O Peixoto não tem tempo a perder!",
-      "OUTRA PRA CONQUISTAR! VAI COM TUDO!"
+      "PRÓXIMA! NEXT! SIGUIENTE! O Peixoto fala três línguas e só entende uma delas!",
+      "SEGUE O BAILE! A próxima está na fila e já fazendo cara de difícil!",
+      "A PRÓXIMA ENTRA EM CAMPO E O AQUÁRIO INTEIRO PRENDE A RESPIRAÇÃO! EU NEM SEI COMO SE FAZ ISSO!",
+      "RESPONDEU? ENTÃO O PRÓXIMO CAPÍTULO JÁ COMEÇOU, E EU ESTOU SEM SPOILER!",
+      "O Valdir apostou que você acerta a próxima. Ele nunca apostou em nada. NÃO DECEPCIONA O CARAMUJO!"
     ],
     "reserva": "Próxima questão."
   },
   "inicio": {
     "fofo": [
-      "Oi! Escolhe uma matéria e vamos nadar juntos.",
+      "Oi! Escolhe uma matéria e vamos nadar juntos. Eu levo a torcida, você leva a cabeça.",
       "Que bom te ver por aqui! Por onde a gente começa hoje?",
-      "Um pouquinho por dia já faz diferença. Bora?",
-      "O Peixoto está pronto. E você?",
-      "Hoje tem estudo leve e Peixoto torcendo. Escolhe uma matéria!"
+      "Um pouquinho por dia já faz diferença. Aquário também não se enche com um balde só.",
+      "O Peixoto está pronto. E você? Pode ir devagar, o aquário não tem relógio.",
+      "Hoje tem estudo leve e Peixoto torcendo. Escolhe uma matéria e deixa a torcida comigo."
     ],
     "sarc": [
-      "Voltou! O Peixoto já ia achar que você tinha esquecido do ENEM.",
-      "Olha quem apareceu. A matéria não vai se estudar sozinha.",
-      "Então, vai estudar ou só olhar a tela? O Peixoto observa.",
-      "Muita matéria, pouco tempo. Escolhe uma, qualquer uma.",
-      "O ENEM continua existindo, só pra lembrar. Escolhe aí."
+      "Voltou! Eu já ia achar que o ENEM tinha sido cancelado e ninguém me avisou.",
+      "Olha quem apareceu. A matéria não vai se estudar sozinha. Eu já tentei convencer ela.",
+      "Então, vai estudar ou só olhar a tela? Eu observo. Com a nadadeira no queixo.",
+      "Muita matéria, pouco tempo. Escolhe uma, qualquer uma. Eu escolhi morar num aquário e olha como estou bem.",
+      "O ENEM continua existindo, só pra lembrar. Eu lembro toda manhã. O filtro já cansou de ouvir."
     ],
     "sem": [
-      "BEM-VINDO AO TANQUE! ESCOLHE UMA MATÉRIA E VAMOS NESSA!",
-      "O PEIXOTO ESTÁ INFLADO DE EXPECTATIVA! BORA ESTUDAR!",
-      "HORA DE ESTUDAR! SEM DESCULPA, SÓ QUESTÃO!",
-      "TEM MATÉRIA DE SOBRA E O ENEM NÃO ESPERA!",
-      "VAMOS GABARITAR? COMEÇA POR QUALQUER UMA!"
+      "BEM-VINDO DE VOLTA! EU TAVA ENSAIANDO O GRITO DE 'ACERTOU' DESDE ONTEM! NÃO DESPERDIÇA!",
+      "O ENEM VAI ACONTECER COM OU SEM VOCÊ, MAS COM VOCÊ É BEM MELHOR! Escolhe uma matéria!",
+      "ESTUDO ESPERANDO! EU INFLEI DE ANSIEDADE E AGORA NÃO PASSO NEM PELO CASTELINHO DO AQUÁRIO!",
+      "NINGUÉM: ... O PEIXOTO ÀS SEIS DA MANHÃ: VAMOS GABARITAR!",
+      "ESCOLHE UMA MATÉRIA, QUALQUER UMA, MAS ESCOLHE! Esse aquário não tem lugar pra procrastinação!"
     ],
     "reserva": "Escolha uma matéria para começar."
   },
   "materia": {
     "fofo": [
-      "Escolhe um assunto e começa pelo questionário que quiser.",
-      "Cada assunto tem questionários curtinhos. Dá pra fazer um agora!",
-      "Vai no seu ritmo. O Peixoto espera.",
-      "Que matéria boa! Qual assunto vai ser hoje?",
-      "Pouquinho a pouquinho, o assunto vira costume."
+      "Escolhe um assunto e começa pelo questionário que quiser. A ordem é sua, o Peixoto não reclama.",
+      "Cada assunto tem questionários curtinhos. Cabe um agora, entre um gole de água e outro.",
+      "Vai no seu ritmo. Eu espero, e sou ótimo nisso: moro num aquário.",
+      "Qual assunto vai ser hoje? Pode ser o mais fácil pra esquentar. Aquecer é coisa de campeão.",
+      "Pouquinho a pouquinho, o assunto vira costume. Igual o barulho do filtro: no começo incomoda, depois dá saudade."
     ],
     "sarc": [
       "Cinco assuntos, quatro questionários cada. Dá pra se esconder, mas não por muito tempo.",
-      "Escolhe um assunto. Pode ser o que você menos gosta, só uma sugestão.",
-      "O assunto não vai embora se você ignorar. Eu testei.",
-      "Alguns assuntos pedem coragem. Outros pedem café.",
-      "Bora, o assunto difícil é o que mais rende nota."
+      "Escolhe um assunto. Pode ser o que você menos gosta. Foi só uma sugestão, eu não tenho nada a ver com isso.",
+      "O assunto não vai embora se você ignorar. Eu tentei isso com a faxina: ela veio mesmo assim.",
+      "Alguns assuntos pedem coragem. Outros pedem café. Esse pede os dois e um pouco de fé.",
+      "O assunto difícil é o que mais rende nota. Sim, eu sei, é o menos divertido de ouvir."
     ],
     "sem": [
-      "ESCOLHE UM ASSUNTO E ENFRENTA! O PEIXOTO ESTÁ NA PLATEIA!",
-      "QUESTIONÁRIO NÃO SE FAZ SOZINHO! VAI LÁ!",
-      "ASSUNTO FRACO É OPORTUNIDADE DISFARÇADA!",
-      "É HORA DE MERGULHAR NO ASSUNTO!",
-      "Cada questionário é uma chance de ouro. Aproveita!"
+      "ESCOLHE UM ASSUNTO! O Peixoto está na plateia, com pipoca imaginária e nadadeiras cruzadas!",
+      "QUESTIONÁRIO NÃO SE FAZ SOZINHO! EU TENTEI FAZER UM POR VOCÊ E ERREI TODAS! EU SOU UM PEIXE!",
+      "ASSUNTO FRACO É OPORTUNIDADE DISFARÇADA! Encara ele antes que ele te encare na prova!",
+      "A MATÉRIA QUE VOCÊ MAIS EVITA TÁ SENTADA NA CADEIRA DA PROVA, DE BRAÇO CRUZADO, TE ESPERANDO!",
+      "VAI LOGO NUM ASSUNTO! A CADA MINUTO DE INDECISÃO EU INCHO UM POUQUINHO E JÁ TÔ ENCOSTANDO NO VIDRO!"
     ],
     "reserva": "Escolha um assunto e comece um questionário."
   },
   "desempenho": {
     "fofo": [
-      "Aqui está seu progresso. Pouco a pouco ele cresce!",
-      "Cada resposta ajuda a desenhar sua evolução.",
-      "Esses números são uma estimativa, e estão aqui pra te ajudar.",
-      "Olha só o caminho que você já fez!",
-      "O Peixoto adora um gráfico bonito. Vamos subir o seu?"
+      "Aqui está seu progresso. Pouco a pouco ele cresce, igual alga em aquário bem cuidado.",
+      "Cada resposta desenha um pedacinho da sua evolução. Eu guardei todas, e olha que memória de peixe é curta.",
+      "Esses números são uma estimativa, não a nota oficial. É só um mapa pra gente saber por onde ir.",
+      "Olha só o caminho que você já fez! Se eu tivesse geladeira, esse gráfico ia pra porta dela.",
+      "O Peixoto adora um gráfico bonito. Vamos subir o seu? Prometo aplaudir com as duas nadadeiras."
     ],
     "sarc": [
-      "Os números não mentem. Mas dá pra melhorar, e a gente sabe como.",
-      "Aqui está seu desempenho. Respira antes de olhar.",
-      "É uma estimativa do Gabaritu, não a nota oficial. Ufa, né?",
-      "O gráfico está aí, esperando você fazer ele subir.",
-      "Dá uma olhada e depois volta pra praticar. É isso que funciona."
+      "Os números não mentem. Mas também não decidem nada. Quem decide é o próximo questionário.",
+      "Aqui está seu desempenho. Respira antes de olhar. Respira de novo depois. Eu vou estar aqui.",
+      "É uma estimativa do Gabaritu, não a nota oficial. Ufa, né? Ou não, depende do gráfico.",
+      "O gráfico está aí, esperando você fazer ele subir. Ele é paciente, eu nem tanto.",
+      "Dá uma olhada e volta a praticar. Gráfico muda com questão, não com ficar encarando a tela."
     ],
     "sem": [
-      "AQUI ESTÁ A VERDADE EM NÚMEROS! ENCARA COM CORAGEM!",
-      "O GRÁFICO NÃO PERDOA, MAS TAMBÉM NÃO CONDENA. EVOLUI!",
-      "NOTA ESTIMADA NA MESA! BORA SUBIR ESSE GRÁFICO!",
-      "TODO ERRO ESTÁ AQUI PRA VOCÊ APRENDER!",
-      "É O MOMENTO DA VERDADE! E DEPOIS, DA MELHORIA!"
+      "AQUI ESTÁ A VERDADE EM NÚMEROS! QUER DIZER, A ESTIMATIVA EM NÚMEROS! A VERDADE É NO DIA DA PROVA!",
+      "SEU GRÁFICO FOI ENCONTRADO! INTEIRO, FUNCIONANDO E COM MUITA VONTADE DE SUBIR!",
+      "NOTA ESTIMADA NA MESA! Não é a oficial, é o ENSAIO GERAL. Erre agora, acerte na prova!",
+      "O GRÁFICO NÃO PERDOA, MAS TAMBÉM NÃO GUARDA RANCOR. ELE SOBE QUANDO VOCÊ PRATICA!",
+      "MOMENTO DA VERDADE! O VALDIR OLHOU SEU GRÁFICO E NÃO DISSE NADA. ELE NUNCA DIZ. MAS A ANTENA MEXEU!"
     ],
     "reserva": "Seu desempenho por assunto e matéria. É uma nota estimada."
   },
   "resultado:perfeito": {
     "fofo": [
-      "Gabaritou! O Peixoto está inflado de orgulho.",
-      "Perfeito! Todas certas, parabéns de coração.",
-      "Que resultado lindo! Você mandou muito bem.",
-      "Tudo certo! Dá vontade de dar um mergulho de felicidade.",
-      "Nota máxima no questionário! Continue assim."
+      "Gabaritou! Tô inflado de orgulho, do jeito bom, sem ninguém assustado.",
+      "Todas certas! Eu ia fazer um discurso, mas só consigo dizer 'uau' e 'glub'.",
+      "Resultado perfeito! Vou guardar esse dia na minha memória de peixe. Ela é curta, mas esse cabe.",
+      "Nota máxima no questionário! Você leu, pensou e acertou todas. Isso é bonito demais.",
+      "Perfeito! Pode comemorar, o aquário inteiro está de pé. Quer dizer, boiando em pé."
     ],
     "sarc": [
-      "Tudo certo. Eu ia dar uma bronca, mas não encontrei motivo.",
-      "Gabaritou. Suspeito, mas aceito.",
-      "Perfeito. O Peixoto fingiu desinteresse e falhou.",
-      "Nenhuma errada? Quer deixar alguma pra mim?",
-      "Resultado impecável. Estou impressionado, e isso é raro."
+      "Tudo certo. Eu ia dar uma bronca, mas não achei motivo. Treinei o discurso à toa.",
+      "Gabaritou. Suspeito, mas aceito. Vou investigar só um pouquinho, por rotina.",
+      "Perfeito. Fingi desinteresse e falhei, olha a minha cara de peixe emocionado.",
+      "Nenhuma errada? E o que eu vou comentar agora? Vou ter que elogiar. Que trabalheira.",
+      "Resultado impecável. Já liguei pro gabarito perguntando se ele tava se sentindo bem."
     ],
     "sem": [
-      "GABARITOU! O PEIXOTO VAI FAZER UM DISCURSO!",
-      "PERFEITO! TODAS CERTAS! É LENDA!",
-      "NEM UMA ERRADA! O GABARITO ESTÁ SE CURVANDO!",
-      "RESULTADO DE CAMPEÃO! SEM CHANCE DE ERRO!",
-      "PERFEITO! O Peixoto inflou até o limite."
+      "GABARITOU! O PEIXOTO VAI FAZER UM DISCURSO! ... Já fez. Foi curto. Ele chorou.",
+      "PERFEITO! TODAS CERTAS! É LENDA! Vou escrever seu nome no vidro do aquário!",
+      "O GABARITO TÁ EM CHOQUE E PEDIU UM COPO D'ÁGUA! EU OFERECI O MEU AQUÁRIO INTEIRO!",
+      "ZEROU OS ERROS! A PEDRINHA VAI VIRAR TROFÉU E EU VOU VIRAR UMA BOLA DE ORGULHO COM OLHOS!",
+      "TODAS CERTAS! POV: VOCÊ NO ENEM, COM TUDO NA CABEÇA E EU NA PLATEIA CHORANDO DE ORGULHO!"
     ],
     "reserva": "Todas certas neste questionário."
   },
   "resultado:alto": {
     "fofo": [
-      "Ótimo resultado! Quase tudo certo, continua assim.",
-      "Que bom! O que errou ainda dá pra revisar.",
-      "Mandou bem! Poucos erros e muito aprendizado.",
-      "Você está no caminho certo! Falta pouquinho pro perfeito.",
-      "Muito bem! A revisão vai fechar as pontas soltas."
+      "Quase tudo certo! O que sobrou de erro é só uma pontinha solta pra gente ajeitar.",
+      "Muito bem! Poucos erros e muito acerto. Vou aplaudir até a água fazer onda.",
+      "Você está bem perto do perfeito. Daqui a pouco o Peixoto vai ter que mudar o discurso.",
+      "Ótimo resultado! A revisão vai fechar as pontas soltas, e eu vou junto, de nadadeira na mão.",
+      "Mandou bem! Cada erro que sobrou é um acerto esperando a vez dele."
     ],
     "sarc": [
-      "Bom resultado. Os erros que sobraram estão te esperando pra um café.",
-      "Quase perfeito. O quase é que dá graça.",
-      "Acertou a maioria. A minoria errada tem muito a ensinar.",
-      "Foi bem. Mas o Peixoto ainda tem o que comentar.",
-      "Boa nota. A revisão ainda tem trabalho a fazer."
+      "Bom resultado. Os erros que sobraram estão na sala de espera, torcendo pra você esquecer deles.",
+      "Quase perfeito. O 'quase' é que dá graça. E me dá algo pra comentar. Obrigado.",
+      "Acertou a maioria. A minoria errada está com saudade de ser revisada.",
+      "Foi bem. Mas o Peixoto ainda tem o que comentar, e comentou em silêncio, o que é pior.",
+      "Boa nota. Faltou pouquinho pro perfeito, igual falta pouquinho pro Valdir chegar em qualquer lugar."
     ],
     "sem": [
-      "QUASE LÁ! OS ERROS QUE RESTARAM SE RESOLVEM NA REVISÃO!",
-      "BOM DEMAIS! MAS AINDA DÁ PRA SER ÓTIMO!",
-      "ACERTOU MUITO! FALTA SÓ AFINAR OS DETALHES!",
-      "RESULTADÃO! Só os erros restantes precisam de atenção.",
-      "MANDOU BEM! A revisão agora é a cereja do bolo."
+      "QUASE GABARITOU! OS ERROS QUE RESTARAM ESTÃO EM CONTAGEM REGRESSIVA ATÉ A REVISÃO!",
+      "BOM DEMAIS! O gabarito elogiou de longe e foi se esconder pra ninguém ver!",
+      "RESULTADÃO! SÓ FALTOU UM TIQUINHO! EU TÔ ROENDO A NADADEIRA DE EMOÇÃO, E ISSO NEM É POSSÍVEL!",
+      "NÃO FOI PERFEITO, MAS FOI TÃO BOM QUE O FILTRO DEU UMA ENGASGADA DE EMOÇÃO!",
+      "MANDOU BEM! A REVISÃO É O PRÓXIMO EPISÓDIO, E A TEMPORADA SÓ MELHORA!"
     ],
     "reserva": "Bom resultado. Vale revisar o que errou."
   },
   "resultado:medio": {
     "fofo": [
-      "Foi razoável, e dá pra melhorar. Que tal revisar os erros?",
-      "Metade do caminho andada! A outra metade vem com prática.",
-      "Tem muita coisa boa aqui. A revisão vai ajudar com o resto.",
-      "Continue tentando. Cada rodada deixa você mais afiado!",
-      "Bom começo! Vamos olhar os erros com calma."
+      "Foi razoável, e dá pra melhorar. Revisar os erros é a parte em que a gente vira especialista.",
+      "Metade do caminho nadada! A outra metade vem com prática, e eu vou junto.",
+      "Tem muita coisa boa aqui. Os erros são só pistas dos próximos acertos.",
+      "Cada rodada te deixa mais afiado. Levei uma semana pra aprender a desviar do filtro, e hoje desvio dormindo.",
+      "Bom começo! Vamos olhar os erros com calma. Eles assustam bem menos que a rede do pet shop."
     ],
     "sarc": [
-      "Resultado mediano. Tá bom, mas dá pra ser melhor.",
-      "Metade certa, metade errada. O Peixoto está em dúvida se comemora.",
-      "Nem tão bem, nem tão mal. Equilíbrio do universo.",
-      "Dá pra melhorar, e você sabe disso. Eu também sei.",
-      "Foi na média. A média é só o começo."
+      "Resultado mediano. Nem o Peixoto sabe se comemora ou se infla. Por precaução, fez as duas.",
+      "Metade certa, metade errada. Equilíbrio do universo, parabéns.",
+      "Foi na média. A média é aquele lugar onde todo mundo passa e ninguém fica. Passa por ali.",
+      "Nem tão bem, nem tão mal. Morno igual água de aquário em dia nublado. Dá pra esquentar.",
+      "Dá pra melhorar, você sabe e eu também. A revisão sabe, e está de porta aberta."
     ],
     "sem": [
-      "NEM LÁ, NEM CÁ! A REVISÃO ESTÁ CHAMANDO!",
-      "RESULTADO NO MEIO DO CAMINHO! HORA DE SUBIR!",
-      "ESSE RESULTADO PEDE REVISÃO URGENTE!",
-      "É MÉDIO, MAS VOCÊ PODE FAZER MELHOR!",
-      "Meio certo, meio errado. Metade da lição aprendida!"
+      "NEM LÁ, NEM CÁ! O resultado está no meio do aquário, boiando sem saber pra onde ir!",
+      "RESULTADO MÉDIO! É O 'MAIS OU MENOS' EM FORMA DE NOTA! A REVISÃO ESTÁ CHAMANDO!",
+      "VOCÊ TÁ NO MEIO DO CAMINHO E EU TÔ NO FIM DELE, COM BANDEIRINHA E SEM PACIÊNCIA! VEM!",
+      "METADE DA LIÇÃO APRENDIDA, METADE AINDA NO AQUÁRIO. A REVISÃO VAI BUSCAR A OUTRA METADE!",
+      "ESSE RESULTADO PEDE REVISÃO! O VALDIR JÁ SAIU PRA AJUDAR. ELE CHEGA NA QUINTA."
     ],
     "reserva": "Resultado médio. A revisão dos erros ajuda a subir."
   },
   "resultado:baixo": {
     "fofo": [
-      "Esse foi difícil, e tudo bem. Vamos revisar os erros juntos.",
-      "Errar é parte de aprender. Na próxima você vai melhor!",
-      "Não desanima! A revisão vai te ajudar bastante.",
-      "Todo mundo começa em algum lugar. O Peixoto acredita em você.",
-      "Foi uma rodada de aprendizado. Bora refazer devagar?"
+      "Esse foi difícil, e tudo bem. Vamos revisar os erros juntos. Eu levo o apoio moral, você leva a vontade.",
+      "Hoje não foi o dia, mas o aquário é grande e o amanhã está logo ali. Vem, a revisão ajuda.",
+      "Todo mundo começa em algum lugar. Eu comecei num saquinho plástico da loja, e olha eu aqui hoje.",
+      "Foi uma rodada de aprendizado. A parte boa: agora você sabe exatamente onde melhorar.",
+      "Não desanima! O questionário é difícil, mas você voltou pra olhar os erros. Isso já é metade do jogo."
     ],
     "sarc": [
-      "Foi um resultado desafiador. Digamos que o questionário ganhou.",
-      "O questionário venceu essa rodada, mas tem revanche.",
-      "Dá pra melhorar muito. Isso é uma boa notícia, na verdade.",
-      "Os erros foram muitos, mas a revisão está aí pra isso.",
-      "Resultado difícil. Respira e tenta de novo, sem drama."
+      "O questionário ganhou essa rodada. Mas ele joga em casa, tem vantagem.",
+      "Esse resultado tá pedindo revanche. O questionário já tá se achando, e eu não suporto quem se acha. Fora eu.",
+      "Dá pra melhorar muito. É a melhor notícia do dia: só tem pra onde subir.",
+      "Os erros foram muitos, mas a revisão está aí pra isso. Li o contrato: ela trabalha de graça.",
+      "Rodada difícil. Respira e tenta de novo, sem drama. Ou com um pouquinho, que nisso eu sou mestre."
     ],
     "sem": [
-      "ESSA RODADA FOI DURA! MAS REVISAR É O CAMINHO!",
-      "O QUESTIONÁRIO VENCEU AGORA, MAS A REVISÃO É A SUA REVANCHE!",
-      "RESULTADO DE QUEM AINDA ESTÁ APRENDENDO! E TUDO BEM!",
-      "OS ERROS FORAM MUITOS! A REVISÃO É A SOLUÇÃO!",
-      "Dia difícil, mas o Peixoto acredita: volta e arrasa!"
+      "O QUESTIONÁRIO LEVOU ESSA, MAS A REVISÃO É A REVANCHE. Ele ainda não sabe o que vem por aí!",
+      "PRIMEIRO TEMPO PERDIDO! NO VESTIÁRIO EU GRITO, NA REVISÃO VOCÊ VIRA O JOGO! BORA!",
+      "ESSA RODADA FOI DURA! Até o filtro ficou em silêncio de respeito. É RARO!",
+      "SÉRIE DRAMÁTICA: EPISÓDIO 1, MUITOS ERROS. EPISÓDIO 2, A REVISÃO. FINAL: A VOLTA POR CIMA!",
+      "DIA DIFÍCIL, MAS O PEIXOTO ACREDITA! Se eu enfrentei a faxina do aquário, você enfrenta essa revisão!"
     ],
     "reserva": "Resultado baixo. Revise os erros e tente de novo."
   },
   "vazio:revisao": {
     "fofo": [
       "Nada pra revisar hoje. Aproveita pra fazer um questionário novo!",
-      "Revisão em dia! O Peixoto aprovou.",
-      "Zero pendências. Que alívio, hein?",
-      "Tudo revisado por enquanto. Volta amanhã!",
-      "Sem revisão hoje. Boa hora pra aprender algo novo."
+      "Revisão em dia! Aprovei com as duas nadadeiras e um carimbo imaginário.",
+      "Zero pendências. Que alívio! Até o filtro parou de fazer barulho pra comemorar.",
+      "Tudo revisado por enquanto. Volta amanhã, que sempre aparece algo bom pra aprender.",
+      "Sem revisão hoje. Boa hora pra aprender algo novo, ou só pra boiar um pouco."
     ],
     "sarc": [
-      "Nada pra revisar. Ou você é muito bom, ou ainda não errou o bastante.",
-      "Revisão vazia. O Peixoto está estranhando tanta paz.",
-      "Sem erros pendentes. Dá pra aproveitar e errar coisas novas.",
-      "Nada a revisar. Parabéns, ou talvez só falte praticar.",
-      "Fila de revisão vazia. Um clássico dos primeiros dias."
+      "Nada pra revisar. Ou você é muito bom, ou o Peixoto errou de aba.",
+      "Revisão vazia. O Peixoto está estranhando tanta paz. Isso nunca acontece no aquário.",
+      "Sem erros pendentes. Dá pra aproveitar e errar coisas novas, que erro repetido é sem graça.",
+      "Fila de revisão vazia. Um clássico dos primeiros dias, tipo caderno novo com a primeira página perfeita.",
+      "Nada a revisar. Fiquei tão sem assunto que comecei a revisar o cascalho. Tá tudo em ordem, obrigado."
     ],
     "sem": [
-      "SEM REVISÃO! O ARQUIVO DOS ERROS ESTÁ VAZIO!",
-      "NADA PRA REVISAR! O PEIXOTO ESTÁ DE FOLGA HOJE!",
-      "REVISÃO ZERADA! BORA PRATICAR MAIS PRA ENCHER ELA!",
-      "SILÊNCIO TOTAL NA REVISÃO! É ESTRANHO, MAS É BOM!",
-      "SEM ERRO PENDENTE! OU SEM QUESTÃO RESPONDIDA, NÉ?"
+      "REVISÃO VAZIA! O arquivo dos erros está mais limpo que o aquário depois da faxina!",
+      "NENHUM ERRO PENDENTE! EU PREPAREI UM DISCURSO DE BRONCA E AGORA ELE VAI PRA GAVETA! QUE DESPERDÍCIO!",
+      "NADA PRA REVISAR! O Peixoto está de folga e não sabe o que fazer com as nadadeiras!",
+      "SILÊNCIO TOTAL NA REVISÃO! SÓ SE OUVE O FILTRO E O MEU CORAÇÃOZINHO DE PEIXE!",
+      "SEM ERRO PENDENTE! OU SEM QUESTÃO RESPONDIDA, NÉ? Vou deixar passar, mas TÔ DE OLHO!"
     ],
     "reserva": "Nada para revisar hoje."
   },
   "vazio:desempenho": {
     "fofo": [
-      "Ainda não tem nota por aqui. Responde alguns questionários e ela aparece!",
-      "O gráfico está esperando você. Bora começar?",
-      "Sem dados ainda. Mas cada resposta conta pra eles chegarem.",
-      "Nada por enquanto. Faça um questionário e volte!",
-      "A nota aparece depois de algumas respostas. Falta pouco!"
+      "Ainda não tem nota por aqui. Responde alguns questionários e ela aparece, igual mágica, só que com estudo.",
+      "O gráfico está esperando você. Ele é tímido, mas aparece rapidinho.",
+      "Sem dados ainda. Cada resposta é um pontinho, e a gente liga os pontos juntos.",
+      "Nada por enquanto. Faz um questionário e volta, que eu guardo seu lugar no vidro.",
+      "A nota aparece depois de algumas respostas. Falta pouco, juro por todas as escamas."
     ],
     "sarc": [
-      "Sem nota ainda. O Peixoto não adivinha, precisa de respostas.",
-      "Painel vazio. O Peixoto está boiando de tédio.",
-      "Quer ver sua nota? Responde alguma coisa primeiro.",
-      "Zero dados, zero análise. Vai estudar um pouquinho.",
-      "Sem gráfico: você ainda não deu o primeiro passo."
+      "Sem nota ainda. Eu sou bom, mas adivinhar nota sem resposta já é demais até pra mim.",
+      "Painel vazio. Eu tô boiando de tédio e o filtro tá contando piada pra passar o tempo.",
+      "Quer ver sua nota? Responde alguma coisa primeiro. Sem pegadinha, é só questão.",
+      "Zero dados, zero análise. Eu até tentei adivinhar, mas peixe não lê mão.",
+      "Sem gráfico ainda. Ele é igual a mim de manhã: só aparece se tiver um bom motivo."
     ],
     "sem": [
-      "SEM NOTA! O GRÁFICO ESTÁ NO VÁCUO!",
-      "PAINEL VAZIO! O PEIXOTO ESTÁ BOIANDO SEM DESTINO!",
-      "ZERO DADOS! RESPONDE QUESTÃO ANTES DE PEDIR NOTA!",
-      "NINGUÉM RESPONDEU AINDA! SERÁ QUE É HOJE?",
-      "É O VAZIO TOTAL! PREENCHE COM QUESTÕES!"
+      "SEM NOTA! O gráfico está no vácuo, sozinho e esperando alguém responder!",
+      "PAINEL VAZIO! É O DESERTO DE DADOS! O Peixoto já está procurando água. E ele está nela!",
+      "ZERO DADOS! COMO PEDIR NOTA SEM RESPONDER? É pedir o resultado do jogo antes do apito!",
+      "NINGUÉM RESPONDEU AINDA! O GRÁFICO TÁ DE PIJAMA ESPERANDO A PRIMEIRA QUESTÃO PRA SE ARRUMAR!",
+      "É O VAZIO TOTAL! PREENCHE COM QUESTÕES, QUE EU PREENCHO COM APLAUSOS!"
     ],
     "reserva": "Ainda não há dados suficientes para mostrar nota."
   },
   "erro_http:404": {
     "fofo": [
-      "Página não encontrada. O Peixoto procurou em tudo que é canto.",
-      "Essa página não existe. Talvez o endereço esteja errado.",
-      "Não achei essa página. O Peixoto nadou até o fundo e nada.",
-      "Página não encontrada. Volta ao início e a gente se acha.",
-      "Esse link não leva a lugar nenhum. Bora pro início?"
+      "Página não encontrada. Procurei em tudo que é canto, até atrás do filtro. Volta ao início?",
+      "Essa página não existe. Talvez o endereço tenha um errinho. Confere ou volta ao início.",
+      "Não achei essa página (erro 404). Nadei até o fundo e só achei cascalho. Bora pro início?",
+      "Esse link não leva a lugar nenhum. Deve ter nadado pra outro aquário. Bora pro início?",
+      "Página não encontrada (erro 404). Confere o endereço ou volta pra página inicial."
     ],
     "sarc": [
-      "Página não encontrada. Igual a resposta certa quando se chuta.",
-      "Erro 404: essa página não existe. O Peixoto procurou e riu.",
-      "Página não encontrada. Digitou o endereço no escuro?",
-      "Essa página não existe. Mas o botão de voltar existe.",
-      "404: nada aqui. Nem o Peixoto sabe onde foi parar."
+      "Erro 404: essa página não existe. Procurei com as duas nadadeiras e com o olho esquerdo.",
+      "Página não encontrada. Deve ter ido buscar o gabarito e não voltou.",
+      "404: nada aqui. O endereço leva a um aquário vazio. Volta ao início, que lá tem coisa.",
+      "Essa página não existe. O botão de voltar existe, e é bem mais confiável.",
+      "Página não encontrada. Digitou o endereço de memória? Eu tenho memória de peixe e não faria isso."
     ],
     "sem": [
-      "PÁGINA NÃO ENCONTRADA! O PEIXOTO REVIROU O AQUÁRIO INTEIRO!",
-      "404! Essa página sumiu. VOLTA PRO INÍCIO, VAI!",
-      "Nada aqui. SÓ ÁGUA E UM PEIXOTO CONFUSO!",
-      "Endereço errado. O ENEM NÃO PERDOA, E A INTERNET MENOS AINDA!",
-      "404 NA ÁREA! Essa página nunca existiu."
+      "404! PÁGINA NÃO ENCONTRADA! REVIREI O AQUÁRIO INTEIRO E SÓ ACHEI UMA ALGA CONFUSA! VOLTA PRO INÍCIO!",
+      "PÁGINA NÃO ENCONTRADA! SUMIU IGUAL RESPOSTA QUE EU TINHA CERTEZA. VOLTA PRO INÍCIO!",
+      "ESSA PÁGINA SUMIU SEM DEIXAR RASTRO! SE VOCÊ VIR ELA POR AÍ, AVISA! ENQUANTO ISSO, VOLTA PRO INÍCIO!",
+      "ENDEREÇO ERRADO! ESSA PÁGINA NÃO EXISTE. Plot twist: ela nunca existiu. Volta pro início!",
+      "404 NA ÁREA! Nada aqui além de água e um Peixoto confuso. VOLTA PRO INÍCIO!"
     ],
     "reserva": "Página não encontrada."
   },
   "erro_http:403": {
     "fofo": [
-      "Você não tem acesso a essa página. O Peixoto guarda a porta com carinho.",
-      "Acesso negado. Essa área não é sua, mas o início está liberado.",
-      "Não dá pra abrir isso aqui. Volta pro início, por favor!",
-      "Sem permissão pra essa página. O Peixoto sente muito.",
-      "Essa porta está trancada pra você. Bora tentar outra?"
+      "Você não tem acesso a essa página (erro 403). O Peixoto guarda a porta com carinho. O início está liberado.",
+      "Acesso negado. Essa área não é sua, mas o resto do Gabaritu está aberto.",
+      "Não dá pra abrir essa página: ela é restrita. Nem eu entro, e eu moro aqui. Volta pro início.",
+      "Sem permissão pra essa página. Sinto muito de verdade, com as duas nadadeiras no peito.",
+      "Essa porta está trancada pra você, mas tem uma aberta no início. Bora?"
     ],
     "sarc": [
-      "Acesso negado. O Peixoto é segurança, mas é um segurança gentil.",
-      "Você não pode ver isso. Curiosidade é boa, mas aqui não.",
-      "403: essa página não é sua. Nem adianta insistir.",
-      "Sem acesso. O Peixoto tem lista de convidados e você não está nela.",
-      "Entrada proibida. Volta pro início que lá tem coisa boa."
+      "Acesso negado. O Peixoto é segurança, mas gentil: ele nega sorrindo.",
+      "403: essa página não é sua. Curiosidade é boa, mas aqui a lista de convidados é rígida.",
+      "Sem acesso (403). Até o meu aquário tem lista de convidados, e essa página tem a dela. Você não está nela.",
+      "Você não tem permissão pra ver isso. Eu sei, também odeio porta fechada. Volta pro início.",
+      "Entrada proibida (403). Volta pro início, que lá tem questão, que é mais divertido que porta."
     ],
     "sem": [
-      "ACESSO NEGADO! O PEIXOTO GUARDA ESSA PORTA!",
-      "403! ESSA PÁGINA NÃO É SUA! VOLTA PRO INÍCIO!",
-      "SEM PERMISSÃO! O SEGURANÇA PEIXOTO ESTÁ DE OLHO!",
-      "VOCÊ NÃO PASSA! Pelo menos, não por aqui.",
-      "PORTA TRANCADA! BORA ESTUDAR EM OUTRA PÁGINA!"
+      "403! ACESSO NEGADO! EU GUARDO ESSA PORTA COM MUITA SERIEDADE E UM POUCO DE DRAMA!",
+      "VOCÊ NÃO PASSA! (403: SEM PERMISSÃO.) Pelo menos não por aqui. Volta pro início!",
+      "SEM PERMISSÃO! O SEGURANÇA PEIXOTO ESTÁ DE OLHO! NOS DOIS, CADA UM PRA UM LADO!",
+      "403! ESSA PÁGINA É ÁREA VIP E VOCÊ NÃO ESTÁ NA LISTA. VOLTA PRO INÍCIO!",
+      "ÁREA RESTRITA! NEM O FILTRO ENTRA, E ELE ENTRA EM TUDO! BORA ESTUDAR EM OUTRA PÁGINA!"
     ],
     "reserva": "Você não tem acesso a esta página."
   },
   "erro_http:419": {
     "fofo": [
-      "A página expirou. Atualiza e tenta de novo, o Peixoto espera.",
-      "Sua sessão ficou parada muito tempo. Recarrega a página e continua!",
-      "Tempo esgotado nessa página. Atualiza e bora de novo.",
-      "A página venceu. Dá um refresh e a gente segue.",
+      "A página expirou (erro 419). Atualiza e tenta de novo, o Peixoto espera.",
+      "Sua sessão ficou parada muito tempo. Recarrega a página e continua de onde parou.",
+      "Tempo esgotado nessa página. Recarrega e bora de novo, que eu deixei a água morninha.",
+      "A página venceu, igual iogurte esquecido. Recarrega que a gente segue.",
       "Expirou, mas tem conserto: recarrega e tenta outra vez."
     ],
     "sarc": [
-      "A página expirou. Ficou pensando demais, hein?",
-      "Sessão vencida. O Peixoto cochilou esperando.",
-      "419: tempo esgotado. Recarrega a página e finge que nada aconteceu.",
-      "Expirou. A página não aguentou esperar a sua decisão.",
-      "A página venceu. Atualiza e tenta de novo, sem drama."
+      "A página expirou. Ficou pensando demais, hein? Recarrega e pensa mais rápido.",
+      "Sessão vencida. Eu cochilei esperando e nem percebi. Recarrega a página que eu acordo.",
+      "419: tempo esgotado. Recarrega a página e finge que nada aconteceu. Eu também finjo.",
+      "A página não aguentou esperar a sua decisão. É impaciente, igual eu. Recarrega.",
+      "Expirou. Acontece com leite e com página aberta há tempo demais. Atualiza e tenta de novo."
     ],
     "sem": [
-      "PÁGINA EXPIRADA! ATUALIZA E VOLTA COM TUDO!",
-      "O TEMPO ACABOU NESSA PÁGINA! RECARREGA JÁ!",
-      "419! A PÁGINA VENCEU! DÁ UM REFRESH, CAMPEÃO!",
-      "Expirou. O PEIXOTO FICOU ESPERANDO ATÉ BOIAR!",
-      "SESSÃO VENCIDA! RECARREGA E SEGUE O JOGO!"
+      "419! A PÁGINA EXPIROU! DÁ UM REFRESH E VOLTA COM TUDO!",
+      "O TEMPO ACABOU NESSA PÁGINA! O cronômetro não perdoa! RECARREGA JÁ!",
+      "SESSÃO VENCIDA APÓS LONGA ESPERA! A PÁGINA PEDE UM REFRESH E UM POUCO DE RESPEITO!",
+      "EXPIROU! O Peixoto esperou até o filtro cansar, mas RECARREGA E TUDO SE ARRUMA!",
+      "SESSÃO VENCIDA! RECARREGA E SEGUE O JOGO! Sem drama. Só o tamanho de drama que eu consigo!"
     ],
     "reserva": "A página expirou. Recarregue e tente de novo."
   },
@@ -431,95 +431,95 @@
     "fofo": [
       "Muitas tentativas em pouco tempo. Espera um instante e tenta de novo.",
       "Calma, o Peixoto precisa respirar. Tenta de novo em um minutinho.",
-      "Você fez muita coisa de uma vez. Dá uma pausa e volta já.",
-      "Pedidos demais por agora. Espera um pouco e continua!",
+      "Você fez muita coisa de uma vez. Dá uma pausa curtinha e volta já, que eu te espero.",
+      "Pedidos demais por agora (erro 429). Espera um pouco e continua!",
       "Devagar com o clique! Um instante e a gente segue."
     ],
     "sarc": [
-      "Muitas tentativas. O botão não é metralhadora, respira.",
-      "429: calma, o servidor também precisa de um café.",
-      "Você clicou rápido demais. O Peixoto ficou tonto.",
-      "Pedidos demais. Espera um tempinho, a resposta não vai fugir.",
-      "Tentativas demais em pouco tempo. Pausa e volta."
+      "Muitas tentativas. O botão não é campainha. Respira e espera um instante.",
+      "429: calma, o servidor também precisa de um café. Espera um instante.",
+      "Você clicou tão rápido que o Peixoto ficou zonzo. Espera um minuto.",
+      "Pedidos demais. Espera um tempinho, a resposta não vai fugir. Garanto, e eu sou peixe.",
+      "Tentativas demais em pouco tempo. Pausa e volta: o servidor também tem limite, igual a minha paciência."
     ],
     "sem": [
-      "MUITAS TENTATIVAS! RESPIRA E ESPERA UM INSTANTE!",
-      "429! CALMA, CAMPEÃO! O PEIXOTO ESTÁ ESGOTADO!",
-      "LIMITE ATINGIDO! UMA PAUSA E VOCÊ VOLTA!",
-      "CLICOU DEMAIS! O SERVIDOR PEDE UM MINUTO!",
-      "TENTATIVAS DEMAIS! TOMA UMA ÁGUA E VOLTA!"
+      "429! MUITAS TENTATIVAS! RESPIRA E ESPERA UM INSTANTE!",
+      "CALMA, CAMPEÃO! O limite de cliques acabou! ESPERA UM MINUTO E VOLTA!",
+      "O SERVIDOR RECLAMOU DE EXCESSO DE CLIQUES! ESPERA UM MINUTO E VOLTA, QUE ELE JÁ ESTARÁ MAIS CALMO!",
+      "CLICOU DEMAIS! O servidor pediu um minuto e EU CONCORDO COM ELE!",
+      "TENTATIVAS DEMAIS! TOMA UMA ÁGUA E VOLTA. Eu tomo o tempo todo e ainda assim funciono!"
     ],
     "reserva": "Muitas tentativas em pouco tempo. Aguarde um instante."
   },
   "erro_http:500": {
     "fofo": [
       "Algo deu errado do nosso lado. Já estamos de olho nisso, tenta de novo daqui a pouco.",
-      "Erro nosso, não seu. O Peixoto já está consertando.",
-      "Tivemos um problema aqui. Tenta de novo em instantes!",
-      "Algo falhou do nosso lado. O Peixoto pede desculpas.",
+      "Erro nosso, não seu. Fui mexer nos fios e me enrolei no cabo do filtro. Tenta daqui a pouco.",
+      "Tivemos um problema aqui (erro 500). Tenta de novo em instantes, a culpa não é sua.",
+      "O servidor tropeçou no cascalho. Já estamos arrumando. Volta em alguns minutos.",
       "Deu problema no servidor. Volta em alguns minutos que deve estar certo."
     ],
     "sarc": [
-      "Erro nosso, não seu. Dessa vez o errado fomos nós.",
-      "Algo falhou do nosso lado. O Peixoto vai ouvir poucas e boas do programador.",
-      "500: o servidor errou. Pelo menos agora você sabe como é.",
-      "Falha do servidor. Pelo menos o erro não foi seu, hein?",
-      "Algo quebrou aqui. Tenta de novo depois, o Peixoto cuida do resto."
+      "Erro nosso, não seu. Dessa vez o errado fomos nós. Raro, anota a data.",
+      "500: o servidor errou. Hoje o erro é nosso e eu estou aprendendo a lidar. Tenta de novo depois.",
+      "Falha do nosso lado. O Peixoto vai ouvir do programador, e olha que ele só tem nadadeiras.",
+      "Algo quebrou aqui, e a culpa é nossa. O filtro jura que não foi ele. Tenta de novo em instantes.",
+      "Deu ruim do nosso lado. Hoje quem errou a questão fomos nós. Tenta de novo em instantes."
     ],
     "sem": [
       "ERRO NOSSO! O SERVIDOR TROPEÇOU! TENTA DE NOVO DAQUI A POUCO!",
-      "500! O SERVIDOR ESTÁ COM PROBLEMAS! O PEIXOTO JÁ ESTÁ CORRENDO!",
-      "FALHA DO LADO DE CÁ! VOLTA LOGO MAIS!",
-      "O SERVIDOR ERROU E O PEIXOTO ASSUME A CULPA!",
-      "DEU RUIM AQUI! Mas já já está consertado."
+      "500! A CULPA É NOSSA! O Peixoto já está correndo, quer dizer, nadando muito rápido!",
+      "O SERVIDOR FALHOU E ASSUMIU TODA A CULPA! VOLTA LOGO MAIS, QUE ELE PROMETEU SE COMPORTAR!",
+      "O SERVIDOR ERROU E O PEIXOTO ASSUME A CULPA! SE PRECISAR, ASSUMO A DO FILTRO TAMBÉM!",
+      "DEU RUIM AQUI! A CULPA NÃO É SUA, É NOSSA. JÁ JÁ ESTÁ CONSERTADO, TENTA DE NOVO!"
     ],
     "reserva": "Algo deu errado do nosso lado. Tente de novo em instantes."
   },
   "erro_http:503": {
     "fofo": [
       "O Gabaritu está em manutenção rápida. Volta daqui a pouco!",
-      "Estamos arrumando a casa. Tenta de novo em alguns minutos.",
-      "Serviço fora do ar por um momento. O Peixoto já volta.",
-      "Manutenção em andamento. Volta logo e a gente continua.",
-      "Dando uma organizada por aqui. Já já está tudo certo!"
+      "Estamos arrumando a casa. Tenta de novo em alguns minutos. O Peixoto já está com o pano na nadadeira.",
+      "Serviço fora do ar por um momento (erro 503). O Peixoto já volta.",
+      "Manutenção em andamento. Volta logo e a gente continua de onde parou.",
+      "Dando uma organizada por aqui. Eu ajudei, quer dizer, fiquei olhando. Já já está tudo certo!"
     ],
     "sarc": [
-      "Manutenção em andamento. Até o Peixoto precisa de uma folga.",
+      "Manutenção em andamento. Até o Peixoto precisa de uma folga, e hoje ele não teve.",
       "O servidor saiu pra tomar um café. Volta daqui a pouco.",
-      "503: fora do ar por um momento. Aproveita pra beber uma água.",
-      "Estamos em manutenção. O estudo espera, o Peixoto também.",
-      "Serviço indisponível agora. Volta daqui a pouco, sem pressa."
+      "503: fora do ar por um momento. Aproveita pra beber uma água. Eu aproveito o tempo todo.",
+      "Serviço indisponível agora. Eu avisei o servidor pra descansar quando estiver cansado. Volta daqui a pouco.",
+      "Estamos em manutenção. O estudo espera, eu espero. Esperar é a minha especialidade: moro num vidro."
     ],
     "sem": [
-      "MANUTENÇÃO! O SERVIDOR ESTÁ FAZENDO ALONGAMENTO!",
-      "503! FORA DO AR POR UM MOMENTO! O PEIXOTO JÁ VOLTA!",
-      "ESTAMOS ARRUMANDO A CASA! VOLTA JÁ!",
-      "SERVIÇO INDISPONÍVEL! TOMA UMA ÁGUA E TENTA DEPOIS!",
-      "O TANQUE ESTÁ EM LIMPEZA! VOLTA DAQUI A POUCO!"
+      "503! MANUTENÇÃO! O servidor está fazendo alongamento e VOLTA JÁ JÁ!",
+      "FORA DO AR POR UM MOMENTO! O Peixoto está aqui segurando a fortaleza até o servidor voltar!",
+      "ESTAMOS ARRUMANDO A CASA! VOLTA EM ALGUNS MINUTOS, E NÃO OLHA A BAGUNÇA!",
+      "SERVIÇO INDISPONÍVEL! VOLTA EM ALGUNS MINUTOS! ENQUANTO ISSO EU FICO AQUI, ENCARANDO O VIDRO!",
+      "O TANQUE ESTÁ EM LIMPEZA! Sem pânico: volta daqui a pouco. Eu estou aqui dentro, com medo da faxina!"
     ],
     "reserva": "Serviço em manutenção. Tente de novo em alguns minutos."
   },
   "privacidade": {
     "fofo": [
-      "Aqui a gente conta tudo sobre os seus dados, sem letra miúda.",
-      "O Peixoto guarda o mínimo e explica o resto. Pode ler com calma.",
-      "Transparência é com a gente. Leia e tire suas dúvidas.",
-      "Seus dados são seus. O Peixoto só cuida do essencial.",
-      "Pouco dado, muita clareza. Esse é o combinado."
+      "Aqui você vê o que o Gabaritu guarda, por quê e como apagar. Sem letra miúda, prometo pelas escamas.",
+      "O Peixoto guarda o mínimo e explica o resto. Pode ler com calma, é curtinho.",
+      "Seus dados são seus. A gente guarda só o essencial e explica aqui como apagar.",
+      "Pouco dado, muita clareza. Esse é o combinado, e eu não quebro combinado nem com o filtro.",
+      "Transparência é com a gente. Leia, tire suas dúvidas e, se quiser, apague o que é seu."
     ],
     "sarc": [
-      "Ninguém lê termos de uso, mas o Peixoto escreveu este aqui pra ser lido.",
-      "Sim, é uma página de privacidade. Não, não é um tédio. Quase.",
-      "O Peixoto não vende seus dados. Nem sabe vender, na verdade.",
-      "Leitura obrigatória, mas curta. O Peixoto tem respeito pelo seu tempo.",
-      "Aqui está o que guardamos. Spoiler: é bem pouco."
+      "Ninguém lê termos de uso, mas eu escrevi este aqui pra ser lido. É curto, juro pelo cascalho.",
+      "Sim, é uma página de privacidade. Não, não é um tédio. Quase. Ela diz o que a gente guarda e como apagar.",
+      "O Peixoto não vende seus dados. Nem sabe vender, mas a regra é essa mesmo.",
+      "Leitura obrigatória, mas curta. Tem o que guardamos, por quê e como apagar.",
+      "Spoiler: a gente guarda bem pouco. O resto da página conta o que é, por quê e como apagar."
     ],
     "sem": [
-      "PRIVACIDADE EM PRIMEIRO LUGAR! LEIA TUDO, É CURTINHO!",
-      "O PEIXOTO GUARDA SEUS DADOS COMO TESOURO! E SÓ O NECESSÁRIO!",
-      "NADA DE LETRINHA MIÚDA! AQUI É TUDO NA CARA!",
-      "SEUS DADOS, SUAS REGRAS! O PEIXOTO SÓ OBEDECE!",
-      "TRANSPARÊNCIA TOTAL! O TANQUE É DE VIDRO!"
+      "PRIVACIDADE EM PRIMEIRO LUGAR! LEIA TUDO, É CURTINHO: o que guardamos, por quê e como apagar!",
+      "SEUS DADOS, SUAS REGRAS! O Peixoto só obedece. Tem tudo aqui: o que guardamos, por quê e como apagar!",
+      "NADA DE LETRINHA MIÚDA! AQUI É TUDO NA CARA: O QUE GUARDAMOS, POR QUÊ E COMO APAGAR!",
+      "TRANSPARÊNCIA TOTAL! O tanque é de vidro: dá pra ver o que a gente guarda!",
+      "AVISO: ESTA PÁGINA NÃO TEM PEGADINHA. É o que guardamos e como apagar, em linguagem de gente!"
     ],
     "reserva": "Veja o que o Gabaritu guarda, por quê e como apagar."
   }

@@ -2,326 +2,326 @@
   {
     "etiqueta": "esp-palavra-solta",
     "fofo": [
-      "A palavra estava no texto mesmo, só não respondia a pergunta. Tá quase!",
-      "Foi na que brilhou mais, né? Da próxima, lê a pergunta primeiro.",
-      "Até eu, que sou peixe, já mordi isca só pelo brilho. Acontece!",
-      "Achou a palavra certa na alternativa errada. Quase um achado!",
-      "Calma, respira: ler a pergunta antes das alternativas vira seu superpoder."
+      "A alternativa repetiu 'casa' e você entrou sem bater. Fofo! Mas a pergunta queria saber quem mora nela.",
+      "A palavra repetida te piscou um olho e você foi atrás. Ela é charmosa, mas não sabe a resposta.",
+      "Quase! A palavra estava lá, sim, mas de turista. Ela não mora na resposta, só passou pra tirar foto.",
+      "Eu também me apego ao que é conhecido: achei que o 'pez' da alternativa era sobre mim. Era sobre outro peixe.",
+      "Você juntou palavras iguais como quem junta figurinha repetida. Divertido! Mas o álbum pedia outra."
     ],
     "sarc": [
-      "A palavra estava no texto, parabéns. A resposta é que não estava.",
-      "Ah, claro: se aparece no texto, é a resposta. Lógica de caça-palavras.",
-      "Achou a palavra repetida. Interpretar que é bom, nada ainda.",
-      "Que rapidez para achar a palavra igual. Pena que ela não respondia nada.",
-      "Dedo rápido, leitura em modo econômico. Combinação interessante."
+      "Ah, a alternativa tem 'trabajo', o texto tem 'trabajo', então é a certa. Muito trabalho de investigação.",
+      "¡Qué estrategia! O examinador montou essa armadilha pensando em você, com todo o carinho.",
+      "Você marcou pela palavra igual. É como reconhecer um amigo só pelo boné. Pode ser qualquer um de boné.",
+      "Bela técnica: Ctrl+F na prova. Pena que busca não vale como interpretação.",
+      "¡Felicidades! A alternativa e o texto usaram a mesma palavra. Já podem casar. A pergunta não vai."
     ],
     "sem": [
-      "CAÇA-PALAVRAS NÃO É PROVA DE INTERPRETAÇÃO!!!",
-      "A PALAVRA REPETIDA ERA ISCA E VOCÊ MORDEU COM FÚRIA!",
-      "O TEXTO GRITOU A RESPOSTA E VOCÊ FOI ATRÁS DE UMA PALAVRINHA SOLTA!",
-      "EU FICO INFLADO COM TANTA PALAVRA SOLTA, E NEM FOI SUSTO!",
-      "FOI NA PRIMEIRA PALAVRA PARECIDA COMO QUEM PEGA O ÔNIBUS SEM VER O DESTINO!"
+      "A PALAVRA ERA DECORAÇÃO! TIPO A PEDRINHA, QUE EU AMO, MAS QUE NUNCA RESPONDEU NADA NA VIDA!",
+      "¡AY, NO! VOCÊ VIU A PALAVRA IGUAL E NEM OLHOU A PERGUNTA! A PERGUNTA TÁ ATÉ AGORA LEVANTANDO A MÃO!",
+      "IGUALZINHA NÃO É CORRETA! SE FOSSE, MEU REFLEXO NO VIDRO RESPONDERIA A PROVA POR MIM!",
+      "VOCÊ FEZ UM CAÇA-PALAVRAS NA PROVA DE ESPANHOL! ACHOU, CIRCULOU E ERROU! COM ESTILO!",
+      "A PERGUNTA ERA '¿POR QUÉ?' E VOCÊ RESPONDEU UM '¿QUIÉN?' SÓ PORQUE TINHA A MESMA PALAVRA!"
     ],
-    "reserva": "Palavra repetida no texto não quer dizer resposta certa. Primeiro a pergunta, depois a caça ao tesouro."
+    "reserva": "Achar a mesma palavra do texto na alternativa é armadilha clássica. Ela tava lá só de enfeite."
   },
   {
     "etiqueta": "esp-falso-amigo",
     "fofo": [
-      "Ele se parece com o português só pra enganar a gente. Já me pegou várias vezes!",
-      "A palavra deu uma de gêmea do português, mas é prima distante. Quase!",
-      "Todo mundo cai nessa pelo menos uma vez. Agora você já sabe da pegadinha!",
-      "Falso amigo é aquele conhecido que parece o primo. Confunde mesmo.",
-      "Boa tentativa! Anota essa palavra no caderninho que ela volta na prova."
+      "'Oficina' em espanhol é escritório. Você mandou o executivo trocar o óleo do carro. De terno!",
+      "Você leu 'apellido' como apelido. O personagem ganhou um apelido carinhoso e perdeu o sobrenome. Fofo!",
+      "Quase! 'Rato' é um momentinho, não um bichinho. Ninguém trouxe roedor pro texto, pode respirar.",
+      "'Cena' é jantar! Você achou que era teatro. Bom, jantar em família às vezes vira teatro mesmo.",
+      "Confesso: passei um ano chamando meu aquário de 'vaso'. Aí descobri que 'vaso' é copo. Tô com medo de virar suco."
     ],
     "sarc": [
-      "Parece português, soa português, mas não é português. Surpresa!",
-      "A palavra disse que era amiga, e você acreditou. Muito confiável, essa leitura.",
-      "Quando em dúvida, finja que é português. Funciona sempre, né? (Não funciona.)",
-      "Que fé na semelhança entre as línguas. O dicionário manda lembranças.",
-      "Se fosse tudo igual ao português, ninguém precisava estudar espanhol."
+      "Ah, sim, 'largo' é largo. Por isso o filme 'largo' de três horas era tão espaçoso.",
+      "'Taza' virou taça. Agora o café da manhã do personagem parece brinde de casamento.",
+      "Brilhante: 'propina' é gorjeta e você entendeu outra coisa. O garçom só queria uns trocados, gente.",
+      "'Borrar' é apagar, mas você leu como borrar a tinta. O texto ficou limpinho e a sua resposta, manchada.",
+      "Que bonito: 'presunto' em espanhol é 'suposto', e você mandou o suposto culpado pro sanduíche."
     ],
     "sem": [
-      "FALSO AMIGO PEGOU VOCÊ COM A MÃO NA MASSA!!!",
-      "A PALAVRA SE FEZ DE AMIGA E DEU A FACADA PELAS COSTAS!",
-      "UM FALSO AMIGO DERRUBOU TUDO E AINDA SAIU ASSOBIANDO!",
-      "O ESPANHOL SÓ ESTAVA FINGINDO SER PORTUGUÊS E VOCÊ CAIU TODINHO!",
-      "FALSO AMIGO, VERDADEIRO DRAMA: A DERROTA FOI FEITA EM CASA!"
+      "'ACEITE' É AZEITE! NINGUÉM ACEITOU NADA! O PERSONAGEM SÓ TEMPEROU A SALADA!",
+      "O HETEROSSEMÂNTICO TE ENGANOU NA CARA DURA! ELE TEM A NOSSA ROUPA, O NOSSO JEITO E OUTRO SIGNIFICADO!",
+      "'CACHORRO' É FILHOTE! QUALQUER FILHOTE! O TEXTO FALAVA DE UM URSINHO E VOCÊ PÔS COLEIRA NELE!",
+      "'BRINCAR' É PULAR! O PERSONAGEM SÓ SALTOU A POÇA E VOCÊ ORGANIZOU UMA GINCANA!",
+      "ME SINTO TRAÍDO EM DOIS IDIOMAS! 'SALADA' QUER DIZER SALGADA E VOCÊ FOI PEDIR ALFACE!"
     ],
-    "reserva": "Falso amigo é palavra que pisca em português e fala outra língua. Desconfie de sósia."
+    "reserva": "A palavra parecia português, mas em espanhol queria dizer outra coisa. Amizade de idioma tem dessas."
   },
   {
     "etiqueta": "esp-extrapolou",
     "fofo": [
-      "Sua imaginação é ótima, mas o texto não disse isso. Fica pra fanfic!",
-      "Você foi além do texto. Se quiser, escreve o final alternativo depois!",
-      "Quase sensata! Só que o texto não deu esse dado. A prova cobra o que está escrito.",
-      "Detetive de mão cheia, só falta provar com o texto. Tenta de novo!",
-      "Ideia criativa! Mas aqui a regra é: se não está escrito, não vale."
+      "Você viu um gigante onde o texto só tinha um moinho. Dom Quixote te entende! Mas a prova é mais Sancho.",
+      "O texto disse que choveu em Macondo e você já previu cem anos de chuva. Calma, García Márquez!",
+      "Quase! O texto abriu uma janelinha e você construiu uma casa inteira em volta. Linda, mas sem alvará.",
+      "Eu também imagino coisas: jurei que o pet shop ia me levar pra praia. Era só troca de água.",
+      "Sua resposta foi passear sozinha pelo texto e voltou com histórias novas. Adorei, mas elas não valem ponto."
     ],
     "sarc": [
-      "Inventou um enredo novo, hein? O autor vai querer direitos autorais.",
-      "O texto não disse isso, mas você disse bem alto. Confiança é tudo.",
-      "Uau, leu nas entrelinhas até o que nem estava escrito.",
-      "Que imaginação! Pena que a prova cobra leitura, não fanfic.",
-      "Interpretar é uma coisa, inventar é outra. Você está de olho na segunda."
+      "Ah, o texto disse que ela viajou, então ela fugiu, casou e abriu um restaurante em Sevilha. Óbvio.",
+      "Que imaginação. Nem o Borges, com uma biblioteca infinita, achou esse trecho no texto.",
+      "Eu procurei isso no texto com lupa, com lanterna e com a ajuda da pedrinha. Nada.",
+      "Interpretação nível telenovela: um olhar no corredor e você já tem herança, gêmeo perdido e casamento.",
+      "Claro, 'quizás' quer dizer 'com certeza absoluta'. O texto falou talvez e você assinou contrato."
     ],
     "sem": [
-      "O TEXTO NÃO DISSE ISSO!!! DE ONDE VOCÊ TIROU ESSA HISTÓRIA?!",
-      "VIROU ROTEIRISTA DE NOVELA E NINGUÉM AVISOU O AUTOR!",
-      "VOCÊ LEU ATÉ O QUE NÃO ESTAVA ESCRITO. QUE PODER É ESSE?!",
-      "PAROU DE INTERPRETAR E COMEÇOU A ESCREVER UM LIVRO NOVO!",
-      "ESSA ALTERNATIVA É UM UNIVERSO PARALELO E NINGUÉM TE PEDIU VIAGEM!"
+      "¡QUÉ VA! ESSA INFORMAÇÃO ENTROU NA SUA RESPOSTA DE PENETRA, SEM CONVITE E SEM CARIMBO!",
+      "VOCÊ DEDUZIU UM DRAGÃO A PARTIR DE UMA LAGARTIXA! O TEXTO SÓ TINHA A LAGARTIXA!",
+      "ATÉ O SANCHO PANÇA, QUE ACREDITAVA NA ILHA PROMETIDA, ACHOU ESSA CONCLUSÃO FORÇADA!",
+      "DELULU NÍVEL MÁXIMO! O TEXTO FALOU DE UM CAFEZINHO E VOCÊ DEDUZIU UMA CRISE MUNDIAL DO CAFÉ!",
+      "EU, UM PEIXE QUE NUNCA SAIU DO AQUÁRIO, FIQUEI MAIS PERTO DO TEXTO QUE VOCÊ! VOLTA PRA DENTRO DELE!"
     ],
-    "reserva": "Na prova de interpretação, a resposta tem que caber no texto. Imaginação fica para depois."
+    "reserva": "A conclusão foi além do que o texto diz. Ele ficou lá atrás, sem entender pra onde você foi."
   },
   {
     "etiqueta": "esp-detalhe-central",
     "fofo": [
-      "Essa informação está no texto, mas não é o assunto principal. Foi por pouco!",
-      "Você pegou um detalhe bonito. A pergunta pedia o quadro geral.",
-      "Olhou a árvore bonita, mas a pergunta queria a floresta. Acontece!",
-      "Boa leitura de detalhe! Só falta subir um degrau e ver a ideia geral.",
-      "Detalhe certo, pergunta errada. Quase um empate!"
+      "Você leu sobre a festa e lembrou só da cor das toalhas. Detalhe lindo! Mas a festa era o assunto.",
+      "Quase! Você focou no cachorrinho de Las Meninas e esqueceu a família inteira no quadro.",
+      "O texto falava do verão inteiro e você ficou com o sorvete. Compreensível, mas era só o sorvete.",
+      "Eu também me distraio: o professor explicando e eu olhando uma bolha. Bolha bonita, aula perdida.",
+      "Você pegou o detalhe e esqueceu o resto da mala. Viajou só com a escova de dente. Fofo, mas falta coisa."
     ],
     "sarc": [
-      "Um detalhe e tanto! Pena que a pergunta era sobre outra coisa.",
-      "Ver só o detalhe é um talento. Ver o todo seria um bônus.",
-      "Esse trecho está mesmo no texto. Falta só ele ser o assunto principal.",
-      "Escolheu o figurante como protagonista. Muito corajoso.",
-      "Achou o detalhe e esqueceu o resto do filme."
+      "Claro, o tema de Dom Quixote é a manutenção de moinhos. O resto é paisagem.",
+      "Que foco. O Picasso pintou um quadro cheio de gente e você só reparou na moldura.",
+      "Ah, a ideia central do texto sobre a seca no campo é o nome do cachorro do fazendeiro. Muito central.",
+      "Que memória seletiva: do texto todo, sobrou o nome da rua. A rua tá até se achando.",
+      "Parabéns por ler o rodapé com tanta atenção. O texto principal pede um pouquinho também."
     ],
     "sem": [
-      "VIROU O FIGURANTE NO ASTRO DO FILME!!!",
-      "O DETALHE NÃO É A IDEIA PRINCIPAL, MEU CAMPEÃO!",
-      "ENFIOU O NARIZ NUMA MIGALHA E PERDEU O BOLO INTEIRO!",
-      "VOCÊ FOTOGRAFOU O RODAPÉ E FINGIU QUE ERA O QUADRO!",
-      "EU TAMBÉM ME DISTRAIO COM DETALHE, MAS O ASSUNTO PRINCIPAL AINDA MANDA AQUI!"
+      "A PLAQUINHA DA PADARIA VIROU PROTAGONISTA DE UM TEXTO SOBRE UM PAÍS INTEIRO! ELA NEM TINHA FALA!",
+      "¡CARAMBA! O TEXTO FEZ UM DISCURSO INTEIRO E VOCÊ CITOU SÓ O 'BUENOS DÍAS' DO COMEÇO!",
+      "EU INVESTI EM VOCÊ! E VOCÊ ME TRAZ O DETALHE DO PARÁGRAFO TRÊS COMO SE FOSSE A TESE DO SÉCULO!",
+      "POV: O AUTOR ESCREVE SOBRE O FUTURO DA ÁGUA NO PLANETA E VOCÊ RESPONDE SOBRE O COPO DELE.",
+      "QUINCE NÃO É CINCUENTA! SÃO TRINTA E CINCO DE DIFERENÇA! EU CONTEI NAS BOLHAS!"
     ],
-    "reserva": "Detalhe é bom, mas nem todo detalhe é a ideia central. Dá um passo atrás e olha o texto todo."
+    "reserva": "O detalhe foi promovido a assunto principal sem merecer. O tema de verdade ficou de figurante."
   },
   {
     "etiqueta": "esp-ignorou-negacao",
     "fofo": [
-      "Aquele no minúsculo se escondeu bem. Da próxima você o pega!",
-      "Foi só um nunca que passou despercebido. Acontece com os melhores!",
-      "Dica rápida: sublinha as negações (no, nunca, nadie, ni, sin) quando ler.",
-      "O texto negou, você afirmou. Quase na mesma direção, só que ao contrário!",
-      "Uma palavrinha pequena derrubou tudo. Vale conferir o no antes de marcar."
+      "O texto disse 'ni esto ni aquello' e você levou os dois pra casa. Fofo, mas era nenhum!",
+      "'Nadie vino' e você achou que veio todo mundo. Que otimismo! A festa tava vazia, mas você não.",
+      "Quase! O 'sin' tava ali tirando coisa da frase e você colocou tudo de volta. Que generoso!",
+      "Quase! O 'tampoco' tava dizendo 'eu também não' e você ouviu 'eu também sim'. Ele ficou sozinho no 'não'.",
+      "O 'solo' tava limitando tudo e você leu como 'sempre'. Ele queria só um pouquinho, você deu tudo."
     ],
     "sarc": [
-      "A negação estava ali, em letras nítidas. Mas você foi de olhos fechados.",
-      "Lendo sem o no, tudo fica mais positivo. Só que errado.",
-      "Parabéns, você entendeu exatamente o oposto do que estava escrito.",
-      "O texto falou não, e você ouviu sim. Seletividade é uma arte.",
-      "Que otimismo: onde o texto disse nunca, você leu siempre."
+      "Ah, 'nunca llueve aquí' significa que chove sempre. É uma cidade chuvosa e mentirosa.",
+      "Claro, 'sin azúcar' é com muito açúcar. O café do texto tá doce de tanta interpretação.",
+      "Que rapidez: o 'no' tava no começo da frase e você já tinha esquecido dele no fim.",
+      "Bécquer escreveu 'volverán las oscuras golondrinas' e depois 'esas no volverán'. Você ficou na primeira parte.",
+      "Que interessante: o texto disse 'jamás' e você leu 'de vez em quando'. Uma negação bem flexível."
     ],
     "sem": [
-      "O NO ESTAVA LÁ!!! IMENSO, SOLENE, E VOCÊ PASSOU DIRETO!",
-      "UMA NEGAÇÃO TRANSFORMOU TUDO EM TRAGÉDIA E VOCÊ NEM PERCEBEU!",
-      "NEGAÇÃO IGNORADA É RESPOSTA JOGADA FORA!",
-      "O TEXTO DISSE NÃO E VOCÊ ENTENDEU SIM COM TODAS AS FORÇAS!",
-      "UM NI PEQUENININHO DERRUBOU UM GIGANTE, E O GIGANTE ERA VOCÊ!"
+      "O TEXTO DISSE 'NI SIQUIERA' E VOCÊ LEU 'COM CERTEZA'! A NEGAÇÃO FEZ ESCÂNDALO E VOCÊ BAIXOU O VOLUME!",
+      "'NADIE' NÃO É NOME DE PESSOA! NÃO TEM NENHUM SEÑOR NADIE NA HISTÓRIA! NINGUÉM VEIO!",
+      "¡NO ES SÍ! ¡NO ES SÍ! EU TÔ INCHANDO EM ESPANHOL AGORA, VIU O QUE VOCÊ CAUSOU?!",
+      "URGENTE: 'sin' é ignorado numa frase e personagem que estava sem dinheiro aparece milionário.",
+      "VOCÊ TIROU O 'NUNCA' DA FRASE E O TEXTO INTEIRO VIROU PROPAGANDA DE OTIMISMO!"
     ],
-    "reserva": "No, nunca, nadie, ni, sin: palavrinhas pequenas que viram o sentido de cabeça para baixo."
+    "reserva": "O texto negava e você afirmou. Bastou um 'no', um 'nunca' ou um 'sin' passar despercebido."
   },
   {
     "etiqueta": "esp-portunhol",
     "fofo": [
-      "O portunhol é tentador, mas o espanhol tem opinião própria. Quase!",
-      "Quase certo! Só que essa estrutura não funciona igual ao português.",
-      "Todo mundo já mandou um portunhol na vida. Agora é aprender a diferença!",
-      "A palavra parecia igual, mas o espanhol é um primo com sotaque diferente.",
-      "Boa tentativa! Na dúvida, desconfie das semelhanças fáceis."
+      "Seu portunhol foi tão confiante que o espanhol quase pediu aula com você. Quase! Ele tem regras próprias.",
+      "Você disse 'el leche' e o leite ficou confuso com o crachá. Em espanhol ela é 'la leche'. Fofo errar assim!",
+      "Quase! 'Luego' não é logo, é depois. Você chegou cedo demais na frase, que fofura de pontualidade.",
+      "Eu falo portunhol também, mas só com a pedrinha. Ela não corrige, por isso acho que falo bem.",
+      "Portunhol é delicioso no churrasco da fronteira. Na prova, o espanhol pediu a versão oficial dele."
     ],
     "sarc": [
-      "Parece português, né? Pois o espanhol discorda.",
-      "O portunhol te levou longe. Só não era o lugar certo.",
-      "Se fosse igual ao português, ninguém reclamaria de espanhol.",
-      "Traduziu do português para o espanhol de cabeça e a frase foi viajar sozinha.",
-      "Esse foi um espanhol com forte sotaque brasileiro. Ou o contrário."
+      "Ah, 'todavía' é 'todavia'. O texto disse 'ainda' e você ouviu 'porém'. Porém, errado.",
+      "Ah, 'acordarse' é acordar. O personagem lembrou da mãe e você mandou ele levantar da cama.",
+      "Que coragem conjugar espanhol com regra de português. É tipo jogar xadrez com regra de dama.",
+      "Uau, 'muy' antes de substantivo. O 'mucho' tá na porta, ofendido, querendo o emprego dele de volta.",
+      "Brilhante: você leu 'en cuanto' como 'enquanto'. O personagem saiu assim que pôde e você deixou ele esperando."
     ],
     "sem": [
-      "PORTUNHOL ATACOU DE NOVO E DEIXOU UM RASTRO DE DESTRUIÇÃO!!!",
-      "O ESPANHOL NÃO É PORTUGUÊS COM CHAPÉU MEXICANO!",
-      "VOCÊ LEU EM PORTUNHOL E O TEXTO SAIU CORRENDO!",
-      "ESSA ESTRUTURA É ESPANHOL, NÃO UMA FANTASIA DE PORTUGUÊS!",
-      "O PORTUNHOL TE TRAIU COM UM SORRISO NO ROSTO!"
+      "PORTUNHOL NÃO É IDIOMA OFICIAL DO ENEM! É IDIOMA OFICIAL DO MEU AQUÁRIO, E SÓ!",
+      "'SITIO' NÃO É SÍTIO COM GALINHA! É LUGAR! TIRA AS GALINHAS DO TEXTO AGORA!",
+      "EU INCHEI EM PORTUNHOL! MEIO 'ESTOY ENOJADO', MEIO 'TÔ FURIOSO', 100% DESAPONTADO!",
+      "CHAT, ISSO É REAL? VOCÊ CONJUGOU O VERBO EM ESPANHOL COM TERMINAÇÃO DE PORTUGUÊS!",
+      "PLOT TWIST: ESPANHOL NÃO É PORTUGUÊS COM SOTAQUE! ELE TEM VIDA PRÓPRIA, CONTAS PRÓPRIAS E REGRAS!"
     ],
-    "reserva": "Português e espanhol são primos, não gêmeos. Confira antes de supor que é igual."
+    "reserva": "Você leu o espanhol com as regras do português. Parecido não quer dizer igual."
   },
   {
     "etiqueta": "esp-intencao-errada",
     "fofo": [
-      "Todo texto é escrito para alguma coisa. Pergunta: quem escreveu queria vender, avisar ou pedir?",
-      "Quase! Vale olhar o gênero antes: anúncio, convite, aviso, notícia.",
-      "Seu palpite foi criativo, mas o texto tinha outro objetivo. Respira e relê!",
-      "Dica de ouro: ver quem escreve e para quem ajuda a achar a intenção.",
-      "Intenção é como o tom de voz do texto: às vezes escondido, mas sempre existe."
+      "O texto era uma receita de tortilla e você achou que era um poema de amor ao ovo. Fofo! Mas era pra cozinhar.",
+      "Quase! O cartaz queria te convidar pra feira e você leu como aviso de obra. Ele só queria companhia.",
+      "Era uma reclamação educadinha, cheia de 'por favor', e você achou que era elogio. Que boa-fé linda!",
+      "Eu também confundo: achei que a placa 'se venden peces' do pet shop era um convite. Era um anúncio. De mim.",
+      "Era um pedido de socorro do texto e você leu como boletim informativo. Ele só queria um abraço, gente!"
     ],
     "sarc": [
-      "Anúncio virou convite, convite virou aviso. Texto de múltiplas identidades.",
-      "Você identificou um objetivo, só que não era o do texto.",
-      "Se fosse esse o propósito, o texto teria outro título.",
-      "Que leitura original: o autor com certeza quis dizer algo bem diferente do que escreveu.",
-      "Vender, pedir, convidar... você sorteou, né?"
+      "Claro, um folheto com '¡oferta!' em letras gigantes só quer bater papo. Nada de vender.",
+      "Ah, o Neruda escreveu uma ode à cebola e você achou que era propaganda de hortifrúti. Faz sentido, mas não.",
+      "Uma notícia sobre o trânsito e você viu um manifesto político. Os carros nem sabiam que eram militantes.",
+      "Você leu um anúncio de emprego como convite de aniversário. Pelo menos foi bem-vestido.",
+      "Uma carta de reclamação que você classificou como 'informativa'. O cliente tá furioso, mas informado."
     ],
     "sem": [
-      "O TEXTO QUERIA UMA COISA E VOCÊ ENTENDEU OUTRA, QUE CAOS!!!",
-      "CONFUNDIU UM ANÚNCIO COM UM TESTAMENTO! COMO ASSIM?!",
-      "A INTENÇÃO DO AUTOR FOI PARA UM LADO E VOCÊ FOI PARA O OUTRO, EM VELOCIDADE MÁXIMA!",
-      "O GÊNERO ERA UM E VOCÊ ENXERGOU OUTRO, SERÁ QUE FOI O NEVOEIRO?!",
-      "ERROU O PROPÓSITO DO TEXTO COM UMA CONFIANÇA QUE EU ATÉ ADMIRO!"
+      "O TEXTO QUERIA TE CONVENCER E VOCÊ ACHOU QUE ERA SÓ INFORMATIVO! ELE TÁ SE ESFORÇANDO TANTO, COITADO!",
+      "VOCÊ CONFUNDIU UM PEDIDO COM UMA ORDEM! O TEXTO DISSE '¿PODRÍAS?' COM TODA A EDUCAÇÃO DO MUNDO!",
+      "O PROPÓSITO DO TEXTO TAVA NA PRIMEIRA LINHA, DE CHAPÉU E SAPATO! E VOCÊ NEM CUMPRIMENTOU!",
+      "URGENTE: crítica social é lida como anúncio de turismo e cidade recebe visitantes confusos.",
+      "SE EU ESCREVO 'SOCORRO, A FAXINA CHEGOU', NÃO É POESIA! É PEDIDO DE AJUDA! IGUAL ESSE TEXTO!"
     ],
-    "reserva": "Antes de responder, pergunte: quem escreveu isso e para quê? O resto vem fácil."
+    "reserva": "Cada texto nasce com um objetivo. Esse aqui queria uma coisa de você, e a resposta deu outra."
   },
   {
     "etiqueta": "esp-referente-errado",
     "fofo": [
-      "O pronome apontou para outro lugar. Dica: procura o último substantivo compatível!",
-      "Quase! Lo, la, que e ellos sempre voltam para alguém. Basta achar quem.",
-      "Pronome é como sombra: sempre vai atrás de algum termo. Cadê ele?",
-      "Tudo bem, é fácil confundir. Substitui o pronome pela alternativa e vê se faz sentido.",
-      "Achou um termo, mas não o certo. Já está perto!"
+      "O 'lo' apontou pro livro e você entregou pro professor. O professor agradeceu, todo sem graça.",
+      "O 'les' era pros vizinhos e você entregou pros tios. Os tios adoraram a fofoca, mas não era deles.",
+      "Quase! O 'que' é um elevador que leva pra palavra de antes. Você desceu um andar cedo demais.",
+      "Em Cem Anos de Solidão todo mundo se chama Aureliano. Confundir referente lá é normal. Aqui, menos.",
+      "Até eu, que só tenho dois vizinhos, às vezes confundo quem fez o quê. Mas no texto era fácil, juro!"
     ],
     "sarc": [
-      "O pronome estava apontando pra um lado e você olhou pro outro.",
-      "Uma conexão feita com tanta convicção e tão pouca checagem.",
-      "O referente não era esse, mas a confiança estava ótima.",
-      "Lo virou ele, ela, aquilo, tudo. Menos o que o texto pedia.",
-      "Se o pronome pudesse falar, diria: não sou eu, é outra pessoa."
+      "Claro, o 'la' era a cadeira, então foi a cadeira que pediu demissão. Cadeira decidida.",
+      "Que interpretação criativa: o 'su' podia ser de cinco pessoas e você escolheu a única que não tava na cena.",
+      "Ah, o 'le' era o abuelo. O abuelo, que nem tava na cena, agora recebeu o recado da escola.",
+      "Você ligou o pronome à palavra mais próxima. A mais próxima sempre parece a mais simpática. Só não era ela.",
+      "Ótimo, o 'ellos' agora inclui o narrador, o cachorro e o leitor. Que inclusão generosa."
     ],
     "sem": [
-      "O PRONOME APONTOU PARA UM LADO E VOCÊ FOI ENCONTRAR OUTRO TERMO NO MEIO DO MATO!!!",
-      "REFERENTE ERRADO! O PRONOME ESTÁ ATÔNITO E EU TAMBÉM!",
-      "VOCÊ LIGOU O PRONOME À PALAVRA ERRADA COMO QUEM TROCA DE PAR NO BAILE!",
-      "O LO TÁ PERDIDO, O QUE TÁ PERDIDO E VOCÊ TAMBÉM!",
-      "É UM PRONOME, NÃO UMA ROLETA RUSSA!"
+      "O 'LO' TAVA GRUDADO NO SUBSTANTIVO DA FRASE ANTERIOR E VOCÊ ARRANCOU ELE DE LÁ! ELE QUER VOLTAR PRA CASA!",
+      "VOCÊ DEU O 'SUYO' PRA PESSOA ERRADA! AGORA ELA TÁ COM UMA BICICLETA QUE NUNCA COMPROU!",
+      "TINHA DUAS MULHERES NA CENA E VOCÊ DEU O 'LA' PRA GELADEIRA! A GELADEIRA NEM TAVA NA CONVERSA!",
+      "TODO MUNDO NO TEXTO É 'ÉL' E VOCÊ ESCOLHEU O 'ÉL' ERRADO! TINHA SÓ DOIS 'ÉL'!",
+      "VOCÊ CASOU O PRONOME COM O SUBSTANTIVO ERRADO! A FESTA FOI LINDA, MAS O NOIVO TROCOU DE NOME NO CARTÓRIO!"
     ],
-    "reserva": "Pronome sempre aponta para alguém. Descubra quem, e metade da questão está resolvida."
+    "reserva": "O 'lo', o 'la' ou o 'eso' tinham dono certo no texto. Você entregou pra outra palavra."
   },
   {
     "etiqueta": "esp-conector-errado",
     "fofo": [
-      "Conector é a cola das ideias. Dessa vez a cola grudou no lugar errado!",
-      "Quase! Pero, porque e así que mudam completamente a relação entre as frases.",
-      "Boa tentativa. Antes de marcar, pergunta: isso é contraste, causa ou soma?",
-      "Os conectores são pequenos, mas mandam muito no sentido do texto.",
-      "Um aunque virou porque e pronto. Fica de olho nessas peças!"
+      "'Por eso' tava apontando a consequência e você leu como contraste. Ele ficou piscando sem entender. Fofo!",
+      "Quase! O 'aunque' tava dizendo 'mesmo assim' e você ouviu 'porque'. Ele é teimoso, mas é boa gente.",
+      "O 'pues' é tipo eu: aparece em tudo e muda de humor. Dessa vez ele era causa, e você não reparou.",
+      "Seu conector foi pro lado contrário com tanta alegria que nem viu a placa de contramão. Volta devagarinho!",
+      "O conector trocado deixou as frases de mal. Elas eram pra ser dupla e viraram vizinhas que não se falam."
     ],
     "sarc": [
-      "Contraste virou causa. Que criatividade na hora de ligar ideias.",
-      "Se fosse porque, a frase seria outra. Mas tudo bem, você deve ter um plano.",
-      "Conectou as ideias de um jeito que nem o autor imaginava.",
-      "O aunque agradece pela atenção, mas virou outra coisa na sua cabeça.",
-      "Pero, así que, porque... tudo parece igual quando a gente não olha."
+      "Claro, 'aunque esté cansado, sigue' quer dizer que ele parou. Faz total sentido num universo paralelo.",
+      "Ah, o 'sino' de 'no es rojo, sino azul' é o sino da escola? Tocou e você saiu correndo da frase.",
+      "Que bonito: 'por lo tanto' virou 'pero' na sua mão. A frase discutiu com ela mesma e perdeu.",
+      "Que tranquilidade ignorar o 'a pesar de'. Ele subiu na frase pra causar e ninguém deu bola.",
+      "O Cortázar deixou ler O Jogo da Amarelinha em qualquer ordem. O texto da prova não deixou. Por isso existe conector."
     ],
     "sem": [
-      "O CONECTOR ESTAVA GRITANDO CONTRASTE E VOCÊ LEU CAUSA!!!",
-      "VOCÊ TROCOU UM PERO POR UM ASÍ QUE E O TEXTO CAIU EM CHAMAS!",
-      "CONECTOR INVERTIDO: A IDEIA FOI PARA UM LADO E A RESPOSTA, PARA O OUTRO!",
-      "AUNQUE VIROU PORQUE E UM ALUNO SUMIU NO MEIO DA CONFUSÃO!",
-      "ESSA LIGAÇÃO NÃO SE SUSTENTA NEM COM OITO PALAVRAS DE COLA!"
+      "'SIN EMBARGO' NÃO TEM EMBARGO! NÃO TEM NAVIO PARADO NO PORTO! TEM UM 'NO ENTANTO' ESPERANDO!",
+      "VOCÊ TROCOU CAUSA POR CONTRASTE! A LÓGICA DO TEXTO TÁ SENTADA NO MEIO-FIO SEM SABER PRA ONDE IR!",
+      "EU INCHEI EM FORMATO DE PONTO DE INTERROGAÇÃO INVERTIDO! ¿POR QUÉ TROCOU O CONECTOR?!",
+      "PLOT TWIST: O 'PERO' NÃO CONCORDAVA COM NINGUÉM! ELE ERA DO CONTRA DESDE O COMEÇO!",
+      "'YA QUE' É CAUSA! NÃO É 'JÁ QUE TÔ AQUI, VOU MARCAR QUALQUER UMA'!"
     ],
-    "reserva": "Conector é a seta que diz para onde a ideia vai: contraste, causa, soma ou condição. Siga a seta."
+    "reserva": "'Pero', 'aunque', 'por eso' e 'sino' mudam o rumo da frase. Um deles passou e você seguiu reto."
   },
   {
     "etiqueta": "esp-tempo-verbal",
     "fofo": [
-      "O tempo do verbo entregou a resposta, só faltou olhar. Quase!",
-      "Passado, presente ou futuro? Uma conferida rápida no verbo resolve.",
-      "Dica: procure marcas como ayer, mañana, -aba e -ando. Elas dizem quando.",
-      "Quase certo! O verbo estava avisando o momento da ação.",
-      "Verbo é um relógio. Dessa vez ele marcou outra hora, mas dá pra acertar!"
+      "Você leu o 'cantaré' como passado. O futuro ficou triste, ele adora fazer planos.",
+      "O subjuntivo é o tempo do 'talvez' e você leu como certeza. Que otimismo lindo! Ojalá fosse assim.",
+      "Quase! O pretérito indefinido e o perfeito parecem gêmeos, mas um já foi embora e o outro ainda tá na sala.",
+      "O Dalí pintou relógio derretido e você leu o tempo do verbo do mesmo jeito: tudo escorrendo. Fofo!",
+      "Eu também me perco no tempo: no aquário não tem relógio, só a hora da ração e a hora do drama."
     ],
     "sarc": [
-      "Viajou no tempo sem avisar. O verbo estava no passado e você, no futuro.",
-      "O verbo dizia ayer e você entendeu mañana. Máquina do tempo?",
-      "O tempo verbal estava na frase. Faltou só olhar para ele.",
-      "Que fluidez para trocar passado por presente. O texto não perdoou.",
-      "Ontem, hoje, amanhã... tudo parece igual quando não se lê o verbo."
+      "Claro, 'si tuviera dinero' quer dizer que ele tem dinheiro. É um hipotético bem rico.",
+      "Ah, 'iba' é futuro. O personagem 'iba al mercado' amanhã, ontem, quando der.",
+      "Você pegou um 'había' lá do passado e sentou ele no sofá de hoje. Ele tá pedindo pra voltar.",
+      "Você leu o condicional como certeza. 'Me gustaría ir' virou passagem comprada e mala pronta.",
+      "Ótimo, o 'solía' virou 'faz agora'. A avó do texto costumava dançar; graças a você, dança todo dia."
     ],
     "sem": [
-      "O VERBO ESTAVA NO PASSADO E VOCÊ NO FUTURO, QUE DESCONTROLE!!!",
-      "VOCÊ EMBARCOU NA MÁQUINA DO TEMPO E ESQUECEU O VERBO NO CAMINHO!",
-      "O TEMPO VERBAL ERA UM RELÓGIO E VOCÊ OLHOU PARA O CALENDÁRIO ERRADO!",
-      "FUE, ES, SERÁ... VOCÊ DECIDIU QUE TUDO ISSO É A MESMA COISA?!",
-      "ESSE VERBO ESTAVA GRITANDO O MOMENTO E VOCÊ COM FONE DE OUVIDO!"
+      "O SUBJUNTIVO TAVA AÍ SONHANDO E VOCÊ ACORDOU ELE COM UM BALDE DE CERTEZA!",
+      "'HABRÁ TERMINADO' É FUTURO! O PERSONAGEM AINDA VAI TERMINAR! VOCÊ JÁ MANDOU ELE DESCANSAR!",
+      "¡MADRE MÍA! PRESENTE, PRETÉRITO, FUTURO, SUBJUNTIVO... E VOCÊ ESCOLHEU O TEMPO 'QUALQUER UM'!",
+      "EU INCHEI NO PRETÉRITO, TÔ INCHANDO NO PRESENTE E VOU INCHAR NO FUTURO! ESSE ERRO ATRAVESSOU TODOS!",
+      "POV: O TEXTO CONTA UM SONHO NO 'SI PUDIERA' E VOCÊ RESPONDE COMO SE FOSSE NOTÍCIA DE ONTEM."
     ],
-    "reserva": "Cada verbo conta quando a ação acontece. Escute o relógio dele antes de responder."
+    "reserva": "O tempo do verbo mudava tudo: era lembrança, plano ou só um 'quem sabe'. A resposta pegou o errado."
   },
   {
     "etiqueta": "esp-sentido-errado",
     "fofo": [
-      "Essa palavra tem vários sentidos, e você achou um deles. Falta o do texto!",
-      "Quase! O contexto é quem escolhe qual significado vale aqui.",
-      "Palavra com mais de um sentido pega todo mundo. Pergunta pro texto!",
-      "Boa tentativa com o significado mais comum. Agora, olha em volta.",
-      "Dica: leia a frase toda antes de decidir o que a palavra quer dizer."
+      "'Cola' podia ser fila ou cola de papel. Você colou a fila inteira no caderno. Fofo, mas era pra esperar!",
+      "'Vela' era o barco a vela e você acendeu uma no aniversário. O velejador agradece o bolo, mas queria vento.",
+      "Quase! A 'planta' do texto era o andar do prédio, não a samambaia. Mas regar a escada é fofo.",
+      "'Carta' no restaurante é o cardápio. Você ficou esperando o carteiro com o garfo na mão. Que paciência!",
+      "Errou o sentido, mas escolheu o mais bonito. O espanhol aprecia, mas o contexto pediu o outro."
     ],
     "sarc": [
-      "Um sentido legítimo da palavra, só que de outro texto.",
-      "A palavra tem vários significados e você escolheu um que não está na frase.",
-      "O dicionário concorda com você. O contexto, nem tanto.",
-      "Sentido certo, texto errado. Quase uma peça de museu.",
-      "Escolheu o significado mais popular e fugiu do contexto. Clássico!"
+      "Ah, 'muñeca' só pode ser boneca. O relógio de pulso do personagem agora brinca de casinha.",
+      "'Copa' era a parte de cima da árvore e você mandou pro campeonato. A árvore não joga, viu?",
+      "Brilhante: 'sierra' era montanha e você trouxe o serrote. O alpinista ficou preocupado.",
+      "Você leu 'gato' como bichano e era o macaco do carro. Agora o pneu tá miando.",
+      "Excelente: 'pila' era a bateria do brinquedo e você empilhou os brinquedos. Organizado, pelo menos."
     ],
     "sem": [
-      "A PALAVRA TEM MIL SENTIDOS E VOCÊ PEGOU O ÚNICO QUE NÃO SERVIA!!!",
-      "O CONTEXTO GRITOU QUAL ERA O SENTIDO E VOCÊ COM MÚSICA ALTA!",
-      "VOCÊ PEGOU UM SENTIDO DE OUTRA FRASE, DE OUTRO TEXTO, DE OUTRO UNIVERSO!",
-      "SENTIDO ERRADO, CONFIANÇA GIGANTE, DRAMA GARANTIDO!",
-      "PALAVRA PLURAL, ALUNO SINGULAR, RESULTADO TRÁGICO!"
+      "'NADA' TAMBÉM É 'ELE NADA'! NADAR! A COISA QUE EU FAÇO O DIA INTEIRO! ME SENTI INVISÍVEL!",
+      "O CONTEXTO GRITOU O SENTIDO CERTO E VOCÊ RESPONDEU COM UM DICIONÁRIO DE BOLSO DE 1980!",
+      "¡QUÉ DESASTRE! VOCÊ LEU 'LLAMA' COMO LHAMA E AGORA TEM UM BICHO PELUDO ATENDENDO O TELEFONE!",
+      "A PALAVRA TROCOU DE ROUPA PRO CONTEXTO E VOCÊ CUMPRIMENTOU ELA PELO NOME ANTIGO!",
+      "SE TODA PALAVRA TIVESSE UM SENTIDO SÓ, EU SERIA SÓ 'PEIXE'! MAS EU SOU PEIXE, ARTISTA, PROFESSOR E DRAMA!"
     ],
-    "reserva": "Uma palavra pode ter vários sentidos. O contexto é quem escolhe qual vale."
+    "reserva": "Em espanhol, muita palavra muda de sentido conforme a frase. Aqui ela tava usando o significado menos famoso."
   },
   {
     "etiqueta": "esp-tom-errado",
     "fofo": [
-      "O texto estava com um tom bem especial, e passou batido. Tá quase lá!",
-      "Ironia é difícil mesmo. Quando o elogio parece estranho, desconfie!",
-      "Dica: olhe a intenção por trás das palavras. O tom conta tanto quanto o conteúdo.",
-      "Fato e opinião às vezes se misturam. Procure pistas como creo que, mejor, el más.",
-      "Quase! Dessa vez o autor estava só sendo irônico."
+      "O texto disse '¡qué maravilla!' com a voz mais arrastada do mundo e você acreditou. Que coração bom!",
+      "Quase! O autor soltou um 'creo que' bem no meio e você leu como fato de enciclopédia. Ele só tava achando!",
+      "O texto fez uma piadinha fininha e você levou ao pé da letra. Tudo bem, ironia em outra língua é nível avançado!",
+      "Um turista disse '¡qué pez tan elegante!' e eu agradeci, todo prosa. Ele tava falando da pedrinha. Tom é tudo.",
+      "O texto falou com um sorrisinho torto e você respondeu com um sorriso sincero. Fofo, mas era deboche."
     ],
     "sarc": [
-      "O autor foi irônico e você levou a sério. Que bonito!",
-      "Elogiou, né? Foi assim que você entendeu a crítica mais amarga do dia.",
-      "Tom de voz do texto: ironia. Seu tom: sinceridade. Choque cultural.",
-      "Leu como notícia o que era opinião. Dedicação.",
-      "Interpretou ao contrário com todo o respeito."
+      "Claro, quando o personagem diz '¡qué suerte la mía!' depois de perder o ônibus, ele tá radiante.",
+      "Que neutralidade você viu numa crítica tão ácida. O texto tava praticamente soltando fumaça.",
+      "Dom Quixote é um livro sério sobre cavaleiros, né? O Cervantes tá rindo até agora.",
+      "Excelente: você classificou uma resenha furiosa como 'texto informativo'. Informa, sim: a fúria.",
+      "Ótimo. Leu a ironia como sinceridade. Também deve acreditar quando eu digo que amo o Valdir."
     ],
     "sem": [
-      "O AUTOR ESTAVA DEBOCHANDO E VOCÊ ACHOU QUE ERA ELOGIO!!!",
-      "IRONIA PASSOU RASPANDO E VOCÊ NÃO SENTIU O VENTO!",
-      "OPINIÃO VIROU FATO E O TEXTO VIROU UM CAOS!",
-      "O TOM ERA DE CRÍTICA E VOCÊ LEU COMO PROPAGANDA!",
-      "VOCÊ LEU O TEXTO INTEIRO NO TOM ERRADO E AINDA CANTOU TRIUNFO!"
+      "ERA IRONIA! O TEXTO TAVA DEBOCHANDO COM TODAS AS LETRAS E VOCÊ APLAUDIU DE PÉ!",
+      "O AUTOR ESCREVEU BRAVO, COM EXCLAMAÇÃO DE CABEÇA PRA BAIXO E TUDO! ¡ASÍ! E VOCÊ ACHOU CALMINHO!",
+      "VOCÊ LEU UM DESABAFO INDIGNADO COMO BOLETIM DO TEMPO! O AUTOR TÁ SOLTANDO BOLHA DE RAIVA IGUAL EU!",
+      "MENOS MIL DE AURA! ATÉ A MAFALDA ENTENDERIA ESSE SARCASMO, E ELA TEM SEIS ANOS!",
+      "OPINIÃO NÃO É FATO! FATO NÃO É IRONIA! IRONIA NÃO É ELOGIO! EU TÔ GIRANDO NO AQUÁRIO!"
     ],
-    "reserva": "Nem tudo que parece elogio é elogio. Confira o tom antes de marcar."
+    "reserva": "Por trás das palavras tinha deboche, crítica ou opinião, e a sua leitura ouviu outro tom de voz."
   },
   {
     "etiqueta": "esp-generalizou",
     "fofo": [
-      "O texto falou de um caso, mas você aplicou a todo mundo. Dica: cuidado com siempre e todos!",
-      "Quase! Algumas pessoas não são todas as pessoas.",
-      "Generalizar é tentador, mas o texto não abraçou o mundo todo.",
-      "Dica: desconfie de alternativas com sempre, todos e nunca.",
-      "Boa ideia, mas o texto fala de alguns casos, não de uma regra geral."
+      "O texto falou de 'muchos' e você convidou o país inteiro. Que festa! Mas a lista era menor.",
+      "Quase! Um caso só não vira regra. É tipo achar que todo gato é laranja porque o do vizinho é.",
+      "Você pôs um 'siempre' onde o texto disse 'a veces'. O 'a veces' ficou tímido no canto.",
+      "Eu também generalizo: um humano me deu ração errada e passei a desconfiar de todos. Mentira, amo vocês.",
+      "Você pegou um exemplo e transformou em lei. Que poder de síntese! O texto só tava contando um causo."
     ],
     "sarc": [
-      "Um caso virou regra universal. Que ambição!",
-      "O texto falou de um, e você concluiu sobre todos. Que atalho.",
-      "Generalização de nível profissional, direto do texto para o universo.",
-      "Siempre, todos, nunca. Só falta o texto concordar.",
-      "Algumas pessoas viraram toda a humanidade. Um salto e tanto."
+      "Claro, 'la mayoría' significa 'absolutamente todos'. Os outros 49% foram passear.",
+      "Ah, um personagem gosta de futebol, então todos os humanos da história gostam. Ciência pura.",
+      "Você leu 'a menudo' e escreveu 'em todos os segundos da existência'. Exagerou um pouquinho.",
+      "Que generalização elegante: uma tarde de chuva e o texto virou relatório de clima da década toda.",
+      "Bravo: o 'casi' de 'casi siempre' sumiu da sua leitura. Ele era pequeno, mas tinha um papel enorme."
     ],
     "sem": [
-      "UM CASO VIROU REGRA E O TEXTO CHOROU DE SUSTO!!!",
-      "DE UM EXEMPLO PARA O UNIVERSO EM ZERO SEGUNDOS, PARABÉNS PELO FOGUETE!",
-      "O TEXTO FALOU DE ALGUNS E VOCÊ CONVOCOU O PLANETA INTEIRO!",
-      "SIEMPRE, TODOS, NUNCA... EU ESTOU TONTO COM TANTO EXAGERO!",
-      "GENERALIZAR É O ESPORTE FAVORITO DA RESPOSTA ERRADA!"
+      "VOCÊ COLOCOU 'TODOS' NUMA FRASE QUE O AUTOR ESCREVEU NA PONTA DOS PÉS, CHEIA DE 'QUIZÁS'!",
+      "A EXCEÇÃO TAVA NO TEXTO ACENANDO COM UMA BANDEIRA! E VOCÊ PASSOU DIRETO DE TRATOR!",
+      "UM CASO! UM ÚNICO CASO! E VOCÊ JÁ ESCREVEU A CONSTITUIÇÃO DO CONTINENTE!",
+      "¡OJALÁ FOSSE SEMPRE! MAS O TEXTO DISSE 'A VECES', E 'A VECES' É ÀS VEZES, NÃO TODA HORA!",
+      "GENERALIZAR É COMO DIZER QUE TODO PEIXE VIRA SUSHI! NÃO VIRA! EU, POR EXEMPLO, VOU VIRAR CELEBRIDADE!"
     ],
-    "reserva": "Alternativa com sempre, todos e nunca merece desconfiança. O texto raramente é tão radical."
+    "reserva": "Um 'a veces' ou um 'algunos' virou 'siempre' na sua leitura. A regra que você criou o texto não assinou."
   }
 ]
