@@ -1,11 +1,16 @@
 <script setup lang="ts">
 import { Link } from '@inertiajs/vue3';
 import { Volume2, VolumeX, X } from '@lucide/vue';
+import BotaoMusica from '@/components/BotaoMusica.vue';
 import { rotas } from '@/lib/rotas';
 import type { Tentativa } from '@/types/gabaritu';
 
-defineProps<{ tentativa: Tentativa; somLigado: boolean }>();
-defineEmits<{ 'alternar-som': [] }>();
+defineProps<{
+    tentativa: Tentativa;
+    somLigado: boolean;
+    musicaLigada: boolean;
+}>();
+defineEmits<{ 'alternar-som': []; 'alternar-musica': [] }>();
 </script>
 
 <template>
@@ -54,6 +59,11 @@ defineEmits<{ 'alternar-som': [] }>();
                 <Volume2 v-if="somLigado" :size="22" aria-hidden="true" />
                 <VolumeX v-else :size="22" aria-hidden="true" />
             </button>
+            <BotaoMusica
+                :ligada="musicaLigada"
+                :sem-som="!somLigado"
+                @alternar="$emit('alternar-musica')"
+            />
             <Link
                 :href="rotas.inicio"
                 class="l-icon-btn"

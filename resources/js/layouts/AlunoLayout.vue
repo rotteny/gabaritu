@@ -2,8 +2,14 @@
 import { Link, usePage } from '@inertiajs/vue3';
 import { computed } from 'vue';
 import FundoAquario from '@/components/aluno/FundoAquario.vue';
+import BotaoMusica from '@/components/BotaoMusica.vue';
 import { useAluno } from '@/composables/useAluno';
 import { useMovimentoReduzido } from '@/composables/useMovimentoReduzido';
+import {
+    useAlternarMusica,
+    useControleSom,
+    useMusicaAmbiente,
+} from '@/composables/useMusica';
 import { rotas } from '@/lib/rotas';
 import '../../css/landing/base.css';
 import '../../css/landing/peixoto.css';
@@ -12,6 +18,9 @@ import '../../css/aluno/paginas.css';
 
 const { aluno } = useAluno();
 const reduzido = useMovimentoReduzido();
+useMusicaAmbiente();
+const { somLigado } = useControleSom();
+const { musicaLigada, alternarMusica } = useAlternarMusica();
 const page = usePage();
 
 const itens = [
@@ -52,6 +61,12 @@ const ativo = (href: string) =>
                 <nav v-else class="gb-nav" aria-label="Principal">
                     <Link :href="rotas.entrar">Entrar</Link>
                 </nav>
+                <BotaoMusica
+                    v-if="aluno"
+                    :ligada="musicaLigada"
+                    :sem-som="!somLigado"
+                    @alternar="alternarMusica"
+                />
             </div>
         </header>
         <main id="conteudo" class="gb-pagina">

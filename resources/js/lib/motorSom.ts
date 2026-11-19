@@ -7,14 +7,46 @@ type Tom = {
     v?: number;
     type?: OscillatorType;
     at?: number;
+    /** Fração da duração mantida no volume cheio antes de decair (padrão 0). */
+    s?: number;
+};
+
+/** Cadeia de saída: efeitos entram em `entrada`; a música entra em `musica` (com ducking). */
+export type Palco = {
+    ctx: BaseAudioContext;
+    entrada: GainNode;
+    musica: GainNode;
+    duck: GainNode;
 };
 
 const GANHO_MASTER = 0.35;
+const DUCK_NIVEL = 0.3;
+const DUCK_SOLTAR = 0.7;
 const entre = (a: number, b: number) => a + Math.random() * (b - a);
 
 let ctx: AudioContext | null = null;
-let entrada: GainNode | null = null;
+let palco: Palco | null = null;
 let instalado = false;
+const ouvintes = new Set<() => void>();
+
+/** Monta a cadeia master (ganho + compressor) em qualquer contexto, ao vivo ou offline. */
+export function montarPalco(c: BaseAudioContext): Palco {
+    const compressor = c.createDynamicsCompressor();
+    compressor.threshold.value = -18;
+    compressor.knee.value = 20;
+    compressor.ratio.value = 8;
+    compressor.attack.value = 0.003;
+    compressor.release.value = 0.2;
+    const entrada = c.createGain();
+    entrada.gain.value = GANHO_MASTER;
+    entrada.connect(compressor).connect(c.destination);
+    const duck = c.createGain();
+    duck.connect(compressor);
+    const musica = c.createGain();
+    musica.connect(duck);
+
+    return { ctx: c, entrada, musica, duck };
+}
 
 function criar(): AudioContext | null {
     if (ctx) {
@@ -27,20 +59,26 @@ function criar(): AudioContext | null {
 
     try {
         ctx = new window.AudioContext();
-        const compressor = ctx.createDynamicsCompressor();
-        compressor.threshold.value = -18;
-        compressor.knee.value = 20;
-        compressor.ratio.value = 8;
-        compressor.attack.value = 0.003;
-        compressor.release.value = 0.2;
-        entrada = ctx.createGain();
-        entrada.gain.value = GANHO_MASTER;
-        entrada.connect(compressor).connect(ctx.destination);
+        palco = montarPalco(ctx);
+        ctx.addEventListener('statechange', () => ouvintes.forEach((f) => f()));
     } catch {
         ctx = null;
+        palco = null;
     }
 
     return ctx;
+}
+
+/** Palco ao vivo, só quando o contexto já foi destravado. */
+export function palcoAtivo(): Palco | null {
+    return ctx?.state === 'running' ? palco : null;
+}
+
+/** Avisa quando o contexto muda de estado (ex.: destravou depois do primeiro gesto). */
+export function aoMudarContexto(f: () => void) {
+    ouvintes.add(f);
+
+    return () => ouvintes.delete(f);
 }
 
 /** Cria/retoma o contexto único. Deve rodar dentro de um gesto do usuário. */
@@ -76,14 +114,27 @@ export function somDestravado(): boolean {
     return ctx?.state === 'running';
 }
 
-function tom({ f, f2, t = 0.1, v = 0.5, type = 'sine', at = 0 }: Tom) {
-    if (!ctx || !entrada || ctx.state !== 'running') {
+/** Abaixa a música enquanto o efeito soa e solta devagar depois. */
+function abaixarMusica(p: Palco, t0: number, dur: number) {
+    const g = p.duck.gain;
+    g.cancelScheduledValues(t0);
+    g.setTargetAtTime(DUCK_NIVEL, t0, 0.04);
+    g.setTargetAtTime(1, t0 + dur, DUCK_SOLTAR / 3);
+}
+
+function tom(
+    p: Palco | null,
+    { f, f2, t = 0.1, v = 0.5, type = 'sine', at = 0, s = 0 }: Tom,
+) {
+    if (!p) {
         return;
     }
 
-    const t0 = ctx.currentTime + at;
-    const osc = ctx.createOscillator();
-    const ganho = ctx.createGain();
+    const c = p.ctx;
+    const t0 = c.currentTime + at;
+    abaixarMusica(p, t0, t);
+    const osc = c.createOscillator();
+    const ganho = c.createGain();
     osc.type = type;
     osc.frequency.setValueAtTime(f, t0);
 
@@ -93,40 +144,57 @@ function tom({ f, f2, t = 0.1, v = 0.5, type = 'sine', at = 0 }: Tom) {
 
     ganho.gain.setValueAtTime(0.0001, t0);
     ganho.gain.exponentialRampToValueAtTime(v, t0 + 0.012);
+    ganho.gain.setValueAtTime(v, t0 + 0.012 + t * s);
     ganho.gain.exponentialRampToValueAtTime(0.0001, t0 + t);
-    osc.connect(ganho).connect(entrada);
+    osc.connect(ganho).connect(p.entrada);
     osc.start(t0);
     osc.stop(t0 + t + 0.03);
 }
 
-export function bipePeixoto(humor: HumorFala) {
+export function bipePeixoto(humor: HumorFala, p: Palco | null = palcoAtivo()) {
     const t = entre(0.09, 0.11);
 
     if (humor === 'bravo') {
         const f = entre(180, 300);
-        tom({ f, f2: f * 0.7, type: 'sawtooth', v: 0.4, t });
+        tom(p, { f, f2: f * 0.7, type: 'sawtooth', v: 0.4, t });
     } else if (humor === 'feliz') {
         const f = entre(520, 820);
-        tom({ f, f2: f * 1.5, v: 0.5, t });
+        tom(p, { f, f2: f * 1.5, v: 0.5, t });
     } else {
         const f = entre(250, 360);
-        tom({ f, f2: f * 0.7, type: 'triangle', v: 0.6, t });
+        tom(p, { f, f2: f * 0.7, type: 'triangle', v: 0.6, t });
     }
 }
 
 /** Arpejo ascendente com brilho e um "pop" grave: a pequena explosão de acerto. */
-export function somAcerto() {
+export function somAcerto(p: Palco | null = palcoAtivo()) {
     [1, 1.26, 1.5, 2, 2.52].forEach((m, i) => {
-        tom({ f: 440 * m, t: 0.2, type: 'triangle', v: 0.55, at: i * 0.06 });
-        tom({ f: 880 * m, t: 0.12, type: 'sine', v: 0.2, at: i * 0.06 });
+        tom(p, { f: 440 * m, t: 0.2, type: 'triangle', v: 0.55, at: i * 0.06 });
+        tom(p, { f: 880 * m, t: 0.12, type: 'sine', v: 0.2, at: i * 0.06 });
     });
-    tom({ f: 180, f2: 60, t: 0.18, v: 0.7 });
+    tom(p, { f: 180, f2: 60, t: 0.18, v: 0.7 });
 }
 
-/** "Bóing" de buzina cartoon: square/sawtooth entre 300 e 1200 Hz, audível em caixa de notebook e celular. */
-export function somErro() {
-    tom({ f: 640, f2: 330, t: 0.28, type: 'square', v: 0.32 });
-    tom({ f: 1280, f2: 660, t: 0.28, type: 'sine', v: 0.22 });
-    tom({ f: 420, f2: 900, t: 0.2, type: 'sawtooth', v: 0.3, at: 0.26 });
-    tom({ f: 840, f2: 1200, t: 0.2, type: 'sine', v: 0.2, at: 0.26 });
+/** Buzina cartoon "bu-bóu": dois degraus descendentes de onda quadrada (~400 ms), energia entre 400 e 1500 Hz para soar em caixa de notebook e celular. */
+export function somErro(p: Palco | null = palcoAtivo()) {
+    tom(p, { f: 620, f2: 560, t: 0.22, type: 'square', v: 0.24, s: 0.7 });
+    tom(p, { f: 1240, f2: 1120, t: 0.22, type: 'sine', v: 0.14, s: 0.7 });
+    tom(p, {
+        f: 470,
+        f2: 340,
+        t: 0.22,
+        type: 'square',
+        v: 0.24,
+        s: 0.6,
+        at: 0.22,
+    });
+    tom(p, {
+        f: 940,
+        f2: 680,
+        t: 0.22,
+        type: 'sine',
+        v: 0.14,
+        s: 0.6,
+        at: 0.22,
+    });
 }

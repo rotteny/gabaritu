@@ -1,11 +1,11 @@
-import { ref } from 'vue';
+import { useControleSom } from '@/composables/useMusica';
 import { useSomPeixoto } from '@/composables/useSomPeixoto';
 
 type Efeito = 'acerto' | 'erro';
 
 /** Som da demo da landing: efeitos e voz, sobre o mesmo contexto de áudio do app. */
 export function useDemoSound() {
-    const ligado = ref(true);
+    const { somLigado: ligado } = useControleSom();
     const som = useSomPeixoto(ligado);
 
     function tocar(efeito: Efeito) {

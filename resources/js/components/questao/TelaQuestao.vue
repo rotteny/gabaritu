@@ -36,7 +36,9 @@ const efeitos = computed(
         <CabecalhoQuestao
             :tentativa="tentativa"
             :som-ligado="q.somLigado.value"
+            :musica-ligada="q.musicaLigada.value"
             @alternar-som="q.alternarSom"
+            @alternar-musica="q.alternarMusica"
         />
         <PalcoPeixoto
             :humor="q.humor.value"

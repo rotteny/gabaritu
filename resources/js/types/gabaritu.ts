@@ -14,6 +14,7 @@ export type Preferencias = {
     zoeira: Zoeira;
     zoeira_maxima: 'sarc' | 'sem';
     som: boolean;
+    musica: boolean;
     reduzir_movimento: boolean;
     ultima_materia: string | null;
 };

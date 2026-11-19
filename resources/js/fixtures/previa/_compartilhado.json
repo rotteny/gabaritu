@@ -9,6 +9,7 @@
                 "zoeira": "sarc",
                 "zoeira_maxima": "sem",
                 "som": true,
+                "musica": true,
                 "reduzir_movimento": false,
                 "ultima_materia": "biologia"
             }

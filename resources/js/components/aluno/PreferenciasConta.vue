@@ -10,6 +10,7 @@ const props = defineProps<{ preferencias: Preferencias }>();
 
 const zoeira = ref<string>(props.preferencias.zoeira);
 const som = ref(props.preferencias.som);
+const musica = ref(props.preferencias.musica);
 const reduzir = ref(props.preferencias.reduzir_movimento);
 const estado = ref<'' | 'salvando' | 'salvo' | 'erro'>('');
 
@@ -44,6 +45,10 @@ const mudarSom = (v: boolean) => {
     som.value = v;
     salvar({ som: v });
 };
+const mudarMusica = (v: boolean) => {
+    musica.value = v;
+    salvar({ musica: v });
+};
 const mudarMovimento = (v: boolean) => {
     reduzir.value = v;
     salvar({ reduzir_movimento: v });
@@ -68,6 +73,12 @@ const mudarMovimento = (v: boolean) => {
             rotulo="Som"
             ajuda="Bipes do Peixoto e efeitos de acerto e erro."
             @update:model-value="mudarSom"
+        />
+        <InterruptorPref
+            :model-value="musica"
+            rotulo="Música de fundo"
+            ajuda="Uma musiquinha calma de aquário, baixinha. Só toca com o som ligado."
+            @update:model-value="mudarMusica"
         />
         <InterruptorPref
             :model-value="reduzir"

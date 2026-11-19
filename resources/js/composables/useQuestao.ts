@@ -1,9 +1,9 @@
 import { router } from '@inertiajs/vue3';
 import { computed, onBeforeUnmount, ref } from 'vue';
 import type { Ref } from 'vue';
-import { useAluno } from '@/composables/useAluno';
 import { useFalaDigitada } from '@/composables/useFalaDigitada';
 import { useMovimentoReduzido } from '@/composables/useMovimentoReduzido';
+import { useAlternarMusica, useControleSom } from '@/composables/useMusica';
 import { useSomPeixoto } from '@/composables/useSomPeixoto';
 import { enviarResposta } from '@/lib/respostas';
 import type {
@@ -24,9 +24,9 @@ type Entrada = {
 
 /** Máquina de estados da tela de questão: perguntar, enviar, reagir (piada) e explicar. */
 export function useQuestao({ tentativa, questao, abertura }: Entrada) {
-    const { preferencias } = useAluno();
     const reduzido = useMovimentoReduzido();
-    const somLocal = ref(preferencias.value?.som ?? true);
+    const { somLigado: somLocal } = useControleSom();
+    const { musicaLigada, alternarMusica } = useAlternarMusica();
     const som = useSomPeixoto(somLocal);
     const fala = useFalaDigitada(reduzido, som.bipe);
 
@@ -137,5 +137,7 @@ export function useQuestao({ tentativa, questao, abertura }: Entrada) {
         pularAnimacao,
         proxima,
         alternarSom,
+        musicaLigada,
+        alternarMusica,
     };
 }

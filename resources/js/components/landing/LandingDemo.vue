@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { watch } from 'vue';
 import { useDemoSound } from '@/composables/useDemoSound';
+import { useAlternarMusica, useMusicaAmbiente } from '@/composables/useMusica';
 import { useFalaDigitada } from '@/composables/useFalaDigitada';
 import { useMovimentoReduzido } from '@/composables/useMovimentoReduzido';
 import { usePeixotoDemo } from '@/composables/usePeixotoDemo';
@@ -28,6 +29,8 @@ const {
     alternar: alternarSom,
     bipe,
 } = useDemoSound();
+useMusicaAmbiente();
+const { musicaLigada, alternarMusica } = useAlternarMusica();
 const reduzido = useMovimentoReduzido();
 const { digitado, falar } = useFalaDigitada(reduzido, bipe);
 const falaHumor = {
@@ -72,7 +75,9 @@ function estadoDaAlternativa(
             <DemoControls
                 v-model:nivel="nivel"
                 :som-ligado="somLigado"
+                :musica-ligada="musicaLigada"
                 @alternar-som="alternarSom"
+                @alternar-musica="alternarMusica"
                 @reiniciar="reiniciar"
             />
 
