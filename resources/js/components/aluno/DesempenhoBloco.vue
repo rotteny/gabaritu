@@ -1,9 +1,13 @@
 <script setup lang="ts">
+import { computed } from 'vue';
 import GraficoEvolucao from '@/components/aluno/GraficoEvolucao.vue';
 import { formatarNota } from '@/lib/area';
 import type { DesempenhoAssunto } from '@/types/gabaritu';
 
-defineProps<{ item: DesempenhoAssunto; nivel: 2 | 3 }>();
+const props = defineProps<{ item: DesempenhoAssunto; nivel: 2 | 3 }>();
+
+const evolucao = computed(() => props.item.evolucao ?? []);
+const diagnostico = computed(() => props.item.diagnostico ?? []);
 </script>
 
 <template>
@@ -27,12 +31,12 @@ defineProps<{ item: DesempenhoAssunto; nivel: 2 | 3 }>();
             </span>
         </header>
         <GraficoEvolucao
-            v-if="item.evolucao.length > 0"
-            :pontos="item.evolucao"
+            v-if="evolucao.length > 0"
+            :pontos="evolucao"
             :titulo="item.nome"
         />
-        <ul v-if="item.diagnostico.length > 0" class="gb-diagnostico">
-            <li v-for="d in item.diagnostico" :key="d.etiqueta">
+        <ul v-if="diagnostico.length > 0" class="gb-diagnostico">
+            <li v-for="d in diagnostico" :key="d.etiqueta">
                 <span class="gb-tag">{{ d.percentual }}%</span>
                 dos seus erros foram por <strong>{{ d.nome }}</strong>
             </li>

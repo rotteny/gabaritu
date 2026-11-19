@@ -37,6 +37,7 @@ class PainelDeDesempenho
                 'nome' => $materia->nome,
                 'nota' => $this->nota->notaDaMateria($doMateria = $materia->assuntos->map(fn (Assunto $a) => $desempenhos->get($a->id))->filter()),
                 'amostra_baixa' => $this->nota->amostraBaixaDaMateria($doMateria),
+                'evolucao' => $this->evolucaoDaMateria($materia, $evolucao),
                 ...$this->diagnosticar($aluno, 'assuntos.materia_id', $materia->id),
                 'assuntos' => $materia->assuntos->map(fn (Assunto $assunto) => [
                     'slug' => $assunto->slug,
@@ -46,6 +47,21 @@ class PainelDeDesempenho
                     ...$this->diagnosticar($aluno, 'assuntos.id', $assunto->id),
                 ])->all(),
             ])->values()->all();
+    }
+
+    /**
+     * @param  Collection<int|string, Collection<int|string, array{data: int|string, nota: int}>>  $evolucao
+     * @return array<int, array{data: int|string, nota: int}>
+     */
+    private function evolucaoDaMateria(Materia $materia, Collection $evolucao): array
+    {
+        return $materia->assuntos
+            ->flatMap(fn (Assunto $assunto) => $evolucao->get($assunto->id, collect())->values())
+            ->groupBy('data')
+            ->map(fn (Collection $doDia, $data) => ['data' => $data, 'nota' => (int) (round($doDia->avg('nota') / 10) * 10)])
+            ->sortKeys()
+            ->values()
+            ->all();
     }
 
     /** @return array<int, int> */

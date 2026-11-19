@@ -130,3 +130,14 @@ it('manda para o início com fala de vazio quando não há o que revisar', funct
     $this->actingAs($this->aluno)->get('/revisao')->assertRedirect('/inicio');
     $this->get('/inicio')->assertInertia(fn ($page) => $page->where('fala.texto', 'nada pra revisar'));
 });
+
+it('manda evolucao e diagnostico também no nível da matéria em /desempenho', function () {
+    $tentativa = iniciarTentativa($this->aluno, $this->c['questionario']);
+    responderAtual($this->aluno, $tentativa, false)->assertOk();
+
+    $this->get('/desempenho')->assertInertia(fn ($page) => $page
+        ->has('materias.0.evolucao')
+        ->has('materias.0.diagnostico')
+        ->has('materias.0.assuntos.0.evolucao')
+        ->has('materias.0.assuntos.0.diagnostico'));
+});
