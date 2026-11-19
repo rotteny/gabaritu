@@ -1,0 +1,902 @@
+[
+  {
+    "id": "ing-gramatica-em-contexto-001",
+    "materia": "ingles",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Pizza e macarrão",
+    "enunciado": "\"Ana likes pizza, but she doesn't like pasta.\"\n\nNessa frase, o conector \"but\" indica",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "contraste entre duas ideias.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "causa da ideia anterior.",
+        "correta": false,
+        "etiqueta": "ing-conector-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "consequência da ideia anterior.",
+        "correta": false,
+        "etiqueta": "ing-conector-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "soma de duas ideias iguais.",
+        "correta": false,
+        "etiqueta": "ing-conector-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "condição para a segunda ideia.",
+        "correta": false,
+        "etiqueta": "ing-conector-errado"
+      }
+    ],
+    "explicacao": "\"But\" equivale a \"mas\". Ana gosta de uma coisa e não gosta de outra, então há oposição.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-gramatica-em-contexto-002",
+    "materia": "ingles",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Cansaço da noite",
+    "enunciado": "\"Tom is tired because he worked all night.\"\n\nO conector \"because\" liga a ideia de cansaço a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "uma oposição: embora tenha trabalhado.",
+        "correta": false,
+        "etiqueta": "ing-conector-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "uma consequência: portanto trabalhou.",
+        "correta": false,
+        "etiqueta": "ing-conector-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "uma causa: o trabalho durante a noite.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "uma alternativa: ou trabalhou.",
+        "correta": false,
+        "etiqueta": "ing-conector-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "um contraste: mas trabalhou.",
+        "correta": false,
+        "etiqueta": "ing-conector-errado"
+      }
+    ],
+    "explicacao": "\"Because\" é \"porque\" e apresenta o motivo. Ele está cansado por causa do trabalho a noite toda.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-gramatica-em-contexto-003",
+    "materia": "ingles",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Viagem ao Recife",
+    "enunciado": "\"Last year, we traveled to Recife.\"\n\nO verbo \"traveled\" indica uma ação",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "no presente, como hábito.",
+        "correta": false,
+        "etiqueta": "ing-tempo-verbal"
+      },
+      {
+        "letra": "B",
+        "texto": "no futuro próximo.",
+        "correta": false,
+        "etiqueta": "ing-tempo-verbal"
+      },
+      {
+        "letra": "C",
+        "texto": "em andamento neste momento.",
+        "correta": false,
+        "etiqueta": "ing-tempo-verbal"
+      },
+      {
+        "letra": "D",
+        "texto": "que ainda vai ser planejada.",
+        "correta": false,
+        "etiqueta": "ing-tempo-verbal"
+      },
+      {
+        "letra": "E",
+        "texto": "no passado.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "\"Last year\" e a terminação -ed do verbo mostram que a viagem aconteceu e terminou no passado.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-gramatica-em-contexto-004",
+    "materia": "ingles",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Celular da irmã",
+    "enunciado": "\"My sister has a phone, but she never uses it.\"\n\nO pronome \"it\" se refere a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "sister.",
+        "correta": false,
+        "etiqueta": "ing-referente-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "my.",
+        "correta": false,
+        "etiqueta": "ing-referente-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "o telefone e a irmã.",
+        "correta": false,
+        "etiqueta": "ing-referente-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "phone.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "never.",
+        "correta": false,
+        "etiqueta": "ing-ignorou-negacao"
+      }
+    ],
+    "explicacao": "\"It\" retoma o objeto citado antes, \"a phone\". Para pessoas, o inglês usaria she ou her.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-gramatica-em-contexto-005",
+    "materia": "ingles",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 1,
+    "dificuldade": 1,
+    "contexto": "Resumos dos artigos",
+    "enunciado": "\"The students read the articles and wrote summaries of them.\"\n\nO pronome \"them\" se refere a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "students.",
+        "correta": false,
+        "etiqueta": "ing-referente-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "articles.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "summaries.",
+        "correta": false,
+        "etiqueta": "ing-referente-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "articles e summaries.",
+        "correta": false,
+        "etiqueta": "ing-referente-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "o professor, que não aparece no texto.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      }
+    ],
+    "explicacao": "Os resumos foram feitos \"of them\", isto é, dos artigos lidos. Os alunos são quem escreve.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-gramatica-em-contexto-006",
+    "materia": "ingles",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 2,
+    "dificuldade": -1,
+    "contexto": "Ligação de amanhã",
+    "enunciado": "\"I will call you tomorrow.\"\n\nA frase se refere a uma ação",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "passada.",
+        "correta": false,
+        "etiqueta": "ing-tempo-verbal"
+      },
+      {
+        "letra": "B",
+        "texto": "que acontece todos os dias.",
+        "correta": false,
+        "etiqueta": "ing-tempo-verbal"
+      },
+      {
+        "letra": "C",
+        "texto": "que está acontecendo agora.",
+        "correta": false,
+        "etiqueta": "ing-tempo-verbal"
+      },
+      {
+        "letra": "D",
+        "texto": "que acabou de acontecer.",
+        "correta": false,
+        "etiqueta": "ing-tempo-verbal"
+      },
+      {
+        "letra": "E",
+        "texto": "futura.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "\"Will\" e \"tomorrow\" indicam futuro.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-gramatica-em-contexto-007",
+    "materia": "ingles",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Festa e tempo livre",
+    "enunciado": "\"I'd go to the party if I had more time.\"\n\nA frase expressa que a pessoa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "foi à festa porque tinha tempo.",
+        "correta": false,
+        "etiqueta": "ing-tempo-verbal"
+      },
+      {
+        "letra": "B",
+        "texto": "vai à festa independentemente do tempo.",
+        "correta": false,
+        "etiqueta": "ing-conector-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "só iria à festa se tivesse mais tempo.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "não vai à festa porque tem tempo livre.",
+        "correta": false,
+        "etiqueta": "ing-ignorou-negacao"
+      },
+      {
+        "letra": "E",
+        "texto": "foi à festa depois que ganhou tempo.",
+        "correta": false,
+        "etiqueta": "ing-tempo-verbal"
+      }
+    ],
+    "explicacao": "\"If I had more time\" mostra uma condição hipotética: no momento, falta tempo, por isso não vai.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-gramatica-em-contexto-008",
+    "materia": "ingles",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Futebol na chuva",
+    "enunciado": "\"Although it was raining, they played football.\"\n\nO sentido da frase é que eles",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "não jogaram, porque chovia.",
+        "correta": false,
+        "etiqueta": "ing-conector-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "jogariam só se chovesse.",
+        "correta": false,
+        "etiqueta": "ing-conector-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "provocaram a chuva ao jogar.",
+        "correta": false,
+        "etiqueta": "ing-conector-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "jogaram, apesar da chuva.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "jogaram depois que a chuva parou.",
+        "correta": false,
+        "etiqueta": "ing-tempo-verbal"
+      }
+    ],
+    "explicacao": "\"Although\" introduz contraste: a chuva poderia impedir, mas não impediu.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-gramatica-em-contexto-009",
+    "materia": "ingles",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Museu e turistas",
+    "enunciado": "\"The museum, which opened in 1990, attracts many tourists.\"\n\nNo texto, o pronome \"which\" se refere a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "museum.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "tourists.",
+        "correta": false,
+        "etiqueta": "ing-referente-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "1990.",
+        "correta": false,
+        "etiqueta": "ing-referente-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "many.",
+        "correta": false,
+        "etiqueta": "ing-referente-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "o ano e os turistas.",
+        "correta": false,
+        "etiqueta": "ing-referente-errado"
+      }
+    ],
+    "explicacao": "\"Which\" retoma o termo imediatamente antes da vírgula, \"the museum\": o museu abriu em 1990.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-gramatica-em-contexto-010",
+    "materia": "ingles",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Relatório pendente",
+    "enunciado": "\"He hasn't finished the report yet, so he can't leave.\"\n\nDe acordo com a frase, ele",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "já terminou o relatório, mas não pode sair.",
+        "correta": false,
+        "etiqueta": "ing-ignorou-negacao"
+      },
+      {
+        "letra": "B",
+        "texto": "ainda não terminou o relatório e por isso não pode sair.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "terminou o relatório ontem e saiu.",
+        "correta": false,
+        "etiqueta": "ing-tempo-verbal"
+      },
+      {
+        "letra": "D",
+        "texto": "vai terminar hoje e sair em seguida.",
+        "correta": false,
+        "etiqueta": "ing-tempo-verbal"
+      },
+      {
+        "letra": "E",
+        "texto": "terminou e saiu sem dar notícia.",
+        "correta": false,
+        "etiqueta": "ing-ignorou-negacao"
+      }
+    ],
+    "explicacao": "\"Hasn't finished ... yet\" quer dizer que o relatório ainda não está pronto, e \"so\" apresenta a consequência.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-gramatica-em-contexto-011",
+    "materia": "ingles",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Bolsa esquecida",
+    "enunciado": "\"Is this your bag?\" \"No, it isn't. It's hers.\"\n\nA palavra \"hers\" indica que a bolsa é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "dele.",
+        "correta": false,
+        "etiqueta": "ing-referente-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "minha.",
+        "correta": false,
+        "etiqueta": "ing-referente-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "nossa.",
+        "correta": false,
+        "etiqueta": "ing-referente-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "dela.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "de vocês.",
+        "correta": false,
+        "etiqueta": "ing-referente-errado"
+      }
+    ],
+    "explicacao": "\"Hers\" é o pronome possessivo feminino: da mulher. O pronome de \"dele\" seria \"his\".",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-gramatica-em-contexto-012",
+    "materia": "ingles",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Games agora",
+    "enunciado": "\"They are playing video games now.\"\n\nO tempo verbal da frase indica",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "uma ação em andamento.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "um hábito antigo.",
+        "correta": false,
+        "etiqueta": "ing-tempo-verbal"
+      },
+      {
+        "letra": "C",
+        "texto": "algo que aconteceu ontem.",
+        "correta": false,
+        "etiqueta": "ing-tempo-verbal"
+      },
+      {
+        "letra": "D",
+        "texto": "um plano para o ano que vem.",
+        "correta": false,
+        "etiqueta": "ing-tempo-verbal"
+      },
+      {
+        "letra": "E",
+        "texto": "uma regra do jogo.",
+        "correta": false,
+        "etiqueta": "ing-tempo-verbal"
+      }
+    ],
+    "explicacao": "\"Are playing\" (to be + -ing) e \"now\" mostram que a ação acontece neste momento.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-gramatica-em-contexto-013",
+    "materia": "ingles",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Casa nova",
+    "enunciado": "\"I have lived here since 2015.\"\n\nA frase quer dizer que a pessoa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "morou ali até 2015 e saiu.",
+        "correta": false,
+        "etiqueta": "ing-tempo-verbal"
+      },
+      {
+        "letra": "B",
+        "texto": "vai se mudar para lá em 2015.",
+        "correta": false,
+        "etiqueta": "ing-tempo-verbal"
+      },
+      {
+        "letra": "C",
+        "texto": "morou ali apenas durante o ano de 2015.",
+        "correta": false,
+        "etiqueta": "ing-tempo-verbal"
+      },
+      {
+        "letra": "D",
+        "texto": "mora ali há dois mil anos.",
+        "correta": false,
+        "etiqueta": "ing-traducao-literal"
+      },
+      {
+        "letra": "E",
+        "texto": "mora ali desde 2015 até hoje.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "\"Have lived\" com \"since\" liga o passado ao presente: começou em 2015 e continua.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-gramatica-em-contexto-014",
+    "materia": "ingles",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Entrada com ingresso",
+    "enunciado": "\"You can't enter without a ticket.\"\n\nA frase significa que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pode-se entrar mesmo sem ingresso.",
+        "correta": false,
+        "etiqueta": "ing-ignorou-negacao"
+      },
+      {
+        "letra": "B",
+        "texto": "só entra quem tem ingresso.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "só entra quem não tem ingresso.",
+        "correta": false,
+        "etiqueta": "ing-sentido-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "os ingressos são dados na porta.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "ingressos falsos são aceitos.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      }
+    ],
+    "explicacao": "\"Can't\" (não pode) e \"without\" (sem) juntos expressam proibição: sem ingresso, sem entrada.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-gramatica-em-contexto-015",
+    "materia": "ingles",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 3,
+    "dificuldade": 1,
+    "contexto": "Estudar cansada",
+    "enunciado": "\"Despite being tired, Carla kept studying.\"\n\nO que a frase diz?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Carla parou de estudar porque estava cansada.",
+        "correta": false,
+        "etiqueta": "ing-conector-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "Carla estudou porque estava descansada.",
+        "correta": false,
+        "etiqueta": "ing-ignorou-negacao"
+      },
+      {
+        "letra": "C",
+        "texto": "Carla continuou estudando, apesar do cansaço.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "Carla estudou depois de descansar.",
+        "correta": false,
+        "etiqueta": "ing-tempo-verbal"
+      },
+      {
+        "letra": "E",
+        "texto": "Carla só estuda quando está cansada.",
+        "correta": false,
+        "etiqueta": "ing-conector-errado"
+      }
+    ],
+    "explicacao": "\"Despite\" indica contraste: o cansaço poderia fazê-la parar, mas ela continuou (\"kept studying\").",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-gramatica-em-contexto-016",
+    "materia": "ingles",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 4,
+    "dificuldade": -1,
+    "contexto": "Mais alta",
+    "enunciado": "\"She is taller than her brother.\"\n\nA frase significa que ela é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "tão alta quanto o irmão.",
+        "correta": false,
+        "etiqueta": "ing-traducao-literal"
+      },
+      {
+        "letra": "B",
+        "texto": "mais baixa que o irmão.",
+        "correta": false,
+        "etiqueta": "ing-sentido-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "a mais alta de todas as pessoas.",
+        "correta": false,
+        "etiqueta": "ing-generalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "mais velha que o irmão.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "mais alta que o irmão.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "\"Taller than\" é o comparativo de superioridade: mais alta que. Não diz nada sobre a idade.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-gramatica-em-contexto-017",
+    "materia": "ingles",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Ninguém sabe",
+    "enunciado": "\"Neither Paulo nor Rita knows the answer.\"\n\nO que a frase diz?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Paulo e Rita sabem a resposta.",
+        "correta": false,
+        "etiqueta": "ing-ignorou-negacao"
+      },
+      {
+        "letra": "B",
+        "texto": "Só Paulo sabe a resposta.",
+        "correta": false,
+        "etiqueta": "ing-ignorou-negacao"
+      },
+      {
+        "letra": "C",
+        "texto": "Só Rita sabe a resposta.",
+        "correta": false,
+        "etiqueta": "ing-ignorou-negacao"
+      },
+      {
+        "letra": "D",
+        "texto": "Nem Paulo nem Rita sabem a resposta.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "Um dos dois sabe a resposta.",
+        "correta": false,
+        "etiqueta": "ing-ignorou-negacao"
+      }
+    ],
+    "explicacao": "\"Neither ... nor\" é uma negação dupla: nenhum dos dois sabe.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-gramatica-em-contexto-018",
+    "materia": "ingles",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Bolo sumido",
+    "enunciado": "\"The cake was eaten before we arrived.\"\n\nO que aconteceu?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Nós comemos o bolo assim que chegamos.",
+        "correta": false,
+        "etiqueta": "ing-tempo-verbal"
+      },
+      {
+        "letra": "B",
+        "texto": "O bolo será comido depois da nossa chegada.",
+        "correta": false,
+        "etiqueta": "ing-tempo-verbal"
+      },
+      {
+        "letra": "C",
+        "texto": "O bolo foi comido antes de nós chegarmos.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "O bolo comeu antes de nós.",
+        "correta": false,
+        "etiqueta": "ing-traducao-literal"
+      },
+      {
+        "letra": "E",
+        "texto": "Comemos o bolo antes de chegar.",
+        "correta": false,
+        "etiqueta": "ing-referente-errado"
+      }
+    ],
+    "explicacao": "\"Was eaten\" é voz passiva no passado: o bolo sofreu a ação. \"Before we arrived\" indica que ela ocorreu antes da chegada.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-gramatica-em-contexto-019",
+    "materia": "ingles",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Se não estudar",
+    "enunciado": "\"If you don't study, you won't pass.\"\n\nA frase quer dizer que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "quem não estudar não será aprovado.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "quem estudar não será aprovado.",
+        "correta": false,
+        "etiqueta": "ing-ignorou-negacao"
+      },
+      {
+        "letra": "C",
+        "texto": "você estuda, por isso não passa.",
+        "correta": false,
+        "etiqueta": "ing-conector-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "você não estudou, por isso não passou.",
+        "correta": false,
+        "etiqueta": "ing-tempo-verbal"
+      },
+      {
+        "letra": "E",
+        "texto": "quem estudar passará só no ano seguinte.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      }
+    ],
+    "explicacao": "Há uma condição no presente (\"if you don't study\") e uma consequência no futuro (\"won't pass\").",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-gramatica-em-contexto-020",
+    "materia": "ingles",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Atrasado e esquecido",
+    "enunciado": "\"Not only did he arrive late, but he also forgot the tickets.\"\n\nO que a frase diz sobre ele?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Chegou cedo, mas esqueceu os ingressos.",
+        "correta": false,
+        "etiqueta": "ing-conector-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "Chegou atrasado e ainda esqueceu os ingressos.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "Chegou atrasado, porém sem esquecer nada.",
+        "correta": false,
+        "etiqueta": "ing-conector-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "Não chegou, mas lembrou dos ingressos.",
+        "correta": false,
+        "etiqueta": "ing-ignorou-negacao"
+      },
+      {
+        "letra": "E",
+        "texto": "Esqueceu os ingressos por causa do atraso.",
+        "correta": false,
+        "etiqueta": "ing-conector-errado"
+      }
+    ],
+    "explicacao": "\"Not only ... but also\" soma duas falhas: o atraso e o esquecimento. Não há relação de causa nem de contraste.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  }
+]

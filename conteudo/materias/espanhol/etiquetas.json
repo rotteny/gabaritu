@@ -1,0 +1,15 @@
+[
+  { "id": "esp-palavra-solta", "nome": "Pescou palavra solta", "descricao": "Marcou a alternativa que repete uma palavra do texto sem conferir se ela responde ao que foi perguntado." },
+  { "id": "esp-falso-amigo", "nome": "Caiu no falso amigo", "descricao": "Confundiu uma palavra parecida com o português, mas de sentido diferente (heterossemântico)." },
+  { "id": "esp-extrapolou", "nome": "Foi além do texto", "descricao": "Concluiu algo que o texto não diz nem permite deduzir." },
+  { "id": "esp-detalhe-central", "nome": "Detalhe virou ideia central", "descricao": "Tomou uma informação secundária pelo assunto principal, ou trocou dados do texto." },
+  { "id": "esp-ignorou-negacao", "nome": "Ignorou a negação", "descricao": "Não viu um no, nunca, nadie, ni, sin ou solo e entendeu o contrário." },
+  { "id": "esp-portunhol", "nome": "Leu em portunhol", "descricao": "Supôs que a palavra ou a estrutura funciona como no português e errou o sentido ou a forma." },
+  { "id": "esp-intencao-errada", "nome": "Errou a intenção do texto", "descricao": "Confundiu o objetivo ou o gênero do texto: informar, vender, pedir, criticar, convidar." },
+  { "id": "esp-referente-errado", "nome": "Referente errado", "descricao": "Ligou um pronome ou expressão (lo, la, les, eso, que) ao termo errado." },
+  { "id": "esp-conector-errado", "nome": "Conector invertido", "descricao": "Entendeu a relação errada entre ideias: contraste, causa, consequência ou condição." },
+  { "id": "esp-tempo-verbal", "nome": "Tempo verbal trocado", "descricao": "Não percebeu se a ação é passada, presente, futura, hábito ou hipótese." },
+  { "id": "esp-sentido-errado", "nome": "Sentido errado da palavra", "descricao": "Usou o significado mais comum de uma palavra ou expressão que, nesse contexto, quer dizer outra coisa." },
+  { "id": "esp-tom-errado", "nome": "Leu o tom ao contrário", "descricao": "Entendeu ironia como elogio, crítica como neutralidade, ou opinião como fato." },
+  { "id": "esp-generalizou", "nome": "Generalizou demais", "descricao": "Transformou um caso ou uma tendência em regra para todos (siempre, todos, nadie)." }
+]

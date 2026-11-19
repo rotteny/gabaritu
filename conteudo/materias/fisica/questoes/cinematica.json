@@ -1,0 +1,282 @@
+[
+  {
+    "id": "fis-cinematica-001", "materia": "fisica", "assunto": "cinematica", "questionario": 1, "dificuldade": -1,
+    "contexto": "Viagem de carro",
+    "enunciado": "Uma família viaja de carro e percorre 150 km em 2 horas. Qual é a velocidade média do carro nesse trecho?",
+    "alternativas": [
+      { "letra": "A", "texto": "300 km/h", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "B", "texto": "152 km/h", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "C", "texto": "75 km/h", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "0,013 km/h", "correta": false, "etiqueta": "fis-proporcao-invertida" },
+      { "letra": "E", "texto": "77 km/h", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "A velocidade média é a distância dividida pelo tempo: 150 km ÷ 2 h = 75 km/h. Multiplicar (300) ou dividir ao contrário (0,013) não dá uma velocidade.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-cinematica-002", "materia": "fisica", "assunto": "cinematica", "questionario": 1, "dificuldade": -1,
+    "contexto": "Placa de velocidade",
+    "enunciado": "Um carro anda a 72 km/h. Qual é essa velocidade em metros por segundo?",
+    "alternativas": [
+      { "letra": "A", "texto": "259,2 m/s", "correta": false, "etiqueta": "fis-unidade" },
+      { "letra": "B", "texto": "7,2 m/s", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "C", "texto": "72 m/s", "correta": false, "etiqueta": "fis-ignorou-dado" },
+      { "letra": "D", "texto": "0,02 m/s", "correta": false, "etiqueta": "fis-unidade" },
+      { "letra": "E", "texto": "20 m/s", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Para passar de km/h para m/s, divide-se por 3,6: 72 ÷ 3,6 = 20 m/s. Multiplicar por 3,6 faz a conversão no sentido contrário (259,2).",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-cinematica-003", "materia": "fisica", "assunto": "cinematica", "questionario": 1, "dificuldade": 0,
+    "contexto": "Ida e volta",
+    "enunciado": "Um ciclista vai de uma cidade a outra, 60 km, a 30 km/h. Na volta, pelo mesmo caminho, mantém 60 km/h. Qual é a velocidade média no percurso total de ida e volta?",
+    "alternativas": [
+      { "letra": "A", "texto": "45 km/h", "correta": false, "etiqueta": "fis-media-aritmetica" },
+      { "letra": "B", "texto": "40 km/h", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "30 km/h", "correta": false, "etiqueta": "fis-ignorou-dado" },
+      { "letra": "D", "texto": "35 km/h", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "E", "texto": "90 km/h", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "A ida leva 60 ÷ 30 = 2 h e a volta leva 60 ÷ 60 = 1 h. A distância total é 120 km em 3 h, então a velocidade média é 120 ÷ 3 = 40 km/h. A média aritmética (45) ignora que ele passa mais tempo na velocidade menor.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-cinematica-004", "materia": "fisica", "assunto": "cinematica", "questionario": 1, "dificuldade": 0,
+    "contexto": "Arrancada do carro",
+    "enunciado": "Um carro parte do repouso com aceleração constante de 2 m/s². Qual é a sua velocidade após 5 segundos?",
+    "alternativas": [
+      { "letra": "A", "texto": "10 m/s", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "25 m/s", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "C", "texto": "7 m/s", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "D", "texto": "50 m/s", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "E", "texto": "0,4 m/s", "correta": false, "etiqueta": "fis-proporcao-invertida" }
+    ],
+    "explicacao": "No movimento uniformemente variado a partir do repouso, v = a × t = 2 × 5 = 10 m/s. O 25 é a distância percorrida (½ · a · t²), que é outra grandeza.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-cinematica-005", "materia": "fisica", "assunto": "cinematica", "questionario": 1, "dificuldade": 1,
+    "contexto": "Frenagem de emergência",
+    "enunciado": "Um carro a 30 m/s freia com desaceleração constante de 6 m/s² até parar. Qual é a distância percorrida durante a frenagem?",
+    "alternativas": [
+      { "letra": "A", "texto": "5 m", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "B", "texto": "150 m", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "C", "texto": "900 m", "correta": false, "etiqueta": "fis-parou-no-intermediario" },
+      { "letra": "D", "texto": "75 m", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "180 m", "correta": false, "etiqueta": "fis-formula-trocada" }
+    ],
+    "explicacao": "Pela equação de Torricelli, 0 = v² − 2·a·d, então d = v² ÷ (2a) = 900 ÷ 12 = 75 m. Esquecer o 2 do denominador dá 150 m, e os 900 são só v². O 5 é o tempo de frenagem em segundos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-cinematica-006", "materia": "fisica", "assunto": "cinematica", "questionario": 2, "dificuldade": -1,
+    "contexto": "Passeio de bicicleta",
+    "enunciado": "Um ciclista mantém velocidade constante de 18 km/h durante 2,5 horas. Que distância ele percorre?",
+    "alternativas": [
+      { "letra": "A", "texto": "7,2 km", "correta": false, "etiqueta": "fis-proporcao-invertida" },
+      { "letra": "B", "texto": "20,5 km", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "C", "texto": "36 km", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "D", "texto": "45 km", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "450 km", "correta": false, "etiqueta": "fis-unidade" }
+    ],
+    "explicacao": "No movimento uniforme, Δs = v × t = 18 × 2,5 = 45 km. Dividir a velocidade pelo tempo (7,2) dá uma grandeza que não é distância.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-cinematica-007", "materia": "fisica", "assunto": "cinematica", "questionario": 2, "dificuldade": 0,
+    "contexto": "Pedra no poço",
+    "enunciado": "Uma pedra é solta, a partir do repouso, de uma altura de 20 m. Desprezando a resistência do ar e usando g = 10 m/s², quanto tempo ela leva para chegar ao chão?",
+    "alternativas": [
+      { "letra": "A", "texto": "4 s", "correta": false, "etiqueta": "fis-esqueceu-quadrado" },
+      { "letra": "B", "texto": "2 s", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "10 s", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "D", "texto": "1 s", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "E", "texto": "20 s", "correta": false, "etiqueta": "fis-parou-no-intermediario" }
+    ],
+    "explicacao": "A queda livre obedece h = ½·g·t² = 5t². Com h = 20 m: t² = 4, logo t = 2 s. Se esquecer a raiz quadrada, chega-se a 4 s.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-cinematica-008", "materia": "fisica", "assunto": "cinematica", "questionario": 2, "dificuldade": 0,
+    "contexto": "Carros se aproximando",
+    "enunciado": "Dois carros, separados por 200 km em uma estrada reta, partem ao mesmo tempo um em direção ao outro, a 60 km/h e a 40 km/h. Depois de quanto tempo eles se encontram?",
+    "alternativas": [
+      { "letra": "A", "texto": "2 h", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "5 h", "correta": false, "etiqueta": "fis-ignorou-dado" },
+      { "letra": "C", "texto": "3 h 20 min", "correta": false, "etiqueta": "fis-ignorou-dado" },
+      { "letra": "D", "texto": "4 h", "correta": false, "etiqueta": "fis-media-aritmetica" },
+      { "letra": "E", "texto": "20 h", "correta": false, "etiqueta": "fis-sinal-direcao" }
+    ],
+    "explicacao": "Como se aproximam em sentidos opostos, as velocidades se somam: 60 + 40 = 100 km/h. O tempo é 200 ÷ 100 = 2 h. Subtrair as velocidades (20 km/h) só vale quando os dois vão no mesmo sentido.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-cinematica-009", "materia": "fisica", "assunto": "cinematica", "questionario": 2, "dificuldade": 1,
+    "contexto": "Moto atrás do carro",
+    "enunciado": "Um carro anda a 60 km/h e está 15 km à frente de uma moto que o persegue, no mesmo sentido, a 90 km/h. Em quanto tempo a moto alcança o carro?",
+    "alternativas": [
+      { "letra": "A", "texto": "6 min", "correta": false, "etiqueta": "fis-sinal-direcao" },
+      { "letra": "B", "texto": "10 min", "correta": false, "etiqueta": "fis-ignorou-dado" },
+      { "letra": "C", "texto": "30 min", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "15 min", "correta": false, "etiqueta": "fis-ignorou-dado" },
+      { "letra": "E", "texto": "50 min", "correta": false, "etiqueta": "fis-unidade" }
+    ],
+    "explicacao": "No mesmo sentido, a velocidade relativa é 90 − 60 = 30 km/h. O tempo é 15 ÷ 30 = 0,5 h, ou seja, 30 min. Somar as velocidades (6 min) só vale para movimentos em sentidos opostos. O 0,5 h não é 50 min.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-cinematica-010", "materia": "fisica", "assunto": "cinematica", "questionario": 2, "dificuldade": 1,
+    "contexto": "Gráfico de velocidade",
+    "enunciado": "Um gráfico mostra a velocidade de um corredor: ela cresce de 0 a 20 m/s de maneira uniforme em 5 s e, depois, fica constante em 20 m/s por mais 10 s. Qual é a distância total percorrida nos 15 s?",
+    "alternativas": [
+      { "letra": "A", "texto": "200 m", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "B", "texto": "300 m", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "C", "texto": "100 m", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "D", "texto": "225 m", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "E", "texto": "250 m", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "A distância é a área sob o gráfico. Na parte crescente (triângulo): ½ × 5 × 20 = 50 m. Na parte constante (retângulo): 20 × 10 = 200 m. Total: 250 m. Os 200 m esquecem a primeira parte, e os 300 m tratam tudo como velocidade constante.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-cinematica-011", "materia": "fisica", "assunto": "cinematica", "questionario": 3, "dificuldade": -1,
+    "contexto": "Aceleração do trem",
+    "enunciado": "Um trem aumenta sua velocidade de 0 a 30 m/s em 6 s, de forma uniforme. Qual é a aceleração média?",
+    "alternativas": [
+      { "letra": "A", "texto": "5 m/s²", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "180 m/s²", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "C", "texto": "0,2 m/s²", "correta": false, "etiqueta": "fis-proporcao-invertida" },
+      { "letra": "D", "texto": "24 m/s²", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "E", "texto": "36 m/s²", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "A aceleração é a variação de velocidade por tempo: a = Δv ÷ Δt = 30 ÷ 6 = 5 m/s². Inverter a divisão dá 0,2, e multiplicar dá 180.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-cinematica-012", "materia": "fisica", "assunto": "cinematica", "questionario": 3, "dificuldade": -1,
+    "contexto": "Caminhada solidária",
+    "enunciado": "Em uma caminhada solidária, um grupo percorre 12 km com velocidade constante de 6 km/h. Quanto tempo dura a caminhada?",
+    "alternativas": [
+      { "letra": "A", "texto": "72 h", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "B", "texto": "0,5 h", "correta": false, "etiqueta": "fis-proporcao-invertida" },
+      { "letra": "C", "texto": "2 h", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "18 h", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "E", "texto": "3 h", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "O tempo é a distância dividida pela velocidade: t = 12 ÷ 6 = 2 h. Dividir ao contrário (0,5 h) inverte a relação.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-cinematica-013", "materia": "fisica", "assunto": "cinematica", "questionario": 3, "dificuldade": 0,
+    "contexto": "Carro na cidade",
+    "enunciado": "Um carro anda a 36 km/h durante 20 segundos, em linha reta e com velocidade constante. Quantos metros ele percorre?",
+    "alternativas": [
+      { "letra": "A", "texto": "720 m", "correta": false, "etiqueta": "fis-unidade" },
+      { "letra": "B", "texto": "72 m", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "C", "texto": "5,6 m", "correta": false, "etiqueta": "fis-unidade" },
+      { "letra": "D", "texto": "2.000 m", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "E", "texto": "200 m", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Converte-se 36 km/h para m/s dividindo por 3,6: 10 m/s. A distância é 10 × 20 = 200 m. Multiplicar 36 por 20 (720) mistura km/h com segundos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-cinematica-014", "materia": "fisica", "assunto": "cinematica", "questionario": 3, "dificuldade": 0,
+    "contexto": "Estrada em dois trechos",
+    "enunciado": "Um motorista percorre 90 km em 1 hora e, depois, mais 30 km em 2 horas. Qual é a velocidade média no percurso total?",
+    "alternativas": [
+      { "letra": "A", "texto": "52,5 km/h", "correta": false, "etiqueta": "fis-media-aritmetica" },
+      { "letra": "B", "texto": "60 km/h", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "C", "texto": "30 km/h", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "D", "texto": "40 km/h", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "105 km/h", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "A distância total é 90 + 30 = 120 km e o tempo total é 1 + 2 = 3 h. A velocidade média é 120 ÷ 3 = 40 km/h. Fazer a média das velocidades dos trechos (90 e 15 km/h) dá 52,5 km/h e é um erro clássico.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-cinematica-015", "materia": "fisica", "assunto": "cinematica", "questionario": 3, "dificuldade": 1,
+    "contexto": "Freada na avenida",
+    "enunciado": "Um carro a 72 km/h freia com desaceleração constante de 4 m/s² até parar. Qual é a distância percorrida durante a freada?",
+    "alternativas": [
+      { "letra": "A", "texto": "100 m", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "B", "texto": "50 m", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "648 m", "correta": false, "etiqueta": "fis-unidade" },
+      { "letra": "D", "texto": "400 m", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "E", "texto": "5 m", "correta": false, "etiqueta": "fis-parou-no-intermediario" }
+    ],
+    "explicacao": "Primeiro, 72 km/h = 20 m/s. Por Torricelli, d = v² ÷ (2a) = 400 ÷ 8 = 50 m. Esquecer o 2 dá 100 m, usar 72 sem converter dá 648 m, e o 5 é o tempo de freada em segundos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-cinematica-016", "materia": "fisica", "assunto": "cinematica", "questionario": 4, "dificuldade": -1,
+    "contexto": "Posição do ciclista",
+    "enunciado": "A posição de um ciclista em uma ciclovia, em metros, é dada por S = 10 + 5t, com t em segundos. Qual é a posição dele no instante t = 4 s?",
+    "alternativas": [
+      { "letra": "A", "texto": "50 m", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "B", "texto": "14 m", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "C", "texto": "20 m", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "D", "texto": "9 m", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "E", "texto": "30 m", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Substitui t = 4: S = 10 + 5 × 4 = 10 + 20 = 30 m. Os 20 m são só o deslocamento, sem somar a posição inicial de 10 m.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-cinematica-017", "materia": "fisica", "assunto": "cinematica", "questionario": 4, "dificuldade": 0,
+    "contexto": "Salto de uma plataforma",
+    "enunciado": "Um objeto é solto, do repouso, de uma altura de 80 m. Desprezando o ar e usando g = 10 m/s², qual é a velocidade com que ele chega ao chão?",
+    "alternativas": [
+      { "letra": "A", "texto": "4 m/s", "correta": false, "etiqueta": "fis-parou-no-intermediario" },
+      { "letra": "B", "texto": "28 m/s", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "C", "texto": "1.600 m/s", "correta": false, "etiqueta": "fis-esqueceu-quadrado" },
+      { "letra": "D", "texto": "40 m/s", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "80 m/s", "correta": false, "etiqueta": "fis-formula-trocada" }
+    ],
+    "explicacao": "De h = 5t², tem-se 80 = 5t², então t = 4 s. A velocidade é v = g·t = 10 × 4 = 40 m/s. Os 4 são o tempo de queda, não a velocidade. Pela outra via, v² = 2gh = 1.600, logo v = 40 m/s (os 1.600 sem raiz são v²).",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-cinematica-018", "materia": "fisica", "assunto": "cinematica", "questionario": 4, "dificuldade": 0,
+    "contexto": "Bola para o alto",
+    "enunciado": "Uma bola é lançada verticalmente para cima com velocidade de 20 m/s. Desprezando o ar e usando g = 10 m/s², qual é a altura máxima atingida?",
+    "alternativas": [
+      { "letra": "A", "texto": "40 m", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "B", "texto": "10 m", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "C", "texto": "20 m", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "2 m", "correta": false, "etiqueta": "fis-parou-no-intermediario" },
+      { "letra": "E", "texto": "400 m", "correta": false, "etiqueta": "fis-esqueceu-etapa" }
+    ],
+    "explicacao": "No ponto mais alto, v = 0. Por Torricelli: 0 = 20² − 2·10·h, então h = 400 ÷ 20 = 20 m. O 2 é o tempo de subida em segundos, e 400 é só v².",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-cinematica-019", "materia": "fisica", "assunto": "cinematica", "questionario": 4, "dificuldade": 1,
+    "contexto": "Encontro em pista reta",
+    "enunciado": "Dois corredores, A e B, partem ao mesmo tempo de extremos de uma pista reta de 300 m, correndo um em direção ao outro. A corre a 20 m/s e B a 10 m/s. A que distância do ponto de partida de A ocorre o encontro?",
+    "alternativas": [
+      { "letra": "A", "texto": "100 m", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "B", "texto": "200 m", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "150 m", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "D", "texto": "300 m", "correta": false, "etiqueta": "fis-ignorou-dado" },
+      { "letra": "E", "texto": "10 m", "correta": false, "etiqueta": "fis-parou-no-intermediario" }
+    ],
+    "explicacao": "A velocidade relativa é 20 + 10 = 30 m/s, então o encontro ocorre em t = 300 ÷ 30 = 10 s. Nesse tempo, A corre 20 × 10 = 200 m. Os 100 m são a distância percorrida por B, e o 10 é o tempo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-cinematica-020", "materia": "fisica", "assunto": "cinematica", "questionario": 4, "dificuldade": 1,
+    "contexto": "Tempo de reação",
+    "enunciado": "Um motorista a 108 km/h vê um obstáculo e leva 0,5 s para pisar no freio, tempo em que o carro segue em velocidade constante. Depois, o carro desacelera a 6 m/s² até parar. Qual é a distância total percorrida desde que ele vê o obstáculo até parar?",
+    "alternativas": [
+      { "letra": "A", "texto": "90 m", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "75 m", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "C", "texto": "15 m", "correta": false, "etiqueta": "fis-parou-no-intermediario" },
+      { "letra": "D", "texto": "165 m", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "E", "texto": "1.026 m", "correta": false, "etiqueta": "fis-unidade" }
+    ],
+    "explicacao": "108 km/h = 30 m/s. Durante a reação: 30 × 0,5 = 15 m. Na freada: d = v² ÷ (2a) = 900 ÷ 12 = 75 m. O total é 15 + 75 = 90 m. Os 75 m ignoram o tempo de reação, e usar 108 sem converter para m/s dá valores absurdos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]

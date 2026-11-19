@@ -1,0 +1,282 @@
+[
+  {
+    "id": "fis-termologia-001", "materia": "fisica", "assunto": "termologia", "questionario": 1, "dificuldade": -1,
+    "contexto": "Termômetro em Kelvin",
+    "enunciado": "Num laboratório, um termômetro marca 27 °C. Qual é essa temperatura na escala Kelvin?",
+    "alternativas": [
+      { "letra": "A", "texto": "−246 K", "correta": false, "etiqueta": "fis-escala-temperatura" },
+      { "letra": "B", "texto": "27 K", "correta": false, "etiqueta": "fis-ignorou-dado" },
+      { "letra": "C", "texto": "246 K", "correta": false, "etiqueta": "fis-escala-temperatura" },
+      { "letra": "D", "texto": "300 K", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "290 K", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "A conversão é T(K) = T(°C) + 273 = 27 + 273 = 300 K. Subtrair 273 (em vez de somar) dá um valor negativo, o que é impossível em Kelvin.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-termologia-002", "materia": "fisica", "assunto": "termologia", "questionario": 1, "dificuldade": -1,
+    "contexto": "Esquentando água",
+    "enunciado": "Quantas calorias são necessárias para aquecer 200 g de água de 20 °C a 70 °C? (Calor específico da água: 1 cal/g°C)",
+    "alternativas": [
+      { "letra": "A", "texto": "10.000 cal", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "14.000 cal", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "C", "texto": "4.000 cal", "correta": false, "etiqueta": "fis-ignorou-dado" },
+      { "letra": "D", "texto": "270 cal", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "E", "texto": "1.000 cal", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "A quantidade de calor é Q = m × c × ΔT, com ΔT = 70 − 20 = 50 °C. Então Q = 200 × 1 × 50 = 10.000 cal. Usar 70 °C como variação (14.000) esquece que a água já estava a 20 °C.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-termologia-003", "materia": "fisica", "assunto": "termologia", "questionario": 1, "dificuldade": 0,
+    "contexto": "Banho misturado",
+    "enunciado": "Em um balde, misturam-se 300 g de água a 20 °C com 100 g de água a 100 °C. Desprezando perdas de calor, qual é a temperatura final da mistura?",
+    "alternativas": [
+      { "letra": "A", "texto": "60 °C", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "B", "texto": "50 °C", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "C", "texto": "40 °C", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "30 °C", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "E", "texto": "70 °C", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "O calor cedido pela água quente é igual ao absorvido pela fria: 100 × (100 − T) = 300 × (T − 20). Então 10.000 − 100T = 300T − 6.000, logo 400T = 16.000 e T = 40 °C. A média simples (60 °C) ignora que há mais água fria do que quente.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-termologia-004", "materia": "fisica", "assunto": "termologia", "questionario": 1, "dificuldade": 0,
+    "contexto": "Gelo derretendo",
+    "enunciado": "Um bloco de 50 g de gelo a 0 °C derrete por completo e vira água a 0 °C. Qual é a quantidade de calor absorvida? (Calor latente de fusão do gelo: 80 cal/g)",
+    "alternativas": [
+      { "letra": "A", "texto": "80 cal", "correta": false, "etiqueta": "fis-parou-no-intermediario" },
+      { "letra": "B", "texto": "4.000 cal", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "0 cal", "correta": false, "etiqueta": "fis-calor-latente" },
+      { "letra": "D", "texto": "1,6 cal", "correta": false, "etiqueta": "fis-proporcao-invertida" },
+      { "letra": "E", "texto": "5.000 cal", "correta": false, "etiqueta": "fis-calor-latente" }
+    ],
+    "explicacao": "Na mudança de estado vale Q = m × L = 50 × 80 = 4.000 cal, e a temperatura não muda durante a fusão. Por isso não dá para usar Q = m·c·ΔT com ΔT = 0 (isso daria 0 cal).",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-termologia-005", "materia": "fisica", "assunto": "termologia", "questionario": 1, "dificuldade": 1,
+    "contexto": "Do gelo ao copo morno",
+    "enunciado": "Quantas calorias são necessárias para transformar 150 g de gelo a 0 °C em água a 20 °C? (Calor latente de fusão: 80 cal/g; calor específico da água: 1 cal/g°C)",
+    "alternativas": [
+      { "letra": "A", "texto": "3.000 cal", "correta": false, "etiqueta": "fis-calor-latente" },
+      { "letra": "B", "texto": "12.000 cal", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "C", "texto": "13.500 cal", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "D", "texto": "30.000 cal", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "E", "texto": "15.000 cal", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "São duas etapas. Fusão: 150 × 80 = 12.000 cal. Aquecimento da água de 0 a 20 °C: 150 × 1 × 20 = 3.000 cal. Total: 15.000 cal. Os 3.000 cal esquecem a fusão, e os 12.000 cal esquecem o aquecimento.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-termologia-006", "materia": "fisica", "assunto": "termologia", "questionario": 2, "dificuldade": -1,
+    "contexto": "Água fervendo",
+    "enunciado": "Ao nível do mar, a água ferve a 100 °C. Qual é essa temperatura na escala Fahrenheit? (T em °F = 1,8 × T em °C + 32)",
+    "alternativas": [
+      { "letra": "A", "texto": "180 °F", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "B", "texto": "132 °F", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "C", "texto": "373 °F", "correta": false, "etiqueta": "fis-escala-temperatura" },
+      { "letra": "D", "texto": "100 °F", "correta": false, "etiqueta": "fis-ignorou-dado" },
+      { "letra": "E", "texto": "212 °F", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Aplicando a fórmula: 1,8 × 100 + 32 = 180 + 32 = 212 °F. Os 180 esquecem de somar 32, e 373 é o valor em Kelvin, não em Fahrenheit.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-termologia-007", "materia": "fisica", "assunto": "termologia", "questionario": 2, "dificuldade": 0,
+    "contexto": "Bloco de metal",
+    "enunciado": "Um bloco de metal de 500 g recebe 4.500 cal e sua temperatura sobe de 20 °C para 40 °C. Qual é o calor específico do metal?",
+    "alternativas": [
+      { "letra": "A", "texto": "0,225 cal/g°C", "correta": false, "etiqueta": "fis-ignorou-dado" },
+      { "letra": "B", "texto": "0,9 cal/g°C", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "C", "texto": "0,45 cal/g°C", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "225 cal/g°C", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "E", "texto": "4,5 cal/g°C", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "De Q = m·c·ΔT, tem-se c = Q ÷ (m × ΔT) = 4.500 ÷ (500 × 20) = 0,45 cal/g°C. Usar 40 °C como variação (0,225) esquece a temperatura inicial, e os 225 esquecem de dividir pela massa.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-termologia-008", "materia": "fisica", "assunto": "termologia", "questionario": 2, "dificuldade": 0,
+    "contexto": "Trilho de trem",
+    "enunciado": "Uma barra de aço de 2 m, com coeficiente de dilatação linear de 12 × 10⁻⁶ °C⁻¹, é aquecida em 50 °C. Qual é o aumento do comprimento da barra?",
+    "alternativas": [
+      { "letra": "A", "texto": "12 mm", "correta": false, "etiqueta": "fis-unidade" },
+      { "letra": "B", "texto": "1,2 mm", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "0,12 mm", "correta": false, "etiqueta": "fis-unidade" },
+      { "letra": "D", "texto": "24 mm", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "E", "texto": "1,2 m", "correta": false, "etiqueta": "fis-unidade" }
+    ],
+    "explicacao": "A dilatação é ΔL = L₀ · α · ΔT = 2 × 12 × 10⁻⁶ × 50 = 1.200 × 10⁻⁶ m = 1,2 × 10⁻³ m = 1,2 mm. O resultado em metros é 0,0012 m, e confundir a unidade muda o valor por fatores de 10 ou 1.000.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-termologia-009", "materia": "fisica", "assunto": "termologia", "questionario": 2, "dificuldade": 1,
+    "contexto": "Gelo no copo de água",
+    "enunciado": "Em um recipiente isolado, 300 g de água a 40 °C recebem 100 g de gelo a 0 °C. Qual é a temperatura final de equilíbrio? (Calor latente de fusão: 80 cal/g; c da água: 1 cal/g°C)",
+    "alternativas": [
+      { "letra": "A", "texto": "30 °C", "correta": false, "etiqueta": "fis-calor-latente" },
+      { "letra": "B", "texto": "20 °C", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "C", "texto": "0 °C", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "D", "texto": "10 °C", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "25 °C", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "O calor cedido pela água quente (300 × (40 − T)) é igual ao usado para fundir o gelo (100 × 80) mais aquecer a água do gelo (100 × T). Então 12.000 − 300T = 8.000 + 100T, logo 400T = 4.000 e T = 10 °C. Ignorar a fusão dá 30 °C.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-termologia-010", "materia": "fisica", "assunto": "termologia", "questionario": 2, "dificuldade": 1,
+    "contexto": "Chuveiro elétrico aquecendo água",
+    "enunciado": "Um chuveiro esquenta 2 litros de água por minuto (2.000 g), elevando a temperatura de 20 °C para 40 °C. Considere 1 cal = 4,2 J e c = 1 cal/g°C. Qual é a potência elétrica mínima do chuveiro, supondo que todo o calor vá para a água?",
+    "alternativas": [
+      { "letra": "A", "texto": "2.800 W", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "168.000 W", "correta": false, "etiqueta": "fis-unidade" },
+      { "letra": "C", "texto": "667 W", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "D", "texto": "28.000 W", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "E", "texto": "400 W", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "Por minuto: Q = 2.000 × 1 × 20 = 40.000 cal, que valem 40.000 × 4,2 = 168.000 J. Em 60 s, a potência é 168.000 ÷ 60 = 2.800 W. Os 168.000 estão em joules por minuto, e os 667 W esquecem de converter cal em J.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-termologia-011", "materia": "fisica", "assunto": "termologia", "questionario": 3, "dificuldade": -1,
+    "contexto": "Óleo esfriando na panela",
+    "enunciado": "Uma panela com 400 g de óleo (calor específico 0,5 cal/g°C) esfria de 100 °C para 60 °C. Quanto calor o óleo perde?",
+    "alternativas": [
+      { "letra": "A", "texto": "20.000 cal", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "B", "texto": "8.000 cal", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "16.000 cal", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "D", "texto": "12.000 cal", "correta": false, "etiqueta": "fis-ignorou-dado" },
+      { "letra": "E", "texto": "80.000 cal", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "A variação de temperatura é 100 − 60 = 40 °C. O calor perdido é Q = 400 × 0,5 × 40 = 8.000 cal. Esquecer o calor específico dá 16.000 cal, e usar a temperatura inicial no lugar da variação dá 20.000 cal.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-termologia-012", "materia": "fisica", "assunto": "termologia", "questionario": 3, "dificuldade": -1,
+    "contexto": "Termômetro estrangeiro",
+    "enunciado": "Em um país que usa a escala Fahrenheit, um termômetro de cozinha marca 68 °F. Qual é essa temperatura em graus Celsius? (°C = (°F − 32) ÷ 1,8)",
+    "alternativas": [
+      { "letra": "A", "texto": "36 °C", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "B", "texto": "37,8 °C", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "C", "texto": "154 °C", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "D", "texto": "20 °C", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "293 °C", "correta": false, "etiqueta": "fis-escala-temperatura" }
+    ],
+    "explicacao": "Subtrai-se 32 e divide-se por 1,8: (68 − 32) ÷ 1,8 = 36 ÷ 1,8 = 20 °C. Os 36 esquecem a divisão, e os 293 correspondem a 20 °C em Kelvin, não em Celsius.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-termologia-013", "materia": "fisica", "assunto": "termologia", "questionario": 3, "dificuldade": 0,
+    "contexto": "Ebulidor elétrico",
+    "enunciado": "Um ebulidor de 2.100 W fica ligado por 1 minuto dentro de 500 g de água. Considere que todo o calor vai para a água, c = 4,2 J/g°C. De quanto sobe a temperatura da água?",
+    "alternativas": [
+      { "letra": "A", "texto": "60 °C", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "1 °C", "correta": false, "etiqueta": "fis-potencia-energia" },
+      { "letra": "C", "texto": "120 °C", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "D", "texto": "252 °C", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "E", "texto": "36 °C", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "A energia fornecida é E = P × t = 2.100 × 60 = 126.000 J. A capacidade térmica da água é 500 × 4,2 = 2.100 J/°C, então ΔT = 126.000 ÷ 2.100 = 60 °C. Usar só a potência (sem o tempo) dá 1 °C.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-termologia-014", "materia": "fisica", "assunto": "termologia", "questionario": 3, "dificuldade": 0,
+    "contexto": "Panela no fogão",
+    "enunciado": "Ao aquecer água em uma panela no fogão, a água do fundo esquenta, sobe, e a água mais fria da superfície desce, formando correntes. Qual é o principal processo de transmissão de calor responsável por esse movimento?",
+    "alternativas": [
+      { "letra": "A", "texto": "Irradiação", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "B", "texto": "Condução", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "C", "texto": "Evaporação", "correta": false, "etiqueta": "fis-calor-latente" },
+      { "letra": "D", "texto": "Condensação", "correta": false, "etiqueta": "fis-calor-latente" },
+      { "letra": "E", "texto": "Convecção", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "A convecção é a transmissão de calor em fluidos por correntes: o fluido quente fica menos denso e sobe, e o frio desce. A condução ocorre sem movimento de matéria (como no cabo da panela), e a irradiação não precisa de meio (como o calor do Sol). Evaporação e condensação são mudanças de estado, não formas de transmissão.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-termologia-015", "materia": "fisica", "assunto": "termologia", "questionario": 3, "dificuldade": 1,
+    "contexto": "Máquina térmica",
+    "enunciado": "Uma máquina térmica recebe 800 J de calor da fonte quente em cada ciclo e rejeita 600 J para a fonte fria. Qual é o rendimento da máquina?",
+    "alternativas": [
+      { "letra": "A", "texto": "75%", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "B", "texto": "33%", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "C", "texto": "25%", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "133%", "correta": false, "etiqueta": "fis-proporcao-invertida" },
+      { "letra": "E", "texto": "20%", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "O trabalho útil é a diferença: W = 800 − 600 = 200 J. O rendimento é W ÷ Q recebido = 200 ÷ 800 = 0,25, ou seja, 25%. Os 75% são a fração rejeitada, e o 133% é impossível para qualquer máquina térmica.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-termologia-016", "materia": "fisica", "assunto": "termologia", "questionario": 4, "dificuldade": -1,
+    "contexto": "Capacidade térmica",
+    "enunciado": "Um corpo recebe 600 cal e sua temperatura sobe 30 °C. Qual é a capacidade térmica desse corpo?",
+    "alternativas": [
+      { "letra": "A", "texto": "20 cal/°C", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "0,05 cal/°C", "correta": false, "etiqueta": "fis-proporcao-invertida" },
+      { "letra": "C", "texto": "18.000 cal/°C", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "D", "texto": "630 cal/°C", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "E", "texto": "570 cal/°C", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "A capacidade térmica é C = Q ÷ ΔT = 600 ÷ 30 = 20 cal/°C. Inverter a divisão dá 0,05, e multiplicar dá 18.000.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-termologia-017", "materia": "fisica", "assunto": "termologia", "questionario": 4, "dificuldade": 0,
+    "contexto": "Fervendo até virar vapor",
+    "enunciado": "Quanto calor é necessário para vaporizar 10 g de água que já está a 100 °C? (Calor latente de vaporização: 540 cal/g)",
+    "alternativas": [
+      { "letra": "A", "texto": "540 cal", "correta": false, "etiqueta": "fis-parou-no-intermediario" },
+      { "letra": "B", "texto": "1.000 cal", "correta": false, "etiqueta": "fis-calor-latente" },
+      { "letra": "C", "texto": "4.600 cal", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "D", "texto": "54.000 cal", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "E", "texto": "5.400 cal", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Na vaporização a 100 °C, Q = m × L = 10 × 540 = 5.400 cal. O valor 540 é o calor por grama, e usar m·c·ΔT (como 1.000 cal) trata o processo como mero aquecimento, quando é mudança de estado.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-termologia-018", "materia": "fisica", "assunto": "termologia", "questionario": 4, "dificuldade": 0,
+    "contexto": "Água quente e fria",
+    "enunciado": "Misturam-se 100 g de água a 80 °C com 300 g de água a 20 °C, sem perda de calor para o ambiente. Qual é a temperatura final?",
+    "alternativas": [
+      { "letra": "A", "texto": "50 °C", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "B", "texto": "65 °C", "correta": false, "etiqueta": "fis-proporcao-invertida" },
+      { "letra": "C", "texto": "30 °C", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "D", "texto": "35 °C", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "25 °C", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "A temperatura final é a média ponderada pelas massas: (100 × 80 + 300 × 20) ÷ 400 = 14.000 ÷ 400 = 35 °C. Como há mais água fria, a mistura fica mais perto de 20 °C. A média simples (50 °C) ignora as massas.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-termologia-019", "materia": "fisica", "assunto": "termologia", "questionario": 4, "dificuldade": 1,
+    "contexto": "Aquecedor de água",
+    "enunciado": "Um aquecedor de 1.200 W fica ligado por 5 minutos em 3 L de água (3.000 g), e todo o calor vai para a água. Considere 1 cal = 4 J e c = 1 cal/g°C. De quanto sobe a temperatura da água?",
+    "alternativas": [
+      { "letra": "A", "texto": "120 °C", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "B", "texto": "0,5 °C", "correta": false, "etiqueta": "fis-unidade" },
+      { "letra": "C", "texto": "30 °C", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "10 °C", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "E", "texto": "90 °C", "correta": false, "etiqueta": "fis-ignorou-dado" }
+    ],
+    "explicacao": "A energia é E = P × t = 1.200 × 300 s = 360.000 J, que equivalem a 360.000 ÷ 4 = 90.000 cal. Então ΔT = 90.000 ÷ (3.000 × 1) = 30 °C. Usar 5 no lugar de 300 s dá 0,5 °C, e esquecer a conversão de J para cal dá 120 °C.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-termologia-020", "materia": "fisica", "assunto": "termologia", "questionario": 4, "dificuldade": 1,
+    "contexto": "Variação em Kelvin e Fahrenheit",
+    "enunciado": "Uma temperatura sobe de 300 K para 320 K. Qual é a variação correspondente na escala Fahrenheit? (A relação entre as escalas é °F = 1,8 × °C + 32.)",
+    "alternativas": [
+      { "letra": "A", "texto": "68 °F", "correta": false, "etiqueta": "fis-escala-temperatura" },
+      { "letra": "B", "texto": "36 °F", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "20 °F", "correta": false, "etiqueta": "fis-escala-temperatura" },
+      { "letra": "D", "texto": "11,1 °F", "correta": false, "etiqueta": "fis-proporcao-invertida" },
+      { "letra": "E", "texto": "108 °F", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "Uma variação de 20 K é igual a uma variação de 20 °C. Em Fahrenheit, cada °C equivale a 1,8 °F, então a variação é 20 × 1,8 = 36 °F. A soma de 32 só vale para converter uma temperatura, não uma variação (isso daria 68).",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "id": "mat-porcentagem-001", "materia": "matematica", "assunto": "porcentagem", "questionario": 1, "dificuldade": -1,
+    "contexto": "Desconto de tênis",
+    "enunciado": "Você achou o tênis dos sonhos por R$ 240, com 25% de desconto à vista. Quanto você vai pagar?",
+    "alternativas": [
+      { "letra": "A", "texto": "R$ 60", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "B", "texto": "R$ 215", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "C", "texto": "R$ 180", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "R$ 300", "correta": false, "etiqueta": "mat-sinal" },
+      { "letra": "E", "texto": "R$ 144", "correta": false, "etiqueta": "mat-erro-de-conta" }
+    ],
+    "explicacao": "25% de 240 é 60, e esse é o valor do desconto. Você paga 240 − 60 = R$ 180. Os R$ 60 são só o desconto, e tirar 25 reais confunde o símbolo % com reais.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-porcentagem-002", "materia": "matematica", "assunto": "porcentagem", "questionario": 1, "dificuldade": -1,
+    "contexto": "Nota na prova",
+    "enunciado": "Em uma prova de 40 questões, Lia acertou 36. Qual foi o percentual de acertos?",
+    "alternativas": [
+      { "letra": "A", "texto": "10%", "correta": false, "etiqueta": "mat-pegou-parte-errada" },
+      { "letra": "B", "texto": "36%", "correta": false, "etiqueta": "mat-esqueceu-base" },
+      { "letra": "C", "texto": "111%", "correta": false, "etiqueta": "mat-proporcao-invertida" },
+      { "letra": "D", "texto": "80%", "correta": false, "etiqueta": "mat-erro-de-conta" },
+      { "letra": "E", "texto": "90%", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "O percentual é a parte dividida pelo todo: 36 ÷ 40 = 0,9, que é 90%. Os 10% são o percentual de erros, e dividir 40 por 36 inverte a razão.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-porcentagem-003", "materia": "matematica", "assunto": "porcentagem", "questionario": 1, "dificuldade": 0,
+    "contexto": "Sobe e desce do preço",
+    "enunciado": "Um jogo custava R$ 80. A loja aumentou o preço em 20% e, na semana seguinte, deu 20% de desconto sobre o novo preço. Qual é o preço final?",
+    "alternativas": [
+      { "letra": "A", "texto": "R$ 80,00", "correta": false, "etiqueta": "mat-somou-porcentagens" },
+      { "letra": "B", "texto": "R$ 76,80", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "R$ 96,00", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "D", "texto": "R$ 64,00", "correta": false, "etiqueta": "mat-sinal" },
+      { "letra": "E", "texto": "R$ 72,00", "correta": false, "etiqueta": "mat-erro-de-conta" }
+    ],
+    "explicacao": "Após o aumento, o preço é 80 × 1,2 = R$ 96. O desconto de 20% incide sobre 96, não sobre 80: 96 × 0,8 = R$ 76,80. Aumento e desconto de mesmo percentual não se anulam, porque as bases são diferentes.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-porcentagem-004", "materia": "matematica", "assunto": "porcentagem", "questionario": 1, "dificuldade": 0,
+    "contexto": "Reajustes em sequência",
+    "enunciado": "O preço de um ingresso de show subiu 10% em março e, em maio, mais 20% sobre o valor de março. Qual foi o aumento percentual total em relação ao preço de fevereiro?",
+    "alternativas": [
+      { "letra": "A", "texto": "32%", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "30%", "correta": false, "etiqueta": "mat-somou-porcentagens" },
+      { "letra": "C", "texto": "10%", "correta": false, "etiqueta": "mat-sinal" },
+      { "letra": "D", "texto": "1,32%", "correta": false, "etiqueta": "mat-esqueceu-base" },
+      { "letra": "E", "texto": "12%", "correta": false, "etiqueta": "mat-erro-de-conta" }
+    ],
+    "explicacao": "Os fatores multiplicam: 1,10 × 1,20 = 1,32, ou seja, um aumento de 32%. Somar 10% + 20% ignora que os 20% incidem sobre um valor já aumentado. O 1,32 é o fator, não o percentual.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-porcentagem-005", "materia": "matematica", "assunto": "porcentagem", "questionario": 1, "dificuldade": 1,
+    "contexto": "Descontos acumulados",
+    "enunciado": "Uma mochila recebeu um desconto de 20% e, depois, mais 10% sobre o preço já reduzido, passando a custar R$ 144. Qual era o preço original?",
+    "alternativas": [
+      { "letra": "A", "texto": "R$ 180,00", "correta": false, "etiqueta": "mat-ignorou-dado" },
+      { "letra": "B", "texto": "R$ 205,71", "correta": false, "etiqueta": "mat-somou-porcentagens" },
+      { "letra": "C", "texto": "R$ 187,20", "correta": false, "etiqueta": "mat-esqueceu-base" },
+      { "letra": "D", "texto": "R$ 200,00", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "R$ 160,00", "correta": false, "etiqueta": "mat-ignorou-dado" }
+    ],
+    "explicacao": "O fator total é 0,8 × 0,9 = 0,72. Então o preço original é 144 ÷ 0,72 = R$ 200. Somar os descontos (30%) dá R$ 205,71, e usar só um dos descontos dá 180 ou 160.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-porcentagem-006", "materia": "matematica", "assunto": "porcentagem", "questionario": 2, "dificuldade": -1,
+    "contexto": "Gorjeta na lanchonete",
+    "enunciado": "A conta de um lanche foi de R$ 150. Ao pagar, o grupo acrescentou 10% de gorjeta. Quanto pagou no total?",
+    "alternativas": [
+      { "letra": "A", "texto": "R$ 15", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "B", "texto": "R$ 160", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "C", "texto": "R$ 150", "correta": false, "etiqueta": "mat-ignorou-dado" },
+      { "letra": "D", "texto": "R$ 165", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "R$ 135", "correta": false, "etiqueta": "mat-sinal" }
+    ],
+    "explicacao": "10% de 150 é R$ 15 de gorjeta. O total é 150 + 15 = R$ 165. Os R$ 15 são só a gorjeta, e subtrair em vez de somar daria R$ 135.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-porcentagem-007", "materia": "matematica", "assunto": "porcentagem", "questionario": 2, "dificuldade": 0,
+    "contexto": "Aprovação na escola",
+    "enunciado": "O índice de aprovação de uma escola passou de 40% para 52% de um ano para o outro. Qual foi o aumento percentual do índice?",
+    "alternativas": [
+      { "letra": "A", "texto": "12%", "correta": false, "etiqueta": "mat-pontos-percentuais" },
+      { "letra": "B", "texto": "30%", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "48%", "correta": false, "etiqueta": "mat-pegou-parte-errada" },
+      { "letra": "D", "texto": "24%", "correta": false, "etiqueta": "mat-esqueceu-base" },
+      { "letra": "E", "texto": "130%", "correta": false, "etiqueta": "mat-parou-no-intermediario" }
+    ],
+    "explicacao": "A diferença é de 12 pontos percentuais, mas o aumento percentual compara com o valor inicial: 12 ÷ 40 = 0,30, ou seja, 30%. O 130% é o fator 52/40 e inclui o valor original.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-porcentagem-008", "materia": "matematica", "assunto": "porcentagem", "questionario": 2, "dificuldade": 0,
+    "contexto": "Liquidação em duas etapas",
+    "enunciado": "Uma jaqueta custava R$ 340. Na liquidação teve 15% de desconto e, no último dia, mais 10% sobre o preço da liquidação. Quanto custou no último dia?",
+    "alternativas": [
+      { "letra": "A", "texto": "R$ 260,10", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "R$ 255,00", "correta": false, "etiqueta": "mat-somou-porcentagens" },
+      { "letra": "C", "texto": "R$ 289,00", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "D", "texto": "R$ 306,00", "correta": false, "etiqueta": "mat-ignorou-dado" },
+      { "letra": "E", "texto": "R$ 270,00", "correta": false, "etiqueta": "mat-erro-de-conta" }
+    ],
+    "explicacao": "Primeiro: 340 × 0,85 = R$ 289. Depois: 289 × 0,90 = R$ 260,10. Somar 15% + 10% = 25% daria R$ 255, que ignora a base nova do segundo desconto.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-porcentagem-009", "materia": "matematica", "assunto": "porcentagem", "questionario": 2, "dificuldade": 1,
+    "contexto": "Poupança do intercâmbio",
+    "enunciado": "Uma aplicação rende 1% ao mês em juros compostos. Quem aplica R$ 1.000 e não mexe por 3 meses terá, ao final, aproximadamente:",
+    "alternativas": [
+      { "letra": "A", "texto": "R$ 1.030,00", "correta": false, "etiqueta": "mat-somou-porcentagens" },
+      { "letra": "B", "texto": "R$ 1.030,10", "correta": false, "etiqueta": "mat-erro-de-conta" },
+      { "letra": "C", "texto": "R$ 1.030,30", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "R$ 1.300,00", "correta": false, "etiqueta": "mat-esqueceu-base" },
+      { "letra": "E", "texto": "R$ 1.033,10", "correta": false, "etiqueta": "mat-erro-de-conta" }
+    ],
+    "explicacao": "Em juros compostos, o fator é 1,01 por mês: 1.000 × 1,01³ = 1.000 × 1,030301 ≈ R$ 1.030,30. Somar 1% três vezes sobre o valor inicial (juros simples) dá R$ 1.030,00 e perde os juros sobre juros.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-porcentagem-010", "materia": "matematica", "assunto": "porcentagem", "questionario": 2, "dificuldade": 1,
+    "contexto": "Margem da loja",
+    "enunciado": "Uma loja vende uma bicicleta por R$ 200, obtendo lucro de 25% sobre o preço de custo. De quantos reais é o lucro nessa venda?",
+    "alternativas": [
+      { "letra": "A", "texto": "R$ 50", "correta": false, "etiqueta": "mat-esqueceu-base" },
+      { "letra": "B", "texto": "R$ 25", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "C", "texto": "R$ 160", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "D", "texto": "R$ 80", "correta": false, "etiqueta": "mat-erro-de-conta" },
+      { "letra": "E", "texto": "R$ 40", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "O lucro é 25% do custo, não do preço de venda. Se o custo é c, então 1,25c = 200 e c = 160. O lucro é 200 − 160 = R$ 40. Calcular 25% de 200 dá R$ 50 e erra a base.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-porcentagem-011", "materia": "matematica", "assunto": "porcentagem", "questionario": 3, "dificuldade": -1,
+    "contexto": "Turma de 40",
+    "enunciado": "Em uma sala com 40 alunos, 60% são meninas. Quantos meninos há na sala?",
+    "alternativas": [
+      { "letra": "A", "texto": "16", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "24", "correta": false, "etiqueta": "mat-pegou-parte-errada" },
+      { "letra": "C", "texto": "60", "correta": false, "etiqueta": "mat-esqueceu-base" },
+      { "letra": "D", "texto": "12", "correta": false, "etiqueta": "mat-erro-de-conta" },
+      { "letra": "E", "texto": "20", "correta": false, "etiqueta": "mat-dividiu-igual" }
+    ],
+    "explicacao": "Os meninos são 100% − 60% = 40% da turma, e 40% de 40 é 16. Os 24 são as meninas (60% de 40), e a pergunta pede os meninos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-porcentagem-012", "materia": "matematica", "assunto": "porcentagem", "questionario": 3, "dificuldade": -1,
+    "contexto": "Cupom de compra",
+    "enunciado": "Um cupom dá 30% de desconto em uma compra de R$ 90. De quantos reais é o desconto?",
+    "alternativas": [
+      { "letra": "A", "texto": "R$ 30", "correta": false, "etiqueta": "mat-esqueceu-base" },
+      { "letra": "B", "texto": "R$ 60", "correta": false, "etiqueta": "mat-sinal" },
+      { "letra": "C", "texto": "R$ 27", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "R$ 63", "correta": false, "etiqueta": "mat-pegou-parte-errada" },
+      { "letra": "E", "texto": "R$ 2,70", "correta": false, "etiqueta": "mat-erro-de-conta" }
+    ],
+    "explicacao": "30% de 90 é 0,30 × 90 = R$ 27. O valor R$ 63 é o que se paga depois do desconto, e a pergunta pede o desconto.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-porcentagem-013", "materia": "matematica", "assunto": "porcentagem", "questionario": 3, "dificuldade": 0,
+    "contexto": "Aumento na mensalidade",
+    "enunciado": "Após um aumento de 25%, a mensalidade de um curso passou a ser R$ 150. Qual era o valor antes do aumento?",
+    "alternativas": [
+      { "letra": "A", "texto": "R$ 112,50", "correta": false, "etiqueta": "mat-esqueceu-base" },
+      { "letra": "B", "texto": "R$ 125,00", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "C", "texto": "R$ 187,50", "correta": false, "etiqueta": "mat-sinal" },
+      { "letra": "D", "texto": "R$ 37,50", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "E", "texto": "R$ 120,00", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "O valor novo é 125% do antigo: 1,25 × x = 150, então x = 120. Tirar 25% de 150 dá R$ 112,50, mas os 25% foram calculados sobre o valor antigo, não sobre o novo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-porcentagem-014", "materia": "matematica", "assunto": "porcentagem", "questionario": 3, "dificuldade": 0,
+    "contexto": "Cidade e idosos",
+    "enunciado": "Uma cidade tem 200.000 habitantes. Desses, 15% são idosos e, entre os idosos, 40% praticam atividade física. Quantos idosos praticam atividade física?",
+    "alternativas": [
+      { "letra": "A", "texto": "110.000", "correta": false, "etiqueta": "mat-somou-porcentagens" },
+      { "letra": "B", "texto": "80.000", "correta": false, "etiqueta": "mat-pegou-parte-errada" },
+      { "letra": "C", "texto": "30.000", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "D", "texto": "12.000", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "6.000", "correta": false, "etiqueta": "mat-erro-de-conta" }
+    ],
+    "explicacao": "Primeiro, 15% de 200.000 = 30.000 idosos. Depois, 40% de 30.000 = 12.000. Os 40% incidem sobre os idosos, não sobre toda a população (isso daria 80.000).",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-porcentagem-015", "materia": "matematica", "assunto": "porcentagem", "questionario": 3, "dificuldade": 1,
+    "contexto": "Diluindo a solução",
+    "enunciado": "Um frasco tem 40 L de uma solução com 15% de álcool. Foram adicionados 10 L de água pura. Qual é o novo percentual de álcool na solução?",
+    "alternativas": [
+      { "letra": "A", "texto": "15%", "correta": false, "etiqueta": "mat-ignorou-dado" },
+      { "letra": "B", "texto": "12%", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "9%", "correta": false, "etiqueta": "mat-erro-de-conta" },
+      { "letra": "D", "texto": "25%", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "E", "texto": "7,5%", "correta": false, "etiqueta": "mat-esqueceu-base" }
+    ],
+    "explicacao": "O álcool é 15% de 40 = 6 L e não muda ao adicionar água. O volume passa a 50 L, então 6 ÷ 50 = 0,12, ou seja, 12%. O percentual cai porque a base cresceu.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-porcentagem-016", "materia": "matematica", "assunto": "porcentagem", "questionario": 4, "dificuldade": -1,
+    "contexto": "Crescimento da cidade",
+    "enunciado": "Uma cidade tinha 50.000 habitantes e passou a ter 55.000. Qual foi o aumento percentual da população?",
+    "alternativas": [
+      { "letra": "A", "texto": "5.000%", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "B", "texto": "110%", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "C", "texto": "9%", "correta": false, "etiqueta": "mat-esqueceu-base" },
+      { "letra": "D", "texto": "50%", "correta": false, "etiqueta": "mat-erro-de-conta" },
+      { "letra": "E", "texto": "10%", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "O aumento foi de 5.000 habitantes. Em relação ao valor inicial: 5.000 ÷ 50.000 = 0,10, que é 10%. Dividir pelo valor final (55.000) daria 9%, base errada.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-porcentagem-017", "materia": "matematica", "assunto": "porcentagem", "questionario": 4, "dificuldade": 0,
+    "contexto": "Promoção com cartão",
+    "enunciado": "Uma geladeira custava R$ 500. Tinha 30% de desconto à vista e, pagando com o cartão da loja, mais 10% sobre o preço já com desconto. Quanto fica o preço final?",
+    "alternativas": [
+      { "letra": "A", "texto": "R$ 300", "correta": false, "etiqueta": "mat-somou-porcentagens" },
+      { "letra": "B", "texto": "R$ 350", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "C", "texto": "R$ 450", "correta": false, "etiqueta": "mat-ignorou-dado" },
+      { "letra": "D", "texto": "R$ 315", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "R$ 185", "correta": false, "etiqueta": "mat-pegou-parte-errada" }
+    ],
+    "explicacao": "Após 30%: 500 × 0,7 = R$ 350. Após mais 10%: 350 × 0,9 = R$ 315. Os R$ 185 são o desconto total, e os R$ 300 resultam de somar 30% + 10%.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-porcentagem-018", "materia": "matematica", "assunto": "porcentagem", "questionario": 4, "dificuldade": 0,
+    "contexto": "Eleição do grêmio",
+    "enunciado": "Na eleição do grêmio votaram 800 alunos. A chapa Aurora teve 45% dos votos, a chapa Horizonte teve 35% e o resto foi nulo ou em branco. Quantos votos a Aurora teve a mais que a Horizonte?",
+    "alternativas": [
+      { "letra": "A", "texto": "10 votos", "correta": false, "etiqueta": "mat-pontos-percentuais" },
+      { "letra": "B", "texto": "280 votos", "correta": false, "etiqueta": "mat-pegou-parte-errada" },
+      { "letra": "C", "texto": "80 votos", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "360 votos", "correta": false, "etiqueta": "mat-pegou-parte-errada" },
+      { "letra": "E", "texto": "160 votos", "correta": false, "etiqueta": "mat-erro-de-conta" }
+    ],
+    "explicacao": "A diferença é de 45% − 35% = 10 pontos percentuais do total de 800 votos. Então 10% de 800 = 80 votos. Os 10 são pontos percentuais, não votos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-porcentagem-019", "materia": "matematica", "assunto": "porcentagem", "questionario": 4, "dificuldade": 1,
+    "contexto": "Voltando ao preço antigo",
+    "enunciado": "O preço de um produto subiu 20%. Qual deve ser o percentual de desconto, aplicado sobre o novo preço, para que ele volte exatamente ao valor antigo?",
+    "alternativas": [
+      { "letra": "A", "texto": "20%", "correta": false, "etiqueta": "mat-somou-porcentagens" },
+      { "letra": "B", "texto": "aproximadamente 16,7%", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "12,5%", "correta": false, "etiqueta": "mat-erro-de-conta" },
+      { "letra": "D", "texto": "10%", "correta": false, "etiqueta": "mat-sinal" },
+      { "letra": "E", "texto": "25%", "correta": false, "etiqueta": "mat-esqueceu-base" }
+    ],
+    "explicacao": "Se o preço era 100, passou a 120. Para voltar a 100, o desconto é de 20 sobre 120, ou seja, 20 ÷ 120 ≈ 16,7%. Aplicar 20% sobre 120 tiraria 24 e deixaria o preço em 96.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-porcentagem-020", "materia": "matematica", "assunto": "porcentagem", "questionario": 4, "dificuldade": 1,
+    "contexto": "Receita da lanchonete",
+    "enunciado": "Numa cantina, o preço do salgado subiu 20% e a quantidade vendida caiu 20%. O que aconteceu com a receita (preço × quantidade)?",
+    "alternativas": [
+      { "letra": "A", "texto": "Diminuiu 4%", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Ficou igual", "correta": false, "etiqueta": "mat-somou-porcentagens" },
+      { "letra": "C", "texto": "Aumentou 4%", "correta": false, "etiqueta": "mat-sinal" },
+      { "letra": "D", "texto": "Diminuiu 40%", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "E", "texto": "Diminuiu 20%", "correta": false, "etiqueta": "mat-ignorou-dado" }
+    ],
+    "explicacao": "A receita muda pelo produto dos fatores: 1,20 × 0,80 = 0,96. Ela fica em 96% do valor anterior, ou seja, uma queda de 4%. Os 20% a mais e a menos não se anulam porque incidem sobre bases diferentes.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]

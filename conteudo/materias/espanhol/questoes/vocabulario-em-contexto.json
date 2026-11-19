@@ -1,0 +1,902 @@
+[
+  {
+    "id": "esp-vocabulario-em-contexto-001",
+    "materia": "espanhol",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Fome na hora do lanche",
+    "enunciado": "\"Tengo mucha hambre. Vamos a comer algo.\"\n\nNessa frase, \"hambre\" significa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "sede.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "sono.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "frio.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "fome.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "raiva.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      }
+    ],
+    "explicacao": "\"Hambre\" é fome. A continuação (\"vamos a comer algo\") confirma o sentido.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-vocabulario-em-contexto-002",
+    "materia": "espanhol",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Irmão mais novo",
+    "enunciado": "\"Mi hermano menor tiene diez años.\"\n\nNo texto, \"menor\" indica que o irmão é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "mais novo.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "mais velho.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "menos educado.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "mais baixo.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "menor de idade apenas por lei.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      }
+    ],
+    "explicacao": "Para falar de irmãos, \"menor\" indica o mais novo e \"mayor\" o mais velho.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-vocabulario-em-contexto-003",
+    "materia": "espanhol",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Ajuda com a lição",
+    "enunciado": "\"Ella me dio una mano con la tarea.\"\n\nA expressão \"me dio una mano\" quer dizer que ela",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "me deu um aperto de mão.",
+        "correta": false,
+        "etiqueta": "esp-portunhol"
+      },
+      {
+        "letra": "B",
+        "texto": "me entregou a tarefa.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "C",
+        "texto": "me ajudou.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "fez toda a tarefa sozinha, sem mim.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "me deu a mão na rua.",
+        "correta": false,
+        "etiqueta": "esp-portunhol"
+      }
+    ],
+    "explicacao": "\"Dar una mano\" é uma expressão para ajudar. O contexto (\"con la tarea\") mostra que se trata de ajuda com a lição.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-vocabulario-em-contexto-004",
+    "materia": "espanhol",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Cansado de esperar",
+    "enunciado": "\"Estoy harto de esperar el autobús.\"\n\nA palavra \"harto\" indica que a pessoa está",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "feliz.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "farta, sem paciência.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "com pressa de viajar.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "D",
+        "texto": "animada para o passeio.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "faminta.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      }
+    ],
+    "explicacao": "\"Estar harto de\" é estar cheio de algo, sem paciência. A irritação combina com a espera do ônibus.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-vocabulario-em-contexto-005",
+    "materia": "espanhol",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 1,
+    "dificuldade": 1,
+    "contexto": "Hora complicada",
+    "enunciado": "\"Se me hizo tarde y perdí el tren.\"\n\nA expressão \"se me hizo tarde\" quer dizer que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "eu fiz tarde.",
+        "correta": false,
+        "etiqueta": "esp-portunhol"
+      },
+      {
+        "letra": "B",
+        "texto": "alguém me fez ficar tarde de propósito.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "C",
+        "texto": "cheguei cedo ao trem.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "a tarde ficou bonita.",
+        "correta": false,
+        "etiqueta": "esp-palavra-solta"
+      },
+      {
+        "letra": "E",
+        "texto": "acabou ficando tarde para mim.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "\"Hacerse tarde\" é ficar tarde sem que a pessoa tenha planejado. A segunda parte, \"perdí el tren\", mostra a consequência.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-vocabulario-em-contexto-006",
+    "materia": "espanhol",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 2,
+    "dificuldade": -1,
+    "contexto": "Prova de amanhã",
+    "enunciado": "\"Mañana tengo examen de historia.\"\n\nNessa frase, \"mañana\" significa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "manhã.",
+        "correta": false,
+        "etiqueta": "esp-falso-amigo"
+      },
+      {
+        "letra": "B",
+        "texto": "hoje cedo.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "C",
+        "texto": "amanhã.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "ontem.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "à tarde.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      }
+    ],
+    "explicacao": "\"Mañana\" pode ser amanhã ou manhã. Antes de \"tengo examen\", o sentido é amanhã. \"Por la mañana\" seria de manhã.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-vocabulario-em-contexto-007",
+    "materia": "espanhol",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Casa acolhedora",
+    "enunciado": "\"Me encanta tu casa: es muy acogedora.\"\n\nA palavra \"acogedora\" significa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "aconchegante.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "enorme.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "C",
+        "texto": "cara.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "D",
+        "texto": "bagunçada.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "fria.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      }
+    ],
+    "explicacao": "\"Acogedor\" é um adjetivo elogioso para lugar agradável e aconchegante, e combina com \"me encanta\".",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-vocabulario-em-contexto-008",
+    "materia": "espanhol",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Fim da paciência",
+    "enunciado": "\"Llevo dos horas esperando y mi paciencia se acabó.\"\n\nA expressão \"se acabó\" indica que a paciência",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "aumentou.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "se esgotou.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "começou agora.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "foi ensinada a ela.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "foi guardada para mais tarde.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      }
+    ],
+    "explicacao": "\"Acabarse\" é esgotar-se, terminar. Depois de duas horas de espera, a paciência chegou ao fim.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-vocabulario-em-contexto-009",
+    "materia": "espanhol",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Chaves perdidas",
+    "enunciado": "\"No tengo ni idea de dónde dejé mis llaves.\"\n\nO que a pessoa quer dizer?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Que tem certeza de onde as deixou.",
+        "correta": false,
+        "etiqueta": "esp-ignorou-negacao"
+      },
+      {
+        "letra": "B",
+        "texto": "Que tem uma ideia vaga de onde estão.",
+        "correta": false,
+        "etiqueta": "esp-ignorou-negacao"
+      },
+      {
+        "letra": "C",
+        "texto": "Que não tem ideias para guardar chaves.",
+        "correta": false,
+        "etiqueta": "esp-portunhol"
+      },
+      {
+        "letra": "D",
+        "texto": "Que não sabe onde deixou as chaves.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "Que as chaves estão na casa de alguém.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      }
+    ],
+    "explicacao": "\"Ni idea\" é uma expressão que reforça a negação: nenhuma ideia. A pessoa não sabe onde deixou as chaves.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-vocabulario-em-contexto-010",
+    "materia": "espanhol",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Vida na horta",
+    "enunciado": "\"Estoy pensando en dejar el trabajo y vivir de mi huerta.\"\n\nA palavra \"huerta\" indica",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "uma fazenda de gado.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "B",
+        "texto": "uma loja de verduras.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "C",
+        "texto": "um jardim só de flores.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "D",
+        "texto": "uma casa de campo apenas para descanso.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "uma horta, onde se cultivam verduras e frutas.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "\"Huerta\" é terreno onde se cultivam hortaliças e frutas. A ideia de viver dela mostra que dali vem o sustento.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-vocabulario-em-contexto-011",
+    "materia": "espanhol",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Sono",
+    "enunciado": "\"El niño tiene mucho sueño.\"\n\nNessa frase, \"sueño\" significa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "sonho.",
+        "correta": false,
+        "etiqueta": "esp-falso-amigo"
+      },
+      {
+        "letra": "B",
+        "texto": "sono.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "medo.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "fome.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "alegria.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      }
+    ],
+    "explicacao": "\"Sueño\" pode ser sono ou sonho. Em \"tener sueño\", o sentido é vontade de dormir.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-vocabulario-em-contexto-012",
+    "materia": "espanhol",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Café da manhã",
+    "enunciado": "\"Esta mañana desayuné pan con queso.\"\n\nO verbo \"desayuné\" quer dizer que a pessoa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "jantou.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "almoçou.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "lanchou à tarde.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "tomou café da manhã.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "cozinhou o queijo.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      }
+    ],
+    "explicacao": "\"Desayunar\" é tomar o café da manhã, e \"esta mañana\" confirma o horário.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-vocabulario-em-contexto-013",
+    "materia": "espanhol",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Comida deliciosa",
+    "enunciado": "\"Mi abuela cocina muy rico.\"\n\nNessa frase, \"rico\" quer dizer",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "com muito dinheiro.",
+        "correta": false,
+        "etiqueta": "esp-portunhol"
+      },
+      {
+        "letra": "B",
+        "texto": "caro.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "C",
+        "texto": "gostoso.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "muito rápido.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "com muito sal.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      }
+    ],
+    "explicacao": "Falando de comida, \"rico\" é saboroso. O sentido de quem tem dinheiro também existe, mas não combina com o verbo \"cocina\".",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-vocabulario-em-contexto-014",
+    "materia": "espanhol",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Compra no mercado",
+    "enunciado": "\"Tengo que ir al súper: se acabó la leche.\"\n\nNessa frase, \"súper\" é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "uma loja de superfícies.",
+        "correta": false,
+        "etiqueta": "esp-portunhol"
+      },
+      {
+        "letra": "B",
+        "texto": "um herói com superpoderes.",
+        "correta": false,
+        "etiqueta": "esp-portunhol"
+      },
+      {
+        "letra": "C",
+        "texto": "um produto especial.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "D",
+        "texto": "a padaria do bairro.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "o supermercado.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "\"Súper\" é abreviação coloquial de supermercado, e o contexto (comprar leite que acabou) confirma.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-vocabulario-em-contexto-015",
+    "materia": "espanhol",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 3,
+    "dificuldade": 1,
+    "contexto": "Gente boa",
+    "enunciado": "\"Ese chico es un gran tipo: siempre ayuda a todos.\"\n\nNo texto, \"tipo\" quer dizer",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "cara, sujeito, pessoa.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "tipo, espécie.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "estilo de roupa.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "letra de imprensa.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "pessoa distante.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      }
+    ],
+    "explicacao": "Em \"un gran tipo\", a palavra significa um homem ou sujeito de boa índole. A explicação vem do trecho \"siempre ayuda a todos\".",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-vocabulario-em-contexto-016",
+    "materia": "espanhol",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 4,
+    "dificuldade": -1,
+    "contexto": "Lavar as mãos",
+    "enunciado": "\"Voy a lavarme las manos antes de comer.\"\n\nO que a pessoa vai fazer?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Lavar a roupa.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "B",
+        "texto": "Lavar o cabelo.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "Lavar as próprias mãos.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "Secar as mãos de alguém.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "Esfregar o chão.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      }
+    ],
+    "explicacao": "O \"-me\" em \"lavarme\" indica que a ação recai sobre a própria pessoa, e o objeto é \"las manos\".",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-vocabulario-em-contexto-017",
+    "materia": "espanhol",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Simpatia",
+    "enunciado": "\"No me cae bien ese chico.\"\n\nA expressão \"no me cae bien\" significa que a pessoa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "não se machucou ao cair.",
+        "correta": false,
+        "etiqueta": "esp-portunhol"
+      },
+      {
+        "letra": "B",
+        "texto": "não simpatiza com o rapaz.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "não tem boa pontaria.",
+        "correta": false,
+        "etiqueta": "esp-portunhol"
+      },
+      {
+        "letra": "D",
+        "texto": "não está passando bem.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "não encontrou o rapaz.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      }
+    ],
+    "explicacao": "\"Caer bien\" é cair bem, no sentido de agradar ou simpatizar. A tradução palavra por palavra leva ao erro.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-vocabulario-em-contexto-018",
+    "materia": "espanhol",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Sem bateria",
+    "enunciado": "\"Me quedé sin batería a mitad del camino.\"\n\nA expressão \"me quedé sin\" indica que a bateria",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "acabou.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "ficou cheia.",
+        "correta": false,
+        "etiqueta": "esp-ignorou-negacao"
+      },
+      {
+        "letra": "C",
+        "texto": "caiu.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "foi trocada por outra.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "ficou guardada.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      }
+    ],
+    "explicacao": "\"Quedarse sin\" é ficar sem. O sentido de \"a mitad del camino\" mostra que a bateria acabou durante o trajeto.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-vocabulario-em-contexto-019",
+    "materia": "espanhol",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Pena de ver",
+    "enunciado": "\"Me da pena verte así.\"\n\nA expressão \"me da pena\" expressa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "uma pena de ave.",
+        "correta": false,
+        "etiqueta": "esp-portunhol"
+      },
+      {
+        "letra": "B",
+        "texto": "um castigo.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "alegria.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "tristeza ou compaixão.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "raiva.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      }
+    ],
+    "explicacao": "\"Dar pena\" é sentir tristeza ou compaixão por alguém. O contexto (\"verte así\") indica que a pessoa está mal.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-vocabulario-em-contexto-020",
+    "materia": "espanhol",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Economia",
+    "enunciado": "\"Hay que ahorrar: el mes que viene tengo que pagar la matrícula.\"\n\nO verbo \"ahorrar\" quer dizer",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "gastar.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "pedir emprestado.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "C",
+        "texto": "ganhar.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "esbanjar.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "poupar, economizar.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "\"Ahorrar\" é guardar dinheiro. A frase explica o motivo: no mês seguinte haverá a matrícula para pagar.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  }
+]

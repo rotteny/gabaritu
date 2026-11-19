@@ -1,0 +1,902 @@
+[
+  {
+    "id": "geo-clima-meio-ambiente-001",
+    "materia": "geografia",
+    "assunto": "clima-meio-ambiente",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Previsão e clima",
+    "enunciado": "Qual das frases a seguir descreve o clima de uma região, e não o tempo atmosférico?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Hoje à tarde choveu forte e o vento derrubou galhos.",
+        "correta": false,
+        "etiqueta": "geo-tempo-clima"
+      },
+      {
+        "letra": "B",
+        "texto": "Na região, o verão é chuvoso e o inverno é seco, ano após ano.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "Amanhã haverá geada na serra.",
+        "correta": false,
+        "etiqueta": "geo-tempo-clima"
+      },
+      {
+        "letra": "D",
+        "texto": "Neste momento, o termômetro marca 30 °C.",
+        "correta": false,
+        "etiqueta": "geo-tempo-clima"
+      },
+      {
+        "letra": "E",
+        "texto": "Ontem a umidade do ar ficou muito baixa.",
+        "correta": false,
+        "etiqueta": "geo-tempo-clima"
+      }
+    ],
+    "explicacao": "Tempo é o estado da atmosfera em um momento e lugar; clima é o padrão que se repete ao longo de muitos anos (em geral, cerca de 30). Só a alternativa B descreve um padrão repetido.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-clima-meio-ambiente-002",
+    "materia": "geografia",
+    "assunto": "clima-meio-ambiente",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Efeito estufa natural",
+    "enunciado": "O efeito estufa natural é fundamental para a vida na Terra porque",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "só ocorre por causa do buraco na camada de ozônio",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "deve ser eliminado totalmente para o planeta esfriar",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      },
+      {
+        "letra": "C",
+        "texto": "só acontece dentro de cidades grandes",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "retém parte do calor e mantém a temperatura média do planeta adequada à vida",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "é produzido apenas por vulcões",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      }
+    ],
+    "explicacao": "Os gases de efeito estufa retêm parte do calor, e sem isso a Terra seria muito mais fria. O problema atual é a intensificação do efeito por atividades humanas, como a queima de combustíveis fósseis e o desmatamento.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-clima-meio-ambiente-003",
+    "materia": "geografia",
+    "assunto": "clima-meio-ambiente",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Chuva de um lado da serra",
+    "enunciado": "Uma cidade fica no litoral, junto a uma serra, e recebe muita chuva. Do outro lado da serra, no interior, o clima é bem mais seco. A explicação mais adequada é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o ar úmido vem do oceano, sobe a serra, esfria e condensa; no lado oposto chega seco",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "o vento seco do interior sobe a serra e traz chuva ao litoral",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "C",
+        "texto": "a serra emite calor que seca o interior",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "os dois lados estão em latitudes muito diferentes",
+        "correta": false,
+        "etiqueta": "geo-fator-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "as correntes marítimas passam pelos dois lados da mesma serra",
+        "correta": false,
+        "etiqueta": "geo-fator-errado"
+      }
+    ],
+    "explicacao": "É a chuva orográfica ou de relevo: o ar úmido sobe a encosta, resfria, condensa e chove. Do lado oposto, o ar chega seco e a área fica na 'sombra de chuva'.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-clima-meio-ambiente-004",
+    "materia": "geografia",
+    "assunto": "clima-meio-ambiente",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Cidade coberta de fumaça",
+    "enunciado": "No inverno, uma cidade em um vale fica coberta por uma camada de poluição, pois o ar frio e pesado fica preso perto do solo, sob uma camada de ar mais quente. Esse fenômeno é a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "subida do ar quente, que leva a poluição para longe",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "B",
+        "texto": "poluição causada pelo frio",
+        "correta": false,
+        "etiqueta": "geo-causa-consequencia"
+      },
+      {
+        "letra": "C",
+        "texto": "chuva ácida",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "destruição da camada de ozônio",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "inversão térmica",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "Na inversão térmica, o ar quente 'tampa' o ar frio próximo ao solo, impedindo a dispersão dos poluentes. É mais comum no inverno e em vales. Não confunda com chuva ácida ou com o ozônio.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-clima-meio-ambiente-005",
+    "materia": "geografia",
+    "assunto": "clima-meio-ambiente",
+    "questionario": 1,
+    "dificuldade": 1,
+    "contexto": "Cerrado e a água",
+    "enunciado": "O Cerrado é chamado de 'berço das águas' por abrigar nascentes de grandes bacias. A expansão de monoculturas preocupa os especialistas porque",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o Cerrado é um deserto e não tem água",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      },
+      {
+        "letra": "B",
+        "texto": "o solo do Cerrado é muito fértil e esgota depressa",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      },
+      {
+        "letra": "C",
+        "texto": "retira a vegetação nativa de raízes profundas, que favorece a infiltração da água e a recarga de aquíferos e nascentes",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "as raízes das plantas do Cerrado são rasas e retêm toda a água",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "as nascentes do Cerrado só abastecem a região onde nascem",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      }
+    ],
+    "explicacao": "A vegetação do Cerrado tem raízes profundas e o relevo de planaltos facilita a infiltração, alimentando aquíferos e rios de várias bacias. Remover essa cobertura compromete as nascentes.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-clima-meio-ambiente-006",
+    "materia": "geografia",
+    "assunto": "clima-meio-ambiente",
+    "questionario": 2,
+    "dificuldade": -1,
+    "contexto": "Plantas que aguentam a seca",
+    "enunciado": "Plantas com folhas pequenas ou que caem na estiagem, cactos e rios que secam parte do ano são marcas de qual bioma brasileiro?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Mata Atlântica",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "Pantanal",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "Floresta Amazônica",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "Pampa",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "Caatinga",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "A Caatinga está no semiárido, com chuvas irregulares, vegetação adaptada à seca (xerófila) e rios intermitentes. É o bioma tipicamente brasileiro, quase todo no Nordeste.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-clima-meio-ambiente-007",
+    "materia": "geografia",
+    "assunto": "clima-meio-ambiente",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "O que é El Niño",
+    "enunciado": "Em certos anos, o Nordeste e o Norte do Brasil têm seca mais forte, enquanto o Sul recebe mais chuva. Esse padrão costuma ser ligado ao fenômeno El Niño, que é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o aquecimento anormal das águas do Pacífico equatorial, que altera a circulação atmosférica e as chuvas",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "o resfriamento anormal das águas do Pacífico equatorial",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "um fenômeno local de chuva de verão em uma cidade",
+        "correta": false,
+        "etiqueta": "geo-fator-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "um efeito exclusivo do desmatamento da Amazônia",
+        "correta": false,
+        "etiqueta": "geo-causa-consequencia"
+      },
+      {
+        "letra": "E",
+        "texto": "o aumento do buraco na camada de ozônio",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      }
+    ],
+    "explicacao": "El Niño é o aquecimento das águas do Pacífico equatorial, que muda os ventos e as chuvas em escala global. O resfriamento é o La Niña. Nada disso tem relação com o ozônio.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-clima-meio-ambiente-008",
+    "materia": "geografia",
+    "assunto": "clima-meio-ambiente",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Centro mais quente",
+    "enunciado": "Em dias de sol, o centro de uma cidade fica mais quente que um bairro arborizado e afastado, e a diferença chega a ser sentida na pele. A explicação mais adequada é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o centro está mais perto do Equador que o bairro",
+        "correta": false,
+        "etiqueta": "geo-fator-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "o vento forte aquece o centro",
+        "correta": false,
+        "etiqueta": "geo-fator-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "asfalto, concreto e poucas áreas verdes absorvem e retêm calor e reduzem a evapotranspiração",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "o centro fica mais próximo do oceano",
+        "correta": false,
+        "etiqueta": "geo-fator-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "o aquecimento global age apenas nas cidades",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      }
+    ],
+    "explicacao": "É a ilha de calor urbana. Materiais como asfalto e concreto absorvem e guardam calor, e a falta de vegetação reduz a evapotranspiração, que refrescaria o ambiente.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-clima-meio-ambiente-009",
+    "materia": "geografia",
+    "assunto": "clima-meio-ambiente",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Metas de redução",
+    "enunciado": "Em 1997, no Japão, foi aberto à assinatura um tratado que fixou metas de redução das emissões de gases de efeito estufa para os países desenvolvidos. Trata-se do",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Protocolo de Montreal, que eliminou gradualmente as substâncias que destroem o ozônio",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "Protocolo de Kyoto",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "Acordo de Paris, de 1997",
+        "correta": false,
+        "etiqueta": "geo-cronologia"
+      },
+      {
+        "letra": "D",
+        "texto": "Convenção de Ramsar, sobre zonas úmidas",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "Tratado de Tordesilhas",
+        "correta": false,
+        "etiqueta": "geo-cronologia"
+      }
+    ],
+    "explicacao": "O Protocolo de Kyoto (1997) tratou das emissões de gases de efeito estufa. O de Montreal (1987) cuidou das substâncias que atingem o ozônio, e o Acordo de Paris é de 2015.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-clima-meio-ambiente-010",
+    "materia": "geografia",
+    "assunto": "clima-meio-ambiente",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Floresta rica em solo pobre",
+    "enunciado": "A Floresta Amazônica é exuberante, mas boa parte de seu solo é pobre em nutrientes. O que sustenta essa floresta é, principalmente,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "solos profundos e muito férteis de origem vulcânica",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      },
+      {
+        "letra": "B",
+        "texto": "nutrientes dos rios andinos que inundam toda a floresta",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      },
+      {
+        "letra": "C",
+        "texto": "queimadas periódicas, que adubam o solo todo ano",
+        "correta": false,
+        "etiqueta": "geo-causa-consequencia"
+      },
+      {
+        "letra": "D",
+        "texto": "a ciclagem rápida de nutrientes, pela decomposição da serapilheira",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "a ausência de organismos decompositores",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      }
+    ],
+    "explicacao": "Na maior parte da Amazônia, os nutrientes estão na própria biomassa e voltam ao ciclo rapidamente pela decomposição da serapilheira. Por isso, retirar a floresta deixa um solo que se esgota logo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-clima-meio-ambiente-011",
+    "materia": "geografia",
+    "assunto": "clima-meio-ambiente",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "O que é desenvolvimento sustentável",
+    "enunciado": "O conceito de desenvolvimento sustentável foi popularizado nos anos 1980. Ele significa, em essência,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "crescer o máximo possível, sem se preocupar com limites",
+        "correta": false,
+        "etiqueta": "geo-solucao-simplista"
+      },
+      {
+        "letra": "B",
+        "texto": "preservar a natureza proibindo qualquer uso dos recursos",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      },
+      {
+        "letra": "C",
+        "texto": "atender às necessidades do presente sem comprometer as das gerações futuras",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "apenas reciclar o lixo doméstico",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      },
+      {
+        "letra": "E",
+        "texto": "uma meta que vale só para os países ricos",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      }
+    ],
+    "explicacao": "A ideia une economia, sociedade e ambiente: usar os recursos hoje de modo que as próximas gerações também possam atendê-los. Não é preservação absoluta nem crescimento sem limites.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-clima-meio-ambiente-012",
+    "materia": "geografia",
+    "assunto": "clima-meio-ambiente",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "De onde vem a chuva ácida",
+    "enunciado": "Uma cidade industrial registra chuvas que corroem monumentos e prejudicam lagos. A chuva ácida é causada principalmente por emissões de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "CFC, usado em aerossóis antigos",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "metano dos rebanhos",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "excesso de oxigênio na atmosfera",
+        "correta": false,
+        "etiqueta": "geo-causa-consequencia"
+      },
+      {
+        "letra": "D",
+        "texto": "areia do deserto",
+        "correta": false,
+        "etiqueta": "geo-fator-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "dióxido de enxofre e óxidos de nitrogênio, vindos de indústrias e combustíveis fósseis",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "Os óxidos de enxofre e de nitrogênio reagem com a água da atmosfera e formam ácidos que caem com a chuva. O CFC está ligado ao ozônio, e o metano, ao efeito estufa.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-clima-meio-ambiente-013",
+    "materia": "geografia",
+    "assunto": "clima-meio-ambiente",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Devastação do litoral",
+    "enunciado": "A Mata Atlântica cobria boa parte do litoral e hoje restam fragmentos. A principal explicação histórica para isso é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a floresta nunca foi explorada, e o desmatamento foi natural",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      },
+      {
+        "letra": "B",
+        "texto": "o clima do litoral matou as árvores",
+        "correta": false,
+        "etiqueta": "geo-fator-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "a expansão da soja, que só começou no século XXI",
+        "correta": false,
+        "etiqueta": "geo-cronologia"
+      },
+      {
+        "letra": "D",
+        "texto": "a ocupação desde o período colonial: extração de pau-brasil, cana, café, cidades e indústrias",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "a baixa densidade de pessoas na região costeira",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      }
+    ],
+    "explicacao": "O litoral foi o primeiro e mais densamente ocupado: pau-brasil, canaviais, cafezais, cidades e indústrias foram substituindo a mata ao longo de séculos.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-clima-meio-ambiente-014",
+    "materia": "geografia",
+    "assunto": "clima-meio-ambiente",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Planície que alaga",
+    "enunciado": "Uma região do Centro-Oeste fica parcialmente alagada em parte do ano, e esse ciclo de cheia e seca define a vida de plantas e animais. Qual é a melhor descrição dessa área?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Planície com inundações periódicas ligadas às cheias dos rios, como no Pantanal",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "Região árida com rios temporários",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "Planalto frio com florestas de araucária",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "Área alagada o ano todo, sem variação",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      },
+      {
+        "letra": "E",
+        "texto": "Região de altas montanhas",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      }
+    ],
+    "explicacao": "O Pantanal é uma planície sazonalmente alagável, e o 'pulso' das cheias comanda a ecologia local. Aridez com rios temporários é a Caatinga e araucárias são do Sul.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-clima-meio-ambiente-015",
+    "materia": "geografia",
+    "assunto": "clima-meio-ambiente",
+    "questionario": 3,
+    "dificuldade": 1,
+    "contexto": "Terra que vira deserto",
+    "enunciado": "Em uma área semiárida, o desmatamento, o excesso de animais pastando e a irrigação mal planejada degradam o solo até ele perder a capacidade produtiva. Esse processo é a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "formação natural de desertos por mudança na órbita da Terra",
+        "correta": false,
+        "etiqueta": "geo-causa-consequencia"
+      },
+      {
+        "letra": "B",
+        "texto": "desertificação, resultado da ação humana somada às condições de aridez",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "subida do mar sobre o continente",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "transformação de qualquer região em deserto, só por causas naturais",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      },
+      {
+        "letra": "E",
+        "texto": "seca sazonal, sem relação com o uso do solo",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      }
+    ],
+    "explicacao": "A desertificação é a degradação do solo em áreas áridas, semiáridas ou subúmidas secas, ligada a atividades humanas e a variações climáticas. Não é o mesmo que a seca passageira.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-clima-meio-ambiente-016",
+    "materia": "geografia",
+    "assunto": "clima-meio-ambiente",
+    "questionario": 4,
+    "dificuldade": -1,
+    "contexto": "Por que o Equador esquenta mais",
+    "enunciado": "As regiões perto do Equador são, em geral, mais quentes. O motivo principal é que elas",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "estão bem mais perto do Sol que as outras",
+        "correta": false,
+        "etiqueta": "geo-fator-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "têm mais oceanos que as demais",
+        "correta": false,
+        "etiqueta": "geo-fator-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "têm ventos sempre quentes",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      },
+      {
+        "letra": "D",
+        "texto": "recebem os raios solares mais perpendiculares, concentrando mais energia por área",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "ficam em uma região onde a Terra gira mais rápido",
+        "correta": false,
+        "etiqueta": "geo-fator-errado"
+      }
+    ],
+    "explicacao": "Perto do Equador os raios chegam mais próximos da vertical e a mesma energia se concentra em uma área menor. A distância ao Sol praticamente não muda entre latitudes.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-clima-meio-ambiente-017",
+    "materia": "geografia",
+    "assunto": "clima-meio-ambiente",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Mais fria no alto",
+    "enunciado": "Duas cidades estão na mesma latitude: uma fica ao nível do mar e outra a cerca de 2.000 m de altitude. A cidade alta é mais fria. O fator climático responsável é a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "maritimidade",
+        "correta": false,
+        "etiqueta": "geo-fator-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "latitude",
+        "correta": false,
+        "etiqueta": "geo-fator-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "altitude",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "corrente marítima fria",
+        "correta": false,
+        "etiqueta": "geo-fator-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "continentalidade",
+        "correta": false,
+        "etiqueta": "geo-fator-errado"
+      }
+    ],
+    "explicacao": "Quanto maior a altitude, menor a pressão e mais rarefeito o ar, que retém menos calor, e a temperatura diminui. Como a latitude é a mesma, ela não explica a diferença.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-clima-meio-ambiente-018",
+    "materia": "geografia",
+    "assunto": "clima-meio-ambiente",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "O que é domínio morfoclimático",
+    "enunciado": "Em Geografia, a ideia de domínio morfoclimático (Aziz Ab'Saber) designa uma área em que se combinam",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "apenas os tipos de vegetação",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      },
+      {
+        "letra": "B",
+        "texto": "relevo, clima, solo e vegetação, de forma integrada",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "limites políticos entre estados",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "só as temperaturas médias",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      },
+      {
+        "letra": "E",
+        "texto": "somente as formas de relevo",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      }
+    ],
+    "explicacao": "Os domínios morfoclimáticos reúnem características de relevo, clima, solos e vegetação (e hidrografia) que se repetem em uma extensa área, formando um conjunto integrado.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-clima-meio-ambiente-019",
+    "materia": "geografia",
+    "assunto": "clima-meio-ambiente",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Rios voadores",
+    "enunciado": "A Floresta Amazônica libera grande quantidade de vapor de água pela evapotranspiração, e as massas de ar levam essa umidade para outras regiões do continente. Desmatamento em grande escala pode, portanto,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "aumentar as chuvas locais, pois sem árvores a água evapora mais",
+        "correta": false,
+        "etiqueta": "geo-causa-consequencia"
+      },
+      {
+        "letra": "B",
+        "texto": "não afetar nada, pois a chuva depende só do oceano",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      },
+      {
+        "letra": "C",
+        "texto": "afetar apenas a própria Amazônia",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "aumentar o volume dos 'rios voadores'",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "E",
+        "texto": "reduzir a umidade transportada e prejudicar chuvas em regiões distantes",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "A floresta funciona como bomba de vapor, e a umidade transportada contribui para chuvas em outras áreas. Reduzir a floresta reduz esse transporte e pode alterar o regime de chuvas à distância.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-clima-meio-ambiente-020",
+    "materia": "geografia",
+    "assunto": "clima-meio-ambiente",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Frio e aquecimento global",
+    "enunciado": "Um político fictício diz: 'esta semana fez muito frio, então o aquecimento global é mentira'. O erro de raciocínio nessa frase é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "confundir tempo (variação de curto prazo) com clima (tendência de longo prazo)",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "achar que o aquecimento só vale se fizer calor todos os dias",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      },
+      {
+        "letra": "C",
+        "texto": "supor que o frio só ocorre se o aquecimento acabar",
+        "correta": false,
+        "etiqueta": "geo-causa-consequencia"
+      },
+      {
+        "letra": "D",
+        "texto": "dizer que o clima é igual ao tempo de hoje, o que está certo",
+        "correta": false,
+        "etiqueta": "geo-tempo-clima"
+      },
+      {
+        "letra": "E",
+        "texto": "achar que o aquecimento elimina todos os invernos",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      }
+    ],
+    "explicacao": "Uma semana fria é um evento de tempo. O aquecimento global se refere à tendência de longo prazo da temperatura média, que é compatível com dias e semanas frios.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  }
+]

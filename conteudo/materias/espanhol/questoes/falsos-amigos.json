@@ -1,0 +1,902 @@
+[
+  {
+    "id": "esp-falsos-amigos-001",
+    "materia": "espanhol",
+    "assunto": "falsos-amigos",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Copo novo",
+    "enunciado": "\"Tengo que comprar un vaso nuevo para el jugo.\"\n\nNessa frase, \"vaso\" quer dizer",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "vaso de flores.",
+        "correta": false,
+        "etiqueta": "esp-falso-amigo"
+      },
+      {
+        "letra": "B",
+        "texto": "jarra.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "garrafa.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "prato.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "copo.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "\"Vaso\" em espanhol é o copo. O vaso de plantas é \"maceta\" ou \"florero\". O jugo, que se bebe, confirma o sentido.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-falsos-amigos-002",
+    "materia": "espanhol",
+    "assunto": "falsos-amigos",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Notícia da mãe",
+    "enunciado": "\"Mi mamá está embarazada.\"\n\nA palavra \"embarazada\" significa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "envergonhada.",
+        "correta": false,
+        "etiqueta": "esp-falso-amigo"
+      },
+      {
+        "letra": "B",
+        "texto": "grávida.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "cansada.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "doente.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "brava.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      }
+    ],
+    "explicacao": "\"Embarazada\" é falso amigo de \"embaraçada\": significa grávida. Para dizer constrangida, o espanhol usa \"avergonzada\" ou \"cohibida\".",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-falsos-amigos-003",
+    "materia": "espanhol",
+    "assunto": "falsos-amigos",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Jantar delicioso",
+    "enunciado": "\"La comida estaba exquisita.\"\n\nA palavra \"exquisita\" indica que a comida estava",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "esquisita.",
+        "correta": false,
+        "etiqueta": "esp-falso-amigo"
+      },
+      {
+        "letra": "B",
+        "texto": "fria.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "estragada.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "deliciosa.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "cara demais.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      }
+    ],
+    "explicacao": "\"Exquisito\" é um elogio: algo delicioso ou refinado. Esquisito, em espanhol, é \"raro\" ou \"extraño\".",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-falsos-amigos-004",
+    "materia": "espanhol",
+    "assunto": "falsos-amigos",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Pede um tempinho",
+    "enunciado": "\"Dame un rato, ya voy.\"\n\nNessa frase, \"un rato\" é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "um rato.",
+        "correta": false,
+        "etiqueta": "esp-falso-amigo"
+      },
+      {
+        "letra": "B",
+        "texto": "um ratinho.",
+        "correta": false,
+        "etiqueta": "esp-falso-amigo"
+      },
+      {
+        "letra": "C",
+        "texto": "um momento, um tempinho.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "um dia inteiro.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "um dinheiro.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      }
+    ],
+    "explicacao": "\"Rato\" em espanhol é um período curto de tempo. Rato, o bicho, é \"ratón\" ou \"rata\".",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-falsos-amigos-005",
+    "materia": "espanhol",
+    "assunto": "falsos-amigos",
+    "questionario": 1,
+    "dificuldade": 1,
+    "contexto": "Sobrenome",
+    "enunciado": "\"Mi apellido es García.\"\n\nA palavra \"apellido\" quer dizer",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "sobrenome.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "apelido.",
+        "correta": false,
+        "etiqueta": "esp-falso-amigo"
+      },
+      {
+        "letra": "C",
+        "texto": "nome.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "endereço.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "cidade.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      }
+    ],
+    "explicacao": "\"Apellido\" é o sobrenome. O apelido carinhoso é \"apodo\".",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-falsos-amigos-006",
+    "materia": "espanhol",
+    "assunto": "falsos-amigos",
+    "questionario": 2,
+    "dificuldade": -1,
+    "contexto": "Trabalho do tio",
+    "enunciado": "\"Mi tío trabaja en una oficina.\"\n\nA palavra \"oficina\" significa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "oficina mecânica.",
+        "correta": false,
+        "etiqueta": "esp-falso-amigo"
+      },
+      {
+        "letra": "B",
+        "texto": "fábrica.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "escola.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "escritório.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "loja de roupas.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      }
+    ],
+    "explicacao": "\"Oficina\" é o local de trabalho administrativo, ou seja, o escritório. A oficina mecânica é \"taller\".",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-falsos-amigos-007",
+    "materia": "espanhol",
+    "assunto": "falsos-amigos",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Fila no cinema",
+    "enunciado": "\"Hay una cola enorme para entrar.\"\n\nNesse contexto, \"cola\" é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "cola, de colar papel.",
+        "correta": false,
+        "etiqueta": "esp-falso-amigo"
+      },
+      {
+        "letra": "B",
+        "texto": "fila.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "rabo de animal.",
+        "correta": false,
+        "etiqueta": "esp-falso-amigo"
+      },
+      {
+        "letra": "D",
+        "texto": "bola.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "sala de espera fechada.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      }
+    ],
+    "explicacao": "\"Cola\" pode ser fila, cauda ou cola, mas \"para entrar\" mostra que se trata de uma fila de pessoas.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-falsos-amigos-008",
+    "materia": "espanhol",
+    "assunto": "falsos-amigos",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Suco de laranja",
+    "enunciado": "\"Quiero un jugo de naranja.\"\n\nA palavra \"jugo\" quer dizer",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "jogo.",
+        "correta": false,
+        "etiqueta": "esp-falso-amigo"
+      },
+      {
+        "letra": "B",
+        "texto": "doce.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "suco.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "casca.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "geleia.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      }
+    ],
+    "explicacao": "\"Jugo\" é o suco. Jogo, em espanhol, é \"juego\".",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-falsos-amigos-009",
+    "materia": "espanhol",
+    "assunto": "falsos-amigos",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Encontro marcado",
+    "enunciado": "\"Nos vemos en la cena.\"\n\nNesse caso, \"la cena\" é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a cena de um filme.",
+        "correta": false,
+        "etiqueta": "esp-falso-amigo"
+      },
+      {
+        "letra": "B",
+        "texto": "o almoço.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "o café da manhã.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "o lanche da tarde.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "o jantar.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "\"Cena\" em espanhol é a refeição noturna. A cena de um filme é \"escena\".",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-falsos-amigos-010",
+    "materia": "espanhol",
+    "assunto": "falsos-amigos",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Vovô e o cabelo",
+    "enunciado": "\"Mi abuelo tiene el pelo blanco.\"\n\nNesse contexto, \"pelo\" significa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "cabelo.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "pele.",
+        "correta": false,
+        "etiqueta": "esp-falso-amigo"
+      },
+      {
+        "letra": "C",
+        "texto": "pelagem.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "barba.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "peruca.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      }
+    ],
+    "explicacao": "\"Pelo\" é cabelo ou pelo do corpo. A pele em espanhol é \"piel\".",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-falsos-amigos-011",
+    "materia": "espanhol",
+    "assunto": "falsos-amigos",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Carta no envelope",
+    "enunciado": "\"Metí la carta en el sobre y la envié.\"\n\nNessa frase, \"sobre\" significa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "em cima de.",
+        "correta": false,
+        "etiqueta": "esp-falso-amigo"
+      },
+      {
+        "letra": "B",
+        "texto": "caixa.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "envelope.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "pacote.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "carteira.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      }
+    ],
+    "explicacao": "\"Sobre\" como substantivo é envelope. Em outras frases, a preposição \"sobre\" significa em cima de ou a respeito de, mas aqui há o artigo \"el\" antes.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-falsos-amigos-012",
+    "materia": "espanhol",
+    "assunto": "falsos-amigos",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Xícara de café",
+    "enunciado": "\"Quiero tomar una taza de café.\"\n\nA palavra \"taza\" significa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "taça.",
+        "correta": false,
+        "etiqueta": "esp-falso-amigo"
+      },
+      {
+        "letra": "B",
+        "texto": "copo.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "garrafa.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "bule.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "xícara.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "\"Taza\" é a xícara. A taça de vinho é \"copa\".",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-falsos-amigos-013",
+    "materia": "espanhol",
+    "assunto": "falsos-amigos",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Cabelo longo",
+    "enunciado": "\"Su cabello es largo.\"\n\nO adjetivo \"largo\" quer dizer",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "largo, de grande largura.",
+        "correta": false,
+        "etiqueta": "esp-falso-amigo"
+      },
+      {
+        "letra": "B",
+        "texto": "grosso.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "curto.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "comprido.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "liso.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      }
+    ],
+    "explicacao": "\"Largo\" em espanhol é longo ou comprido. Largo, no sentido de largura, é \"ancho\".",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-falsos-amigos-014",
+    "materia": "espanhol",
+    "assunto": "falsos-amigos",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Azeite na cozinha",
+    "enunciado": "\"Tomé el aceite de la cocina para preparar la ensalada.\"\n\nA palavra \"aceite\" é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "óleo ou azeite.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "aceito, do verbo aceitar.",
+        "correta": false,
+        "etiqueta": "esp-falso-amigo"
+      },
+      {
+        "letra": "C",
+        "texto": "tempero.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "vinagre.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "azeitona.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      }
+    ],
+    "explicacao": "\"Aceite\" é o óleo ou azeite. O verbo aceitar é \"aceptar\".",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-falsos-amigos-015",
+    "materia": "espanhol",
+    "assunto": "falsos-amigos",
+    "questionario": 3,
+    "dificuldade": 1,
+    "contexto": "Fechando a porta",
+    "enunciado": "\"Voy a cerrar la puerta antes de salir.\"\n\nO verbo \"cerrar\" significa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "cercar.",
+        "correta": false,
+        "etiqueta": "esp-falso-amigo"
+      },
+      {
+        "letra": "B",
+        "texto": "fechar.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "abrir.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "pintar.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "trancar para sempre.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      }
+    ],
+    "explicacao": "\"Cerrar\" é fechar. Cercar é \"cercar\" também, mas o contexto da porta mostra o sentido de fechar.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-falsos-amigos-016",
+    "materia": "espanhol",
+    "assunto": "falsos-amigos",
+    "questionario": 4,
+    "dificuldade": -1,
+    "contexto": "Macarrão com molho",
+    "enunciado": "\"Prefiero la pasta con salsa de tomate.\"\n\nNessa frase, \"salsa\" é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o ritmo musical e a dança.",
+        "correta": false,
+        "etiqueta": "esp-falso-amigo"
+      },
+      {
+        "letra": "B",
+        "texto": "um tempero em pó.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "um tipo de suco.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "molho.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "uma salada de tomate.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      }
+    ],
+    "explicacao": "\"Salsa\" é o molho, e \"con salsa de tomate\" confirma. O gênero musical também se chama \"salsa\", mas não faz sentido em uma frase sobre massa.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-falsos-amigos-017",
+    "materia": "espanhol",
+    "assunto": "falsos-amigos",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Poeira nos móveis",
+    "enunciado": "\"Hay mucho polvo en los muebles.\"\n\nA palavra \"polvo\" quer dizer",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "polvo, o animal marinho.",
+        "correta": false,
+        "etiqueta": "esp-falso-amigo"
+      },
+      {
+        "letra": "B",
+        "texto": "tinta.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "poeira.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "cera.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "mofo.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      }
+    ],
+    "explicacao": "Em \"polvo en los muebles\", \"polvo\" é poeira. O animal marinho é \"pulpo\".",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-falsos-amigos-018",
+    "materia": "espanhol",
+    "assunto": "falsos-amigos",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Sapato pequeno",
+    "enunciado": "\"Este zapato me queda muy chico.\"\n\nNessa frase, \"chico\" significa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "garoto.",
+        "correta": false,
+        "etiqueta": "esp-falso-amigo"
+      },
+      {
+        "letra": "B",
+        "texto": "pequeno.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "grande.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "curto demais.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "velho.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      }
+    ],
+    "explicacao": "\"Chico\" é pequeno quando descreve um objeto, e rapaz quando descreve uma pessoa. \"Queda muy chico\" mostra que o sapato é pequeno para o pé.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-falsos-amigos-019",
+    "materia": "espanhol",
+    "assunto": "falsos-amigos",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Conta, por favor",
+    "enunciado": "\"El mozo trajo la cuenta.\"\n\nA palavra \"mozo\" quer dizer",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "moço, jovem rapaz.",
+        "correta": false,
+        "etiqueta": "esp-falso-amigo"
+      },
+      {
+        "letra": "B",
+        "texto": "amigo.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "cozinheiro.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "gerente.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "garçom.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "\"Mozo\" também significa jovem em algumas frases, mas aqui, quem traz a conta é o garçom.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-falsos-amigos-020",
+    "materia": "espanhol",
+    "assunto": "falsos-amigos",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Tia loira",
+    "enunciado": "\"Mi tía es una mujer muy rubia.\"\n\nA palavra \"rubia\" quer dizer",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "loira.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "ruiva.",
+        "correta": false,
+        "etiqueta": "esp-falso-amigo"
+      },
+      {
+        "letra": "C",
+        "texto": "morena.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "grisalha.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "vermelha.",
+        "correta": false,
+        "etiqueta": "esp-falso-amigo"
+      }
+    ],
+    "explicacao": "\"Rubio\" é loiro. Ruivo é \"pelirrojo\".",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  }
+]

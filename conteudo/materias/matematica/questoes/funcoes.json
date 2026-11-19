@@ -1,0 +1,282 @@
+[
+  {
+    "id": "mat-funcoes-001", "materia": "matematica", "assunto": "funcoes", "questionario": 1, "dificuldade": -1,
+    "contexto": "Corrida de aplicativo",
+    "enunciado": "Uma corrida de aplicativo custa R$ 5 de bandeirada mais R$ 2 por quilômetro rodado. Quanto custa uma corrida de 10 km?",
+    "alternativas": [
+      { "letra": "A", "texto": "R$ 25", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "R$ 20", "correta": false, "etiqueta": "mat-ignorou-dado" },
+      { "letra": "C", "texto": "R$ 70", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "D", "texto": "R$ 50", "correta": false, "etiqueta": "mat-coeficientes-trocados" },
+      { "letra": "E", "texto": "R$ 17", "correta": false, "etiqueta": "mat-somou-em-vez-de-multiplicar" }
+    ],
+    "explicacao": "O custo é C(x) = 2x + 5, em que 5 é o valor fixo e 2 é a taxa por km. Para x = 10: 2 × 10 + 5 = R$ 25. Multiplicar a bandeirada por 10 (R$ 50) troca o papel dos coeficientes.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-funcoes-002", "materia": "matematica", "assunto": "funcoes", "questionario": 1, "dificuldade": -1,
+    "contexto": "Lucro da barraca de doces",
+    "enunciado": "O lucro, em reais, de uma barraca de doces é dado por L(x) = 3x − 4, em que x é o número de doces vendidos. Qual é o lucro ao vender 5 doces?",
+    "alternativas": [
+      { "letra": "A", "texto": "R$ 8", "correta": false, "etiqueta": "mat-somou-em-vez-de-multiplicar" },
+      { "letra": "B", "texto": "R$ 19", "correta": false, "etiqueta": "mat-sinal" },
+      { "letra": "C", "texto": "R$ 11", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "R$ 3", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "E", "texto": "R$ 15", "correta": false, "etiqueta": "mat-parou-no-intermediario" }
+    ],
+    "explicacao": "Substitui x por 5: L(5) = 3 × 5 − 4 = 15 − 4 = 11. Os R$ 15 esquecem de descontar o 4, e somar 3 + 5 troca a multiplicação pela adição.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-funcoes-003", "materia": "matematica", "assunto": "funcoes", "questionario": 1, "dificuldade": 0,
+    "contexto": "Gráfico de uma reta",
+    "enunciado": "O gráfico de uma função afim f passa pelos pontos (0, 5) e (2, 11). Qual é o valor de f(10)?",
+    "alternativas": [
+      { "letra": "A", "texto": "53", "correta": false, "etiqueta": "mat-coeficientes-trocados" },
+      { "letra": "B", "texto": "16", "correta": false, "etiqueta": "mat-somou-em-vez-de-multiplicar" },
+      { "letra": "C", "texto": "30", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "D", "texto": "65", "correta": false, "etiqueta": "mat-erro-de-conta" },
+      { "letra": "E", "texto": "35", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "O ponto (0, 5) mostra que o coeficiente linear é 5. O coeficiente angular é (11 − 5) ÷ (2 − 0) = 3, então f(x) = 3x + 5 e f(10) = 35. Usar 6 como inclinação (sem dividir por 2) dá 65.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-funcoes-004", "materia": "matematica", "assunto": "funcoes", "questionario": 1, "dificuldade": 0,
+    "contexto": "Cesta de basquete",
+    "enunciado": "A altura, em metros, de uma bola lançada para cima é h(t) = −t² + 6t, em que t é o tempo em segundos. Qual é a altura máxima atingida pela bola?",
+    "alternativas": [
+      { "letra": "A", "texto": "3 m", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "B", "texto": "6 m", "correta": false, "etiqueta": "mat-vertice-raiz" },
+      { "letra": "C", "texto": "12 m", "correta": false, "etiqueta": "mat-erro-de-conta" },
+      { "letra": "D", "texto": "9 m", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "−9 m", "correta": false, "etiqueta": "mat-sinal" }
+    ],
+    "explicacao": "O vértice da parábola está em t = −b ÷ 2a = −6 ÷ (−2) = 3 s. A altura nesse instante é h(3) = −9 + 18 = 9 m. O 3 é o instante do ponto mais alto, e o 6 é o instante em que a bola volta ao chão.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-funcoes-005", "materia": "matematica", "assunto": "funcoes", "questionario": 1, "dificuldade": 1,
+    "contexto": "Lucro da oficina",
+    "enunciado": "O lucro mensal de uma oficina, em milhares de reais, é L(x) = −x² + 10x − 16, em que x é a quantidade de serviços (em dezenas). Qual é o lucro máximo possível?",
+    "alternativas": [
+      { "letra": "A", "texto": "5", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "B", "texto": "9", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "8", "correta": false, "etiqueta": "mat-vertice-raiz" },
+      { "letra": "D", "texto": "−16", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "E", "texto": "25", "correta": false, "etiqueta": "mat-erro-de-conta" }
+    ],
+    "explicacao": "O máximo ocorre no vértice: x = −10 ÷ (−2) = 5. O lucro nesse ponto é L(5) = −25 + 50 − 16 = 9. O 5 é a quantidade de serviços, e o 8 é uma das raízes, onde o lucro é zero.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-funcoes-006", "materia": "matematica", "assunto": "funcoes", "questionario": 2, "dificuldade": -1,
+    "contexto": "Plano de internet",
+    "enunciado": "Um plano de internet custa R$ 40 por mês e cobra R$ 2 por GB excedente. Em um mês, uma família usou 12 GB excedentes. Quanto pagou?",
+    "alternativas": [
+      { "letra": "A", "texto": "R$ 52", "correta": false, "etiqueta": "mat-somou-em-vez-de-multiplicar" },
+      { "letra": "B", "texto": "R$ 64", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "R$ 24", "correta": false, "etiqueta": "mat-ignorou-dado" },
+      { "letra": "D", "texto": "R$ 480", "correta": false, "etiqueta": "mat-coeficientes-trocados" },
+      { "letra": "E", "texto": "R$ 68", "correta": false, "etiqueta": "mat-erro-de-conta" }
+    ],
+    "explicacao": "A função é C(x) = 2x + 40. Com x = 12: 2 × 12 + 40 = 24 + 40 = R$ 64. Os R$ 24 esquecem a mensalidade fixa, e multiplicar 40 por 12 troca os coeficientes.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-funcoes-007", "materia": "matematica", "assunto": "funcoes", "questionario": 2, "dificuldade": 0,
+    "contexto": "Chute na trave",
+    "enunciado": "A altura de uma bola chutada é h(t) = −5t² + 20t, com h em metros e t em segundos. Em que instante a bola volta ao chão?",
+    "alternativas": [
+      { "letra": "A", "texto": "2 s", "correta": false, "etiqueta": "mat-vertice-raiz" },
+      { "letra": "B", "texto": "20 s", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "C", "texto": "0 s", "correta": false, "etiqueta": "mat-pegou-parte-errada" },
+      { "letra": "D", "texto": "8 s", "correta": false, "etiqueta": "mat-erro-de-conta" },
+      { "letra": "E", "texto": "4 s", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "A bola está no chão quando h = 0: −5t² + 20t = 0, ou −5t(t − 4) = 0, que dá t = 0 (o chute) e t = 4. Então ela volta ao chão em 4 s. O 2 é o instante da altura máxima (vértice).",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-funcoes-008", "materia": "matematica", "assunto": "funcoes", "questionario": 2, "dificuldade": 0,
+    "contexto": "Reservatório furado",
+    "enunciado": "Um reservatório tem 500 L de água e perde 20 L por minuto por um furo. O volume restante é V(t) = 500 − 20t, em que t é dado em minutos. Em quanto tempo o reservatório esvazia?",
+    "alternativas": [
+      { "letra": "A", "texto": "20 min", "correta": false, "etiqueta": "mat-coeficientes-trocados" },
+      { "letra": "B", "texto": "480 min", "correta": false, "etiqueta": "mat-esqueceu-base" },
+      { "letra": "C", "texto": "10.000 min", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "D", "texto": "25 min", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "520 min", "correta": false, "etiqueta": "mat-sinal" }
+    ],
+    "explicacao": "O reservatório esvazia quando V(t) = 0: 500 − 20t = 0, então t = 500 ÷ 20 = 25 min. Os 20 são a taxa de perda por minuto, não o tempo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-funcoes-009", "materia": "matematica", "assunto": "funcoes", "questionario": 2, "dificuldade": 1,
+    "contexto": "Comparando planos de academia",
+    "enunciado": "O plano A da academia custa R$ 50 de matrícula mais R$ 10 por mês, e o plano B custa R$ 20 de matrícula mais R$ 20 por mês. A partir de quantos meses o plano A passa a ser estritamente mais barato que o B?",
+    "alternativas": [
+      { "letra": "A", "texto": "4 meses", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "3 meses", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "C", "texto": "5 meses", "correta": false, "etiqueta": "mat-erro-de-conta" },
+      { "letra": "D", "texto": "1,5 mês", "correta": false, "etiqueta": "mat-coeficientes-trocados" },
+      { "letra": "E", "texto": "30 meses", "correta": false, "etiqueta": "mat-esqueceu-base" }
+    ],
+    "explicacao": "Os custos são A(x) = 50 + 10x e B(x) = 20 + 20x. Eles são iguais quando 30 = 10x, ou seja, em x = 3. Nesse mês os dois custam R$ 80. A partir do 4º mês, A fica mais barato que B (R$ 90 contra R$ 100).",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-funcoes-010", "materia": "matematica", "assunto": "funcoes", "questionario": 2, "dificuldade": 1,
+    "contexto": "Preço do ingresso",
+    "enunciado": "A receita de um cinema, em reais, é R(p) = −2p² + 100p, em que p é o preço do ingresso em reais. Para qual preço a receita é máxima?",
+    "alternativas": [
+      { "letra": "A", "texto": "R$ 50", "correta": false, "etiqueta": "mat-vertice-raiz" },
+      { "letra": "B", "texto": "R$ 1.250", "correta": false, "etiqueta": "mat-pegou-parte-errada" },
+      { "letra": "C", "texto": "R$ 25", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "R$ 100", "correta": false, "etiqueta": "mat-coeficientes-trocados" },
+      { "letra": "E", "texto": "R$ 12,50", "correta": false, "etiqueta": "mat-erro-de-conta" }
+    ],
+    "explicacao": "O máximo está no vértice: p = −100 ÷ (2 × (−2)) = 25. A receita máxima é R(25) = 1.250, mas a pergunta pede o preço. O 50 é a outra raiz, onde a receita é zero.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-funcoes-011", "materia": "matematica", "assunto": "funcoes", "questionario": 3, "dificuldade": -1,
+    "contexto": "Reta no gráfico",
+    "enunciado": "Uma reta passa pelos pontos (0, 3) e (1, 5). Qual é o valor da função afim correspondente quando x = 4?",
+    "alternativas": [
+      { "letra": "A", "texto": "8", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "B", "texto": "14", "correta": false, "etiqueta": "mat-coeficientes-trocados" },
+      { "letra": "C", "texto": "9", "correta": false, "etiqueta": "mat-somou-em-vez-de-multiplicar" },
+      { "letra": "D", "texto": "11", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "20", "correta": false, "etiqueta": "mat-formula-errada" }
+    ],
+    "explicacao": "O coeficiente linear é 3 (valor em x = 0) e o angular é 5 − 3 = 2 (variação por unidade de x). Então f(x) = 2x + 3 e f(4) = 11. A função 3x + 2 daria 14, trocando os coeficientes.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-funcoes-012", "materia": "matematica", "assunto": "funcoes", "questionario": 3, "dificuldade": -1,
+    "contexto": "Forno esfriando",
+    "enunciado": "A temperatura de um forno, em °C, é dada por T(t) = 2t − 10, com t em minutos. Em que minuto a temperatura é igual a 0 °C?",
+    "alternativas": [
+      { "letra": "A", "texto": "5 min", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "−10 min", "correta": false, "etiqueta": "mat-coeficientes-trocados" },
+      { "letra": "C", "texto": "−5 min", "correta": false, "etiqueta": "mat-sinal" },
+      { "letra": "D", "texto": "10 min", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "E", "texto": "0,2 min", "correta": false, "etiqueta": "mat-erro-de-conta" }
+    ],
+    "explicacao": "Resolve 2t − 10 = 0, então 2t = 10 e t = 5 min. Com t = 10 a temperatura seria 10 °C, porque faltou dividir por 2.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-funcoes-013", "materia": "matematica", "assunto": "funcoes", "questionario": 3, "dificuldade": 0,
+    "contexto": "Lançamento de foguete",
+    "enunciado": "Um foguete de brinquedo é lançado de uma plataforma. Sua altura, em metros, é h(t) = −t² + 4t + 5, com t em segundos. Qual é a altura da plataforma, ou seja, a altura no instante do lançamento (t = 0)?",
+    "alternativas": [
+      { "letra": "A", "texto": "4 m", "correta": false, "etiqueta": "mat-coeficientes-trocados" },
+      { "letra": "B", "texto": "9 m", "correta": false, "etiqueta": "mat-pegou-parte-errada" },
+      { "letra": "C", "texto": "5 m", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "2 m", "correta": false, "etiqueta": "mat-vertice-raiz" },
+      { "letra": "E", "texto": "−1 m", "correta": false, "etiqueta": "mat-vertice-raiz" }
+    ],
+    "explicacao": "Em t = 0, h(0) = 0 + 0 + 5 = 5 m, que é o termo independente (o coeficiente c). O 9 é a altura máxima (vértice) e o 2 é o instante em que ela ocorre.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-funcoes-014", "materia": "matematica", "assunto": "funcoes", "questionario": 3, "dificuldade": 0,
+    "contexto": "Custo da fábrica de camisetas",
+    "enunciado": "O custo de produção de uma fábrica, em reais, é C(x) = 0,5x + 200, em que x é o número de peças e 200 é o custo fixo. Qual é o custo para produzir 600 peças?",
+    "alternativas": [
+      { "letra": "A", "texto": "R$ 300", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "B", "texto": "R$ 500", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "R$ 800", "correta": false, "etiqueta": "mat-coeficientes-trocados" },
+      { "letra": "D", "texto": "R$ 1.400", "correta": false, "etiqueta": "mat-proporcao-invertida" },
+      { "letra": "E", "texto": "R$ 200", "correta": false, "etiqueta": "mat-ignorou-dado" }
+    ],
+    "explicacao": "C(600) = 0,5 × 600 + 200 = 300 + 200 = R$ 500. Os R$ 300 são só a parte variável, sem o custo fixo, e os R$ 200 ignoram as peças.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-funcoes-015", "materia": "matematica", "assunto": "funcoes", "questionario": 3, "dificuldade": 1,
+    "contexto": "Lucro positivo",
+    "enunciado": "O lucro de um quiosque é L(x) = −2x² + 12x − 10, em reais, em que x é a quantidade de combos vendidos (número inteiro). Para quantos valores inteiros de x o lucro é estritamente positivo?",
+    "alternativas": [
+      { "letra": "A", "texto": "5", "correta": false, "etiqueta": "mat-vertice-raiz" },
+      { "letra": "B", "texto": "4", "correta": false, "etiqueta": "mat-vertice-raiz" },
+      { "letra": "C", "texto": "2", "correta": false, "etiqueta": "mat-erro-de-conta" },
+      { "letra": "D", "texto": "8", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "E", "texto": "3", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "As raízes de −2x² + 12x − 10 = 0 são x = 1 e x = 5. Como a parábola abre para baixo, o lucro é positivo só entre as raízes, isto é, para x = 2, 3 e 4: são 3 valores. Em x = 1 e x = 5 o lucro é zero, e o 8 é o lucro máximo (em x = 3).",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-funcoes-016", "materia": "matematica", "assunto": "funcoes", "questionario": 4, "dificuldade": -1,
+    "contexto": "Nível do tanque",
+    "enunciado": "O nível de água de um tanque, em decímetros, é dado por f(x) = −3x + 9, em que x é o tempo em horas. Qual é o nível após 2 horas?",
+    "alternativas": [
+      { "letra": "A", "texto": "15 dm", "correta": false, "etiqueta": "mat-sinal" },
+      { "letra": "B", "texto": "−6 dm", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "C", "texto": "3 dm", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "12 dm", "correta": false, "etiqueta": "mat-somou-em-vez-de-multiplicar" },
+      { "letra": "E", "texto": "18 dm", "correta": false, "etiqueta": "mat-formula-errada" }
+    ],
+    "explicacao": "f(2) = −3 × 2 + 9 = −6 + 9 = 3 dm. O −6 é só o termo variável, sem somar os 9 dm iniciais, e usar +3x dá 15.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-funcoes-017", "materia": "matematica", "assunto": "funcoes", "questionario": 4, "dificuldade": 0,
+    "contexto": "Onde a reta cruza o eixo",
+    "enunciado": "O gráfico da função f(x) = 4x − 12 cruza o eixo vertical (eixo y) em qual ponto?",
+    "alternativas": [
+      { "letra": "A", "texto": "(3, 0)", "correta": false, "etiqueta": "mat-vertice-raiz" },
+      { "letra": "B", "texto": "(0, −12)", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "(0, 4)", "correta": false, "etiqueta": "mat-coeficientes-trocados" },
+      { "letra": "D", "texto": "(0, 12)", "correta": false, "etiqueta": "mat-sinal" },
+      { "letra": "E", "texto": "(−3, 0)", "correta": false, "etiqueta": "mat-sinal" }
+    ],
+    "explicacao": "No eixo y, x = 0, então f(0) = 4 × 0 − 12 = −12 e o ponto é (0, −12). O ponto (3, 0) é onde a reta cruza o eixo x (a raiz), e o 4 é a inclinação.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-funcoes-018", "materia": "matematica", "assunto": "funcoes", "questionario": 4, "dificuldade": 1,
+    "contexto": "Curral de ovelhas",
+    "enunciado": "Um agricultor tem 40 m de tela para cercar um curral retangular. Chamando de x um dos lados, a área é A(x) = x(20 − x). Qual é a maior área possível, em m²?",
+    "alternativas": [
+      { "letra": "A", "texto": "100 m²", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "10 m²", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "C", "texto": "20 m²", "correta": false, "etiqueta": "mat-vertice-raiz" },
+      { "letra": "D", "texto": "400 m²", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "E", "texto": "80 m²", "correta": false, "etiqueta": "mat-erro-de-conta" }
+    ],
+    "explicacao": "A(x) = −x² + 20x tem máximo no vértice: x = 20 ÷ 2 = 10. A área é A(10) = 10 × 10 = 100 m² (o curral quadrado). O 10 é o lado ideal, e o 20 é a outra raiz, onde a área é zero.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-funcoes-019", "materia": "matematica", "assunto": "funcoes", "questionario": 4, "dificuldade": 1,
+    "contexto": "Máquina de números",
+    "enunciado": "Uma máquina recebe um número, dobra o valor e depois soma 5, ou seja, calcula f(x) = 2x + 5. O número 4 entra na máquina, e o resultado volta a entrar na mesma máquina. Qual é o resultado final?",
+    "alternativas": [
+      { "letra": "A", "texto": "26", "correta": false, "etiqueta": "mat-ignorou-dado" },
+      { "letra": "B", "texto": "13", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "C", "texto": "36", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "D", "texto": "41", "correta": false, "etiqueta": "mat-erro-de-conta" },
+      { "letra": "E", "texto": "31", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Na primeira passagem: f(4) = 2 × 4 + 5 = 13. Na segunda: f(13) = 2 × 13 + 5 = 31. O 13 é só o resultado da primeira passagem, e 26 esquece de somar o 5 na segunda.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-funcoes-020", "materia": "matematica", "assunto": "funcoes", "questionario": 4, "dificuldade": 0,
+    "contexto": "Aquecendo a água",
+    "enunciado": "A temperatura de uma panela com água é T(t) = 20 + 5t, em °C, com t em minutos. Em quantos minutos a água atinge 70 °C?",
+    "alternativas": [
+      { "letra": "A", "texto": "14 min", "correta": false, "etiqueta": "mat-ignorou-dado" },
+      { "letra": "B", "texto": "18 min", "correta": false, "etiqueta": "mat-sinal" },
+      { "letra": "C", "texto": "350 min", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "D", "texto": "10 min", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "4 min", "correta": false, "etiqueta": "mat-parou-no-intermediario" }
+    ],
+    "explicacao": "Resolve 20 + 5t = 70, então 5t = 50 e t = 10 min. Dividir 70 por 5 (14 min) esquece que a água já começa a 20 °C.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]

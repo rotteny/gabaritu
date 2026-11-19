@@ -1,0 +1,282 @@
+[
+  {
+    "id": "art-arte-brasileira-001", "materia": "artes", "assunto": "arte-brasileira", "questionario": 1, "dificuldade": -1,
+    "contexto": "Profetas de pedra-sabão",
+    "enunciado": "No adro de um santuário em Congonhas, Minas Gerais, estão doze esculturas de profetas feitas em pedra-sabão no século XVIII. Elas são obra de qual artista do Barroco mineiro?",
+    "alternativas": [
+      { "letra": "A", "texto": "Candido Portinari", "correta": false, "etiqueta": "art-trocou-artista" },
+      { "letra": "B", "texto": "Tarsila do Amaral", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "C", "texto": "Jean-Baptiste Debret", "correta": false, "etiqueta": "art-trocou-artista" },
+      { "letra": "D", "texto": "Aleijadinho, o mestre Antônio Francisco Lisboa", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Oscar Niemeyer", "correta": false, "etiqueta": "art-errou-epoca" }
+    ],
+    "explicacao": "Os Profetas de Congonhas são a obra mais famosa de Aleijadinho, figura central do Barroco mineiro. Portinari, Tarsila e Niemeyer atuaram no século XX, e Debret era um pintor francês que registrou o Brasil no início do século XIX.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-arte-brasileira-002", "materia": "artes", "assunto": "arte-brasileira", "questionario": 1, "dificuldade": -1,
+    "contexto": "Um evento que mudou a arte do país",
+    "enunciado": "Em 1922, em São Paulo, um evento reuniu artistas que defendiam renovar a arte brasileira, rompendo com modelos acadêmicos europeus. Qual é o nome desse marco do modernismo?",
+    "alternativas": [
+      { "letra": "A", "texto": "Missão Artística Francesa", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "B", "texto": "Semana de Arte Moderna", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Festival de Parintins", "correta": false, "etiqueta": "art-fuga-do-tema" },
+      { "letra": "D", "texto": "Movimento Tropicalista", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "E", "texto": "Salão de Belas Artes do Império", "correta": false, "etiqueta": "art-errou-epoca" }
+    ],
+    "explicacao": "A Semana de Arte Moderna, realizada em fevereiro de 1922 no Theatro Municipal de São Paulo, é o marco do modernismo brasileiro. A Missão Francesa é de 1816 e a Tropicália, dos anos 1960.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-arte-brasileira-003", "materia": "artes", "assunto": "arte-brasileira", "questionario": 1, "dificuldade": 0,
+    "contexto": "O homem que come gente",
+    "enunciado": "Em 1928, Tarsila do Amaral pintou uma figura de pés enormes e cabeça minúscula ao lado de um cacto. O título vem do tupi e quer dizer “homem que come gente” e inspirou o movimento antropófago. O que esse movimento propunha?",
+    "alternativas": [
+      { "letra": "A", "texto": "Devorar as influências estrangeiras e transformá-las em algo novo e brasileiro", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Rejeitar qualquer influência externa e copiar só tradições indígenas", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "C", "texto": "Reproduzir fielmente os modelos acadêmicos franceses", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "D", "texto": "Abandonar a pintura em favor da fotografia", "correta": false, "etiqueta": "art-fuga-do-tema" },
+      { "letra": "E", "texto": "Defender o canibalismo como costume a ser retomado", "correta": false, "etiqueta": "art-leitura-literal" }
+    ],
+    "explicacao": "A antropofagia é uma metáfora: absorver a cultura estrangeira e devolvê-la com cara própria. Ler o manifesto ao pé da letra, como defesa de canibalismo, é a pegadinha. Também não era rejeitar tudo o que vinha de fora.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-arte-brasileira-004", "materia": "artes", "assunto": "arte-brasileira", "questionario": 1, "dificuldade": 0,
+    "contexto": "Guitarra elétrica e berimbau",
+    "enunciado": "No fim dos anos 1960, o movimento da Tropicália misturou guitarras elétricas, ritmos populares e referências da cultura brasileira, em meio à ditadura militar. Qual característica melhor define esse movimento?",
+    "alternativas": [
+      { "letra": "A", "texto": "A rejeição total de instrumentos elétricos", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "B", "texto": "O retorno exclusivo ao folclore rural", "correta": false, "etiqueta": "art-generalizou" },
+      { "letra": "C", "texto": "A mistura de tradições brasileiras com influências internacionais, com tom crítico", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "O apoio oficial à política do governo da época", "correta": false, "etiqueta": "art-ignorou-contexto" },
+      { "letra": "E", "texto": "A repetição do projeto da Semana de 1922 sem mudanças", "correta": false, "etiqueta": "art-errou-epoca" }
+    ],
+    "explicacao": "A Tropicália misturava o popular e o moderno, o nacional e o estrangeiro, de forma irônica e crítica. Ela não rejeitava a modernidade nem apoiava o governo, e se inspirou na antropofagia modernista sem copiá-la.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-arte-brasileira-005", "materia": "artes", "assunto": "arte-brasileira", "questionario": 1, "dificuldade": 1,
+    "contexto": "Franceses no Rio de Janeiro",
+    "enunciado": "Em 1816, um grupo de artistas franceses chegou ao Rio de Janeiro. Entre eles, Debret registrou cenas do cotidiano da cidade, inclusive do trabalho escravizado. Qual é a importância desse grupo para a arte brasileira?",
+    "alternativas": [
+      { "letra": "A", "texto": "Rompeu com a tradição acadêmica e criou o modernismo", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "B", "texto": "Introduziu o Barroco no país", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "C", "texto": "Substituiu a arte indígena por modelos europeus, que não existiam antes", "correta": false, "etiqueta": "art-hierarquia-cultural" },
+      { "letra": "D", "texto": "Produziu obras apenas decorativas, sem valor de registro histórico", "correta": false, "etiqueta": "art-funcao-so-decorativa" },
+      { "letra": "E", "texto": "Documentou aspectos da sociedade da época e trouxe o ensino acadêmico, que levou à Academia Imperial de Belas Artes", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "A Missão Artística Francesa trouxe o ensino acadêmico neoclássico e ajudou a criar a Academia Imperial de Belas Artes, inaugurada em 1826. Além disso, os registros de Debret são fonte histórica sobre a vida no Brasil. O modernismo é bem posterior, e o Barroco chegou nos séculos anteriores.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-arte-brasileira-006", "materia": "artes", "assunto": "arte-brasileira", "questionario": 2, "dificuldade": -1,
+    "contexto": "Barro de Caruaru",
+    "enunciado": "Figuras de barro que retratam vaqueiros, retirantes e casamentos do sertão fizeram a fama do mestre Vitalino, de Caruaru, em Pernambuco. Essa produção é classificada como:",
+    "alternativas": [
+      { "letra": "A", "texto": "arte acadêmica", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "B", "texto": "arte popular", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "arte sacra barroca", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "D", "texto": "vanguarda europeia", "correta": false, "etiqueta": "art-origem-errada" },
+      { "letra": "E", "texto": "arte conceitual", "correta": false, "etiqueta": "art-confundiu-movimento" }
+    ],
+    "explicacao": "O artesanato figurativo em barro, feito por artistas populares e que retrata o cotidiano da região, é arte popular. Não segue regras de academia nem se liga ao Barroco sacro ou às vanguardas europeias.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-arte-brasileira-007", "materia": "artes", "assunto": "arte-brasileira", "questionario": 2, "dificuldade": -1,
+    "contexto": "A capital que nasceu planejada",
+    "enunciado": "Brasília, inaugurada em 1960, é conhecida pelos prédios de formas curvas e grandes vãos de concreto. Qual arquiteto projetou os principais edifícios públicos da capital?",
+    "alternativas": [
+      { "letra": "A", "texto": "Aleijadinho", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "B", "texto": "Candido Portinari", "correta": false, "etiqueta": "art-trocou-artista" },
+      { "letra": "C", "texto": "Mestre Vitalino", "correta": false, "etiqueta": "art-trocou-artista" },
+      { "letra": "D", "texto": "Victor Meirelles", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "E", "texto": "Oscar Niemeyer", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Oscar Niemeyer projetou os principais prédios públicos de Brasília, com Lúcio Costa no plano urbanístico. Aleijadinho e Meirelles são de séculos anteriores, e os demais atuaram em outras linguagens.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-arte-brasileira-008", "materia": "artes", "assunto": "arte-brasileira", "questionario": 2, "dificuldade": 0,
+    "contexto": "Retirantes da seca",
+    "enunciado": "Em telas como “Retirantes” (1944) e “Café” (1935), Portinari pintou famílias castigadas pela seca e trabalhadores de grandes plantações, com mãos e pés grandes. Qual é a função social dessas obras?",
+    "alternativas": [
+      { "letra": "A", "texto": "Exaltar o poder dos grandes proprietários de terras", "correta": false, "etiqueta": "art-ignorou-contexto" },
+      { "letra": "B", "texto": "Decorar ambientes sem tratar de nenhum tema", "correta": false, "etiqueta": "art-funcao-so-decorativa" },
+      { "letra": "C", "texto": "Dar visibilidade à realidade e às dificuldades dos trabalhadores brasileiros", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Imitar a pintura europeia do século XVII", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "E", "texto": "Registrar fotograficamente um acontecimento específico", "correta": false, "etiqueta": "art-leitura-literal" }
+    ],
+    "explicacao": "As mãos e os pés grandes enfatizam o trabalho e o sofrimento, e o tema coloca o povo trabalhador no centro da tela. Há forte função social e crítica. Não é decoração nem registro fotográfico.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-arte-brasileira-009", "materia": "artes", "assunto": "arte-brasileira", "questionario": 2, "dificuldade": 0,
+    "contexto": "A primeira missa na tela",
+    "enunciado": "Pinturas acadêmicas do século XIX, como “A Primeira Missa no Brasil”, mostram portugueses e indígenas em clima calmo e solene. Em relação ao encontro histórico entre eles, essas telas:",
+    "alternativas": [
+      { "letra": "A", "texto": "construíram uma imagem idealizada, a serviço de uma identidade nacional do Império", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "documentaram a cena com neutralidade total, como numa fotografia", "correta": false, "etiqueta": "art-leitura-literal" },
+      { "letra": "C", "texto": "criticaram duramente a colonização e a violência contra os povos originários", "correta": false, "etiqueta": "art-ignorou-contexto" },
+      { "letra": "D", "texto": "foram produzidas por artistas indígenas da época", "correta": false, "etiqueta": "art-origem-errada" },
+      { "letra": "E", "texto": "pertencem ao modernismo de 1922", "correta": false, "etiqueta": "art-errou-epoca" }
+    ],
+    "explicacao": "A pintura histórica do século XIX ajudava a criar uma narrativa oficial e harmoniosa do passado, útil ao projeto de identidade nacional do Império. A obra foi feita séculos depois do fato, e não é neutra. O modernismo só surge no século XX.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-arte-brasileira-010", "materia": "artes", "assunto": "arte-brasileira", "questionario": 2, "dificuldade": 1,
+    "contexto": "Uma fileira de rostos",
+    "enunciado": "Numa tela de 1933 de Tarsila do Amaral, uma massa de rostos de diferentes tipos físicos e cores de pele aparece em fileira diante de chaminés de fábrica. Que leitura é coerente com a obra?",
+    "alternativas": [
+      { "letra": "A", "texto": "Celebra a vida tranquila do campo, longe das cidades", "correta": false, "etiqueta": "art-ignorou-contexto" },
+      { "letra": "B", "texto": "Reproduz com precisão uma fotografia de uma fábrica específica", "correta": false, "etiqueta": "art-leitura-literal" },
+      { "letra": "C", "texto": "Mostra que todos os operários do Brasil eram imigrantes europeus", "correta": false, "etiqueta": "art-generalizou" },
+      { "letra": "D", "texto": "Retrata a diversidade da classe trabalhadora na industrialização, com olhar social", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Exalta os donos das indústrias como heróis nacionais", "correta": false, "etiqueta": "art-ignorou-contexto" }
+    ],
+    "explicacao": "A tela “Operários” mostra rostos variados como símbolo da formação plural do povo trabalhador e da industrialização de São Paulo. As chaminés ao fundo dão o contexto. Não é registro literal nem elogio aos patrões.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-arte-brasileira-011", "materia": "artes", "assunto": "arte-brasileira", "questionario": 3, "dificuldade": -1,
+    "contexto": "Cerâmica da Ilha de Marajó",
+    "enunciado": "Cerâmicas com grafismos geométricos produzidas na Ilha de Marajó, no Pará, bem antes da chegada dos europeus, enfeitam vasos e urnas. O que elas mostram?",
+    "alternativas": [
+      { "letra": "A", "texto": "Que já existia tradição artística no território brasileiro antes da colonização", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Que a arte no Brasil começou com a chegada dos portugueses", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "C", "texto": "Que cerâmica serve apenas como utensílio, sem valor artístico", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "D", "texto": "Que as peças foram trazidas do continente africano", "correta": false, "etiqueta": "art-origem-errada" },
+      { "letra": "E", "texto": "Que os povos locais imitavam o Barroco europeu", "correta": false, "etiqueta": "art-hierarquia-cultural" }
+    ],
+    "explicacao": "A cerâmica marajoara é anterior ao contato com os europeus e mostra uma tradição artística própria dos povos que habitavam a região. O Barroco só chega ao Brasil séculos depois.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-arte-brasileira-012", "materia": "artes", "assunto": "arte-brasileira", "questionario": 3, "dificuldade": 0,
+    "contexto": "A língua do povo na literatura e na arte",
+    "enunciado": "Modernistas como Mário de Andrade e Oswald de Andrade valorizaram a linguagem falada, o folclore e temas do Brasil. Que atitude esse grupo defendia?",
+    "alternativas": [
+      { "letra": "A", "texto": "Copiar o estilo europeu do século XIX", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "B", "texto": "Evitar temas nacionais para parecer universal", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "C", "texto": "Seguir regras rígidas da gramática portuguesa em todo texto artístico", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "D", "texto": "Buscar uma arte com identidade brasileira, usando a língua e a cultura do povo", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Imitar a arte colonial portuguesa", "correta": false, "etiqueta": "art-errou-epoca" }
+    ],
+    "explicacao": "Os modernistas queriam uma arte livre das regras acadêmicas e atenta ao jeito brasileiro de falar, de viver e de criar. Copiar modelos europeus ou coloniais era justamente o que criticavam.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-arte-brasileira-013", "materia": "artes", "assunto": "arte-brasileira", "questionario": 3, "dificuldade": 0,
+    "contexto": "A exposição de 1917",
+    "enunciado": "Em 1917, a exposição de uma jovem pintora brasileira, com cores fortes e figuras de formas deformadas, foi duramente criticada por um escritor da época. O episódio mostra que:",
+    "alternativas": [
+      { "letra": "A", "texto": "o modernismo foi aceito de imediato por todo o público", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "B", "texto": "parte do público resistia às novas linguagens, o que reforçou a união dos artistas que fariam a Semana de 22", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "a pintora desistiu e a arte moderna deixou de existir no país", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "D", "texto": "o academicismo desapareceu depois desse episódio", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "E", "texto": "a crítica da época elogiou a exposição por sua tradição", "correta": false, "etiqueta": "art-ignorou-contexto" }
+    ],
+    "explicacao": "A exposição de Anita Malfatti foi alvo de uma crítica dura e acabou aproximando artistas e escritores que depois organizariam a Semana de 1922. A resistência ao novo era forte, mas o modernismo não parou por isso.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-arte-brasileira-014", "materia": "artes", "assunto": "arte-brasileira", "questionario": 3, "dificuldade": 1,
+    "contexto": "O ouro e as igrejas",
+    "enunciado": "No século XVIII, o ouro de Minas Gerais ajudou a financiar igrejas ricamente decoradas, em que atuaram artistas muitas vezes mestiços e sem formação acadêmica europeia, ligados a oficinas e irmandades. O que isso indica sobre o Barroco mineiro?",
+    "alternativas": [
+      { "letra": "A", "texto": "Foi apenas uma cópia sem nenhuma adaptação do Barroco europeu", "correta": false, "etiqueta": "art-generalizou" },
+      { "letra": "B", "texto": "Ficou restrito ao litoral nordestino", "correta": false, "etiqueta": "art-origem-errada" },
+      { "letra": "C", "texto": "Foi financiado exclusivamente pela Coroa portuguesa", "correta": false, "etiqueta": "art-ignorou-contexto" },
+      { "letra": "D", "texto": "Evitou qualquer ornamentação", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "E", "texto": "Adaptou o Barroco europeu à realidade local, com marcas próprias e artistas formados em oficinas e irmandades", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "O Barroco mineiro nasceu do dinheiro do ciclo do ouro e da organização das irmandades, e teve características próprias, como o uso da pedra-sabão e rostos mestiços nas figuras. Não foi simples cópia, e a ornamentação abundante é uma marca do estilo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-arte-brasileira-015", "materia": "artes", "assunto": "arte-brasileira", "questionario": 3, "dificuldade": 1,
+    "contexto": "Esculturas que se mexem",
+    "enunciado": "Nos anos 1960, a artista Lygia Clark criou os “Bichos”, esculturas de metal com partes articuladas que o público manipula e pode dispor de várias formas. O que essa proposta muda na relação com o espectador?",
+    "alternativas": [
+      { "letra": "A", "texto": "Torna a obra intocável e restrita à contemplação à distância", "correta": false, "etiqueta": "art-leitura-literal" },
+      { "letra": "B", "texto": "Elimina completamente o papel do artista", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "C", "texto": "O espectador deixa de apenas contemplar e passa a participar da obra", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Retoma as regras do academicismo do século XIX", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "E", "texto": "Valoriza apenas a técnica de pintura a óleo", "correta": false, "etiqueta": "art-confundiu-linguagem" }
+    ],
+    "explicacao": "Nas obras do Neoconcretismo, o público é convidado a tocar, mexer e dar forma à obra, que fica incompleta sem essa participação. O artista continua tendo papel, e a proposta não tem relação com o academicismo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-arte-brasileira-016", "materia": "artes", "assunto": "arte-brasileira", "questionario": 4, "dificuldade": -1,
+    "contexto": "Capa de folheto de cordel",
+    "enunciado": "As capas dos folhetos de cordel nordestinos costumam trazer ilustrações em xilogravura. Essa técnica consiste em:",
+    "alternativas": [
+      { "letra": "A", "texto": "pintar com tinta a óleo sobre tela", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "B", "texto": "modelar figuras em argila", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "C", "texto": "entalhar uma matriz de madeira para imprimir a imagem no papel", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "fotografar a cena com filme", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "E", "texto": "esculpir figuras em pedra-sabão", "correta": false, "etiqueta": "art-confundiu-linguagem" }
+    ],
+    "explicacao": "Na xilogravura, o artista entalha a madeira deixando em relevo as partes que vão receber a tinta, e depois imprime a imagem no papel. É uma técnica muito ligada à cultura popular nordestina.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-arte-brasileira-017", "materia": "artes", "assunto": "arte-brasileira", "questionario": 4, "dificuldade": 0,
+    "contexto": "Azulejos de Brasília",
+    "enunciado": "Painéis de azulejos com padrões geométricos recombináveis aparecem em vários prédios públicos de Brasília, obra do artista Athos Bulcão. Que ideia essa produção reforça?",
+    "alternativas": [
+      { "letra": "A", "texto": "A integração da arte à arquitetura e ao espaço público do dia a dia", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "A ideia de que arte deve ficar restrita a museus", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "C", "texto": "A obrigação de a arte ser exclusivamente figurativa", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "D", "texto": "A cópia, sem mudanças, do azulejo colonial português", "correta": false, "etiqueta": "art-generalizou" },
+      { "letra": "E", "texto": "A separação total entre arte e cidade", "correta": false, "etiqueta": "art-funcao-so-decorativa" }
+    ],
+    "explicacao": "Os painéis fazem parte dos edifícios e são vistos por quem passa por eles todos os dias, sem precisar ir a um museu. Os padrões são geométricos, não figurativos, e reinterpretam o azulejo de forma moderna.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-arte-brasileira-018", "materia": "artes", "assunto": "arte-brasileira", "questionario": 4, "dificuldade": 0,
+    "contexto": "O caipira na tela",
+    "enunciado": "Em “Caipira picando fumo” (1893), o pintor paulista Almeida Júnior retratou um homem do campo sentado no chão de uma casa simples, em pose natural. O que a obra revela em relação à pintura acadêmica brasileira da época?",
+    "alternativas": [
+      { "letra": "A", "texto": "A rejeição de qualquer técnica de desenho", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "B", "texto": "A defesa explícita do modernismo de 1922", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "C", "texto": "A autoria de um artista indígena da região", "correta": false, "etiqueta": "art-origem-errada" },
+      { "letra": "D", "texto": "A idealização de heróis em cenas históricas", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "E", "texto": "A atenção ao homem comum do interior, e não só a temas históricos e heroicos", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "A obra mantém a técnica acadêmica, mas escolhe como tema um trabalhador rural comum, no lugar de heróis e cenas históricas. É uma aproximação com o povo anterior ao modernismo, que só vem em 1922.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-arte-brasileira-019", "materia": "artes", "assunto": "arte-brasileira", "questionario": 4, "dificuldade": 1,
+    "contexto": "A capital modernista e seus efeitos",
+    "enunciado": "Brasília foi planejada como símbolo de modernidade. Muitos urbanistas criticam, porém, o fato de a cidade ter sido pensada em torno do automóvel e de grandes setores separados. O que essa crítica mostra?",
+    "alternativas": [
+      { "letra": "A", "texto": "Que um projeto moderno é infalível e não pode ser criticado", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "B", "texto": "Que a forma de um edifício não tem nenhuma importância", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "C", "texto": "Que criticar o uso da cidade é negar o valor artístico da arquitetura", "correta": false, "etiqueta": "art-fuga-do-tema" },
+      { "letra": "D", "texto": "Que uma obra de arquitetura também pode ser avaliada pelos efeitos sociais e urbanos, e não só pela beleza da forma", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Que a cidade nunca foi habitada", "correta": false, "etiqueta": "art-ignorou-contexto" }
+    ],
+    "explicacao": "A crítica mostra que a arquitetura tem função social: além da estética, importam a circulação, a convivência e o uso diário da cidade. Reconhecer o valor artístico dos prédios e discutir seus efeitos urbanos são coisas compatíveis.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-arte-brasileira-020", "materia": "artes", "assunto": "arte-brasileira", "questionario": 4, "dificuldade": 1,
+    "contexto": "Capas para dançar",
+    "enunciado": "Nos anos 1960, Hélio Oiticica criou os Parangolés, capas e estandartes coloridos feitos para serem vestidos e dançados, em diálogo com o samba e com comunidades do Rio de Janeiro. O que essa obra propõe?",
+    "alternativas": [
+      { "letra": "A", "texto": "Que a arte seja guardada em museus, longe do contato do público", "correta": false, "etiqueta": "art-leitura-literal" },
+      { "letra": "B", "texto": "Que a arte nasça do movimento do corpo e do diálogo com a cultura popular, indo além da moldura do quadro", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Que a pintura acadêmica seja reproduzida em tecido", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "D", "texto": "Que o samba seja substituído pelas artes visuais", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "E", "texto": "Que só o artista tenha papel ativo na criação", "correta": false, "etiqueta": "art-fuga-do-tema" }
+    ],
+    "explicacao": "Os Parangolés só “acontecem” quando alguém os veste e dança, unindo artes visuais, corpo, samba e cultura popular. A obra sai da moldura e do museu e depende da participação do público.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]

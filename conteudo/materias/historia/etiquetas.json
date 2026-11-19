@@ -1,0 +1,16 @@
+[
+  { "id": "his-anacronismo", "nome": "Anacronismo", "descricao": "Julgou o passado com conceitos, instituições ou valores de hoje." },
+  { "id": "his-confundiu-periodo", "nome": "Confundiu o período", "descricao": "Trocou a época, o século ou a ordem dos acontecimentos." },
+  { "id": "his-confundiu-personagem", "nome": "Confundiu o personagem", "descricao": "Atribuiu o fato a outro líder, grupo ou figura histórica." },
+  { "id": "his-confundiu-lugar", "nome": "Confundiu o lugar", "descricao": "Trocou país, região ou cidade onde o fato aconteceu." },
+  { "id": "his-causa-consequencia-invertida", "nome": "Causa e consequência trocadas", "descricao": "Colocou o efeito como se fosse a origem do processo." },
+  { "id": "his-causa-unica", "nome": "Causa única", "descricao": "Explicou um processo complexo com um só motivo." },
+  { "id": "his-confundiu-conceito", "nome": "Confundiu o conceito", "descricao": "Trocou o significado de um termo ou de uma instituição histórica." },
+  { "id": "his-confundiu-ideologia", "nome": "Confundiu a ideologia", "descricao": "Misturou doutrinas ou regimes, como liberalismo, fascismo e comunismo." },
+  { "id": "his-leitura-superficial", "nome": "Leitura superficial", "descricao": "Pegou uma palavra solta do texto e ignorou o contexto." },
+  { "id": "his-extrapolou-fonte", "nome": "Foi além da fonte", "descricao": "Concluiu algo que o documento não afirma." },
+  { "id": "his-oposto-do-texto", "nome": "Oposto do texto", "descricao": "Escolheu o contrário do que a fonte ou o fato mostra." },
+  { "id": "his-generalizou", "nome": "Generalização", "descricao": "Transformou um caso em regra para todos, sempre ou em toda parte." },
+  { "id": "his-ignorou-protagonismo", "nome": "Ignorou o protagonismo", "descricao": "Tratou trabalhadores, escravizados ou povos colonizados como meros espectadores." },
+  { "id": "his-mito-popular", "nome": "Mito popular", "descricao": "Caiu na versão simplificada do senso comum, em vez do que a historiografia mostra." }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "id": "mat-estatistica-probabilidade-001", "materia": "matematica", "assunto": "estatistica-probabilidade", "questionario": 1, "dificuldade": -1,
+    "contexto": "Notas do bimestre",
+    "enunciado": "As notas de Caio em cinco provas foram 5, 6, 7, 8 e 14. Qual é a média dessas notas?",
+    "alternativas": [
+      { "letra": "A", "texto": "7", "correta": false, "etiqueta": "mat-confundiu-media-mediana" },
+      { "letra": "B", "texto": "7,5", "correta": false, "etiqueta": "mat-erro-de-conta" },
+      { "letra": "C", "texto": "40", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "D", "texto": "8", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "10", "correta": false, "etiqueta": "mat-esqueceu-base" }
+    ],
+    "explicacao": "A média é a soma dividida pela quantidade de valores: (5 + 6 + 7 + 8 + 14) ÷ 5 = 40 ÷ 5 = 8. O 7 é a mediana (valor central), e o 40 é só a soma.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-estatistica-probabilidade-002", "materia": "matematica", "assunto": "estatistica-probabilidade", "questionario": 1, "dificuldade": -1,
+    "contexto": "Gols do campeonato",
+    "enunciado": "Em 8 jogos do campeonato da escola, o time marcou 2, 3, 3, 4, 5, 5, 5 e 8 gols. Qual é a moda dessa lista?",
+    "alternativas": [
+      { "letra": "A", "texto": "5 gols", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "4,5 gols", "correta": false, "etiqueta": "mat-confundiu-media-mediana" },
+      { "letra": "C", "texto": "4,4 gols", "correta": false, "etiqueta": "mat-confundiu-media-mediana" },
+      { "letra": "D", "texto": "3 gols", "correta": false, "etiqueta": "mat-ignorou-frequencia" },
+      { "letra": "E", "texto": "8 gols", "correta": false, "etiqueta": "mat-formula-errada" }
+    ],
+    "explicacao": "A moda é o valor que mais se repete. O 5 aparece 3 vezes, o 3 aparece 2 vezes e os demais aparecem 1 vez. O 4,5 é a mediana e o 4,4 é a média aproximada.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-estatistica-probabilidade-003", "materia": "matematica", "assunto": "estatistica-probabilidade", "questionario": 1, "dificuldade": 0,
+    "contexto": "Média com pesos",
+    "enunciado": "Na escola de Marina, a média final é ponderada: a 1ª prova (peso 2) teve nota 6, a 2ª (peso 3) teve nota 8 e a 3ª (peso 5) teve nota 9. Qual foi a média final dela?",
+    "alternativas": [
+      { "letra": "A", "texto": "7,7", "correta": false, "etiqueta": "mat-ignorou-frequencia" },
+      { "letra": "B", "texto": "8,0", "correta": false, "etiqueta": "mat-erro-de-conta" },
+      { "letra": "C", "texto": "8,1", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "81", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "E", "texto": "8,5", "correta": false, "etiqueta": "mat-erro-de-conta" }
+    ],
+    "explicacao": "Multiplica cada nota pelo peso: 6×2 + 8×3 + 9×5 = 12 + 24 + 45 = 81. Divide pela soma dos pesos (2 + 3 + 5 = 10): 81 ÷ 10 = 8,1. A média simples (7,7) ignora os pesos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-estatistica-probabilidade-004", "materia": "matematica", "assunto": "estatistica-probabilidade", "questionario": 1, "dificuldade": 0,
+    "contexto": "Salários da padaria",
+    "enunciado": "Os cinco funcionários de uma padaria ganham R$ 1.200, R$ 1.200, R$ 1.500, R$ 2.000 e R$ 10.000. Qual é a mediana desses salários?",
+    "alternativas": [
+      { "letra": "A", "texto": "R$ 3.180", "correta": false, "etiqueta": "mat-confundiu-media-mediana" },
+      { "letra": "B", "texto": "R$ 1.500", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "R$ 1.200", "correta": false, "etiqueta": "mat-confundiu-media-mediana" },
+      { "letra": "D", "texto": "R$ 2.000", "correta": false, "etiqueta": "mat-erro-de-conta" },
+      { "letra": "E", "texto": "R$ 10.000", "correta": false, "etiqueta": "mat-formula-errada" }
+    ],
+    "explicacao": "Com os valores em ordem crescente e uma quantidade ímpar de dados, a mediana é o valor do meio: o 3º, que é R$ 1.500. O R$ 3.180 é a média (puxada pelo salário alto) e o R$ 1.200 é a moda.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-estatistica-probabilidade-005", "materia": "matematica", "assunto": "estatistica-probabilidade", "questionario": 1, "dificuldade": 1,
+    "contexto": "Idade do grupo",
+    "enunciado": "A média de idade de 4 amigos é 16 anos. Quando um quinto amigo entra no grupo, a média passa a ser 17 anos. Qual é a idade do novo integrante?",
+    "alternativas": [
+      { "letra": "A", "texto": "17 anos", "correta": false, "etiqueta": "mat-ignorou-dado" },
+      { "letra": "B", "texto": "1 ano", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "C", "texto": "33 anos", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "D", "texto": "22 anos", "correta": false, "etiqueta": "mat-erro-de-conta" },
+      { "letra": "E", "texto": "21 anos", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "A soma das idades dos 4 amigos é 4 × 16 = 64. Com cinco pessoas, a soma é 5 × 17 = 85. O novo integrante tem 85 − 64 = 21 anos. A diferença entre as médias (1) não é a idade dele.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-estatistica-probabilidade-006", "materia": "matematica", "assunto": "estatistica-probabilidade", "questionario": 2, "dificuldade": -1,
+    "contexto": "Urna do sorteio",
+    "enunciado": "Uma urna tem 3 bolas vermelhas, 5 azuis e 2 verdes, todas iguais no tato. Ao retirar uma bola sem olhar, qual é a probabilidade de ela ser vermelha?",
+    "alternativas": [
+      { "letra": "A", "texto": "3/7", "correta": false, "etiqueta": "mat-casos-favoraveis" },
+      { "letra": "B", "texto": "3/5", "correta": false, "etiqueta": "mat-casos-favoraveis" },
+      { "letra": "C", "texto": "1/3", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "D", "texto": "7/10", "correta": false, "etiqueta": "mat-pegou-parte-errada" },
+      { "letra": "E", "texto": "3/10", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Probabilidade é casos favoráveis ÷ casos possíveis. São 3 vermelhas entre 3 + 5 + 2 = 10 bolas, então 3/10. Os 7/10 são a chance de NÃO ser vermelha.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-estatistica-probabilidade-007", "materia": "matematica", "assunto": "estatistica-probabilidade", "questionario": 2, "dificuldade": 0,
+    "contexto": "Jogo de tabuleiro",
+    "enunciado": "Em um jogo, dois dados comuns de 6 faces são lançados ao mesmo tempo. Qual é a probabilidade de a soma dos resultados ser 7?",
+    "alternativas": [
+      { "letra": "A", "texto": "1/12", "correta": false, "etiqueta": "mat-casos-favoraveis" },
+      { "letra": "B", "texto": "7/36", "correta": false, "etiqueta": "mat-casos-favoraveis" },
+      { "letra": "C", "texto": "1/6", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "1/36", "correta": false, "etiqueta": "mat-casos-favoraveis" },
+      { "letra": "E", "texto": "1/7", "correta": false, "etiqueta": "mat-casos-favoraveis" }
+    ],
+    "explicacao": "São 6 × 6 = 36 resultados possíveis. Somam 7: (1,6), (2,5), (3,4), (4,3), (5,2) e (6,1), ou seja, 6 casos. A probabilidade é 6/36 = 1/6. O erro comum é esquecer que (1,6) e (6,1) são casos diferentes.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-estatistica-probabilidade-008", "materia": "matematica", "assunto": "estatistica-probabilidade", "questionario": 2, "dificuldade": 0,
+    "contexto": "Chutando a prova",
+    "enunciado": "Duas questões de múltipla escolha têm 5 alternativas cada, com uma só correta. Um aluno chuta as duas. Qual é a probabilidade de ele acertar as duas?",
+    "alternativas": [
+      { "letra": "A", "texto": "2/5", "correta": false, "etiqueta": "mat-somou-em-vez-de-multiplicar" },
+      { "letra": "B", "texto": "1/25", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "1/10", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "D", "texto": "1/5", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "E", "texto": "2/25", "correta": false, "etiqueta": "mat-erro-de-conta" }
+    ],
+    "explicacao": "Os eventos são independentes, então as probabilidades se multiplicam: 1/5 × 1/5 = 1/25. Somar dá 2/5, o que é errado, porque acertar as duas exige que os dois acertos aconteçam juntos. E 1/5 é só a chance de acertar uma questão.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-estatistica-probabilidade-009", "materia": "matematica", "assunto": "estatistica-probabilidade", "questionario": 2, "dificuldade": 1,
+    "contexto": "Bolas sem reposição",
+    "enunciado": "Uma caixa tem 4 bolas vermelhas e 6 azuis. Duas bolas são retiradas, uma após a outra, sem devolver a primeira. Qual é a probabilidade de as duas serem vermelhas?",
+    "alternativas": [
+      { "letra": "A", "texto": "4/25", "correta": false, "etiqueta": "mat-ignorou-dado" },
+      { "letra": "B", "texto": "7/19", "correta": false, "etiqueta": "mat-somou-em-vez-de-multiplicar" },
+      { "letra": "C", "texto": "3/25", "correta": false, "etiqueta": "mat-esqueceu-base" },
+      { "letra": "D", "texto": "2/15", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "2/5", "correta": false, "etiqueta": "mat-parou-no-intermediario" }
+    ],
+    "explicacao": "Na primeira retirada, a chance de vermelha é 4/10. Na segunda, restam 3 vermelhas entre 9 bolas, então 3/9. Multiplicando: 4/10 × 3/9 = 12/90 = 2/15. Usar 4/10 nas duas etapas ignora que a bola não voltou.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-estatistica-probabilidade-010", "materia": "matematica", "assunto": "estatistica-probabilidade", "questionario": 2, "dificuldade": 1,
+    "contexto": "Idiomas no intercâmbio",
+    "enunciado": "Em um grupo de 30 alunos, 18 falam inglês, 12 falam espanhol e 6 falam os dois idiomas. Sorteando um aluno ao acaso, qual é a probabilidade de ele falar pelo menos um dos dois idiomas?",
+    "alternativas": [
+      { "letra": "A", "texto": "4/5", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "1", "correta": false, "etiqueta": "mat-casos-favoraveis" },
+      { "letra": "C", "texto": "3/5", "correta": false, "etiqueta": "mat-pegou-parte-errada" },
+      { "letra": "D", "texto": "1/5", "correta": false, "etiqueta": "mat-pegou-parte-errada" },
+      { "letra": "E", "texto": "2/5", "correta": false, "etiqueta": "mat-pegou-parte-errada" }
+    ],
+    "explicacao": "Quem fala os dois idiomas foi contado duas vezes em 18 + 12. O total de alunos que falam pelo menos um é 18 + 12 − 6 = 24. A probabilidade é 24/30 = 4/5. Somar 18 + 12 dá 30 e a probabilidade 1, o que é impossível já que há quem não fale nenhum.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-estatistica-probabilidade-011", "materia": "matematica", "assunto": "estatistica-probabilidade", "questionario": 3, "dificuldade": -1,
+    "contexto": "Vendas da semana",
+    "enunciado": "Uma barraca vendeu, de segunda a sexta, 4, 6, 6, 8 e 16 sorvetes. Qual foi a média diária de vendas?",
+    "alternativas": [
+      { "letra": "A", "texto": "6", "correta": false, "etiqueta": "mat-confundiu-media-mediana" },
+      { "letra": "B", "texto": "8", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "40", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "D", "texto": "16", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "E", "texto": "10", "correta": false, "etiqueta": "mat-esqueceu-base" }
+    ],
+    "explicacao": "A soma é 4 + 6 + 6 + 8 + 16 = 40 e são 5 dias, então a média é 40 ÷ 5 = 8. O 6 é a mediana e também a moda. Dividir 40 por 4 é erro de base.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-estatistica-probabilidade-012", "materia": "matematica", "assunto": "estatistica-probabilidade", "questionario": 3, "dificuldade": -1,
+    "contexto": "Sorteio na sala",
+    "enunciado": "Em uma sala com 25 alunos, 10 são meninas. Sorteando um aluno ao acaso, qual é a probabilidade de ser uma menina?",
+    "alternativas": [
+      { "letra": "A", "texto": "2/3", "correta": false, "etiqueta": "mat-casos-favoraveis" },
+      { "letra": "B", "texto": "3/5", "correta": false, "etiqueta": "mat-pegou-parte-errada" },
+      { "letra": "C", "texto": "10%", "correta": false, "etiqueta": "mat-esqueceu-base" },
+      { "letra": "D", "texto": "2/5", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "25%", "correta": false, "etiqueta": "mat-erro-de-conta" }
+    ],
+    "explicacao": "A probabilidade é 10/25 = 2/5, que é 40%. A razão 2/3 compara meninas com meninos (10 para 15), e não com o total da sala.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-estatistica-probabilidade-013", "materia": "matematica", "assunto": "estatistica-probabilidade", "questionario": 3, "dificuldade": 0,
+    "contexto": "Tempo de corrida",
+    "enunciado": "Seis alunos correram 100 m e fizeram os tempos, em segundos: 12, 15, 11, 18, 14 e 20. Qual é a mediana desses tempos?",
+    "alternativas": [
+      { "letra": "A", "texto": "14,5 s", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "14 s", "correta": false, "etiqueta": "mat-erro-de-conta" },
+      { "letra": "C", "texto": "15 s", "correta": false, "etiqueta": "mat-confundiu-media-mediana" },
+      { "letra": "D", "texto": "15,5 s", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "E", "texto": "18 s", "correta": false, "etiqueta": "mat-erro-de-conta" }
+    ],
+    "explicacao": "Em ordem: 11, 12, 14, 15, 18, 20. Com 6 valores, a mediana é a média dos dois centrais: (14 + 15) ÷ 2 = 14,5. O 15 é a média de todos os tempos (90 ÷ 6), e o 15,5 vem de usar o menor e o maior.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-estatistica-probabilidade-014", "materia": "matematica", "assunto": "estatistica-probabilidade", "questionario": 3, "dificuldade": 0,
+    "contexto": "Duas turmas, mesma média",
+    "enunciado": "Na turma A, quatro alunos tiraram 5, 5, 5 e 5. Na turma B, quatro alunos tiraram 0, 10, 0 e 10. Qual afirmação está correta?",
+    "alternativas": [
+      { "letra": "A", "texto": "A média da turma A é maior que a da turma B.", "correta": false, "etiqueta": "mat-erro-de-conta" },
+      { "letra": "B", "texto": "A média da turma B é maior que a da turma A.", "correta": false, "etiqueta": "mat-erro-de-conta" },
+      { "letra": "C", "texto": "As turmas têm a mesma média, então as notas são parecidas nas duas.", "correta": false, "etiqueta": "mat-confundiu-media-mediana" },
+      { "letra": "D", "texto": "As turmas têm a mesma média, e as notas da turma A são mais dispersas.", "correta": false, "etiqueta": "mat-sinal" },
+      { "letra": "E", "texto": "As turmas têm a mesma média, mas as notas da turma B são mais dispersas.", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Ambas têm média 5 (20 ÷ 4). Mas na turma A todas as notas são iguais à média, e na B elas ficam nos extremos, longe da média. A média sozinha não mostra o quanto os dados se espalham.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-estatistica-probabilidade-015", "materia": "matematica", "assunto": "estatistica-probabilidade", "questionario": 3, "dificuldade": 1,
+    "contexto": "Dado com condição",
+    "enunciado": "Um dado comum é lançado e o resultado é maior que 3. Sabendo disso, qual é a probabilidade de o resultado ser um número par?",
+    "alternativas": [
+      { "letra": "A", "texto": "1/2", "correta": false, "etiqueta": "mat-ignorou-dado" },
+      { "letra": "B", "texto": "1/3", "correta": false, "etiqueta": "mat-esqueceu-base" },
+      { "letra": "C", "texto": "2/3", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "3/4", "correta": false, "etiqueta": "mat-casos-favoraveis" },
+      { "letra": "E", "texto": "1/4", "correta": false, "etiqueta": "mat-casos-favoraveis" }
+    ],
+    "explicacao": "Com a informação, os resultados possíveis são só 4, 5 e 6. Desses, 4 e 6 são pares, então a probabilidade é 2/3. Usar os 6 resultados do dado inteiro dá 1/3 ou 1/2 e ignora a condição.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-estatistica-probabilidade-016", "materia": "matematica", "assunto": "estatistica-probabilidade", "questionario": 4, "dificuldade": -1,
+    "contexto": "Camisa do uniforme",
+    "enunciado": "Em uma loja de uniformes, foram vendidas 12 camisas P, 30 M, 18 G e 5 GG. Qual é a moda dos tamanhos vendidos?",
+    "alternativas": [
+      { "letra": "A", "texto": "M", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "30", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "C", "texto": "G", "correta": false, "etiqueta": "mat-confundiu-media-mediana" },
+      { "letra": "D", "texto": "P", "correta": false, "etiqueta": "mat-ignorou-frequencia" },
+      { "letra": "E", "texto": "GG", "correta": false, "etiqueta": "mat-ignorou-frequencia" }
+    ],
+    "explicacao": "A moda é o valor que aparece com maior frequência. O tamanho mais vendido é o M. O 30 é a frequência (quantas vezes ele aparece), não o valor da moda.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-estatistica-probabilidade-017", "materia": "matematica", "assunto": "estatistica-probabilidade", "questionario": 4, "dificuldade": 0,
+    "contexto": "Rifa do passeio",
+    "enunciado": "Foram vendidos 200 bilhetes numerados de uma rifa. Rita comprou 8 bilhetes e Davi comprou 12. Qual é a probabilidade de o premiado ser Rita ou Davi?",
+    "alternativas": [
+      { "letra": "A", "texto": "4%", "correta": false, "etiqueta": "mat-pegou-parte-errada" },
+      { "letra": "B", "texto": "6%", "correta": false, "etiqueta": "mat-pegou-parte-errada" },
+      { "letra": "C", "texto": "0,24%", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "D", "texto": "20%", "correta": false, "etiqueta": "mat-esqueceu-base" },
+      { "letra": "E", "texto": "10%", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Juntos, eles têm 8 + 12 = 20 bilhetes de 200. A probabilidade é 20/200 = 10%. Os eventos são excludentes (só há um premiado), então as probabilidades se somam: 4% + 6%.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-estatistica-probabilidade-018", "materia": "matematica", "assunto": "estatistica-probabilidade", "questionario": 4, "dificuldade": 1,
+    "contexto": "Novo funcionário",
+    "enunciado": "Uma loja tem 10 funcionários, com salário médio de R$ 2.000. Entra um novo funcionário com salário de R$ 3.100. Qual passa a ser o salário médio da loja?",
+    "alternativas": [
+      { "letra": "A", "texto": "R$ 2.550", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "B", "texto": "R$ 1.100", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "C", "texto": "R$ 2.310", "correta": false, "etiqueta": "mat-esqueceu-base" },
+      { "letra": "D", "texto": "R$ 2.100", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "R$ 2.200", "correta": false, "etiqueta": "mat-erro-de-conta" }
+    ],
+    "explicacao": "A folha antiga soma 10 × 2.000 = R$ 20.000. Com o novo salário, são R$ 23.100 para 11 pessoas, e 23.100 ÷ 11 = R$ 2.100. A média simples de 2.000 e 3.100 (2.550) ignora que há 10 pessoas no primeiro grupo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-estatistica-probabilidade-019", "materia": "matematica", "assunto": "estatistica-probabilidade", "questionario": 4, "dificuldade": 1,
+    "contexto": "Três moedas",
+    "enunciado": "Três moedas honestas são lançadas ao mesmo tempo. Qual é a probabilidade de saírem exatamente duas caras?",
+    "alternativas": [
+      { "letra": "A", "texto": "1/4", "correta": false, "etiqueta": "mat-casos-favoraveis" },
+      { "letra": "B", "texto": "1/8", "correta": false, "etiqueta": "mat-casos-favoraveis" },
+      { "letra": "C", "texto": "3/8", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "1/2", "correta": false, "etiqueta": "mat-ignorou-dado" },
+      { "letra": "E", "texto": "3/4", "correta": false, "etiqueta": "mat-formula-errada" }
+    ],
+    "explicacao": "Há 2 × 2 × 2 = 8 resultados possíveis. Com exatamente duas caras: CCK, CKC e KCC, ou seja, 3 casos. A probabilidade é 3/8. O erro comum é contar só uma ordem e achar 1/8.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-estatistica-probabilidade-020", "materia": "matematica", "assunto": "estatistica-probabilidade", "questionario": 4, "dificuldade": 0,
+    "contexto": "Nota mínima para passar",
+    "enunciado": "Para passar, Théo precisa de média ponderada 7 em três provas, de pesos 2, 3 e 5. Ele tirou 6 na primeira e 5 na segunda. Que nota mínima precisa tirar na terceira?",
+    "alternativas": [
+      { "letra": "A", "texto": "10,0", "correta": false, "etiqueta": "mat-ignorou-frequencia" },
+      { "letra": "B", "texto": "8,6", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "7,0", "correta": false, "etiqueta": "mat-ignorou-dado" },
+      { "letra": "D", "texto": "8,0", "correta": false, "etiqueta": "mat-erro-de-conta" },
+      { "letra": "E", "texto": "4,3", "correta": false, "etiqueta": "mat-esqueceu-base" }
+    ],
+    "explicacao": "Precisa-se de 7 × 10 = 70 pontos ponderados. Já tem 6×2 + 5×3 = 27. Faltam 43, e como a terceira prova vale peso 5, a nota é 43 ÷ 5 = 8,6. Usando média simples chegaria a 10, e dividir 43 por 10 daria 4,3.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]

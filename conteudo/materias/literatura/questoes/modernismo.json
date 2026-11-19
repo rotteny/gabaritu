@@ -1,0 +1,902 @@
+[
+  {
+    "id": "lit-modernismo-001",
+    "materia": "literatura",
+    "assunto": "modernismo",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "A Semana de 22",
+    "enunciado": "A Semana de Arte Moderna, marco inicial do Modernismo brasileiro, aconteceu",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "em 1888, no Rio de Janeiro, logo após a abolição da escravatura.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "B",
+        "texto": "em 1902, em Canudos, junto com a publicação de “Os Sertões”.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "C",
+        "texto": "em 1881, no Rio de Janeiro, com o início do Realismo.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "D",
+        "texto": "em 1936, no Recife, depois da fundação da Academia Brasileira.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "E",
+        "texto": "em 1922, em São Paulo, no Theatro Municipal, com a participação de escritores, artistas plásticos e músicos.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "A Semana de 1922, em São Paulo, reuniu artistas que queriam romper com a tradição acadêmica e criar uma arte brasileira, atual e livre. Ela é o marco simbólico do Modernismo, embora ideias modernas já circulassem antes.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-modernismo-002",
+    "materia": "literatura",
+    "assunto": "modernismo",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Ruptura de 22",
+    "enunciado": "A primeira fase do Modernismo brasileiro (1922 a 1930) é marcada por",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "rigor métrico, rimas ricas e vocabulário erudito.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "B",
+        "texto": "idealização do herói indígena e da natureza.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "C",
+        "texto": "contrastes entre o plano divino e o plano terreno.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "D",
+        "texto": "ruptura com a tradição, versos livres, linguagem coloquial, humor e nacionalismo crítico.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "análise científica do comportamento humano.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      }
+    ],
+    "explicacao": "Os modernistas de 22 queriam libertar a arte das regras acadêmicas: verso livre, humor, língua falada, temas do cotidiano e olhar crítico para o Brasil. As outras opções descrevem Parnasianismo, Romantismo, Barroco e Naturalismo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-modernismo-003",
+    "materia": "literatura",
+    "assunto": "modernismo",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Erro de português",
+    "enunciado": "Leia o poema “Erro de português”, de Oswald de Andrade: “Quando o português chegou / Debaixo de uma bruta chuva / Vestiu o índio / Que pena! / Fosse uma manhã de sol / O índio tinha despido / O português”. O poema",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "elogia o colonizador, que trouxe a civilização aos indígenas.",
+        "correta": false,
+        "etiqueta": "lit-idealizacao-x-critica"
+      },
+      {
+        "letra": "B",
+        "texto": "exalta o indígena como herói nacional, à maneira romântica.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "C",
+        "texto": "descreve o clima do dia da chegada dos portugueses.",
+        "correta": false,
+        "etiqueta": "lit-leitura-literal"
+      },
+      {
+        "letra": "D",
+        "texto": "defende a catequese como forma de proteger os indígenas.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "E",
+        "texto": "satiriza a colonização, invertendo a história com humor para criticar a imposição da cultura europeia.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "O humor está na inversão: se tivesse feito sol, o indígena teria despido o português. A piada mostra que a colonização impôs costumes por acaso e arbitrariedade. É uma releitura irônica e crítica da história, típica da 1ª fase modernista.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-modernismo-004",
+    "materia": "literatura",
+    "assunto": "modernismo",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Antropofagia cultural",
+    "enunciado": "No “Manifesto Antropófago” (1928), Oswald de Andrade propõe “devorar” a cultura estrangeira. Essa ideia significa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "rejeitar toda influência estrangeira e voltar ao isolamento.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "B",
+        "texto": "absorver as influências externas e transformá-las em algo novo e brasileiro.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "copiar fielmente os modelos culturais europeus.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "D",
+        "texto": "defender, de forma literal, a prática do canibalismo.",
+        "correta": false,
+        "etiqueta": "lit-leitura-literal"
+      },
+      {
+        "letra": "E",
+        "texto": "retomar o indianismo romântico do século XIX.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      }
+    ],
+    "explicacao": "A antropofagia é uma metáfora: assim como o indígena devorava o inimigo para absorver suas qualidades, a arte brasileira deve “digerir” o que vem de fora e criar algo próprio. Não é isolamento nem cópia.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-modernismo-005",
+    "materia": "literatura",
+    "assunto": "modernismo",
+    "questionario": 1,
+    "dificuldade": 1,
+    "contexto": "Vidas Secas",
+    "enunciado": "Em “Vidas Secas” (1938), de Graciliano Ramos, a família de retirantes quase não consegue se comunicar, e a linguagem do romance é enxuta e áspera. Essa escolha formal",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "reflete a vida árida das personagens, aproximando a forma do tema e a crítica social do enredo.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "mostra o desinteresse do autor pelo drama dos retirantes.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      },
+      {
+        "letra": "C",
+        "texto": "idealiza o sertanejo como herói sem defeitos.",
+        "correta": false,
+        "etiqueta": "lit-idealizacao-x-critica"
+      },
+      {
+        "letra": "D",
+        "texto": "imita a linguagem rebuscada do Parnasianismo.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "E",
+        "texto": "revela um narrador onisciente de tom romântico e sentimental.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-narrador"
+      }
+    ],
+    "explicacao": "A secura da prosa (frases curtas, poucos adjetivos) combina com a vida seca das personagens e com sua dificuldade de se expressar. O texto denuncia a miséria sem sentimentalismo, marca da 2ª fase modernista, a do romance regionalista de 30.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-modernismo-006",
+    "materia": "literatura",
+    "assunto": "modernismo",
+    "questionario": 2,
+    "dificuldade": -1,
+    "contexto": "Macunaíma",
+    "enunciado": "O romance “Macunaíma, o herói sem nenhum caráter” (1928), que mistura lendas e linguagens de várias regiões do Brasil, é de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Mário de Andrade.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "Oswald de Andrade.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      },
+      {
+        "letra": "C",
+        "texto": "Carlos Drummond de Andrade.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      },
+      {
+        "letra": "D",
+        "texto": "Manuel Bandeira.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      },
+      {
+        "letra": "E",
+        "texto": "Guimarães Rosa.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      }
+    ],
+    "explicacao": "Mário de Andrade reuniu mitos indígenas, folclore e fala popular em “Macunaíma”, rapsódia modernista que busca uma identidade brasileira plural. Os outros autores são modernistas importantes, mas escreveram outras obras.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-modernismo-007",
+    "materia": "literatura",
+    "assunto": "modernismo",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Romance de 30",
+    "enunciado": "A prosa regionalista da década de 1930, de autores como Graciliano Ramos e Rachel de Queiroz, caracteriza-se",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pelo nacionalismo ufanista e pela exaltação da pátria.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "B",
+        "texto": "pelo experimentalismo radical e pela ruptura total de 22.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-geracao"
+      },
+      {
+        "letra": "C",
+        "texto": "pela denúncia da desigualdade e da miséria, sobretudo no Nordeste, com linguagem mais enxuta e voltada ao social.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "pela prosa introspectiva, com fluxo de consciência, típica dos anos 1940.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-geracao"
+      },
+      {
+        "letra": "E",
+        "texto": "pela poesia concreta e pela disposição visual das palavras.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-geracao"
+      }
+    ],
+    "explicacao": "Depois do período de ruptura, a 2ª fase do Modernismo aprofunda o olhar sobre os problemas sociais do país. A seca, a miséria e o coronelismo viram temas. A prosa intimista e a poesia concreta aparecem na 3ª fase.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-modernismo-008",
+    "materia": "literatura",
+    "assunto": "modernismo",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Os Sapos",
+    "enunciado": "O poema “Os Sapos”, de Manuel Bandeira, apresentado na Semana de 22, satiriza",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "os românticos e sua exaltação da natureza.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "B",
+        "texto": "os realistas e sua análise da sociedade.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "C",
+        "texto": "os poetas parnasianos e sua obsessão com a forma perfeita.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "os barrocos e seu jogo de contrastes.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "E",
+        "texto": "os modernistas e sua liberdade formal.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      }
+    ],
+    "explicacao": "O poema compara os poetas parnasianos a sapos que coaxam sobre a perfeição da forma, e isso é uma sátira. O poema foi uma crítica da nova geração à arte acadêmica então dominante.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-modernismo-009",
+    "materia": "literatura",
+    "assunto": "modernismo",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Linguagem rosiana",
+    "enunciado": "A linguagem de “Grande Sertão: Veredas” (1956), de Guimarães Rosa, caracteriza-se",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pela recriação artística da fala sertaneja, com neologismos e invenções de sintaxe, que dão alcance universal ao regional.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "pela reprodução documental e fiel da fala, sem invenção.",
+        "correta": false,
+        "etiqueta": "lit-generalizou"
+      },
+      {
+        "letra": "C",
+        "texto": "pela imitação da linguagem parnasiana, rica em rimas.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "D",
+        "texto": "pelo uso rígido da norma-padrão, sem marcas de oralidade.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "E",
+        "texto": "pela simplicidade jornalística, sem trabalho com as palavras.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      }
+    ],
+    "explicacao": "Guimarães Rosa não copia a fala dos sertanejos: ele a reinventa, criando palavras, ritmos e construções. Dessa mistura de oralidade e invenção nasce uma literatura que, falando do sertão, trata de temas universais, como a coragem, o bem e o mal.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-modernismo-010",
+    "materia": "literatura",
+    "assunto": "modernismo",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Antropofagia e Verde-Amarelismo",
+    "enunciado": "Na primeira fase do Modernismo, o grupo do Verde-Amarelismo (ou Anta) se distanciou da Antropofagia porque propunha",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a mesma ideia de devorar criticamente a cultura estrangeira.",
+        "correta": false,
+        "etiqueta": "lit-generalizou"
+      },
+      {
+        "letra": "B",
+        "texto": "a defesa do cosmopolitismo radical, sem referência ao Brasil.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "C",
+        "texto": "a adoção do verso parnasiano como único modelo.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "D",
+        "texto": "a volta ao Realismo e ao Naturalismo do século XIX.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "E",
+        "texto": "um nacionalismo ufanista e conservador, e não a devoração crítica das influências externas.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "O Verde-Amarelismo exaltava o Brasil com ufanismo, em tom conservador, enquanto a Antropofagia propunha absorver o estrangeiro de modo crítico e irreverente. São dois caminhos do nacionalismo de 1ª fase.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-modernismo-011",
+    "materia": "literatura",
+    "assunto": "modernismo",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "O Abaporu",
+    "enunciado": "A tela “Abaporu” (1928), que inspirou o movimento antropofágico, é obra de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Tarsila do Amaral.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "Anita Malfatti.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      },
+      {
+        "letra": "C",
+        "texto": "Di Cavalcanti.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      },
+      {
+        "letra": "D",
+        "texto": "Cândido Portinari.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      },
+      {
+        "letra": "E",
+        "texto": "Lasar Segall.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      }
+    ],
+    "explicacao": "Tarsila do Amaral deu o quadro de presente a Oswald de Andrade, que, com Raul Bopp, fundou a Antropofagia. O nome vem do tupi: “aba” (homem) e “poru” (que come gente).",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-modernismo-012",
+    "materia": "literatura",
+    "assunto": "modernismo",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Verso livre",
+    "enunciado": "Na poesia modernista, o verso livre é aquele que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "tem sempre dez sílabas poéticas, como no soneto clássico.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-forma"
+      },
+      {
+        "letra": "B",
+        "texto": "segue rima em toda a poesia, no esquema ABBA.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-forma"
+      },
+      {
+        "letra": "C",
+        "texto": "não segue um número fixo de sílabas nem esquema obrigatório de rimas.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "só pode ser usado em poemas de temática amorosa.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-forma"
+      },
+      {
+        "letra": "E",
+        "texto": "é obrigatoriamente escrito em forma de soneto.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-forma"
+      }
+    ],
+    "explicacao": "O verso livre rompeu com a métrica e a rima rígidas, valorizadas pelos parnasianos. Ele permite ritmo mais próximo da fala e foi uma das principais bandeiras da primeira fase do Modernismo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-modernismo-013",
+    "materia": "literatura",
+    "assunto": "modernismo",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Fluxo de consciência",
+    "enunciado": "A prosa de Clarice Lispector, representante da 3ª fase do Modernismo, destaca-se",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pela denúncia da seca e da miséria no sertão.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-geracao"
+      },
+      {
+        "letra": "B",
+        "texto": "pelo foco na vida interior das personagens, com fluxo de consciência e momentos de epifania.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "pela descrição naturalista do meio e dos instintos.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "D",
+        "texto": "pela exaltação do indígena como herói nacional.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "E",
+        "texto": "pelo humor e pela paródia típicos de 1922.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-geracao"
+      }
+    ],
+    "explicacao": "Clarice investiga o interior das personagens, seus pensamentos e percepções, às vezes sem enredo tradicional. A epifania é o instante em que a personagem tem uma revelação súbita sobre si ou o mundo. É uma prosa intimista, muito diferente do romance social de 30.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-modernismo-014",
+    "materia": "literatura",
+    "assunto": "modernismo",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Morte e Vida Severina",
+    "enunciado": "“Morte e Vida Severina” (1955), de João Cabral de Melo Neto, é um auto de Natal pernambucano que narra",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a idealização da vida no campo, à maneira do Arcadismo.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "B",
+        "texto": "o lamento amoroso de um poeta, no estilo romântico.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "C",
+        "texto": "uma viagem de aventuras do poeta ao exterior.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      },
+      {
+        "letra": "D",
+        "texto": "uma sátira à corte portuguesa no Brasil colonial.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      },
+      {
+        "letra": "E",
+        "texto": "a trajetória de um retirante nordestino em busca de vida melhor, com crítica social à miséria e à seca.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "Severino parte do sertão ao Recife e encontra a morte por todo o caminho, até o nascimento de uma criança, que sugere esperança. A obra une tradição popular (auto de Natal) e denúncia social, com linguagem concreta e despojada.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-modernismo-015",
+    "materia": "literatura",
+    "assunto": "modernismo",
+    "questionario": 3,
+    "dificuldade": 1,
+    "contexto": "Poesia concreta",
+    "enunciado": "A poesia concreta, surgida nos anos 1950 com poetas como Augusto e Haroldo de Campos, caracteriza-se por",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "usar versos metrificados e rimados, ao modo parnasiano.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-forma"
+      },
+      {
+        "letra": "B",
+        "texto": "valorizar o aspecto visual e sonoro da palavra, com economia verbal e disposição espacial no papel.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "desenvolver longos discursos sentimentais em primeira pessoa.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "D",
+        "texto": "narrar histórias tradicionais com começo, meio e fim.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-forma"
+      },
+      {
+        "letra": "E",
+        "texto": "retomar o nacionalismo indianista do século XIX.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      }
+    ],
+    "explicacao": "Os concretistas tratam a palavra como objeto visual e sonoro: o espaço da página, o som e o sentido se combinam. Isso rompe com a sintaxe tradicional e o verso discursivo. É uma das propostas de vanguarda da 3ª fase.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-modernismo-016",
+    "materia": "literatura",
+    "assunto": "modernismo",
+    "questionario": 4,
+    "dificuldade": -1,
+    "contexto": "Quem escreveu Vidas Secas?",
+    "enunciado": "O romance “Vidas Secas”, sobre uma família de retirantes sertanejos, foi escrito por",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "José Lins do Rego.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      },
+      {
+        "letra": "B",
+        "texto": "Graciliano Ramos.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "Jorge Amado.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      },
+      {
+        "letra": "D",
+        "texto": "Rachel de Queiroz.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      },
+      {
+        "letra": "E",
+        "texto": "Guimarães Rosa.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      }
+    ],
+    "explicacao": "Graciliano Ramos publicou “Vidas Secas” em 1938, com personagens como Fabiano, Sinhá Vitória e a cachorra Baleia. José Lins do Rego, Jorge Amado e Rachel de Queiroz também integram o romance de 30, mas escreveram outras obras.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-modernismo-017",
+    "materia": "literatura",
+    "assunto": "modernismo",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Canto de regresso à pátria",
+    "enunciado": "No poema “Canto de regresso à pátria”, Oswald de Andrade escreve: “Minha terra tem palmares / Onde gorjeia o mar / Os passarinhos daqui / Não cantam como os de lá”. O texto dialoga com a “Canção do Exílio”, de Gonçalves Dias, e a relação é de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "cópia fiel, que apenas reproduz o poema de Gonçalves Dias.",
+        "correta": false,
+        "etiqueta": "lit-nao-viu-intertextualidade"
+      },
+      {
+        "letra": "B",
+        "texto": "paráfrase, que mantém o mesmo sentido ufanista, sem alteração.",
+        "correta": false,
+        "etiqueta": "lit-nao-viu-intertextualidade"
+      },
+      {
+        "letra": "C",
+        "texto": "citação direta, em homenagem ao Romantismo.",
+        "correta": false,
+        "etiqueta": "lit-nao-viu-intertextualidade"
+      },
+      {
+        "letra": "D",
+        "texto": "paródia, que retoma o poema romântico com humor e releitura crítica.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "negação total, sem nenhuma relação com o poema original.",
+        "correta": false,
+        "etiqueta": "lit-nao-viu-intertextualidade"
+      }
+    ],
+    "explicacao": "Oswald retoma a estrutura da “Canção do Exílio”, trocando “palmeiras” por “palmares” e “sabiá” por “mar”. Ao mexer no texto original, ele o ressignifica e brinca com o nacionalismo romântico, um procedimento de paródia, comum no Modernismo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-modernismo-018",
+    "materia": "literatura",
+    "assunto": "modernismo",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Pronominais",
+    "enunciado": "No poema “Pronominais”, Oswald de Andrade contrapõe a frase “Dê-me um cigarro”, exigida pela gramática, a “Me dá um cigarro”, dita pelo povo. O poema defende",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a obediência estrita à gramática normativa em todos os contextos.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "B",
+        "texto": "o fim da língua escrita no Brasil.",
+        "correta": false,
+        "etiqueta": "lit-leitura-literal"
+      },
+      {
+        "letra": "C",
+        "texto": "a incorporação da fala coloquial brasileira à literatura, contra o rigor da gramática lusitana.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "a superioridade da norma portuguesa sobre a fala brasileira.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "E",
+        "texto": "o preconceito contra pessoas que falam de modo informal.",
+        "correta": false,
+        "etiqueta": "lit-idealizacao-x-critica"
+      }
+    ],
+    "explicacao": "O poema mostra que a colocação “me dá” é a que o brasileiro realmente usa e que a gramática ignora. Valorizar essa “língua errada” é uma das bandeiras do Modernismo, que buscava uma língua brasileira, e não uma cópia da portuguesa.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-modernismo-019",
+    "materia": "literatura",
+    "assunto": "modernismo",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Poesia Pau-Brasil",
+    "enunciado": "O Manifesto da Poesia Pau-Brasil (1924), de Oswald de Andrade, propõe",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a imitação das formas poéticas europeias.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "B",
+        "texto": "o nacionalismo conservador do grupo Verde-Amarelo.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-geracao"
+      },
+      {
+        "letra": "C",
+        "texto": "a devoração crítica do estrangeiro, proposta no Manifesto Antropófago.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-geracao"
+      },
+      {
+        "letra": "D",
+        "texto": "uma poesia “de exportação”, que redescobre o Brasil com olhar ingênuo, síntese e liberdade.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "a valorização da norma culta e do vocabulário erudito.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      }
+    ],
+    "explicacao": "O Pau-Brasil busca uma poesia de síntese e de olhar novo sobre o país, sem os adornos da tradição. O Manifesto Antropófago, de 1928, desenvolve depois a ideia de devorar a cultura estrangeira. É preciso diferenciar as duas propostas.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-modernismo-020",
+    "materia": "literatura",
+    "assunto": "modernismo",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Geração de 45",
+    "enunciado": "A geração de 45, na 3ª fase do Modernismo, diferencia-se da irreverência de 22 por",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "repetir o humor e a irreverência dos poetas de 22.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-geracao"
+      },
+      {
+        "letra": "B",
+        "texto": "adotar a métrica e a ornamentação do Parnasianismo sem nenhuma mudança.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "C",
+        "texto": "retomar o indianismo romântico como tema central.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "D",
+        "texto": "voltar-se a maior rigor formal e a questões universais e existenciais, com tom mais sóbrio.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "concentrar-se na denúncia regionalista da seca.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-geracao"
+      }
+    ],
+    "explicacao": "Depois da ruptura de 22 e do engajamento de 30, a geração de 45 cuida mais da forma e da linguagem, com tom reflexivo e temas existenciais. Ela rejeita tanto a irreverência quanto o rigor parnasiano puro, buscando uma síntese.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  }
+]

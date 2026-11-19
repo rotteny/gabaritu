@@ -1,0 +1,282 @@
+[
+  {
+    "id": "qui-estequiometria-001", "materia": "quimica", "assunto": "estequiometria", "questionario": 1, "dificuldade": -1,
+    "contexto": "Gás carbônico no mol",
+    "enunciado": "O gás carbônico (CO2) é liberado na queima de combustíveis. Dadas as massas atômicas C = 12 u e O = 16 u, qual é a massa molar do CO2?",
+    "alternativas": [
+      { "letra": "A", "texto": "28 g/mol", "correta": false, "etiqueta": "qui-erro-massa-molar" },
+      { "letra": "B", "texto": "44 g/mol", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "32 g/mol", "correta": false, "etiqueta": "qui-erro-massa-molar" },
+      { "letra": "D", "texto": "56 g/mol", "correta": false, "etiqueta": "qui-erro-massa-molar" },
+      { "letra": "E", "texto": "12 g/mol", "correta": false, "etiqueta": "qui-erro-massa-molar" }
+    ],
+    "explicacao": "O CO2 tem 1 átomo de carbono e 2 de oxigênio: 12 + 2 × 16 = 44 g/mol. Quem chega em 28 esqueceu um dos oxigênios (calculou o CO), e quem chega em 32 contou só os oxigênios.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-estequiometria-002", "materia": "quimica", "assunto": "estequiometria", "questionario": 1, "dificuldade": -1,
+    "contexto": "Combustível de foguete",
+    "enunciado": "Foguetes podem usar hidrogênio e oxigênio como combustível. A equação balanceada da reação é 2 H2 + O2 → 2 H2O. Quantos mols de H2 reagem completamente com 1 mol de O2?",
+    "alternativas": [
+      { "letra": "A", "texto": "1 mol", "correta": false, "etiqueta": "qui-esqueceu-balancear" },
+      { "letra": "B", "texto": "4 mol", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "C", "texto": "0,5 mol", "correta": false, "etiqueta": "qui-inverteu-razao" },
+      { "letra": "D", "texto": "2 mol", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "3 mol", "correta": false, "etiqueta": "qui-erro-conta" }
+    ],
+    "explicacao": "Os coeficientes mostram a proporção em mols: 2 H2 para 1 O2. Então, para 1 mol de O2, reagem 2 mol de H2. Responder 1 mol ignora o coeficiente 2 do H2.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-estequiometria-003", "materia": "quimica", "assunto": "estequiometria", "questionario": 1, "dificuldade": 0,
+    "contexto": "Carvão virando gás",
+    "enunciado": "Na queima completa do carbono, C + O2 → CO2, 36 g de carbono (C = 12 u) são queimados em excesso de oxigênio. Qual a massa de CO2 (44 g/mol) formada?",
+    "alternativas": [
+      { "letra": "A", "texto": "132 g", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "44 g", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "C", "texto": "96 g", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "D", "texto": "12 g", "correta": false, "etiqueta": "qui-inverteu-razao" },
+      { "letra": "E", "texto": "36 g", "correta": false, "etiqueta": "qui-senso-comum" }
+    ],
+    "explicacao": "36 g de C são 36 ÷ 12 = 3 mol. A proporção é 1 mol de C para 1 mol de CO2, então se formam 3 mol de CO2, ou 3 × 44 = 132 g. Responder 44 g considera 1 mol, e 36 g supõe que a massa do carbono apenas se transfere.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-estequiometria-004", "materia": "quimica", "assunto": "estequiometria", "questionario": 1, "dificuldade": 0,
+    "contexto": "Lavoisier na prática",
+    "enunciado": "Em um recipiente fechado, 4 g de gás hidrogênio reagem completamente com 32 g de gás oxigênio e formam apenas água. Qual a massa de água formada?",
+    "alternativas": [
+      { "letra": "A", "texto": "4 g", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "B", "texto": "28 g", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "C", "texto": "32 g", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "D", "texto": "144 g", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "E", "texto": "36 g", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Pela lei de Lavoisier, em uma reação completa a massa total dos reagentes é igual à massa total dos produtos: 4 g + 32 g = 36 g de água. Não é preciso calcular mols para esse enunciado, e subtrair as massas não faz sentido.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-estequiometria-005", "materia": "quimica", "assunto": "estequiometria", "questionario": 1, "dificuldade": 1,
+    "contexto": "Amônia para fertilizantes",
+    "enunciado": "A amônia, usada em fertilizantes, é produzida por N2 + 3 H2 → 2 NH3. Em um reator, colocam-se 28 g de N2 e 9 g de H2. Dadas as massas molares N2 = 28, H2 = 2 e NH3 = 17 g/mol, qual a massa máxima de NH3 que pode ser formada?",
+    "alternativas": [
+      { "letra": "A", "texto": "17 g", "correta": false, "etiqueta": "qui-esqueceu-balancear" },
+      { "letra": "B", "texto": "51 g", "correta": false, "etiqueta": "qui-ignorou-limitante-rendimento" },
+      { "letra": "C", "texto": "34 g", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "37 g", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "E", "texto": "68 g", "correta": false, "etiqueta": "qui-erro-conta" }
+    ],
+    "explicacao": "28 g de N2 são 1 mol, e 9 g de H2 são 4,5 mol. Para 1 mol de N2 seriam necessários 3 mol de H2, então o N2 é o limitante e o H2 está em excesso. 1 mol de N2 forma 2 mol de NH3, ou 2 × 17 = 34 g. Usar o H2 como base (51 g) dá mais produto do que o N2 permite.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-estequiometria-006", "materia": "quimica", "assunto": "estequiometria", "questionario": 2, "dificuldade": -1,
+    "contexto": "Quantos mols tem o copo",
+    "enunciado": "Um copo contém 36 g de água. Considerando a massa molar da água igual a 18 g/mol, quantos mols de água há no copo?",
+    "alternativas": [
+      { "letra": "A", "texto": "0,5 mol", "correta": false, "etiqueta": "qui-inverteu-razao" },
+      { "letra": "B", "texto": "18 mol", "correta": false, "etiqueta": "qui-erro-massa-molar" },
+      { "letra": "C", "texto": "2 mol", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "648 mol", "correta": false, "etiqueta": "qui-inverteu-razao" },
+      { "letra": "E", "texto": "36 mol", "correta": false, "etiqueta": "qui-senso-comum" }
+    ],
+    "explicacao": "A quantidade de mols é a massa dividida pela massa molar: 36 ÷ 18 = 2 mol. Se você dividiu ao contrário, deu 0,5, e se multiplicou, 648. Mol não é igual a grama.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-estequiometria-007", "materia": "quimica", "assunto": "estequiometria", "questionario": 2, "dificuldade": 0,
+    "contexto": "Cal na construção",
+    "enunciado": "A cal (CaO) é obtida pela decomposição do calcário: CaCO3 → CaO + CO2. Partindo de 200 g de CaCO3 (100 g/mol) e com rendimento de 80%, qual a massa de CaO (56 g/mol) obtida?",
+    "alternativas": [
+      { "letra": "A", "texto": "89,6 g", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "112 g", "correta": false, "etiqueta": "qui-ignorou-limitante-rendimento" },
+      { "letra": "C", "texto": "140 g", "correta": false, "etiqueta": "qui-inverteu-razao" },
+      { "letra": "D", "texto": "56 g", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "E", "texto": "160 g", "correta": false, "etiqueta": "qui-senso-comum" }
+    ],
+    "explicacao": "200 g de CaCO3 são 2 mol, que formariam 2 mol de CaO (112 g) se o rendimento fosse 100%. Com 80%, são 0,8 × 112 = 89,6 g. Dividir por 0,8 faz o rendimento aumentar a massa, o que é impossível.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-estequiometria-008", "materia": "quimica", "assunto": "estequiometria", "questionario": 2, "dificuldade": 0,
+    "contexto": "Gás de cozinha natural",
+    "enunciado": "O metano (CH4, 16 g/mol) é queimado por CH4 + 2 O2 → CO2 + 2 H2O. Considere que nas CNTP (0 °C e 1 atm) 1 mol de gás ocupa 22,4 L. Qual o volume de CO2 liberado na queima completa de 16 g de metano?",
+    "alternativas": [
+      { "letra": "A", "texto": "11,2 L", "correta": false, "etiqueta": "qui-inverteu-razao" },
+      { "letra": "B", "texto": "16 L", "correta": false, "etiqueta": "qui-confundiu-unidade" },
+      { "letra": "C", "texto": "44 L", "correta": false, "etiqueta": "qui-erro-massa-molar" },
+      { "letra": "D", "texto": "44,8 L", "correta": false, "etiqueta": "qui-esqueceu-balancear" },
+      { "letra": "E", "texto": "22,4 L", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "16 g de CH4 são 1 mol. A proporção é 1 CH4 : 1 CO2, então se forma 1 mol de CO2, que ocupa 22,4 L nas CNTP. O 44,8 L vem de usar o coeficiente 2 do O2 ou da água, e 16 L mistura massa com volume.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-estequiometria-009", "materia": "quimica", "assunto": "estequiometria", "questionario": 2, "dificuldade": 1,
+    "contexto": "Calcário nem tão puro",
+    "enunciado": "Uma amostra de 250 g de calcário contém 80% de CaCO3 (100 g/mol), e o restante é impureza que não reage. Na decomposição total, CaCO3 → CaO + CO2, qual a massa de CO2 (44 g/mol) liberada?",
+    "alternativas": [
+      { "letra": "A", "texto": "110 g", "correta": false, "etiqueta": "qui-ignorou-limitante-rendimento" },
+      { "letra": "B", "texto": "88 g", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "137,5 g", "correta": false, "etiqueta": "qui-inverteu-razao" },
+      { "letra": "D", "texto": "44 g", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "E", "texto": "70,4 g", "correta": false, "etiqueta": "qui-erro-conta" }
+    ],
+    "explicacao": "A massa de CaCO3 é 80% de 250 g, ou seja, 200 g, e isso equivale a 2 mol. A proporção é 1 : 1, então se formam 2 mol de CO2, ou 2 × 44 = 88 g. Usar os 250 g inteiros (110 g) ignora a pureza.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-estequiometria-010", "materia": "quimica", "assunto": "estequiometria", "questionario": 2, "dificuldade": 1,
+    "contexto": "Fogos de artifício",
+    "enunciado": "O magnésio queima com brilho intenso em fogos de artifício: 2 Mg + O2 → 2 MgO. Quando 12 g de Mg (24 g/mol) são queimados completamente, qual a massa de O2 (32 g/mol) consumida?",
+    "alternativas": [
+      { "letra": "A", "texto": "4 g", "correta": false, "etiqueta": "qui-inverteu-razao" },
+      { "letra": "B", "texto": "12 g", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "C", "texto": "16 g", "correta": false, "etiqueta": "qui-esqueceu-balancear" },
+      { "letra": "D", "texto": "8 g", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "32 g", "correta": false, "etiqueta": "qui-erro-massa-molar" }
+    ],
+    "explicacao": "12 g de Mg são 0,5 mol. A proporção é 2 Mg : 1 O2, então reage 0,25 mol de O2, ou 0,25 × 32 = 8 g. Conferindo por Lavoisier: 12 g + 8 g = 20 g de MgO. Responder 16 g usa 1 mol de O2 por mol de Mg, ignorando o coeficiente.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-estequiometria-011", "materia": "quimica", "assunto": "estequiometria", "questionario": 3, "dificuldade": -1,
+    "contexto": "A vela no pote",
+    "enunciado": "Uma vela acesa é colocada dentro de um pote de vidro hermeticamente fechado, e o conjunto é pesado antes e depois de a vela se apagar. Comparada à massa inicial, a massa do conjunto depois da queima é:",
+    "alternativas": [
+      { "letra": "A", "texto": "menor, pois a parafina desaparece ao queimar.", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "B", "texto": "maior, pois a queima cria matéria nova.", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "C", "texto": "menor, pois o calor transforma toda a massa em luz.", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "D", "texto": "diferente, mas só se a vela for muito grande.", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "E", "texto": "igual, pois em sistema fechado a massa total se conserva.", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Lavoisier mostrou que, em sistema fechado, a massa total não muda em uma reação química. A parafina e o oxigênio viram gás carbônico e vapor de água, que ficam no pote. Se o pote fosse aberto, os gases escapariam e a massa pareceria diminuir.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-estequiometria-012", "materia": "quimica", "assunto": "estequiometria", "questionario": 3, "dificuldade": -1,
+    "contexto": "Quantas moléculas tem a água",
+    "enunciado": "A constante de Avogadro indica que 1 mol de uma substância tem cerca de 6,0 × 10²³ entidades. Quantas moléculas existem em 2 mol de água?",
+    "alternativas": [
+      { "letra": "A", "texto": "6,0 × 10²³", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "B", "texto": "3,0 × 10²³", "correta": false, "etiqueta": "qui-inverteu-razao" },
+      { "letra": "C", "texto": "1,2 × 10²⁴", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "3,6 × 10⁴⁷", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "E", "texto": "12", "correta": false, "etiqueta": "qui-senso-comum" }
+    ],
+    "explicacao": "Basta multiplicar a quantidade de mols pelo número de Avogadro: 2 × 6,0 × 10²³ = 12 × 10²³ = 1,2 × 10²⁴ moléculas. Responder 6,0 × 10²³ considera apenas 1 mol.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-estequiometria-013", "materia": "quimica", "assunto": "estequiometria", "questionario": 3, "dificuldade": 0,
+    "contexto": "Etanol no tanque",
+    "enunciado": "A combustão completa do etanol é C2H5OH + 3 O2 → 2 CO2 + 3 H2O. Dadas as massas molares etanol = 46 g/mol e CO2 = 44 g/mol, qual a massa de CO2 liberada na queima de 23 g de etanol?",
+    "alternativas": [
+      { "letra": "A", "texto": "22 g", "correta": false, "etiqueta": "qui-esqueceu-balancear" },
+      { "letra": "B", "texto": "88 g", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "C", "texto": "66 g", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "D", "texto": "44 g", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "46 g", "correta": false, "etiqueta": "qui-senso-comum" }
+    ],
+    "explicacao": "23 g de etanol são 0,5 mol. Como 1 mol de etanol forma 2 mol de CO2, 0,5 mol forma 1 mol de CO2, ou 44 g. Quem esquece o coeficiente 2 chega em 22 g, e quem usa 1 mol inteiro de etanol chega em 88 g.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-estequiometria-014", "materia": "quimica", "assunto": "estequiometria", "questionario": 3, "dificuldade": 0,
+    "contexto": "Volume de gás na combustão",
+    "enunciado": "Na combustão do metano, CH4 + 2 O2 → CO2 + 2 H2O, os gases estão na mesma temperatura e pressão. Qual o volume de O2 necessário para queimar completamente 2 L de CH4?",
+    "alternativas": [
+      { "letra": "A", "texto": "4 L", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "2 L", "correta": false, "etiqueta": "qui-esqueceu-balancear" },
+      { "letra": "C", "texto": "1 L", "correta": false, "etiqueta": "qui-inverteu-razao" },
+      { "letra": "D", "texto": "44,8 L", "correta": false, "etiqueta": "qui-confundiu-unidade" },
+      { "letra": "E", "texto": "8 L", "correta": false, "etiqueta": "qui-erro-conta" }
+    ],
+    "explicacao": "Para gases na mesma temperatura e pressão, a proporção dos coeficientes também vale para volumes. 1 volume de CH4 pede 2 volumes de O2, então 2 L de CH4 pedem 4 L de O2. Não é preciso converter em mols nem usar 22,4 L.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-estequiometria-015", "materia": "quimica", "assunto": "estequiometria", "questionario": 3, "dificuldade": 1,
+    "contexto": "Ferrugem no portão",
+    "enunciado": "A ferrugem pode ser representada por 4 Fe + 3 O2 → 2 Fe2O3. Dadas as massas molares Fe = 56 g/mol e Fe2O3 = 160 g/mol, qual a massa de Fe2O3 formada pela oxidação total de 112 g de ferro?",
+    "alternativas": [
+      { "letra": "A", "texto": "80 g", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "B", "texto": "160 g", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "320 g", "correta": false, "etiqueta": "qui-esqueceu-balancear" },
+      { "letra": "D", "texto": "112 g", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "E", "texto": "48 g", "correta": false, "etiqueta": "qui-ignorou-dado" }
+    ],
+    "explicacao": "112 g de Fe são 2 mol. A proporção é 4 Fe : 2 Fe2O3, ou seja, 2 : 1, então se forma 1 mol de Fe2O3, ou 160 g. Se você usou 1 : 1 nos coeficientes, achou 320 g. Os 48 g são a massa de oxigênio consumida (112 + 48 = 160).",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-estequiometria-016", "materia": "quimica", "assunto": "estequiometria", "questionario": 4, "dificuldade": -1,
+    "contexto": "Sal de cozinha",
+    "enunciado": "O sal de cozinha é o cloreto de sódio (NaCl). Dadas as massas atômicas Na = 23 u e Cl = 35,5 u, qual a massa molar do NaCl?",
+    "alternativas": [
+      { "letra": "A", "texto": "23 g/mol", "correta": false, "etiqueta": "qui-erro-massa-molar" },
+      { "letra": "B", "texto": "35,5 g/mol", "correta": false, "etiqueta": "qui-erro-massa-molar" },
+      { "letra": "C", "texto": "29,25 g/mol", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "D", "texto": "58,5 g/mol", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "117 g/mol", "correta": false, "etiqueta": "qui-erro-massa-molar" }
+    ],
+    "explicacao": "O NaCl tem 1 átomo de Na e 1 de Cl: 23 + 35,5 = 58,5 g/mol. Responder só um dos átomos esquece o outro, e 117 duplica sem motivo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-estequiometria-017", "materia": "quimica", "assunto": "estequiometria", "questionario": 4, "dificuldade": 0,
+    "contexto": "Neutralização de soda cáustica",
+    "enunciado": "Um laboratório neutraliza 4 g de soda cáustica (NaOH, 40 g/mol) com ácido clorídrico, segundo NaOH + HCl → NaCl + H2O. Qual a massa de HCl (36,5 g/mol) necessária?",
+    "alternativas": [
+      { "letra": "A", "texto": "36,5 g", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "B", "texto": "3,65 g", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "0,365 g", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "D", "texto": "4 g", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "E", "texto": "40 g", "correta": false, "etiqueta": "qui-erro-massa-molar" }
+    ],
+    "explicacao": "4 g de NaOH são 4 ÷ 40 = 0,1 mol. A proporção é 1 : 1, então são necessários 0,1 mol de HCl, ou 0,1 × 36,5 = 3,65 g. Responder 36,5 g considera 1 mol inteiro de HCl.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-estequiometria-018", "materia": "quimica", "assunto": "estequiometria", "questionario": 4, "dificuldade": 0,
+    "contexto": "Antiácido na azia",
+    "enunciado": "Um antiácido tem 0,58 g de Mg(OH)2 (58 g/mol) por comprimido e neutraliza o ácido do estômago: Mg(OH)2 + 2 HCl → MgCl2 + 2 H2O. Quantos mols de HCl um comprimido neutraliza?",
+    "alternativas": [
+      { "letra": "A", "texto": "0,01 mol", "correta": false, "etiqueta": "qui-esqueceu-balancear" },
+      { "letra": "B", "texto": "0,005 mol", "correta": false, "etiqueta": "qui-inverteu-razao" },
+      { "letra": "C", "texto": "0,02 mol", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "0,2 mol", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "E", "texto": "1,16 mol", "correta": false, "etiqueta": "qui-confundiu-unidade" }
+    ],
+    "explicacao": "0,58 g de Mg(OH)2 correspondem a 0,58 ÷ 58 = 0,01 mol. Como a proporção é 1 Mg(OH)2 : 2 HCl, são neutralizados 2 × 0,01 = 0,02 mol de HCl. Responder 0,01 mol esquece o coeficiente 2.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-estequiometria-019", "materia": "quimica", "assunto": "estequiometria", "questionario": 4, "dificuldade": 1,
+    "contexto": "Fermentação da cana",
+    "enunciado": "A glicose fermenta e produz etanol: C6H12O6 → 2 C2H5OH + 2 CO2. Dadas as massas molares glicose = 180 g/mol e etanol = 46 g/mol, qual a massa de etanol obtida de 180 g de glicose, com rendimento de 75%?",
+    "alternativas": [
+      { "letra": "A", "texto": "34,5 g", "correta": false, "etiqueta": "qui-esqueceu-balancear" },
+      { "letra": "B", "texto": "46 g", "correta": false, "etiqueta": "qui-esqueceu-balancear" },
+      { "letra": "C", "texto": "92 g", "correta": false, "etiqueta": "qui-ignorou-limitante-rendimento" },
+      { "letra": "D", "texto": "122,7 g", "correta": false, "etiqueta": "qui-inverteu-razao" },
+      { "letra": "E", "texto": "69 g", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "180 g de glicose são 1 mol, que forma 2 mol de etanol: 2 × 46 = 92 g no rendimento teórico. Com 75%, 0,75 × 92 = 69 g. Se ignorar o rendimento, dá 92 g, e se esquecer o coeficiente 2, dá 46 g ou 34,5 g.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-estequiometria-020", "materia": "quimica", "assunto": "estequiometria", "questionario": 4, "dificuldade": 1,
+    "contexto": "Quem acaba primeiro",
+    "enunciado": "Em um experimento, 4 g de H2 (2 g/mol) e 24 g de O2 (32 g/mol) reagem segundo 2 H2 + O2 → 2 H2O. Qual a massa máxima de água (18 g/mol) que pode ser formada?",
+    "alternativas": [
+      { "letra": "A", "texto": "27 g", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "36 g", "correta": false, "etiqueta": "qui-ignorou-limitante-rendimento" },
+      { "letra": "C", "texto": "28 g", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "D", "texto": "13,5 g", "correta": false, "etiqueta": "qui-esqueceu-balancear" },
+      { "letra": "E", "texto": "54 g", "correta": false, "etiqueta": "qui-erro-conta" }
+    ],
+    "explicacao": "4 g de H2 são 2 mol e 24 g de O2 são 0,75 mol. Para 2 mol de H2 seriam necessários 1 mol de O2, mas só há 0,75 mol, então o O2 é o limitante. 0,75 mol de O2 forma 1,5 mol de H2O, ou 1,5 × 18 = 27 g. Usar o H2 como base dá 36 g, o que é impossível com o O2 disponível.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]

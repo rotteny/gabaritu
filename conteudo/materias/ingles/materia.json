@@ -1,0 +1,12 @@
+{
+  "slug": "ingles",
+  "nome": "Inglês",
+  "area": "Linguagens, Códigos e suas Tecnologias",
+  "assuntos": [
+    { "slug": "compreensao-geral", "nome": "Compreensão geral do texto", "ordem": 1, "por_que": "o ENEM quase sempre pergunta a ideia principal ou uma informação direta do texto, e a prova inteira de inglês é leitura." },
+    { "slug": "generos-e-proposito", "nome": "Gêneros textuais e intenção do autor", "ordem": 2, "por_que": "posts, anúncios, e-mails e tirinhas aparecem o tempo todo, e saber para que o texto foi escrito resolve muita questão." },
+    { "slug": "vocabulario-em-contexto", "nome": "Vocabulário em contexto", "ordem": 3, "por_que": "a prova pergunta o sentido de palavras e expressões a partir do contexto, sem exigir dicionário decorado." },
+    { "slug": "cognatos-e-falsos-cognatos", "nome": "Cognatos e falsos cognatos", "ordem": 4, "por_que": "palavras parecidas com o português ajudam na leitura, mas as armadilhas dos falsos cognatos derrubam muita gente." },
+    { "slug": "gramatica-em-contexto", "nome": "Gramática em contexto", "ordem": 5, "por_que": "referentes, conectores e tempos verbais mostram como as ideias se ligam e aparecem nas questões de interpretação." }
+  ]
+}

@@ -1,0 +1,902 @@
+[
+  {
+    "id": "ing-generos-e-proposito-001",
+    "materia": "ingles",
+    "assunto": "generos-e-proposito",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Promoção de tênis",
+    "enunciado": "Big sale! 50% off all sneakers this weekend only. Visit our store on Main Street.\n\nO objetivo principal desse texto é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pedir doação de calçados.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      },
+      {
+        "letra": "B",
+        "texto": "avisar que a loja mudou de endereço.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      },
+      {
+        "letra": "C",
+        "texto": "divulgar uma promoção.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "contar uma experiência pessoal de compra.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      },
+      {
+        "letra": "E",
+        "texto": "reclamar do preço dos tênis.",
+        "correta": false,
+        "etiqueta": "ing-tom-errado"
+      }
+    ],
+    "explicacao": "\"Sale\" e \"50% off\" indicam desconto, e o convite para visitar a loja mostra que se trata de propaganda de uma promoção.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-generos-e-proposito-002",
+    "materia": "ingles",
+    "assunto": "generos-e-proposito",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Convite de aniversário",
+    "enunciado": "You are invited to Ana's 15th birthday party! Saturday, 8 p.m., at 25 Flower Street. RSVP by Thursday.\n\nEsse texto é um(a)",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "aviso de objeto perdido.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      },
+      {
+        "letra": "B",
+        "texto": "anúncio de venda de ingressos.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      },
+      {
+        "letra": "C",
+        "texto": "notícia sobre uma festa na cidade.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      },
+      {
+        "letra": "D",
+        "texto": "bilhete de agradecimento por um presente.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      },
+      {
+        "letra": "E",
+        "texto": "convite, que informa data, hora e local de uma festa.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "\"You are invited\" abre o convite, e o texto traz dia, horário, endereço e pede confirmação de presença (RSVP).",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-generos-e-proposito-003",
+    "materia": "ingles",
+    "assunto": "generos-e-proposito",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Modo de preparo",
+    "enunciado": "Mix two eggs, one cup of flour and one cup of milk. Pour the batter into a hot pan. Cook for two minutes on each side.\n\nO texto tem como finalidade",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "vender ingredientes de cozinha.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      },
+      {
+        "letra": "B",
+        "texto": "ensinar como preparar uma massa, passo a passo.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "contar a história de uma receita de família.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      },
+      {
+        "letra": "D",
+        "texto": "comparar marcas de farinha.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "criticar quem não sabe cozinhar.",
+        "correta": false,
+        "etiqueta": "ing-tom-errado"
+      }
+    ],
+    "explicacao": "Os verbos no imperativo (mix, pour, cook) são típicos de instruções, como as de uma receita.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-generos-e-proposito-004",
+    "materia": "ingles",
+    "assunto": "generos-e-proposito",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Piso molhado",
+    "enunciado": "Caution! Wet floor. Please walk slowly.\n\nUm aviso como esse costuma aparecer em locais públicos para",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "evitar que as pessoas escorreguem e se machuquem.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "sugerir um prato do dia.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      },
+      {
+        "letra": "C",
+        "texto": "informar que o local está fechado.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      },
+      {
+        "letra": "D",
+        "texto": "pedir que o chão seja limpo todos os dias.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "anunciar uma promoção de produtos de limpeza.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      }
+    ],
+    "explicacao": "\"Caution\" abre um alerta e \"walk slowly\" é a orientação para evitar acidentes no piso molhado.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-generos-e-proposito-005",
+    "materia": "ingles",
+    "assunto": "generos-e-proposito",
+    "questionario": 1,
+    "dificuldade": 1,
+    "contexto": "Tirinha do modo econômico",
+    "enunciado": "In a comic strip, a boy tells his father: \"I'm not lazy, I'm in energy-saving mode.\" The father answers: \"Then I'll switch off your Wi-Fi to help you save even more.\"\n\nO humor da tirinha nasce do fato de que o pai",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "acredita sinceramente na desculpa do filho.",
+        "correta": false,
+        "etiqueta": "ing-tom-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "incentiva o filho a continuar sem fazer nada.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      },
+      {
+        "letra": "C",
+        "texto": "quer reduzir a conta de luz da casa.",
+        "correta": false,
+        "etiqueta": "ing-palavra-solta"
+      },
+      {
+        "letra": "D",
+        "texto": "usa a desculpa do filho para propor uma consequência irônica.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "explica ao filho como a energia é economizada.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      }
+    ],
+    "explicacao": "O pai devolve a expressão \"energy-saving mode\" em tom de brincadeira, cortando o Wi-Fi como \"ajuda\" para economizar. É ironia, não explicação nem apoio.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-generos-e-proposito-006",
+    "materia": "ingles",
+    "assunto": "generos-e-proposito",
+    "questionario": 2,
+    "dificuldade": -1,
+    "contexto": "Previsão e conselho",
+    "enunciado": "Tomorrow will be sunny and hot, with a high of 35 degrees. Don't forget your water bottle!\n\nNo fim do texto, a frase \"Don't forget your water bottle!\" funciona como",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "uma proibição.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      },
+      {
+        "letra": "B",
+        "texto": "um lembrete amigável.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "uma propaganda de garrafas.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      },
+      {
+        "letra": "D",
+        "texto": "uma reclamação sobre o calor.",
+        "correta": false,
+        "etiqueta": "ing-tom-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "um relato de algo que aconteceu ontem.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      }
+    ],
+    "explicacao": "Depois de informar o tempo, o texto aconselha o leitor a levar água. É um lembrete, não uma proibição nem propaganda.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-generos-e-proposito-007",
+    "materia": "ingles",
+    "assunto": "generos-e-proposito",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Mudança de sala",
+    "enunciado": "Subject: Change of room\nDear students, tomorrow's English class will be in Room 12, not Room 8. Please tell your classmates. Regards, Ms. Lopes.\n\nO objetivo do e-mail é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "cancelar a aula de inglês de amanhã.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "B",
+        "texto": "convidar os alunos para uma festa.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      },
+      {
+        "letra": "C",
+        "texto": "pedir desculpas por uma nota baixa.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      },
+      {
+        "letra": "D",
+        "texto": "apresentar uma nova professora.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "informar a mudança de sala e pedir que os colegas sejam avisados.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "A professora diz que a aula será na sala 12 e não na 8, e pede que os alunos avisem os colegas. A aula continua marcada.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-generos-e-proposito-008",
+    "materia": "ingles",
+    "assunto": "generos-e-proposito",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Cartaz de voluntários",
+    "enunciado": "Volunteers wanted! Help us clean the river this Sunday. Gloves and bags provided. Just bring energy!\n\nO cartaz tem a função de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "convocar pessoas para uma ação de limpeza do rio.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "vender luvas e sacos de lixo.",
+        "correta": false,
+        "etiqueta": "ing-palavra-solta"
+      },
+      {
+        "letra": "C",
+        "texto": "avisar que o rio será fechado ao público.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "D",
+        "texto": "informar que a limpeza já aconteceu.",
+        "correta": false,
+        "etiqueta": "ing-detalhe-central"
+      },
+      {
+        "letra": "E",
+        "texto": "pedir doações em dinheiro.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      }
+    ],
+    "explicacao": "\"Volunteers wanted\" convoca participantes e \"provided\" diz que o material será fornecido, sem cobrança. A ação é neste domingo, portanto ainda vai acontecer.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-generos-e-proposito-009",
+    "materia": "ingles",
+    "assunto": "generos-e-proposito",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Resenha de restaurante",
+    "enunciado": "I expected more. The pasta was cold, the waiter was in a hurry and the dessert, well, it was \"unforgettable\": I'm still trying to forget it.\n\nO autor da avaliação",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "elogia com entusiasmo todo o serviço.",
+        "correta": false,
+        "etiqueta": "ing-tom-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "descreve de forma neutra o cardápio.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      },
+      {
+        "letra": "C",
+        "texto": "critica o restaurante, usando ironia ao falar da sobremesa.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "recomenda o restaurante aos amigos.",
+        "correta": false,
+        "etiqueta": "ing-tom-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "convida o leitor para jantar lá.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      }
+    ],
+    "explicacao": "A palavra \"unforgettable\" soaria positiva, mas a continuação (\"trying to forget it\") mostra o sentido oposto. Somada à massa fria e ao atendimento apressado, a avaliação é uma crítica.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-generos-e-proposito-010",
+    "materia": "ingles",
+    "assunto": "generos-e-proposito",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Celular na sala",
+    "enunciado": "Banning phones in class is not the answer. Teachers should teach students how to use them wisely, just as we teach them to use calculators.\n\nO autor do texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "defende a proibição total dos celulares.",
+        "correta": false,
+        "etiqueta": "ing-tom-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "afirma que celular e calculadora são idênticos em tudo.",
+        "correta": false,
+        "etiqueta": "ing-generalizou"
+      },
+      {
+        "letra": "C",
+        "texto": "apenas relata uma regra da escola, sem opinar.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      },
+      {
+        "letra": "D",
+        "texto": "é contra a proibição e defende ensinar o uso consciente.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "pede que os professores usem calculadoras nas aulas.",
+        "correta": false,
+        "etiqueta": "ing-palavra-solta"
+      }
+    ],
+    "explicacao": "\"Is not the answer\" mostra que ele rejeita a proibição. A comparação com a calculadora serve de exemplo de ferramenta que se aprende a usar bem, não de igualdade total.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-generos-e-proposito-011",
+    "materia": "ingles",
+    "assunto": "generos-e-proposito",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Gata desaparecida",
+    "enunciado": "Lost cat: Mimi, white with grey ears. Please call 555-0199.\n\nO objetivo do anúncio é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pedir ajuda para encontrar uma gata.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "oferecer gatinhos para adoção.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      },
+      {
+        "letra": "C",
+        "texto": "vender uma gata de raça.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      },
+      {
+        "letra": "D",
+        "texto": "avisar que a gata já foi encontrada.",
+        "correta": false,
+        "etiqueta": "ing-detalhe-central"
+      },
+      {
+        "letra": "E",
+        "texto": "reclamar do barulho dos vizinhos.",
+        "correta": false,
+        "etiqueta": "ing-tom-errado"
+      }
+    ],
+    "explicacao": "\"Lost\" indica desaparecimento, e o pedido de ligar serve para quem tiver notícias da gata Mimi.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-generos-e-proposito-012",
+    "materia": "ingles",
+    "assunto": "generos-e-proposito",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Bilhete para a tia",
+    "enunciado": "Thank you for your gift, Aunt Rita! The book is great. I started reading it yesterday.\n\nA finalidade do texto é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pedir um presente à tia.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      },
+      {
+        "letra": "B",
+        "texto": "reclamar do livro recebido.",
+        "correta": false,
+        "etiqueta": "ing-tom-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "agradecer um presente.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "avisar que o livro foi devolvido.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "convidar a tia para um clube de leitura.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      }
+    ],
+    "explicacao": "\"Thank you for your gift\" mostra a intenção, e os comentários positivos sobre o livro reforçam o agradecimento.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-generos-e-proposito-013",
+    "materia": "ingles",
+    "assunto": "generos-e-proposito",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Ciclovias na cidade",
+    "enunciado": "City opens new bike lanes. The mayor said the project will reduce traffic and pollution. Cyclists welcome the change, but some drivers complain about fewer parking spaces.\n\nO texto tem como objetivo principal",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "fazer propaganda de uma marca de bicicletas.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      },
+      {
+        "letra": "B",
+        "texto": "informar sobre as novas ciclovias, mostrando opiniões diferentes.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "reclamar, em nome dos motoristas, da falta de vagas.",
+        "correta": false,
+        "etiqueta": "ing-detalhe-central"
+      },
+      {
+        "letra": "D",
+        "texto": "defender que só os ciclistas têm razão.",
+        "correta": false,
+        "etiqueta": "ing-tom-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "contar uma história de ficção sobre trânsito.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      }
+    ],
+    "explicacao": "O texto é uma notícia: apresenta o fato e os pontos de vista de prefeito, ciclistas e motoristas. A queixa dos motoristas é só um dos lados.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-generos-e-proposito-014",
+    "materia": "ingles",
+    "assunto": "generos-e-proposito",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Maratona concluída",
+    "enunciado": "Just finished my first marathon! 42 km, legs of jelly, heart full. Thank you to everyone who cheered along the way!\n\nA intenção do autor da postagem é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pedir dinheiro para financiar corridas.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      },
+      {
+        "letra": "B",
+        "texto": "dar dicas técnicas de treino.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "C",
+        "texto": "reclamar do percurso da prova.",
+        "correta": false,
+        "etiqueta": "ing-tom-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "compartilhar uma conquista e agradecer o apoio.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "anunciar a data da próxima maratona.",
+        "correta": false,
+        "etiqueta": "ing-detalhe-central"
+      }
+    ],
+    "explicacao": "O autor celebra o feito (\"first marathon\", \"heart full\") e agradece a torcida. \"Legs of jelly\" é uma imagem para dizer que as pernas estavam bambas, não uma reclamação.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-generos-e-proposito-015",
+    "materia": "ingles",
+    "assunto": "generos-e-proposito",
+    "questionario": 3,
+    "dificuldade": 1,
+    "contexto": "Manchete satírica",
+    "enunciado": "Local man discovers he can wake up at 6 a.m. on the one day he doesn't have to. Experts: \"It always happens.\"\n\nA manchete é construída para",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "divulgar uma descoberta científica séria.",
+        "correta": false,
+        "etiqueta": "ing-tom-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "alertar sobre os perigos de acordar cedo.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      },
+      {
+        "letra": "C",
+        "texto": "fazer propaganda de um despertador.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      },
+      {
+        "letra": "D",
+        "texto": "provar que isso acontece com todas as pessoas.",
+        "correta": false,
+        "etiqueta": "ing-generalizou"
+      },
+      {
+        "letra": "E",
+        "texto": "criticar com humor uma situação comum do dia a dia.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "A situação de acordar cedo justo no dia de folga é cômica e familiar. O \"experts\" é parte da piada, não uma pesquisa, e o texto fala de um caso exagerado, não de todo mundo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-generos-e-proposito-016",
+    "materia": "ingles",
+    "assunto": "generos-e-proposito",
+    "questionario": 4,
+    "dificuldade": -1,
+    "contexto": "Aviso no avião",
+    "enunciado": "Keep your seat belt fastened during the flight.\n\nA função dessa frase é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pedir desculpas por um atraso.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      },
+      {
+        "letra": "B",
+        "texto": "dar uma instrução de segurança aos passageiros.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "vender passagens aéreas.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      },
+      {
+        "letra": "D",
+        "texto": "descrever a paisagem vista da janela.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      },
+      {
+        "letra": "E",
+        "texto": "perguntar onde fica o assento.",
+        "correta": false,
+        "etiqueta": "ing-palavra-solta"
+      }
+    ],
+    "explicacao": "A frase está no imperativo e fala de cinto de segurança durante o voo. É uma orientação de segurança.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-generos-e-proposito-017",
+    "materia": "ingles",
+    "assunto": "generos-e-proposito",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Vaga na padaria",
+    "enunciado": "Wanted: bakery assistant. Early mornings, weekends included. Experience not necessary; we will train you. Send your CV to jobs@pao.com.\n\nO anúncio se dirige a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pessoas interessadas na vaga, mesmo sem experiência.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "padeiros com muitos anos de experiência.",
+        "correta": false,
+        "etiqueta": "ing-ignorou-negacao"
+      },
+      {
+        "letra": "C",
+        "texto": "clientes que querem fazer um curso de culinária.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      },
+      {
+        "letra": "D",
+        "texto": "quem só pode trabalhar de segunda a sexta.",
+        "correta": false,
+        "etiqueta": "ing-detalhe-central"
+      },
+      {
+        "letra": "E",
+        "texto": "quem deseja comprar pães por e-mail.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      }
+    ],
+    "explicacao": "\"Experience not necessary\" abre a vaga a iniciantes, e \"weekends included\" mostra que o trabalho inclui fins de semana. O e-mail é para enviar currículo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-generos-e-proposito-018",
+    "materia": "ingles",
+    "assunto": "generos-e-proposito",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Carta ao editor",
+    "enunciado": "Dear editor, I am writing to complain about the lack of benches in our park. Elderly people have nowhere to rest. Please, do something.\n\nO texto tem o propósito de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "elogiar a estrutura do parque.",
+        "correta": false,
+        "etiqueta": "ing-tom-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "convidar leitores para um evento no parque.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      },
+      {
+        "letra": "C",
+        "texto": "informar que os bancos foram instalados.",
+        "correta": false,
+        "etiqueta": "ing-detalhe-central"
+      },
+      {
+        "letra": "D",
+        "texto": "vender bancos para a prefeitura.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      },
+      {
+        "letra": "E",
+        "texto": "reclamar de um problema e pedir uma providência.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "\"I am writing to complain\" declara a intenção, e \"Please, do something\" é o pedido de providência.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-generos-e-proposito-019",
+    "materia": "ingles",
+    "assunto": "generos-e-proposito",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Troféu e treino",
+    "enunciado": "A trophy is a nice thing to have. But the long mornings before the race are what make it yours.\n\nA ideia central do trecho é que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "troféus não têm nenhum valor.",
+        "correta": false,
+        "etiqueta": "ing-tom-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "o texto ensina a vencer uma corrida.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      },
+      {
+        "letra": "C",
+        "texto": "o esforço de treinar vale mais do que o prêmio em si.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "o autor narra uma corrida específica.",
+        "correta": false,
+        "etiqueta": "ing-detalhe-central"
+      },
+      {
+        "letra": "E",
+        "texto": "todo mundo que treina ganha um troféu.",
+        "correta": false,
+        "etiqueta": "ing-generalizou"
+      }
+    ],
+    "explicacao": "\"Nice thing to have\" reconhece o valor do troféu, mas diz que o que o torna seu é o treino. O texto reflete, sem narrar uma prova nem prometer prêmio.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-generos-e-proposito-020",
+    "materia": "ingles",
+    "assunto": "generos-e-proposito",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Letras miúdas",
+    "enunciado": "Free phone! (When you sign a 24-month plan at $60 a month.)\n\nO trecho entre parênteses revela que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o celular é dado sem nenhuma condição.",
+        "correta": false,
+        "etiqueta": "ing-tom-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "o plano custa menos de 24 dólares.",
+        "correta": false,
+        "etiqueta": "ing-palavra-solta"
+      },
+      {
+        "letra": "C",
+        "texto": "a oferta vale por apenas 24 horas.",
+        "correta": false,
+        "etiqueta": "ing-detalhe-central"
+      },
+      {
+        "letra": "D",
+        "texto": "o celular só é grátis para quem contratar um plano longo e pago.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "o plano pode ser cancelado sem custo.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      }
+    ],
+    "explicacao": "Os parênteses trazem a condição: um plano de 24 meses a 60 dólares por mês. O \"free\" do início só vale com esse compromisso.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  }
+]

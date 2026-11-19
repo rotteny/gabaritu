@@ -1,0 +1,282 @@
+[
+  {
+    "id": "fis-dinamica-energia-001", "materia": "fisica", "assunto": "dinamica-energia", "questionario": 1, "dificuldade": -1,
+    "contexto": "Empurrando o carrinho",
+    "enunciado": "Um carrinho de supermercado de 2 kg é empurrado e adquire aceleração de 3 m/s². Qual é a força resultante aplicada nele?",
+    "alternativas": [
+      { "letra": "A", "texto": "6 N", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "1,5 N", "correta": false, "etiqueta": "fis-proporcao-invertida" },
+      { "letra": "C", "texto": "5 N", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "D", "texto": "20 N", "correta": false, "etiqueta": "fis-massa-peso" },
+      { "letra": "E", "texto": "0,67 N", "correta": false, "etiqueta": "fis-proporcao-invertida" }
+    ],
+    "explicacao": "Pela 2ª lei de Newton, F = m × a = 2 × 3 = 6 N. Dividir uma grandeza pela outra (1,5 ou 0,67) inverte a relação, e os 20 N seriam o peso do carrinho, que é outra força.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-dinamica-energia-002", "materia": "fisica", "assunto": "dinamica-energia", "questionario": 1, "dificuldade": -1,
+    "contexto": "Balança do banheiro",
+    "enunciado": "Uma pessoa tem massa de 60 kg. Adotando g = 10 m/s², qual é o seu peso?",
+    "alternativas": [
+      { "letra": "A", "texto": "60 N", "correta": false, "etiqueta": "fis-massa-peso" },
+      { "letra": "B", "texto": "6 N", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "C", "texto": "600 N", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "6.000 N", "correta": false, "etiqueta": "fis-unidade" },
+      { "letra": "E", "texto": "70 N", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "O peso é a força da gravidade sobre a massa: P = m × g = 60 × 10 = 600 N. A massa (60 kg) e o peso (600 N) são grandezas diferentes, com unidades diferentes.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-dinamica-energia-003", "materia": "fisica", "assunto": "dinamica-energia", "questionario": 1, "dificuldade": 0,
+    "contexto": "Cabo de guerra de caixa",
+    "enunciado": "Uma caixa de 10 kg, sobre uma superfície sem atrito, é puxada por duas forças horizontais em sentidos opostos: 50 N para a direita e 30 N para a esquerda. Qual é a aceleração da caixa?",
+    "alternativas": [
+      { "letra": "A", "texto": "8 m/s²", "correta": false, "etiqueta": "fis-sinal-direcao" },
+      { "letra": "B", "texto": "5 m/s²", "correta": false, "etiqueta": "fis-ignorou-dado" },
+      { "letra": "C", "texto": "3 m/s²", "correta": false, "etiqueta": "fis-ignorou-dado" },
+      { "letra": "D", "texto": "20 m/s²", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "E", "texto": "2 m/s²", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "A força resultante é a diferença das forças opostas: 50 − 30 = 20 N. Pela 2ª lei, a = F ÷ m = 20 ÷ 10 = 2 m/s². Somar as forças (80 N) só vale se elas tiverem o mesmo sentido, e os 20 são a força, não a aceleração.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-dinamica-energia-004", "materia": "fisica", "assunto": "dinamica-energia", "questionario": 1, "dificuldade": 0,
+    "contexto": "Empurrando o armário",
+    "enunciado": "Uma força constante de 20 N desloca um armário por 5 m, na mesma direção e sentido da força. Qual é o trabalho realizado por essa força?",
+    "alternativas": [
+      { "letra": "A", "texto": "4 J", "correta": false, "etiqueta": "fis-proporcao-invertida" },
+      { "letra": "B", "texto": "25 J", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "C", "texto": "15 J", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "D", "texto": "100 J", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "500 J", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "O trabalho é W = F × d × cos θ, e com a força na direção do deslocamento (θ = 0°) fica W = 20 × 5 = 100 J. Dividir 20 por 5 (4) é outra operação.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-dinamica-energia-005", "materia": "fisica", "assunto": "dinamica-energia", "questionario": 1, "dificuldade": 1,
+    "contexto": "Energia do carro",
+    "enunciado": "Um carro de 800 kg viaja a 72 km/h. Qual é a sua energia cinética?",
+    "alternativas": [
+      { "letra": "A", "texto": "2.073.600 J", "correta": false, "etiqueta": "fis-unidade" },
+      { "letra": "B", "texto": "160.000 J", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "320.000 J", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "D", "texto": "8.000 J", "correta": false, "etiqueta": "fis-esqueceu-quadrado" },
+      { "letra": "E", "texto": "40.000 J", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "Primeiro, 72 km/h = 20 m/s. A energia cinética é Ec = ½ · m · v² = ½ × 800 × 20² = 400 × 400 = 160.000 J. Esquecer o ½ dá 320.000 J, esquecer o quadrado dá 8.000 J, e usar 72 sem converter dá valores enormes.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-dinamica-energia-006", "materia": "fisica", "assunto": "dinamica-energia", "questionario": 2, "dificuldade": -1,
+    "contexto": "Vaso na estante",
+    "enunciado": "Um vaso de 2 kg está sobre uma estante, a 5 m de altura do chão. Adotando g = 10 m/s², qual é a energia potencial gravitacional do vaso em relação ao chão?",
+    "alternativas": [
+      { "letra": "A", "texto": "10 J", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "B", "texto": "100 J", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "7 J", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "D", "texto": "20 J", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "E", "texto": "1.000 J", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "A energia potencial gravitacional é Ep = m × g × h = 2 × 10 × 5 = 100 J. Sem o g dá 10 J, e sem a altura dá 20 J.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-dinamica-energia-007", "materia": "fisica", "assunto": "dinamica-energia", "questionario": 2, "dificuldade": 0,
+    "contexto": "Bola do alto do prédio",
+    "enunciado": "Uma bola de 0,5 kg é solta do repouso, de uma altura de 20 m. Desprezando o ar e adotando g = 10 m/s², com que velocidade ela chega ao chão?",
+    "alternativas": [
+      { "letra": "A", "texto": "10 m/s", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "B", "texto": "400 m/s", "correta": false, "etiqueta": "fis-esqueceu-quadrado" },
+      { "letra": "C", "texto": "100 m/s", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "D", "texto": "14 m/s", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "E", "texto": "20 m/s", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Por conservação de energia, m·g·h = ½·m·v², e a massa se cancela: v = √(2 × g × h) = √(2 × 10 × 20) = √400 = 20 m/s. Os 400 são v² (faltou a raiz), e os 100 são a energia em joules (0,5 × 10 × 20).",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-dinamica-energia-008", "materia": "fisica", "assunto": "dinamica-energia", "questionario": 2, "dificuldade": 0,
+    "contexto": "Guincho da obra",
+    "enunciado": "Um guincho levanta um bloco de 50 kg até 4 m de altura, em 10 s, com velocidade constante. Adotando g = 10 m/s², qual é a potência útil do guincho?",
+    "alternativas": [
+      { "letra": "A", "texto": "2.000 W", "correta": false, "etiqueta": "fis-potencia-energia" },
+      { "letra": "B", "texto": "20 W", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "C", "texto": "5 W", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "D", "texto": "200 W", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "800 W", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "O trabalho é W = m·g·h = 50 × 10 × 4 = 2.000 J. A potência é o trabalho por tempo: P = 2.000 ÷ 10 = 200 W. Os 2.000 são a energia em joules, e potência é energia por segundo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-dinamica-energia-009", "materia": "fisica", "assunto": "dinamica-energia", "questionario": 2, "dificuldade": 1,
+    "contexto": "Rampa de skate",
+    "enunciado": "Um bloco de 4 kg desliza, sem atrito, por uma rampa inclinada de 30° em relação à horizontal. Adotando g = 10 m/s² e sen 30° = 0,5, qual é a aceleração do bloco ao longo da rampa?",
+    "alternativas": [
+      { "letra": "A", "texto": "5 m/s²", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "10 m/s²", "correta": false, "etiqueta": "fis-ignorou-dado" },
+      { "letra": "C", "texto": "8,7 m/s²", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "D", "texto": "20 m/s²", "correta": false, "etiqueta": "fis-massa-peso" },
+      { "letra": "E", "texto": "2,5 m/s²", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "Ao longo da rampa atua a componente do peso, P·sen 30° = m·g·sen 30° = 4 × 10 × 0,5 = 20 N. Então a = F ÷ m = 20 ÷ 4 = 5 m/s² (a = g · sen 30°, sem depender da massa). Os 10 m/s² seriam a queda livre, e 8,7 vem de usar cos 30° no lugar de sen.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-dinamica-energia-010", "materia": "fisica", "assunto": "dinamica-energia", "questionario": 2, "dificuldade": 1,
+    "contexto": "Montanha-russa",
+    "enunciado": "Um carrinho de montanha-russa parte do repouso no topo, a 20 m de altura, e desce sem atrito. Adotando g = 10 m/s², qual é a sua velocidade ao passar por um ponto a 15 m de altura?",
+    "alternativas": [
+      { "letra": "A", "texto": "20 m/s", "correta": false, "etiqueta": "fis-ignorou-dado" },
+      { "letra": "B", "texto": "17,3 m/s", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "C", "texto": "10 m/s", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "100 m/s", "correta": false, "etiqueta": "fis-esqueceu-quadrado" },
+      { "letra": "E", "texto": "5 m/s", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "O que importa é o desnível percorrido: 20 − 15 = 5 m. Da conservação da energia, v = √(2 × g × Δh) = √(2 × 10 × 5) = √100 = 10 m/s. Usar 15 m ou 20 m no lugar do desnível dá resultados errados, e os 100 são v².",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-dinamica-energia-011", "materia": "fisica", "assunto": "dinamica-energia", "questionario": 3, "dificuldade": -1,
+    "contexto": "Carro arrancando",
+    "enunciado": "Um carro de 1.000 kg recebe uma força resultante de 3.000 N. Qual é a sua aceleração?",
+    "alternativas": [
+      { "letra": "A", "texto": "3.000.000 m/s²", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "B", "texto": "0,33 m/s²", "correta": false, "etiqueta": "fis-proporcao-invertida" },
+      { "letra": "C", "texto": "2.000 m/s²", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "D", "texto": "3 m/s²", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "4 m/s²", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "Da 2ª lei de Newton, a = F ÷ m = 3.000 ÷ 1.000 = 3 m/s². Multiplicar força por massa (3.000.000) não dá aceleração.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-dinamica-energia-012", "materia": "fisica", "assunto": "dinamica-energia", "questionario": 3, "dificuldade": -1,
+    "contexto": "Astronauta na Lua",
+    "enunciado": "Um astronauta de 50 kg (na Terra, g = 10 m/s²) vai para a Lua, onde a gravidade é 1,6 m/s². Qual é o peso dele na Lua?",
+    "alternativas": [
+      { "letra": "A", "texto": "80 N", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "50 N", "correta": false, "etiqueta": "fis-massa-peso" },
+      { "letra": "C", "texto": "500 N", "correta": false, "etiqueta": "fis-ignorou-dado" },
+      { "letra": "D", "texto": "8 N", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "E", "texto": "800 N", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "A massa não muda (50 kg), mas o peso depende da gravidade local: P = m × g = 50 × 1,6 = 80 N. Os 500 N são o peso dele na Terra.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-dinamica-energia-013", "materia": "fisica", "assunto": "dinamica-energia", "questionario": 3, "dificuldade": 0,
+    "contexto": "Arrastando o caixote",
+    "enunciado": "Um caixote de 20 kg está sobre o chão, com coeficiente de atrito 0,3. Ele é empurrado horizontalmente por uma força de 80 N. Adotando g = 10 m/s², qual é a aceleração do caixote?",
+    "alternativas": [
+      { "letra": "A", "texto": "4 m/s²", "correta": false, "etiqueta": "fis-ignorou-dado" },
+      { "letra": "B", "texto": "7 m/s²", "correta": false, "etiqueta": "fis-sinal-direcao" },
+      { "letra": "C", "texto": "1 m/s²", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "3 m/s²", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "E", "texto": "2 m/s²", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "A normal é N = m·g = 200 N e o atrito é 0,3 × 200 = 60 N, contrário ao movimento. A resultante é 80 − 60 = 20 N, e a = 20 ÷ 20 = 1 m/s². Ignorar o atrito dá 4 m/s², e somar o atrito à força dá 7.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-dinamica-energia-014", "materia": "fisica", "assunto": "dinamica-energia", "questionario": 3, "dificuldade": 0,
+    "contexto": "Velocidade e energia",
+    "enunciado": "Dois carros de mesma massa se movem, um a 20 m/s e o outro a 40 m/s. Quantas vezes a energia cinética do segundo é maior que a do primeiro?",
+    "alternativas": [
+      { "letra": "A", "texto": "2 vezes", "correta": false, "etiqueta": "fis-esqueceu-quadrado" },
+      { "letra": "B", "texto": "4 vezes", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "8 vezes", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "D", "texto": "16 vezes", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "E", "texto": "1/4 de vez", "correta": false, "etiqueta": "fis-proporcao-invertida" }
+    ],
+    "explicacao": "A energia cinética é proporcional ao quadrado da velocidade (Ec = ½·m·v²). Dobrando a velocidade, a energia fica 2² = 4 vezes maior. Quem esquece o quadrado conclui que a energia só dobra.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-dinamica-energia-015", "materia": "fisica", "assunto": "dinamica-energia", "questionario": 3, "dificuldade": 1,
+    "contexto": "Brinquedo de mola",
+    "enunciado": "Uma mola de constante elástica 200 N/m é comprimida em 0,1 m e lança um bloco de 0,5 kg, em uma superfície sem atrito. Toda a energia da mola vira energia cinética do bloco. Qual é a velocidade do bloco? (Ee = ½·k·x²)",
+    "alternativas": [
+      { "letra": "A", "texto": "4 m/s", "correta": false, "etiqueta": "fis-esqueceu-quadrado" },
+      { "letra": "B", "texto": "40 m/s", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "C", "texto": "0,2 m/s", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "D", "texto": "2,8 m/s", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "E", "texto": "2 m/s", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "A energia da mola é Ee = ½ × 200 × 0,1² = 1 J. Ela vira energia cinética: ½ × 0,5 × v² = 1, então v² = 4 e v = 2 m/s. Os 4 m/s esquecem a raiz quadrada, e os 2,8 m/s esquecem o ½ da energia da mola.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-dinamica-energia-016", "materia": "fisica", "assunto": "dinamica-energia", "questionario": 4, "dificuldade": -1,
+    "contexto": "Motor da bomba",
+    "enunciado": "Um motor tem potência de 500 W e funciona por 20 s. Qual é a energia (trabalho) que ele realiza nesse intervalo?",
+    "alternativas": [
+      { "letra": "A", "texto": "25 J", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "B", "texto": "520 J", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "C", "texto": "10.000 J", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "100.000 J", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "E", "texto": "10 J", "correta": false, "etiqueta": "fis-unidade" }
+    ],
+    "explicacao": "A energia é potência × tempo: E = P × t = 500 × 20 = 10.000 J. Dividir a potência pelo tempo (25) não dá energia.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-dinamica-energia-017", "materia": "fisica", "assunto": "dinamica-energia", "questionario": 4, "dificuldade": 0,
+    "contexto": "Frenagem com atrito",
+    "enunciado": "Um carro de 1.000 kg, a 20 m/s, freia e para depois de percorrer 40 m, com força de atrito constante. Qual é o valor médio da força de atrito?",
+    "alternativas": [
+      { "letra": "A", "texto": "500 N", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "B", "texto": "5.000 N", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "10.000 N", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "D", "texto": "20.000 N", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "E", "texto": "200.000 N", "correta": false, "etiqueta": "fis-parou-no-intermediario" }
+    ],
+    "explicacao": "O trabalho do atrito anula a energia cinética: F × d = ½ × m × v² = ½ × 1.000 × 400 = 200.000 J. Então F = 200.000 ÷ 40 = 5.000 N. Os 200.000 são a energia em joules, e esquecer o ½ dá 10.000 N.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-dinamica-energia-018", "materia": "fisica", "assunto": "dinamica-energia", "questionario": 4, "dificuldade": 0,
+    "contexto": "Freada brusca do ônibus",
+    "enunciado": "Quando um ônibus freia de repente, os passageiros em pé são jogados para a frente. Qual princípio da física explica esse efeito?",
+    "alternativas": [
+      { "letra": "A", "texto": "A inércia (1ª lei de Newton)", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "A ação e reação (3ª lei de Newton)", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "C", "texto": "A relação F = m·a (2ª lei de Newton)", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "D", "texto": "A força da gravidade sobre os passageiros", "correta": false, "etiqueta": "fis-massa-peso" },
+      { "letra": "E", "texto": "A conservação da energia térmica", "correta": false, "etiqueta": "fis-formula-trocada" }
+    ],
+    "explicacao": "A inércia é a tendência de um corpo manter seu estado de movimento. O ônibus freia, mas os passageiros, sem nada que os freie, continuam com a velocidade que tinham e parecem ser jogados para a frente. A gravidade atua na vertical e não explica o movimento horizontal.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-dinamica-energia-019", "materia": "fisica", "assunto": "dinamica-energia", "questionario": 4, "dificuldade": 1,
+    "contexto": "Elevador subindo",
+    "enunciado": "Uma pessoa de 60 kg está em pé sobre uma balança dentro de um elevador que sobe acelerando a 2 m/s². Adotando g = 10 m/s², qual é a força que a balança indica (a normal sobre a pessoa)?",
+    "alternativas": [
+      { "letra": "A", "texto": "600 N", "correta": false, "etiqueta": "fis-ignorou-dado" },
+      { "letra": "B", "texto": "480 N", "correta": false, "etiqueta": "fis-sinal-direcao" },
+      { "letra": "C", "texto": "120 N", "correta": false, "etiqueta": "fis-parou-no-intermediario" },
+      { "letra": "D", "texto": "72 N", "correta": false, "etiqueta": "fis-massa-peso" },
+      { "letra": "E", "texto": "720 N", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Subindo e acelerando, a normal precisa vencer o peso e ainda gerar aceleração: N − P = m·a. Então N = m(g + a) = 60 × 12 = 720 N. Os 600 N seriam o peso com o elevador parado, os 480 N valeriam para um elevador acelerando para baixo, e os 120 N são só m·a.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-dinamica-energia-020", "materia": "fisica", "assunto": "dinamica-energia", "questionario": 4, "dificuldade": 1,
+    "contexto": "Bomba d'água com rendimento",
+    "enunciado": "Um motor elétrico de 1.000 W, com rendimento de 80%, bombeia água para uma caixa 10 m acima. Adotando g = 10 m/s², quantos quilogramas de água ele eleva em 10 s?",
+    "alternativas": [
+      { "letra": "A", "texto": "100 kg", "correta": false, "etiqueta": "fis-ignorou-dado" },
+      { "letra": "B", "texto": "800 kg", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "C", "texto": "8 kg", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "D", "texto": "80 kg", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "125 kg", "correta": false, "etiqueta": "fis-proporcao-invertida" }
+    ],
+    "explicacao": "A potência útil é 80% de 1.000 = 800 W, e em 10 s são 8.000 J de energia útil. Essa energia vira energia potencial: m × g × h = m × 10 × 10 = 100m. Então m = 8.000 ÷ 100 = 80 kg. Sem o rendimento, daria 100 kg.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]

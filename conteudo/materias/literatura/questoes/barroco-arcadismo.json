@@ -1,0 +1,902 @@
+[
+  {
+    "id": "lit-barroco-arcadismo-001",
+    "materia": "literatura",
+    "assunto": "barroco-arcadismo",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Marcas do Barroco",
+    "enunciado": "O Barroco, estilo do século XVII, é marcado por",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "equilíbrio, simplicidade e racionalidade, com inspiração clássica.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "B",
+        "texto": "objetividade científica e análise impessoal da sociedade.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "C",
+        "texto": "ufanismo nacionalista e idealização do indígena.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "D",
+        "texto": "versos livres e rompimento com todas as regras.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "E",
+        "texto": "dualismo e conflito entre o espiritual e o material, com linguagem ornamentada e contrastes.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "O homem barroco vive entre a fé e os prazeres do mundo, e isso se traduz em antíteses, paradoxos e linguagem rebuscada. As outras opções descrevem Arcadismo, Realismo, Romantismo e Modernismo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-barroco-arcadismo-002",
+    "materia": "literatura",
+    "assunto": "barroco-arcadismo",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Marco do Barroco",
+    "enunciado": "O Barroco brasileiro tem como marco inicial, em 1601, a publicação de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "“Obras Poéticas”, de Cláudio Manuel da Costa, em 1768.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "B",
+        "texto": "“Suspiros Poéticos e Saudades”, de Gonçalves de Magalhães, em 1836.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "C",
+        "texto": "“Memórias Póstumas de Brás Cubas”, de Machado de Assis, em 1881.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "D",
+        "texto": "“Pauliceia Desvairada”, de Mário de Andrade, em 1922.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "E",
+        "texto": "“Prosopopeia”, de Bento Teixeira.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "A “Prosopopeia”, poema épico em louvor a Jorge de Albuquerque Coelho, é o marco convencional do início do Barroco no Brasil. As demais obras iniciam, respectivamente, Arcadismo, Romantismo, Realismo e Modernismo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-barroco-arcadismo-003",
+    "materia": "literatura",
+    "assunto": "barroco-arcadismo",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Pequei, Senhor",
+    "enunciado": "“Pequei, Senhor; mas não porque hei pecado, / Da vossa alta clemência me despido; / Porque, quanto mais tenho delinquido, / Vos tenho a perdoar mais empenhado.” (Gregório de Matos). Nos versos, o traço barroco predominante é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a sátira política contra os governantes da colônia.",
+        "correta": false,
+        "etiqueta": "lit-generalizou"
+      },
+      {
+        "letra": "B",
+        "texto": "o elogio da vida simples e tranquila no campo.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "C",
+        "texto": "o conflito religioso entre pecado e perdão, expresso em raciocínio engenhoso.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "a idealização da mulher amada como ser perfeito.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "E",
+        "texto": "a exaltação da natureza brasileira e do indígena.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      }
+    ],
+    "explicacao": "O eu lírico argumenta, de forma engenhosa, que, quanto mais peca, mais o perdão de Deus é necessário. É o conflito entre culpa e esperança de salvação, típico do Barroco. Gregório também escreveu sátiras, mas o trecho é de poesia religiosa.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-barroco-arcadismo-004",
+    "materia": "literatura",
+    "assunto": "barroco-arcadismo",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Triste Bahia",
+    "enunciado": "“Triste Bahia! ó quão dessemelhante / Estás e estou do nosso antigo estado! / Pobre te vejo a ti, tu a mi empenhado, / Rica te vi eu já, tu a mi abundante.” (Gregório de Matos). Os versos expressam",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o elogio da prosperidade da cidade colonial.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "B",
+        "texto": "a decadência da Bahia, empobrecida e explorada, em contraste com um passado de riqueza.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "a exaltação das belezas naturais do Brasil.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "D",
+        "texto": "o lamento por um amor impossível.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      },
+      {
+        "letra": "E",
+        "texto": "a defesa da administração da Coroa portuguesa.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      }
+    ],
+    "explicacao": "O poeta compara a Bahia do passado, rica e generosa, com a atual, pobre e arruinada pelos comerciantes, e lamenta que ela e ele estejam em decadência. É uma poesia satírica e crítica, que mostra o lado “Boca do Inferno” de Gregório.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-barroco-arcadismo-005",
+    "materia": "literatura",
+    "assunto": "barroco-arcadismo",
+    "questionario": 1,
+    "dificuldade": 1,
+    "contexto": "Cultismo e conceptismo",
+    "enunciado": "Sobre as duas tendências do Barroco, é correto afirmar:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o cultismo valoriza o jogo de palavras e a linguagem rebuscada, e o conceptismo valoriza o jogo de ideias e o raciocínio lógico.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "o cultismo valoriza o raciocínio lógico, e o conceptismo, os adornos da linguagem.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-recurso"
+      },
+      {
+        "letra": "C",
+        "texto": "ambos defendem a linguagem simples, sem figuras.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "D",
+        "texto": "o cultismo é exclusivo da poesia, e o conceptismo, do teatro.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-forma"
+      },
+      {
+        "letra": "E",
+        "texto": "o cultismo é do Barroco, e o conceptismo, do Arcadismo.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      }
+    ],
+    "explicacao": "O cultismo, associado ao poeta espanhol Gôngora, trabalha a forma com metáforas, hipérbatos e palavras raras. O conceptismo, associado a Quevedo, constrói argumentos engenhosos, como nos sermões de Vieira. Ambos são tendências do Barroco.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-barroco-arcadismo-006",
+    "materia": "literatura",
+    "assunto": "barroco-arcadismo",
+    "questionario": 2,
+    "dificuldade": -1,
+    "contexto": "Sermão aos peixes",
+    "enunciado": "No “Sermão de Santo Antônio aos Peixes”, o padre Antônio Vieira dirige-se aos peixes. Essa escolha é uma alegoria usada para",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "ensinar técnicas de pesca aos habitantes do Maranhão.",
+        "correta": false,
+        "etiqueta": "lit-leitura-literal"
+      },
+      {
+        "letra": "B",
+        "texto": "apresentar uma fábula infantil sobre animais do mar.",
+        "correta": false,
+        "etiqueta": "lit-leitura-literal"
+      },
+      {
+        "letra": "C",
+        "texto": "registrar uma pesquisa científica sobre a vida dos peixes.",
+        "correta": false,
+        "etiqueta": "lit-leitura-literal"
+      },
+      {
+        "letra": "D",
+        "texto": "criticar os vícios dos homens, especialmente a exploração dos indígenas pelos colonos.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "elogiar a produção pesqueira da colônia.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      }
+    ],
+    "explicacao": "Vieira usa os peixes como alegoria: os peixes grandes devoram os pequenos como os poderosos exploram os fracos. Ao pregar aos peixes porque os homens não o escutavam, ele critica a exploração dos indígenas no Maranhão. Ler ao pé da letra perde o sentido.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-barroco-arcadismo-007",
+    "materia": "literatura",
+    "assunto": "barroco-arcadismo",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Fugere urbem",
+    "enunciado": "No Arcadismo, o lema latino “fugere urbem” significa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "aproveitar o dia, sem se preocupar com o amanhã.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-recurso"
+      },
+      {
+        "letra": "B",
+        "texto": "buscar a vida mediana, sem excessos.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-recurso"
+      },
+      {
+        "letra": "C",
+        "texto": "cortar tudo que for inútil.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-recurso"
+      },
+      {
+        "letra": "D",
+        "texto": "fugir da cidade, em busca da vida simples no campo.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "viver em lugares agradáveis da natureza.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-recurso"
+      }
+    ],
+    "explicacao": "“Fugere urbem” (fugir da cidade) expressa a rejeição à vida urbana e a escolha do campo, associado à simplicidade e à paz. Outros lemas árcades: carpe diem (aproveite o dia), aurea mediocritas (vida mediana) e inutilia truncat (corte o inútil).",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-barroco-arcadismo-008",
+    "materia": "literatura",
+    "assunto": "barroco-arcadismo",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Marília e o pastor",
+    "enunciado": "“Eu, Marília, não sou algum vaqueiro, / Que viva de guardar alheio gado;” (Tomás Antônio Gonzaga). A figura do pastor e da vida campestre nos versos árcades, em geral, é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "um retrato documental e fiel da vida dos vaqueiros.",
+        "correta": false,
+        "etiqueta": "lit-leitura-literal"
+      },
+      {
+        "letra": "B",
+        "texto": "uma crítica ao trabalho pastoril na colônia.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      },
+      {
+        "letra": "C",
+        "texto": "uma convenção literária, já que os poetas eram homens cultos e urbanos.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "uma denúncia do latifúndio e da concentração de terras.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      },
+      {
+        "letra": "E",
+        "texto": "uma idealização do vaqueiro nordestino, típica do Romantismo.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      }
+    ],
+    "explicacao": "O pastor árcade é uma máscara: o poeta se veste de pastor para falar de amor e natureza, imitando os modelos clássicos. No poema, Dirceu diz que não é um simples vaqueiro, mas um homem com posses. A natureza é cenário idealizado, e não realismo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-barroco-arcadismo-009",
+    "materia": "literatura",
+    "assunto": "barroco-arcadismo",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Cartas Chilenas",
+    "enunciado": "As “Cartas Chilenas”, em geral atribuídas a Tomás Antônio Gonzaga, são",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "sátiras em versos contra o governador de Minas Gerais, com nomes trocados e o Chile como cenário fictício.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "poemas amorosos dedicados a Marília.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      },
+      {
+        "letra": "C",
+        "texto": "cartas de viagem de colonos portugueses.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      },
+      {
+        "letra": "D",
+        "texto": "uma epopeia sobre a vida do indígena.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      },
+      {
+        "letra": "E",
+        "texto": "sermões religiosos contra os vícios dos fiéis.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      }
+    ],
+    "explicacao": "O poeta, sob o pseudônimo de Critilo, critica o governador Fanfarrão Minésio (que representa Luís da Cunha Meneses), mas finge que fala do Chile, para escapar da censura. Esse jogo mostra o lado crítico e iluminista do Arcadismo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-barroco-arcadismo-010",
+    "materia": "literatura",
+    "assunto": "barroco-arcadismo",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Arcadismo x Barroco",
+    "enunciado": "Em comparação com o Barroco, o Arcadismo propõe",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "equilíbrio, simplicidade e racionalidade, inspirados na natureza e nos modelos clássicos.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "mais ornamentação e maior conflito entre fé e razão.",
+        "correta": false,
+        "etiqueta": "lit-generalizou"
+      },
+      {
+        "letra": "C",
+        "texto": "subjetivismo exacerbado e fuga do mundo, como no mal do século.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "D",
+        "texto": "cientificismo e determinismo para explicar a sociedade.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "E",
+        "texto": "nacionalismo ufanista e valorização do herói indígena.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      }
+    ],
+    "explicacao": "O Arcadismo reage ao excesso barroco com clareza, razão e simplicidade, de acordo com o Iluminismo. Ele busca a imitação dos clássicos greco-latinos e da natureza. As outras características pertencem a Romantismo, Naturalismo e Indianismo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-barroco-arcadismo-011",
+    "materia": "literatura",
+    "assunto": "barroco-arcadismo",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Marília de Dirceu",
+    "enunciado": "A obra poética “Marília de Dirceu”, um dos maiores sucessos do Arcadismo brasileiro, é de autoria de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Cláudio Manuel da Costa.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      },
+      {
+        "letra": "B",
+        "texto": "Tomás Antônio Gonzaga.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "Basílio da Gama.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      },
+      {
+        "letra": "D",
+        "texto": "Santa Rita Durão.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      },
+      {
+        "letra": "E",
+        "texto": "Gregório de Matos.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      }
+    ],
+    "explicacao": "As liras de Marília e Dirceu são de Tomás Antônio Gonzaga, que usa o pseudônimo árcade Dirceu. Basílio da Gama e Santa Rita Durão escreveram poemas épicos, e Gregório de Matos pertence ao Barroco.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-barroco-arcadismo-012",
+    "materia": "literatura",
+    "assunto": "barroco-arcadismo",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Boca do Inferno",
+    "enunciado": "O poeta que ficou conhecido como “Boca do Inferno” por causa de suas sátiras ferozes foi",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Padre Antônio Vieira.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      },
+      {
+        "letra": "B",
+        "texto": "Cláudio Manuel da Costa.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      },
+      {
+        "letra": "C",
+        "texto": "Tomás Antônio Gonzaga.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      },
+      {
+        "letra": "D",
+        "texto": "Bento Teixeira.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      },
+      {
+        "letra": "E",
+        "texto": "Gregório de Matos.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "Gregório de Matos, poeta baiano do século XVII, satirizou governantes, clérigos e comerciantes de seu tempo e por isso ganhou o apelido. Vieira foi pregador, e os outros nomes são de outras épocas.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-barroco-arcadismo-013",
+    "materia": "literatura",
+    "assunto": "barroco-arcadismo",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Fé e razão",
+    "enunciado": "O Barroco expressa o conflito entre fé e razão. Isso se explica em grande parte",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pelo contexto da Reforma e da Contrarreforma católica, que dividiu a Europa e reforçou o debate religioso.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "pelo Iluminismo, que valorizava apenas a razão.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "C",
+        "texto": "pela independência do Brasil, que mudou a mentalidade.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "D",
+        "texto": "pela Revolução Industrial, que aumentou o número de operários.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "E",
+        "texto": "pela Semana de Arte Moderna, que rompeu com a tradição.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      }
+    ],
+    "explicacao": "O século XVII herda as tensões da Reforma protestante e da Contrarreforma (Concílio de Trento). Em um mundo dividido entre Deus e o prazer terreno, os artistas barrocos expressam angústia e contradição. O Iluminismo veio depois.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-barroco-arcadismo-014",
+    "materia": "literatura",
+    "assunto": "barroco-arcadismo",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Inconfidência e Arcadismo",
+    "enunciado": "Poetas árcades como Cláudio Manuel da Costa e Tomás Antônio Gonzaga foram associados à Inconfidência Mineira (1789). Essa relação indica que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o Arcadismo defendia o absolutismo e a ordem colonial.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "B",
+        "texto": "a Inconfidência foi um movimento romântico.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "C",
+        "texto": "o Arcadismo, ligado ao Iluminismo, também envolveu críticas políticas e ideias de liberdade.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "os poetas árcades rejeitavam as ideias iluministas.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "E",
+        "texto": "os inconfidentes eram, na maior parte, indígenas.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      }
+    ],
+    "explicacao": "O Iluminismo, que valorizava a razão e a liberdade, influenciou tanto os poetas árcades quanto os conjurados mineiros. Gonzaga foi preso e Cláudio Manuel da Costa morreu na prisão. Essa ligação política mostra que o Arcadismo não se limitou ao bucolismo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-barroco-arcadismo-015",
+    "materia": "literatura",
+    "assunto": "barroco-arcadismo",
+    "questionario": 3,
+    "dificuldade": 1,
+    "contexto": "Soneto do campo",
+    "enunciado": "Leia o poema autoral: “Deixo a cidade, o ruído e a corte, / Busco o riacho, a sombra e o pastor; / Contente com pouco, sem medo da sorte, / Aqui vivo em paz, sem ânsia e sem dor.” Predominam nesse texto os ideais árcades de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "contraste dramático entre o céu e o inferno, típico do Barroco.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "B",
+        "texto": "fuga da cidade e de uma vida modesta e tranquila (fugere urbem e aurea mediocritas).",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "crítica social e análise do comportamento, típicas do Realismo.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "D",
+        "texto": "sofrimento e atração pela morte, típicos do ultrarromantismo.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "E",
+        "texto": "rigor formal e arte pela arte, típicos do Parnasianismo.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      }
+    ],
+    "explicacao": "O texto rejeita a cidade e a corte e elogia o campo e a simplicidade, com tom tranquilo e racional. Isso é típico do Arcadismo, que busca a “vida mediana” (aurea mediocritas).",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-barroco-arcadismo-016",
+    "materia": "literatura",
+    "assunto": "barroco-arcadismo",
+    "questionario": 4,
+    "dificuldade": -1,
+    "contexto": "A ordem de Vieira",
+    "enunciado": "O padre Antônio Vieira, grande nome da prosa barroca, pertencia à ordem religiosa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "dos franciscanos.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "B",
+        "texto": "dos beneditinos.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "C",
+        "texto": "dos dominicanos.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "D",
+        "texto": "da Companhia de Jesus (jesuítas).",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "dos carmelitas.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      }
+    ],
+    "explicacao": "Vieira foi jesuíta, missionário e pregador, e defendeu os indígenas contra a escravização. Seus sermões, de grande valor literário, unem argumentação lógica (conceptismo) e linguagem forte.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-barroco-arcadismo-017",
+    "materia": "literatura",
+    "assunto": "barroco-arcadismo",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "O Uraguai e o Caramuru",
+    "enunciado": "“O Uraguai” (1769), de Basílio da Gama, e “Caramuru” (1781), de Santa Rita Durão, são poemas épicos que tratam do indígena e da colonização. Eles pertencem ao",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Barroco, pois exploram o conflito entre fé e razão.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "B",
+        "texto": "Romantismo, pois idealizam o índio como herói nacional.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "C",
+        "texto": "Arcadismo, e já antecipam a presença do indígena e da terra, que o Romantismo exploraria depois.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "Realismo, pois analisam criticamente a sociedade.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "E",
+        "texto": "Simbolismo, pois valorizam a musicalidade e o mistério.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      }
+    ],
+    "explicacao": "Os dois poemas são do Arcadismo brasileiro, escritos em forma épica, à maneira clássica. O tema indígena já aparece, mas só no Romantismo ele se torna central e idealizado.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-barroco-arcadismo-018",
+    "materia": "literatura",
+    "assunto": "barroco-arcadismo",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Quem é Dirceu?",
+    "enunciado": "Em “Marília de Dirceu”, o nome “Dirceu”, que aparece no título e nos versos, é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o nome verdadeiro da mulher amada pelo poeta.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      },
+      {
+        "letra": "B",
+        "texto": "o pseudônimo pastoril usado pelo próprio poeta, Tomás Antônio Gonzaga.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "o nome de um vaqueiro real que trabalhava na fazenda do poeta.",
+        "correta": false,
+        "etiqueta": "lit-leitura-literal"
+      },
+      {
+        "letra": "D",
+        "texto": "o nome do governador criticado nas “Cartas Chilenas”.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      },
+      {
+        "letra": "E",
+        "texto": "o nome de uma cidade de Minas Gerais descrita no poema.",
+        "correta": false,
+        "etiqueta": "lit-leitura-literal"
+      }
+    ],
+    "explicacao": "Os árcades adotavam nomes de pastores clássicos. Gonzaga era Dirceu, e Marília, a amada, era a jovem Maria Dorotéia de Seixas. Esse jogo de máscaras pastoris é uma convenção do Arcadismo, e não um dado documental.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-barroco-arcadismo-019",
+    "materia": "literatura",
+    "assunto": "barroco-arcadismo",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Antíteses e paradoxos",
+    "enunciado": "Leia o poema autoral: “Vivo morrendo, morro por viver; / sou todo fogo e de gelo me consumo; / quanto mais busco, menos posso ter, / e a luz que me acende é a mesma que me apaga.” O estilo do poema é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "árcade, pelo equilíbrio e pela simplicidade da linguagem.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "B",
+        "texto": "parnasiano, pelo vocabulário científico e pela impessoalidade.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "C",
+        "texto": "modernista, pela linguagem coloquial e pelo humor.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "D",
+        "texto": "barroco, pelo dualismo expresso em antíteses e paradoxos.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "naturalista, pela análise determinista do meio social.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      }
+    ],
+    "explicacao": "Vida e morte, fogo e gelo, luz que acende e apaga: as oposições e contradições refletem o conflito interior típico do Barroco. A linguagem é elaborada, e não simples. Esse jogo de contrastes é a marca do estilo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-barroco-arcadismo-020",
+    "materia": "literatura",
+    "assunto": "barroco-arcadismo",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Vieira e os pregadores",
+    "enunciado": "No “Sermão da Sexagésima”, o padre Antônio Vieira critica os pregadores de sua época. Entre as críticas, destaca-se a de que eles",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "não acreditavam em Deus.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      },
+      {
+        "letra": "B",
+        "texto": "obedeciam cegamente à Coroa portuguesa.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "C",
+        "texto": "defendiam a escravidão indígena.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      },
+      {
+        "letra": "D",
+        "texto": "desprezavam os livros e a erudição.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "E",
+        "texto": "usavam linguagem rebuscada e confusa, o que impedia o sermão de convencer e converter os fiéis.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "Vieira defende um sermão claro, com argumentos fortes e dirigido ao ouvinte, e critica o exagero ornamental de alguns pregadores. É um bom exemplo de que o Barroco também tem um lado mais racional e direto (conceptismo).",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  }
+]

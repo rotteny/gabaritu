@@ -1,0 +1,282 @@
+[
+  {
+    "id": "art-musica-001", "materia": "artes", "assunto": "musica", "questionario": 1, "dificuldade": -1,
+    "contexto": "A mesma nota em dois instrumentos",
+    "enunciado": "Num ensaio, uma flauta e um violão tocam exatamente a mesma nota, com a mesma força e durante o mesmo tempo, mas dá pra perceber qual é qual. Qual propriedade do som permite essa distinção?",
+    "alternativas": [
+      { "letra": "A", "texto": "A altura", "correta": false, "etiqueta": "art-elemento-musical" },
+      { "letra": "B", "texto": "A intensidade", "correta": false, "etiqueta": "art-elemento-musical" },
+      { "letra": "C", "texto": "A duração", "correta": false, "etiqueta": "art-elemento-musical" },
+      { "letra": "D", "texto": "O ritmo", "correta": false, "etiqueta": "art-elemento-musical" },
+      { "letra": "E", "texto": "O timbre", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "O timbre é a “cor” do som e permite reconhecer a fonte sonora mesmo quando altura, intensidade e duração são iguais. Como o enunciado já iguala essas três propriedades, só sobra o timbre.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-musica-002", "materia": "artes", "assunto": "musica", "questionario": 1, "dificuldade": -1,
+    "contexto": "Raízes do som do Rio",
+    "enunciado": "Qual gênero musical tem raízes afro-brasileiras, se consolidou no Rio de Janeiro no início do século XX e tem a percussão como destaque, sendo hoje símbolo do Carnaval?",
+    "alternativas": [
+      { "letra": "A", "texto": "Baião", "correta": false, "etiqueta": "art-origem-errada" },
+      { "letra": "B", "texto": "Frevo", "correta": false, "etiqueta": "art-origem-errada" },
+      { "letra": "C", "texto": "Samba", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Ópera", "correta": false, "etiqueta": "art-origem-errada" },
+      { "letra": "E", "texto": "Bossa nova", "correta": false, "etiqueta": "art-errou-epoca" }
+    ],
+    "explicacao": "O samba nasceu de tradições afro-brasileiras, ganhou forma no Rio de Janeiro e se tornou símbolo nacional. Baião e frevo são do Nordeste, a ópera é de tradição europeia e a bossa nova só aparece nos anos 1950.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-musica-003", "materia": "artes", "assunto": "musica", "questionario": 1, "dificuldade": 0,
+    "contexto": "Violão que mudou o jeito de tocar",
+    "enunciado": "No fim dos anos 1950, no Rio de Janeiro, surgiu um estilo com canto suave quase falado, violão de batida sincopada diferente e harmonias sofisticadas influenciadas pelo jazz. Qual descrição combina com esse estilo, a bossa nova?",
+    "alternativas": [
+      { "letra": "A", "texto": "Percussão intensa e vozes em coro, típicas de desfiles de rua", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "B", "texto": "Canto suave, violão com batida sincopada e harmonias influenciadas pelo jazz", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Orquestra sinfônica e canto lírico", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "D", "texto": "Sanfona, zabumba e triângulo marcando o ritmo", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "E", "texto": "Batidas eletrônicas e rimas faladas em alta velocidade", "correta": false, "etiqueta": "art-errou-epoca" }
+    ],
+    "explicacao": "A bossa nova se caracteriza pelo canto contido, pela batida de violão original e pela harmonia rica. Sanfona e zabumba remetem ao baião, e as batidas eletrônicas com rimas faladas lembram gêneros bem posteriores.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-musica-004", "materia": "artes", "assunto": "musica", "questionario": 1, "dificuldade": 0,
+    "contexto": "Sanfona, zabumba e triângulo",
+    "enunciado": "Num arraial, três músicos tocam sanfona, zabumba e triângulo, em ritmo marcado que animou as danças do Nordeste e foi popularizado em todo o país nos anos 1940 por Luiz Gonzaga. Que gênero é esse?",
+    "alternativas": [
+      { "letra": "A", "texto": "Samba de roda", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "B", "texto": "Choro", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "C", "texto": "Frevo", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "D", "texto": "Baião", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Funk carioca", "correta": false, "etiqueta": "art-origem-errada" }
+    ],
+    "explicacao": "A formação com sanfona, zabumba e triângulo é a marca do baião, que está na base do forró. O choro usa instrumentos como flauta e cavaquinho, e o frevo tem sopros e ritmo acelerado, típico de Pernambuco.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-musica-005", "materia": "artes", "assunto": "musica", "questionario": 1, "dificuldade": 1,
+    "contexto": "Recomendações do streaming",
+    "enunciado": "Plataformas de streaming sugerem músicas com base no histórico de audição de cada pessoa. Do ponto de vista do consumo cultural, que questão crítica esse sistema levanta?",
+    "alternativas": [
+      { "letra": "A", "texto": "Pode ampliar o acesso, mas também reforçar bolhas e favorecer o que já é popular, reduzindo a descoberta de diversidade", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Elimina qualquer influência da publicidade na escolha musical", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "C", "texto": "Garante que todos os artistas tenham o mesmo alcance de público", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "D", "texto": "Impede que as pessoas compartilhem músicas entre si", "correta": false, "etiqueta": "art-fuga-do-tema" },
+      { "letra": "E", "texto": "Faz todos os gêneros musicais terem exatamente o mesmo público", "correta": false, "etiqueta": "art-generalizou" }
+    ],
+    "explicacao": "As recomendações facilitam encontrar músicas, mas tendem a repetir o que a pessoa já ouve e o que já faz sucesso, o que pode limitar a variedade. As demais alternativas usam afirmações absolutas que não se sustentam.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-musica-006", "materia": "artes", "assunto": "musica", "questionario": 2, "dificuldade": -1,
+    "contexto": "Elementos da música",
+    "enunciado": "Numa aula, o professor explica que a música se organiza por elementos. O ritmo é:",
+    "alternativas": [
+      { "letra": "A", "texto": "a variação entre sons graves e agudos", "correta": false, "etiqueta": "art-elemento-musical" },
+      { "letra": "B", "texto": "a sucessão de sons que forma a linha principal da música", "correta": false, "etiqueta": "art-elemento-musical" },
+      { "letra": "C", "texto": "a organização dos sons e silêncios no tempo, com pulsação e duração", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "a execução de vários sons ao mesmo tempo, formando acordes", "correta": false, "etiqueta": "art-elemento-musical" },
+      { "letra": "E", "texto": "o volume com que o som é produzido", "correta": false, "etiqueta": "art-elemento-musical" }
+    ],
+    "explicacao": "O ritmo organiza sons e silêncios no tempo. A primeira opção descreve altura, a segunda melodia, a quarta harmonia e a última intensidade.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-musica-007", "materia": "artes", "assunto": "musica", "questionario": 2, "dificuldade": -1,
+    "contexto": "Instrumentos da orquestra",
+    "enunciado": "Em uma orquestra sinfônica, violino, viola, violoncelo e contrabaixo se sentam juntos, pois pertencem à mesma família. Qual é ela?",
+    "alternativas": [
+      { "letra": "A", "texto": "Cordas", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Madeiras", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "C", "texto": "Metais", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "D", "texto": "Percussão", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "E", "texto": "Vozes", "correta": false, "etiqueta": "art-confundiu-linguagem" }
+    ],
+    "explicacao": "Esses instrumentos produzem som pela vibração de cordas e formam a família das cordas. Madeiras (flauta, clarinete), metais (trompete) e percussão (tambores) ficam em outros grupos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-musica-008", "materia": "artes", "assunto": "musica", "questionario": 2, "dificuldade": 0,
+    "contexto": "Palavra ritmada",
+    "enunciado": "O hip hop surgiu nos anos 1970 em bairros periféricos de Nova York e reúne quatro elementos: o DJ, o MC, o breaking e o grafite. O rap, cantado pelo MC, é caracterizado por:",
+    "alternativas": [
+      { "letra": "A", "texto": "melodia lírica cantada com acompanhamento de orquestra", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "B", "texto": "música totalmente instrumental, sem letra", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "C", "texto": "improviso instrumental, como no jazz clássico", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "D", "texto": "letras faladas de forma ritmada, muitas vezes com crítica social, sobre uma base rítmica", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "cantos em latim para cerimônias religiosas", "correta": false, "etiqueta": "art-errou-epoca" }
+    ],
+    "explicacao": "O rap é composto por rimas faladas em cima de uma base rítmica, e é muito usado para comentar a realidade social. O MC é o poeta do hip hop. As outras opções descrevem ópera, música instrumental, jazz e canto sacro.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-musica-009", "materia": "artes", "assunto": "musica", "questionario": 2, "dificuldade": 0,
+    "contexto": "Funk carioca e preconceito",
+    "enunciado": "O funk carioca surgiu nas periferias do Rio de Janeiro a partir dos anos 1980 e já foi alvo de muito preconceito. Qual afirmação trata o tema de modo adequado do ponto de vista cultural?",
+    "alternativas": [
+      { "letra": "A", "texto": "É música sem nenhum valor cultural", "correta": false, "etiqueta": "art-hierarquia-cultural" },
+      { "letra": "B", "texto": "É uma manifestação cultural das periferias e deve ser analisada como tal, sem hierarquizar gostos", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Só a música erudita pode ser considerada cultura legítima", "correta": false, "etiqueta": "art-hierarquia-cultural" },
+      { "letra": "D", "texto": "Surgiu na Europa medieval e chegou ao Brasil na colonização", "correta": false, "etiqueta": "art-origem-errada" },
+      { "letra": "E", "texto": "Serve apenas para dançar e nunca tem nenhuma mensagem", "correta": false, "etiqueta": "art-extremo" }
+    ],
+    "explicacao": "O funk nasceu das periferias cariocas e, como todo gênero, mistura gosto, dança e mensagem. Considerar uma manifestação inferior só por ser popular ou periférica é preconceito cultural, e não análise.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-musica-010", "materia": "artes", "assunto": "musica", "questionario": 2, "dificuldade": 1,
+    "contexto": "Bach encontra o Brasil",
+    "enunciado": "Nas Bachianas Brasileiras, Heitor Villa-Lobos usou formas musicais do compositor barroco Johann Sebastian Bach combinadas com ritmos e melodias de inspiração brasileira. O que esse procedimento revela?",
+    "alternativas": [
+      { "letra": "A", "texto": "A rejeição total da música europeia", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "B", "texto": "A reprodução exata das obras de Bach, sem mudanças", "correta": false, "etiqueta": "art-leitura-literal" },
+      { "letra": "C", "texto": "A produção de música exclusivamente popular, sem nenhuma erudição", "correta": false, "etiqueta": "art-hierarquia-cultural" },
+      { "letra": "D", "texto": "O desprezo pela música popular em favor da erudita", "correta": false, "etiqueta": "art-hierarquia-cultural" },
+      { "letra": "E", "texto": "O diálogo entre a tradição erudita europeia e a cultura popular brasileira", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Villa-Lobos combinou o rigor das formas eruditas europeias com a riqueza rítmica e melódica da cultura brasileira, num diálogo entre dois mundos. Ele não rejeitou a Europa nem copiou Bach, e também não desprezava o popular.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-musica-011", "materia": "artes", "assunto": "musica", "questionario": 3, "dificuldade": -1,
+    "contexto": "Sombrinhas no Carnaval",
+    "enunciado": "Nos carnavais de Recife, o frevo tem ritmo acelerado, bandas de metais e dançarinos que usam pequenas sombrinhas coloridas. Esse gênero é típico de qual região do Brasil?",
+    "alternativas": [
+      { "letra": "A", "texto": "Sul", "correta": false, "etiqueta": "art-origem-errada" },
+      { "letra": "B", "texto": "Nordeste", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Centro-Oeste", "correta": false, "etiqueta": "art-origem-errada" },
+      { "letra": "D", "texto": "Sudeste, em especial o interior de São Paulo", "correta": false, "etiqueta": "art-origem-errada" },
+      { "letra": "E", "texto": "Norte, em especial o Acre", "correta": false, "etiqueta": "art-origem-errada" }
+    ],
+    "explicacao": "Recife fica em Pernambuco, no Nordeste, onde o frevo nasceu. O enunciado já dá a pista da cidade.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-musica-012", "materia": "artes", "assunto": "musica", "questionario": 3, "dificuldade": 0,
+    "contexto": "Piano e forte na partitura",
+    "enunciado": "Numa partitura de um coral, o início do trecho vem marcado com a palavra “piano” e, mais adiante, aparece “forte”. Nenhum piano será tocado. O que essas indicações orientam?",
+    "alternativas": [
+      { "letra": "A", "texto": "A troca do instrumento por um piano", "correta": false, "etiqueta": "art-leitura-literal" },
+      { "letra": "B", "texto": "A mudança de altura, de grave para agudo", "correta": false, "etiqueta": "art-elemento-musical" },
+      { "letra": "C", "texto": "A mudança de velocidade, de lento para rápido", "correta": false, "etiqueta": "art-elemento-musical" },
+      { "letra": "D", "texto": "A mudança de timbre, de claro para escuro", "correta": false, "etiqueta": "art-elemento-musical" },
+      { "letra": "E", "texto": "A mudança de intensidade, de som suave para som forte", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Na partitura, piano indica som suave e forte indica som mais intenso, ou seja, dinâmica de intensidade. A velocidade é o andamento, e a palavra “piano” aqui nada tem a ver com o instrumento.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-musica-013", "materia": "artes", "assunto": "musica", "questionario": 3, "dificuldade": 0,
+    "contexto": "Ouvindo o pátio da escola",
+    "enunciado": "Uma turma grava os sons do pátio da escola no recreio: bola quicando, vozes, sino, portão. Depois, os alunos analisam e montam uma composição com esses sons. A atividade trabalha com:",
+    "alternativas": [
+      { "letra": "A", "texto": "solfejo, que é a leitura cantada das notas", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "B", "texto": "partitura de orquestra sinfônica", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "C", "texto": "paisagem sonora, o conjunto de sons de um ambiente", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "música instrumental erudita do século XIX", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "E", "texto": "afinação de instrumentos de corda", "correta": false, "etiqueta": "art-fuga-do-tema" }
+    ],
+    "explicacao": "A paisagem sonora é o conjunto de sons que caracterizam um ambiente. Gravar, escutar e recompor esses sons ajuda a perceber que som do cotidiano também pode virar música.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-musica-014", "materia": "artes", "assunto": "musica", "questionario": 3, "dificuldade": 1,
+    "contexto": "Cantar junto na rua",
+    "enunciado": "Em manifestações de rua e em torcidas, grupos cantam melodias simples, de poucas notas, com refrões repetidos. Que explicação se relaciona à função social desse tipo de canto?",
+    "alternativas": [
+      { "letra": "A", "texto": "Melodias e refrões simples facilitam a participação coletiva e reforçam a união e a identidade do grupo", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Só quem tem formação musical consegue cantar", "correta": false, "etiqueta": "art-hierarquia-cultural" },
+      { "letra": "C", "texto": "O objetivo é exibir virtuosismo técnico dos cantores", "correta": false, "etiqueta": "art-fuga-do-tema" },
+      { "letra": "D", "texto": "O canto coletivo nunca pode carregar uma mensagem", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "E", "texto": "Repetir refrões é sempre sinal de falta de criatividade", "correta": false, "etiqueta": "art-extremo" }
+    ],
+    "explicacao": "A simplicidade permite que todos cantem junto, e cantar junto cria sentimento de grupo. A música tem função social, e a repetição aqui é uma ferramenta, não um defeito.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-musica-015", "materia": "artes", "assunto": "musica", "questionario": 3, "dificuldade": 1,
+    "contexto": "Flauta, violão e cavaquinho",
+    "enunciado": "O choro surgiu no Rio de Janeiro no século XIX, entre músicos populares que tocavam flauta, violão e cavaquinho. Que processo cultural explica o surgimento do gênero?",
+    "alternativas": [
+      { "letra": "A", "texto": "A importação direta de gêneros europeus, sem nenhuma mudança", "correta": false, "etiqueta": "art-ignorou-contexto" },
+      { "letra": "B", "texto": "A criação exclusiva por povos indígenas, sem outras influências", "correta": false, "etiqueta": "art-origem-errada" },
+      { "letra": "C", "texto": "A derivação exclusiva de cantos religiosos", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "D", "texto": "A fusão de gêneros europeus de salão com ritmos de matriz africana, tocada por músicos populares urbanos", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "O isolamento rural, longe das cidades", "correta": false, "etiqueta": "art-origem-errada" }
+    ],
+    "explicacao": "O choro nasceu na cidade, quando músicos populares passaram a tocar polcas e valsas europeias com a síncopa e o balanço de matriz africana. Essa mistura de culturas é uma marca da música brasileira.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-musica-016", "materia": "artes", "assunto": "musica", "questionario": 4, "dificuldade": -1,
+    "contexto": "Notas no papel",
+    "enunciado": "A pauta musical, onde as notas são escritas na partitura, é formada por um conjunto de linhas paralelas. Quantas linhas ela tem?",
+    "alternativas": [
+      { "letra": "A", "texto": "Três", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "B", "texto": "Quatro", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "C", "texto": "Seis", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "D", "texto": "Cinco", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Sete, uma para cada nota", "correta": false, "etiqueta": "art-confundiu-linguagem" }
+    ],
+    "explicacao": "A pauta tem cinco linhas e quatro espaços, onde as notas são colocadas. As sete notas musicais não têm uma linha cada.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-musica-017", "materia": "artes", "assunto": "musica", "questionario": 4, "dificuldade": 0,
+    "contexto": "Canto e maracá",
+    "enunciado": "Em rituais de muitos povos indígenas, o canto e o maracá acompanham danças e marcam momentos importantes da vida da comunidade. Qual é a função dessa música?",
+    "alternativas": [
+      { "letra": "A", "texto": "Função exclusivamente comercial, voltada à venda de discos", "correta": false, "etiqueta": "art-ignorou-contexto" },
+      { "letra": "B", "texto": "Função ritual e social, reforçando a identidade e a relação com a comunidade e a natureza", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Apenas entretenimento infantil, sem significado", "correta": false, "etiqueta": "art-funcao-so-decorativa" },
+      { "letra": "D", "texto": "Imitar a música europeia dos séculos anteriores", "correta": false, "etiqueta": "art-hierarquia-cultural" },
+      { "letra": "E", "texto": "Preparar o registro obrigatório em partitura", "correta": false, "etiqueta": "art-fuga-do-tema" }
+    ],
+    "explicacao": "Nessas culturas, a música faz parte da vida coletiva e do ritual, e tem significado social e espiritual. Não depende de partitura, e a transmissão é oral.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-musica-018", "materia": "artes", "assunto": "musica", "questionario": 4, "dificuldade": 0,
+    "contexto": "Recortar e repetir",
+    "enunciado": "Uma produtora musical recorta um trecho de uma gravação antiga, repete esse trecho em ciclo e usa como base para uma música nova. Como se chama essa prática?",
+    "alternativas": [
+      { "letra": "A", "texto": "Sampling, ou amostragem", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Solfejo", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "C", "texto": "Improviso coral", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "D", "texto": "Transposição de tom", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "E", "texto": "Notação gregoriana", "correta": false, "etiqueta": "art-errou-epoca" }
+    ],
+    "explicacao": "Usar trechos de gravações existentes como material para criar novas músicas é o sampling, muito comum no hip hop e na música eletrônica. Solfejo é ler as notas cantando e transposição é mudar o tom de uma música.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-musica-019", "materia": "artes", "assunto": "musica", "questionario": 4, "dificuldade": 1,
+    "contexto": "Ópera com tema indígena",
+    "enunciado": "A ópera “O Guarani”, de Carlos Gomes, baseada num romance de José de Alencar, estreou em 1870 em Milão. Cantada em italiano, apresenta personagens indígenas dentro da linguagem da ópera europeia. O que isso mostra?",
+    "alternativas": [
+      { "letra": "A", "texto": "Uma ruptura total com os modelos europeus", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "B", "texto": "A inspiração direta em ritmos africanos", "correta": false, "etiqueta": "art-origem-errada" },
+      { "letra": "C", "texto": "Uma música feita para dança de salão", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "D", "texto": "A proposta antropofágica de 1928", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "E", "texto": "Um tema nacional tratado com linguagem europeia, típica do Romantismo, e com visão idealizada do indígena", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "A obra une tema brasileiro e forma operística europeia, dentro do Romantismo do século XIX, e apresenta uma visão idealizada do indígena. A antropofagia só aparece no modernismo, quase sessenta anos depois.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-musica-020", "materia": "artes", "assunto": "musica", "questionario": 4, "dificuldade": 1,
+    "contexto": "Desfile de escola de samba",
+    "enunciado": "Um desfile de escola de samba reúne samba-enredo, bateria, dança, fantasias, esculturas em carros alegóricos e um tema contado em sequência, preparado por centenas de pessoas da comunidade ao longo do ano. Como pode ser descrito?",
+    "alternativas": [
+      { "letra": "A", "texto": "Uma manifestação apenas musical", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "B", "texto": "Uma exibição de fantasias, sem relação com música", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "C", "texto": "Uma manifestação que integra música, dança, artes visuais e narrativa, fruto de trabalho coletivo", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Uma apresentação de improviso, sem planejamento", "correta": false, "etiqueta": "art-ignorou-contexto" },
+      { "letra": "E", "texto": "Uma atividade exclusivamente comercial, sem valor cultural", "correta": false, "etiqueta": "art-funcao-so-decorativa" }
+    ],
+    "explicacao": "O desfile combina várias linguagens artísticas e depende de uma enorme organização coletiva, o que o torna uma manifestação cultural complexa. Reduzi-lo a só música, só fantasia ou só negócio ignora essa integração.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]

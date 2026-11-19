@@ -1,0 +1,902 @@
+[
+  {
+    "id": "soc-cultura-e-diversidade-001",
+    "materia": "sociologia",
+    "assunto": "cultura-e-diversidade",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Intercâmbio e estranhamento",
+    "enunciado": "Uma estudante de intercâmbio acha 'estranho' que, em certo país, se coma com as mãos, e diz que 'o jeito certo de comer é o do Brasil'. Essa atitude é um exemplo de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "relativismo cultural",
+        "correta": false,
+        "etiqueta": "soc-etnocentrismo-relativismo"
+      },
+      {
+        "letra": "B",
+        "texto": "etnocentrismo",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "aculturação",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "patrimônio imaterial",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "globalização",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      }
+    ],
+    "explicacao": "Etnocentrismo é julgar outras culturas pelos padrões da própria, tomando-a como referência de 'certo'. O relativismo cultural faz o contrário: procura entender os costumes dentro de seu contexto.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cultura-e-diversidade-002",
+    "materia": "sociologia",
+    "assunto": "cultura-e-diversidade",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "O que é cultura",
+    "enunciado": "Na Sociologia e na Antropologia, a palavra 'cultura' designa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "apenas as artes consideradas eruditas",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "algo biológico, herdado nos genes",
+        "correta": false,
+        "etiqueta": "soc-naturalizou"
+      },
+      {
+        "letra": "C",
+        "texto": "só as tradições muito antigas",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "o conjunto de saberes, valores, costumes e práticas aprendidos e compartilhados por um grupo",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "o grau de escolaridade de uma pessoa",
+        "correta": false,
+        "etiqueta": "soc-leitura-literal"
+      }
+    ],
+    "explicacao": "Cultura é tudo o que um grupo aprende e compartilha: língua, crenças, valores, hábitos e modos de fazer. Não é só arte erudita nem herança genética.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cultura-e-diversidade-003",
+    "materia": "sociologia",
+    "assunto": "cultura-e-diversidade",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Sem julgar de cara",
+    "enunciado": "Uma antropóloga estuda o ritual de passagem de um povo sem julgá-lo pelos seus próprios valores, buscando entender o sentido dele dentro daquela cultura. Essa postura é o",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "relativismo cultural",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "etnocentrismo",
+        "correta": false,
+        "etiqueta": "soc-etnocentrismo-relativismo"
+      },
+      {
+        "letra": "C",
+        "texto": "preconceito",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "assimilação forçada",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "indústria cultural",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      }
+    ],
+    "explicacao": "O relativismo cultural é um método: compreender práticas dentro do contexto em que fazem sentido, sem tomá-las como inferiores ou superiores.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cultura-e-diversidade-004",
+    "materia": "sociologia",
+    "assunto": "cultura-e-diversidade",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Misturas culturais",
+    "enunciado": "Em uma comunidade fictícia, os jovens passam a usar roupas e músicas de outra cultura, misturando-as com suas tradições e criando algo novo. Esse fenômeno mostra",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a extinção inevitável da cultura local",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "B",
+        "texto": "que a cultura local era inferior",
+        "correta": false,
+        "etiqueta": "soc-etnocentrismo-relativismo"
+      },
+      {
+        "letra": "C",
+        "texto": "que a cultura é algo natural e imutável",
+        "correta": false,
+        "etiqueta": "soc-naturalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "que a cultura se resume a imitação sem criação",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      },
+      {
+        "letra": "E",
+        "texto": "que o contato entre culturas gera trocas e reinterpretações, como no hibridismo cultural",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "No contato entre culturas há trocas, adaptações e criações novas. O processo não leva necessariamente ao desaparecimento da cultura local.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cultura-e-diversidade-005",
+    "materia": "sociologia",
+    "assunto": "cultura-e-diversidade",
+    "questionario": 1,
+    "dificuldade": 1,
+    "contexto": "Cultura em série",
+    "enunciado": "Filmes e músicas produzidos em série, com fórmulas repetidas e pensados para vender ao maior público possível, ilustram, segundo Adorno e Horkheimer, o que eles chamaram de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "cultura popular espontânea",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "cultura erudita",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "indústria cultural",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "relativismo cultural",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "folclore",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      }
+    ],
+    "explicacao": "A indústria cultural transforma a cultura em mercadoria padronizada para consumo de massa, o que, para esses autores, pode limitar o pensamento crítico.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cultura-e-diversidade-006",
+    "materia": "sociologia",
+    "assunto": "cultura-e-diversidade",
+    "questionario": 2,
+    "dificuldade": -1,
+    "contexto": "Patrimônio que não se pega",
+    "enunciado": "O frevo e a roda de capoeira são reconhecidos pelo Iphan como bens culturais. Por serem saberes, expressões e práticas, e não objetos físicos, eles são exemplos de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "patrimônio material, como prédios",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "indústria cultural",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "cultura de massa",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "propriedade privada",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "patrimônio cultural imaterial",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "Patrimônio imaterial reúne saberes, celebrações, formas de expressão e lugares ligados a práticas culturais. Patrimônio material é composto por bens físicos, como prédios e objetos.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cultura-e-diversidade-007",
+    "materia": "sociologia",
+    "assunto": "cultura-e-diversidade",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Imagem simplificada",
+    "enunciado": "Quando alguém diz que 'todo mundo de determinado estado tem o mesmo jeito', usa uma imagem simplificada e generalizada que ignora a variedade do grupo. Isso é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "um estereótipo",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "relativismo cultural",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "um fato social",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "mobilidade social",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "socialização",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      }
+    ],
+    "explicacao": "Estereótipo é uma ideia fixa e generalizada sobre um grupo. Ele ignora diferenças individuais e pode alimentar preconceitos.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cultura-e-diversidade-008",
+    "materia": "sociologia",
+    "assunto": "cultura-e-diversidade",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Aprender a viver em grupo",
+    "enunciado": "Uma criança aprende a dizer 'obrigada', esperar a vez e respeitar regras, por meio da família, da escola, dos amigos e da mídia. Esse processo é a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "herança genética",
+        "correta": false,
+        "etiqueta": "soc-naturalizou"
+      },
+      {
+        "letra": "B",
+        "texto": "anomia",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "socialização",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "alienação",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "exclusão",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      }
+    ],
+    "explicacao": "Socialização é o processo em que a pessoa aprende normas, valores e comportamentos da sociedade em que vive, por meio de várias instituições.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cultura-e-diversidade-009",
+    "materia": "sociologia",
+    "assunto": "cultura-e-diversidade",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Mestiçagem e racismo",
+    "enunciado": "A ideia de que a mistura entre povos tornou o Brasil livre de racismo é criticada pela Sociologia. A crítica se baseia no fato de que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a mestiçagem nunca existiu",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "B",
+        "texto": "indicadores sociais mostram desigualdades persistentes entre grupos raciais, que a mistura cultural não eliminou",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "o racismo só existe em outros países",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "a Sociologia nega a existência de diferenças culturais",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "E",
+        "texto": "o racismo acabou com a abolição, em 1888",
+        "correta": false,
+        "etiqueta": "soc-anacronismo"
+      }
+    ],
+    "explicacao": "Falar em 'democracia racial' esconde desigualdades de renda, escolaridade e violência que seguem marcando a população negra. Misturar culturas não elimina discriminação.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cultura-e-diversidade-010",
+    "materia": "sociologia",
+    "assunto": "cultura-e-diversidade",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Tradição e tecnologia",
+    "enunciado": "Um jovem de uma comunidade tradicional publica vídeos em redes sociais usando elementos de sua própria cultura. Esse caso mostra que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a cultura tradicional desaparece sempre que há tecnologia",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "B",
+        "texto": "quem usa tecnologia deixa de pertencer à comunidade",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      },
+      {
+        "letra": "C",
+        "texto": "a cultura é imutável",
+        "correta": false,
+        "etiqueta": "soc-naturalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "as identidades culturais são dinâmicas, e tradição e tecnologia podem se combinar",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "a internet cria uma cultura uniforme para todos",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      }
+    ],
+    "explicacao": "As culturas se transformam o tempo todo. Novas tecnologias podem ser usadas para afirmar e divulgar tradições, sem anular a identidade do grupo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cultura-e-diversidade-011",
+    "materia": "sociologia",
+    "assunto": "cultura-e-diversidade",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Cultura que vem do povo",
+    "enunciado": "Festas juninas, repentes e bumba meu boi, criados e mantidos pelo povo em comunidades, são exemplos de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "cultura erudita",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "cultura importada",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "cultura popular",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "invenção recente da televisão",
+        "correta": false,
+        "etiqueta": "soc-anacronismo"
+      },
+      {
+        "letra": "E",
+        "texto": "manifestações sem valor cultural",
+        "correta": false,
+        "etiqueta": "soc-etnocentrismo-relativismo"
+      }
+    ],
+    "explicacao": "Cultura popular é a produzida e transmitida pelo povo em seu cotidiano. Ela tem valor cultural igual ao de outras formas de expressão.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cultura-e-diversidade-012",
+    "materia": "sociologia",
+    "assunto": "cultura-e-diversidade",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Aprendido, e não instintivo",
+    "enunciado": "Usar talheres para comer é um hábito presente em muitas sociedades. Do ponto de vista sociológico, esse hábito é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "instintivo, como o ato de respirar",
+        "correta": false,
+        "etiqueta": "soc-naturalizou"
+      },
+      {
+        "letra": "B",
+        "texto": "transmitido pelos genes",
+        "correta": false,
+        "etiqueta": "soc-naturalizou"
+      },
+      {
+        "letra": "C",
+        "texto": "natural a todos os seres humanos",
+        "correta": false,
+        "etiqueta": "soc-naturalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "determinado pelas características físicas de cada grupo",
+        "correta": false,
+        "etiqueta": "soc-naturalizou"
+      },
+      {
+        "letra": "E",
+        "texto": "cultural, ou seja, aprendido socialmente",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "Hábitos alimentares são aprendidos no convívio social. Há sociedades que comem com as mãos ou com palitos, o que mostra que não é algo instintivo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cultura-e-diversidade-013",
+    "materia": "sociologia",
+    "assunto": "cultura-e-diversidade",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Convivendo com as diferenças",
+    "enunciado": "O multiculturalismo defende",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "que uma cultura deve prevalecer sobre as outras",
+        "correta": false,
+        "etiqueta": "soc-etnocentrismo-relativismo"
+      },
+      {
+        "letra": "B",
+        "texto": "a proibição de línguas minoritárias",
+        "correta": false,
+        "etiqueta": "soc-etnocentrismo-relativismo"
+      },
+      {
+        "letra": "C",
+        "texto": "uma única cultura nacional",
+        "correta": false,
+        "etiqueta": "soc-etnocentrismo-relativismo"
+      },
+      {
+        "letra": "D",
+        "texto": "o reconhecimento da coexistência de várias culturas e o respeito às diferenças",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "a supressão de tradições que sejam diferentes da maioria",
+        "correta": false,
+        "etiqueta": "soc-etnocentrismo-relativismo"
+      }
+    ],
+    "explicacao": "No multiculturalismo, diferentes culturas convivem na mesma sociedade com reconhecimento e respeito, sem que uma seja considerada superior.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cultura-e-diversidade-014",
+    "materia": "sociologia",
+    "assunto": "cultura-e-diversidade",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Muitas línguas no Brasil",
+    "enunciado": "No Brasil se falam, além do português, línguas indígenas, de imigrantes e de sinais. Do ponto de vista cultural,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a diversidade linguística é parte do patrimônio cultural, e políticas de valorização ajudam a preservá-la",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "o português é a única língua falada no país",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "C",
+        "texto": "línguas minoritárias atrapalham o desenvolvimento",
+        "correta": false,
+        "etiqueta": "soc-etnocentrismo-relativismo"
+      },
+      {
+        "letra": "D",
+        "texto": "só existem várias línguas em países pequenos",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      },
+      {
+        "letra": "E",
+        "texto": "todas as línguas indígenas já desapareceram",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      }
+    ],
+    "explicacao": "As línguas carregam saberes e identidades. A diversidade linguística é uma riqueza cultural, e há políticas para registrá-las e valorizá-las.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cultura-e-diversidade-015",
+    "materia": "sociologia",
+    "assunto": "cultura-e-diversidade",
+    "questionario": 3,
+    "dificuldade": 1,
+    "contexto": "Relativismo não é aceitar tudo",
+    "enunciado": "Alguém afirma: 'se o relativismo cultural manda respeitar toda cultura, então qualquer prática, mesmo violando direitos humanos, deve ser aceita'. A resposta mais adequada é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "sim, qualquer prática deve ser aceita",
+        "correta": false,
+        "etiqueta": "soc-descritivo-normativo"
+      },
+      {
+        "letra": "B",
+        "texto": "não: o relativismo é um método para compreender práticas em seu contexto, e não impede críticas fundamentadas nos direitos humanos",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "o relativismo prova que não existem valores",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "D",
+        "texto": "relativismo e etnocentrismo são sinônimos",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "o relativismo só vale para tradições muito antigas",
+        "correta": false,
+        "etiqueta": "soc-anacronismo"
+      }
+    ],
+    "explicacao": "Compreender uma prática em seu contexto não significa aprová-la. O relativismo é ferramenta de análise e convive com debates éticos e com a defesa dos direitos humanos.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cultura-e-diversidade-016",
+    "materia": "sociologia",
+    "assunto": "cultura-e-diversidade",
+    "questionario": 4,
+    "dificuldade": -1,
+    "contexto": "Quem sou eu?",
+    "enunciado": "A identidade cultural pode ser definida como",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o documento de identidade de uma pessoa",
+        "correta": false,
+        "etiqueta": "soc-leitura-literal"
+      },
+      {
+        "letra": "B",
+        "texto": "somente a nacionalidade",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      },
+      {
+        "letra": "C",
+        "texto": "algo transmitido apenas pela genética",
+        "correta": false,
+        "etiqueta": "soc-naturalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "o sentimento de pertencimento a um grupo, construído por língua, hábitos, história e valores",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "a profissão que a pessoa exerce",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      }
+    ],
+    "explicacao": "A identidade cultural é construída socialmente, pelas experiências, práticas e valores compartilhados, e pode mudar ao longo da vida.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cultura-e-diversidade-017",
+    "materia": "sociologia",
+    "assunto": "cultura-e-diversidade",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Alta e baixa cultura",
+    "enunciado": "Por que a divisão entre 'alta cultura' e 'cultura popular' é criticada por sociólogos?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "porque algumas manifestações são naturalmente superiores",
+        "correta": false,
+        "etiqueta": "soc-naturalizou"
+      },
+      {
+        "letra": "B",
+        "texto": "porque só a cultura erudita é cultura",
+        "correta": false,
+        "etiqueta": "soc-etnocentrismo-relativismo"
+      },
+      {
+        "letra": "C",
+        "texto": "porque o prestígio de certas manifestações é construído socialmente e costuma refletir posições de classe, e não qualidade intrínseca",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "porque a cultura popular nunca muda",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      },
+      {
+        "letra": "E",
+        "texto": "porque a classe social não influencia o gosto",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      }
+    ],
+    "explicacao": "Quais manifestações têm prestígio depende de quem tem poder para legitimá-las. Por isso a hierarquia entre 'alta' e 'baixa' cultura tem forte componente social.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cultura-e-diversidade-018",
+    "materia": "sociologia",
+    "assunto": "cultura-e-diversidade",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Gírias e línguas vivas",
+    "enunciado": "Do ponto de vista da Sociologia da linguagem, o surgimento de gírias e de formas diferentes de falar indica que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "as gírias destroem a língua",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "B",
+        "texto": "a língua é viva e muda com o uso social, e a variação não é, por si só, erro",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "só existe uma forma correta de falar",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "D",
+        "texto": "a variação só ocorre entre pessoas sem escolaridade",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      },
+      {
+        "letra": "E",
+        "texto": "mudar é sinal de decadência da língua",
+        "correta": false,
+        "etiqueta": "soc-descritivo-normativo"
+      }
+    ],
+    "explicacao": "As línguas se transformam com o uso, e a variação reflete região, idade, grupo e situação. A norma-padrão é uma das variedades, e não 'a única correta' em todos os contextos.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cultura-e-diversidade-019",
+    "materia": "sociologia",
+    "assunto": "cultura-e-diversidade",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Feira de culturas",
+    "enunciado": "Em uma escola fictícia, a feira de culturas só exibiu pratos de países europeus, 'por serem mais sofisticados'. Essa justificativa revela",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "respeito à diversidade cultural",
+        "correta": false,
+        "etiqueta": "soc-etnocentrismo-relativismo"
+      },
+      {
+        "letra": "B",
+        "texto": "relativismo cultural",
+        "correta": false,
+        "etiqueta": "soc-etnocentrismo-relativismo"
+      },
+      {
+        "letra": "C",
+        "texto": "indústria cultural",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "neutralidade cultural",
+        "correta": false,
+        "etiqueta": "soc-etnocentrismo-relativismo"
+      },
+      {
+        "letra": "E",
+        "texto": "etnocentrismo, ao hierarquizar culturas pelo padrão próprio",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "Chamar uma cultura de 'mais sofisticada' e excluir as demais é julgar pelo critério do próprio grupo. Uma feira de culturas deveria valorizar a diversidade.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-cultura-e-diversidade-020",
+    "materia": "sociologia",
+    "assunto": "cultura-e-diversidade",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Santos e orixás",
+    "enunciado": "No período escravista, africanos escravizados associaram divindades do candomblé a santos católicos, mantendo suas crenças sob vigilância. Esse processo ilustra",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o sincretismo religioso como forma de adaptação e resistência em contexto de dominação",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "a conversão total ao catolicismo",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "C",
+        "texto": "uma aculturação sem trocas, só com perda",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "D",
+        "texto": "a extinção das religiões de matriz africana",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "E",
+        "texto": "a inexistência de resistência dos escravizados",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      }
+    ],
+    "explicacao": "O sincretismo foi uma estratégia de preservar práticas e crenças em um contexto de repressão, misturando símbolos de religiões diferentes.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  }
+]

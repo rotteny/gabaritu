@@ -1,0 +1,902 @@
+[
+  {
+    "id": "por-interpretacao-de-texto-001",
+    "materia": "portugues",
+    "assunto": "interpretacao-de-texto",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Bilhete na geladeira",
+    "enunciado": "Leia o bilhete: “Léo, deixei o jantar no micro-ondas. Não me espere acordado: a reunião da escola vai longe e devo chegar depois da meia-noite. Tranque a porta. Beijo, mãe.” Com base no bilhete, é correto concluir que a mãe de Léo",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "está preocupada com as notas de Léo na escola.",
+        "correta": false,
+        "etiqueta": "por-extrapolacao"
+      },
+      {
+        "letra": "B",
+        "texto": "deixou o jantar na casa da vizinha.",
+        "correta": false,
+        "etiqueta": "por-contradicao-texto"
+      },
+      {
+        "letra": "C",
+        "texto": "só voltará de madrugada e não jantará com o filho.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "chegará antes da meia-noite para conversar com ele.",
+        "correta": false,
+        "etiqueta": "por-leitura-superficial"
+      },
+      {
+        "letra": "E",
+        "texto": "foi chamada à escola por mau comportamento do filho.",
+        "correta": false,
+        "etiqueta": "por-extrapolacao"
+      }
+    ],
+    "explicacao": "O bilhete diz que a reunião “vai longe” e que ela deve chegar depois da meia-noite, então Léo jantará sozinho. Nada no texto fala de notas ou de mau comportamento: a reunião pode ser de qualquer assunto. Quem inventa o motivo vai além do que está escrito.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-interpretacao-de-texto-002",
+    "materia": "portugues",
+    "assunto": "interpretacao-de-texto",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Boa notícia, nota baixa",
+    "enunciado": "Em uma tirinha autoral, um menino mostra ao pai uma prova com nota 4,0 e diz: “Pai, a boa notícia é que a nota não é negativa.” O humor da tirinha está no fato de o menino",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "comemorar de verdade a nota, convencido de que foi muito bem.",
+        "correta": false,
+        "etiqueta": "por-ignorou-ironia"
+      },
+      {
+        "letra": "B",
+        "texto": "provar ao pai que o professor errou na correção.",
+        "correta": false,
+        "etiqueta": "por-extrapolacao"
+      },
+      {
+        "letra": "C",
+        "texto": "dizer que a nota é negativa e, por isso, não vale nada.",
+        "correta": false,
+        "etiqueta": "por-contradicao-texto"
+      },
+      {
+        "letra": "D",
+        "texto": "tentar suavizar uma nota ruim apresentando como vantagem algo que é o mínimo esperado.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "mostrar uma prova sem nota alguma ao pai.",
+        "correta": false,
+        "etiqueta": "por-leitura-superficial"
+      }
+    ],
+    "explicacao": "A “boa notícia” só soa boa porque o menino compara a nota com um piso absurdo, o negativo. É uma forma de fugir da bronca, e o contraste entre a nota 4,0 e o tom animado gera o humor. Ler a fala como comemoração sincera ignora esse jogo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-interpretacao-de-texto-003",
+    "materia": "portugues",
+    "assunto": "interpretacao-de-texto",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Pedalar até a escola",
+    "enunciado": "“Pedalar até a escola economiza dinheiro, reduz a poluição e melhora a saúde. Mas de nada adianta incentivar o hábito se a cidade não oferece ciclovias seguras: sem infraestrutura, o discurso vira propaganda vazia.” A tese do texto é que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a bicicleta é o meio de transporte mais econômico e saudável que existe.",
+        "correta": false,
+        "etiqueta": "por-reducao"
+      },
+      {
+        "letra": "B",
+        "texto": "as cidades brasileiras são sempre perigosas para os ciclistas.",
+        "correta": false,
+        "etiqueta": "por-extrapolacao"
+      },
+      {
+        "letra": "C",
+        "texto": "o hábito de pedalar não traz nenhum benefício real à saúde.",
+        "correta": false,
+        "etiqueta": "por-contradicao-texto"
+      },
+      {
+        "letra": "D",
+        "texto": "o incentivo ao uso da bicicleta só será eficaz se vier acompanhado de ciclovias seguras.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "o transporte escolar é um problema de saúde pública.",
+        "correta": false,
+        "etiqueta": "por-tema-x-tese"
+      }
+    ],
+    "explicacao": "Os benefícios da bicicleta aparecem no início, mas o “Mas” mostra onde o autor quer chegar: sem ciclovias, o incentivo é inútil. Essa é a posição defendida, e não só o assunto (bicicleta e escola) nem os argumentos de apoio.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-interpretacao-de-texto-004",
+    "materia": "portugues",
+    "assunto": "interpretacao-de-texto",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Biblioteca aos domingos",
+    "enunciado": "Notícia autoral: “Biblioteca municipal amplia horário e passa a abrir aos domingos, das 9h às 17h, mas o empréstimo de livros continuará restrito aos dias úteis.” De acordo com o texto, no domingo uma pessoa poderá",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "levar livros emprestados e devolvê-los na segunda-feira.",
+        "correta": false,
+        "etiqueta": "por-contradicao-texto"
+      },
+      {
+        "letra": "B",
+        "texto": "consultar e ler livros no local, sem levá-los para casa.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "apenas devolver livros, mas não consultá-los.",
+        "correta": false,
+        "etiqueta": "por-extrapolacao"
+      },
+      {
+        "letra": "D",
+        "texto": "usar a biblioteca só pela manhã, das 9h às 12h.",
+        "correta": false,
+        "etiqueta": "por-leitura-superficial"
+      },
+      {
+        "letra": "E",
+        "texto": "frequentar o espaço desde que tenha cartão de sócio.",
+        "correta": false,
+        "etiqueta": "por-extrapolacao"
+      }
+    ],
+    "explicacao": "O texto separa o horário de funcionamento (domingo, das 9h às 17h) do serviço de empréstimo, que fica nos dias úteis. Logo, no domingo dá para ficar e ler no local. Exigência de cartão ou restrição de horário não aparecem no texto.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-interpretacao-de-texto-005",
+    "materia": "portugues",
+    "assunto": "interpretacao-de-texto",
+    "questionario": 1,
+    "dificuldade": 1,
+    "contexto": "Terceira promessa",
+    "enunciado": "“Depois que o prefeito prometeu consertar a ponte pela terceira vez, os moradores resolveram esperar sentados.” Desse trecho, é possível inferir que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "os moradores esperam o conserto com conforto e tranquilidade.",
+        "correta": false,
+        "etiqueta": "por-sentido-literal"
+      },
+      {
+        "letra": "B",
+        "texto": "o prefeito já consertou a ponte duas vezes.",
+        "correta": false,
+        "etiqueta": "por-contradicao-texto"
+      },
+      {
+        "letra": "C",
+        "texto": "os moradores apoiam a gestão e confiam no prefeito.",
+        "correta": false,
+        "etiqueta": "por-ignorou-ironia"
+      },
+      {
+        "letra": "D",
+        "texto": "a ponte foi finalmente reformada depois da terceira promessa.",
+        "correta": false,
+        "etiqueta": "por-leitura-superficial"
+      },
+      {
+        "letra": "E",
+        "texto": "as duas promessas anteriores não foram cumpridas, e os moradores descreem da nova.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "A expressão “pela terceira vez” pressupõe duas promessas anteriores, e “esperar sentados” é uma expressão irônica para quem sabe que vai demorar. A inferência exige juntar o pressuposto com o sentido figurado. Ler “sentados” ao pé da letra desvia o sentido.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-interpretacao-de-texto-006",
+    "materia": "portugues",
+    "assunto": "interpretacao-de-texto",
+    "questionario": 2,
+    "dificuldade": -1,
+    "contexto": "Oitocentos amigos",
+    "enunciado": "Em uma charge autoral, um homem com o celular na mão diz: “Tenho 800 amigos e ninguém para tomar um café.” A crítica feita pela charge é que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "as redes sociais deveriam ser proibidas.",
+        "correta": false,
+        "etiqueta": "por-extrapolacao"
+      },
+      {
+        "letra": "B",
+        "texto": "um grande número de contatos virtuais nem sempre garante companhia e convivência reais.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "o café está caro demais para ser tomado em companhia.",
+        "correta": false,
+        "etiqueta": "por-leitura-superficial"
+      },
+      {
+        "letra": "D",
+        "texto": "o homem prefere ficar sozinho e evita encontros.",
+        "correta": false,
+        "etiqueta": "por-contradicao-texto"
+      },
+      {
+        "letra": "E",
+        "texto": "o texto trata do uso de redes sociais no cotidiano.",
+        "correta": false,
+        "etiqueta": "por-tema-x-tese"
+      }
+    ],
+    "explicacao": "O contraste entre “800 amigos” e “ninguém para tomar um café” mostra que quantidade de contatos não é o mesmo que convivência. A charge critica essa ilusão, sem pedir proibição de nada. Dizer apenas que o assunto são as redes sociais descreve o tema, não a crítica.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-interpretacao-de-texto-007",
+    "materia": "portugues",
+    "assunto": "interpretacao-de-texto",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Mutirão na praça",
+    "enunciado": "Convite autoral: “A Associação de Moradores convida todos para o mutirão de limpeza da praça, sábado, às 8h. Traga luvas e disposição. Haverá suco e bolo para os voluntários.” A finalidade principal do texto é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "divulgar o lanche gratuito que será oferecido.",
+        "correta": false,
+        "etiqueta": "por-reducao"
+      },
+      {
+        "letra": "B",
+        "texto": "mobilizar a comunidade para cuidar de um espaço de uso comum.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "informar sobre obras que a prefeitura fará na praça.",
+        "correta": false,
+        "etiqueta": "por-extrapolacao"
+      },
+      {
+        "letra": "D",
+        "texto": "anunciar a festa de aniversário da associação.",
+        "correta": false,
+        "etiqueta": "por-confundiu-genero"
+      },
+      {
+        "letra": "E",
+        "texto": "cobrar uma taxa de conservação dos moradores.",
+        "correta": false,
+        "etiqueta": "por-contradicao-texto"
+      }
+    ],
+    "explicacao": "O convite chama a população para uma ação coletiva: limpar a praça. O lanche é um incentivo, não o objetivo. Obras da prefeitura, festa e cobrança de taxa não aparecem no texto.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-interpretacao-de-texto-008",
+    "materia": "portugues",
+    "assunto": "interpretacao-de-texto",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "O brasileiro não lê?",
+    "enunciado": "“Muita gente diz que o povo brasileiro não lê. Talvez não leia o que a escola manda, mas devora mensagens, legendas, memes e comentários o dia inteiro. O problema talvez não seja a falta de leitura, mas a falta de ponte entre o que se lê e o que se ensina.” A tese do autor é que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o brasileiro lê pouco e precisa ser obrigado a ler mais.",
+        "correta": false,
+        "etiqueta": "por-contradicao-texto"
+      },
+      {
+        "letra": "B",
+        "texto": "ler memes e comentários prejudica a formação dos jovens.",
+        "correta": false,
+        "etiqueta": "por-extrapolacao"
+      },
+      {
+        "letra": "C",
+        "texto": "mensagens e memes são a única leitura que os brasileiros praticam.",
+        "correta": false,
+        "etiqueta": "por-reducao"
+      },
+      {
+        "letra": "D",
+        "texto": "a leitura no Brasil é um assunto muito debatido.",
+        "correta": false,
+        "etiqueta": "por-tema-x-tese"
+      },
+      {
+        "letra": "E",
+        "texto": "o brasileiro lê bastante, mas a escola não aproveita as leituras feitas fora dela.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "O autor contesta a ideia de que o brasileiro não lê e aponta o verdadeiro problema: a distância entre a leitura do dia a dia e a leitura escolar. Dizer que memes prejudicam, ou que são a única leitura, vai além do texto. Citar só o tema (a leitura) não responde sobre a tese.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-interpretacao-de-texto-009",
+    "materia": "portugues",
+    "assunto": "interpretacao-de-texto",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Dois lados da tecnologia",
+    "enunciado": "Texto I: “A tecnologia nos aproxima de quem está longe.” Texto II: “A tecnologia nos afasta de quem está perto.” Lidos em conjunto, os dois textos",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "mostram efeitos opostos de um mesmo fenômeno, sugerindo que a tecnologia tem dois lados.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "se contradizem, de modo que só um deles pode ser verdadeiro.",
+        "correta": false,
+        "etiqueta": "por-reducao"
+      },
+      {
+        "letra": "C",
+        "texto": "repetem a mesma ideia com palavras diferentes.",
+        "correta": false,
+        "etiqueta": "por-leitura-superficial"
+      },
+      {
+        "letra": "D",
+        "texto": "tratam de assuntos sem relação entre si.",
+        "correta": false,
+        "etiqueta": "por-contradicao-texto"
+      },
+      {
+        "letra": "E",
+        "texto": "defendem que a tecnologia é inútil nas relações humanas.",
+        "correta": false,
+        "etiqueta": "por-extrapolacao"
+      }
+    ],
+    "explicacao": "Os dois textos falam de tecnologia e relações, mas apontam consequências contrárias: aproximar quem está longe e afastar quem está perto. Em vez de se anularem, eles se completam e mostram a ambivalência do fenômeno. Concluir que a tecnologia é inútil não tem base em nenhum dos dois.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-interpretacao-de-texto-010",
+    "materia": "portugues",
+    "assunto": "interpretacao-de-texto",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "A calçada da Dona Zefa",
+    "enunciado": "“Dona Zefa varria a calçada todas as manhãs, mesmo quando as folhas só caíam à tarde. ‘É para a rua saber que eu continuo aqui’, dizia.” Considerando a fala da personagem, o ato de varrer revela",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "uma mania de limpeza que atrapalha os vizinhos.",
+        "correta": false,
+        "etiqueta": "por-leitura-superficial"
+      },
+      {
+        "letra": "B",
+        "texto": "a sujeira constante da rua, que exige varrição diária.",
+        "correta": false,
+        "etiqueta": "por-sentido-literal"
+      },
+      {
+        "letra": "C",
+        "texto": "desconfiança de Dona Zefa em relação aos vizinhos.",
+        "correta": false,
+        "etiqueta": "por-extrapolacao"
+      },
+      {
+        "letra": "D",
+        "texto": "o trabalho de Dona Zefa como funcionária da prefeitura.",
+        "correta": false,
+        "etiqueta": "por-extrapolacao"
+      },
+      {
+        "letra": "E",
+        "texto": "mais do que cuidado com a limpeza: uma forma de afirmar presença e pertencimento ao lugar.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "A personagem varre até quando não há folhas, então o motivo não é a sujeira. A frase “para a rua saber que eu continuo aqui” dá a chave: varrer é um gesto simbólico de presença. Explicações como desconfiança ou emprego não têm apoio no texto.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-interpretacao-de-texto-011",
+    "materia": "portugues",
+    "assunto": "interpretacao-de-texto",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Aviso de manutenção",
+    "enunciado": "Aviso: “Em razão da manutenção da rede elétrica, o fornecimento será interrompido na quarta-feira, das 9h às 13h, nos bairros Centro e Boa Vista.” Será afetado pelo corte",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "quem mora no Centro ou no Boa Vista, na quarta, de manhã até o início da tarde.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "quem mora em qualquer bairro da cidade, o dia inteiro.",
+        "correta": false,
+        "etiqueta": "por-extrapolacao"
+      },
+      {
+        "letra": "C",
+        "texto": "apenas quem mora no Centro, na quarta de manhã.",
+        "correta": false,
+        "etiqueta": "por-reducao"
+      },
+      {
+        "letra": "D",
+        "texto": "quem mora no Centro ou no Boa Vista, na quinta-feira.",
+        "correta": false,
+        "etiqueta": "por-leitura-superficial"
+      },
+      {
+        "letra": "E",
+        "texto": "quem mora no Boa Vista, mas só depois das 13h.",
+        "correta": false,
+        "etiqueta": "por-contradicao-texto"
+      }
+    ],
+    "explicacao": "O aviso informa dois bairros, o dia (quarta) e a janela de horário (9h às 13h). Basta cruzar essas informações explícitas com cuidado. Errar o dia, o horário ou o número de bairros é falta de atenção a dados que estão escritos.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-interpretacao-de-texto-012",
+    "materia": "portugues",
+    "assunto": "interpretacao-de-texto",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Fiado amanhã",
+    "enunciado": "Placa em uma lanchonete: “Hoje, fiado só amanhã.” O efeito de humor da placa se deve ao fato de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o dono aceitar vender fiado hoje, sem nenhuma restrição.",
+        "correta": false,
+        "etiqueta": "por-leitura-superficial"
+      },
+      {
+        "letra": "B",
+        "texto": "o dono avisar que só abrirá a lanchonete amanhã.",
+        "correta": false,
+        "etiqueta": "por-contradicao-texto"
+      },
+      {
+        "letra": "C",
+        "texto": "a placa informar o horário de funcionamento do dia.",
+        "correta": false,
+        "etiqueta": "por-extrapolacao"
+      },
+      {
+        "letra": "D",
+        "texto": "o dono recusar o fiado de modo bem-humorado, já que o “amanhã” em que ele aceitaria nunca chega.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "o dono mostrar sinceramente que confia nos clientes.",
+        "correta": false,
+        "etiqueta": "por-ignorou-ironia"
+      }
+    ],
+    "explicacao": "Quando amanhã chegar, será “hoje” de novo, e a regra continuará valendo. É um jogo de palavras que recusa o fiado sem brigar com o cliente. Quem lê a frase como permissão, aviso de horário ou confiança não percebe a recusa bem-humorada.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-interpretacao-de-texto-013",
+    "materia": "portugues",
+    "assunto": "interpretacao-de-texto",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Todos no mesmo ônibus",
+    "enunciado": "“No ônibus, ninguém se olha. Cada um carrega o rosto dentro do celular, e só levanta a cabeça quando o motorista freia. Aí, por um segundo, todos descobrem que estavam juntos.” A expressão “descobrem que estavam juntos” indica que os passageiros",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "percebem de repente a presença uns dos outros, que antes ignoravam.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "sentem medo do motorista e se unem contra ele.",
+        "correta": false,
+        "etiqueta": "por-extrapolacao"
+      },
+      {
+        "letra": "C",
+        "texto": "passam a se cumprimentar e conversar durante a viagem.",
+        "correta": false,
+        "etiqueta": "por-contradicao-texto"
+      },
+      {
+        "letra": "D",
+        "texto": "ficam sabendo que o ônibus está muito cheio.",
+        "correta": false,
+        "etiqueta": "por-leitura-superficial"
+      },
+      {
+        "letra": "E",
+        "texto": "elogiam o uso do celular durante o trajeto.",
+        "correta": false,
+        "etiqueta": "por-contradicao-texto"
+      }
+    ],
+    "explicacao": "O “juntos” da frase não é físico, pois eles sempre estiveram no mesmo ônibus. É a percepção do outro, que a freada provoca por um segundo, enquanto antes cada um vivia no celular. O texto não diz que eles passam a conversar, nem elogia o aparelho.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-interpretacao-de-texto-014",
+    "materia": "portugues",
+    "assunto": "interpretacao-de-texto",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Embora seja mais barato",
+    "enunciado": "“Embora seja mais barato, o transporte por caminhão custa caro ao país: as estradas se desgastam, o frete encarece e o ar piora. Por isso, ampliar a malha ferroviária é uma escolha estratégica.” No trecho, “Embora seja mais barato” cumpre o papel de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "defender o caminhão como a melhor opção de transporte.",
+        "correta": false,
+        "etiqueta": "por-contradicao-texto"
+      },
+      {
+        "letra": "B",
+        "texto": "apresentar a tese final do texto.",
+        "correta": false,
+        "etiqueta": "por-tema-x-tese"
+      },
+      {
+        "letra": "C",
+        "texto": "reconhecer um argumento contrário para, em seguida, refutá-lo.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "explicar como funciona o cálculo do frete.",
+        "correta": false,
+        "etiqueta": "por-extrapolacao"
+      },
+      {
+        "letra": "E",
+        "texto": "indicar que o autor ainda está indeciso.",
+        "correta": false,
+        "etiqueta": "por-leitura-superficial"
+      }
+    ],
+    "explicacao": "A oração concessiva admite um ponto a favor do caminhão (o preço), mas o “custa caro ao país” em seguida o derruba. É uma estratégia comum de argumentação: antecipar a objeção e responder. A tese está no “Por isso”, a favor da ferrovia.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-interpretacao-de-texto-015",
+    "materia": "portugues",
+    "assunto": "interpretacao-de-texto",
+    "questionario": 3,
+    "dificuldade": 1,
+    "contexto": "Terra de shoppings",
+    "enunciado": "Poema autoral: “Minha terra tem shoppings, / onde ninguém vai a pé; / as árvores que existiam / já não existem mais lá.” O texto dialoga com a “Canção do Exílio”, de Gonçalves Dias (“Minha terra tem palmeiras, / Onde canta o Sabiá”). A relação entre os dois é de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "reprodução idêntica, que apenas homenageia o poeta romântico.",
+        "correta": false,
+        "etiqueta": "por-leitura-superficial"
+      },
+      {
+        "letra": "B",
+        "texto": "paráfrase, que mantém o mesmo elogio à terra natal.",
+        "correta": false,
+        "etiqueta": "por-contradicao-texto"
+      },
+      {
+        "letra": "C",
+        "texto": "paródia, pois retoma a forma do poema romântico para inverter a exaltação da natureza em crítica.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "citação isolada do canto dos pássaros do poema original.",
+        "correta": false,
+        "etiqueta": "por-reducao"
+      },
+      {
+        "letra": "E",
+        "texto": "elogio sincero ao progresso urbano que substituiu a natureza.",
+        "correta": false,
+        "etiqueta": "por-ignorou-ironia"
+      }
+    ],
+    "explicacao": "O poema novo mantém o início e o ritmo do original, mas troca as palmeiras por shoppings e conclui que as árvores sumiram. Quando um texto retoma outro para criticar ou inverter o sentido, há paródia. Paráfrase, ao contrário, mantém o sentido do original.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-interpretacao-de-texto-016",
+    "materia": "portugues",
+    "assunto": "interpretacao-de-texto",
+    "questionario": 4,
+    "dificuldade": -1,
+    "contexto": "O quarto de Beto",
+    "enunciado": "“O quarto era pequeno, de paredes azuis desbotadas. Uma cama encostada na janela, uma estante torta cheia de gibis e um ventilador que rangia.” O tipo de texto predominante no trecho é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o narrativo, pois conta uma sequência de acontecimentos.",
+        "correta": false,
+        "etiqueta": "por-confundiu-genero"
+      },
+      {
+        "letra": "B",
+        "texto": "o injuntivo, pois dá ordens e instruções ao leitor.",
+        "correta": false,
+        "etiqueta": "por-confundiu-genero"
+      },
+      {
+        "letra": "C",
+        "texto": "o dissertativo-argumentativo, pois defende um ponto de vista.",
+        "correta": false,
+        "etiqueta": "por-confundiu-genero"
+      },
+      {
+        "letra": "D",
+        "texto": "o expositivo, pois explica um conceito com dados.",
+        "correta": false,
+        "etiqueta": "por-confundiu-genero"
+      },
+      {
+        "letra": "E",
+        "texto": "o descritivo, pois caracteriza um espaço e seus objetos.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "O trecho só lista características (tamanho, cor, objetos), sem ações que mudem uma situação no tempo, sem ordens e sem defesa de ideias. Isso é descrição. O tipo de texto se reconhece pelo que o trecho faz, e não pelo assunto.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-interpretacao-de-texto-017",
+    "materia": "portugues",
+    "assunto": "interpretacao-de-texto",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "A reorganização da escola",
+    "enunciado": "O diretor disse que a escola “vive um momento de reorganização”, logo depois de demitir metade dos professores e cortar o recreio. Nesse contexto, o termo “reorganização” funciona para",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "mostrar que a escola está em avanço real e planejado.",
+        "correta": false,
+        "etiqueta": "por-ignorou-ironia"
+      },
+      {
+        "letra": "B",
+        "texto": "suavizar medidas duras, atenuando o impacto negativo das decisões.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "indicar que o diretor está arrependido do que fez.",
+        "correta": false,
+        "etiqueta": "por-extrapolacao"
+      },
+      {
+        "letra": "D",
+        "texto": "dizer que as medidas foram decididas com os professores.",
+        "correta": false,
+        "etiqueta": "por-extrapolacao"
+      },
+      {
+        "letra": "E",
+        "texto": "tornar a demissão um sinônimo exato de reorganização.",
+        "correta": false,
+        "etiqueta": "por-confundiu-figura"
+      }
+    ],
+    "explicacao": "A palavra é escolhida para parecer neutra e até positiva num contexto de demissões e cortes, e isso é um eufemismo. O leitor atento percebe o contraste entre o termo e os fatos. Nada indica arrependimento nem consulta aos professores.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-interpretacao-de-texto-018",
+    "materia": "portugues",
+    "assunto": "interpretacao-de-texto",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Ler no celular",
+    "enunciado": "“Dizem que ler no celular não é ler de verdade. Mas ninguém afirma que quem lê no papel de jornal só lê de mentirinha. O suporte muda; a leitura permanece.” Para defender seu ponto de vista, o autor",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "compara dois suportes de leitura para mostrar que o preconceito contra o digital não se sustenta.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "apresenta uma pesquisa estatística sobre hábitos de leitura.",
+        "correta": false,
+        "etiqueta": "por-extrapolacao"
+      },
+      {
+        "letra": "C",
+        "texto": "defende que o papel deve ser abandonado em favor do celular.",
+        "correta": false,
+        "etiqueta": "por-contradicao-texto"
+      },
+      {
+        "letra": "D",
+        "texto": "ironiza as pessoas que ainda leem jornal impresso.",
+        "correta": false,
+        "etiqueta": "por-ignorou-ironia"
+      },
+      {
+        "letra": "E",
+        "texto": "afirma que só a leitura em celular merece o nome de leitura.",
+        "correta": false,
+        "etiqueta": "por-reducao"
+      }
+    ],
+    "explicacao": "O texto monta uma analogia: se o papel não é leitura “de mentirinha”, o celular também não é. A frase final resume a ideia: muda o suporte, não a leitura. Não há dados estatísticos, nem ataque ao papel, nem elogio exclusivo ao digital.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-interpretacao-de-texto-019",
+    "materia": "portugues",
+    "assunto": "interpretacao-de-texto",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Revista de três anos atrás",
+    "enunciado": "“Na sala de espera do dentista, a revista no colo da Sandra era de três anos atrás. Ela a folheou duas vezes, como quem procura notícia que mudou.” A atitude de Sandra sugere que ela",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "gosta de ler notícias antigas e as coleciona.",
+        "correta": false,
+        "etiqueta": "por-leitura-superficial"
+      },
+      {
+        "letra": "B",
+        "texto": "acredita que as notícias da revista foram atualizadas.",
+        "correta": false,
+        "etiqueta": "por-sentido-literal"
+      },
+      {
+        "letra": "C",
+        "texto": "está ansiosa e ocupa a espera com uma leitura sem real interesse.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "pesquisa um assunto específico para o trabalho.",
+        "correta": false,
+        "etiqueta": "por-extrapolacao"
+      },
+      {
+        "letra": "E",
+        "texto": "está tranquila e aproveita a calma da sala.",
+        "correta": false,
+        "etiqueta": "por-contradicao-texto"
+      }
+    ],
+    "explicacao": "Folhear a mesma revista velha duas vezes, “como quem procura notícia que mudou”, mostra que ela não lê de fato, apenas preenche o tempo. Isso combina com a ansiedade típica da sala de espera. O texto não fala de coleção, pesquisa ou calma.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-interpretacao-de-texto-020",
+    "materia": "portugues",
+    "assunto": "interpretacao-de-texto",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Duas manchetes",
+    "enunciado": "Manchete A: “Multidão invade o estádio e causa tumulto.” Manchete B: “Torcedores entram em estádio após portões serem abertos com atraso.” A principal diferença entre os textos é que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "eles relatam acontecimentos totalmente diferentes.",
+        "correta": false,
+        "etiqueta": "por-leitura-superficial"
+      },
+      {
+        "letra": "B",
+        "texto": "A é um texto objetivo, e B, um texto opinativo.",
+        "correta": false,
+        "etiqueta": "por-confundiu-genero"
+      },
+      {
+        "letra": "C",
+        "texto": "B mente ao omitir o tumulto relatado em A.",
+        "correta": false,
+        "etiqueta": "por-extrapolacao"
+      },
+      {
+        "letra": "D",
+        "texto": "as palavras escolhidas revelam pontos de vista diferentes sobre quem é responsável pelo ocorrido.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "eles diferem apenas na ordem em que apresentam os fatos.",
+        "correta": false,
+        "etiqueta": "por-reducao"
+      }
+    ],
+    "explicacao": "O mesmo fato aparece com enfoques distintos: em A, “invade” e “tumulto” culpam o público; em B, “entram” e “atraso” sugerem falha da organização. Escolhas de vocabulário orientam o leitor, mesmo em textos que parecem neutros. Por isso nenhum dos dois é puramente objetivo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  }
+]

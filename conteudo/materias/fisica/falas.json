@@ -1,0 +1,402 @@
+[
+  {
+    "etiqueta": "fis-unidade",
+    "fofo": [
+      "As unidades pediram atenção! Converte km/h, minutos e gramas antes de montar a conta.",
+      "Quase! A fórmula estava certa, mas as unidades não conversavam entre si.",
+      "Eu também já misturei hora com segundo. Escreve a unidade do lado de cada número!",
+      "Dica do Peixoto: o SI manda. Metro, segundo, quilograma, e vai tudo certo.",
+      "Foi só a unidade! Converte e tenta de novo, o raciocínio já estava ótimo."
+    ],
+    "sarc": [
+      "Quilômetro por hora com metro por segundo na mesma conta. Maravilhoso.",
+      "A unidade estava lá, no enunciado, esperando o convite. Foi ignorada.",
+      "Os números estavam certos. É uma pena que as unidades não estavam de acordo.",
+      "Dividir por 3,6 ou multiplicar, tanto faz, né? Tanto faz não.",
+      "30 minutos é 30 horas na sua física. Interessante teoria."
+    ],
+    "sem": [
+      "UNIDADE ERRADA!! VOCÊ SOMOU KM/H COM M/S COMO SE FOSSE PIZZA COM SORVETE!",
+      "30 min NÃO SÃO 30 horas! Até o relógio está passando mal!",
+      "Você ignorou o 'kilo' e agora o resultado tem mil vezes mais energia! O Sol sentiu!",
+      "Isso é medir a piscina em centímetros e reclamar do número!",
+      "As unidades se rebelaram e você ainda confiou nelas!"
+    ],
+    "reserva": "Antes de calcular, leve todas as grandezas para o mesmo sistema de unidades."
+  },
+  {
+    "etiqueta": "fis-formula-trocada",
+    "fofo": [
+      "Essa fórmula existe, mas é de outro fenômeno! Vamos conferir qual grandeza a questão pede.",
+      "Quase! Misturou duas fórmulas parecidas. Anota as principais num cantinho do caderno.",
+      "Eu também já usei a fórmula do vizinho. Pergunte 'qual grandeza estou calculando?'",
+      "Dica do Peixoto: olhe a unidade do resultado. Ela diz qual fórmula usar.",
+      "Foi só uma troca de fórmula! O raciocínio estava de parabéns."
+    ],
+    "sarc": [
+      "Ótima fórmula. Pena que é de outro capítulo.",
+      "Usou a fórmula da energia pra achar a velocidade. Uma releitura da física.",
+      "A fórmula estava bonita e completamente errada. Estética acima de tudo.",
+      "Na dúvida, usa qualquer uma que encaixe os números. Estratégia clássica.",
+      "Força e energia são a mesma coisa, né? Que simplificação."
+    ],
+    "sem": [
+      "FÓRMULA ERRADA!! VOCÊ USOU A DA ENERGIA PRA CALCULAR A FORÇA! É CONFUNDIR BOLO COM BOLA!",
+      "Pegou a fórmula do inimigo! Isso é cheat code que não funciona!",
+      "Você misturou tudo como se fosse aula de misturinha! NEWTON ESTÁ DE LUTO!",
+      "A fórmula é de OUTRO fenômeno! Ela já está processando você por uso indevido!",
+      "Essa conta foi feita com receita de bolo pra fazer pizza!"
+    ],
+    "reserva": "Confira a unidade da grandeza que a pergunta pede: ela aponta qual fórmula usar."
+  },
+  {
+    "etiqueta": "fis-conta",
+    "fofo": [
+      "Seu método estava certo! Só uma continha escapou. Refaz com calma!",
+      "Foi por pouco: o raciocínio é nota 10, a aritmética deu um escorregão.",
+      "Eu também erro de conta quando tenho pressa. Confere de novo, bora!",
+      "Dica do Peixoto: refaça a conta de outro jeito pra conferir o resultado.",
+      "Tudo certo na ideia, só um número saiu do lugar. Respira e recalcula!"
+    ],
+    "sarc": [
+      "O método estava perfeito. A calculadora do cérebro estava em modo avião.",
+      "Montou tudo certo e errou a conta. É igual cozinhar bem e esquecer o sal.",
+      "Parabéns pelo raciocínio. A multiplicação, por outro lado, pediu demissão.",
+      "Era só 7 vezes 8. Uma dificuldade nacional.",
+      "Acertou o caminho e perdeu na última curva da conta. Dramático."
+    ],
+    "sem": [
+      "ERRO DE CONTA!! VOCÊ FEZ O DIFÍCIL E ERROU O FÁCIL! É ISSO QUE DÓI!",
+      "A conta te pregou uma peça! O Peixoto está em choque!",
+      "Era só somar e você DESAPARECEU no meio do cálculo! Cadê você?",
+      "Você acertou o método e errou 8 + 7. É tipo ganhar a Copa e esquecer a taça!",
+      "Isso é erro de digitação do cérebro! Dá um reboot!"
+    ],
+    "reserva": "Conferir a conta uma segunda vez, de outro jeito, é o melhor seguro contra erro bobo."
+  },
+  {
+    "etiqueta": "fis-media-aritmetica",
+    "fofo": [
+      "Velocidade média não é a média das velocidades! É distância total dividida por tempo total.",
+      "Quase! Quando o tempo gasto em cada trecho é diferente, a média simples engana.",
+      "Eu também caí nessa pegadinha. Calcula o tempo de cada trecho primeiro!",
+      "Dica do Peixoto: velocidade média = distância total ÷ tempo total. Sempre!",
+      "Foi uma armadilha clássica! Faz a conta pelos tempos e vai dar certo."
+    ],
+    "sarc": [
+      "Média das velocidades. Quantas viagens você já fez assim?",
+      "Que bela média aritmética! Pena que velocidade média não funciona assim.",
+      "Quase certo, se o tempo em cada trecho fosse igual. Spoiler: não é.",
+      "Ida a 30 e volta a 60 dá 45, né? Só se o carro fosse mágico.",
+      "Pegou 60 e 30 e fez a média. É um método. Infelizmente errado."
+    ],
+    "sem": [
+      "MÉDIA DAS VELOCIDADES?!? AQUI O TEMPO É QUE MANDA, MEU CAMPEÃO!",
+      "Você deu o mesmo peso pro trecho rápido e pro lento! É A INJUSTIÇA DA ESTRADA!",
+      "A velocidade média passou voando e você nem notou! É o tempo, não a pressa!",
+      "Isso é fazer média da nota do trabalho com a da prova final! NÃO É ASSIM!",
+      "Quem anda mais devagar passa MAIS TEMPO ali! A FÍSICA É JUSTA E VOCÊ NÃO!"
+    ],
+    "reserva": "Velocidade média é sempre distância total dividida por tempo total, nunca a média das velocidades."
+  },
+  {
+    "etiqueta": "fis-serie-paralelo",
+    "fofo": [
+      "Série e paralelo se confundem fácil! Em série, a corrente é a mesma; em paralelo, a tensão é a mesma.",
+      "Quase! Resistências em série somam, e em paralelo usam o inverso. Revisa qual é o caso.",
+      "Eu também confundo os dois. Dica: em paralelo, a resistência total fica menor!",
+      "Dica do Peixoto: desenha o circuito e vê se o fio se divide (paralelo) ou segue reto.",
+      "Foi só uma troca de associação! Dá uma olhadinha no desenho de novo."
+    ],
+    "sarc": [
+      "Série ou paralelo, tanto faz. Nunca mudou nada, né?",
+      "Que ousado, somar resistências em paralelo. A física te acompanha de longe.",
+      "Duas lâmpadas em paralelo viraram série. Parabéns pela reforma elétrica.",
+      "Série e paralelo se parecem, sim. Principalmente pra quem não leu o desenho.",
+      "A resistência equivalente em paralelo é a maior de todas, claro. Claro."
+    ],
+    "sem": [
+      "SÉRIE COM PARALELO!! VOCÊ FEZ UM CURTO-CIRCUITO NO MEU CORAÇÃO!",
+      "Você somou resistências em paralelo! ISSO É O LADO OBSCURO DA ELETRODINÂMICA!",
+      "O fio se dividiu e você fingiu que não viu! A CORRENTE ESTÁ INDIGNADA!",
+      "Série e paralelo trocaram de lugar! Isso é falha de conexão na cabeça!",
+      "Quem associa errado, a conta de luz cobra depois! É A VINGANÇA DA RESISTÊNCIA!"
+    ],
+    "reserva": "Em série, resistências se somam; em paralelo, soma-se o inverso de cada uma e a total fica menor que a menor."
+  },
+  {
+    "etiqueta": "fis-potencia-energia",
+    "fofo": [
+      "Potência é o ritmo, energia é o total! Falta multiplicar pelo tempo pra chegar na energia.",
+      "Quase! Watt é potência. Pra ter energia (kWh ou joule), entra o tempo na conta.",
+      "Eu também já confundi. Pensa: potência é a velocidade e energia é a distância percorrida!",
+      "Dica do Peixoto: energia = potência × tempo. Sempre, sempre!",
+      "Foi só esquecer o tempo! Todo o resto estava certinho."
+    ],
+    "sarc": [
+      "Potência e energia, mesma coisa. Aham. Na conta de luz também?",
+      "Uma lâmpada de 60 W gasta 60 W. Para sempre. Excelente conceito.",
+      "A conta de luz cobra potência, né? É por isso que ninguém entende.",
+      "O tempo é só um detalhe na energia. Detalhezinho.",
+      "Potência é energia, certo? E a velocidade é distância, certo também?"
+    ],
+    "sem": [
+      "POTÊNCIA NÃO É ENERGIA!! O TEMPO É QUE FAZ A DIFERENÇA, MEU AMIGO!",
+      "Você esqueceu o tempo!! A conta de luz do mês vai chegar e VOCÊ VAI CHORAR!",
+      "Isso é achar que o carro de 100 km/h já andou 100 km! NÃO, GENTE!",
+      "60 W NÃO É 60 kWh!! É a diferença entre uma gota e o oceano!",
+      "Sem o tempo, o watt não paga nem o ônibus!"
+    ],
+    "reserva": "Potência é energia por unidade de tempo: para achar a energia, multiplique a potência pelo tempo."
+  },
+  {
+    "etiqueta": "fis-esqueceu-quadrado",
+    "fofo": [
+      "Esse expoente fez falta! Velocidade, corrente e tensão aparecem ao quadrado em várias fórmulas.",
+      "Quase! A energia cinética depende de v², não só de v. Refaz com o quadrado!",
+      "Eu também já esqueci um expoente. Marca o 2 com caneta colorida no caderno!",
+      "Dica do Peixoto: se a fórmula tem ², dobrar o valor quadruplica o resultado.",
+      "Foi só esquecer o quadrado! O resto da conta estava ótimo."
+    ],
+    "sarc": [
+      "O quadrado estava escondido, né? Só em todas as fórmulas.",
+      "A velocidade dobrou, a energia também. Física linear, só que não.",
+      "Que simplicidade, ignorar o expoente. A natureza discorda.",
+      "O expoente 2 estava ali, quietinho, só pedindo atenção.",
+      "Esquecer o quadrado é uma tradição de família, parece."
+    ],
+    "sem": [
+      "O QUADRADO!!! VOCÊ DEIXOU O EXPOENTE DE FORA E DEU TUDO ERRADO!",
+      "Velocidade ao quadrado! Se dobra, a energia QUADRUPLICA! NÃO É SÓ O DOBRO!",
+      "O expoente 2 pulou pela janela e você deixou! O Peixoto está em luto!",
+      "Isso é esquecer o fermento no bolo! SAIU TUDO ACHATADO!",
+      "Tudo ao quadrado é a lei da natureza e você a ignorou!"
+    ],
+    "reserva": "Em energia cinética, potência em resistor e outras fórmulas, a grandeza entra ao quadrado: dobrar quadruplica."
+  },
+  {
+    "etiqueta": "fis-calor-latente",
+    "fofo": [
+      "Durante uma mudança de estado, a temperatura não muda, mas o calor continua entrando! É o calor latente.",
+      "Quase! O gelo derretendo absorve calor sem esquentar. Usa Q = m·L nessa etapa.",
+      "Eu também já esqueci a fusão. Divida o problema em etapas: aquecer e mudar de estado.",
+      "Dica do Peixoto: se tem gelo ou vapor, tem calor latente. Não esqueça dessa etapa!",
+      "Foi só uma etapa escondida! O resto do raciocínio estava ótimo."
+    ],
+    "sarc": [
+      "O gelo derreteu de graça, né? Foi um presente da natureza.",
+      "Mudou de estado sem gastar energia. Truque de mágica?",
+      "Calor sensível pra tudo. Uma visão simplificada e errada do mundo.",
+      "A água ferve a 100 °C e vira vapor no mesmo instante. Sem esforço!",
+      "Temperatura constante, então calor zero. Um raciocínio ousado."
+    ],
+    "sem": [
+      "CALOR LATENTE!! O GELO ABSORVE ENERGIA SEM MUDAR DE TEMPERATURA, MEU DEUS DO CÉU!",
+      "Você esqueceu de derreter o gelo! Ele ficou lá, congelado, esperando a vez!",
+      "A mudança de estado cobra caro e você tentou pagar zero! O Peixoto ficou sem ar!",
+      "Isso é achar que ferver água é só esquentar!! É UM SHOW DE ENERGIA!",
+      "Etapa escondida: derreter! Quem esquece essa leva zero!"
+    ],
+    "reserva": "Durante a fusão ou a vaporização a temperatura fica constante, e o calor absorvido é Q = m·L."
+  },
+  {
+    "etiqueta": "fis-escala-temperatura",
+    "fofo": [
+      "Celsius, Kelvin e Fahrenheit têm regras de conversão diferentes! Revisa a que você precisa.",
+      "Quase! Uma variação em K é igual em °C, mas a temperatura em K soma 273.",
+      "Eu também já misturei as escalas. Anota K = °C + 273 no caderno!",
+      "Dica do Peixoto: pra converter temperatura soma 273; pra variação, o valor é o mesmo.",
+      "Foi só uma troca de escala! O resto da conta estava certo."
+    ],
+    "sarc": [
+      "Kelvin e Celsius, mesma coisa, quase. Quase é o problema.",
+      "Somou 32 na variação. Como se fosse temperatura. Criativo!",
+      "0 °C é zero absoluto, né? Quem disse isso, mesmo?",
+      "Fahrenheit é tipo Celsius com uma pitada de aleatoriedade, né?",
+      "Misturar as escalas com tanta tranquilidade. Admirável."
+    ],
+    "sem": [
+      "ESCALA ERRADA!! KELVIN NÃO É CELSIUS, MEU AMIGO! A GENTE NÃO CONVERTEU NADA!",
+      "Você somou 32 numa variação!! ISSO É UM CRIME CONTRA O TERMÔMETRO!",
+      "Isso é misturar metros com quilômetros e esperar o GPS funcionar!",
+      "Kelvin e Celsius brigaram e você deu razão pros dois ao mesmo tempo!",
+      "A escala certa é meio pra vida! A errada é como chá gelado quente!"
+    ],
+    "reserva": "Para converter temperaturas use K = °C + 273 e °F = 1,8·°C + 32; para variações, só o fator de escala vale."
+  },
+  {
+    "etiqueta": "fis-proporcao-invertida",
+    "fofo": [
+      "Essa relação está de cabeça pra baixo! Se uma grandeza sobe, a outra sobe ou desce? Pensa de novo.",
+      "Quase! Divisão e multiplicação trocaram de lugar. Confere qual vai em cima.",
+      "Eu também já inverti uma razão. Dica: confere a unidade do resultado!",
+      "Dica do Peixoto: se a unidade final é m/s, divide distância por tempo, e não o contrário.",
+      "Foi só uma inversão! O raciocínio estava certinho."
+    ],
+    "sarc": [
+      "Dividiu ao contrário. Uma criatividade bem-vinda, só que errada.",
+      "Tempo dividido por distância. Que velocidade peculiar, essa sua.",
+      "A relação inversa virou direta. Física alternativa.",
+      "Mais velocidade, mais tempo. Faz todo o sentido, em outro universo.",
+      "Frequência é igual ao período, certo? Tipo gêmeos, só que errado."
+    ],
+    "sem": [
+      "INVERTEU TUDO!! O RESULTADO VEIO EM 'S/M' E VOCÊ NEM PERCEBEU!",
+      "A razão ficou de cabeça pra baixo! É o Upside Down da Física!",
+      "Mais velocidade, MAIS tempo?? A FÍSICA ESTÁ CHORANDO NO CANTO!",
+      "Você inverteu a fração e o universo inverteu junto! Isso é efeito borboleta!",
+      "Dividiu o que era pra multiplicar e VICE-VERSA! É DANÇA DAS CADEIRAS!"
+    ],
+    "reserva": "Confira se a unidade do resultado bate com a da grandeza pedida: ela mostra se a razão está invertida."
+  },
+  {
+    "etiqueta": "fis-sinal-direcao",
+    "fofo": [
+      "Sinal e sentido importam em física! Confere se as forças ou velocidades estão no mesmo sentido ou em sentidos opostos.",
+      "Quase! Em sentidos opostos, as velocidades relativas se somam; no mesmo sentido, subtraem.",
+      "Eu também já errei o sentido. Desenha uma setinha pra cada grandeza!",
+      "Dica do Peixoto: antes de calcular, desenha as setas e escolhe um sentido positivo.",
+      "Foi só uma troca de sentido! O resto da conta estava ótimo."
+    ],
+    "sarc": [
+      "Sentido contrário, mesmo sentido, tanto faz. Só muda tudo.",
+      "As duas forças são para o mesmo lado, claro. Por isso estão em cabo de guerra.",
+      "Somou as forças opostas. Estratégia ousada, resultado catastrófico.",
+      "O sinal negativo é só enfeite, né? É decorativo.",
+      "Dois carros se aproximando e você subtraiu a velocidade. Genial."
+    ],
+    "sem": [
+      "SENTIDO ERRADO!! VOCÊ SOMOU FORÇAS QUE PUXAM PRA LADOS OPOSTOS! CABO DE GUERRA MAL FEITO!",
+      "Direção e sentido importam! É IGUAL ERRAR O LADO NA RUA DE MÃO ÚNICA!",
+      "Você subtraiu onde era pra somar!! ISSO É BATER DE FRENTE COM A FÍSICA!",
+      "O sinal negativo gritou e você deixou no vácuo! O VETOR TÁ OFENDIDO!",
+      "Isso é achar que dois carros indo de frente se afastam!"
+    ],
+    "reserva": "Defina um sentido positivo e desenhe as setas de cada força ou velocidade antes de somar ou subtrair."
+  },
+  {
+    "etiqueta": "fis-massa-peso",
+    "fofo": [
+      "Massa e peso são primos, mas diferentes! Massa em kg, peso em N: P = m·g.",
+      "Quase! O peso depende da gravidade local, e a massa não muda.",
+      "Eu também já confundi. Dica: peso é força, e força se mede em newtons!",
+      "Dica do Peixoto: na Lua você tem a mesma massa, mas pesa menos!",
+      "Foi só uma confusão clássica! Multiplica por g e chega no peso."
+    ],
+    "sarc": [
+      "60 kg e 60 N, tudo igual. Que bela balança a sua.",
+      "Massa e peso são a mesma coisa. Só nos livros? Não, em nenhum.",
+      "O astronauta tem o mesmo peso na Lua. Físicos choram baixinho.",
+      "Peso é massa. Tecnicamente, não. Mas boa tentativa.",
+      "Usou kg onde era N. Um detalhe de unidades, sem importância."
+    ],
+    "sem": [
+      "MASSA NÃO É PESO!! SE FOSSE, O ASTRONAUTA NÃO FLUTUARIA NA LUA!",
+      "Você usou a massa como se fosse força! ISAAC NEWTON ESTÁ CHORANDO!",
+      "Kg e N são mundos diferentes e você misturou os dois! É BAGUNÇA INTERGALÁCTICA!",
+      "Pesar 600 N e 60 kg são coisas diferentes! É A DIFERENÇA ENTRE FORÇA E MATÉRIA!",
+      "Você esqueceu de multiplicar por g! A GRAVIDADE FICOU DE FORA DA FESTA!"
+    ],
+    "reserva": "Massa é a quantidade de matéria (kg); peso é a força da gravidade sobre ela (N), calculado por m·g."
+  },
+  {
+    "etiqueta": "fis-frequencia-periodo",
+    "fofo": [
+      "Frequência e período são inversos! T = 1/f. Se você tem um, o outro é só inverter.",
+      "Quase! A frequência conta quantas vezes por segundo; o período, quanto tempo cada vez demora.",
+      "Eu também troco os dois. Dica: Hz é 'por segundo', período é 'segundos'!",
+      "Dica do Peixoto: 50 Hz quer dizer 50 oscilações por segundo, e cada uma dura 0,02 s.",
+      "Foi só uma troca! Inverte e confere, dá certo."
+    ],
+    "sarc": [
+      "Frequência é período. Só que de ponta-cabeça.",
+      "Hertz e segundo, tudo igual. É só olhar a unidade. Ou não.",
+      "A boia oscila 30 vezes por minuto, então o período é 30 s. Lógica de peixe.",
+      "Período e frequência trocados. Uma tradição, parece.",
+      "O período é a frequência, só que o contrário. O contrário de quê, mesmo?"
+    ],
+    "sem": [
+      "FREQUÊNCIA NÃO É PERÍODO!! UM É O INVERSO DO OUTRO, MEU CAMPEÃO!",
+      "Você trocou Hz por segundo! ISSO É CONFUNDIR PLAYLIST COM DURAÇÃO DA MÚSICA!",
+      "Periódico e frequente não são a mesma coisa! Só no português, e olha lá!",
+      "30 oscilações por minuto virou 30 s?? O RELÓGIO ESTÁ CHORANDO!",
+      "Dá pra ouvir o Hz chorando no canto! Ele só queria ser inverso!"
+    ],
+    "reserva": "Período e frequência são inversos: T = 1/f e f = 1/T, com Hz = 1/s."
+  },
+  {
+    "etiqueta": "fis-esqueceu-etapa",
+    "fofo": [
+      "Faltou uma etapa no meio do caminho! Escreve todos os passos e confere se algum ficou de fora.",
+      "Quase! O raciocínio estava certo, mas um passo escapou. Refaz listando cada um.",
+      "Eu também pulo etapas quando tenho pressa. Passo a passo funciona sempre!",
+      "Dica do Peixoto: faz uma listinha: o que sei, o que preciso, o que falta no meio?",
+      "Foi só uma etapa escondida! Com ela, a resposta aparece."
+    ],
+    "sarc": [
+      "Pular uma etapa é um jeito de economizar. Pena que a resposta não acompanha.",
+      "A etapa escondida estava lá, na sombra, e você passou reto. Impressionante.",
+      "Fez metade do problema com muita pose. A outra metade ficou no ar.",
+      "Resultado final sem todos os passos. Uma obra incompleta.",
+      "Quem precisa de todas as etapas? Gabarito, aparentemente."
+    ],
+    "sem": [
+      "PULOU UMA ETAPA!! É COMO FAZER MACARRÃO SEM ESPERAR A ÁGUA FERVER!",
+      "Esqueceu um passo e quis a resposta inteira! O Peixoto ficou sem ar!",
+      "A etapa estava ali, chorando, e você de fone de ouvido!",
+      "Isso é montar um LEGO sem a peça do meio! CAIU TUDO!",
+      "Você fez a primeira parte e saiu correndo! ESTÁ FUGINDO DA FÍSICA?"
+    ],
+    "reserva": "Em problemas com várias etapas, liste os passos antes de calcular e confira se usou todos."
+  },
+  {
+    "etiqueta": "fis-ignorou-dado",
+    "fofo": [
+      "Tinha um dado no enunciado que mudava a conta! Dá uma lida com calma e acha ele.",
+      "Quase! Uma informação importante ficou de fora. Bora procurá-la?",
+      "Eu também já pulei um dado achando que era enfeite. Quase todos importam!",
+      "Dica do Peixoto: risque cada número do enunciado depois de usá-lo.",
+      "Foi só esquecer um detalhe! O resto da solução estava lindo."
+    ],
+    "sarc": [
+      "O enunciado deu quatro dados e você usou três. Escolha de estilo.",
+      "O dado mais importante estava ali, mas parecia decoração, né?",
+      "Que elegância ignorar a informação decisiva. Minimalismo puro.",
+      "Pra que usar todos os dados? A prova só colocou por diversão.",
+      "Leu tudo, só não usou. Meio como baixar um app e nunca abrir."
+    ],
+    "sem": [
+      "IGNOROU UM DADO!! O ENUNCIADO NÃO DÁ NÚMERO DE GRAÇA, MEU AMIGO!",
+      "Você pulou a informação principal! É TIPO ASSISTIR SÓ O COMEÇO DA SÉRIE!",
+      "Tinha uma pista e você passou reto! SHERLOCK ESTÁ CHORANDO NO CANTO!",
+      "Todo dado tem um motivo! O descartado era o vilão da história!",
+      "Você usou a metade das informações e quer a resposta INTEIRA!"
+    ],
+    "reserva": "Cada número do enunciado costuma servir pra algo: antes de fechar a resposta, confira se usou todos."
+  },
+  {
+    "etiqueta": "fis-parou-no-intermediario",
+    "fofo": [
+      "Você fez o caminho quase todo! Falta só o último passo pra chegar na resposta final.",
+      "Parou na metade da escada, mas o último degrau está pertinho. Sobe mais um!",
+      "Eu também já parei no meio achando que tinha acabado. Releia o que a pergunta pede!",
+      "Esse número é um ótimo rascunho, mas a pergunta quer outra grandeza. Bora lá!",
+      "Tá no caminho certo, só esqueceu de terminar. Reler a pergunta ajuda muito!"
+    ],
+    "sarc": [
+      "Você respondeu a pergunta... que ninguém fez. Interessante.",
+      "Que bela etapa intermediária. A questão pedia a final, mas tudo bem.",
+      "Parou no meio com tanta convicção que quase convenceu até eu.",
+      "Ótimo resultado parcial. Pena que prova não dá nota por processo incompleto.",
+      "Terminar é opcional, imagino. Quase ninguém faz mesmo."
+    ],
+    "sem": [
+      "PAROU NO MEIO!! É COMO ASSISTIR METADE DO FILME E JURAR QUE SABE O FINAL!",
+      "Você largou a conta no intervalo da partida! VOLTA PRO SEGUNDO TEMPO!",
+      "Chegou na linha de chegada e sentou pra descansar. LEVANTA E CRUZA ELA!",
+      "A pergunta era uma e você respondeu OUTRA! Que confusão, minha gente!",
+      "Resultado intermediário é tipo massa crua: TEM TUDO, MAS NINGUÉM COME!"
+    ],
+    "reserva": "Antes de marcar, confira se a grandeza que você calculou é exatamente a que a pergunta pede."
+  }
+]

@@ -1,0 +1,15 @@
+[
+  { "id": "ing-palavra-solta", "nome": "Pescou palavra solta", "descricao": "Marcou a alternativa que repete uma palavra do texto sem conferir se ela responde ao que foi perguntado." },
+  { "id": "ing-falso-cognato", "nome": "Caiu no falso cognato", "descricao": "Confundiu uma palavra parecida com o português, mas de sentido diferente." },
+  { "id": "ing-extrapolou", "nome": "Foi além do texto", "descricao": "Concluiu algo que o texto não diz nem permite deduzir." },
+  { "id": "ing-detalhe-central", "nome": "Detalhe virou ideia central", "descricao": "Tomou uma informação secundária pelo assunto principal, ou trocou dados do texto." },
+  { "id": "ing-ignorou-negacao", "nome": "Ignorou a negação", "descricao": "Não viu um not, never, nobody, only ou unless e entendeu o contrário." },
+  { "id": "ing-traducao-literal", "nome": "Traduziu palavra por palavra", "descricao": "Traduziu expressão ou estrutura ao pé da letra e perdeu o sentido real." },
+  { "id": "ing-intencao-errada", "nome": "Errou a intenção do texto", "descricao": "Confundiu o objetivo ou o gênero do texto: informar, vender, pedir, criticar, convidar." },
+  { "id": "ing-referente-errado", "nome": "Referente errado", "descricao": "Ligou um pronome ou expressão (it, they, this, which) ao termo errado." },
+  { "id": "ing-conector-errado", "nome": "Conector invertido", "descricao": "Entendeu a relação errada entre ideias: contraste, causa, condição ou adição." },
+  { "id": "ing-tempo-verbal", "nome": "Tempo verbal trocado", "descricao": "Não percebeu se a ação é passada, presente, futura ou hábito." },
+  { "id": "ing-sentido-errado", "nome": "Sentido errado da palavra", "descricao": "Usou o significado mais comum de uma palavra ou expressão que, nesse contexto, quer dizer outra coisa." },
+  { "id": "ing-tom-errado", "nome": "Leu o tom ao contrário", "descricao": "Entendeu ironia como elogio, crítica como neutralidade, ou fato como opinião." },
+  { "id": "ing-generalizou", "nome": "Generalizou demais", "descricao": "Transformou um caso ou uma tendência em regra para todos (always, all, every)." }
+]

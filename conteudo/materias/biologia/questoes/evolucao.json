@@ -1,0 +1,282 @@
+[
+  {
+    "id": "bio-evolucao-001", "materia": "biologia", "assunto": "evolucao", "questionario": 1, "dificuldade": -1,
+    "contexto": "Quem propôs a seleção natural",
+    "enunciado": "No século XIX, um naturalista britânico apresentou a seleção natural como principal mecanismo da evolução das espécies, no livro \"A Origem das Espécies\". Quem foi ele?",
+    "alternativas": [
+      { "letra": "A", "texto": "Jean-Baptiste Lamarck", "correta": false, "etiqueta": "bio-lamarckismo" },
+      { "letra": "B", "texto": "Charles Darwin", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Gregor Mendel", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "D", "texto": "Louis Pasteur", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "E", "texto": "Carl Linnaeus", "correta": false, "etiqueta": "bio-confundiu-conceitos" }
+    ],
+    "explicacao": "Charles Darwin publicou \"A Origem das Espécies\" em 1859 e propôs a seleção natural. Lamarck, que era francês, defendia a ideia do uso e desuso. Mendel estudou a hereditariedade, Pasteur estudou microrganismos e Linnaeus criou a nomenclatura binomial.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-evolucao-002", "materia": "biologia", "assunto": "evolucao", "questionario": 1, "dificuldade": -1,
+    "contexto": "Pistas do passado",
+    "enunciado": "Em uma escavação, uma equipe encontrou na rocha a marca de uma folha muito antiga. Esse achado é um exemplo de fóssil. O que é um fóssil?",
+    "alternativas": [
+      { "letra": "A", "texto": "Um ser vivo atual que quase não mudou ao longo do tempo.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "B", "texto": "Somente os ossos de dinossauros preservados em rochas.", "correta": false, "etiqueta": "bio-generalizou" },
+      { "letra": "C", "texto": "Uma rocha que, por acaso, tem formato parecido com um animal.", "correta": false, "etiqueta": "bio-senso-comum" },
+      { "letra": "D", "texto": "Restos ou vestígios de seres vivos de tempos remotos, preservados em rochas ou sedimentos.", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Uma espécie extinta nos últimos 50 anos.", "correta": false, "etiqueta": "bio-confundiu-conceitos" }
+    ],
+    "explicacao": "Fósseis incluem restos (ossos, conchas) e vestígios (pegadas, marcas de folhas) de organismos antigos. Não são só ossos de dinossauros e servem como evidência de como a vida mudou ao longo do tempo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-evolucao-003", "materia": "biologia", "assunto": "evolucao", "questionario": 1, "dificuldade": 0,
+    "contexto": "Bactérias que sobrevivem ao antibiótico",
+    "enunciado": "Em uma infecção tratada com antibiótico, quase todas as bactérias morreram, mas algumas sobreviveram e se multiplicaram. Como a teoria da evolução explica o surgimento de uma população resistente?",
+    "alternativas": [
+      { "letra": "A", "texto": "Algumas bactérias já eram naturalmente resistentes; o antibiótico eliminou as sensíveis, e as resistentes se reproduziram.", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "As bactérias criaram resistência porque precisavam sobreviver e passaram isso adiante.", "correta": false, "etiqueta": "bio-lamarckismo" },
+      { "letra": "C", "texto": "O antibiótico provocou nas bactérias mutações que as tornaram resistentes.", "correta": false, "etiqueta": "bio-inverteu-causa-efeito" },
+      { "letra": "D", "texto": "O paciente adquiriu resistência, e as bactérias a herdaram dele.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "E", "texto": "Todas as bactérias sofreram mutação ao mesmo tempo, por isso a população é resistente.", "correta": false, "etiqueta": "bio-generalizou" }
+    ],
+    "explicacao": "Existe variação entre as bactérias. O antibiótico atua como seleção: mata as sensíveis e deixa viver as resistentes, que se multiplicam. O antibiótico não cria a resistência, só seleciona quem já a tinha, e as bactérias não mudam por necessidade.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-evolucao-004", "materia": "biologia", "assunto": "evolucao", "questionario": 1, "dificuldade": 0,
+    "contexto": "Mariposas e fuligem",
+    "enunciado": "Em uma cidade industrial, a fuligem escureceu os troncos das árvores. Em uma espécie de mariposa, havia indivíduos claros e escuros. Algumas décadas depois, quase todas as mariposas eram escuras, pois os pássaros enxergavam melhor as claras sobre os troncos escuros. Qual é a explicação evolutiva?",
+    "alternativas": [
+      { "letra": "A", "texto": "As mariposas claras escureceram para se camuflar e transmitiram a cor aos filhos.", "correta": false, "etiqueta": "bio-lamarckismo" },
+      { "letra": "B", "texto": "A fuligem alterou o DNA das mariposas escuras, que se tornaram mais numerosas.", "correta": false, "etiqueta": "bio-inverteu-causa-efeito" },
+      { "letra": "C", "texto": "As mariposas escuras são mais fortes e saudáveis em todos os aspectos.", "correta": false, "etiqueta": "bio-generalizou" },
+      { "letra": "D", "texto": "As mariposas escuras migraram em massa de outra região.", "correta": false, "etiqueta": "bio-ignorou-dado" },
+      { "letra": "E", "texto": "As escuras, mais camufladas, foram menos predadas e deixaram mais descendentes com a mesma cor.", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Havia variação de cor. Com troncos escuros, as mariposas escuras escapavam mais dos predadores, sobreviviam e se reproduziam mais, e a frequência desse traço aumentou. É a seleção natural. Nenhuma mariposa mudou de cor por vontade ou necessidade.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-evolucao-005", "materia": "biologia", "assunto": "evolucao", "questionario": 1, "dificuldade": 1,
+    "contexto": "Ossos parecidos, funções diferentes",
+    "enunciado": "O braço humano, a asa do morcego e a nadadeira da baleia têm funções diferentes, mas o mesmo arranjo básico de ossos (úmero, rádio, ulna, ossos da mão). Para a biologia evolutiva, o que essa semelhança indica?",
+    "alternativas": [
+      { "letra": "A", "texto": "Que os três grupos evoluíram a partir de ancestrais diferentes, mas tiveram a mesma função.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "B", "texto": "Que o morcego surgiu a partir da baleia, e o ser humano a partir do morcego.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "C", "texto": "Que os três têm um ancestral comum, e a estrutura foi modificada por seleção natural para funções diferentes.", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Que o uso frequente do membro alongou os ossos, e esse alongamento foi herdado.", "correta": false, "etiqueta": "bio-lamarckismo" },
+      { "letra": "E", "texto": "Que a semelhança é só coincidência, sem relação de parentesco.", "correta": false, "etiqueta": "bio-ignorou-dado" }
+    ],
+    "explicacao": "Estruturas com a mesma origem embrionária e evolutiva são homólogas. O mesmo plano de ossos aparece por herança de um ancestral comum, e depois foi modificado em cada grupo por seleção natural (divergência adaptativa). Uma lista de ossos igual não aparece por coincidência.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-evolucao-006", "materia": "biologia", "assunto": "evolucao", "questionario": 2, "dificuldade": -1,
+    "contexto": "Matéria-prima da evolução",
+    "enunciado": "Para que a seleção natural possa atuar sobre uma população, é preciso que exista um fator básico, que surge por mutações e recombinação genética. Qual é esse fator?",
+    "alternativas": [
+      { "letra": "A", "texto": "O esforço dos indivíduos para se adaptar.", "correta": false, "etiqueta": "bio-lamarckismo" },
+      { "letra": "B", "texto": "O uso e o desuso dos órgãos.", "correta": false, "etiqueta": "bio-lamarckismo" },
+      { "letra": "C", "texto": "A variabilidade genética entre os indivíduos.", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "A vontade da espécie de sobreviver.", "correta": false, "etiqueta": "bio-senso-comum" },
+      { "letra": "E", "texto": "A idade dos indivíduos da população.", "correta": false, "etiqueta": "bio-senso-comum" }
+    ],
+    "explicacao": "Sem variação hereditária entre os indivíduos, não haveria o que selecionar. Mutações e recombinação geram essa variabilidade. O esforço ou a vontade individual não alteram os genes que passam para os filhos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-evolucao-007", "materia": "biologia", "assunto": "evolucao", "questionario": 2, "dificuldade": 0,
+    "contexto": "O pescoço da girafa",
+    "enunciado": "Girafas se alimentam de folhas no alto das árvores. Qual explicação para o pescoço longo está de acordo com a teoria de Darwin?",
+    "alternativas": [
+      { "letra": "A", "texto": "Havia girafas com pescoços de tamanhos diferentes. As de pescoço mais longo alcançaram mais comida, sobreviveram e deixaram mais descendentes.", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "As girafas esticavam o pescoço para alcançar as folhas, e os filhos já nasceram com o pescoço mais longo.", "correta": false, "etiqueta": "bio-lamarckismo" },
+      { "letra": "C", "texto": "A espécie decidiu em conjunto alongar o pescoço para alcançar as folhas.", "correta": false, "etiqueta": "bio-senso-comum" },
+      { "letra": "D", "texto": "A comida no alto das árvores provocou mutações que alongaram o pescoço.", "correta": false, "etiqueta": "bio-inverteu-causa-efeito" },
+      { "letra": "E", "texto": "Todas as girafas nasciam com pescoço igual, e o ambiente escolheu o comprimento.", "correta": false, "etiqueta": "bio-ignorou-dado" }
+    ],
+    "explicacao": "Para Darwin, a variação já existe na população. Quem tem a característica vantajosa sobrevive e se reproduz mais, e a característica se torna comum. A ideia de esticar o pescoço e passar o resultado aos filhos é a de Lamarck, que não se sustenta. Sem variação, não haveria seleção.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-evolucao-008", "materia": "biologia", "assunto": "evolucao", "questionario": 2, "dificuldade": 0,
+    "contexto": "O rio que separou os esquilos",
+    "enunciado": "Um rio mudou de curso e dividiu uma população de esquilos em dois grupos, que não se encontravam mais. Milhares de anos depois, os dois grupos já não se reproduziam entre si, mesmo quando se encontravam. Que processo explica esse resultado?",
+    "alternativas": [
+      { "letra": "A", "texto": "Cada grupo mudou por desejo de se adaptar à sua margem do rio.", "correta": false, "etiqueta": "bio-lamarckismo" },
+      { "letra": "B", "texto": "Os esquilos aprenderam hábitos diferentes e os passaram geneticamente aos filhos.", "correta": false, "etiqueta": "bio-lamarckismo" },
+      { "letra": "C", "texto": "Duas espécies surgem imediatamente quando uma população é separada.", "correta": false, "etiqueta": "bio-generalizou" },
+      { "letra": "D", "texto": "A especiação só ocorre com mutações grandes e repentinas.", "correta": false, "etiqueta": "bio-generalizou" },
+      { "letra": "E", "texto": "Com o isolamento geográfico, cada grupo acumulou mutações e passou por seleção diferentes, até haver isolamento reprodutivo.", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Sem troca de genes entre os grupos, cada um acumula mutações e sofre pressões seletivas próprias. Com o tempo, as diferenças impedem o cruzamento, e surgem espécies novas (especiação alopátrica). O processo é lento e gradual.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-evolucao-009", "materia": "biologia", "assunto": "evolucao", "questionario": 2, "dificuldade": 1,
+    "contexto": "Besouros e inseticida",
+    "enunciado": "Em uma população de 200 besouros-praga, 20 são naturalmente resistentes a um inseticida. Após a aplicação, sobreviveram todos os resistentes e 10% dos sensíveis. Entre os besouros sobreviventes, qual a proporção aproximada de resistentes?",
+    "alternativas": [
+      { "letra": "A", "texto": "10%", "correta": false, "etiqueta": "bio-ignorou-dado" },
+      { "letra": "B", "texto": "53%", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "90%", "correta": false, "etiqueta": "bio-erro-calculo" },
+      { "letra": "D", "texto": "100%", "correta": false, "etiqueta": "bio-generalizou" },
+      { "letra": "E", "texto": "18%", "correta": false, "etiqueta": "bio-erro-calculo" }
+    ],
+    "explicacao": "Sensíveis: 200 - 20 = 180, e 10% deles são 18 sobreviventes. Total de sobreviventes: 20 + 18 = 38. Proporção de resistentes: 20 ÷ 38 ≈ 0,526, ou cerca de 53%. Antes da aplicação eram 10% (20 de 200), e a seleção elevou esse valor.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-evolucao-010", "materia": "biologia", "assunto": "evolucao", "questionario": 2, "dificuldade": 1,
+    "contexto": "Tubarão e golfinho",
+    "enunciado": "Tubarões (peixes) e golfinhos (mamíferos) têm corpo alongado, nadadeira dorsal e cauda potente, embora os golfinhos descendam de ancestrais terrestres. Qual é a melhor explicação para essa semelhança?",
+    "alternativas": [
+      { "letra": "A", "texto": "Os dois têm um ancestral comum muito recente, e por isso têm a mesma forma.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "B", "texto": "O golfinho evoluiu diretamente a partir do tubarão.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "C", "texto": "O golfinho adquiriu a forma de peixe ao viver na água e a passou aos filhos.", "correta": false, "etiqueta": "bio-lamarckismo" },
+      { "letra": "D", "texto": "Pressões seletivas parecidas (nadar rápido na água) favoreceram formas parecidas em linhagens diferentes, a chamada convergência adaptativa.", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "A semelhança é pura coincidência e não tem relação com o ambiente.", "correta": false, "etiqueta": "bio-ignorou-dado" }
+    ],
+    "explicacao": "Quando linhagens distantes vivem em ambientes parecidos, a seleção natural pode favorecer formas parecidas (convergência). As estruturas são análogas, e não indicam parentesco próximo. Tubarão é peixe e golfinho é mamífero, e eles estão em ramos bem distintos da árvore da vida.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-evolucao-011", "materia": "biologia", "assunto": "evolucao", "questionario": 3, "dificuldade": -1,
+    "contexto": "Cacto vs. seca",
+    "enunciado": "Os cactos têm folhas transformadas em espinhos e caule que armazena água, características que reduzem a perda de água no ambiente seco. Uma característica hereditária que aumenta as chances de sobrevivência e reprodução em determinado ambiente é chamada de:",
+    "alternativas": [
+      { "letra": "A", "texto": "mutação", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "B", "texto": "hibridização", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "C", "texto": "especiação", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "D", "texto": "extinção", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "E", "texto": "adaptação", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Adaptação é uma característica herdada que favorece a sobrevivência e a reprodução no ambiente. Mutação é a alteração no DNA que pode originar a característica, e especiação é a formação de novas espécies.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-evolucao-012", "materia": "biologia", "assunto": "evolucao", "questionario": 3, "dificuldade": -1,
+    "contexto": "Primos na árvore da vida",
+    "enunciado": "Comparações do DNA mostram que os seres humanos têm parentesco evolutivo próximo com os grandes primatas. Entre os animais abaixo, qual é o parente vivo mais próximo da espécie humana?",
+    "alternativas": [
+      { "letra": "A", "texto": "Cão", "correta": false, "etiqueta": "bio-senso-comum" },
+      { "letra": "B", "texto": "Gorila", "correta": false, "etiqueta": "bio-meia-verdade" },
+      { "letra": "C", "texto": "Chimpanzé", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Macaco-prego", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "E", "texto": "Orangotango", "correta": false, "etiqueta": "bio-meia-verdade" }
+    ],
+    "explicacao": "O chimpanzé (e o bonobo) é o parente vivo mais próximo do ser humano: compartilhamos um ancestral comum mais recente com eles do que com gorilas e orangotangos. Todos são primatas, mas estão em ramos mais afastados. Isso não quer dizer que humanos vieram dos chimpanzés atuais.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-evolucao-013", "materia": "biologia", "assunto": "evolucao", "questionario": 3, "dificuldade": 0,
+    "contexto": "A ideia de Lamarck",
+    "enunciado": "Antes de Darwin, o naturalista francês Lamarck propôs uma explicação para as mudanças nos seres vivos que depois se mostrou incorreta. Qual das afirmações abaixo expressa a ideia de Lamarck?",
+    "alternativas": [
+      { "letra": "A", "texto": "Os indivíduos mais aptos deixam mais descendentes.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "B", "texto": "A variação hereditária surge ao acaso dentro das populações.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "C", "texto": "A competição por recursos limitados favorece alguns indivíduos.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "D", "texto": "O uso contínuo de um órgão o desenvolve, e as características adquiridas são transmitidas aos descendentes.", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Mutações e recombinação geram a variabilidade genética.", "correta": false, "etiqueta": "bio-confundiu-conceitos" }
+    ],
+    "explicacao": "Lamarck defendia o uso e desuso e a herança de características adquiridas. Hoje se sabe que o que se adquire em vida (como músculos por exercício) não altera os genes passados aos filhos. As demais frases são ideias da teoria sintética da evolução, que une Darwin e a genética.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-evolucao-014", "materia": "biologia", "assunto": "evolucao", "questionario": 3, "dificuldade": 0,
+    "contexto": "Relógio de carbono",
+    "enunciado": "A meia-vida do carbono-14 é de cerca de 5.700 anos, ou seja, a cada 5.700 anos metade dele se desintegra. Um osso fossilizado tem 25% do carbono-14 que tinha em vida. Qual é a idade aproximada do osso?",
+    "alternativas": [
+      { "letra": "A", "texto": "11.400 anos", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "5.700 anos", "correta": false, "etiqueta": "bio-ignorou-dado" },
+      { "letra": "C", "texto": "22.800 anos", "correta": false, "etiqueta": "bio-erro-calculo" },
+      { "letra": "D", "texto": "17.100 anos", "correta": false, "etiqueta": "bio-erro-calculo" },
+      { "letra": "E", "texto": "1.425 anos", "correta": false, "etiqueta": "bio-erro-calculo" }
+    ],
+    "explicacao": "De 100% para 50% passa uma meia-vida (5.700 anos), e de 50% para 25% passa outra. São 2 meias-vidas: 2 × 5.700 = 11.400 anos. Parar em 5.700 anos ignora o segundo passo, e dividir 5.700 por 4 não tem sentido físico.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-evolucao-015", "materia": "biologia", "assunto": "evolucao", "questionario": 3, "dificuldade": 1,
+    "contexto": "Cauda de pavão",
+    "enunciado": "A cauda longa e colorida do pavão macho dificulta a fuga de predadores e custa muita energia, mas esse traço persiste na espécie. Qual explicação evolutiva é mais adequada?",
+    "alternativas": [
+      { "letra": "A", "texto": "A cauda cresceu por uso constante e foi herdada pelos filhos.", "correta": false, "etiqueta": "bio-lamarckismo" },
+      { "letra": "B", "texto": "Machos de cauda vistosa são preferidos pelas fêmeas e deixam mais descendentes, o que compensa o custo na sobrevivência (seleção sexual).", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "A seleção natural elimina sempre qualquer característica que reduza a sobrevivência.", "correta": false, "etiqueta": "bio-generalizou" },
+      { "letra": "D", "texto": "A cauda grande ajuda o pavão a fugir mais rápido de predadores.", "correta": false, "etiqueta": "bio-ignorou-dado" },
+      { "letra": "E", "texto": "As fêmeas escolhem a cauda grande porque precisam que os filhos sejam maiores.", "correta": false, "etiqueta": "bio-inverteu-causa-efeito" }
+    ],
+    "explicacao": "O que conta para a evolução é deixar descendentes. Se as fêmeas preferem machos de cauda vistosa, esses machos se reproduzem mais, mesmo vivendo menos. Esse tipo de seleção chama-se sexual. A seleção natural não elimina automaticamente todo traço que custe sobrevivência.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-evolucao-016", "materia": "biologia", "assunto": "evolucao", "questionario": 4, "dificuldade": -1,
+    "contexto": "Quem evolui?",
+    "enunciado": "Na biologia evolutiva moderna, quem evolui ao longo das gerações, ou seja, tem a frequência de seus genes alterada?",
+    "alternativas": [
+      { "letra": "A", "texto": "Cada indivíduo, ao longo da própria vida.", "correta": false, "etiqueta": "bio-lamarckismo" },
+      { "letra": "B", "texto": "O planeta, por meio das mudanças climáticas.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "C", "texto": "Uma espécie inteira, em uma única geração.", "correta": false, "etiqueta": "bio-senso-comum" },
+      { "letra": "D", "texto": "As populações, ao longo de várias gerações.", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Apenas os indivíduos mais fortes.", "correta": false, "etiqueta": "bio-generalizou" }
+    ],
+    "explicacao": "Indivíduos não evoluem: seus genes são os mesmos a vida inteira. O que muda de uma geração para outra é a frequência dos alelos na população. Esse processo leva muitas gerações.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-evolucao-017", "materia": "biologia", "assunto": "evolucao", "questionario": 4, "dificuldade": 0,
+    "contexto": "Do lobo ao cachorrinho",
+    "enunciado": "As diversas raças de cães surgiram porque, durante séculos, pessoas escolheram quais cães iriam se reproduzir, de acordo com características desejadas. Qual é a principal diferença entre essa seleção artificial e a seleção natural?",
+    "alternativas": [
+      { "letra": "A", "texto": "Na artificial, o ambiente escolhe os indivíduos; na natural, as pessoas escolhem.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "B", "texto": "Na artificial, o ser humano escolhe quem se reproduz; na natural, as condições do ambiente favorecem os mais adaptados.", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Só na seleção artificial existe variação hereditária.", "correta": false, "etiqueta": "bio-generalizou" },
+      { "letra": "D", "texto": "A seleção artificial cria mutações específicas, conforme o desejo do criador.", "correta": false, "etiqueta": "bio-senso-comum" },
+      { "letra": "E", "texto": "Não há diferença: as duas funcionam do mesmo jeito.", "correta": false, "etiqueta": "bio-generalizou" }
+    ],
+    "explicacao": "Nos dois casos, há variação hereditária e reprodução diferencial. O que muda é quem escolhe: na artificial, o criador seleciona os que lhe interessam, e na natural, é o ambiente que favorece os mais aptos. Mutações continuam surgindo ao acaso.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-evolucao-018", "materia": "biologia", "assunto": "evolucao", "questionario": 4, "dificuldade": 0,
+    "contexto": "Asa de borboleta e asa de pardal",
+    "enunciado": "A asa de uma borboleta e a asa de um pardal têm a mesma função (voar), mas suas origens embrionárias e estruturas internas são completamente diferentes. Como esses órgãos são classificados?",
+    "alternativas": [
+      { "letra": "A", "texto": "Homólogos, pois têm a mesma função.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "B", "texto": "Homólogos, pois a borboleta e o pardal têm um ancestral comum muito recente.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "C", "texto": "Análogos, resultado de pressões seletivas semelhantes em linhagens diferentes.", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Vestigiais, pois perderam a função original.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "E", "texto": "Prova de que a borboleta descende diretamente do pardal.", "correta": false, "etiqueta": "bio-inverteu-causa-efeito" }
+    ],
+    "explicacao": "Órgãos análogos têm a mesma função e origem diferente: aparecem por convergência, não por herança comum. Órgãos homólogos têm mesma origem embrionária (mesmo que a função mude). Asa de inseto e asa de ave são o exemplo clássico de analogia.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-evolucao-019", "materia": "biologia", "assunto": "evolucao", "questionario": 4, "dificuldade": 1,
+    "contexto": "Poucos sobreviventes",
+    "enunciado": "Por causa da caça, uma população com milhares de animais foi reduzida a apenas 20 indivíduos. Depois, protegida, voltou a crescer e hoje tem milhares de animais novamente. Que efeito genético é esperado nessa população?",
+    "alternativas": [
+      { "letra": "A", "texto": "Maior variabilidade genética, pois restaram apenas os mais fortes.", "correta": false, "etiqueta": "bio-inverteu-causa-efeito" },
+      { "letra": "B", "texto": "Nenhum efeito, pois o tamanho voltou ao que era antes.", "correta": false, "etiqueta": "bio-ignorou-dado" },
+      { "letra": "C", "texto": "Uma população mais bem adaptada, pois os sobreviventes foram os melhores.", "correta": false, "etiqueta": "bio-generalizou" },
+      { "letra": "D", "texto": "Surgimento rápido de mutações benéficas para compensar a perda.", "correta": false, "etiqueta": "bio-lamarckismo" },
+      { "letra": "E", "texto": "Redução da variabilidade genética, o que diminui a capacidade de responder a novas doenças ou mudanças do ambiente.", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Quando a população passa por um gargalo, a maior parte dos alelos desaparece, em grande parte por acaso, e não por mérito. Mesmo com o número recuperado, a diversidade genética continua baixa, e a população fica mais vulnerável a novas doenças.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-evolucao-020", "materia": "biologia", "assunto": "evolucao", "questionario": 4, "dificuldade": 1,
+    "contexto": "Dinossauros com penas",
+    "enunciado": "Fósseis de pequenos dinossauros carnívoros (terópodes) com penas, e semelhanças em ossos como o do punho e a fúrcula entre esses animais e as aves atuais, são evidências usadas por cientistas. Que conclusão essas evidências sustentam?",
+    "alternativas": [
+      { "letra": "A", "texto": "As aves descendem de um grupo de dinossauros terópodes.", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Os dinossauros evoluíram a partir das aves atuais.", "correta": false, "etiqueta": "bio-inverteu-causa-efeito" },
+      { "letra": "C", "texto": "Todos os dinossauros tinham penas e voavam.", "correta": false, "etiqueta": "bio-generalizou" },
+      { "letra": "D", "texto": "Aves e dinossauros terópodes pertencem à mesma espécie.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "E", "texto": "Os dinossauros viraram aves ao perderem o uso das patas dianteiras.", "correta": false, "etiqueta": "bio-lamarckismo" }
+    ],
+    "explicacao": "Fósseis e características anatômicas mostram que as aves surgiram de dinossauros terópodes: elas são os dinossauros que sobreviveram. A ordem do tempo vai do ancestral para o descendente, e não o contrário. Nem todos os dinossauros tinham penas, e a mudança não aconteceu por uso ou desuso.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]

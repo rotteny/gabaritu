@@ -1,0 +1,12 @@
+{
+  "slug": "geografia",
+  "nome": "Geografia",
+  "area": "Ciências Humanas e suas Tecnologias",
+  "assuntos": [
+    { "slug": "cartografia", "nome": "Cartografia, escalas e fusos horários", "ordem": 1, "por_que": "Leitura de mapas, escala, coordenadas e fuso horário aparecem em toda prova e rendem questão de raciocínio direto." },
+    { "slug": "clima-meio-ambiente", "nome": "Climas, biomas e meio ambiente", "ordem": 2, "por_que": "Domínios morfoclimáticos, fatores do clima e impactos ambientais estão entre os temas mais recorrentes do ENEM." },
+    { "slug": "urbanizacao", "nome": "Urbanização e problemas urbanos", "ordem": 3, "por_que": "A maior parte dos brasileiros vive em cidades, e segregação, mobilidade e moradia caem sempre." },
+    { "slug": "espaco-agrario", "nome": "Espaço agrário e agropecuária", "ordem": 4, "por_que": "Concentração de terras, agronegócio e agricultura familiar são cobrados com frequência e ligados a atualidades." },
+    { "slug": "globalizacao-geopolitica", "nome": "Globalização e geopolítica", "ordem": 5, "por_que": "Blocos econômicos, Guerra Fria, fluxos globais e desigualdade entre países aparecem em quase toda edição." }
+  ]
+}

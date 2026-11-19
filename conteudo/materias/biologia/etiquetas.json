@@ -1,0 +1,17 @@
+[
+  { "id": "bio-confundiu-conceitos", "nome": "Confundiu conceitos parecidos", "descricao": "Trocou termos próximos, como população e comunidade, ou mutualismo e comensalismo." },
+  { "id": "bio-inverteu-causa-efeito", "nome": "Inverteu causa e efeito", "descricao": "Colocou a consequência como se fosse a causa do fenômeno." },
+  { "id": "bio-generalizou", "nome": "Generalizou demais", "descricao": "Transformou um caso particular em regra ('sempre', 'nunca', 'todos')." },
+  { "id": "bio-ignorou-dado", "nome": "Ignorou um dado do enunciado", "descricao": "Respondeu sem usar uma informação decisiva que estava no texto." },
+  { "id": "bio-erro-calculo", "nome": "Erro de conta", "descricao": "Errou a operação ou parou num resultado intermediário." },
+  { "id": "bio-erro-probabilidade", "nome": "Erro de probabilidade", "descricao": "Somou onde devia multiplicar, ou usou a proporção do cruzamento errado." },
+  { "id": "bio-confundiu-organela", "nome": "Trocou a função da estrutura", "descricao": "Atribuiu a uma organela ou estrutura a função de outra." },
+  { "id": "bio-lamarckismo", "nome": "Raciocínio lamarckista", "descricao": "Achou que o organismo muda porque precisa e passa o que adquiriu em vida." },
+  { "id": "bio-confundiu-processos", "nome": "Confundiu processos", "descricao": "Trocou processos parecidos, como fotossíntese e respiração, ou mitose e meiose." },
+  { "id": "bio-sentido-fluxo", "nome": "Errou o sentido do fluxo", "descricao": "Errou o caminho da energia, da matéria ou das substâncias." },
+  { "id": "bio-senso-comum", "nome": "Usou o senso comum", "descricao": "Respondeu com a ideia do dia a dia em vez do conceito científico." },
+  { "id": "bio-confundiu-agente", "nome": "Confundiu o agente da doença", "descricao": "Misturou vírus, bactéria, protozoário ou verme, ou o tipo de prevenção correspondente." },
+  { "id": "bio-erro-dominancia", "nome": "Confundiu dominante com comum", "descricao": "Achou que característica dominante é a mais frequente ou a 'mais forte'." },
+  { "id": "bio-troca-orgao-funcao", "nome": "Trocou órgão e função", "descricao": "Atribuiu a um órgão ou sistema a função de outro." },
+  { "id": "bio-meia-verdade", "nome": "Meia-verdade que não responde", "descricao": "Escolheu algo verdadeiro, mas que não responde ao que a pergunta pediu." }
+]

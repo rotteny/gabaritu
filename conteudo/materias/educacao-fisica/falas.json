@@ -1,0 +1,327 @@
+[
+  {
+    "etiqueta": "edf-so-rendimento",
+    "fofo": [
+      "Esporte não é só ganhar! Tem lazer, amizade e saúde também. Bora olhar o conjunto?",
+      "Quase! Medalha é uma parte da história, não o livro todo.",
+      "Eu também já quis ganhar tudo e esqueci de me divertir. Aí vi que o jogo é mais que placar!",
+      "Foco total no resultado, mas faltou olhar quem participa. Tenta de novo, campeão!",
+      "É como achar que festa boa é só a que tem bolo: o encontro faz parte!"
+    ],
+    "sarc": [
+      "Claro, esporte só existe pra bater recorde. Ninguém joga por diversão, né?",
+      "Que visão olímpica: se não tem pódio, não é esporte.",
+      "Pelada com os amigos? Ah, não conta, ninguém ganhou medalha.",
+      "Que maravilha reduzir tudo a placar. Seria ótimo se a vida fosse um cronômetro.",
+      "Vencer a qualquer custo é uma estratégia. Pena que não é a da questão."
+    ],
+    "sem": [
+      "ESPORTE NÃO É SÓ VENCER! TEM CONVIVÊNCIA, SAÚDE E DIVERSÃO!",
+      "VOCÊ TRANSFORMOU TUDO EM RECORDE! A PELADA DO BAIRRO ESTÁ INDIGNADA!",
+      "Eu só pensava em ganhar e esqueci de brincar. Vi que o gol é só um pedaço da festa!",
+      "PÓDIO, PÓDIO, PÓDIO! E O LAZER, ONDE FICOU?! RELEIA O ENUNCIADO!",
+      "RENDIMENTO É SÓ UMA DAS FACES! A QUADRA TEM MUITO MAIS HISTÓRIA!"
+    ],
+    "reserva": "Esporte pode ser rendimento, lazer ou educação: veja qual deles a questão pede."
+  },
+  {
+    "etiqueta": "edf-confundiu-categoria",
+    "fofo": [
+      "Jogo, esporte, dança e luta são primos, mas não são gêmeos. Vamos separar?",
+      "Quase! Essa prática mora em outra categoria da cultura corporal.",
+      "Eu já chamei capoeira de ginástica e levei bronca do mestre. Agora a gente acerta junto!",
+      "Misturou as categorias, mas dá pra arrumar: qual é o objetivo e como se joga?",
+      "É tipo achar que pizza e lasanha são a mesma coisa: ambas são massa, mas cada uma tem seu jeito!"
+    ],
+    "sarc": [
+      "Claro, dança, luta e esporte são tudo a mesma coisa. Os professores agradecem a simplificação.",
+      "Que ousadia: juntou judô e balé numa categoria só.",
+      "Se tudo fosse a mesma categoria, ninguém precisaria de tantas aulas diferentes.",
+      "Parabéns, inventou uma modalidade nova: o jogoluta-dança.",
+      "Etiquetar tudo igual economiza tempo. Pena que não ganha ponto."
+    ],
+    "sem": [
+      "CATEGORIAS TROCADAS! A DANÇA E A LUTA ESTÃO ESTRANHANDO NO VESTIÁRIO!",
+      "ISSO NÃO É ESSA CATEGORIA! A CULTURA CORPORAL ESTÁ EM CHOQUE!",
+      "Eu misturei jogo com esporte e o apito do árbitro tocou sozinho!",
+      "VOCÊ JOGOU TUDO NUM SACO SÓ! SEPARA, QUE CADA PRÁTICA TEM SUA IDENTIDADE!",
+      "CADA CATEGORIA TEM SUAS PRÓPRIAS REGRAS DO JOGO! CONFERE DE NOVO!"
+    ],
+    "reserva": "Jogo, esporte, dança, luta e ginástica têm características próprias: confira qual é o caso."
+  },
+  {
+    "etiqueta": "edf-saude-so-doenca",
+    "fofo": [
+      "Saúde é mais que não estar doente! Inclui bem-estar do corpo, da mente e da convivência.",
+      "Quase! A definição é maior: bem-estar físico, mental e social.",
+      "Eu já achei que saúde era só não ir ao médico. Aí vi que sono, amizade e lazer contam!",
+      "Ausência de doença é um pedaço. O resto é bem-estar. Vamos completar?",
+      "É como achar que a casa tá ótima só porque o teto não cai: dá pra melhorar o resto!"
+    ],
+    "sarc": [
+      "Saúde é só não estar doente. Então sono, lazer e amizade são acessórios, né?",
+      "Que definição econômica: uma frase e acabou.",
+      "Se não tem doença, tá tudo ótimo. A OMS vai atualizar o dicionário, claro.",
+      "Claro, bem-estar mental é luxo. Quem precisa dele?",
+      "Resposta rápida, definição curta, pontuação zero."
+    ],
+    "sem": [
+      "SAÚDE NÃO É SÓ AUSÊNCIA DE DOENÇA! É BEM-ESTAR FÍSICO, MENTAL E SOCIAL!",
+      "VOCÊ DEIXOU O BEM-ESTAR DE FORA! A OMS NEM ACREDITA!",
+      "Eu achava que saúde era só não ter remédio na gaveta. Quase caí do aquário quando soube do resto!",
+      "SÓ DOENÇA?! E O SONO, O LAZER, A CONVIVÊNCIA?! VOLTA LÁ!",
+      "DEFINIÇÃO INCOMPLETA! SAÚDE É BEM MAIS AMPLA!"
+    ],
+    "reserva": "Saúde é bem-estar físico, mental e social, e não só a falta de doença."
+  },
+  {
+    "etiqueta": "edf-confundiu-conceito",
+    "fofo": [
+      "Atividade física, exercício e sedentarismo são parentes, mas diferentes. Vamos separar?",
+      "Quase! Confere o conceito: planejado ou do dia a dia?",
+      "Eu também já confundi esses termos. Ainda bem que o aquário tem dicionário!",
+      "Termo trocado! Lê a definição com calma que dá certo.",
+      "É como confundir lanche com refeição: os dois são comida, mas não são iguais!"
+    ],
+    "sarc": [
+      "Claro, atividade física e exercício físico são idênticos. Os livros riem de nervoso.",
+      "Que precisão conceitual: trocou tudo e ainda confiou.",
+      "Se todo termo fosse sinônimo, a prova teria uma palavra só.",
+      "Parabéns pela mistura criativa de conceitos de saúde.",
+      "Os termos agradeceram o convite, mas não vieram do jeito certo."
+    ],
+    "sem": [
+      "CONCEITO TROCADO! A DEFINIÇÃO ESTÁ AO LADO, FAZENDO SINAL!",
+      "ATIVIDADE FÍSICA NÃO É EXERCÍCIO! RESPIRA E CONFERE!",
+      "Eu misturei os termos e fiquei mais embaralhado que baralho no fim da festa!",
+      "VOCÊ FEZ UM LIQUIDIFICADOR DE CONCEITOS! SEPARA ANTES QUE VIRE SUCO!",
+      "TERMO ERRADO! O DICIONÁRIO ESTÁ NA MESA, ABRE ELE!"
+    ],
+    "reserva": "Atividade física, exercício e sedentarismo têm definições diferentes: confira a do enunciado."
+  },
+  {
+    "etiqueta": "edf-ignorou-contexto",
+    "fofo": [
+      "Faltou olhar o contexto! Esporte e cultura nascem em lugares e épocas.",
+      "Quase! Pensa em quem pratica, onde e por quê.",
+      "Eu esqueci o contexto e jurei que o futebol sempre foi de todo mundo. Spoiler: não foi!",
+      "Contexto é a chave. Lê de novo e procura a pista da época ou da sociedade.",
+      "É como ver o jogo só no segundo tempo: falta ver como ele começou!"
+    ],
+    "sarc": [
+      "Contexto social? Ah, isso não tem nada a ver com esporte, claro.",
+      "O esporte surgiu do nada, no vácuo, sem sociedade. Lindo.",
+      "Que bom ignorar a história: dá mais liberdade pra errar.",
+      "Interpretar prática corporal sem contexto é o jeito mais corajoso de se perder.",
+      "Parabéns, ignorou metade do enunciado. Foi uma escolha."
+    ],
+    "sem": [
+      "CONTEXTO IGNORADO! A HISTÓRIA ESTÁ BATENDO NA QUADRA!",
+      "VOCÊ LEU O JOGO SEM LER O MUNDO! ISSO É IMPOSSÍVEL!",
+      "Eu vi um estádio vazio e achei que ninguém gostava de esporte. Faltava o contexto!",
+      "SEM CONTEXTO NÃO TEM SENTIDO! RELEIA AS PISTAS!",
+      "O CONTEXTO ERA A BOLA E A RESPOSTA CHUTOU PRA FORA!"
+    ],
+    "reserva": "Toda prática corporal tem época, lugar e sociedade: ligue a resposta ao contexto."
+  },
+  {
+    "etiqueta": "edf-regra-errada",
+    "fofo": [
+      "Regra trocada! Dá uma olhadinha no regulamento da modalidade.",
+      "Quase! O fundamento certo tá na página ao lado do manual.",
+      "Eu já tentei driblar com o pé no basquete. O árbitro riu muito!",
+      "Detalhe de regra é pegadinha clássica. Tenta de novo!",
+      "É como errar quantos jogadores tem no time: parece fácil, mas tem que lembrar."
+    ],
+    "sarc": [
+      "Claro, essa regra é nova. Foi criada agora, só pra essa resposta.",
+      "Que criatividade: reinventou o regulamento.",
+      "Se a regra fosse essa, o árbitro estaria aplaudindo. Ele não está.",
+      "Parabéns, inventou uma modalidade nova com regras suas.",
+      "Regras são só sugestões, né? Só que não."
+    ],
+    "sem": [
+      "REGRA ERRADA! O APITO TOCOU E O ÁRBITRO LEVANTOU A MÃO!",
+      "ISSO NÃO É REGRA, É IMAGINAÇÃO! CONFERE O REGULAMENTO!",
+      "Eu errei uma regra uma vez e o jogo parou por dez minutos de tanto riso!",
+      "O REGULAMENTO ESTÁ CHORANDO NA GAVETA! LEIA DE NOVO!",
+      "FALTA GRAVE! NA REGRA, NÃO NA PESSOA! REVÊ ISSO!"
+    ],
+    "reserva": "Cada modalidade tem seu regulamento: confira a regra antes de marcar."
+  },
+  {
+    "etiqueta": "edf-receita-unica",
+    "fofo": [
+      "Cada pessoa cuida de si de um jeito! Não existe receita única que sirva pra todo mundo.",
+      "Quase! Gosto, condição e contexto mudam. Tem mais de um caminho.",
+      "Eu achava que todo baiacu inflava do mesmo jeito. Aí vi que cada um tem seu estilo!",
+      "Um jeito só pode funcionar pra uma pessoa, mas não pra todas. Vamos pensar na variedade?",
+      "É como achar que todo mundo ama o mesmo sabor de sorvete: tem muito sabor por aí!"
+    ],
+    "sarc": [
+      "Claro, existe um único jeito certo pra todo mundo. Que simplicidade.",
+      "Tamanho único serve pra tudo. Principalmente pra errar.",
+      "Se uma receita servisse pra todo mundo, nem existiria tanta variedade de prática.",
+      "Que bom que descobriu o segredo universal. Pena que ele não existe.",
+      "Um jeito só pra bilhões de pessoas. Totalmente razoável."
+    ],
+    "sem": [
+      "RECEITA ÚNICA NÃO EXISTE! CADA PESSOA TEM SEU JEITO E SUA REALIDADE!",
+      "VOCÊ ACHOU O SEGREDO PRA TODO MUNDO! SÓ QUE ELE NÃO EXISTE!",
+      "Eu quis que todos os peixes nadassem igual. Foi um caos no aquário!",
+      "UM JEITO SÓ? A VIDA É BEM MAIS VARIADA! REVÊ ISSO!",
+      "TAMANHO ÚNICO NÃO SERVE! PENSE NA DIVERSIDADE!"
+    ],
+    "reserva": "Não existe um único jeito certo para todo mundo: considere as diferenças de gosto e de contexto."
+  },
+  {
+    "etiqueta": "edf-extremo",
+    "fofo": [
+      "Cuidado com sempre, nunca e apenas! A realidade quase nunca é tão absoluta.",
+      "Quase! Essa alternativa não deixou espaço pra exceção.",
+      "Eu aprendi: quando aparece só ou nunca, desconfia!",
+      "Palavras radicais costumam ser pegadinha. Procura a resposta mais equilibrada.",
+      "É como dizer que todo baiacu é bravo: tem exceção, e eu sou a prova!"
+    ],
+    "sarc": [
+      "Claro, sempre e nunca valem pra tudo. Que mundo simples.",
+      "Que certeza absoluta! A realidade é bem mais cheia de nuances.",
+      "Afirmação radical: o jeito mais confiante de errar.",
+      "Se fosse tão absoluto, a questão seria mais fácil. Mas não é.",
+      "Todo mundo faz assim? Que conveniente."
+    ],
+    "sem": [
+      "SEMPRE? NUNCA? APENAS? DESCONFIA DELES!",
+      "ALTERNATIVA EXTREMA! A REALIDADE TEM EXCEÇÕES E NINGUÉM OLHOU!",
+      "Eu marquei a que tinha nunca e quase caí do aquário!",
+      "RADICAL DEMAIS! A VIDA É CHEIA DE MEIOS-TERMOS!",
+      "ABSOLUTO É CILADA! RESPIRA E VOLTA!"
+    ],
+    "reserva": "Alternativas com sempre, nunca e apenas pedem desconfiança: a realidade tem exceções."
+  },
+  {
+    "etiqueta": "edf-fuga-do-tema",
+    "fofo": [
+      "Essa alternativa até é verdadeira, mas não responde à pergunta. Releia o enunciado!",
+      "Quase! Boa informação, mas de outro assunto. Volta pro que foi pedido.",
+      "Eu também já respondi outra coisa e me achei esperto. Era outra pergunta!",
+      "Verdadeira não é igual a correta. Vamos ver o que a questão quer?",
+      "É tipo responder que está calor quando perguntam as horas. Faz sentido, mas não ajuda!"
+    ],
+    "sarc": [
+      "Resposta ótima. Pena que era pra outra pergunta.",
+      "Verdadeiro e irrelevante: combinação clássica.",
+      "Você respondeu muito bem o que ninguém perguntou.",
+      "Leu o enunciado ou só sentiu a vibe?",
+      "Fatos corretos, aplicação errada. Que coleção interessante."
+    ],
+    "sem": [
+      "RESPONDEU OUTRA PERGUNTA! A QUESTÃO ESTÁ CONFUSA!",
+      "ISSO É VERDADE, MAS NADA A VER! O ENUNCIADO ESTÁ CHORANDO!",
+      "Eu respondi sobre outro tema e ainda me achei esperto! RELEIA!",
+      "FUGIU DO TEMA! VOLTA PRA PERGUNTA, A GENTE ESPERA!",
+      "VERDADE SOLTA NÃO VALE PONTO! RESPONDA O QUE FOI PERGUNTADO!"
+    ],
+    "reserva": "Verdadeiro nem sempre é o que a questão pede: veja se a resposta responde à pergunta."
+  },
+  {
+    "etiqueta": "edf-acritico-midia",
+    "fofo": [
+      "Propaganda quer vender, e isso nem sempre bate com o que é melhor pra gente. Vamos olhar com lupa?",
+      "Quase! Nem tudo que aparece na tela é verdade ou necessário. Pensa de novo!",
+      "Eu já acreditei em anúncio de tênis que prometia voar. Não voou!",
+      "Boa ideia ler com olhar crítico: quem fala e o que ganha com isso?",
+      "É como acreditar em tudo que o vendedor diz: dá pra ser gentil e ainda perguntar por quê!"
+    ],
+    "sarc": [
+      "Se está na internet, deve ser verdade. Ótima estratégia de estudo.",
+      "Claro, o anúncio só quer o seu bem. Nenhum interesse comercial.",
+      "Que confiança na propaganda. Ela agradece a fidelidade.",
+      "Curtidas são prova científica. Os pesquisadores devem estar chocados.",
+      "Acreditar em tudo é tão prático: dispensa pensar."
+    ],
+    "sem": [
+      "NÃO CAIA NA PROPAGANDA! OLHA O INTERESSE COMERCIAL!",
+      "VOCÊ ENGOLIU O ANÚNCIO INTEIRO! ESPERA UM POUCO E PENSA!",
+      "Eu comprei uma promessa de brinde e levei só o susto! Lê com cuidado!",
+      "CURTIDA NÃO É PROVA! CONFIRA A FONTE ANTES DE ACREDITAR!",
+      "ANÚNCIO NÃO É VERDADE ABSOLUTA! LEIA COM OLHAR CRÍTICO!"
+    ],
+    "reserva": "Propaganda tem interesse em vender: leia com olhar crítico antes de aceitar."
+  },
+  {
+    "etiqueta": "edf-ignorou-inclusao",
+    "fofo": [
+      "Esporte e lazer são pra todo mundo! Pensa em como incluir cada pessoa.",
+      "Quase! Vamos lembrar que cada pessoa tem direito de participar, com as adaptações necessárias.",
+      "Eu quase deixei um colega fora do jogo sem perceber. Agora lembro de perguntar como incluir!",
+      "Faltou olhar a participação de todos. A gente se ajuda e adapta!",
+      "É como organizar uma festa e esquecer de convidar parte da turma: dá pra consertar!"
+    ],
+    "sarc": [
+      "Claro, o jogo é só pra quem já sabe tudo. Que acolhedor.",
+      "Que ótima ideia: só os mais habilidosos jogam. A escola agradece.",
+      "Se todo mundo tem que jogar igual, ninguém precisa pensar em adaptar.",
+      "Inclusão é detalhe, né? Só a lei, a escola e o bom senso que pedem.",
+      "Quem não consegue entrar fica de fora. Que visão generosa."
+    ],
+    "sem": [
+      "ESPORTE É PRA TODO MUNDO! NINGUÉM FICA DE FORA!",
+      "VOCÊ ESQUECEU DE INCLUIR! A QUADRA É DE TODOS!",
+      "Eu deixei um amigo no banco sem ver e o jogo ficou sem graça! Inclua!",
+      "SEM INCLUSÃO O JOGO NÃO TEM SENTIDO! REPENSA ISSO!",
+      "ADAPTAR É MELHOR QUE EXCLUIR! VOLTA LÁ E PENSA NISSO!"
+    ],
+    "reserva": "Esporte e lazer são direitos de todos: pense em como incluir cada pessoa."
+  },
+  {
+    "etiqueta": "edf-origem-errada",
+    "fofo": [
+      "Origem trocada! Essa prática nasceu em outro lugar. Vamos conferir o mapa?",
+      "Quase! Cada prática tem sua casa, e essa não é a que você marcou.",
+      "Eu já errei o país do judô. O mapa-múndi do aquário tá ruim!",
+      "É só ajustar o mapa mental: de onde essa prática vem?",
+      "É como achar que o chimarrão é da Bahia: bom palpite, mas o mapa é outro!"
+    ],
+    "sarc": [
+      "Claro, o judô é brasileiro e o tai chi é grego. A geografia chora.",
+      "Que viagem! Pena que o mapa não concorda.",
+      "Origem errada com convicção: o jeito mais turístico de estudar.",
+      "Se tudo vem de qualquer lugar, ninguém precisa saber de onde vem nada.",
+      "Inventou uma origem nova pra prática. Criativo, mas não vale."
+    ],
+    "sem": [
+      "ORIGEM ERRADA! A PRÁTICA ESTÁ ESPERNEANDO EM OUTRO PAÍS!",
+      "VOCÊ MUDOU O ENDEREÇO DA CULTURA! DEVOLVE!",
+      "Eu olhei o mapa de cabeça pra baixo e achei a capoeira no Japão!",
+      "ESSA PRÁTICA NÃO É DAÍ! CHECA O MAPA E O POVO DE ORIGEM!",
+      "FEZ A PRÁTICA IMIGRAR SEM PASSAPORTE! PARA E CONFERE!"
+    ],
+    "reserva": "Toda prática nasce em algum povo e lugar: confira a origem antes de marcar."
+  },
+  {
+    "etiqueta": "edf-capacidade-trocada",
+    "fofo": [
+      "Força, resistência, flexibilidade e equilíbrio são capacidades diferentes. Vamos separar?",
+      "Quase! Qual capacidade a atividade realmente pede?",
+      "Eu também já confundi velocidade com resistência. Correr rápido e correr muito são coisas diferentes!",
+      "Capacidade trocada, mas dá pra acertar: o que o movimento exige?",
+      "É como confundir pular alto com pular longe: os dois são pulos, mas não são iguais!"
+    ],
+    "sarc": [
+      "Claro, flexibilidade e força são a mesma coisa. Os treinos agradecem.",
+      "Que ousadia: misturou todas as capacidades físicas num pacote só.",
+      "Se todas fossem iguais, não precisaria de tanto tipo de treino.",
+      "Parabéns pela capacidade nova: a de confundir capacidades.",
+      "Equilíbrio é velocidade, né? Quase um sinônimo. Só que não."
+    ],
+    "sem": [
+      "CAPACIDADE TROCADA! A FORÇA E A FLEXIBILIDADE ESTÃO RECLAMANDO!",
+      "RESISTÊNCIA NÃO É VELOCIDADE! RESPIRA E REVÊ!",
+      "Eu confundi equilíbrio com coordenação e quase caí do aquário!",
+      "VOCÊ MISTUROU AS CAPACIDADES COMO FRUTAS NO LIQUIDIFICADOR! SEPARA!",
+      "CADA CAPACIDADE TEM SEU PAPEL NO MOVIMENTO! CONFERE DE NOVO!"
+    ],
+    "reserva": "Força, resistência, flexibilidade, velocidade e equilíbrio são capacidades diferentes: veja qual a atividade pede."
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "id": "bio-ecologia-001", "materia": "biologia", "assunto": "ecologia", "questionario": 1, "dificuldade": -1,
+    "contexto": "Cadeia alimentar no quintal",
+    "enunciado": "No fundo de uma casa, o capim é comido por gafanhotos, que são comidos por sapos, que por sua vez são comidos por cobras. Nessa cadeia alimentar, qual organismo ocupa o nível de consumidor secundário?",
+    "alternativas": [
+      { "letra": "A", "texto": "O gafanhoto", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "B", "texto": "O sapo", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "A cobra", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "D", "texto": "O capim", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "E", "texto": "Nenhum, pois cadeias alimentares só têm produtores e decompositores", "correta": false, "etiqueta": "bio-senso-comum" }
+    ],
+    "explicacao": "O capim é o produtor. O gafanhoto come o produtor, então é consumidor primário. O sapo come o consumidor primário, logo é o consumidor secundário. A cobra, que vem depois, é consumidora terciária.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-ecologia-002", "materia": "biologia", "assunto": "ecologia", "questionario": 1, "dificuldade": -1,
+    "contexto": "Energia que some pelo caminho",
+    "enunciado": "Em um ecossistema, os produtores acumulam 10.000 kJ de energia. Considere que apenas 10% da energia de cada nível chega ao nível seguinte (produtor, consumidor primário, consumidor secundário). Quanto chega aos consumidores secundários?",
+    "alternativas": [
+      { "letra": "A", "texto": "1.000 kJ", "correta": false, "etiqueta": "bio-erro-calculo" },
+      { "letra": "B", "texto": "10 kJ", "correta": false, "etiqueta": "bio-erro-calculo" },
+      { "letra": "C", "texto": "8.100 kJ", "correta": false, "etiqueta": "bio-sentido-fluxo" },
+      { "letra": "D", "texto": "100 kJ", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "10.000 kJ, porque a energia se conserva ao longo da cadeia", "correta": false, "etiqueta": "bio-senso-comum" }
+    ],
+    "explicacao": "Produtores têm 10.000 kJ. Aos consumidores primários chegam 10%, ou seja, 1.000 kJ. Aos secundários chegam 10% de 1.000, ou seja, 100 kJ. Parar em 1.000 é pegadinha: faltou aplicar o 10% pela segunda vez. Quem pensou em 8.100 trocou a parte que passa pela parte que se perde.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-ecologia-003", "materia": "biologia", "assunto": "ecologia", "questionario": 1, "dificuldade": 0,
+    "contexto": "Queimada e clima",
+    "enunciado": "Um trecho de floresta foi derrubado e queimado para dar lugar a pasto. Entre as consequências ambientais, está o aumento da concentração de gases do efeito estufa na atmosfera. Qual explicação ecológica sustenta essa consequência?",
+    "alternativas": [
+      { "letra": "A", "texto": "A queima libera para o ar o CO2 que estava armazenado na biomassa, e há menos plantas para retirá-lo pela fotossíntese.", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "A queima libera grande quantidade de oxigênio, gás que retém o calor na atmosfera.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "C", "texto": "A fumaça aumenta a camada de ozônio, que retém calor perto do solo.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "D", "texto": "O fogo retira o nitrogênio do solo, e o nitrogênio é o principal gás do efeito estufa.", "correta": false, "etiqueta": "bio-generalizou" },
+      { "letra": "E", "texto": "O calor das chamas aquece o planeta de forma permanente, mesmo depois de o fogo acabar.", "correta": false, "etiqueta": "bio-senso-comum" }
+    ],
+    "explicacao": "O carbono fica guardado na madeira e nas folhas. Ao queimar, vira CO2, que retém calor. Ainda por cima, sem a floresta, diminui a fotossíntese que tiraria esse gás do ar. O oxigênio e o nitrogênio não são os gases do efeito estufa, e o calor do fogo em si some rápido.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-ecologia-004", "materia": "biologia", "assunto": "ecologia", "questionario": 1, "dificuldade": 0,
+    "contexto": "Orquídea de carona",
+    "enunciado": "Uma orquídea cresce sobre o galho de uma árvore para alcançar mais luz. A orquídea tem benefício, e a árvore não é beneficiada nem prejudicada. Essa relação ecológica é chamada de:",
+    "alternativas": [
+      { "letra": "A", "texto": "parasitismo", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "B", "texto": "mutualismo", "correta": false, "etiqueta": "bio-ignorou-dado" },
+      { "letra": "C", "texto": "competição", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "D", "texto": "predação", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "E", "texto": "comensalismo", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Em uma relação em que um lado ganha e o outro nem ganha nem perde, o nome é comensalismo (no caso, epifitismo). No mutualismo os dois ganham, e no parasitismo um ganha e o outro perde. O enunciado diz que a árvore não é beneficiada, e esse dado elimina o mutualismo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-ecologia-005", "materia": "biologia", "assunto": "ecologia", "questionario": 1, "dificuldade": 1,
+    "contexto": "Veneno que se acumula",
+    "enunciado": "Um rio recebeu mercúrio em concentração muito baixa. Nele vivem algas, pequenos peixes que comem algas e uma ave que se alimenta de peixes. O mercúrio não é eliminado pelo organismo e se acumula nos tecidos. Em qual organismo a concentração do metal tende a ser maior, e por quê?",
+    "alternativas": [
+      { "letra": "A", "texto": "Nas algas, pois estão em contato direto com a água contaminada.", "correta": false, "etiqueta": "bio-senso-comum" },
+      { "letra": "B", "texto": "Nos pequenos peixes, pois é o nível que recebe mais energia.", "correta": false, "etiqueta": "bio-sentido-fluxo" },
+      { "letra": "C", "texto": "Na ave, pois cada nível acumula o mercúrio de todos os organismos que consome.", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "É igual em todos, pois a água distribui o metal por igual.", "correta": false, "etiqueta": "bio-generalizou" },
+      { "letra": "E", "texto": "Nos decompositores, pois eles recebem o metal por último e o diluem.", "correta": false, "etiqueta": "bio-confundiu-conceitos" }
+    ],
+    "explicacao": "Como o metal não é eliminado, ele se acumula e se concentra a cada nível da cadeia (biomagnificação). A ave come muitos peixes, cada um já contaminado, e por isso chega ao topo com a maior concentração.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-ecologia-006", "materia": "biologia", "assunto": "ecologia", "questionario": 2, "dificuldade": -1,
+    "contexto": "Quem mora na lagoa",
+    "enunciado": "Em uma lagoa vivem sapos, peixes, plantas aquáticas e microrganismos. O conjunto de todas as populações das diferentes espécies que vivem juntas nessa lagoa recebe o nome de:",
+    "alternativas": [
+      { "letra": "A", "texto": "população", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "B", "texto": "ecossistema", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "C", "texto": "comunidade", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "bioma", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "E", "texto": "nicho ecológico", "correta": false, "etiqueta": "bio-confundiu-conceitos" }
+    ],
+    "explicacao": "População é um grupo de uma só espécie. Comunidade é o conjunto de populações de espécies diferentes em um local. Ecossistema inclui também o ambiente físico (água, luz, solo), e bioma é uma região muito maior.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-ecologia-007", "materia": "biologia", "assunto": "ecologia", "questionario": 2, "dificuldade": 0,
+    "contexto": "Rocha nua e líquens",
+    "enunciado": "Após um deslizamento, uma encosta ficou apenas com rocha exposta, sem solo. Os primeiros seres a se instalar foram os líquens. Qual é o papel desses organismos na sucessão ecológica que se inicia ali?",
+    "alternativas": [
+      { "letra": "A", "texto": "Desgastam a rocha e acumulam matéria orgânica, o que inicia a formação de solo para outras espécies.", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Dependem de uma floresta já formada, por isso aparecem só no fim da sucessão.", "correta": false, "etiqueta": "bio-inverteu-causa-efeito" },
+      { "letra": "C", "texto": "Impedem que qualquer outra espécie se instale, mantendo a rocha sempre exposta.", "correta": false, "etiqueta": "bio-generalizou" },
+      { "letra": "D", "texto": "São típicos da comunidade clímax, que é a etapa mais estável da sucessão.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "E", "texto": "Decompõem as plantas mortas que já cobriam a rocha e liberam nutrientes.", "correta": false, "etiqueta": "bio-ignorou-dado" }
+    ],
+    "explicacao": "Os líquens são espécies pioneiras. Eles resistem a condições duras, ajudam a desgastar a rocha e, ao morrer, deixam matéria orgânica. Isso forma um solo inicial que permite a chegada de musgos, ervas e, depois, arbustos e árvores. Como a encosta tinha só rocha, não havia plantas mortas para decompor.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-ecologia-008", "materia": "biologia", "assunto": "ecologia", "questionario": 2, "dificuldade": 0,
+    "contexto": "Feijão que adubou o solo",
+    "enunciado": "Um agricultor alterna o plantio de milho com o de feijão e percebe que o solo se recupera, mesmo sem adubo nitrogenado. Esse efeito ocorre porque as raízes do feijão abrigam bactérias que:",
+    "alternativas": [
+      { "letra": "A", "texto": "produzem nitrogênio a partir da fotossíntese realizada nas folhas.", "correta": false, "etiqueta": "bio-confundiu-processos" },
+      { "letra": "B", "texto": "convertem nitratos do solo em gás nitrogênio, que fica no ar.", "correta": false, "etiqueta": "bio-sentido-fluxo" },
+      { "letra": "C", "texto": "absorvem o excesso de gás carbônico presente no solo e o transformam em adubo.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "D", "texto": "se alimentam das folhas do milho e liberam amônia no final do ciclo.", "correta": false, "etiqueta": "bio-ignorou-dado" },
+      { "letra": "E", "texto": "fixam o nitrogênio do ar, transformando-o em formas que as plantas conseguem aproveitar.", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "As bactérias fixadoras vivem nas raízes de leguminosas, como o feijão, e convertem o N2 do ar em amônia, aproveitada pelas plantas. Converter nitrato em N2 é o contrário (desnitrificação) e empobrece o solo. Fotossíntese não produz nitrogênio.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-ecologia-009", "materia": "biologia", "assunto": "ecologia", "questionario": 2, "dificuldade": 1,
+    "contexto": "Visitante que não tem inimigos",
+    "enunciado": "Um molusco de água doce, originário de outro continente, chegou a uma represa brasileira preso ao casco de barcos. Em poucos anos ocupou canos e pedras, e várias espécies nativas diminuíram. Qual fato ecológico explica melhor esse crescimento descontrolado?",
+    "alternativas": [
+      { "letra": "A", "texto": "Espécies exóticas sempre aumentam a biodiversidade local.", "correta": false, "etiqueta": "bio-generalizou" },
+      { "letra": "B", "texto": "No novo ambiente ele não tem predadores nem parasitas naturais e compete com as espécies nativas por espaço e alimento.", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Espécies de fora são sempre mais fracas e tendem a desaparecer.", "correta": false, "etiqueta": "bio-senso-comum" },
+      { "letra": "D", "texto": "Só espécies predadoras causam desequilíbrio; a competição não altera a comunidade.", "correta": false, "etiqueta": "bio-ignorou-dado" },
+      { "letra": "E", "texto": "Ao viver no local, a espécie passa a ser considerada nativa.", "correta": false, "etiqueta": "bio-confundiu-conceitos" }
+    ],
+    "explicacao": "Sem os inimigos naturais que controlavam a população na origem e com vantagem na competição, a espécie invasora cresce muito e desloca as nativas. Ser exótica é uma questão de origem, e não de tempo de permanência.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-ecologia-010", "materia": "biologia", "assunto": "ecologia", "questionario": 2, "dificuldade": 1,
+    "contexto": "Lago verde e peixes mortos",
+    "enunciado": "Um lago recebeu esgoto rico em fosfatos. Algumas semanas depois, a água ficou esverdeada por excesso de algas, e muitos peixes morreram. Qual a principal causa da morte dos peixes?",
+    "alternativas": [
+      { "letra": "A", "texto": "O fosfato é diretamente tóxico para os peixes em qualquer dose.", "correta": false, "etiqueta": "bio-senso-comum" },
+      { "letra": "B", "texto": "As algas produziram oxigênio em excesso, que intoxica os peixes.", "correta": false, "etiqueta": "bio-confundiu-processos" },
+      { "letra": "C", "texto": "As algas cobriram a superfície e os peixes passaram a precisar de luz para sobreviver.", "correta": false, "etiqueta": "bio-inverteu-causa-efeito" },
+      { "letra": "D", "texto": "A decomposição das algas mortas por microrganismos aeróbios consumiu o oxigênio dissolvido na água.", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Os decompositores liberam oxigênio ao digerir as algas, o que desequilibra o lago.", "correta": false, "etiqueta": "bio-confundiu-processos" }
+    ],
+    "explicacao": "O fosfato funciona como adubo (eutrofização) e faz as algas se multiplicarem. Quando elas morrem, os decompositores aeróbios consomem muito oxigênio ao decompô-las, e os peixes sufocam. O problema é a falta de oxigênio, não um excesso dele.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-ecologia-011", "materia": "biologia", "assunto": "ecologia", "questionario": 3, "dificuldade": -1,
+    "contexto": "Quem recicla a folha caída",
+    "enunciado": "No chão de uma mata, folhas e animais mortos desaparecem com o tempo. Qual é o papel dos fungos e bactérias decompositores nesse processo?",
+    "alternativas": [
+      { "letra": "A", "texto": "Produzem alimento a partir da luz solar.", "correta": false, "etiqueta": "bio-confundiu-processos" },
+      { "letra": "B", "texto": "Alimentam-se apenas de animais vivos.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "C", "texto": "São consumidores primários, pois comem plantas vivas.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "D", "texto": "Retiram energia do ambiente sem que a matéria volte para ele.", "correta": false, "etiqueta": "bio-sentido-fluxo" },
+      { "letra": "E", "texto": "Degradam a matéria orgânica e devolvem ao ambiente nutrientes que as plantas podem reutilizar.", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Decompositores quebram restos de seres vivos e liberam sais minerais e gás carbônico, que voltam ao solo e ao ar. Assim a matéria é reciclada na natureza. Produzir alimento pela luz é função dos produtores.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-ecologia-012", "materia": "biologia", "assunto": "ecologia", "questionario": 3, "dificuldade": -1,
+    "contexto": "Sertão em flor depois da chuva",
+    "enunciado": "Um bioma exclusivamente brasileiro tem clima semiárido, chuvas irregulares, plantas com espinhos e cactos e muitas árvores que perdem as folhas na estação seca. Esse bioma é a:",
+    "alternativas": [
+      { "letra": "A", "texto": "Mata Atlântica", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "B", "texto": "Amazônia", "correta": false, "etiqueta": "bio-senso-comum" },
+      { "letra": "C", "texto": "Caatinga", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Pampa", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "E", "texto": "Pantanal", "correta": false, "etiqueta": "bio-confundiu-conceitos" }
+    ],
+    "explicacao": "Semiárido, cactos, espinhos e árvores que perdem folhas na seca descrevem a Caatinga, que fica no Nordeste e só existe no Brasil. Amazônia e Mata Atlântica são úmidas, o Pampa é de campos do Sul e o Pantanal é uma planície alagável.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-ecologia-013", "materia": "biologia", "assunto": "ecologia", "questionario": 3, "dificuldade": 0,
+    "contexto": "Contando bichos por área",
+    "enunciado": "Em uma reserva, pesquisadores contaram 300 tamanduás em uma área de 6 km². Admitindo que eles se distribuem de maneira uniforme, qual é a densidade populacional dessa espécie na reserva?",
+    "alternativas": [
+      { "letra": "A", "texto": "1.800 indivíduos por km²", "correta": false, "etiqueta": "bio-erro-calculo" },
+      { "letra": "B", "texto": "0,02 indivíduo por km²", "correta": false, "etiqueta": "bio-erro-calculo" },
+      { "letra": "C", "texto": "306 indivíduos por km²", "correta": false, "etiqueta": "bio-erro-calculo" },
+      { "letra": "D", "texto": "50 indivíduos por km²", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "300 indivíduos por km²", "correta": false, "etiqueta": "bio-ignorou-dado" }
+    ],
+    "explicacao": "Densidade é número de indivíduos dividido pela área: 300 ÷ 6 = 50 indivíduos por km². Multiplicar (1.800) ou inverter a divisão (0,02) dá um valor que não faz sentido, e 300 desconsidera a área informada.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-ecologia-014", "materia": "biologia", "assunto": "ecologia", "questionario": 3, "dificuldade": 0,
+    "contexto": "Sem onça na fazenda",
+    "enunciado": "Em uma região, a caça eliminou quase todas as onças, predadoras de topo que se alimentam de capivaras e veados. Qual efeito é esperado a médio prazo sobre a vegetação local?",
+    "alternativas": [
+      { "letra": "A", "texto": "Os herbívoros tendem a aumentar em número e consumir mais vegetação, podendo causar degradação.", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Os herbívoros diminuem, pois sem predadores ficam estressados e se reproduzem menos.", "correta": false, "etiqueta": "bio-senso-comum" },
+      { "letra": "C", "texto": "Nada muda, pois a energia da cadeia vem do Sol e não dos predadores.", "correta": false, "etiqueta": "bio-meia-verdade" },
+      { "letra": "D", "texto": "Os decompositores desaparecem, pois não há mais animais grandes para decompor.", "correta": false, "etiqueta": "bio-sentido-fluxo" },
+      { "letra": "E", "texto": "A vegetação aumenta, pois os herbívoros passam a precisar de menos alimento.", "correta": false, "etiqueta": "bio-inverteu-causa-efeito" }
+    ],
+    "explicacao": "Predadores de topo controlam a população de herbívoros. Sem eles, os herbívoros aumentam, comem mais plantas e podem degradar a vegetação. A energia vir do Sol é verdade, mas não impede o desequilíbrio entre os níveis da cadeia.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-ecologia-015", "materia": "biologia", "assunto": "ecologia", "questionario": 3, "dificuldade": 1,
+    "contexto": "Árvores na beira do rio",
+    "enunciado": "A lei brasileira exige a preservação da mata ciliar, a vegetação nas margens dos rios. Entre as razões, está evitar o assoreamento, isto é, o acúmulo de terra e areia no leito. Como a mata ciliar protege o rio desse problema?",
+    "alternativas": [
+      { "letra": "A", "texto": "Os frutos das árvores alimentam os peixes, o que purifica a água.", "correta": false, "etiqueta": "bio-meia-verdade" },
+      { "letra": "B", "texto": "As raízes fixam o solo das margens e reduzem a quantidade de terra que a chuva carrega para dentro do rio.", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "As raízes absorvem toda a água do rio, mantendo o leito sempre seco.", "correta": false, "etiqueta": "bio-senso-comum" },
+      { "letra": "D", "texto": "As árvores aumentam a chuva ácida, que dissolve a areia do fundo.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "E", "texto": "As árvores aumentam a velocidade da água, o que oxigena e limpa o leito.", "correta": false, "etiqueta": "bio-inverteu-causa-efeito" }
+    ],
+    "explicacao": "O assoreamento acontece quando a chuva arrasta solo solto para o rio. A mata ciliar tem raízes que seguram a terra e folhas que amortecem a chuva, e assim menos sedimento chega à água. Alimentar peixes é um benefício real, mas não responde à pergunta.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-ecologia-016", "materia": "biologia", "assunto": "ecologia", "questionario": 4, "dificuldade": -1,
+    "contexto": "O endereço da espécie",
+    "enunciado": "Em ecologia, o local onde uma espécie vive e que fornece o que ela precisa, como a copa de uma árvore para um macaco-prego, é chamado de:",
+    "alternativas": [
+      { "letra": "A", "texto": "nicho ecológico", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "B", "texto": "população", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "C", "texto": "comunidade", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "D", "texto": "habitat", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "bioma", "correta": false, "etiqueta": "bio-confundiu-conceitos" }
+    ],
+    "explicacao": "Habitat é o local onde a espécie vive (seu endereço). Nicho ecológico é o papel que ela desempenha: o que come, quem a come e como usa os recursos (sua profissão).",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-ecologia-017", "materia": "biologia", "assunto": "ecologia", "questionario": 4, "dificuldade": 0,
+    "contexto": "Energia e matéria no ecossistema",
+    "enunciado": "Em um ecossistema equilibrado, o que acontece com a energia e com a matéria que passam pelos seres vivos?",
+    "alternativas": [
+      { "letra": "A", "texto": "Ambas circulam em ciclos fechados, sendo reaproveitadas indefinidamente.", "correta": false, "etiqueta": "bio-sentido-fluxo" },
+      { "letra": "B", "texto": "A energia flui em um só sentido e se dissipa como calor, enquanto a matéria é reciclada.", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "A energia é reciclada pelos decompositores, e a matéria é perdida no ambiente.", "correta": false, "etiqueta": "bio-sentido-fluxo" },
+      { "letra": "D", "texto": "Nenhuma das duas passa de um nível trófico a outro.", "correta": false, "etiqueta": "bio-generalizou" },
+      { "letra": "E", "texto": "A energia sobe pela cadeia e a matéria desce, trocando de lugar a cada nível.", "correta": false, "etiqueta": "bio-inverteu-causa-efeito" }
+    ],
+    "explicacao": "A energia entra pelo Sol, passa pelos níveis tróficos e vai se perdendo como calor, e por isso o fluxo é de mão única. Já os átomos, como C, N e P, são reciclados pelos decompositores e reutilizados pelos produtores.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-ecologia-018", "materia": "biologia", "assunto": "ecologia", "questionario": 4, "dificuldade": 0,
+    "contexto": "O líquen da pedra",
+    "enunciado": "Os líquens são formados pela associação entre um fungo e uma alga, e ambos se beneficiam. Qual alternativa descreve corretamente o que cada um oferece nessa parceria?",
+    "alternativas": [
+      { "letra": "A", "texto": "O fungo faz fotossíntese e a alga absorve minerais da rocha.", "correta": false, "etiqueta": "bio-confundiu-processos" },
+      { "letra": "B", "texto": "A alga parasita o fungo, retirando dele os nutrientes e causando sua morte lenta.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
+      { "letra": "C", "texto": "A alga produz alimento pela fotossíntese, e o fungo fornece proteção, água e sais minerais.", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "O fungo produz alimento para os dois e a alga apenas decompõe a rocha.", "correta": false, "etiqueta": "bio-confundiu-processos" },
+      { "letra": "E", "texto": "Os dois se alimentam um do outro, em uma relação de predação mútua.", "correta": false, "etiqueta": "bio-confundiu-conceitos" }
+    ],
+    "explicacao": "Fungos não têm clorofila, então quem faz fotossíntese é a alga. Em troca, o fungo oferece proteção contra a secagem e fornece água e minerais. É um mutualismo, em que os dois lados ganham.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-ecologia-019", "materia": "biologia", "assunto": "ecologia", "questionario": 4, "dificuldade": 1,
+    "contexto": "Gambás em crescimento",
+    "enunciado": "Uma população de 1.000 gambás teve, em um ano, 150 nascimentos e 50 mortes, sem imigração nem emigração. Qual foi a taxa de crescimento da população nesse ano?",
+    "alternativas": [
+      { "letra": "A", "texto": "5%", "correta": false, "etiqueta": "bio-erro-calculo" },
+      { "letra": "B", "texto": "15%", "correta": false, "etiqueta": "bio-ignorou-dado" },
+      { "letra": "C", "texto": "20%", "correta": false, "etiqueta": "bio-erro-calculo" },
+      { "letra": "D", "texto": "100%", "correta": false, "etiqueta": "bio-erro-calculo" },
+      { "letra": "E", "texto": "10%", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "O crescimento é nascimentos menos mortes: 150 - 50 = 100 indivíduos. Em relação à população inicial, 100 ÷ 1.000 = 0,10, ou seja, 10%. Usar só os nascimentos dá 15%, e somar nascimentos e mortes dá 20%.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "bio-ecologia-020", "materia": "biologia", "assunto": "ecologia", "questionario": 4, "dificuldade": 1,
+    "contexto": "Vespinhas contra a lagarta",
+    "enunciado": "Uma lavoura de cana sofria com lagartas-praga. Em vez de aplicar inseticida, o produtor liberou vespas que põem ovos dentro das lagartas e as matam (controle biológico). Qual é uma vantagem dessa estratégia em relação ao uso de inseticida químico?",
+    "alternativas": [
+      { "letra": "A", "texto": "Reduz resíduos químicos no ambiente e mantém a praga sob controle por meio de uma relação natural entre as espécies.", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Elimina a praga de forma definitiva, sem que ela volte a aparecer.", "correta": false, "etiqueta": "bio-generalizou" },
+      { "letra": "C", "texto": "Dispensa qualquer estudo, pois uma espécie nova sempre é segura de introduzir.", "correta": false, "etiqueta": "bio-ignorou-dado" },
+      { "letra": "D", "texto": "Faz a praga criar resistência, assim como ocorre com os agrotóxicos.", "correta": false, "etiqueta": "bio-inverteu-causa-efeito" },
+      { "letra": "E", "texto": "Age mais rápido que qualquer inseticida, matando as lagartas em minutos.", "correta": false, "etiqueta": "bio-senso-comum" }
+    ],
+    "explicacao": "No controle biológico, a praga é mantida em níveis baixos por um inimigo natural, sem espalhar resíduos químicos. Ele não elimina a praga de vez: as populações de praga e de vespa oscilam juntas. Também exige estudo antes de introduzir uma espécie.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]

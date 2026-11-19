@@ -1,0 +1,12 @@
+{
+  "slug": "literatura",
+  "nome": "Literatura",
+  "area": "Linguagens, Códigos e suas Tecnologias",
+  "assuntos": [
+    { "slug": "romantismo", "nome": "Romantismo", "ordem": 1, "por_que": "é a escola mais cobrada nas questões de literatura brasileira: indianismo, ultrarromantismo, condoreirismo e romance urbano aparecem todo ano." },
+    { "slug": "realismo-naturalismo", "nome": "Realismo e Naturalismo", "ordem": 2, "por_que": "Machado de Assis, Aluísio Azevedo e Eça de Queirós são autores recorrentes, sempre com crítica social e análise do narrador." },
+    { "slug": "modernismo", "nome": "Modernismo", "ordem": 3, "por_que": "a Semana de 22, as três fases e a língua brasileira aparecem em quase todas as edições, tanto em poesia quanto em prosa." },
+    { "slug": "barroco-arcadismo", "nome": "Barroco e Arcadismo", "ordem": 4, "por_que": "os contrastes entre dualismo barroco e razão árcade são cobrados por meio de poemas de Gregório de Matos, Vieira e Gonzaga." },
+    { "slug": "parnasianismo-simbolismo-pre-modernismo", "nome": "Parnasianismo, Simbolismo e Pré-Modernismo", "ordem": 5, "por_que": "são as escolas de transição, cobradas pela comparação entre a arte pela arte, a subjetividade simbolista e a crítica social pré-modernista." }
+  ]
+}

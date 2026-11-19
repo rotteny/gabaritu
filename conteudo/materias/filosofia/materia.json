@@ -1,0 +1,12 @@
+{
+  "slug": "filosofia",
+  "nome": "Filosofia",
+  "area": "Ciências Humanas e suas Tecnologias",
+  "assuntos": [
+    { "slug": "filosofia-antiga", "nome": "Filosofia Antiga", "ordem": 1, "por_que": "Sócrates, Platão e Aristóteles são a base da prova, e o ENEM adora a alegoria da caverna e o contraste entre mito e razão." },
+    { "slug": "etica-e-moral", "nome": "Ética e Moral", "ordem": 2, "por_que": "a prova pede para distinguir ética de moral e aplicar Kant, Aristóteles e o utilitarismo em situações do dia a dia." },
+    { "slug": "filosofia-politica", "nome": "Filosofia Política", "ordem": 3, "por_que": "Hobbes, Locke, Rousseau, Maquiavel e Montesquieu aparecem sempre ligados a poder, Estado, cidadania e democracia." },
+    { "slug": "teoria-do-conhecimento", "nome": "Teoria do Conhecimento", "ordem": 4, "por_que": "racionalismo, empirismo e a síntese de Kant são cobrados com textos de apoio sobre ciência e verdade." },
+    { "slug": "filosofia-contemporanea", "nome": "Filosofia Contemporânea", "ordem": 5, "por_que": "Nietzsche, Marx, Arendt, Foucault, Sartre e Beauvoir ligam a filosofia à cultura, ao poder e à liberdade de hoje." }
+  ]
+}

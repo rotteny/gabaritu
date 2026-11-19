@@ -1,0 +1,282 @@
+[
+  {
+    "id": "edf-saude-e-atividade-fisica-001", "materia": "educacao-fisica", "assunto": "saude-e-atividade-fisica", "questionario": 1, "dificuldade": -1,
+    "contexto": "O que é saúde?",
+    "enunciado": "A Organização Mundial da Saúde (OMS) define saúde de um jeito mais amplo do que o senso comum. Segundo essa definição, saúde é:",
+    "alternativas": [
+      { "letra": "A", "texto": "apenas a ausência de doenças", "correta": false, "etiqueta": "edf-saude-so-doenca" },
+      { "letra": "B", "texto": "treinar todos os dias da semana", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "C", "texto": "ter dinheiro para pagar academia", "correta": false, "etiqueta": "edf-ignorou-contexto" },
+      { "letra": "D", "texto": "um estado de completo bem-estar físico, mental e social, e não apenas a ausência de doença", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "não faltar a nenhuma aula", "correta": false, "etiqueta": "edf-fuga-do-tema" }
+    ],
+    "explicacao": "A definição da OMS inclui bem-estar físico, mental e social, e não só não estar doente. A pegadinha é a primeira alternativa, que é a ideia mais comum, mas é incompleta.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-saude-e-atividade-fisica-002", "materia": "educacao-fisica", "assunto": "saude-e-atividade-fisica", "questionario": 1, "dificuldade": -1,
+    "contexto": "Caminho da escola",
+    "enunciado": "Pedro vai a pé para a escola todos os dias, sobe três lances de escada até a sala e ainda ajuda a carregar as compras de casa. Esses movimentos do cotidiano são exemplos de:",
+    "alternativas": [
+      { "letra": "A", "texto": "exercício físico planejado e estruturado", "correta": false, "etiqueta": "edf-confundiu-conceito" },
+      { "letra": "B", "texto": "atividade física", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "sedentarismo", "correta": false, "etiqueta": "edf-confundiu-conceito" },
+      { "letra": "D", "texto": "esporte de rendimento", "correta": false, "etiqueta": "edf-so-rendimento" },
+      { "letra": "E", "texto": "treinamento de alto desempenho", "correta": false, "etiqueta": "edf-so-rendimento" }
+    ],
+    "explicacao": "Atividade física é qualquer movimento do corpo que gasta energia, inclusive no dia a dia. Já o exercício físico é planejado e repetido com um objetivo, e o sedentarismo é o contrário: pouca movimentação.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-saude-e-atividade-fisica-003", "materia": "educacao-fisica", "assunto": "saude-e-atividade-fisica", "questionario": 1, "dificuldade": 0,
+    "contexto": "Rotina de corrida",
+    "enunciado": "Joana segue uma rotina de corrida três vezes por semana, com duração e intensidade definidas, para melhorar o fôlego. Esse tipo de prática, planejada e repetida com objetivo, é chamado de:",
+    "alternativas": [
+      { "letra": "A", "texto": "exercício físico", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "tarefa doméstica", "correta": false, "etiqueta": "edf-confundiu-conceito" },
+      { "letra": "C", "texto": "sedentarismo", "correta": false, "etiqueta": "edf-confundiu-conceito" },
+      { "letra": "D", "texto": "lazer passivo", "correta": false, "etiqueta": "edf-confundiu-conceito" },
+      { "letra": "E", "texto": "jogo livre", "correta": false, "etiqueta": "edf-confundiu-categoria" }
+    ],
+    "explicacao": "O exercício físico é uma atividade física planejada, estruturada e repetitiva, com um objetivo definido, como melhorar o condicionamento. Todo exercício é atividade física, mas nem toda atividade física é exercício.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-saude-e-atividade-fisica-004", "materia": "educacao-fisica", "assunto": "saude-e-atividade-fisica", "questionario": 1, "dificuldade": 0,
+    "contexto": "Muito tempo sentado",
+    "enunciado": "Passar a maior parte do dia sentado, com pouca movimentação, é um comportamento comum em quem estuda e usa muito telas. Que informação de saúde é adequada sobre esse hábito?",
+    "alternativas": [
+      { "letra": "A", "texto": "É uma forma de exercício leve", "correta": false, "etiqueta": "edf-confundiu-conceito" },
+      { "letra": "B", "texto": "É um hábito sem qualquer consequência", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "C", "texto": "É chamado de comportamento sedentário, associado a maior risco para a saúde quando é excessivo", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Só acontece com adultos", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "E", "texto": "É resultado de praticar esporte", "correta": false, "etiqueta": "edf-confundiu-conceito" }
+    ],
+    "explicacao": "O comportamento sedentário é o tempo prolongado sentado ou deitado com pouco gasto de energia, e quando é excessivo está associado a riscos para a saúde. Pausas e movimento ao longo do dia ajudam a reduzir esses riscos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-saude-e-atividade-fisica-005", "materia": "educacao-fisica", "assunto": "saude-e-atividade-fisica", "questionario": 1, "dificuldade": 1,
+    "contexto": "60 minutos por dia",
+    "enunciado": "Uma diretriz internacional recomenda que crianças e adolescentes acumulem, em média, 60 minutos por dia de atividade física de intensidade moderada a vigorosa. Qual interpretação desse número é adequada?",
+    "alternativas": [
+      { "letra": "A", "texto": "Os 60 minutos precisam ser feitos de uma vez, dentro de uma academia", "correta": false, "etiqueta": "edf-receita-unica" },
+      { "letra": "B", "texto": "Só valem as atividades de competição", "correta": false, "etiqueta": "edf-so-rendimento" },
+      { "letra": "C", "texto": "A recomendação vale apenas para quem pratica um esporte", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "D", "texto": "Qualquer movimento de poucos minutos supre toda a necessidade do dia", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "E", "texto": "O tempo pode ser acumulado ao longo do dia, em brincadeiras, deslocamentos, aulas e esportes", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "O que importa é a soma do tempo em movimento ao longo do dia, em formas variadas e acessíveis a cada pessoa. Não é preciso academia nem competição, mas poucos minutos soltos também não bastam.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-saude-e-atividade-fisica-006", "materia": "educacao-fisica", "assunto": "saude-e-atividade-fisica", "questionario": 2, "dificuldade": -1,
+    "contexto": "Dia quente na quadra",
+    "enunciado": "Em um dia de calor, durante uma atividade intensa na quadra, o corpo perde bastante líquido pelo suor. Qual é o cuidado mais adequado com a hidratação?",
+    "alternativas": [
+      { "letra": "A", "texto": "Esperar sentir muita sede para só então beber água", "correta": false, "etiqueta": "edf-regra-errada" },
+      { "letra": "B", "texto": "Beber água antes, durante e depois da atividade", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Evitar água durante a atividade para não passar mal", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "D", "texto": "Beber somente depois de terminar o dia", "correta": false, "etiqueta": "edf-regra-errada" },
+      { "letra": "E", "texto": "Tomar apenas bebidas muito geladas", "correta": false, "etiqueta": "edf-fuga-do-tema" }
+    ],
+    "explicacao": "Repor líquidos regularmente antes, durante e depois evita a desidratação, que prejudica o desempenho e o bem-estar. Esperar a sede aparecer já indica que o corpo está perdendo líquido.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-saude-e-atividade-fisica-007", "materia": "educacao-fisica", "assunto": "saude-e-atividade-fisica", "questionario": 2, "dificuldade": -1,
+    "contexto": "Dormir bem",
+    "enunciado": "O sono tem papel importante na saúde, na memória e na disposição para estudar e se movimentar. Em geral, quantas horas de sono por noite são recomendadas para adolescentes?",
+    "alternativas": [
+      { "letra": "A", "texto": "De 2 a 4 horas", "correta": false, "etiqueta": "edf-confundiu-conceito" },
+      { "letra": "B", "texto": "De 4 a 6 horas", "correta": false, "etiqueta": "edf-confundiu-conceito" },
+      { "letra": "C", "texto": "De 5 a 6 horas, com um cochilo de 3 horas", "correta": false, "etiqueta": "edf-confundiu-conceito" },
+      { "letra": "D", "texto": "De 12 a 14 horas", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "E", "texto": "De 8 a 10 horas", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "A recomendação geral para adolescentes é de 8 a 10 horas de sono por noite. Dormir pouco prejudica a atenção, o humor e a recuperação do corpo depois das atividades.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-saude-e-atividade-fisica-008", "materia": "educacao-fisica", "assunto": "saude-e-atividade-fisica", "questionario": 2, "dificuldade": 0,
+    "contexto": "Antes do jogo",
+    "enunciado": "Antes de uma partida de futebol, os jogadores fazem uma corrida leve e movimentos de articulações. Qual é a função desse aquecimento?",
+    "alternativas": [
+      { "letra": "A", "texto": "Gastar toda a energia antes do jogo começar", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "B", "texto": "Substituir o descanso entre os treinos", "correta": false, "etiqueta": "edf-confundiu-conceito" },
+      { "letra": "C", "texto": "Preparar o corpo, aumentando aos poucos a circulação e a temperatura dos músculos, e reduzindo o risco de lesões", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Dispensar a hidratação durante a partida", "correta": false, "etiqueta": "edf-regra-errada" },
+      { "letra": "E", "texto": "Servir apenas de exibição para a torcida", "correta": false, "etiqueta": "edf-fuga-do-tema" }
+    ],
+    "explicacao": "O aquecimento prepara o corpo para o esforço, aumentando a circulação e a temperatura muscular e reduzindo o risco de lesões. Ele não substitui o descanso nem a hidratação.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-saude-e-atividade-fisica-009", "materia": "educacao-fisica", "assunto": "saude-e-atividade-fisica", "questionario": 2, "dificuldade": 0,
+    "contexto": "Bairro sem espaço de lazer",
+    "enunciado": "Num bairro sem praças, sem calçadas seguras e sem quadras públicas, é mais difícil para moradores se movimentarem no dia a dia. O que essa situação mostra sobre saúde?",
+    "alternativas": [
+      { "letra": "A", "texto": "Que a saúde depende também de condições sociais e do acesso a espaços e políticas públicas, e não só de decisões individuais", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Que a saúde é responsabilidade exclusiva de cada pessoa", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "C", "texto": "Que só academias particulares resolvem o problema", "correta": false, "etiqueta": "edf-ignorou-contexto" },
+      { "letra": "D", "texto": "Que lazer não tem relação com saúde", "correta": false, "etiqueta": "edf-saude-so-doenca" },
+      { "letra": "E", "texto": "Que as condições do bairro não importam", "correta": false, "etiqueta": "edf-ignorou-contexto" }
+    ],
+    "explicacao": "A saúde é influenciada por moradia, segurança, lazer e acesso a serviços. Por isso, cuidar dela envolve também políticas públicas e espaços acessíveis, e não apenas força de vontade.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-saude-e-atividade-fisica-010", "materia": "educacao-fisica", "assunto": "saude-e-atividade-fisica", "questionario": 2, "dificuldade": 1,
+    "contexto": "Aulas gratuitas na praça",
+    "enunciado": "Uma prefeitura oferece, em praças e centros comunitários, aulas gratuitas de atividade física com orientação de profissionais. Qual é a principal justificativa dessa política pública?",
+    "alternativas": [
+      { "letra": "A", "texto": "Substituir os hospitais e postos de saúde", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "B", "texto": "Fazer propaganda para a gestão", "correta": false, "etiqueta": "edf-fuga-do-tema" },
+      { "letra": "C", "texto": "Selecionar futuros atletas profissionais", "correta": false, "etiqueta": "edf-so-rendimento" },
+      { "letra": "D", "texto": "Ampliar o acesso à atividade física para quem não pode pagar, promovendo a saúde como direito", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Tornar obrigatória a prática para todos os moradores", "correta": false, "etiqueta": "edf-extremo" }
+    ],
+    "explicacao": "A saúde é um direito, e oferecer atividade orientada e gratuita amplia o acesso de quem não tem como pagar. Essas ações complementam o sistema de saúde, sem substituí-lo, e a participação é voluntária.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-saude-e-atividade-fisica-011", "materia": "educacao-fisica", "assunto": "saude-e-atividade-fisica", "questionario": 3, "dificuldade": -1,
+    "contexto": "Amplitude de movimento",
+    "enunciado": "Numa aula, a professora explica que existe uma capacidade física ligada à amplitude de movimento das articulações, trabalhada com atividades de alongamento. Qual é essa capacidade?",
+    "alternativas": [
+      { "letra": "A", "texto": "Flexibilidade", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Força", "correta": false, "etiqueta": "edf-capacidade-trocada" },
+      { "letra": "C", "texto": "Resistência", "correta": false, "etiqueta": "edf-capacidade-trocada" },
+      { "letra": "D", "texto": "Velocidade", "correta": false, "etiqueta": "edf-capacidade-trocada" },
+      { "letra": "E", "texto": "Equilíbrio", "correta": false, "etiqueta": "edf-capacidade-trocada" }
+    ],
+    "explicacao": "A flexibilidade é a capacidade de realizar movimentos com boa amplitude nas articulações. Força, resistência, velocidade e equilíbrio são outras capacidades físicas, cada uma com características próprias.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-saude-e-atividade-fisica-012", "materia": "educacao-fisica", "assunto": "saude-e-atividade-fisica", "questionario": 3, "dificuldade": 0,
+    "contexto": "Correr sem pressa",
+    "enunciado": "Numa atividade da escola, a turma corre em ritmo constante e confortável por 15 minutos, para que cada pessoa conheça a própria capacidade de manter um esforço prolongado. Qual capacidade física é trabalhada?",
+    "alternativas": [
+      { "letra": "A", "texto": "Força máxima", "correta": false, "etiqueta": "edf-capacidade-trocada" },
+      { "letra": "B", "texto": "Flexibilidade", "correta": false, "etiqueta": "edf-capacidade-trocada" },
+      { "letra": "C", "texto": "Coordenação motora fina", "correta": false, "etiqueta": "edf-capacidade-trocada" },
+      { "letra": "D", "texto": "Resistência aeróbica", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Velocidade máxima", "correta": false, "etiqueta": "edf-capacidade-trocada" }
+    ],
+    "explicacao": "Manter um esforço moderado por bastante tempo trabalha a resistência aeróbica. Velocidade máxima seria correr o mais rápido possível por pouco tempo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-saude-e-atividade-fisica-013", "materia": "educacao-fisica", "assunto": "saude-e-atividade-fisica", "questionario": 3, "dificuldade": 0,
+    "contexto": "Dieta da internet",
+    "enunciado": "Ao ver na internet uma dieta restritiva que promete resultados rápidos, uma pessoa pensa em adotá-la. Do ponto de vista da saúde, qual é a orientação mais adequada?",
+    "alternativas": [
+      { "letra": "A", "texto": "Seguir a dieta sem avaliar, porque tem muitas curtidas", "correta": false, "etiqueta": "edf-acritico-midia" },
+      { "letra": "B", "texto": "Procurar um profissional de saúde, como nutricionista, antes de mudar muito a alimentação", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Cortar grupos inteiros de alimentos por conta própria", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "D", "texto": "Pular refeições para acelerar os resultados", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "E", "texto": "Confiar no conselho de quem tem mais seguidores", "correta": false, "etiqueta": "edf-acritico-midia" }
+    ],
+    "explicacao": "Cada pessoa tem necessidades diferentes, e mudanças bruscas na alimentação sem orientação podem trazer prejuízos. Um profissional de saúde avalia o caso e orienta com segurança. Popularidade na internet não é sinal de qualidade.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-saude-e-atividade-fisica-014", "materia": "educacao-fisica", "assunto": "saude-e-atividade-fisica", "questionario": 3, "dificuldade": 1,
+    "contexto": "Movimento e saúde mental",
+    "enunciado": "Estudos associam a atividade física regular a melhor humor e menor estresse. Mesmo assim, ela não substitui o acompanhamento profissional quando há sofrimento mental intenso. Que conclusão é coerente com essas informações?",
+    "alternativas": [
+      { "letra": "A", "texto": "A atividade física resolve sozinha qualquer problema psicológico", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "B", "texto": "A atividade física não tem nenhuma relação com a saúde mental", "correta": false, "etiqueta": "edf-saude-so-doenca" },
+      { "letra": "C", "texto": "Só a atividade física competitiva traz benefícios mentais", "correta": false, "etiqueta": "edf-so-rendimento" },
+      { "letra": "D", "texto": "Fazer exercício dispensa qualquer tratamento, em todos os casos", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "E", "texto": "A atividade física ajuda no bem-estar mental, mas não substitui o acompanhamento profissional quando necessário", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Mexer o corpo contribui para o humor e para o controle do estresse, mas não é um tratamento que substitua psicólogos e médicos quando o sofrimento é intenso. A resposta equilibrada reconhece os dois pontos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-saude-e-atividade-fisica-015", "materia": "educacao-fisica", "assunto": "saude-e-atividade-fisica", "questionario": 3, "dificuldade": 1,
+    "contexto": "Propaganda de suplementos",
+    "enunciado": "Vídeos e anúncios prometem desempenho melhor com suplementos e outras substâncias vendidas sem prescrição. Qual atitude crítica é mais adequada diante desse tipo de propaganda?",
+    "alternativas": [
+      { "letra": "A", "texto": "Confiar nos depoimentos de influenciadores", "correta": false, "etiqueta": "edf-acritico-midia" },
+      { "letra": "B", "texto": "Tomar qualquer produto vendido em loja de esportes", "correta": false, "etiqueta": "edf-acritico-midia" },
+      { "letra": "C", "texto": "Buscar informação confiável e orientação de profissionais habilitados, lembrando que substâncias sem prescrição podem trazer riscos", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Achar que quanto maior a dose, melhor o resultado", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "E", "texto": "Ignorar as informações da bula", "correta": false, "etiqueta": "edf-regra-errada" }
+    ],
+    "explicacao": "Propaganda tem interesse comercial, e algumas substâncias trazem riscos, principalmente quando usadas sem orientação. Procurar profissionais habilitados é a atitude mais segura. Dose maior não significa resultado melhor.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-saude-e-atividade-fisica-016", "materia": "educacao-fisica", "assunto": "saude-e-atividade-fisica", "questionario": 4, "dificuldade": -1,
+    "contexto": "Coração acelerado",
+    "enunciado": "Durante uma corrida intensa, Marina percebe que o coração bate mais rápido e a respiração fica mais forte. O que acontece com os batimentos cardíacos e por quê?",
+    "alternativas": [
+      { "letra": "A", "texto": "Diminuem, para poupar energia", "correta": false, "etiqueta": "edf-confundiu-conceito" },
+      { "letra": "B", "texto": "Param por alguns segundos", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "C", "texto": "Aumentam, pois o coração bombeia mais sangue com oxigênio para os músculos", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Ficam sempre iguais, independentemente do esforço", "correta": false, "etiqueta": "edf-confundiu-conceito" },
+      { "letra": "E", "texto": "Mudam somente durante o sono", "correta": false, "etiqueta": "edf-fuga-do-tema" }
+    ],
+    "explicacao": "No esforço, os músculos precisam de mais oxigênio, e o coração acelera para levar mais sangue a eles. A respiração também aumenta pelo mesmo motivo. É uma resposta normal do corpo ao exercício.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-saude-e-atividade-fisica-017", "materia": "educacao-fisica", "assunto": "saude-e-atividade-fisica", "questionario": 4, "dificuldade": 0,
+    "contexto": "Pausa ativa nos estudos",
+    "enunciado": "Quem passa muito tempo estudando em frente à tela pode fazer uma pausa ativa a cada hora: levantar, caminhar um pouco e se alongar. Qual é o benefício dessa prática?",
+    "alternativas": [
+      { "letra": "A", "texto": "Interromper o tempo sentado e aliviar tensões, favorecendo o bem-estar", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Substituir totalmente a prática regular de atividade física", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "C", "texto": "Prejudicar sempre a concentração", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "D", "texto": "Servir só para atletas", "correta": false, "etiqueta": "edf-ignorou-inclusao" },
+      { "letra": "E", "texto": "Eliminar a necessidade de dormir", "correta": false, "etiqueta": "edf-confundiu-conceito" }
+    ],
+    "explicacao": "Pequenas pausas quebram o tempo contínuo sentado e aliviam a tensão muscular e a fadiga dos olhos. Ajudam, mas não substituem a atividade física regular nem o sono.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-saude-e-atividade-fisica-018", "materia": "educacao-fisica", "assunto": "saude-e-atividade-fisica", "questionario": 4, "dificuldade": 0,
+    "contexto": "Treino ao sol",
+    "enunciado": "Um grupo combina de correr ao ar livre numa tarde de verão. Qual conjunto de cuidados é o mais adequado para a prática segura?",
+    "alternativas": [
+      { "letra": "A", "texto": "Dispensar o protetor solar, pois é só um passeio", "correta": false, "etiqueta": "edf-regra-errada" },
+      { "letra": "B", "texto": "Evitar beber água para não atrapalhar o treino", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "C", "texto": "Escolher sempre o horário de maior calor do dia", "correta": false, "etiqueta": "edf-regra-errada" },
+      { "letra": "D", "texto": "Usar roupas pesadas para aumentar o suor", "correta": false, "etiqueta": "edf-regra-errada" },
+      { "letra": "E", "texto": "Usar protetor solar, levar água e evitar, quando possível, os horários de sol mais intenso", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Protetor, hidratação e escolha de horários mais amenos reduzem o risco de queimaduras e de problemas causados pelo calor. Roupas pesadas e pouca água aumentam o risco de desidratação.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-saude-e-atividade-fisica-019", "materia": "educacao-fisica", "assunto": "saude-e-atividade-fisica", "questionario": 4, "dificuldade": 1,
+    "contexto": "Qualidade de vida em debate",
+    "enunciado": "Dois colegas discutem. Um diz que ter saúde é apenas correr bastante. A outra diz que qualidade de vida envolve alimentação, sono, lazer, relações, acesso a serviços e a escolha de práticas que combinem com cada pessoa. Que resposta é a mais completa?",
+    "alternativas": [
+      { "letra": "A", "texto": "Só a primeira, pois o que conta é o treino", "correta": false, "etiqueta": "edf-receita-unica" },
+      { "letra": "B", "texto": "Nenhuma das duas tem relação com saúde", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "C", "texto": "Só quem tem muito dinheiro pode ter qualidade de vida", "correta": false, "etiqueta": "edf-ignorou-contexto" },
+      { "letra": "D", "texto": "A segunda, pois qualidade de vida combina fatores físicos, mentais, sociais e ambientais, e cada pessoa pode cuidar de si de formas diferentes", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "As duas dizem que só exercício e dieta importam", "correta": false, "etiqueta": "edf-saude-so-doenca" }
+    ],
+    "explicacao": "A qualidade de vida reúne vários aspectos: corpo, mente, relações, ambiente e acesso a serviços. Reduzir saúde a um único hábito deixa de fora tudo isso. Cada pessoa encontra suas formas de se movimentar e de se cuidar.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-saude-e-atividade-fisica-020", "materia": "educacao-fisica", "assunto": "saude-e-atividade-fisica", "questionario": 4, "dificuldade": 1,
+    "contexto": "Pesquisa na escola",
+    "enunciado": "Numa pesquisa interna, uma escola descobriu que muitos estudantes passam o dia quase sem se movimentar. A direção discute o que fazer. Qual estratégia é mais coerente com a promoção da saúde coletiva?",
+    "alternativas": [
+      { "letra": "A", "texto": "Oferecer treino apenas para os alunos mais habilidosos", "correta": false, "etiqueta": "edf-so-rendimento" },
+      { "letra": "B", "texto": "Combinar oportunidades variadas e acessíveis para todos, como intervalo ativo, torneios inclusivos e atividades escolhidas pelos alunos", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Proibir o celular e considerar o problema resolvido", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "D", "texto": "Premiar somente os alunos que já são muito ativos", "correta": false, "etiqueta": "edf-ignorou-inclusao" },
+      { "letra": "E", "texto": "Não fazer nada, pois é escolha individual de cada pessoa", "correta": false, "etiqueta": "edf-ignorou-contexto" }
+    ],
+    "explicacao": "Promover saúde coletiva exige criar oportunidades variadas e acessíveis, para que todos encontrem formas de participar. Selecionar só quem já tem habilidade ou apenas proibir algo deixa de fora quem mais precisa de incentivo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]

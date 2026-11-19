@@ -1,0 +1,902 @@
+[
+  {
+    "id": "por-variacao-linguistica-001",
+    "materia": "portugues",
+    "assunto": "variacao-linguistica",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Mandioca ou macaxeira",
+    "enunciado": "O mesmo alimento recebe nomes diferentes pelo país: no Sudeste, costuma ser chamado de “mandioca”; em boa parte do Nordeste, de “macaxeira”; em outros lugares, de “aipim”. Essa diversidade de nomes é um exemplo de variação",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "social, ligada ao grau de escolaridade dos falantes.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      },
+      {
+        "letra": "B",
+        "texto": "histórica, ligada à época em que a palavra foi criada.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      },
+      {
+        "letra": "C",
+        "texto": "situacional, ligada ao grau de formalidade da conversa.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      },
+      {
+        "letra": "D",
+        "texto": "regional, ligada ao lugar onde os falantes vivem.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "incorreta, pois só uma das palavras é a certa.",
+        "correta": false,
+        "etiqueta": "por-preconceito-linguistico"
+      }
+    ],
+    "explicacao": "Quando a palavra muda de acordo com a região, a variação é regional (diatópica). Todas as formas são válidas e comunicam bem em seus lugares de uso. Não faz sentido eleger uma como “a certa”.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-variacao-linguistica-002",
+    "materia": "portugues",
+    "assunto": "variacao-linguistica",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Com os amigos e na apresentação",
+    "enunciado": "Bia conversa com amigos dizendo “Tá ligado? Foi tipo um terror”. Na apresentação do trabalho de História, ela diz “Compreenderam o que expliquei?”. Essa mudança mostra que Bia",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "fala errado com os amigos e certo na escola.",
+        "correta": false,
+        "etiqueta": "por-preconceito-linguistico"
+      },
+      {
+        "letra": "B",
+        "texto": "mistura dialetos de regiões diferentes do país.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      },
+      {
+        "letra": "C",
+        "texto": "usa uma variedade de outra época na apresentação.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      },
+      {
+        "letra": "D",
+        "texto": "ajusta a linguagem à situação e ao interlocutor, o que é sinal de competência comunicativa.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "pertence a um grupo social diferente quando está na escola.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      }
+    ],
+    "explicacao": "As duas falas são adequadas ao contexto: informal com os amigos, mais monitorada na apresentação. Adequar-se à situação é domínio da língua, não troca de “certo” por “errado”. A mudança é situacional, e não regional, histórica ou de classe.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-variacao-linguistica-003",
+    "materia": "portugues",
+    "assunto": "variacao-linguistica",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Vício na fala",
+    "enunciado": "Leia o poema “Vício na fala”, de Oswald de Andrade: “Para dizerem milho dizem mio / Para melhor dizem mió / Para pior pió / Para telha dizem teia / Para telhado dizem teiado / E vão fazendo telhados.” O último verso sugere que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a fala popular deve ser condenada por ser errada.",
+        "correta": false,
+        "etiqueta": "por-preconceito-linguistico"
+      },
+      {
+        "letra": "B",
+        "texto": "o poeta está ensinando a forma certa de dizer telhado.",
+        "correta": false,
+        "etiqueta": "por-preconceito-linguistico"
+      },
+      {
+        "letra": "C",
+        "texto": "o poema trata apenas de profissionais da construção civil.",
+        "correta": false,
+        "etiqueta": "por-sentido-literal"
+      },
+      {
+        "letra": "D",
+        "texto": "quem fala assim não é capaz de aprender a escrever.",
+        "correta": false,
+        "etiqueta": "por-extrapolacao"
+      },
+      {
+        "letra": "E",
+        "texto": "quem fala assim se comunica e constrói, o que valoriza a fala popular.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "O poema registra pronúncias populares (mio, mió, teiado) e termina dizendo que, apesar do “vício”, o povo vai fazendo telhados, isto é, faz, constrói e se entende. Valoriza o falar do povo em vez de corrigi-lo. Ler “telhados” só como obra de construção perde o sentido figurado.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-variacao-linguistica-004",
+    "materia": "portugues",
+    "assunto": "variacao-linguistica",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Cefaleia na consulta",
+    "enunciado": "Em consulta, uma médica diz ao paciente: “O senhor apresenta cefaleia e taquicardia, associadas à hipertensão”. Entre colegas, esse vocabulário é comum, mas o paciente pode não entender. Esse caso ilustra o uso de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "jargão profissional, que é adequado entre especialistas, mas pode dificultar a comunicação com leigos.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "variedade regional, típica do lugar onde a médica nasceu.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      },
+      {
+        "letra": "C",
+        "texto": "linguagem arcaica, que já saiu de uso na língua.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      },
+      {
+        "letra": "D",
+        "texto": "gíria, que é vocabulário passageiro de grupos jovens.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      },
+      {
+        "letra": "E",
+        "texto": "erro de português, porque a médica fala difícil.",
+        "correta": false,
+        "etiqueta": "por-preconceito-linguistico"
+      }
+    ],
+    "explicacao": "O jargão é o vocabulário próprio de uma profissão ou área. Ele economiza palavras entre especialistas, mas pode excluir quem está de fora. Adequar a linguagem ao interlocutor, trocando “cefaleia” por “dor de cabeça”, resolve o problema.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-variacao-linguistica-005",
+    "materia": "portugues",
+    "assunto": "variacao-linguistica",
+    "questionario": 1,
+    "dificuldade": 1,
+    "contexto": "Quem manda é a norma?",
+    "enunciado": "Um linguista afirma: “Nenhuma variedade é, em si, superior a outra. A norma-padrão tem prestígio porque está associada a grupos que detêm poder social, e não porque seja mais lógica ou mais bonita.” A ideia central do texto é que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "só a norma-padrão possui regras gramaticais organizadas.",
+        "correta": false,
+        "etiqueta": "por-preconceito-linguistico"
+      },
+      {
+        "letra": "B",
+        "texto": "todas as variedades devem ser usadas em qualquer situação.",
+        "correta": false,
+        "etiqueta": "por-extrapolacao"
+      },
+      {
+        "letra": "C",
+        "texto": "o prestígio de uma variedade vem de fatores sociais, e não de uma suposta superioridade linguística.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "a escola deve parar de ensinar a norma-padrão.",
+        "correta": false,
+        "etiqueta": "por-extrapolacao"
+      },
+      {
+        "letra": "E",
+        "texto": "as variedades populares são uma desordem que tende a desaparecer.",
+        "correta": false,
+        "etiqueta": "por-contradicao-texto"
+      }
+    ],
+    "explicacao": "O linguista separa valor linguístico (todas as variedades têm regras) de prestígio social (que depende de poder). Isso não significa que a norma-padrão seja inútil nem que vale tudo em qualquer situação. As alternativas extrapolam o que foi dito ou o contradizem.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-variacao-linguistica-006",
+    "materia": "portugues",
+    "assunto": "variacao-linguistica",
+    "questionario": 2,
+    "dificuldade": -1,
+    "contexto": "Gíria de turma",
+    "enunciado": "Em um grupo de adolescentes, ouve-se: “Mano, o rolê de ontem foi top, bora repetir?”. A gíria presente nessa fala caracteriza",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "uma forma fixa e permanente da norma-padrão.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      },
+      {
+        "letra": "B",
+        "texto": "um erro de gramática que deve ser evitado em qualquer situação.",
+        "correta": false,
+        "etiqueta": "por-preconceito-linguistico"
+      },
+      {
+        "letra": "C",
+        "texto": "um regionalismo exclusivo de uma única cidade.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      },
+      {
+        "letra": "D",
+        "texto": "o vocabulário técnico de uma profissão.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      },
+      {
+        "letra": "E",
+        "texto": "uma variedade típica de um grupo (no caso, jovens), que muda rapidamente ao longo do tempo.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "A gíria nasce em grupos (faixa etária, esportes, tribos urbanas), cria identidade entre os membros e muda depressa: o que é “top” hoje pode soar velho amanhã. Não é erro, mas depende de contexto, e por isso não combina com situações muito formais.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-variacao-linguistica-007",
+    "materia": "portugues",
+    "assunto": "variacao-linguistica",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Entrevista de estágio",
+    "enunciado": "Em uma entrevista de estágio, o candidato cumprimenta a recrutadora com “E aí, tia, bora fechar o contrato?”. O problema dessa fala é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o fato de gíria ser sempre um erro de português.",
+        "correta": false,
+        "etiqueta": "por-preconceito-linguistico"
+      },
+      {
+        "letra": "B",
+        "texto": "a mistura de dialetos de regiões diferentes.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      },
+      {
+        "letra": "C",
+        "texto": "o uso de um registro muito informal numa situação que pede mais formalidade.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "o uso de uma forma arcaica, já em desuso.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      },
+      {
+        "letra": "E",
+        "texto": "a falta de domínio da gramática do candidato.",
+        "correta": false,
+        "etiqueta": "por-preconceito-linguistico"
+      }
+    ],
+    "explicacao": "A fala não é “errada”, ela é inadequada ao contexto: entrevista pede maior monitoramento. É uma questão de registro (variação situacional). Em outro cenário, com amigos, a mesma frase seria perfeitamente natural.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-variacao-linguistica-008",
+    "materia": "portugues",
+    "assunto": "variacao-linguistica",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Tô indo pra casa",
+    "enunciado": "Na frase “Tô indo pra casa”, as formas “tô” e “pra” são",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "erros graves que invalidam a comunicação.",
+        "correta": false,
+        "etiqueta": "por-preconceito-linguistico"
+      },
+      {
+        "letra": "B",
+        "texto": "regionalismos exclusivos do Nordeste.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      },
+      {
+        "letra": "C",
+        "texto": "arcaísmos que sobreviveram da língua medieval.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      },
+      {
+        "letra": "D",
+        "texto": "marcas da fala informal, aceitas na oralidade e em contextos pouco monitorados.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "jargões próprios de uma profissão.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      }
+    ],
+    "explicacao": "“Tô” (estou) e “pra” (para) são reduções comuns na fala de todo o país e de diferentes grupos. Em textos formais escritos, a norma pede as formas plenas, mas isso não faz da forma reduzida um erro grave. O que muda é a adequação ao contexto.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-variacao-linguistica-009",
+    "materia": "portugues",
+    "assunto": "variacao-linguistica",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Fala de personagem",
+    "enunciado": "Em um conto, o autor escreve o diálogo de uma personagem do interior com marcas de oralidade, como “Mia fia, o sinhô num queira sabê”, enquanto o narrador usa a norma-padrão. A escolha do autor serve para",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "caracterizar a personagem, marcando sua origem e seu grupo social sem rebaixá-la.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "corrigir a maneira de falar da personagem.",
+        "correta": false,
+        "etiqueta": "por-preconceito-linguistico"
+      },
+      {
+        "letra": "C",
+        "texto": "mostrar que o autor não domina a norma-padrão.",
+        "correta": false,
+        "etiqueta": "por-preconceito-linguistico"
+      },
+      {
+        "letra": "D",
+        "texto": "dificultar propositalmente a leitura do conto.",
+        "correta": false,
+        "etiqueta": "por-extrapolacao"
+      },
+      {
+        "letra": "E",
+        "texto": "registrar como a língua era falada em séculos passados.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      }
+    ],
+    "explicacao": "Reproduzir a fala dá voz e identidade à personagem, e o contraste com o narrador mostra a diversidade de variedades dentro da mesma obra. Isso é um recurso consciente da literatura, não deficiência do autor. A questão não é corrigir nem registrar a história da língua.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-variacao-linguistica-010",
+    "materia": "portugues",
+    "assunto": "variacao-linguistica",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Vosmecê, vosmicê, você, cê",
+    "enunciado": "Em cartas do século XIX, é comum encontrar “Vosmecê há de perdoar a ousadia”. Hoje se diz “você” e, na fala, “cê”. A passagem de “vossa mercê” a “você” e “cê” ilustra a variação",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "regional, já que cada estado criou uma forma própria.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      },
+      {
+        "letra": "B",
+        "texto": "histórica, pois a língua se transforma ao longo do tempo.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "social, já que só os mais pobres usam “cê”.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      },
+      {
+        "letra": "D",
+        "texto": "situacional, já que “vossa mercê” é só para ocasiões formais atuais.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      },
+      {
+        "letra": "E",
+        "texto": "decadente, já que a língua piora com o tempo.",
+        "correta": false,
+        "etiqueta": "por-preconceito-linguistico"
+      }
+    ],
+    "explicacao": "“Vossa mercê” perdeu sílabas e virou “vosmecê”, “você” e “cê”, ao longo de séculos. Mudança no tempo é variação histórica (diacrônica), e não decadência: toda língua viva se transforma. As formas coexistem hoje em usos diferentes, mas a origem da mudança é histórica.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-variacao-linguistica-011",
+    "materia": "portugues",
+    "assunto": "variacao-linguistica",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "O que é norma-padrão",
+    "enunciado": "Na escola, ouve-se que “a norma-padrão é o jeito certo de falar”. Do ponto de vista linguístico, a norma-padrão é, de fato,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a única forma correta de falar, e todas as outras são erradas.",
+        "correta": false,
+        "etiqueta": "por-preconceito-linguistico"
+      },
+      {
+        "letra": "B",
+        "texto": "a fala natural das pessoas mais ricas do país.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      },
+      {
+        "letra": "C",
+        "texto": "a linguagem dos livros muito antigos.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      },
+      {
+        "letra": "D",
+        "texto": "o jeito de falar da região mais desenvolvida do Brasil.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      },
+      {
+        "letra": "E",
+        "texto": "um conjunto de regras codificadas nas gramáticas, adotado em situações formais e na escrita institucional.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "A norma-padrão é um modelo, fixado em gramáticas e dicionários, e esperado em ambientes formais. Dominá-la é importante, mas ela não é a fala espontânea de nenhum grupo em particular, nem a única forma de falar bem. Variedades distintas têm sua lógica.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-variacao-linguistica-012",
+    "materia": "portugues",
+    "assunto": "variacao-linguistica",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Sotaque e pronúncia",
+    "enunciado": "O “r” de “porta”, pronunciado de modos diferentes no interior paulista e no Rio de Janeiro, mostra que as pessoas falam de formas distintas conforme o lugar. Do ponto de vista linguístico, essas diferenças de sotaque",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "indicam que um dos grupos pronuncia errado.",
+        "correta": false,
+        "etiqueta": "por-preconceito-linguistico"
+      },
+      {
+        "letra": "B",
+        "texto": "revelam menor escolaridade dos falantes de uma das regiões.",
+        "correta": false,
+        "etiqueta": "por-preconceito-linguistico"
+      },
+      {
+        "letra": "C",
+        "texto": "mostram uma etapa mais antiga da língua em uma das regiões.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      },
+      {
+        "letra": "D",
+        "texto": "são variações regionais de pronúncia, e nenhuma é superior às outras.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "são jargões de duas profissões diferentes.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      }
+    ],
+    "explicacao": "Sotaque é pronúncia ligada à origem geográfica. É um traço da identidade do falante, e não medida de inteligência ou escolaridade. Por isso a variação é regional, e hierarquizar sotaques é preconceito linguístico.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-variacao-linguistica-013",
+    "materia": "portugues",
+    "assunto": "variacao-linguistica",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Tribunal e casa",
+    "enunciado": "Em um tribunal, uma advogada diz “Data venia, Excelência, requeiro vista dos autos”. Em casa, ao ver a filha na árvore, ela diz “Filha, desce daí agora!”. O contraste mostra que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a linguagem se adapta à situação e ao interlocutor, e isso não é erro em nenhum dos dois casos.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "a advogada muda de dialeto regional ao entrar no tribunal.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      },
+      {
+        "letra": "C",
+        "texto": "só a fala do tribunal é correta, e a de casa é errada.",
+        "correta": false,
+        "etiqueta": "por-preconceito-linguistico"
+      },
+      {
+        "letra": "D",
+        "texto": "a advogada fala duas línguas diferentes.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      },
+      {
+        "letra": "E",
+        "texto": "a fala com a filha é de uma época mais antiga.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      }
+    ],
+    "explicacao": "O que muda é o grau de formalidade, que depende do lugar, do tema e do ouvinte. Competência linguística é saber transitar entre registros. As duas falas são adequadas aos respectivos contextos.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-variacao-linguistica-014",
+    "materia": "portugues",
+    "assunto": "variacao-linguistica",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Os menino chegaram",
+    "enunciado": "Um colega ri de Paulo porque ele disse “os menino chegaram”. Como o professor de Português deveria tratar a situação, de acordo com a visão da linguística?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Corrigir Paulo na frente de todos para que ele nunca mais erre.",
+        "correta": false,
+        "etiqueta": "por-preconceito-linguistico"
+      },
+      {
+        "letra": "B",
+        "texto": "Reconhecer que a forma é característica de uma variedade popular e mostrar a norma-padrão como mais uma opção, exigida em situações formais.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "Concluir que quem fala assim não tem condições de aprender.",
+        "correta": false,
+        "etiqueta": "por-preconceito-linguistico"
+      },
+      {
+        "letra": "D",
+        "texto": "Dizer que a norma-padrão não é necessária e deve ser ignorada.",
+        "correta": false,
+        "etiqueta": "por-extrapolacao"
+      },
+      {
+        "letra": "E",
+        "texto": "Explicar que a forma é arcaica e só aparecia em livros antigos.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      }
+    ],
+    "explicacao": "A concordância “os menino” é comum em variedades populares e tem lógica própria (o plural é marcado só no artigo). O ensino pode ampliar o repertório do aluno sem humilhá-lo. Ignorar a norma-padrão seria deixar de dar a ele acesso a contextos formais.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-variacao-linguistica-015",
+    "materia": "portugues",
+    "assunto": "variacao-linguistica",
+    "questionario": 3,
+    "dificuldade": 1,
+    "contexto": "Candidata eliminada",
+    "enunciado": "Uma candidata a uma vaga é eliminada com a justificativa de que “fala com sotaque de interior, e isso passa má imagem”. Do ponto de vista dos estudos da linguagem, essa atitude",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "é preconceito linguístico, pois discrimina a pessoa por sua variedade, e não por sua competência.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "é uma aplicação legítima da norma-padrão ao trabalho.",
+        "correta": false,
+        "etiqueta": "por-preconceito-linguistico"
+      },
+      {
+        "letra": "C",
+        "texto": "mostra que o sotaque prejudica a clareza da comunicação.",
+        "correta": false,
+        "etiqueta": "por-extrapolacao"
+      },
+      {
+        "letra": "D",
+        "texto": "é um problema de variação histórica, não de sociedade.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      },
+      {
+        "letra": "E",
+        "texto": "decorre de um erro de gramática da candidata.",
+        "correta": false,
+        "etiqueta": "por-preconceito-linguistico"
+      }
+    ],
+    "explicacao": "Sotaque não impede a compreensão nem mede a capacidade profissional. Julgar alguém pela variedade que fala é discriminação social, e não critério técnico. É por isso que o tema aparece tanto no ENEM como assunto de cidadania.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-variacao-linguistica-016",
+    "materia": "portugues",
+    "assunto": "variacao-linguistica",
+    "questionario": 4,
+    "dificuldade": -1,
+    "contexto": "Deletar e delivery",
+    "enunciado": "Palavras como “deletar”, “delivery” e “mouse” foram incorporadas ao uso cotidiano de falantes de português. Esse fenômeno mostra que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o português está se deteriorando e perdendo sua pureza.",
+        "correta": false,
+        "etiqueta": "por-preconceito-linguistico"
+      },
+      {
+        "letra": "B",
+        "texto": "essas palavras são erros gramaticais.",
+        "correta": false,
+        "etiqueta": "por-preconceito-linguistico"
+      },
+      {
+        "letra": "C",
+        "texto": "o uso de estrangeirismos é exclusivo de falantes jovens.",
+        "correta": false,
+        "etiqueta": "por-reducao"
+      },
+      {
+        "letra": "D",
+        "texto": "as palavras são regionalismos de um único estado.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      },
+      {
+        "letra": "E",
+        "texto": "a língua recebe e adapta influências de outras línguas ao longo do tempo.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "Empréstimos de outras línguas fazem parte da vida de qualquer língua, e o próprio português herdou palavras do árabe, do tupi e do africano. Eles refletem contato cultural e tecnologia. Falar em “deterioração” ou “pureza” é uma visão sem base linguística.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-variacao-linguistica-017",
+    "materia": "portugues",
+    "assunto": "variacao-linguistica",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Os menino e a escolaridade",
+    "enunciado": "Um pesquisador observa que falantes com menos acesso à escola tendem a usar “nós pega” e “os menino” com mais frequência. Essa tendência é exemplo de variação",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "regional, pois só ocorre num estado específico.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      },
+      {
+        "letra": "B",
+        "texto": "social, ligada ao grupo e ao acesso à escolarização.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "histórica, pois essas formas existiam apenas no passado.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      },
+      {
+        "letra": "D",
+        "texto": "situacional, pois depende só do local da conversa.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      },
+      {
+        "letra": "E",
+        "texto": "individual, pois cada pessoa fala do seu jeito sem regras.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      }
+    ],
+    "explicacao": "Quando o fenômeno acompanha o perfil do falante, como escolaridade, renda ou faixa etária, falamos de variação social (diastrática). Ela é sistemática, não aleatória. O falante pode, ainda, mudar de registro conforme a situação.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-variacao-linguistica-018",
+    "materia": "portugues",
+    "assunto": "variacao-linguistica",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Gíria no rap",
+    "enunciado": "Um grupo de jovens compõe um rap com vocabulário da quebrada, gírias locais e marcas de oralidade, mantendo ainda a precisão da rima e do ritmo. Esse uso da linguagem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "empobrece a obra, pois gíria é sinal de falta de vocabulário.",
+        "correta": false,
+        "etiqueta": "por-preconceito-linguistico"
+      },
+      {
+        "letra": "B",
+        "texto": "revela ignorância da norma-padrão pelos compositores.",
+        "correta": false,
+        "etiqueta": "por-preconceito-linguistico"
+      },
+      {
+        "letra": "C",
+        "texto": "cria identificação com o público do grupo e afirma uma identidade cultural.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "impede a compreensão da mensagem pelo público.",
+        "correta": false,
+        "etiqueta": "por-extrapolacao"
+      },
+      {
+        "letra": "E",
+        "texto": "prova que o texto é de origem nordestina.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      }
+    ],
+    "explicacao": "O vocabulário e as marcas de oralidade fazem parte do projeto artístico: aproximam o texto do público e afirmam pertencimento. Isso exige domínio da língua, não falta dele. A origem geográfica do grupo não se deduz só de gírias.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-variacao-linguistica-019",
+    "materia": "portugues",
+    "assunto": "variacao-linguistica",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Bula de remédio",
+    "enunciado": "Em uma bula de remédio lê-se: “Administrar por via oral, em jejum, a posologia de um comprimido a cada oito horas.” Pensando no público que mais lê bulas, a variedade usada",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "é a única aceitável, porque a norma-padrão é sempre a melhor.",
+        "correta": false,
+        "etiqueta": "por-preconceito-linguistico"
+      },
+      {
+        "letra": "B",
+        "texto": "deveria ser substituída por gírias para ficar divertida.",
+        "correta": false,
+        "etiqueta": "por-extrapolacao"
+      },
+      {
+        "letra": "C",
+        "texto": "pode dificultar a compreensão por leigos, o que mostra a importância de adequar a linguagem ao leitor.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "contém um erro de português, porque usa palavras difíceis.",
+        "correta": false,
+        "etiqueta": "por-preconceito-linguistico"
+      },
+      {
+        "letra": "E",
+        "texto": "é um regionalismo próprio de quem mora no Sul.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      }
+    ],
+    "explicacao": "O vocabulário técnico (via oral, posologia) é correto, mas pode afastar o leitor leigo. Comunicar bem é considerar quem vai ler, e isso vale tanto para o médico quanto para quem escreve a bula. Trocar tudo por gíria seria inadequado do outro lado.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-variacao-linguistica-020",
+    "materia": "portugues",
+    "assunto": "variacao-linguistica",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Uma língua, muitas variedades",
+    "enunciado": "Num debate, alguém afirma: “Cada região do Brasil fala um português diferente, então não existe uma língua comum”. A resposta mais adequada, do ponto de vista linguístico, é que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "cada região fala, de fato, uma língua totalmente distinta.",
+        "correta": false,
+        "etiqueta": "por-confundiu-variacao"
+      },
+      {
+        "letra": "B",
+        "texto": "as variedades convivem dentro de uma mesma língua e são compreendidas entre si, o que garante a unidade do português.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "só uma variedade é língua, e as outras são deturpações.",
+        "correta": false,
+        "etiqueta": "por-preconceito-linguistico"
+      },
+      {
+        "letra": "D",
+        "texto": "a variação só existe em áreas rurais e distantes dos grandes centros.",
+        "correta": false,
+        "etiqueta": "por-reducao"
+      },
+      {
+        "letra": "E",
+        "texto": "a variação ocorre apenas na escrita, e não na fala.",
+        "correta": false,
+        "etiqueta": "por-contradicao-texto"
+      }
+    ],
+    "explicacao": "Variações de vocabulário, pronúncia e gramática convivem sem romper a comunicação entre brasileiros: isso é unidade na diversidade. Chamar uma variedade de “deturpação” é ideia equivocada. A variação existe em todo o país, tanto na fala quanto na escrita.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  }
+]

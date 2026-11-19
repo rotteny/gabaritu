@@ -1,0 +1,14 @@
+[
+  { "id": "fil-confundiu-filosofo", "nome": "Confundiu o filósofo", "descricao": "Atribuiu a ideia a outro pensador." },
+  { "id": "fil-confundiu-corrente", "nome": "Confundiu a corrente", "descricao": "Trocou uma escola ou corrente filosófica por outra." },
+  { "id": "fil-confundiu-termo", "nome": "Confundiu o termo", "descricao": "Trocou o significado de um conceito ou de uma palavra técnica." },
+  { "id": "fil-inverteu-conceito", "nome": "Inverteu o conceito", "descricao": "Entendeu o conceito exatamente ao contrário." },
+  { "id": "fil-ideia-oposta", "nome": "Ideia oposta", "descricao": "Atribuiu ao pensador a posição contrária à que ele defendia." },
+  { "id": "fil-misturou-epocas", "nome": "Misturou épocas", "descricao": "Colocou uma ideia ou um pensador no período errado da história." },
+  { "id": "fil-leitura-literal", "nome": "Leitura literal", "descricao": "Entendeu como fato o que era alegoria, metáfora ou exemplo." },
+  { "id": "fil-moral-senso-comum", "nome": "Moral do senso comum", "descricao": "Respondeu pelo que costuma ser considerado certo, em vez do argumento do filósofo." },
+  { "id": "fil-opiniao-pessoal", "nome": "Opinião pessoal", "descricao": "Respondeu pelo que acha, em vez de pelo que o texto ou o pensador diz." },
+  { "id": "fil-simplificou-demais", "nome": "Simplificou demais", "descricao": "Reduziu uma teoria complexa a um slogan que a deforma." },
+  { "id": "fil-confundiu-metodo", "nome": "Confundiu o método", "descricao": "Trocou o método de investigação de um pensador pelo de outro." },
+  { "id": "fil-generalizou-pensador", "nome": "Generalizou o pensador", "descricao": "Estendeu a todos uma ideia que valia para um caso ou para uma escola." }
+]

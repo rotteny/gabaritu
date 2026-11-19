@@ -1,0 +1,902 @@
+[
+  {
+    "id": "esp-gramatica-em-contexto-001",
+    "materia": "espanhol",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Cinema e terror",
+    "enunciado": "\"Me gusta el cine, pero no me gustan las películas de terror.\"\n\nNessa frase, o conector \"pero\" indica",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "contraste entre duas ideias.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "causa da ideia anterior.",
+        "correta": false,
+        "etiqueta": "esp-conector-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "consequência da ideia anterior.",
+        "correta": false,
+        "etiqueta": "esp-conector-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "soma de duas ideias iguais.",
+        "correta": false,
+        "etiqueta": "esp-conector-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "condição para a segunda ideia.",
+        "correta": false,
+        "etiqueta": "esp-conector-errado"
+      }
+    ],
+    "explicacao": "\"Pero\" equivale a \"mas\": a pessoa gosta de cinema, porém não de um gênero específico.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-gramatica-em-contexto-002",
+    "materia": "espanhol",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Noite de trabalho",
+    "enunciado": "\"Estoy cansado porque trabajé toda la noche.\"\n\nO conector \"porque\" liga o cansaço a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "uma oposição: embora tenha trabalhado.",
+        "correta": false,
+        "etiqueta": "esp-conector-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "uma consequência: portanto trabalhou.",
+        "correta": false,
+        "etiqueta": "esp-conector-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "uma causa: o trabalho durante a noite.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "uma alternativa: ou trabalhou.",
+        "correta": false,
+        "etiqueta": "esp-conector-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "um contraste: mas trabalhou.",
+        "correta": false,
+        "etiqueta": "esp-conector-errado"
+      }
+    ],
+    "explicacao": "\"Porque\" é \"porque\" e apresenta o motivo. Ele está cansado por causa do trabalho na noite toda.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-gramatica-em-contexto-003",
+    "materia": "espanhol",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Viagem a Sevilha",
+    "enunciado": "\"El año pasado viajamos a Sevilla.\"\n\nO verbo \"viajamos\" indica uma ação",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "no presente, como hábito.",
+        "correta": false,
+        "etiqueta": "esp-tempo-verbal"
+      },
+      {
+        "letra": "B",
+        "texto": "no futuro próximo.",
+        "correta": false,
+        "etiqueta": "esp-tempo-verbal"
+      },
+      {
+        "letra": "C",
+        "texto": "em andamento neste momento.",
+        "correta": false,
+        "etiqueta": "esp-tempo-verbal"
+      },
+      {
+        "letra": "D",
+        "texto": "que ainda vai ser planejada.",
+        "correta": false,
+        "etiqueta": "esp-tempo-verbal"
+      },
+      {
+        "letra": "E",
+        "texto": "no passado.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "\"El año pasado\" e a forma verbal \"viajamos\" (pretérito) mostram que a viagem aconteceu e terminou.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-gramatica-em-contexto-004",
+    "materia": "espanhol",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Celular da irmã",
+    "enunciado": "\"Mi hermana tiene un celular, pero nunca lo usa.\"\n\nO pronome \"lo\" se refere a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "hermana.",
+        "correta": false,
+        "etiqueta": "esp-referente-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "nunca.",
+        "correta": false,
+        "etiqueta": "esp-ignorou-negacao"
+      },
+      {
+        "letra": "C",
+        "texto": "a irmã e o celular.",
+        "correta": false,
+        "etiqueta": "esp-referente-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "celular.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "o telefone da escola.",
+        "correta": false,
+        "etiqueta": "esp-referente-errado"
+      }
+    ],
+    "explicacao": "\"Lo\" retoma o objeto que foi mencionado antes, \"un celular\". A irmã é quem não usa, mas não é o referente.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-gramatica-em-contexto-005",
+    "materia": "espanhol",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 1,
+    "dificuldade": 1,
+    "contexto": "Resumos das notícias",
+    "enunciado": "\"Los alumnos leyeron las noticias y escribieron resúmenes de ellas.\"\n\nO pronome \"ellas\" se refere a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "alumnos.",
+        "correta": false,
+        "etiqueta": "esp-referente-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "noticias.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "resúmenes.",
+        "correta": false,
+        "etiqueta": "esp-referente-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "noticias e resúmenes.",
+        "correta": false,
+        "etiqueta": "esp-referente-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "o professor, que não aparece no texto.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      }
+    ],
+    "explicacao": "\"Ellas\" é feminino plural e retoma \"las noticias\": os resumos foram feitos das notícias.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-gramatica-em-contexto-006",
+    "materia": "espanhol",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 2,
+    "dificuldade": -1,
+    "contexto": "Amanhã eu ligo",
+    "enunciado": "\"Mañana te llamo.\"\n\nA frase se refere a uma ação",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "passada.",
+        "correta": false,
+        "etiqueta": "esp-tempo-verbal"
+      },
+      {
+        "letra": "B",
+        "texto": "que acontece todos os dias.",
+        "correta": false,
+        "etiqueta": "esp-tempo-verbal"
+      },
+      {
+        "letra": "C",
+        "texto": "que está acontecendo agora.",
+        "correta": false,
+        "etiqueta": "esp-tempo-verbal"
+      },
+      {
+        "letra": "D",
+        "texto": "que acabou de acontecer.",
+        "correta": false,
+        "etiqueta": "esp-tempo-verbal"
+      },
+      {
+        "letra": "E",
+        "texto": "futura.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "\"Mañana\" indica futuro, mesmo com o verbo no presente. É comum em espanhol usar o presente para ações futuras próximas.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-gramatica-em-contexto-007",
+    "materia": "espanhol",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Festa e tempo livre",
+    "enunciado": "\"Si tuviera más tiempo, iría a la fiesta.\"\n\nA frase expressa que a pessoa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "foi à festa porque tinha tempo.",
+        "correta": false,
+        "etiqueta": "esp-tempo-verbal"
+      },
+      {
+        "letra": "B",
+        "texto": "vai à festa independentemente do tempo.",
+        "correta": false,
+        "etiqueta": "esp-conector-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "só iria à festa se tivesse mais tempo.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "não vai à festa porque tem tempo livre.",
+        "correta": false,
+        "etiqueta": "esp-ignorou-negacao"
+      },
+      {
+        "letra": "E",
+        "texto": "foi à festa depois que ganhou tempo.",
+        "correta": false,
+        "etiqueta": "esp-tempo-verbal"
+      }
+    ],
+    "explicacao": "\"Si tuviera\" (pretérito imperfeito do subjuntivo) e \"iría\" (condicional) formam uma hipótese: como lhe falta tempo, não vai.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-gramatica-em-contexto-008",
+    "materia": "espanhol",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Futebol na chuva",
+    "enunciado": "\"Aunque llovía, jugaron al fútbol.\"\n\nO sentido da frase é que eles",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "não jogaram, porque chovia.",
+        "correta": false,
+        "etiqueta": "esp-conector-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "jogariam só se chovesse.",
+        "correta": false,
+        "etiqueta": "esp-conector-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "provocaram a chuva ao jogar.",
+        "correta": false,
+        "etiqueta": "esp-conector-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "jogaram, apesar da chuva.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "jogaram depois que a chuva parou.",
+        "correta": false,
+        "etiqueta": "esp-tempo-verbal"
+      }
+    ],
+    "explicacao": "\"Aunque\" introduz uma concessão: a chuva poderia impedir o jogo, mas não impediu.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-gramatica-em-contexto-009",
+    "materia": "espanhol",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Museu e turistas",
+    "enunciado": "\"El museo, que abrió en 1990, recibe muchos turistas.\"\n\nNo texto, o pronome \"que\" se refere a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "museo.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "turistas.",
+        "correta": false,
+        "etiqueta": "esp-referente-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "1990.",
+        "correta": false,
+        "etiqueta": "esp-referente-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "recibe.",
+        "correta": false,
+        "etiqueta": "esp-referente-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "o ano e os turistas.",
+        "correta": false,
+        "etiqueta": "esp-referente-errado"
+      }
+    ],
+    "explicacao": "\"Que\" retoma o termo logo antes da vírgula, \"el museo\": o museu abriu em 1990.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-gramatica-em-contexto-010",
+    "materia": "espanhol",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Relatório pendente",
+    "enunciado": "\"Todavía no ha terminado el informe, así que no puede salir.\"\n\nDe acordo com a frase, ele",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "já terminou o relatório, mas não pode sair.",
+        "correta": false,
+        "etiqueta": "esp-ignorou-negacao"
+      },
+      {
+        "letra": "B",
+        "texto": "ainda não terminou o relatório e por isso não pode sair.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "terminou o relatório ontem e saiu.",
+        "correta": false,
+        "etiqueta": "esp-tempo-verbal"
+      },
+      {
+        "letra": "D",
+        "texto": "vai terminar hoje e sair em seguida.",
+        "correta": false,
+        "etiqueta": "esp-tempo-verbal"
+      },
+      {
+        "letra": "E",
+        "texto": "terminou e saiu sem avisar.",
+        "correta": false,
+        "etiqueta": "esp-ignorou-negacao"
+      }
+    ],
+    "explicacao": "\"Todavía no ha terminado\" quer dizer que ainda não está pronto, e \"así que\" apresenta a consequência. \"Todavía\" aqui não é \"todavia\" (contraste).",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-gramatica-em-contexto-011",
+    "materia": "espanhol",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Mochila esquecida",
+    "enunciado": "\"¿Es tu mochila?\" \"No, no es mía. Es de ella.\"\n\nA expressão \"de ella\" indica que a mochila é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "dele.",
+        "correta": false,
+        "etiqueta": "esp-referente-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "minha.",
+        "correta": false,
+        "etiqueta": "esp-referente-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "nossa.",
+        "correta": false,
+        "etiqueta": "esp-referente-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "dela.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "de vocês.",
+        "correta": false,
+        "etiqueta": "esp-referente-errado"
+      }
+    ],
+    "explicacao": "\"De ella\" é de uma mulher; para um homem seria \"de él\". \"Mía\" é minha.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-gramatica-em-contexto-012",
+    "materia": "espanhol",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Games agora",
+    "enunciado": "\"Ellos están jugando videojuegos ahora.\"\n\nO tempo verbal da frase indica",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "uma ação em andamento.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "um hábito antigo.",
+        "correta": false,
+        "etiqueta": "esp-tempo-verbal"
+      },
+      {
+        "letra": "C",
+        "texto": "algo que aconteceu ontem.",
+        "correta": false,
+        "etiqueta": "esp-tempo-verbal"
+      },
+      {
+        "letra": "D",
+        "texto": "um plano para o ano que vem.",
+        "correta": false,
+        "etiqueta": "esp-tempo-verbal"
+      },
+      {
+        "letra": "E",
+        "texto": "uma regra do jogo.",
+        "correta": false,
+        "etiqueta": "esp-tempo-verbal"
+      }
+    ],
+    "explicacao": "\"Están jugando\" (estar + gerúndio) e \"ahora\" mostram que a ação acontece neste momento.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-gramatica-em-contexto-013",
+    "materia": "espanhol",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Casa nova",
+    "enunciado": "\"Vivo aquí desde 2015.\"\n\nA frase quer dizer que a pessoa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "morou ali até 2015 e saiu.",
+        "correta": false,
+        "etiqueta": "esp-tempo-verbal"
+      },
+      {
+        "letra": "B",
+        "texto": "vai se mudar para lá em 2015.",
+        "correta": false,
+        "etiqueta": "esp-tempo-verbal"
+      },
+      {
+        "letra": "C",
+        "texto": "morou ali só durante o ano de 2015.",
+        "correta": false,
+        "etiqueta": "esp-tempo-verbal"
+      },
+      {
+        "letra": "D",
+        "texto": "mudou em 2015 e depois voltou.",
+        "correta": false,
+        "etiqueta": "esp-tempo-verbal"
+      },
+      {
+        "letra": "E",
+        "texto": "mora ali desde 2015 até hoje.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "\"Vivo\" está no presente e \"desde 2015\" marca o início. A ação continua até hoje.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-gramatica-em-contexto-014",
+    "materia": "espanhol",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Entrada com ingresso",
+    "enunciado": "\"No se puede entrar sin entrada.\"\n\nA frase significa que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pode-se entrar mesmo sem ingresso.",
+        "correta": false,
+        "etiqueta": "esp-ignorou-negacao"
+      },
+      {
+        "letra": "B",
+        "texto": "só entra quem tem ingresso.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "só entra quem não tem ingresso.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "os ingressos são dados na porta.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "ingressos falsos são aceitos.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      }
+    ],
+    "explicacao": "\"No se puede\" (não se pode) e \"sin\" (sem) expressam proibição. \"Entrada\" aqui é ingresso, não entrada de um prédio.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-gramatica-em-contexto-015",
+    "materia": "espanhol",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 3,
+    "dificuldade": 1,
+    "contexto": "Estudar cansada",
+    "enunciado": "\"A pesar de estar cansada, Carla siguió estudiando.\"\n\nO que a frase diz?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Carla parou de estudar porque estava cansada.",
+        "correta": false,
+        "etiqueta": "esp-conector-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "Carla estudou porque estava descansada.",
+        "correta": false,
+        "etiqueta": "esp-ignorou-negacao"
+      },
+      {
+        "letra": "C",
+        "texto": "Carla continuou estudando, apesar do cansaço.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "Carla estudou depois de descansar.",
+        "correta": false,
+        "etiqueta": "esp-tempo-verbal"
+      },
+      {
+        "letra": "E",
+        "texto": "Carla só estuda quando está cansada.",
+        "correta": false,
+        "etiqueta": "esp-conector-errado"
+      }
+    ],
+    "explicacao": "\"A pesar de\" indica contraste: o cansaço poderia fazê-la parar, mas ela seguiu estudando (\"siguió\").",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-gramatica-em-contexto-016",
+    "materia": "espanhol",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 4,
+    "dificuldade": -1,
+    "contexto": "Mais alta",
+    "enunciado": "\"Ella es más alta que su hermano.\"\n\nA frase significa que ela é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "tão alta quanto o irmão.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "mais baixa que o irmão.",
+        "correta": false,
+        "etiqueta": "esp-sentido-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "a mais alta de todas as pessoas.",
+        "correta": false,
+        "etiqueta": "esp-generalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "mais velha que o irmão.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "mais alta que o irmão.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "\"Más... que\" é o comparativo de superioridade. A frase não fala da idade.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-gramatica-em-contexto-017",
+    "materia": "espanhol",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Ninguém sabe",
+    "enunciado": "\"Ni Paulo ni Rita saben la respuesta.\"\n\nO que a frase diz?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Paulo e Rita sabem a resposta.",
+        "correta": false,
+        "etiqueta": "esp-ignorou-negacao"
+      },
+      {
+        "letra": "B",
+        "texto": "Só Paulo sabe a resposta.",
+        "correta": false,
+        "etiqueta": "esp-ignorou-negacao"
+      },
+      {
+        "letra": "C",
+        "texto": "Só Rita sabe a resposta.",
+        "correta": false,
+        "etiqueta": "esp-ignorou-negacao"
+      },
+      {
+        "letra": "D",
+        "texto": "Nem Paulo nem Rita sabem a resposta.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "Um dos dois sabe a resposta.",
+        "correta": false,
+        "etiqueta": "esp-ignorou-negacao"
+      }
+    ],
+    "explicacao": "\"Ni... ni\" é uma negação dupla: nenhum dos dois sabe.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-gramatica-em-contexto-018",
+    "materia": "espanhol",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Bolo sumido",
+    "enunciado": "\"El pastel fue comido antes de que llegáramos.\"\n\nO que aconteceu?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Nós comemos o bolo assim que chegamos.",
+        "correta": false,
+        "etiqueta": "esp-tempo-verbal"
+      },
+      {
+        "letra": "B",
+        "texto": "O bolo será comido depois da nossa chegada.",
+        "correta": false,
+        "etiqueta": "esp-tempo-verbal"
+      },
+      {
+        "letra": "C",
+        "texto": "O bolo foi comido antes de nós chegarmos.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "O bolo comeu antes de nós.",
+        "correta": false,
+        "etiqueta": "esp-portunhol"
+      },
+      {
+        "letra": "E",
+        "texto": "Comemos o bolo antes de chegar.",
+        "correta": false,
+        "etiqueta": "esp-referente-errado"
+      }
+    ],
+    "explicacao": "\"Fue comido\" é voz passiva no passado: o bolo sofreu a ação. \"Antes de que llegáramos\" indica que ocorreu antes da chegada.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-gramatica-em-contexto-019",
+    "materia": "espanhol",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Se não estudar",
+    "enunciado": "\"Si no estudias, no aprobarás.\"\n\nA frase quer dizer que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "quem não estudar não será aprovado.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "quem estudar não será aprovado.",
+        "correta": false,
+        "etiqueta": "esp-ignorou-negacao"
+      },
+      {
+        "letra": "C",
+        "texto": "você estuda, por isso não passa.",
+        "correta": false,
+        "etiqueta": "esp-conector-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "você não estudou, por isso não passou.",
+        "correta": false,
+        "etiqueta": "esp-tempo-verbal"
+      },
+      {
+        "letra": "E",
+        "texto": "quem estudar passará só no ano seguinte.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      }
+    ],
+    "explicacao": "Há uma condição no presente (\"si no estudias\") e uma consequência no futuro (\"no aprobarás\").",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-gramatica-em-contexto-020",
+    "materia": "espanhol",
+    "assunto": "gramatica-em-contexto",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Atrasado e esquecido",
+    "enunciado": "\"No solo llegó tarde, sino que además olvidó las entradas.\"\n\nO que a frase diz sobre ele?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Chegou cedo, mas esqueceu os ingressos.",
+        "correta": false,
+        "etiqueta": "esp-conector-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "Chegou atrasado e ainda esqueceu os ingressos.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "Chegou atrasado, porém sem esquecer nada.",
+        "correta": false,
+        "etiqueta": "esp-conector-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "Não chegou, mas lembrou dos ingressos.",
+        "correta": false,
+        "etiqueta": "esp-ignorou-negacao"
+      },
+      {
+        "letra": "E",
+        "texto": "Esqueceu os ingressos por causa do atraso.",
+        "correta": false,
+        "etiqueta": "esp-conector-errado"
+      }
+    ],
+    "explicacao": "\"No solo... sino que además\" soma duas falhas: o atraso e o esquecimento. Não há relação de causa nem de contraste.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  }
+]

@@ -1,0 +1,902 @@
+[
+  {
+    "id": "lit-parnasianismo-simbolismo-pre-modernismo-001",
+    "materia": "literatura",
+    "assunto": "parnasianismo-simbolismo-pre-modernismo",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Marcas do Parnasianismo",
+    "enunciado": "O Parnasianismo, que se destacou no Brasil no final do século XIX, tem como lema “a arte pela arte”. Entre suas características estão",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o culto à forma, a objetividade, a linguagem erudita e a preferência por sonetos e rimas ricas.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "a emoção desbordante e o subjetivismo, com fuga da realidade.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "C",
+        "texto": "a vagueza, a sugestão e a musicalidade dos sentimentos misteriosos.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "D",
+        "texto": "o verso livre e o humor irreverente, com rompimento das regras.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "E",
+        "texto": "a análise científica da influência do meio sobre as pessoas.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      }
+    ],
+    "explicacao": "Os parnasianos valorizam a perfeição formal, o vocabulário rico e a impessoalidade. A emoção solta é do Romantismo, a vagueza é do Simbolismo, o verso livre é do Modernismo e a análise científica é do Naturalismo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-parnasianismo-simbolismo-pre-modernismo-002",
+    "materia": "literatura",
+    "assunto": "parnasianismo-simbolismo-pre-modernismo",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Marcas do Simbolismo",
+    "enunciado": "O Simbolismo, que surge no final do século XIX, é marcado por",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "objetividade, rigor formal e descrição precisa.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "B",
+        "texto": "crítica social e determinismo científico.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "C",
+        "texto": "nacionalismo ingênuo e exaltação do indígena.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "D",
+        "texto": "subjetivismo, misticismo, musicalidade e uso de sinestesias e sugestões.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "linguagem coloquial e verso livre, com humor.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      }
+    ],
+    "explicacao": "Em oposição ao materialismo da época, os simbolistas exploram o inconsciente, o mistério e o espiritual. A linguagem sugere em vez de descrever, e a música das palavras ganha destaque.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-parnasianismo-simbolismo-pre-modernismo-003",
+    "materia": "literatura",
+    "assunto": "parnasianismo-simbolismo-pre-modernismo",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Profissão de Fé",
+    "enunciado": "Em “Profissão de Fé”, Olavo Bilac escreve: “Invejo o ourives quando escrevo: / Imito o amor / Com que ele, em ouro, o alto relevo / Faz de uma flor.” A comparação com o ourives indica que, para o poeta,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a poesia deve ser trabalhada com a paciência e o cuidado de um artesão.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "o ouro é mais valioso que qualquer poema.",
+        "correta": false,
+        "etiqueta": "lit-leitura-literal"
+      },
+      {
+        "letra": "C",
+        "texto": "a poesia deve nascer da espontaneidade, sem esforço.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "D",
+        "texto": "os ourives são criticados por serem ricos.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      },
+      {
+        "letra": "E",
+        "texto": "a emoção deve ser mais importante que a forma.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      }
+    ],
+    "explicacao": "O ourives lapida o metal com paciência, e o poeta deve lapidar o verso do mesmo modo. É o programa estético do Parnasianismo: poesia como trabalho formal, e não como desabafo. Por isso, o texto é considerado manifesto do movimento.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-parnasianismo-simbolismo-pre-modernismo-004",
+    "materia": "literatura",
+    "assunto": "parnasianismo-simbolismo-pre-modernismo",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Mal secreto",
+    "enunciado": "“Quanta gente que ri, talvez, existe, / Cuja ventura única consiste / Em parecer aos outros venturosa!” (Raimundo Correia, “Mal Secreto”). Os versos sugerem que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "quem ri é, de fato, feliz, e a dor não existe.",
+        "correta": false,
+        "etiqueta": "lit-leitura-literal"
+      },
+      {
+        "letra": "B",
+        "texto": "a felicidade é um bem acessível a todos.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      },
+      {
+        "letra": "C",
+        "texto": "muitas pessoas aparentam felicidade enquanto escondem seu sofrimento íntimo.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "o riso é prova de grande riqueza material.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      },
+      {
+        "letra": "E",
+        "texto": "as pessoas devem expor publicamente suas dores.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      }
+    ],
+    "explicacao": "O poema afirma que a dor mora na alma e não aparece no rosto: algumas pessoas parecem felizes só “aos outros”. A reflexão é universal e sóbria, em soneto de rigorosa construção formal, típica do Parnasianismo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-parnasianismo-simbolismo-pre-modernismo-005",
+    "materia": "literatura",
+    "assunto": "parnasianismo-simbolismo-pre-modernismo",
+    "questionario": 1,
+    "dificuldade": 1,
+    "contexto": "Parnasianismo e Simbolismo",
+    "enunciado": "Sobre a diferença entre Parnasianismo e Simbolismo, é correto afirmar que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o Parnasianismo valoriza a objetividade e o rigor formal, enquanto o Simbolismo valoriza a subjetividade e a sugestão.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "o Parnasianismo valoriza a subjetividade, e o Simbolismo, o rigor formal.",
+        "correta": false,
+        "etiqueta": "lit-generalizou"
+      },
+      {
+        "letra": "C",
+        "texto": "ambos defendem a crítica social e o determinismo científico.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "D",
+        "texto": "o Parnasianismo é uma escola portuguesa, e o Simbolismo, brasileira.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "E",
+        "texto": "ambos rejeitam a poesia e privilegiam apenas o romance.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      }
+    ],
+    "explicacao": "As duas escolas são contemporâneas, mas se opõem. O Parnasianismo é racional, descritivo e formalista; o Simbolismo é intuitivo, musical e espiritual. O Realismo e o Naturalismo é que se ligam à crítica social e ao determinismo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-parnasianismo-simbolismo-pre-modernismo-006",
+    "materia": "literatura",
+    "assunto": "parnasianismo-simbolismo-pre-modernismo",
+    "questionario": 2,
+    "dificuldade": -1,
+    "contexto": "Marco do Simbolismo",
+    "enunciado": "O Simbolismo brasileiro tem como marco inicial, em 1893, as obras",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "“Memórias Póstumas de Brás Cubas” e “Quincas Borba”, de Machado de Assis.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "B",
+        "texto": "“Os Sertões” e “Canaã”, de Euclides da Cunha e Graça Aranha.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "C",
+        "texto": "“Missal” e “Broquéis”, de Cruz e Sousa.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "“Iracema” e “O Guarani”, de José de Alencar.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "E",
+        "texto": "“Pauliceia Desvairada” e “Macunaíma”, de Mário de Andrade.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      }
+    ],
+    "explicacao": "Cruz e Sousa, poeta catarinense, publicou “Missal” (prosa poética) e “Broquéis” (poesia) em 1893, e iniciou o movimento no Brasil. As outras obras são de Realismo, Pré-Modernismo, Romantismo e Modernismo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-parnasianismo-simbolismo-pre-modernismo-007",
+    "materia": "literatura",
+    "assunto": "parnasianismo-simbolismo-pre-modernismo",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Antífona",
+    "enunciado": "“Ó Formas alvas, brancas, Formas claras / De luares, de neves, de neblinas!” (Cruz e Sousa, “Antífona”). Nesses versos predominam",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a descrição objetiva e precisa de um objeto concreto.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "B",
+        "texto": "a linguagem coloquial e cotidiana, com humor.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "C",
+        "texto": "a análise social das desigualdades da época.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "D",
+        "texto": "o vocabulário científico e a explicação do meio.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "E",
+        "texto": "a sugestão de imagens vagas e luminosas e a sonoridade das palavras, com aliterações.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "A repetição de sons (“Formas alvas, brancas... claras”) e as imagens de brancura (luares, neves, neblinas) criam uma atmosfera de pureza e mistério. A linguagem não descreve, mas sugere, o que é característico do Simbolismo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-parnasianismo-simbolismo-pre-modernismo-008",
+    "materia": "literatura",
+    "assunto": "parnasianismo-simbolismo-pre-modernismo",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Duas luas",
+    "enunciado": "“Quando Ismália enlouqueceu, / Pôs-se na torre a sonhar... / Viu uma lua no céu, / Viu outra lua no mar.” (Alphonsus de Guimaraens, “Ismália”). A imagem das duas luas pode ser entendida como símbolo",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "de um fenômeno astronômico real, observado em certa noite.",
+        "correta": false,
+        "etiqueta": "lit-leitura-literal"
+      },
+      {
+        "letra": "B",
+        "texto": "da existência de duas cidades vizinhas no poema.",
+        "correta": false,
+        "etiqueta": "lit-leitura-literal"
+      },
+      {
+        "letra": "C",
+        "texto": "da dualidade entre o ideal (céu) e o real (mar), que leva a personagem à loucura e à morte.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "de uma crítica política à Coroa portuguesa.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "E",
+        "texto": "de um amor correspondido e feliz.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      }
+    ],
+    "explicacao": "Ismália é atraída pelo céu e pelo reflexo no mar, entre o plano espiritual e o terreno. Ao tentar alcançar o ideal, ela se atira da torre. A ambiguidade do símbolo e o tom místico são típicos do Simbolismo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-parnasianismo-simbolismo-pre-modernismo-009",
+    "materia": "literatura",
+    "assunto": "parnasianismo-simbolismo-pre-modernismo",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Filho do carbono",
+    "enunciado": "“Eu, filho do carbono e do amoníaco, / Monstro de escuridão e rutilância,” (Augusto dos Anjos). A poesia do autor, pré-modernista, é marcada por",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "linguagem coloquial e humor, típicos do Modernismo.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "B",
+        "texto": "idealização do eu lírico e da natureza, típica do Romantismo.",
+        "correta": false,
+        "etiqueta": "lit-idealizacao-x-critica"
+      },
+      {
+        "letra": "C",
+        "texto": "vocabulário científico, pessimismo e tom mórbido, que contrastam com a delicadeza simbolista.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "temas amenos e rigor parnasiano, em tom sereno.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "E",
+        "texto": "nacionalismo ufanista e exaltação do povo brasileiro.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      }
+    ],
+    "explicacao": "Augusto dos Anjos mistura termos de química, biologia e medicina com sentimento de angústia e decomposição. Esse vocabulário inusitado e o pessimismo radical o tornam um poeta de difícil classificação, entre o Simbolismo e o Pré-Modernismo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-parnasianismo-simbolismo-pre-modernismo-010",
+    "materia": "literatura",
+    "assunto": "parnasianismo-simbolismo-pre-modernismo",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Policarpo Quaresma",
+    "enunciado": "Em “Triste Fim de Policarpo Quaresma”, de Lima Barreto, o nacionalismo da personagem é apresentado como",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "bem-sucedido, e o governo o recompensa com honrarias.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "B",
+        "texto": "um ufanismo exaltado, que o autor aprova sem ressalvas.",
+        "correta": false,
+        "etiqueta": "lit-idealizacao-x-critica"
+      },
+      {
+        "letra": "C",
+        "texto": "uma ode ao governo, que Policarpo defende até o fim.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "D",
+        "texto": "uma teoria científica sobre a influência do meio no povo.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "E",
+        "texto": "ingênuo e utópico, o que o leva ao fracasso e permite ao autor criticar a burocracia e a República.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "Policarpo tenta valorizar o Brasil (estuda o tupi, propõe reformas agrícolas) mas fracassa diante da burocracia e da violência política. O autor faz uma crítica à República e a um nacionalismo ingênuo, o que é típico do Pré-Modernismo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-parnasianismo-simbolismo-pre-modernismo-011",
+    "materia": "literatura",
+    "assunto": "parnasianismo-simbolismo-pre-modernismo",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Os Sertões",
+    "enunciado": "“Os Sertões” (1902), de Euclides da Cunha, narra e analisa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a Guerra do Paraguai, entre o Brasil e o país vizinho.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "B",
+        "texto": "a Revolução Farroupilha, no Rio Grande do Sul.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "C",
+        "texto": "a Guerra do Contestado, no Sul do país.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "D",
+        "texto": "a Guerra de Canudos, no sertão da Bahia.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "a Cabanagem, no Pará.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      }
+    ],
+    "explicacao": "Euclides cobriu o conflito como jornalista e escreveu um livro dividido em três partes: A Terra, O Homem e A Luta. A obra, um marco do Pré-Modernismo, mistura ciência, literatura e denúncia.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-parnasianismo-simbolismo-pre-modernismo-012",
+    "materia": "literatura",
+    "assunto": "parnasianismo-simbolismo-pre-modernismo",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Jeca Tatu",
+    "enunciado": "A personagem Jeca Tatu, símbolo do caipira pobre e doente, foi criada por",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Machado de Assis.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      },
+      {
+        "letra": "B",
+        "texto": "Lima Barreto.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      },
+      {
+        "letra": "C",
+        "texto": "Euclides da Cunha.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      },
+      {
+        "letra": "D",
+        "texto": "Monteiro Lobato.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "Graciliano Ramos.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      }
+    ],
+    "explicacao": "Lobato apresentou Jeca Tatu em “Urupês” (1918), como retrato do caipira atrasado. Depois, ele mudou de ideia e passou a atribuir a condição do Jeca à falta de saúde e de educação, e não a uma preguiça natural.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-parnasianismo-simbolismo-pre-modernismo-013",
+    "materia": "literatura",
+    "assunto": "parnasianismo-simbolismo-pre-modernismo",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "O subúrbio carioca",
+    "enunciado": "Lima Barreto retrata em suas obras, com olhar crítico,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a vida da aristocracia cafeeira do interior paulista.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-contexto-social"
+      },
+      {
+        "letra": "B",
+        "texto": "os subúrbios do Rio de Janeiro, os funcionários públicos e o preconceito social e racial.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "o sertão nordestino e a vida dos vaqueiros.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-contexto-social"
+      },
+      {
+        "letra": "D",
+        "texto": "a corte imperial e seus nobres.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-contexto-social"
+      },
+      {
+        "letra": "E",
+        "texto": "as colônias de imigrantes europeus no Sul.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-contexto-social"
+      }
+    ],
+    "explicacao": "Lima Barreto, que viveu no subúrbio carioca e foi funcionário público, escreveu sobre pessoas pobres, o preconceito e a política da Primeira República. Sua linguagem é simples e seu olhar, crítico e humano.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-parnasianismo-simbolismo-pre-modernismo-014",
+    "materia": "literatura",
+    "assunto": "parnasianismo-simbolismo-pre-modernismo",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "A tríade parnasiana",
+    "enunciado": "A chamada “tríade parnasiana” brasileira é formada por",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Olavo Bilac, Cruz e Sousa e Alphonsus de Guimaraens.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      },
+      {
+        "letra": "B",
+        "texto": "Olavo Bilac, Alberto de Oliveira e Raimundo Correia.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "Alberto de Oliveira, Augusto dos Anjos e Lima Barreto.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      },
+      {
+        "letra": "D",
+        "texto": "Raimundo Correia, Euclides da Cunha e Monteiro Lobato.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      },
+      {
+        "letra": "E",
+        "texto": "Olavo Bilac, Castro Alves e Gonçalves Dias.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      }
+    ],
+    "explicacao": "Bilac, Alberto de Oliveira e Raimundo Correia são os grandes nomes do Parnasianismo. Cruz e Sousa e Alphonsus de Guimaraens são simbolistas, e os demais citados pertencem ao Pré-Modernismo ou ao Romantismo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-parnasianismo-simbolismo-pre-modernismo-015",
+    "materia": "literatura",
+    "assunto": "parnasianismo-simbolismo-pre-modernismo",
+    "questionario": 3,
+    "dificuldade": 1,
+    "contexto": "Soneto do vaso",
+    "enunciado": "Leia o poema autoral: “Na estante austera, o vaso de alabastro, / de linhas puras, curvas bem medidas, / retém a luz em sombras escolhidas, / sem uma chama, sem um ai, sem rastro.” Predominam nesse texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a efusão sentimental e a fuga da realidade, típicas do Romantismo.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "B",
+        "texto": "a descrição de um objeto, com perfeição formal e impessoalidade, típicas do Parnasianismo.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "o misticismo vago e a sinestesia, típicos do Simbolismo.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "D",
+        "texto": "a denúncia da miséria do sertão, típica do Pré-Modernismo.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "E",
+        "texto": "o verso livre e o humor, típicos do Modernismo.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      }
+    ],
+    "explicacao": "O poema é um soneto, trata de um objeto com precisão e sem emoção pessoal (“sem um ai”), e valoriza a forma. São marcas do Parnasianismo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-parnasianismo-simbolismo-pre-modernismo-016",
+    "materia": "literatura",
+    "assunto": "parnasianismo-simbolismo-pre-modernismo",
+    "questionario": 4,
+    "dificuldade": -1,
+    "contexto": "Sinestesia simbolista",
+    "enunciado": "A sinestesia, recurso muito usado pelos simbolistas, consiste em",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "repetir uma consoante em várias palavras seguidas.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-recurso"
+      },
+      {
+        "letra": "B",
+        "texto": "imitar sons de objetos, como “tique-taque”.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-recurso"
+      },
+      {
+        "letra": "C",
+        "texto": "dar características humanas a seres inanimados.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-recurso"
+      },
+      {
+        "letra": "D",
+        "texto": "misturar sensações de sentidos diferentes, como na expressão “perfume branco” ou “voz aveludada”.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "dizer o contrário do que se pensa, com tom de crítica.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-recurso"
+      }
+    ],
+    "explicacao": "Para sugerir o mistério e o indizível, os simbolistas combinam olfato, visão, tato e audição em uma só imagem. As outras alternativas descrevem aliteração, onomatopeia, personificação e ironia.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-parnasianismo-simbolismo-pre-modernismo-017",
+    "materia": "literatura",
+    "assunto": "parnasianismo-simbolismo-pre-modernismo",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Contra o materialismo",
+    "enunciado": "O Simbolismo surge, no final do século XIX, como reação",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "ao Iluminismo e à ideia de razão do século XVIII.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "B",
+        "texto": "ao racionalismo, ao materialismo e ao cientificismo do período.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "ao Modernismo e à ruptura das vanguardas.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "D",
+        "texto": "à Contrarreforma e ao poder da Igreja.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "E",
+        "texto": "ao nacionalismo e ao indianismo românticos.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      }
+    ],
+    "explicacao": "Diante do predomínio da ciência, do positivismo e do materialismo (Realismo, Naturalismo, Parnasianismo), os simbolistas voltam-se ao espírito, aos sonhos e ao mistério. Essa reação é uma das chaves do estilo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-parnasianismo-simbolismo-pre-modernismo-018",
+    "materia": "literatura",
+    "assunto": "parnasianismo-simbolismo-pre-modernismo",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "O poeta de Mariana",
+    "enunciado": "Alphonsus de Guimaraens, simbolista conhecido como “o solitário de Mariana”, tem como temas frequentes",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a crítica à escravidão e à elite imperial.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "B",
+        "texto": "a vida urbana moderna e as máquinas.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "C",
+        "texto": "o progresso científico e a industrialização.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "D",
+        "texto": "a denúncia social do sertão e da seca.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "E",
+        "texto": "o amor impossível, a morte e a religiosidade católica.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "O poeta mineiro dedicou boa parte da obra a uma amada morta, em versos de tom místico, com imagens de sinos, igrejas e luar. Esses temas são típicos do Simbolismo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-parnasianismo-simbolismo-pre-modernismo-019",
+    "materia": "literatura",
+    "assunto": "parnasianismo-simbolismo-pre-modernismo",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "O que é Pré-Modernismo",
+    "enunciado": "O Pré-Modernismo (1902 a 1922) não é uma escola literária no sentido tradicional porque",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "reúne autores de estilos variados que antecipam temas modernistas, como a realidade brasileira e a crítica social, sem romper com as formas.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "foi um movimento organizado, com manifesto e líderes definidos.",
+        "correta": false,
+        "etiqueta": "lit-generalizou"
+      },
+      {
+        "letra": "C",
+        "texto": "seguiu um único estilo, de tom ufanista e romântico.",
+        "correta": false,
+        "etiqueta": "lit-generalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "rompeu totalmente com a linguagem e a tradição, como as vanguardas.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "E",
+        "texto": "limitou-se à poesia, sem produção em prosa.",
+        "correta": false,
+        "etiqueta": "lit-generalizou"
+      }
+    ],
+    "explicacao": "O termo, criado pela crítica, agrupa autores como Euclides, Lima Barreto, Lobato e Augusto dos Anjos, que preparam o Modernismo ao retratar a realidade brasileira de forma crítica. Eles não têm unidade de estilo nem manifesto.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-parnasianismo-simbolismo-pre-modernismo-020",
+    "materia": "literatura",
+    "assunto": "parnasianismo-simbolismo-pre-modernismo",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "O sertanejo é um forte",
+    "enunciado": "Em “Os Sertões”, Euclides da Cunha afirma: “O sertanejo é, antes de tudo, um forte.” Essa frase sugere que o sertanejo",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "é fraco, preguiçoso e incapaz de viver no sertão.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      },
+      {
+        "letra": "B",
+        "texto": "é um herói romântico, idealizado, sem defeitos.",
+        "correta": false,
+        "etiqueta": "lit-idealizacao-x-critica"
+      },
+      {
+        "letra": "C",
+        "texto": "é inferior por natureza, e a ciência prova isso.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "D",
+        "texto": "prefere a vida na cidade e rejeita o campo.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      },
+      {
+        "letra": "E",
+        "texto": "apresenta resistência física e moral diante das condições duras do sertão, o que contraria a imagem de fraqueza.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "O sertanejo vive em um ambiente árido, com poucos recursos, e resiste. Euclides, influenciado por teorias da época, tem visões contraditórias sobre ele, mas essa frase o valoriza e se opõe à imagem do caboclo fraco, como a de Jeca Tatu.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  }
+]
