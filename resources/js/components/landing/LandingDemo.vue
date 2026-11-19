@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { watch } from 'vue';
+import { useTemplateRef, watch } from 'vue';
+import { usePodeFalar } from '@/composables/usePodeFalar';
 import { useDemoSound } from '@/composables/useDemoSound';
 import { useFalaDigitada } from '@/composables/useFalaDigitada';
 import { useMovimentoReduzido } from '@/composables/useMovimentoReduzido';
@@ -24,7 +25,9 @@ const {
 } = usePeixotoDemo();
 const { tocar, bipe } = useDemoSound();
 const reduzido = useMovimentoReduzido();
-const { digitado, falar } = useFalaDigitada(reduzido, bipe);
+const palco = useTemplateRef<HTMLElement>('palco');
+const podeFalar = usePodeFalar(() => palco.value);
+const { digitado, falar } = useFalaDigitada(reduzido, bipe, podeFalar);
 const falaHumor = {
     idle: 'neutro',
     mad: 'bravo',
@@ -67,7 +70,7 @@ function estadoDaAlternativa(
             <DemoControls v-model:nivel="nivel" @reiniciar="reiniciar" />
 
             <div class="l-demo-grid">
-                <div class="l-demo-fish">
+                <div ref="palco" class="l-demo-fish">
                     <p class="l-speech" :data-humor="humor" aria-live="polite">
                         {{ digitado || fala }}
                     </p>

@@ -1,6 +1,7 @@
 import { router } from '@inertiajs/vue3';
 import { computed, onBeforeUnmount, ref } from 'vue';
 import type { Ref } from 'vue';
+import { usePodeFalar } from '@/composables/usePodeFalar';
 import { useFalaDigitada } from '@/composables/useFalaDigitada';
 import { useMovimentoReduzido } from '@/composables/useMovimentoReduzido';
 import { useControleSom } from '@/composables/useMusica';
@@ -27,7 +28,8 @@ export function useQuestao({ tentativa, questao, abertura }: Entrada) {
     const reduzido = useMovimentoReduzido();
     const { somLigado: somLocal } = useControleSom();
     const som = useSomPeixoto(somLocal);
-    const fala = useFalaDigitada(reduzido, som.bipe);
+    const podeFalar = usePodeFalar(() => document.querySelector('.q-palco'));
+    const fala = useFalaDigitada(reduzido, som.bipe, podeFalar);
 
     const fase = ref<FaseQuestao>('perguntando');
     const escolhida = ref<Alternativa | null>(null);

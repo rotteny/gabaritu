@@ -1,4 +1,4 @@
-import { ref } from 'vue';
+import { ref, watch } from 'vue';
 import type { Ref } from 'vue';
 import type { HumorFala } from '@/types/gabaritu';
 
@@ -14,19 +14,31 @@ const VELOCIDADE: Record<HumorFala, number> = {
 
 /**
  * Balão de fala que "digita" o texto, com um bipe por letra.
+ * Só avança enquanto `pode` for true (Peixoto visível, aba ativa, áudio destravado); fora disso pausa e retoma.
  * `falar` resolve true quando termina (ou é pulada) e false se outra fala a interrompeu.
  */
 export function useFalaDigitada(
     reduzido: Ref<boolean>,
     bipe: (humor: HumorFala) => void,
+    pode: Ref<boolean> = ref(true),
 ) {
     const digitado = ref('');
     const falando = ref(false);
     let token = 0;
     let finalizar: (() => void) | null = null;
+    let retomar: (() => void) | null = null;
+
+    watch(pode, (v) => {
+        if (v && retomar) {
+            const r = retomar;
+            retomar = null;
+            r();
+        }
+    });
 
     function falar(texto: string, humor: HumorFala): Promise<boolean> {
         const meu = ++token;
+        retomar = null;
         digitado.value = '';
 
         if (reduzido.value) {
@@ -44,6 +56,7 @@ export function useFalaDigitada(
 
             const concluir = () => {
                 clearTimeout(timer);
+                retomar = null;
                 digitado.value = texto;
                 falando.value = false;
                 finalizar = null;
@@ -54,6 +67,12 @@ export function useFalaDigitada(
             const passo = () => {
                 if (meu !== token) {
                     resolve(false);
+
+                    return;
+                }
+
+                if (!pode.value) {
+                    retomar = passo;
 
                     return;
                 }

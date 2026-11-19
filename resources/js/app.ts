@@ -8,10 +8,13 @@ import { instalarDestravamento } from '@/lib/motorSom';
 import { iniciarSomGlobal } from '@/composables/useMusica';
 import { instalarSomInterface } from '@/lib/somInterface';
 
-const appName = import.meta.env.VITE_APP_NAME || 'Laravel';
+const appName = 'Gabaritu';
 
 void createInertiaApp({
-    title: (title) => (title ? `${title} - ${appName}` : appName),
+    title: (title) =>
+        !title || title.startsWith(appName)
+            ? title || appName
+            : `${title} · ${appName}`,
     layout: (name) => {
         switch (true) {
             case name === 'Landing':

@@ -49,7 +49,7 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-    <Head title="Estude pro ENEM com um baiacu que zoa a sua resposta">
+    <Head title="Gabaritu: estude pro ENEM com um baiacu">
         <meta
             name="description"
             content="Plataforma gratuita e open source de estudo pro ENEM, pra quem tem 13 anos ou mais. Acertou, vira festa. Errou, o Peixoto zoa a resposta e explica o porquê."
