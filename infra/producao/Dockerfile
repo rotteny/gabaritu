@@ -25,6 +25,8 @@ COPY config ./config
 COPY database ./database
 COPY routes ./routes
 COPY resources ./resources
+COPY lang ./lang
+COPY conteudo ./conteudo
 COPY public ./public
 RUN mkdir -p storage/app/private storage/framework/cache/data storage/framework/sessions storage/framework/views storage/logs bootstrap/cache
 RUN composer dump-autoload --no-dev --optimize --classmap-authoritative
