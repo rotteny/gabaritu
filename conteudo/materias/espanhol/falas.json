@@ -16,11 +16,11 @@
       "¡Felicidades! A alternativa e o texto usaram a mesma palavra. Já podem casar. A pergunta não vai."
     ],
     "sem": [
-      "A PALAVRA ERA DECORAÇÃO! TIPO A PEDRINHA, QUE EU AMO, MAS QUE NUNCA RESPONDEU NADA NA VIDA!",
-      "¡AY, NO! VOCÊ VIU A PALAVRA IGUAL E NEM OLHOU A PERGUNTA! A PERGUNTA TÁ ATÉ AGORA LEVANTANDO A MÃO!",
-      "IGUALZINHA NÃO É CORRETA! SE FOSSE, MEU REFLEXO NO VIDRO RESPONDERIA A PROVA POR MIM!",
-      "VOCÊ FEZ UM CAÇA-PALAVRAS NA PROVA DE ESPANHOL! ACHOU, CIRCULOU E ERROU! COM ESTILO!",
-      "A PERGUNTA ERA '¿POR QUÉ?' E VOCÊ RESPONDEU UM '¿QUIÉN?' SÓ PORQUE TINHA A MESMA PALAVRA!"
+      "A palavra era decoração! Tipo a pedrinha, que eu amo, mas que nunca respondeu nada na vida!",
+      "¡Ay, no! Você viu a palavra igual e nem olhou a pergunta! A pergunta tá até agora levantando a mão!",
+      "Igualzinha não é correta! Se fosse, meu reflexo no vidro responderia a prova por mim!",
+      "CIRCULOU A PALAVRA IGUAL E ERROU! ISSO NÃO É CAÇA-PALAVRAS!",
+      "A pergunta era '¿por qué?' E você respondeu um '¿quién?' Só porque tinha a mesma palavra!"
     ],
     "reserva": "Achar a mesma palavra do texto na alternativa é armadilha clássica. Ela tava lá só de enfeite."
   },
@@ -41,11 +41,11 @@
       "Que bonito: 'presunto' em espanhol é 'suposto', e você mandou o suposto culpado pro sanduíche."
     ],
     "sem": [
-      "'ACEITE' É AZEITE! NINGUÉM ACEITOU NADA! O PERSONAGEM SÓ TEMPEROU A SALADA!",
-      "O HETEROSSEMÂNTICO TE ENGANOU NA CARA DURA! ELE TEM A NOSSA ROUPA, O NOSSO JEITO E OUTRO SIGNIFICADO!",
-      "'CACHORRO' É FILHOTE! QUALQUER FILHOTE! O TEXTO FALAVA DE UM URSINHO E VOCÊ PÔS COLEIRA NELE!",
-      "'BRINCAR' É PULAR! O PERSONAGEM SÓ SALTOU A POÇA E VOCÊ ORGANIZOU UMA GINCANA!",
-      "ME SINTO TRAÍDO EM DOIS IDIOMAS! 'SALADA' QUER DIZER SALGADA E VOCÊ FOI PEDIR ALFACE!"
+      "'ACEITE' É AZEITE! NINGUÉM ACEITOU NADA!",
+      "O heterossemântico te enganou na cara dura! Ele tem a nossa roupa, o nosso jeito e outro significado!",
+      "'Cachorro' é filhote! Qualquer filhote! O texto falava de um ursinho e você pôs coleira nele!",
+      "'Brincar' é pular! O personagem só saltou a poça e você organizou uma gincana!",
+      "Me sinto traído em dois idiomas! 'Salada' quer dizer salgada e você foi pedir alface!"
     ],
     "reserva": "A palavra parecia português, mas em espanhol queria dizer outra coisa. Amizade de idioma tem dessas."
   },
@@ -66,11 +66,11 @@
       "Claro, 'quizás' quer dizer 'com certeza absoluta'. O texto falou talvez e você assinou contrato."
     ],
     "sem": [
-      "¡QUÉ VA! ESSA INFORMAÇÃO ENTROU NA SUA RESPOSTA DE PENETRA, SEM CONVITE E SEM CARIMBO!",
-      "VOCÊ DEDUZIU UM DRAGÃO A PARTIR DE UMA LAGARTIXA! O TEXTO SÓ TINHA A LAGARTIXA!",
-      "ATÉ O SANCHO PANÇA, QUE ACREDITAVA NA ILHA PROMETIDA, ACHOU ESSA CONCLUSÃO FORÇADA!",
-      "DELULU NÍVEL MÁXIMO! O TEXTO FALOU DE UM CAFEZINHO E VOCÊ DEDUZIU UMA CRISE MUNDIAL DO CAFÉ!",
-      "EU, UM PEIXE QUE NUNCA SAIU DO AQUÁRIO, FIQUEI MAIS PERTO DO TEXTO QUE VOCÊ! VOLTA PRA DENTRO DELE!"
+      "¡Qué va! Essa informação entrou na sua resposta de penetra, sem convite e sem carimbo!",
+      "O TEXTO TINHA UMA LAGARTIXA! VOCÊ VIU UM DRAGÃO!",
+      "Até o Sancho pança, que acreditava na ilha prometida, achou essa conclusão forçada!",
+      "Delulu nível máximo! O texto falou de um cafezinho e você deduziu uma crise Mundial do café!",
+      "Eu, um peixe que nunca saiu do aquário, fiquei mais perto do texto que você! Volta pra dentro dele!"
     ],
     "reserva": "A conclusão foi além do que o texto diz. Ele ficou lá atrás, sem entender pra onde você foi."
   },
@@ -91,11 +91,11 @@
       "Parabéns por ler o rodapé com tanta atenção. O texto principal pede um pouquinho também."
     ],
     "sem": [
-      "A PLAQUINHA DA PADARIA VIROU PROTAGONISTA DE UM TEXTO SOBRE UM PAÍS INTEIRO! ELA NEM TINHA FALA!",
-      "¡CARAMBA! O TEXTO FEZ UM DISCURSO INTEIRO E VOCÊ CITOU SÓ O 'BUENOS DÍAS' DO COMEÇO!",
-      "EU INVESTI EM VOCÊ! E VOCÊ ME TRAZ O DETALHE DO PARÁGRAFO TRÊS COMO SE FOSSE A TESE DO SÉCULO!",
-      "POV: O AUTOR ESCREVE SOBRE O FUTURO DA ÁGUA NO PLANETA E VOCÊ RESPONDE SOBRE O COPO DELE.",
-      "QUINCE NÃO É CINCUENTA! SÃO TRINTA E CINCO DE DIFERENÇA! EU CONTEI NAS BOLHAS!"
+      "A plaquinha da padaria virou protagonista de um texto sobre um país inteiro! Ela nem tinha fala!",
+      "¡Caramba! O texto fez um discurso inteiro e você citou só o 'Buenos días' do começo!",
+      "Eu investi em você! E você me traz o detalhe do parágrafo três como se fosse a tese do século!",
+      "Pov: o autor escreve sobre o futuro da água no planeta e você responde sobre o copo dele.",
+      "QUINCE NÃO É CINCUENTA! EU CONTEI NAS BOLHAS!"
     ],
     "reserva": "O detalhe foi promovido a assunto principal sem merecer. O tema de verdade ficou de figurante."
   },
@@ -116,11 +116,11 @@
       "Que interessante: o texto disse 'jamás' e você leu 'de vez em quando'. Uma negação bem flexível."
     ],
     "sem": [
-      "O TEXTO DISSE 'NI SIQUIERA' E VOCÊ LEU 'COM CERTEZA'! A NEGAÇÃO FEZ ESCÂNDALO E VOCÊ BAIXOU O VOLUME!",
-      "'NADIE' NÃO É NOME DE PESSOA! NÃO TEM NENHUM SEÑOR NADIE NA HISTÓRIA! NINGUÉM VEIO!",
-      "¡NO ES SÍ! ¡NO ES SÍ! EU TÔ INCHANDO EM ESPANHOL AGORA, VIU O QUE VOCÊ CAUSOU?!",
+      "O texto disse 'ni siquiera' e você leu 'com certeza'! A negação fez escândalo e você baixou o volume!",
+      "'Nadie' não é nome de Pessoa! Não tem nenhum señor Nadie na história! Ninguém veio!",
+      "¡No es sí! ¡No es sí! Eu tô inchando em espanhol agora, viu o que você causou?!",
       "URGENTE: 'sin' é ignorado numa frase e personagem que estava sem dinheiro aparece milionário.",
-      "VOCÊ TIROU O 'NUNCA' DA FRASE E O TEXTO INTEIRO VIROU PROPAGANDA DE OTIMISMO!"
+      "CADÊ O 'NUNCA'?! VOCÊ COMEU O 'NUNCA'!"
     ],
     "reserva": "O texto negava e você afirmou. Bastou um 'no', um 'nunca' ou um 'sin' passar despercebido."
   },
@@ -141,11 +141,11 @@
       "Brilhante: você leu 'en cuanto' como 'enquanto'. O personagem saiu assim que pôde e você deixou ele esperando."
     ],
     "sem": [
-      "PORTUNHOL NÃO É IDIOMA OFICIAL DO ENEM! É IDIOMA OFICIAL DO MEU AQUÁRIO, E SÓ!",
-      "'SITIO' NÃO É SÍTIO COM GALINHA! É LUGAR! TIRA AS GALINHAS DO TEXTO AGORA!",
-      "EU INCHEI EM PORTUNHOL! MEIO 'ESTOY ENOJADO', MEIO 'TÔ FURIOSO', 100% DESAPONTADO!",
-      "CHAT, ISSO É REAL? VOCÊ CONJUGOU O VERBO EM ESPANHOL COM TERMINAÇÃO DE PORTUGUÊS!",
-      "PLOT TWIST: ESPANHOL NÃO É PORTUGUÊS COM SOTAQUE! ELE TEM VIDA PRÓPRIA, CONTAS PRÓPRIAS E REGRAS!"
+      "Portunhol não é idioma oficial do ENEM! É idioma oficial do meu aquário, e só!",
+      "'SITIO' NÃO TEM GALINHA! TIRA AS GALINHAS!",
+      "Eu inchei em portunhol! Meio 'estoy enojado', meio 'tô furioso', 100% desapontado!",
+      "Chat, isso é real? Você conjugou o verbo em espanhol com terminação de português!",
+      "Plot twist: espanhol não é português com sotaque! Ele tem vida própria, contas próprias e regras!"
     ],
     "reserva": "Você leu o espanhol com as regras do português. Parecido não quer dizer igual."
   },
@@ -166,11 +166,11 @@
       "Uma carta de reclamação que você classificou como 'informativa'. O cliente tá furioso, mas informado."
     ],
     "sem": [
-      "O TEXTO QUERIA TE CONVENCER E VOCÊ ACHOU QUE ERA SÓ INFORMATIVO! ELE TÁ SE ESFORÇANDO TANTO, COITADO!",
-      "VOCÊ CONFUNDIU UM PEDIDO COM UMA ORDEM! O TEXTO DISSE '¿PODRÍAS?' COM TODA A EDUCAÇÃO DO MUNDO!",
-      "O PROPÓSITO DO TEXTO TAVA NA PRIMEIRA LINHA, DE CHAPÉU E SAPATO! E VOCÊ NEM CUMPRIMENTOU!",
+      "O texto queria te convencer e você achou que era só informativo! Ele tá se esforçando tanto, coitado!",
+      "Você confundiu um pedido com uma ordem! O texto disse '¿podrías?' Com toda a educação do mundo!",
+      "A INTENÇÃO TAVA NA PRIMEIRA LINHA, DE CHAPÉU!",
       "URGENTE: crítica social é lida como anúncio de turismo e cidade recebe visitantes confusos.",
-      "SE EU ESCREVO 'SOCORRO, A FAXINA CHEGOU', NÃO É POESIA! É PEDIDO DE AJUDA! IGUAL ESSE TEXTO!"
+      "Se eu escrevo 'socorro, a faxina chegou', não é poesia! É pedido de ajuda! Igual esse texto!"
     ],
     "reserva": "Cada texto nasce com um objetivo. Esse aqui queria uma coisa de você, e a resposta deu outra."
   },
@@ -191,11 +191,11 @@
       "Ótimo, o 'ellos' agora inclui o narrador, o cachorro e o leitor. Que inclusão generosa."
     ],
     "sem": [
-      "O 'LO' TAVA GRUDADO NO SUBSTANTIVO DA FRASE ANTERIOR E VOCÊ ARRANCOU ELE DE LÁ! ELE QUER VOLTAR PRA CASA!",
-      "VOCÊ DEU O 'SUYO' PRA PESSOA ERRADA! AGORA ELA TÁ COM UMA BICICLETA QUE NUNCA COMPROU!",
-      "TINHA DUAS MULHERES NA CENA E VOCÊ DEU O 'LA' PRA GELADEIRA! A GELADEIRA NEM TAVA NA CONVERSA!",
-      "TODO MUNDO NO TEXTO É 'ÉL' E VOCÊ ESCOLHEU O 'ÉL' ERRADO! TINHA SÓ DOIS 'ÉL'!",
-      "VOCÊ CASOU O PRONOME COM O SUBSTANTIVO ERRADO! A FESTA FOI LINDA, MAS O NOIVO TROCOU DE NOME NO CARTÓRIO!"
+      "O 'lo' tava grudado no substantivo da frase anterior e você arrancou ele de lá! Ele quer voltar pra casa!",
+      "Você deu o 'suyo' pra Pessoa errada! Agora ela tá com uma bicicleta que nunca comprou!",
+      "Tinha duas mulheres na cena e você deu o 'la' pra geladeira! A geladeira nem tava na conversa!",
+      "TINHA DOIS 'ÉL' E VOCÊ ACHOU O OUTRO 'ÉL'!",
+      "Você casou o pronome com o substantivo errado! A festa foi linda, mas o noivo trocou de nome no cartório!"
     ],
     "reserva": "O 'lo', o 'la' ou o 'eso' tinham dono certo no texto. Você entregou pra outra palavra."
   },
@@ -216,11 +216,11 @@
       "O Cortázar deixou ler O Jogo da Amarelinha em qualquer ordem. O texto da prova não deixou. Por isso existe conector."
     ],
     "sem": [
-      "'SIN EMBARGO' NÃO TEM EMBARGO! NÃO TEM NAVIO PARADO NO PORTO! TEM UM 'NO ENTANTO' ESPERANDO!",
-      "VOCÊ TROCOU CAUSA POR CONTRASTE! A LÓGICA DO TEXTO TÁ SENTADA NO MEIO-FIO SEM SABER PRA ONDE IR!",
-      "EU INCHEI EM FORMATO DE PONTO DE INTERROGAÇÃO INVERTIDO! ¿POR QUÉ TROCOU O CONECTOR?!",
-      "PLOT TWIST: O 'PERO' NÃO CONCORDAVA COM NINGUÉM! ELE ERA DO CONTRA DESDE O COMEÇO!",
-      "'YA QUE' É CAUSA! NÃO É 'JÁ QUE TÔ AQUI, VOU MARCAR QUALQUER UMA'!"
+      "'Sin embargo' não tem embargo! Não tem navio parado no porto! Tem um 'no entanto' esperando!",
+      "Você trocou causa por contraste! A lógica do texto tá sentada no meio-fio sem saber pra onde ir!",
+      "Eu inchei em formato de ponto de interrogação invertido! ¿Por qué trocou o conector?!",
+      "Plot twist: o 'pero' não concordava com ninguém! Ele era do contra desde o começo!",
+      "'YA QUE' É CAUSA! NÃO É 'JÁ QUE TÔ AQUI'!"
     ],
     "reserva": "'Pero', 'aunque', 'por eso' e 'sino' mudam o rumo da frase. Um deles passou e você seguiu reto."
   },
@@ -241,11 +241,11 @@
       "Ótimo, o 'solía' virou 'faz agora'. A avó do texto costumava dançar; graças a você, dança todo dia."
     ],
     "sem": [
-      "O SUBJUNTIVO TAVA AÍ SONHANDO E VOCÊ ACORDOU ELE COM UM BALDE DE CERTEZA!",
-      "'HABRÁ TERMINADO' É FUTURO! O PERSONAGEM AINDA VAI TERMINAR! VOCÊ JÁ MANDOU ELE DESCANSAR!",
-      "¡MADRE MÍA! PRESENTE, PRETÉRITO, FUTURO, SUBJUNTIVO... E VOCÊ ESCOLHEU O TEMPO 'QUALQUER UM'!",
-      "EU INCHEI NO PRETÉRITO, TÔ INCHANDO NO PRESENTE E VOU INCHAR NO FUTURO! ESSE ERRO ATRAVESSOU TODOS!",
-      "POV: O TEXTO CONTA UM SONHO NO 'SI PUDIERA' E VOCÊ RESPONDE COMO SE FOSSE NOTÍCIA DE ONTEM."
+      "O SUBJUNTIVO TAVA SONHANDO E VOCÊ ACORDOU ELE NO BALDE!",
+      "'Habrá terminado' é futuro! O personagem ainda vai terminar! Você já mandou ele descansar!",
+      "¡Madre mía! Presente, pretérito, futuro, subjuntivo... E você escolheu o tempo 'qualquer um'!",
+      "Eu inchei no pretérito, tô inchando no presente e vou inchar no futuro! Esse erro atravessou todos!",
+      "Pov: o texto conta um sonho no 'si pudiera' e você responde como se fosse notícia de ontem."
     ],
     "reserva": "O tempo do verbo mudava tudo: era lembrança, plano ou só um 'quem sabe'. A resposta pegou o errado."
   },
@@ -266,11 +266,11 @@
       "Excelente: 'pila' era a bateria do brinquedo e você empilhou os brinquedos. Organizado, pelo menos."
     ],
     "sem": [
-      "'NADA' TAMBÉM É 'ELE NADA'! NADAR! A COISA QUE EU FAÇO O DIA INTEIRO! ME SENTI INVISÍVEL!",
-      "O CONTEXTO GRITOU O SENTIDO CERTO E VOCÊ RESPONDEU COM UM DICIONÁRIO DE BOLSO DE 1980!",
-      "¡QUÉ DESASTRE! VOCÊ LEU 'LLAMA' COMO LHAMA E AGORA TEM UM BICHO PELUDO ATENDENDO O TELEFONE!",
-      "A PALAVRA TROCOU DE ROUPA PRO CONTEXTO E VOCÊ CUMPRIMENTOU ELA PELO NOME ANTIGO!",
-      "SE TODA PALAVRA TIVESSE UM SENTIDO SÓ, EU SERIA SÓ 'PEIXE'! MAS EU SOU PEIXE, ARTISTA, PROFESSOR E DRAMA!"
+      "'Nada' também é 'ele nada'! Nadar! A coisa que eu faço o dia inteiro! Me senti invisível!",
+      "O contexto gritou o sentido certo e você respondeu com um dicionário de bolso de 1980!",
+      "¡Qué desastre! Você leu 'llama' como lhama e agora tem um bicho peludo atendendo o telefone!",
+      "A PALAVRA TROCOU DE ROUPA E VOCÊ NÃO RECONHECEU!",
+      "Se toda palavra tivesse um sentido só, eu seria só 'peixe'! Mas eu sou peixe, artista, professor e drama!"
     ],
     "reserva": "Em espanhol, muita palavra muda de sentido conforme a frase. Aqui ela tava usando o significado menos famoso."
   },
@@ -291,11 +291,11 @@
       "Ótimo. Leu a ironia como sinceridade. Também deve acreditar quando eu digo que amo o Valdir."
     ],
     "sem": [
-      "ERA IRONIA! O TEXTO TAVA DEBOCHANDO COM TODAS AS LETRAS E VOCÊ APLAUDIU DE PÉ!",
-      "O AUTOR ESCREVEU BRAVO, COM EXCLAMAÇÃO DE CABEÇA PRA BAIXO E TUDO! ¡ASÍ! E VOCÊ ACHOU CALMINHO!",
-      "VOCÊ LEU UM DESABAFO INDIGNADO COMO BOLETIM DO TEMPO! O AUTOR TÁ SOLTANDO BOLHA DE RAIVA IGUAL EU!",
-      "MENOS MIL DE AURA! ATÉ A MAFALDA ENTENDERIA ESSE SARCASMO, E ELA TEM SEIS ANOS!",
-      "OPINIÃO NÃO É FATO! FATO NÃO É IRONIA! IRONIA NÃO É ELOGIO! EU TÔ GIRANDO NO AQUÁRIO!"
+      "ERA IRONIA! E VOCÊ APLAUDIU DE PÉ!",
+      "O autor escreveu bravo, com exclamação de cabeça pra baixo e tudo! ¡Así! E você achou calminho!",
+      "Você leu um desabafo indignado como boletim do tempo! O autor tá soltando bolha de raiva igual eu!",
+      "Menos mil de aura! Até a Mafalda entenderia esse sarcasmo, e ela tem seis anos!",
+      "Opinião não é fato! Fato não é ironia! Ironia não é elogio! Eu tô girando no aquário!"
     ],
     "reserva": "Por trás das palavras tinha deboche, crítica ou opinião, e a sua leitura ouviu outro tom de voz."
   },
@@ -316,11 +316,11 @@
       "Bravo: o 'casi' de 'casi siempre' sumiu da sua leitura. Ele era pequeno, mas tinha um papel enorme."
     ],
     "sem": [
-      "VOCÊ COLOCOU 'TODOS' NUMA FRASE QUE O AUTOR ESCREVEU NA PONTA DOS PÉS, CHEIA DE 'QUIZÁS'!",
-      "A EXCEÇÃO TAVA NO TEXTO ACENANDO COM UMA BANDEIRA! E VOCÊ PASSOU DIRETO DE TRATOR!",
-      "UM CASO! UM ÚNICO CASO! E VOCÊ JÁ ESCREVEU A CONSTITUIÇÃO DO CONTINENTE!",
-      "¡OJALÁ FOSSE SEMPRE! MAS O TEXTO DISSE 'A VECES', E 'A VECES' É ÀS VEZES, NÃO TODA HORA!",
-      "GENERALIZAR É COMO DIZER QUE TODO PEIXE VIRA SUSHI! NÃO VIRA! EU, POR EXEMPLO, VOU VIRAR CELEBRIDADE!"
+      "Você colocou 'todos' numa frase que o autor escreveu na ponta dos pés, cheia de 'quizás'!",
+      "A exceção tava no texto acenando com uma bandeira! E você passou direto de trator!",
+      "UM CASO! UM ÚNICO! E VOCÊ ESCREVEU A CONSTITUIÇÃO!",
+      "¡Ojalá fosse sempre! Mas o texto disse 'a veces', e 'a veces' é às vezes, não toda hora!",
+      "Generalizar é como dizer que todo peixe vira sushi! Não vira! Eu, por exemplo, vou virar celebridade!"
     ],
     "reserva": "Um 'a veces' ou um 'algunos' virou 'siempre' na sua leitura. A regra que você criou o texto não assinou."
   }

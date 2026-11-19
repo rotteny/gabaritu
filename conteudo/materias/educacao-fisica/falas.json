@@ -16,11 +16,11 @@
       "Ah, sim, a amarelinha só conta se tiver patrocínio e hino nacional no final."
     ],
     "sem": [
-      "VOCÊ REDUZIU O ESPORTE AO PLACAR! O FUTEBOL DE RUA COM CHINELO DE TRAVE ESTÁ PROFUNDAMENTE MAGOADO!",
+      "Você reduziu o esporte ao placar! O futebol de rua com chinelo de trave está profundamente magoado!",
       "URGENTE: vôlei da família no fim de semana descobre que não conta como esporte e exige reconhecimento!",
-      "PÓDIO NÃO É TUDO! SE FOSSE, O VALDIR NUNCA SAIRIA DA CONCHA! E ELE SAI! TODA SEMANA!",
-      "EU APOSTO CORRIDA COM O FILTRO DESDE QUE ME CONHEÇO E NUNCA GANHEI! E NUNCA ME DIVERTI TANTO!",
-      "O COUBERTIN RECRIOU AS OLIMPÍADAS E VOCÊ TRANSFORMOU TUDO NUMA PLANILHA DE RESULTADOS!"
+      "PÓDIO NÃO É TUDO! O VALDIR SAI DA CONCHA TODA SEMANA!",
+      "Eu aposto corrida com o filtro desde que me conheço e nunca ganhei! E nunca me diverti tanto!",
+      "O Coubertin recriou as Olimpíadas e você transformou tudo numa planilha de resultados!"
     ],
     "reserva": "Esporte pode ser rendimento, lazer ou educação: veja qual deles a questão pede."
   },
@@ -41,11 +41,11 @@
       "Que bonito ver todas as práticas juntas. Pena que a prova pediu pra separar."
     ],
     "sem": [
-      "CATEGORIA ERRADA! CAPOEIRA NÃO É PIQUE-ESCONDE! NINGUÉM SE ESCONDE NA RODA, A RODA É REDONDA!",
-      "VOCÊ JUNTOU TUDO NA MESMA CESTA! E A CESTA ERA DE BASQUETE! AGORA NINGUÉM ACHA NADA!",
-      "O NAISMITH INVENTOU O BASQUETE COM REGRA ESCRITA E VOCÊ BOTOU ELE NA GAVETA DAS BRINCADEIRAS!",
-      "JOGO, ESPORTE E DANÇA TÊM NOME PRÓPRIO! EU FIZ ETIQUETA PRA CADA UM E VOCÊ DESCOLOU TODAS!",
-      "PLOT TWIST: A GINÁSTICA NÃO É LUTA! NINGUÉM DÁ ESTRELINHA PRA GANHAR DISCUSSÃO!"
+      "Categoria errada! Capoeira não é pique-esconde! Ninguém se esconde na roda, a roda é redonda!",
+      "Você juntou tudo na mesma cesta! E a cesta era de basquete! Agora ninguém acha nada!",
+      "O Naismith inventou o basquete com regra escrita e você botou ele na gaveta das brincadeiras!",
+      "Jogo, esporte e dança têm nome próprio! Eu fiz etiqueta pra cada um e você descolou todas!",
+      "A GINÁSTICA NÃO É LUTA! NINGUÉM BRIGA DE ESTRELINHA!"
     ],
     "reserva": "Jogo, esporte, dança, luta e ginástica são manifestações diferentes. Veja a pedida."
   },
@@ -66,11 +66,11 @@
       "Pela sua lógica, um dia sem queixa e sem nenhum amigo é o auge do bem-estar. Que festa animada."
     ],
     "sem": [
-      "SAÚDE NÃO É SÓ AUSÊNCIA DE PROBLEMA! EU TÔ SEM PROBLEMA NENHUM E MESMO ASSIM PRECISO DE UM ABRAÇO!",
-      "VOCÊ REDUZIU A SAÚDE A UMA LISTA VAZIA! A OMS soltou um suspiro!",
-      "O BEM-ESTAR SOCIAL E O MENTAL FICARAM DO LADO DE FORA DA RESPOSTA, BATENDO NO VIDRO IGUAL EU!",
-      "SAÚDE PELA METADE! É COMPRAR O BOLO E LEVAR SÓ A VELA PRA FESTA!",
-      "EU TENHO ÁGUA LIMPA E RAÇÃO, MAS SE A PEDRINHA SUMIR EU NÃO FICO BEM! ISSO TAMBÉM É SAÚDE!"
+      "Saúde não é só ausência de problema! Eu tô sem problema nenhum e mesmo assim preciso de um abraço!",
+      "SAÚDE NÃO É SÓ AUSÊNCIA DE DOENÇA! ATÉ A OMS SUSPIROU!",
+      "O bem-estar social e o mental ficaram do lado de fora da resposta, batendo no vidro igual eu!",
+      "Saúde pela metade! É comprar o bolo e levar só a vela pra festa!",
+      "Eu tenho água limpa e ração, mas se a pedrinha sumir eu não fico bem! Isso também é saúde!"
     ],
     "reserva": "Saúde envolve bem-estar físico, mental e social, não só a ausência de problemas."
   },
@@ -91,11 +91,11 @@
       "Varrer a casa e treinar pra maratona, a mesma coisa. A vassoura agradece o título de atleta."
     ],
     "sem": [
-      "CONCEITOS TROCADOS! O EXERCÍCIO E A ATIVIDADE ACORDARAM COM O NOME UM DO OUTRO E TÃO EM CRISE!",
-      "VOCÊ JUNTOU DOIS TERMOS QUE NÃO SÃO O MESMO! O DICIONÁRIO DO PROFESSOR CAIU DA MESA!",
-      "EU NADO O DIA TODO E NUNCA CHAMEI ISSO DE TREINO! É SÓ A MINHA VIDA! TEM DIFERENÇA, SIM!",
-      "O VALDIR CHAMA TUDO DE 'MEXER' E ATÉ ELE TÁ OLHANDO TORTO PRA ESSA RESPOSTA!",
-      "TRÊS CONCEITOS, UMA RESPOSTA E NENHUM ACERTO! É O TRIÂNGULO MAIS CONFUSO DA EDUCAÇÃO FÍSICA!"
+      "Conceitos trocados! O exercício e a atividade acordaram com o nome um do outro e tão em crise!",
+      "Você juntou dois termos que não são o mesmo! O dicionário do professor caiu da mesa!",
+      "Eu nado o dia todo e nunca chamei isso de treino! É só a minha vida! Tem diferença, sim!",
+      "NEM O VALDIR CHAMA TUDO DE 'MEXER'! RESPOSTA ERRADA!",
+      "Três conceitos, uma resposta e nenhum acerto! É o triângulo mais confuso da educação física!"
     ],
     "reserva": "Atividade física, exercício e aptidão são termos diferentes. Veja a definição pedida."
   },
@@ -116,11 +116,11 @@
       "Contexto social é detalhe. O Mestre Bimba abriu uma escola de capoeira só porque tava entediado, né?"
     ],
     "sem": [
-      "O CONTEXTO IMPORTA! EU ASSISTI À AULA INTEIRA PELO VIDRO E O CONTEXTO TAVA LÁ, ACENANDO!",
-      "VOCÊ IGNOROU A ÉPOCA E A SOCIEDADE! A PRÁTICA PEDIU A CERTIDÃO DE NASCIMENTO DELA DE VOLTA!",
+      "O contexto importa! Eu assisti à aula inteira pelo vidro e o contexto tava lá, acenando!",
+      "Você ignorou a época e a sociedade! A prática pediu a certidão de nascimento dela de volta!",
       "URGENTE: esporte é lido sem a história dele e a história exige direito de resposta!",
-      "PLOT TWIST: TINHA UMA SOCIEDADE INTEIRA POR TRÁS! Você viu só a quadra!",
-      "VOCÊ ASSISTIU AO JOGO COM A TV NO MUDO E SEM SABER O CAMPEONATO! COMO ASSIM?!"
+      "TINHA UMA SOCIEDADE INTEIRA! VOCÊ VIU SÓ A QUADRA!",
+      "Você assistiu ao jogo com a TV no mudo e sem saber o campeonato! Como assim?!"
     ],
     "reserva": "Toda prática nasce num contexto histórico e social. Releia o cenário."
   },
@@ -141,11 +141,11 @@
       "O William Morgan inventou o vôlei com regras bem simples. Você deu um jeito de complicar."
     ],
     "sem": [
-      "REGRA ERRADA! O APITO TOCOU TRÊS VEZES E FOI SÓ PRA VOCÊ!",
-      "VOCÊ REESCREVEU O REGULAMENTO SEM ABRIR O LIVRO! A federação pediu vista!",
-      "FUNDAMENTO ERRADO! O BANDEIRINHA LEVANTOU A BANDEIRA TÃO ALTO QUE BATEU NO TETO DO GINÁSIO!",
-      "O VAR CHAMOU O JUIZ, O JUIZ CHAMOU O COMITÊ E O COMITÊ ME CHAMOU! EU NEM SEI APITAR DEBAIXO D'ÁGUA!",
-      "CARTÃO AMARELO PRA ESSA RESPOSTA! MAIS UMA DESSA E EU MESMO SAIO DE CAMPO, QUER DIZER, DE AQUÁRIO!"
+      "REGRA ERRADA! O APITO TOCOU SÓ PRA VOCÊ!",
+      "Você reescreveu o regulamento sem abrir o livro! A federação pediu vista!",
+      "Fundamento errado! O bandeirinha levantou a bandeira tão alto que bateu no teto do ginásio!",
+      "O var chamou o juiz, o juiz chamou o comitê e o comitê me chamou! Eu nem sei apitar debaixo d'água!",
+      "Cartão amarelo pra essa resposta! Mais uma dessa e eu mesmo saio de campo, quer dizer, de aquário!"
     ],
     "reserva": "Cada modalidade tem suas regras e fundamentos. Confira a regra da que a questão pede."
   },
@@ -166,11 +166,11 @@
       "Receita única: todo mundo corre, todo mundo gosta. Quanta praticidade."
     ],
     "sem": [
-      "NÃO EXISTE JEITO ÚNICO! Tem dança, tem caminhada, tem time! Cada um do seu jeito!",
-      "UM JEITO SÓ? ATÉ EU, UM BAIACU, TENHO MUITAS FORMAS DE NADAR! (E UMA DE ENTRAR EM PÂNICO!)",
-      "VOCÊ DEU A MESMA CHUTEIRA PRA TODO MUNDO! O BAILARINO, O NADADOR E O ENXADRISTA ESTÃO CONFUSOS!",
+      "NÃO EXISTE JEITO ÚNICO! CADA UM NADA DO SEU!",
+      "Um jeito só? Até eu, um baiacu, tenho muitas formas de nadar! (E uma de entrar em pânico!)",
+      "Você deu a mesma chuteira pra todo mundo! O bailarino, o nadador e o enxadrista estão confusos!",
       "URGENTE: pessoas descobrem que gostam de coisas diferentes e a receita única pede desculpas!",
-      "SE TODO MUNDO TIVESSE QUE FAZER IGUAL, O VALDIR JÁ TERIA SIDO TRANSFERIDO DE AQUÁRIO!"
+      "Se todo mundo tivesse que fazer igual, o Valdir já teria sido transferido de aquário!"
     ],
     "reserva": "Existem muitas formas de praticar, e todas dependem de gosto, contexto e condição."
   },
@@ -191,11 +191,11 @@
       "Alternativa absoluta, tipo torcedor jurando que o time nunca perde. Spoiler: perde."
     ],
     "sem": [
-      "SEMPRE? NUNCA? APENAS? ESSA ALTERNATIVA TÁ MAIS CONFIANTE QUE NARRADOR EM FINAL DE CAMPEONATO!",
-      "TEM EXCEÇÃO, SIM! EU, UM PEIXE, JÁ VI UMA E FOI LINDO! ERA UM CARAMUJO APRESSADO!",
-      "O JUIZ APITOU, O 'APENAS' RECLAMOU E FOI EXPULSO DE CAMPO! E VOCÊ TAVA TORCENDO PRA ELE!",
-      "UMA REGRA SEM EXCEÇÃO! O ÚNICO ABSOLUTO QUE EU CONHEÇO É O MEU MEDO DA FAXINA DO AQUÁRIO!",
-      "ISSO É ABSOLUTO DEMAIS! O JUIZ VIU O REPLAY TRÊS VEZES E AINDA ASSIM NÃO ACREDITOU!"
+      "Sempre? Nunca? Apenas? Essa alternativa tá mais confiante que narrador em final de campeonato!",
+      "TEM EXCEÇÃO, SIM! JÁ VI UMA! ERA UM CARAMUJO!",
+      "O juiz apitou, o 'apenas' reclamou e foi expulso de campo! E você tava torcendo pra ele!",
+      "Uma regra sem exceção! O único absoluto que eu conheço é o meu medo da faxina do aquário!",
+      "Isso é absoluto demais! O juiz viu o replay três vezes e ainda assim não acreditou!"
     ],
     "reserva": "Desconfie de 'sempre', 'nunca' e 'apenas': no esporte e na prova, exceção é o que não falta."
   },
@@ -216,11 +216,11 @@
       "Correto e sem relação nenhuma. É gol de placa num jogo que já tinha acabado."
     ],
     "sem": [
-      "VOCÊ CORREU PRO GOL ERRADO COM UMA CONFIANÇA QUE EU NUNCA VI! A TORCIDA FICOU EM SILÊNCIO!",
-      "É VERDADE E NÃO TEM NADA A VER! É COMEMORAR GOL NO MEIO DO JOGO DE BASQUETE!",
-      "O ENUNCIADO PEDIU UMA COISA E VOCÊ ENTREGOU OUTRA! EU TÔ AQUI GRUDADO NO VIDRO, DESACREDITADO!",
-      "RESPOSTA CERTA NA PARTIDA ERRADA! O NARRADOR FICOU ROUCO DE TANTO GRITAR 'NÃO É ESSE CAMPO!'",
-      "TECNICAMENTE CERTO E TOTALMENTE FORA DE CAMPO! O JUIZ TÁ PROCURANDO A REGRA PRA ISSO E NÃO ACHA!"
+      "Você correu pro gol errado com uma confiança que eu nunca vi! A torcida ficou em silêncio!",
+      "É VERDADE, MAS É OUTRO JOGO! GOL NO BASQUETE NÃO VALE!",
+      "O enunciado pediu uma coisa e você entregou outra! Eu tô aqui grudado no vidro, desacreditado!",
+      "Resposta certa na partida errada! O narrador ficou rouco de tanto gritar 'não é esse campo!'",
+      "Tecnicamente certo e totalmente fora de campo! O juiz tá procurando a regra pra isso e não acha!"
     ],
     "reserva": "Resposta verdadeira nem sempre é a resposta da pergunta. Volte ao enunciado e veja o que ele pede."
   },
@@ -241,11 +241,11 @@
       "Claro, se o anúncio tem música animada e câmera lenta, só pode ser verdade."
     ],
     "sem": [
-      "VOCÊ ENGOLIU O ANÚNCIO INTEIRO! EU JÁ FUI FISGADO POR ISCA E OLHA O MEU TRAUMA DE PESCARIA!",
-      "O SLOGAN PISCOU, A MÚSICA SUBIU E VOCÊ COMPROU A RESPOSTA ERRADA EM DOZE VEZES SEM JUROS!",
-      "URGENTE: aluno acredita em slogan e o pensamento crítico faz um comunicado oficial!",
-      "PROPAGANDA NÃO É VERDADE ABSOLUTA! O MARKETING TÁ COMEMORANDO SUA FÉ COM BOLO E BALÃO!",
-      "O ANÚNCIO DISSE 'CONFIA' E VOCÊ CONFIOU! EU DIGO 'LÊ O ENUNCIADO' E NINGUÉM ME OUVE! INJUSTIÇA!"
+      "Você engoliu o anúncio inteiro! Eu já fui fisgado por isca e olha o meu trauma de pescaria!",
+      "O slogan piscou, a música subiu e você comprou a resposta errada em doze vezes sem juros!",
+      "ACREDITOU NO SLOGAN! O PENSAMENTO CRÍTICO FEZ COMUNICADO!",
+      "Propaganda não é verdade absoluta! O marketing tá comemorando sua fé com bolo e balão!",
+      "O anúncio disse 'confia' e você confiou! Eu digo 'lê o enunciado' e ninguém me ouve! Injustiça!"
     ],
     "reserva": "Mídia e mercado têm interesses. Analise o discurso antes de aceitá-lo."
   },
@@ -266,11 +266,11 @@
       "Que regra rígida. Ela prefere ver metade da turma sentada a mudar uma vírgula."
     ],
     "sem": [
-      "TODO MUNDO CABE NA QUADRA! A RESPOSTA ESQUECEU PARTE DO TIME E EU TÔ BATENDO NO VIDRO DE INDIGNAÇÃO!",
-      "VOCÊ DEIXOU GENTE DE FORA! O jogo ficou pela metade!",
-      "A INCLUSÃO NÃO É OPCIONAL! ATÉ EU, QUE SOU UM PEIXE, JOGO BOLA COM A PEDRINHA! ELA É GOLEIRA!",
-      "VOCÊ FECHOU O PORTÃO DA QUADRA! TEM GENTE LÁ FORA COM VONTADE DE JOGAR E O APITO TÁ TRISTE!",
-      "EU INVESTI EM VOCÊ E VOCÊ MONTA UM TIME QUE DEIXA METADE DA TURMA NO BANCO! QUE TÉCNICO É ESSE?!"
+      "Todo mundo cabe na quadra! A resposta esqueceu parte do time e eu tô batendo no vidro de indignação!",
+      "DEIXOU GENTE DE FORA! O JOGO FICOU PELA METADE!",
+      "A inclusão não é opcional! Até eu, que sou um peixe, jogo bola com a pedrinha! Ela é goleira!",
+      "Você fechou o portão da quadra! Tem gente lá fora com vontade de jogar e o apito tá triste!",
+      "Eu investi em você e você monta um time que deixa metade da turma no banco! Que técnico é esse?!"
     ],
     "reserva": "Toda pessoa tem direito de participar. Veja como a prática pode acolher todos."
   },
@@ -291,11 +291,11 @@
       "Origem trocada com muita segurança. O GPS esportivo tá recalculando a rota até agora."
     ],
     "sem": [
-      "VOCÊ DEU OUTRO PASSAPORTE PRA MODALIDADE! ELA TÁ NA ALFÂNDEGA TENTANDO SE EXPLICAR!",
-      "ORIGEM ERRADA! O GLOBO DA SALA GIROU TRÊS VEZES SOZINHO PROCURANDO ESSE LUGAR!",
-      "O JUDÔ TÁ DE QUIMONO NO AEROPORTO ERRADO, PERGUNTANDO PRA TODO MUNDO ONDE FICA A CASA DELE!",
-      "EU NUNCA SAÍ DO AQUÁRIO E SEI MAIS GEOGRAFIA ESPORTIVA QUE ESSA RESPOSTA! E EU NEM TENHO MAPA!",
-      "VOCÊ MANDOU A MODALIDADE PRO OUTRO LADO DO MUNDO! ELA CHEGOU LÁ E NINGUÉM SABIA AS REGRAS!"
+      "Você deu outro passaporte pra modalidade! Ela tá na alfândega tentando se explicar!",
+      "O GLOBO GIROU TRÊS VEZES PROCURANDO ESSE LUGAR!",
+      "O judô tá de quimono no aeroporto errado, perguntando pra todo mundo onde fica a casa dele!",
+      "Eu nunca saí do aquário e sei mais geografia esportiva que essa resposta! E eu nem tenho mapa!",
+      "Você mandou a modalidade pro outro lado do mundo! Ela chegou lá e ninguém sabia as regras!"
     ],
     "reserva": "Cada prática tem uma história de origem. Confira de qual povo ou lugar ela veio."
   },
@@ -316,11 +316,11 @@
       "Você deu a medalha de equilíbrio pra prova de força. O pódio ficou meio torto."
     ],
     "sem": [
-      "CAPACIDADE ERRADA! O termo certo estava ali, de nadadeira dada!",
-      "VOCÊ TROCOU UM TERMO POR OUTRO! O CRONÔMETRO E A TRENA ESTÃO SE OLHANDO SEM SABER QUEM MEDE O QUÊ!",
-      "RESISTÊNCIA E VELOCIDADE TROCARAM DE CRACHÁ E A TABELA DO PROFESSOR ENTROU EM PARAFUSO!",
-      "FORÇA NÃO É RESISTÊNCIA! O FILTRO DO AQUÁRIO TRABALHA A NOITE TODA E NUNCA SE ACHOU FORTE, SÓ TEIMOSO!",
-      "PLOT TWIST: EQUILÍBRIO NÃO É COORDENAÇÃO! A GANGORRA E O MALABARISTA EXIGEM RESPEITO!"
+      "CAPACIDADE ERRADA! O TERMO CERTO ESTAVA ALI!",
+      "Você trocou um termo por outro! O cronômetro e a trena estão se olhando sem saber quem mede o quê!",
+      "Resistência e velocidade trocaram de crachá e a tabela do professor entrou em parafuso!",
+      "Força não é resistência! O filtro do aquário trabalha a noite toda e nunca se achou forte, só teimoso!",
+      "Plot twist: equilíbrio não é coordenação! A gangorra e o malabarista exigem respeito!"
     ],
     "reserva": "Força, resistência, flexibilidade, velocidade e equilíbrio são capacidades diferentes."
   }

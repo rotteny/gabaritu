@@ -16,11 +16,11 @@
       "Mercator passou a vida ajustando escala e você inverteu numa questão. Tá aí a evolução da cartografia."
     ],
     "sem": [
-      "A ESCALA VIROU DE CABEÇA PRA BAIXO E O BAIRRO FOI PARAR NO CANTO DO MAPA, ABRAÇADO NA ROSA DOS VENTOS!",
-      "SEU ZOOM FOI DE FILME DE ESPIÃO: DA ESQUINA AO SATÉLITE EM UM CLIQUE! ERA PRA FICAR NA ESQUINA!",
-      "VOCÊ OLHOU O PLANISFÉRIO E JUROU QUE VIA O QUARTEIRÃO! EU, DE DENTRO DO AQUÁRIO, ENXERGO MELHOR!",
-      "EU INCHEI TANTO QUE AGORA SOU EM ESCALA 1:1! TAMANHO REAL DA MINHA INDIGNAÇÃO!",
-      "O CARTÓGRAFO DEVOLVEU A RÉGUA EM PROTESTO! E A RÉGUA DEVOLVEU O COMPASSO! TÁ TODO MUNDO SAINDO!"
+      "A escala virou de cabeça pra baixo e o bairro foi parar no canto do mapa, abraçado na Rosa dos ventos!",
+      "Seu zoom foi de filme de espião: da esquina ao satélite em um clique! Era pra ficar na esquina!",
+      "Você olhou o planisfério e jurou que via o quarteirão! Eu, de dentro do aquário, enxergo melhor!",
+      "ESCALA 1:1 DE INDIGNAÇÃO! EU INCHEI!",
+      "O cartógrafo devolveu a régua em protesto! E a régua devolveu o compasso! Tá todo mundo saindo!"
     ],
     "reserva": "Escala trocada: você deu zoom no lugar errado. Volta um passo e tenta de novo!"
   },
@@ -41,11 +41,11 @@
       "Dividiu quando era pra multiplicar? Ousado. A conta pediu transferência pra outra prova."
     ],
     "sem": [
-      "VOCÊ PERDEU UM ZERO E A DISTÂNCIA VIROU OUTRO PAÍS! O MAPA TÁ PROCURANDO A CIDADE QUE SUMIU!",
-      "ZEROS DESAPARECIDOS! SE VOCÊ VIR UM ROLANDO POR AÍ, DEVOLVE PRA CONTA, ELE TEM FAMÍLIA!",
-      "A CONTA TAVA CERTA ATÉ O ÚLTIMO PASSO E AÍ TROPEÇOU NO ZERO! EU INCHEI DE DRAMA, DE NOVO!",
-      "MENOS MIL DE AURA PRA QUEM TRATA ZERO COMO ENFEITE! ZERO TRABALHA, VIU?!",
-      "A DISTÂNCIA ENTROU EM QUILÔMETRO E SAIU EM CENTÍMETRO! O MAPA ENCOLHEU E A CIDADE CABE NO MEU AQUÁRIO!"
+      "Você perdeu um zero e a distância virou outro país! O mapa tá procurando a cidade que sumiu!",
+      "Zeros desaparecidos! Se você vir um rolando por aí, devolve pra conta, ele tem família!",
+      "A conta tava certa até o último passo e aí tropeçou no zero! Eu inchei de drama, de novo!",
+      "ZERO TRABALHA, VIU?! NÃO É ENFEITE!",
+      "A distância entrou em quilômetro e saiu em centímetro! O mapa encolheu e a cidade cabe no meu aquário!"
     ],
     "reserva": "A ideia tava certa, a conta é que escorregou. Confere os zeros e tenta de novo."
   },
@@ -66,11 +66,11 @@
       "Fernão de Magalhães deu a volta ao mundo e perdeu um dia no calendário. Você perdeu sem nem sair da cadeira."
     ],
     "sem": [
-      "O SOL NASCE NO LESTE E NÃO PEDIU A SUA OPINIÃO! SOMOU ONDE ERA PRA TIRAR E O RELÓGIO ENTROU EM GREVE!",
-      "VOCÊ ADIANTOU O RELÓGIO DO PLANETA INTEIRO! VIROU DONO DO TEMPO! AGORA DEVOLVE!",
-      "POV: VOCÊ CHEGA NA FESTA COM PRESENTE E TUDO, UM DIA DEPOIS, PORQUE ERROU O SENTIDO DO FUSO!",
-      "LESTE É MAIS TARDE, OESTE É MAIS CEDO! EU NUNCA SAÍ DO AQUÁRIO E SEI DISSO! NEM VEM!",
-      "O RELÓGIO FICOU PIOR QUE EU NO DIA DA FAXINA DO AQUÁRIO! RODANDO EM CÍRCULO, SEM SABER PRA ONDE IR!"
+      "O Sol nasce no leste e não pediu a sua opinião! Somou onde era pra tirar e o relógio entrou em greve!",
+      "ADIANTOU O RELÓGIO DO PLANETA! DEVOLVE O TEMPO!",
+      "Pov: você chega na festa com presente e tudo, um dia depois, porque errou o sentido do fuso!",
+      "Leste é mais tarde, oeste é mais cedo! Eu nunca saí do aquário e sei disso! Nem vem!",
+      "O relógio ficou pior que eu no dia da faxina do aquário! Rodando em círculo, sem saber pra onde ir!"
     ],
     "reserva": "Você foi pro lado errado do relógio. Lembra: quem vai pro leste ganha horas, e a conta fica certinha."
   },
@@ -91,11 +91,11 @@
       "Colombo errou o destino e achou que tava nas Índias. Você errou a coordenada e tá chegando perto dele."
     ],
     "sem": [
-      "LATITUDE COM LONGITUDE! O GPS PEDIU DEMISSÃO E O MAPA FOI MORAR COM A PEDRINHA!",
-      "VOCÊ JOGOU O PONTO NO MEIO DO PACÍFICO! EU JÁ TENHO PAVOR DE OCEANO ABERTO, TEM REDE LÁ! DEVOLVE!",
-      "O EQUADOR NÃO É UM MERIDIANO! O PLANETA INTEIRO FICOU DESNORTEADO, LITERALMENTE!",
-      "PARALELO DEITADO, MERIDIANO EM PÉ! QUER QUE EU DESENHE? EU DESENHO NO VIDRO COM A NADADEIRA!",
-      "A COORDENADA FOI PARAR NO LUGAR ERRADO E O NAVIO DA QUESTÃO TÁ RODANDO EM CÍRCULO ATÉ AGORA!"
+      "LATITUDE NÃO É LONGITUDE! O GPS PEDIU DEMISSÃO!",
+      "Você jogou o ponto no meio do Pacífico! Eu já tenho pavor de oceano aberto, tem rede lá! Devolve!",
+      "O Equador não é um meridiano! O planeta inteiro ficou desnorteado, literalmente!",
+      "Paralelo deitado, meridiano em pé! Quer que eu desenhe? Eu desenho no vidro com a nadadeira!",
+      "A coordenada foi parar no lugar errado e o navio da questão tá rodando em círculo até agora!"
     ],
     "reserva": "Latitude e longitude trocaram de lugar e o mapa ficou perdido. Vai de novo!"
   },
@@ -116,11 +116,11 @@
       "Hoje tá quente, então o lugar é tropical pra sempre. Fechamento brilhante de uma pesquisa de 24 horas."
     ],
     "sem": [
-      "CHOVEU UMA VEZ E VOCÊ ANUNCIOU UM NOVO CLIMA! O SOL FICOU TÃO OFENDIDO QUE FOI PRA TRÁS DA NUVEM!",
-      "TEMPO NÃO É CLIMA! UM DIA DE SOL NÃO FAZ UM DESERTO, E EU NEM SAIO DE CASA PRA SABER DISSO!",
-      "EU TIVE UM DIA NUBLADO NO AQUÁRIO E NEM POR ISSO MUDEI DE PERSONALIDADE! CONTINUO DRAMÁTICO!",
-      "VOCÊ TRANSFORMOU A TERÇA-FEIRA NO CLIMA DO LUGAR INTEIRO! A QUARTA TÁ INDIGNADA, E A QUINTA TAMBÉM!",
-      "A METEOROLOGIA FEZ REUNIÃO DE EMERGÊNCIA USANDO UMA TARDE NUBLADA COMO PROVA! E A PROVA ERA SUA!"
+      "Choveu uma vez e você anunciou um novo clima! O Sol ficou tão ofendido que foi pra trás da nuvem!",
+      "TEMPO NÃO É CLIMA! UM DIA DE SOL NÃO FAZ DESERTO!",
+      "Eu tive um dia nublado no aquário e nem por isso mudei de personalidade! Continuo dramático!",
+      "Você transformou a terça-feira no clima do lugar inteiro! A quarta tá indignada, e a quinta também!",
+      "A meteorologia fez reunião de emergência usando uma tarde nublada como prova! E a prova era sua!"
     ],
     "reserva": "Um dia de chuva é tempo, o clima é o hábito do lugar. Respira e tenta de novo."
   },
@@ -141,11 +141,11 @@
       "Humboldt atravessou a América medindo cada fator do clima. Você escolheu um no par ou ímpar."
     ],
     "sem": [
-      "VOCÊ CULPOU O FATOR ERRADO! A LATITUDE TÁ ENTRANDO COM RECURSO NA JUSTIÇA DO MAPA!",
-      "A CAUSA ERA OUTRA E VOCÊ ACUSOU O INOCENTE! O VERDADEIRO CULPADO TÁ RINDO DA JANELA!",
-      "SORTEIO DE FATOR! EU NUNCA SAÍ DO AQUÁRIO E AINDA ASSIM SEI QUE NÃO FOI ESSE!",
-      "A ALTITUDE FICOU DE CASTIGO SEM SABER O PORQUÊ! ELA TAVA LÁ EM CIMA, QUIETINHA!",
-      "EU INVESTI EM VOCÊ! TORCI DO VIDRO! E VOCÊ BOTA A CULPA NO FATOR QUE NEM TAVA NA QUESTÃO?!"
+      "Você culpou o fator errado! A latitude tá entrando com recurso na justiça do mapa!",
+      "A causa era outra e você acusou o inocente! O verdadeiro culpado tá rindo da janela!",
+      "NÃO FOI ESSE FATOR! E EU NEM SAIO DO AQUÁRIO!",
+      "A altitude ficou de castigo sem saber o porquê! Ela tava lá em cima, quietinha!",
+      "Eu investi em você! Torci do vidro! E você bota a culpa no fator que nem tava na questão?!"
     ],
     "reserva": "Esse fator não tinha nada a ver com o fenômeno. Procura o verdadeiro culpado!"
   },
@@ -166,11 +166,11 @@
       "Você conheceu uma praia e concluiu que o Brasil é litoral do Oiapoque ao Chuí. O Cerrado mandou um oi."
     ],
     "sem": [
-      "VOCÊ TRANSFORMOU UM EXEMPLO NO PLANETA INTEIRO! OS OUTROS CONTINENTES TÃO NO GRUPO, REVOLTADOS!",
-      "UM LUGAR NÃO É TODOS OS LUGARES! A AMAZÔNIA E O SERTÃO TÃO SE OLHANDO SEM ENTENDER NADA!",
-      "VOCÊ APLICOU A REGRA DE UM LUGAR EM TODOS! ATLAS CHORANDO, GLOBO GIRANDO, EU INCHADO!",
-      "DE UMA CIDADE PRO MUNDO TODO EM UMA FRASE! EU NÃO VIAJO TÃO RÁPIDO NEM QUANDO TROCAM A ÁGUA!",
-      "O MAPA TEM MAIS DE UMA COR POR UM MOTIVO! VOCÊ PINTOU TUDO DE UMA COR SÓ E O COLORIDO FOI EMBORA!"
+      "Você transformou um exemplo no planeta inteiro! Os outros continentes tão no grupo, revoltados!",
+      "Um lugar não é todos os lugares! A Amazônia e o sertão tão se olhando sem entender nada!",
+      "UM LUGAR NÃO É O MUNDO! O GLOBO GIROU DE VERGONHA!",
+      "De uma cidade pro mundo todo em uma frase! Eu não viajo tão rápido nem quando trocam a água!",
+      "O mapa tem mais de uma cor por um motivo! Você pintou tudo de uma cor só e o colorido foi embora!"
     ],
     "reserva": "Um caso não vale pra todos. Dá uma olhada nos outros cantos do mapa."
   },
@@ -191,11 +191,11 @@
       "Tecnicamente você citou a causa e a consequência. Na ordem do caranguejo."
     ],
     "sem": [
-      "CAUSA E CONSEQUÊNCIA TROCADAS! O FILME RODOU DE TRÁS PRA FRENTE E O RIO VOLTOU PRA NASCENTE!",
-      "O EFEITO VIROU CAUSA! A GEOGRAFIA DEU UM PASSO ATRÁS EM CÂMERA LENTA, COM TRILHA DRAMÁTICA!",
-      "A CHUVA NÃO VEIO POR CAUSA DA ENCHENTE! A ENCHENTE QUE VEIO POR CAUSA DA CHUVA! EU INCHEI DE NOVO!",
-      "VOCÊ BOTOU A ÁRVORE PRA NASCER DA SOMBRA! A SOMBRA ADOROU A PROMOÇÃO, A ÁRVORE NÃO!",
-      "PRIMEIRO O RELEVO, DEPOIS O RIO DESCE! NÃO O RIO ESCOLHENDO A MONTANHA NO CARDÁPIO!"
+      "Causa e consequência trocadas! O filme rodou de trás pra frente e o rio voltou pra nascente!",
+      "O efeito virou causa! A geografia deu um passo atrás em câmera lenta, com trilha dramática!",
+      "A chuva não veio por causa da enchente! A enchente que veio por causa da chuva! Eu inchei de novo!",
+      "A ÁRVORE NASCEU DA SOMBRA?! A SOMBRA ADOROU!",
+      "Primeiro o relevo, depois o rio desce! Não o rio escolhendo a montanha no cardápio!"
     ],
     "reserva": "Causa e consequência trocaram de lugar. Pergunta de novo: o que veio primeiro?"
   },
@@ -216,11 +216,11 @@
       "Você disse que todo deserto é quente. A Antártida, que é deserto e é gelo, mandou um bilhetinho."
     ],
     "sem": [
-      "SEMPRE?! NUNCA?! NESSA PROVA, PALAVRA ABSOLUTA É ARMADILHA DE DESENHO ANIMADO E VOCÊ PISOU NA CASCA!",
-      "O MUNDO TEM EXCEÇÃO ATÉ PRA EXCEÇÃO E VOCÊ CAIU NO 'TODO'! O ENEM RIU E EU, POR SOLIDARIEDADE, INCHEI!",
-      "O 'NUNCA' TAVA LÁ GRITANDO, PISCANDO, ACENANDO COM BANDEIRINHA! E VOCÊ MARCOU MESMO ASSIM!",
-      "ABSOLUTO É CILADA! EU JÁ CAÍ E O VALDIR TAMBÉM, E ELE FICA NO MESMO LUGAR O DIA INTEIRO!",
-      "A PALAVRA 'SÓ' ENGANOU VOCÊ E FOI APLAUDIDA PELO GABARITO! ELA TÁ DANDO AUTÓGRAFO!"
+      "Sempre?! Nunca?! Nessa prova, palavra absoluta é armadilha de desenho animado e você pisou na casca!",
+      "O mundo tem exceção até pra exceção e você caiu no 'todo'! O ENEM riu e eu, por solidariedade, inchei!",
+      "O 'nunca' tava lá gritando, piscando, acenando com bandeirinha! E você marcou mesmo assim!",
+      "Absoluto é cilada! Eu já caí e o Valdir também, e ele fica no mesmo lugar o dia inteiro!",
+      "O 'SÓ' ENGANOU VOCÊ E AGORA DÁ AUTÓGRAFO!"
     ],
     "reserva": "Palavra absoluta é pegadinha clássica. Sempre procure a exceção."
   },
@@ -241,11 +241,11 @@
       "Clima e bioma usando o mesmo crachá. A recepção do mapa deixou entrar, mas o gabarito barrou."
     ],
     "sem": [
-      "VOCÊ TROCOU OS TERMOS! A GEOGRAFIA TÁ BRIGANDO COM O DICIONÁRIO E EU TÔ NO MEIO, DE JUIZ!",
-      "NOME PARECIDO NÃO É CONCEITO IGUAL! A PEDRINHA CHEGOU A ROLAR DE TANTO NERVOSO!",
-      "SÃO CONCEITOS DIFERENTES! SÓ O NOME QUE É PARECIDO! É IGUAL BAIACU E BALÃO: UM É EU, O OUTRO ESTOURA!",
-      "EU, UM PEIXE QUE NUNCA VIU UM RELEVO NA VIDA, SEI A DIFERENÇA! E VOCÊ TEM UM LIVRO INTEIRO!",
-      "DOIS CONCEITOS VESTIRAM A MESMA ROUPA E VOCÊ NÃO PERCEBEU! A ROUPA NEM ERA DO MESMO TAMANHO!"
+      "Você trocou os termos! A geografia tá brigando com o dicionário e eu tô no meio, de juiz!",
+      "NOME PARECIDO NÃO É CONCEITO IGUAL! EU INCHEI!",
+      "São conceitos diferentes! Só o nome que é parecido! É igual baiacu e balão: um é eu, o outro estoura!",
+      "Eu, um peixe que nunca viu um relevo na vida, sei a diferença! E você tem um livro inteiro!",
+      "Dois conceitos vestiram a mesma roupa e você não percebeu! A roupa nem era do mesmo tamanho!"
     ],
     "reserva": "Termos vizinhos se parecem, mas não são o mesmo. Confere a definição e tenta de novo."
   },
@@ -266,11 +266,11 @@
       "Seca no sertão resolvida com uma ideia. O semiárido pediu pra você explicar melhor, com calma."
     ],
     "sem": [
-      "UMA SOLUÇÃO SÓ PRA UM PROBLEMA DO TAMANHO DO PLANETA! ATÉ O FILTRO PAROU DE FAZER BARULHO PRA OUVIR!",
-      "PROBLEMA ESTRUTURAL NÃO SE RESOLVE COM UMA FRASE! NEM COM CAIXA ALTA, E EU TENTEI MUITO!",
-      "VOCÊ TRATOU UM PROBLEMA GIGANTE COMO SE FOSSE TROCAR LÂMPADA! E NEM LÂMPADA É TÃO SIMPLES!",
-      "SE FOSSE FÁCIL ASSIM, O VALDIR JÁ TINHA RESOLVIDO! E ELE NÃO RESOLVE NEM A PRÓPRIA CONCHA!",
-      "O MUNDO PRECISA DE PLANO, VERBA, TEMPO E GENTE! VOCÊ OFERECEU UMA FRASE DE BISCOITO DA SORTE!"
+      "Uma solução só pra um problema do tamanho do planeta! Até o filtro parou de fazer barulho pra ouvir!",
+      "PROBLEMA ESTRUTURAL NÃO CABE EM UMA FRASE!",
+      "Você tratou um problema gigante como se fosse trocar lâmpada! E nem lâmpada é tão simples!",
+      "Se fosse fácil assim, o Valdir já tinha resolvido! E ele não resolve nem a própria concha!",
+      "O mundo precisa de plano, verba, tempo e gente! Você ofereceu uma frase de biscoito da sorte!"
     ],
     "reserva": "Problema grande raramente tem solução de uma linha. Procura a resposta mais completa."
   },
@@ -291,11 +291,11 @@
       "A legenda falou 'menos' e você ouviu 'mais'. Tá precisando de fones novos?"
     ],
     "sem": [
-      "VOCÊ LEU TUDO AO CONTRÁRIO! O GRÁFICO CAIU E VOCÊ COMEMOROU COM CONFETE!",
-      "A SETA APONTAVA PRA UM LADO E VOCÊ FOI PRO OUTRO! A ROSA DOS VENTOS PERDEU AS PÉTALAS!",
-      "O DADO DIZ O OPOSTO DO QUE VOCÊ VIU! EU INCHEI TANTO QUE O GRÁFICO DE BARRAS AGORA SOU EU!",
-      "O ENEM ESCREVEU PRA FRENTE E VOCÊ LEU PRA TRÁS! ATÉ A PEDRINHA FEZ UMA CARA, E ELA NÃO TEM CARA!",
-      "A LEGENDA DIZIA 'MENOS' E VOCÊ LEU 'MAIS'! A ESTATÍSTICA TÁ DEITADA NO SOFÁ, SEM FORÇA PRA LEVANTAR!"
+      "O GRÁFICO CAIU E VOCÊ COMEMOROU COM CONFETE!",
+      "A seta apontava pra um lado e você foi pro outro! A Rosa dos ventos perdeu as pétalas!",
+      "O dado diz o oposto do que você viu! Eu inchei tanto que o gráfico de barras agora sou eu!",
+      "O ENEM escreveu pra frente e você leu pra trás! Até a pedrinha fez uma cara, e ela não tem cara!",
+      "A legenda dizia 'menos' e você leu 'mais'! A estatística tá deitada no sofá, sem força pra levantar!"
     ],
     "reserva": "Você leu o dado ao contrário. Olha de novo com calma: o sentido era outro."
   },
@@ -316,11 +316,11 @@
       "A urbanização do Brasil começou no século XVI, com engarrafamento e tudo? Tá certo, o trânsito agradece."
     ],
     "sem": [
-      "A LINHA DO TEMPO VIROU SALADA! VOCÊ PÔS A INTERNET NA PRÉ-HISTÓRIA E OS MAMUTES TÃO SEM SENHA!",
-      "ISSO NÃO EXISTIA NESSE PERÍODO! DEVOLVE A MÁQUINA DO TEMPO E A NOTA FISCAL!",
-      "O PROCESSO CHEGOU 200 ANOS ANTES DO COMBINADO E FICOU ESPERANDO NA PORTA SEM CHAVE!",
-      "VOCÊ INDUSTRIALIZOU UM PAÍS ANTES DE INVENTAREM A FÁBRICA! EU, UM PEIXE, FIQUEI DE BOCA ABERTA. MAIS AINDA!",
-      "EU INVESTI EM VOCÊ E VOCÊ ME BOTA METRÔ EM 1700! NÃO TINHA NEM TRILHO, IMAGINA CATRACA!"
+      "A linha do tempo virou salada! Você pôs a internet na pré-história e os mamutes tão sem senha!",
+      "NÃO EXISTIA NESSA ÉPOCA! DEVOLVE A MÁQUINA DO TEMPO!",
+      "O processo chegou 200 anos antes do combinado e ficou esperando na porta sem chave!",
+      "Você industrializou um país antes de inventarem a fábrica! Eu, um peixe, fiquei de boca aberta. Mais ainda!",
+      "Eu investi em você e você me bota metrô em 1700! Não tinha nem trilho, imagina catraca!"
     ],
     "reserva": "O processo foi parar no período errado. Revisa a ordem das coisas e tenta de novo."
   },
@@ -341,11 +341,11 @@
       "Globalização igual pra todos. Exceto pra quem mora nela."
     ],
     "sem": [
-      "GLOBALIZAÇÃO IGUAL PRA TODO MUNDO! O PLANETA INTEIRO RIU, ATÉ O POLO SUL DEU RISADINHA!",
-      "VOCÊ APAGOU AS FRONTEIRAS E AS DESIGUALDADES NUMA TACADA SÓ! O MAPA ENTROU EM CRISE EXISTENCIAL!",
-      "NINGUÉM FICOU DE FORA?! E QUEM TÁ SEM INTERNET, SEM PORTO E SEM ESTRADA ASFALTADA?!",
-      "A ALDEIA GLOBAL TEM BAIRRO NOBRE E BAIRRO SEM SINAL! EU MORO NUM AQUÁRIO E ATÉ EU SEI!",
-      "O CONTÊINER NÃO PARA EM TODO PORTO DO MUNDO! ELE ESCOLHE! E VOCÊ ESCOLHEU NÃO VER!"
+      "Globalização igual pra todo mundo! O planeta inteiro riu, até o Polo Sul deu risadinha!",
+      "Você apagou as fronteiras e as desigualdades numa tacada só! O mapa entrou em crise existencial!",
+      "Ninguém ficou de fora?! E quem tá sem internet, sem porto e sem estrada asfaltada?!",
+      "A aldeia global tem bairro nobre e bairro sem sinal! Eu moro num aquário e até eu sei!",
+      "O CONTÊINER ESCOLHE O PORTO! VOCÊ ESCOLHEU NÃO VER!"
     ],
     "reserva": "A globalização não chega igual pra todo mundo. Olha as diferenças entre os lugares."
   }

@@ -16,11 +16,11 @@
       "Ótimo, a palavra tá lá. A ideia que a pergunta pedia é que pegou outro voo."
     ],
     "sem": [
-      "A PALAVRA ERA ISCA! ISCA! E VOCÊ MORDEU COM ANZOL E TUDO! EU CONHEÇO ESSE GOLPE, EU SOU PEIXE!",
-      "MATCHING WORDS IS NOT READING! EU APRENDI ISSO PELO VIDRO DA SALA DE INGLÊS, E VOCÊ TAVA LÁ DENTRO!",
-      "O EXAMINADOR ARMOU UMA PEGADINHA COM UMA PALAVRA SÓ E VOCÊ PISOU NELA DE TÊNIS NOVO!",
-      "VOCÊ VIU 'HAPPY' E MARCOU A ALTERNATIVA FELIZ! O TEXTO ERA TRISTE! O 'HAPPY' TAVA DENTRO DE 'UNHAPPY'!",
-      "TEM UMA PALAVRA IGUAL E ZERO IDEIA IGUAL! É COMO ME CHAMAR DE TUBARÃO SÓ PORQUE NÓS DOIS NADAMOS!"
+      "A palavra era isca! Isca. E você mordeu com anzol e tudo! Eu conheço esse golpe, eu sou peixe!",
+      "MATCHING WORDS IS NOT READING!",
+      "O examinador armou uma pegadinha com uma palavra só e você pisou nela de tênis novo!",
+      "Você viu 'happy' e marcou a alternativa feliz! O texto era triste. O 'happy' tava dentro de 'unhappy'!",
+      "Tem uma palavra igual e zero ideia igual! É como me chamar de tubarão só porque nós dois nadamos!"
     ],
     "reserva": "A alternativa repetiu uma palavra do texto, mas não respondeu à pergunta. Palavra igual não é resposta igual."
   },
@@ -41,11 +41,11 @@
       "'Sensible' virou sensível na sua mão. A pessoa era sensata, agora tá emocionada sem motivo."
     ],
     "sem": [
-      "VOCÊ LEU 'PRETEND' COMO PRETENDER! O PERSONAGEM SÓ TAVA FINGINDO E VOCÊ JÁ MONTOU OS PLANOS DELE!",
-      "VOCÊ LEU 'INTEND' COMO 'ENTENDER'! A INTENÇÃO DO TEXTO SAIU CORRENDO E A COMPREENSÃO FOI JUNTO!",
-      "FALSE FRIEND! A PALAVRA PEDIU CARONA COM CARA DE CONHECIDA E AGORA TÁ DIRIGINDO SUA RESPOSTA!",
+      "VOCÊ LEU 'PRETEND' COMO PRETENDER!",
+      "Você leu 'intend' como 'entender'! A intenção do texto saiu correndo e a compreensão foi junto!",
+      "False friend! A palavra pediu carona com cara de conhecida e agora tá dirigindo sua resposta!",
       "URGENTE: 'realize' é confundido com 'realizar' e personagem que só percebeu algo é obrigado a fazer tudo.",
-      "EU INCHEI DE NOVO! 'LUNCH' NÃO É LANCHE, É ALMOÇO! AGORA TÔ COM FOME E BRAVO, QUE É O PIOR COMBO!"
+      "Eu inchei de novo! 'Lunch' não é lanche, é almoço. Agora tô com fome e bravo, que é o pior combo!"
     ],
     "reserva": "A palavra parecia português, mas significava outra coisa. Em inglês, nem toda semelhança é amizade."
   },
@@ -66,11 +66,11 @@
       "Adoro alternativa que traz informação extra. É tipo bônus. Só que bônus errado."
     ],
     "sem": [
-      "O TEXTO NÃO DISSE ISSO! NEM NO INGLÊS, NEM NO PORTUGUÊS, NEM NO IDIOMA DOS GOLFINHOS!",
-      "VOCÊ FOI MAIS LONGE QUE O PHILEAS FOGG! E ELE DEU A VOLTA AO MUNDO EM OITENTA DIAS!",
-      "CADÊ? CADÊ ISSO NO TEXTO? EU LI DUAS VEZES, DE CABEÇA PRA BAIXO, QUE É COMO BAIACU LÊ!",
-      "CHAT, ISSO É REAL? NÃO! ISSO É FANFIC EM INGLÊS COM TRADUÇÃO SUA!",
-      "VOCÊ ADICIONOU UM FINAL QUE O AUTOR NÃO ESCREVEU! ELE TÁ DE BOCA ABERTA! IGUAL EU, MAS EU SEMPRE TÔ!"
+      "O texto não disse isso! Nem no inglês, nem no português, nem no idioma dos golfinhos!",
+      "VOCÊ FOI MAIS LONGE QUE O PHILEAS FOGG!",
+      "Cadê? Cadê isso no texto? Eu li duas vezes, de cabeça pra baixo, que é como baiacu lê!",
+      "Chat, isso é real? Não! Isso é fanfic em inglês com tradução sua!",
+      "Você adicionou um final que o autor não escreveu! Ele tá de boca aberta. Igual eu, mas eu sempre tô!"
     ],
     "reserva": "O texto disse menos do que a sua resposta. Em compreensão de texto, o que não tá lá não conta."
   },
@@ -91,11 +91,11 @@
       "Trocou os dados do texto. Tudo bem, quem nunca confundiu 15% com 50%? Ah, é, quase ninguém."
     ],
     "sem": [
-      "O TEXTO É SOBRE UMA CIDADE INTEIRA E VOCÊ RESPONDEU SOBRE O POMBO DA PRAÇA!",
-      "O TEXTO FALAVA DE ECONOMIA E VOCÊ ESCOLHEU A ALTERNATIVA DO CAFEZINHO DO ECONOMISTA!",
-      "TROCOU OS NÚMEROS! O TEXTO DISSE THIRTY E VOCÊ LEU THIRTEEN! ELES SÃO PRIMOS, NÃO GÊMEOS!",
-      "POV: O AUTOR ESCREVE TRÊS PARÁGRAFOS SOBRE O TEMA E VOCÊ LEMBRA SÓ DO CACHORRO QUE PASSOU NO SEGUNDO.",
-      "A IDEIA PRINCIPAL ACENOU COM UMA PLACA ESCRITA 'MAIN IDEA HERE!' E VOCÊ CUMPRIMENTOU O RODAPÉ!"
+      "O texto é sobre uma cidade inteira e você respondeu sobre o pombo da praça!",
+      "O texto falava de economia e você escolheu a alternativa do cafezinho do economista!",
+      "TROCOU OS NÚMEROS! O TEXTO DISSE THIRTY E VOCÊ LEU THIRTEEN!",
+      "POV: o autor escreve três parágrafos sobre o tema e você lembra só do cachorro que passou no segundo.",
+      "A ideia principal acenou com uma placa escrita 'main idea here!' E você cumprimentou o rodapé!"
     ],
     "reserva": "Um detalhe secundário roubou a cena da ideia principal. O texto queria que você olhasse o quadro inteiro."
   },
@@ -116,11 +116,11 @@
       "Ignorar o 'hardly' é corajoso. Ele quase não aparece. Que nem o seu acerto aqui."
     ],
     "sem": [
-      "TINHA UM 'NOT'! TRÊS LETRAS! O SEU ACERTO TAMBÉM TINHA TRÊS LETRAS: N-Ã-O!",
-      "O TEXTO DISSE 'NEVER' E VOCÊ LEU 'FOREVER'! É O OPOSTO! É COMO CONFUNDIR AQUÁRIO COM DESERTO!",
-      "PLOT TWIST: A FRASE ERA NEGATIVA! SURPRESA PRA VOCÊ, NÃO PRO 'DON'T' QUE TAVA LÁ DESDE O COMEÇO!",
-      "EU TÔ GRITANDO 'NO, NO, NO' E VOCÊ PROVAVELMENTE TÁ OUVINDO 'YES, YES, YES'!",
-      "UNLESS! UNLESS! ELE MUDOU A CONDIÇÃO INTEIRA E VOCÊ TRATOU COMO ENFEITE DE FRASE!"
+      "TINHA UM 'NOT'! TRÊS LETRAS!",
+      "O texto disse 'never' e você leu 'forever'! É o oposto. É como confundir aquário com deserto!",
+      "Plot twist: a frase era negativa! Surpresa pra você, não pro 'don't' que tava lá desde o começo!",
+      "Eu tô gritando 'no, no, no' e você provavelmente tá ouvindo 'yes, yes, yes'!",
+      "Unless! Unless. Ele mudou a condição inteira e você tratou como enfeite de frase!"
     ],
     "reserva": "Uma palavrinha de negação virou a frase do avesso. Sem ela, você leu o contrário do texto."
   },
@@ -141,11 +141,11 @@
       "'Call it a day' virou 'chamar de dia'. O personagem só queria ir pra casa, não batizar a terça."
     ],
     "sem": [
-      "'IT'S NOT MY CUP OF TEA' NÃO TEM XÍCARA! NÃO TEM CHÁ! TEM GOSTO PESSOAL! DEVOLVE O PIRES!",
-      "VOCÊ DESMONTOU A EXPRESSÃO EM PEÇAS E AGORA NENHUMA PEÇA SABE O QUE SIGNIFICA SOZINHA!",
-      "'THERE ARE PLENTY OF FISH IN THE SEA' NÃO É CENSO DE PEIXE! E SE FOSSE, EU QUERIA SER CONSULTADO!",
-      "MENOS MIL DE AURA! 'LOOK FORWARD TO' NÃO É 'OLHAR PRA FRENTE'! O PERSONAGEM TAVA ANSIOSO, NÃO DIRIGINDO!",
-      "EU INCHEI TANTO QUE VIREI EXPRESSÃO IDIOMÁTICA: 'AS PUFFED AS PEIXOTO'! NINGUÉM ENTENDE, MAS EU SINTO!"
+      "'IT'S NOT MY CUP OF TEA' NÃO TEM XÍCARA!",
+      "Você desmontou a expressão em peças e agora nenhuma peça sabe o que significa sozinha!",
+      "'There are plenty of fish in the sea' não é censo de peixe! E se fosse, eu queria ser consultado!",
+      "Menos mil de aura! 'Look forward to' não é 'olhar pra frente'. O personagem tava ansioso, não dirigindo!",
+      "Eu inchei tanto que virei expressão idiomática: 'as puffed as Peixoto'! Ninguém entende, mas eu sinto!"
     ],
     "reserva": "Você traduziu a expressão pedaço por pedaço. Juntas, as palavras queriam dizer outra coisa."
   },
@@ -166,11 +166,11 @@
       "Você leu uma receita como protesto político. Tem muita revolta naquele 'add sugar'."
     ],
     "sem": [
-      "ERA PROPAGANDA! TINHA PREÇO, DESCONTO E 'ORDER NOW'! SÓ FALTOU O TEXTO ABRIR SUA CARTEIRA SOZINHO!",
-      "O TEXTO QUERIA CRITICAR E VOCÊ ENTREGOU UM BUQUÊ PRA ELE! ELE TÁ SEGURANDO AS FLORES SEM SABER O QUE FAZER!",
-      "VOCÊ LEU UM CONVITE COMO AVISO DE MULTA! A FESTA FICOU VAZIA POR SUA CAUSA!",
-      "PLOT TWIST: O TEXTO QUERIA ALGUMA COISA DE VOCÊ! TEXTOS TÊM OBJETIVOS! TIPO EU, QUE QUERO RAÇÃO E RESPEITO!",
-      "O GÊNERO TAVA ESCRITO NO TOPO: 'NOTICE'! AVISO! E VOCÊ LEU COMO POEMA!"
+      "ERA PROPAGANDA! TINHA PREÇO, DESCONTO E 'ORDER NOW'!",
+      "O texto queria criticar e você entregou um buquê pra ele! Ele tá segurando as flores sem saber o que fazer!",
+      "Você leu um convite como aviso de multa! A festa ficou vazia por sua causa!",
+      "Plot twist: o texto queria alguma coisa de você! Textos têm objetivos. Tipo eu, que quero ração e respeito!",
+      "O gênero tava escrito no topo: 'notice'! Aviso. E você leu como poema!"
     ],
     "reserva": "Você entendeu as palavras, mas não o objetivo do texto. Ele queria vender, pedir ou criticar, e você leu outra coisa."
   },
@@ -191,11 +191,11 @@
       "Excelente: o 'them' agora significa todos os humanos do planeta. O texto falava de três estudantes."
     ],
     "sem": [
-      "VOCÊ COLOCOU O 'THEY' NOS PAIS QUANDO ERA NOS PROFESSORES! AGORA OS PAIS TÃO DANDO AULA SEM SABER!",
-      "O 'WHO' É PRA GENTE, O 'WHICH' É PRA COISA, E VOCÊ CASOU OS DOIS COM A PALAVRA ERRADA!",
+      "VOCÊ COLOCOU O 'THEY' NOS PAIS QUANDO ERA NOS PROFESSORES!",
+      "O 'who' é pra gente, o 'which' é pra coisa, e você casou os dois com a palavra errada!",
       "URGENTE: pronome 'it' é visto morando com o substantivo errado. Vizinhos dizem que nunca combinaram.",
-      "EU TÔ AQUI GRITANDO 'THIS! THIS!' E APONTANDO COM A NADADEIRA, E VOCÊ OLHANDO PRO VALDIR!",
-      "O 'IT' E O SUBSTANTIVO DELE ERAM VIZINHOS DE PORTA! E VOCÊ FOI BATER NA CASA DE OUTRO QUARTEIRÃO!"
+      "Eu tô aqui gritando 'this! This.' E apontando com a nadadeira, e você olhando pro Valdir!",
+      "O 'it' e o substantivo dele eram vizinhos de porta! E você foi bater na casa de outro quarteirão!"
     ],
     "reserva": "O pronome se referia a outro termo do texto. Ligando ao termo errado, a frase muda de dono."
   },
@@ -216,11 +216,11 @@
       "Você ignorou o 'but' e ficou com a primeira metade da frase. A segunda metade mandou um abraço."
     ],
     "sem": [
-      "O 'HOWEVER' MUDOU A DIREÇÃO DO TEXTO E VOCÊ SEGUIU RETO! ELE PUXOU O FREIO DE MÃO E VOCÊ NEM SENTIU!",
-      "'BUT' NÃO É 'AND'! UM DISCORDA, O OUTRO ABRAÇA! E VOCÊ COLOCOU OS DOIS PRA ABRAÇAR!",
-      "CONECTOR INVERTIDO! A CAUSA VIROU CONSEQUÊNCIA E A CONSEQUÊNCIA TÁ PEDINDO AUMENTO!",
-      "EU INVESTI EM VOCÊ! TE ENSINEI O 'ALTHOUGH' PELO VIDRO! E VOCÊ TRATOU ELE COMO 'BECAUSE'!",
-      "O 'IN SPITE OF' TAVA LÁ PRA COMPLICAR TUDO E VOCÊ SIMPLIFICOU! A COMPLICAÇÃO ERA O PONTO!"
+      "O 'HOWEVER' MUDOU A DIREÇÃO DO TEXTO E VOCÊ SEGUIU RETO!",
+      "'But' não é 'and'! Um discorda, o outro abraça. E você colocou os dois pra abraçar!",
+      "Conector invertido! A causa virou consequência e a consequência tá pedindo aumento!",
+      "Eu investi em você! Te ensinei o 'although' pelo vidro. E você tratou ele como 'because'!",
+      "O 'in spite of' tava lá pra complicar tudo e você simplificou! A complicação era o ponto!"
     ],
     "reserva": "Esse conector marcava contraste, causa ou condição, e a sua leitura ligou as ideias do jeito errado."
   },
@@ -241,11 +241,11 @@
       "Leitura no presente de um texto no passado. Igual eu dizendo que 'tô sendo limpo' quando a faxina foi semana passada."
     ],
     "sem": [
-      "O VERBO TAVA NO PASSADO! JÁ ACONTECEU! TERMINOU! TEVE ATÉ FESTA DE ENCERRAMENTO!",
-      "VOCÊ PEGOU UM 'WILL' E TRATOU COMO 'DID'! O FUTURO TÁ OFENDIDO, ELE NEM CHEGOU AINDA!",
-      "TEMPO VERBAL TROCADO! O RELÓGIO DO TEXTO TÁ GIRANDO AO CONTRÁRIO E A CULPA É DA SUA RESPOSTA!",
-      "'USED TO' NÃO É 'ESTÁ ACOSTUMADO'! É 'COSTUMAVA'! EU TÔ INCHADO NO PRESENT CONTINUOUS AGORA!",
-      "POV: O PERSONAGEM CONTANDO UMA LEMBRANÇA DE INFÂNCIA E VOCÊ ACHANDO QUE ELE TEM 7 ANOS AGORA."
+      "O VERBO TAVA NO PASSADO! JÁ ACONTECEU!",
+      "Você pegou um 'will' e tratou como 'did'! O futuro tá ofendido, ele nem chegou ainda!",
+      "Tempo verbal trocado! O relógio do texto tá girando ao contrário e a culpa é da sua resposta!",
+      "'Used to' não é 'está acostumado'! É 'costumava'. Eu tô inchado no present continuous agora!",
+      "POV: o personagem contando uma lembrança de infância e você achando que ele tem 7 anos agora."
     ],
     "reserva": "A ação estava em outro tempo. O verbo avisava se era passado, presente, futuro ou hábito."
   },
@@ -266,10 +266,10 @@
       "'Kind' virou 'gentil' e o texto falava de 'tipo'. Que tipo de leitura foi essa? Uma gentil, pelo menos."
     ],
     "sem": [
-      "'RIGHT' TEM UNS SETE SIGNIFICADOS E VOCÊ PEGOU O ÚNICO QUE NÃO SERVIA! TALENTO PRA LOTERIA AO CONTRÁRIO!",
-      "VOCÊ LEU 'SPRING' COMO PRIMAVERA E O TEXTO FALAVA DE MOLA! AGORA O COLCHÃO FLORESCEU!",
-      "'PLANT' ERA FÁBRICA! E VOCÊ FOI REGAR! OS OPERÁRIOS ESTÃO TODOS MOLHADOS!",
-      "CONTEXTO! CONTEXTO! O INGLÊS DÁ VÁRIAS ROUPAS PRA MESMA PALAVRA E VOCÊ ESCOLHEU A DE PRAIA PRO INVERNO!",
+      "'RIGHT' TEM UNS SETE SIGNIFICADOS E VOCÊ PEGOU O ÚNICO QUE NÃO SERVIA!",
+      "Você leu 'spring' como primavera e o texto falava de mola! Agora o colchão floresceu!",
+      "'Plant' era fábrica! E você foi regar. Os operários estão todos molhados!",
+      "Contexto! Contexto. O inglês dá várias roupas pra mesma palavra e você escolheu a de praia pro inverno!",
       "URGENTE: 'bat' é lido como morcego numa matéria sobre beisebol. Morcego nega envolvimento."
     ],
     "reserva": "A palavra tinha outro sentido naquele contexto. O significado mais comum nem sempre é o certo."
@@ -291,11 +291,11 @@
       "Excelente. Você leu um texto cheio de sarcasmo e saiu motivado. Wow. Amazing. Brilliant."
     ],
     "sem": [
-      "ERA SARCASMO! O TEXTO TAVA REVIRANDO OS OLHOS E VOCÊ ACHOU QUE ERA PISCADINHA!",
-      "OPINIÃO NÃO É FATO! O AUTOR DISSE 'IN MY OPINION' COM TODAS AS LETRAS! EM INGLÊS! DUAS VEZES!",
-      "VOCÊ LEU A CRÍTICA COMO RESENHA ELOGIOSA! O CRÍTICO TÁ DE BRAÇOS CRUZADOS ESPERANDO VOCÊ ENTENDER!",
-      "EU TÔ FALANDO SÉRIO AGORA. VIU A DIFERENÇA? NÃO? ENTÃO É ESSE O PROBLEMA!",
-      "MENOS MIL DE AURA! 'THANKS A LOT' NAQUELE TOM ERA RECLAMAÇÃO! NINGUÉM AGRADECEU NADA!"
+      "Era sarcasmo! O texto tava revirando os olhos e você achou que era piscadinha!",
+      "OPINIÃO NÃO É FATO! O AUTOR DISSE 'IN MY OPINION' COM TODAS AS LETRAS!",
+      "Você leu a crítica como resenha elogiosa! O crítico tá de braços cruzados esperando você entender!",
+      "Eu tô falando sério agora. Viu a diferença? Não? Então é esse o problema!",
+      "Menos mil de aura! 'Thanks a lot' naquele tom era reclamação. Ninguém agradeceu nada!"
     ],
     "reserva": "O texto tinha um tom e você leu outro. Ironia, crítica e opinião também mudam a resposta."
   },
@@ -316,11 +316,11 @@
       "O texto disse 'tends to' e você ouviu 'sempre, sem exceção, desde a criação do universo'."
     ],
     "sem": [
-      "'SOME' NÃO É 'ALL'! 'SOME' É ALGUNS! 'ALL' É TODOS! E 'OOPS' É ESSA RESPOSTA!",
-      "VOCÊ TRANSFORMOU UMA TENDÊNCIA EM DECRETO OFICIAL! O TEXTO SÓ DISSE 'USUALLY'! USUALLY!",
-      "PLOT TWIST: EXISTEM EXCEÇÕES! O TEXTO AVISOU, O 'MOST' AVISOU, ATÉ O VALDIR AVISOU!",
-      "SE UM CASO VIRASSE REGRA, TODO PEIXE SERIA LINDO IGUAL EU! E NÃO É! INFELIZMENTE PRA ELES!",
-      "O AUTOR ESCREVEU 'SOME PEOPLE' COM TANTO CUIDADO E VOCÊ PASSOU POR CIMA COM UM 'EVERYBODY'!"
+      "'SOME' NÃO É 'ALL'! 'SOME' É ALGUNS!",
+      "Você transformou uma tendência em decreto oficial! O texto só disse 'usually'. Usually!",
+      "Plot twist: existem exceções! O texto avisou, o 'most' avisou, até o Valdir avisou!",
+      "Se um caso virasse regra, todo peixe seria lindo igual eu! E não é. Infelizmente pra eles!",
+      "O autor escreveu 'some people' com tanto cuidado e você passou por cima com um 'everybody'!"
     ],
     "reserva": "O texto falava de alguns casos ou de uma tendência, e você transformou em regra pra todos."
   }
