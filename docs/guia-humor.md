@@ -29,7 +29,7 @@ Este guia vale para quem escreve fala: gente ou agente. Sem guia, a fala vira ex
 ## Níveis
 - **Fofo:** a piada é de brincadeira e quem é zoado é o erro, nunca você. O desfecho é carinhoso. Funciona como a tia legal que zoa e depois dá um abraço.
 - **Sarcástico:** passivo-agressivo, com elogio falso e calma ensaiada. A graça está no que fica implícito.
-- **Sem filtro:** drama total, como o Peixoto num reality show. A CAIXA ALTA serve pra pontuar o drama e não substitui a piada. Pode ser bem mais ácido com o ERRO, mas a regra de ouro e a regra fixa continuam valendo.
+- **Sem filtro:** drama total, como o Peixoto num reality show. **Escreva em caixa normal:** frase inteira em CAIXA ALTA é grito e só vale no balão de grito (o app detecta e troca o balão): exatamente 1 grito curto (até ~70 caracteres) por etiqueta, só no nível sem filtro. Pra dar ênfase, no máximo uma ou duas palavras em maiúscula ("a base era OUTRA") e pontuação dramática. Figuras históricas podem ser citadas (pessoa morta ou personagem clássico de ficção); pessoa viva não. Pode ser bem mais ácido com o ERRO, mas a regra de ouro e a regra fixa continuam valendo.
 
 ## Memes e gírias (só em texto)
 - **Atemporais** (sem validade): plot twist, POV, NPC, red flag, "é sobre isso", "ninguém:", "o famoso", "aceita que dói menos", "manda a braba", "lore", "personagem principal".
