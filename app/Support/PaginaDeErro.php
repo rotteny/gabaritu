@@ -4,6 +4,7 @@ namespace App\Support;
 
 use App\Domain\Falas\Fala;
 use App\Domain\Falas\FalaService;
+use App\Http\Middleware\HandleInertiaRequests;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
 use Symfony\Component\HttpFoundation\Response;
@@ -26,6 +27,7 @@ class PaginaDeErro
         $fala = app(FalaService::class)->sortear($usuario, ['erro_http:'.$status], Fala::HUMOR_NEUTRO);
 
         return Inertia::render('Erro', ['status' => $status, 'fala' => $fala])
+            ->with(app(HandleInertiaRequests::class)->share($requisicao))
             ->toResponse($requisicao)
             ->setStatusCode($status);
     }

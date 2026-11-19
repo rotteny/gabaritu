@@ -37,6 +37,9 @@ Route::middleware('auth')->group(function () {
     Route::delete('conta', [ContaController::class, 'destroy'])->middleware('throttle:6,1')->name('conta.destroy');
 });
 
+// Fallback no grupo web: sem ele o 404 de URL inexistente nasce sem sessão e o aluno aparece deslogado.
+Route::fallback(fn () => abort(404));
+
 if (app()->isLocal()) {
     require __DIR__.'/previa.php';
 }
