@@ -403,3 +403,24 @@
         align-items: end;
     }
 }
+
+@media (max-width: 767px) {
+    .l-hero-grid {
+        gap: 22px;
+    }
+    .l-hero-fish {
+        order: -1;
+    }
+    .l-hero-fish .l-speech {
+        max-width: 320px;
+        margin-bottom: 16px;
+        padding: 8px 14px 10px;
+        font-size: 15px;
+    }
+    .l-hero-peixoto {
+        width: 112px;
+    }
+    .l-exam {
+        display: none;
+    }
+}
