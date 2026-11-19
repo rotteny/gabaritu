@@ -18,6 +18,9 @@ return Application::configure(basePath: dirname(__DIR__))
     ->withMiddleware(function (Middleware $middleware): void {
         $middleware->encryptCookies(except: ['appearance', 'sidebar_state']);
 
+        // Atrás do nginx de borda: só aceita X-Forwarded-* de quem estiver em TRUSTED_PROXIES (vazio = ninguém).
+        $middleware->trustProxies(at: env('TRUSTED_PROXIES') ?: null);
+
         $middleware->web(prepend: [
             ModoEmBreve::class,
         ], append: [
