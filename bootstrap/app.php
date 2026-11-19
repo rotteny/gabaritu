@@ -19,7 +19,9 @@ return Application::configure(basePath: dirname(__DIR__))
         $middleware->encryptCookies(except: ['appearance', 'sidebar_state']);
 
         // Atrás do nginx de borda: só aceita X-Forwarded-* de quem estiver em TRUSTED_PROXIES (vazio = ninguém).
-        $middleware->trustProxies(at: env('TRUSTED_PROXIES') ?: null);
+        // env() direto: a configuração de middleware é montada na construção do app, fora do config/.
+        $proxies = env('TRUSTED_PROXIES'); // @phpstan-ignore larastan.noEnvCallsOutsideOfConfig
+        $middleware->trustProxies(at: is_string($proxies) && $proxies !== '' ? $proxies : null);
 
         $middleware->web(prepend: [
             ModoEmBreve::class,
