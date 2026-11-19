@@ -51,7 +51,10 @@ class FalaService
         return array_values(array_unique([...$this->daSessao(), ...$banco]));
     }
 
-    /** @param  list<int>  $recentes */
+    /**
+     * @param  list<string>  $chaves
+     * @param  list<int>  $recentes
+     */
     private function primeiraNaoRecente(array $chaves, Nivel $nivel, int $idade, array $recentes): ?VariacaoFala
     {
         foreach ($chaves as $chave) {

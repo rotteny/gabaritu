@@ -28,7 +28,7 @@ class MateriaController extends Controller
         $desempenhos = DesempenhoAssunto::query()->where('user_id', $aluno->id)
             ->whereIn('assunto_id', $assuntos->modelKeys())->get()->keyBy('assunto_id');
         $melhores = Tentativa::query()->where('user_id', $aluno->id)->whereNotNull('finalizada_em')
-            ->whereIn('questionario_id', $assuntos->pluck('questionarios')->flatten()->modelKeys())
+            ->whereIn('questionario_id', $assuntos->pluck('questionarios')->flatten()->pluck('id')->all())
             ->selectRaw('questionario_id, max(acertos) as melhor')->groupBy('questionario_id')
             ->pluck('melhor', 'questionario_id');
 

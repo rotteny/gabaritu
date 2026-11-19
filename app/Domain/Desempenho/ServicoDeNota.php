@@ -47,7 +47,7 @@ class ServicoDeNota
     /** @return array{nota: int|null, amostra_baixa: bool, faltam: int} */
     public function resumo(?DesempenhoAssunto $desempenho): array
     {
-        $n = $desempenho?->n_primeiras ?? 0;
+        $n = $desempenho ? $desempenho->n_primeiras : 0;
         $nota = $desempenho ? $this->calculadora->exibida($desempenho->theta, $n) : null;
 
         return [

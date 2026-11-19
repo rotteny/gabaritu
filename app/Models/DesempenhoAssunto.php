@@ -6,8 +6,11 @@ use Illuminate\Database\Eloquent\Attributes\Table;
 use Illuminate\Database\Eloquent\Attributes\Unguarded;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Illuminate\Database\Eloquent\Relations\HasMany;
 
+/**
+ * @property float $theta
+ * @property int $n_primeiras
+ */
 #[Table(name: 'desempenhos_assunto', timestamps: false)]
 #[Unguarded]
 class DesempenhoAssunto extends Model

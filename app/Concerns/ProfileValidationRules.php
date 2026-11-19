@@ -35,7 +35,7 @@ trait ProfileValidationRules
         return ['required', 'string', 'email', 'max:255', Rule::unique(User::class)];
     }
 
-    /** @return array<int, ValidationRule|string> */
+    /** @return array<int, \Closure|ValidationRule|string> */
     protected function anoNascimentoRules(): array
     {
         $anoAtual = (int) now(config('gabaritu.fuso'))->format('Y');

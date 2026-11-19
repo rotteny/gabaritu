@@ -1,7 +1,5 @@
 <?php
 
-
-
 describe('fechado (padrão)', function () {
     beforeEach(fn () => config(['gabaritu.cadastro_aberto' => false]));
 

@@ -10,7 +10,6 @@ use App\Models\Etiqueta;
 use App\Models\Materia;
 use App\Models\Resposta;
 use App\Models\User;
-use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Collection;
 
 class PainelDeDesempenho
@@ -20,7 +19,7 @@ class PainelDeDesempenho
         private readonly Diagnostico $diagnostico,
     ) {}
 
-    /** @return list<array<string, mixed>> */
+    /** @return array<int, array<string, mixed>> */
     public function montar(User $aluno): array
     {
         $materiaIds = $this->materiasComRespostas($aluno);
@@ -49,7 +48,7 @@ class PainelDeDesempenho
             ])->values()->all();
     }
 
-    /** @return list<int> */
+    /** @return array<int, int> */
     private function materiasComRespostas(User $aluno): array
     {
         return Resposta::query()
@@ -62,7 +61,7 @@ class PainelDeDesempenho
             ->all();
     }
 
-    /** @return Collection<int, Collection<int, array{data: string, nota: int}>> */
+    /** @return Collection<int|string, Collection<int|string, array{data: int|string, nota: int}>> */
     private function evolucao(User $aluno): Collection
     {
         return DesempenhoAssuntoHistorico::query()
@@ -71,9 +70,9 @@ class PainelDeDesempenho
             ->get()
             ->groupBy('assunto_id')
             ->map(fn (Collection $snapshots) => $snapshots
-                ->groupBy(fn (DesempenhoAssuntoHistorico $s) => $s->calculado_em->setTimezone(config('gabaritu.fuso'))->toDateString())
+                ->groupBy(fn (DesempenhoAssuntoHistorico $s) => $s->calculado_em->copy()->setTimezone((string) config('gabaritu.fuso'))->toDateString())
                 ->map(fn (Collection $doDia) => $doDia->last())
-                ->map(fn (DesempenhoAssuntoHistorico $s, string $data) => [
+                ->map(fn ($s, $data) => [
                     'data' => $data,
                     'nota' => $this->nota->exibidaDeSnapshot($s->nota, $s->n_primeiras),
                 ])
@@ -95,9 +94,13 @@ class PainelDeDesempenho
             ->limit((int) config('gabaritu.diagnostico.janela'))
             ->get(['respostas.id as resposta_id', 'respostas.correta', 'alternativas.etiqueta_id']);
 
-        $erros = $janela->where('correta', false)
-            ->map(fn ($linha) => ['etiqueta_id' => $linha->etiqueta_id === null ? null : (int) $linha->etiqueta_id, 'ordem' => (int) $linha->resposta_id])
-            ->values()->all();
+        $erros = [];
+        foreach ($janela as $linha) {
+            $dados = $linha->getAttributes();
+            if (! $dados['correta']) {
+                $erros[] = ['etiqueta_id' => $dados['etiqueta_id'] === null ? null : (int) $dados['etiqueta_id'], 'ordem' => (int) $dados['resposta_id']];
+            }
+        }
 
         $itens = $this->diagnostico->calcular($erros);
         $etiquetas = Etiqueta::query()->whereIn('id', array_map(fn ($i) => $i->etiquetaId, $itens))->get()->keyBy('id');

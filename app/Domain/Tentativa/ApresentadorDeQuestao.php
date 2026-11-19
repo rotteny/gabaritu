@@ -28,7 +28,7 @@ class ApresentadorDeQuestao
         }
     }
 
-    /** @return array{id: int, contexto: string|null, enunciado: string, alternativas: list<array{id: int, letra: string, texto: string}>} */
+    /** @return array{id: int, contexto: string|null, enunciado: string, alternativas: array<int, array{id: int, letra: string, texto: string}>} */
     public function questao(Tentativa $tentativa, Questao $questao): array
     {
         $embaralhadas = $questao->alternativas
@@ -43,7 +43,7 @@ class ApresentadorDeQuestao
                 'id' => $alternativa->id,
                 'letra' => self::LETRAS[$posicao],
                 'texto' => $alternativa->texto,
-            ])->all(),
+            ])->values()->all(),
         ];
     }
 }

@@ -86,7 +86,7 @@ class ResponderQuestao
     private function gravarResposta(User $aluno, Tentativa $tentativa, TentativaQuestao $item, Questao $questao, Alternativa $escolhida): Resposta
     {
         $agora = now();
-        $tempoMs = max(0, (int) round($item->servida_em->diffInMilliseconds($agora, absolute: true)));
+        $tempoMs = max(0, (int) round($item->servida_em?->diffInMilliseconds($agora, absolute: true) ?? 0));
 
         return Resposta::create([
             'user_id' => $aluno->id,

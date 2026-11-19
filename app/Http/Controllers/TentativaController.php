@@ -62,7 +62,7 @@ class TentativaController extends Controller
             'tentativa' => [
                 'id' => $tentativa->id,
                 'tipo' => $tentativa->ehRevisao() ? Tentativa::TIPO_REVISAO : Tentativa::TIPO_QUESTIONARIO,
-                'titulo' => $tentativa->questionario?->titulo ?? self::TITULO_REVISAO,
+                'titulo' => $tentativa->questionario_id ? $tentativa->questionario->titulo : self::TITULO_REVISAO,
                 'materia' => ['slug' => $assunto->materia->slug, 'nome' => $assunto->materia->nome],
                 'assunto' => ['slug' => $assunto->slug, 'nome' => $assunto->nome],
                 'posicao' => $posicao,

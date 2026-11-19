@@ -7,8 +7,11 @@ use Illuminate\Database\Eloquent\Attributes\Table;
 use Illuminate\Database\Eloquent\Attributes\Unguarded;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Support\Carbon;
 
+/**
+ * @property Carbon|null $servida_em
+ */
 #[Table(name: 'tentativa_questoes', timestamps: false)]
 #[Unguarded]
 #[DateFormat('Y-m-d H:i:s.v')]

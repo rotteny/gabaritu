@@ -3,8 +3,8 @@
 namespace App\Domain\Revisao;
 
 use App\Models\Questao;
-use App\Models\RevisaoEspacada as Revisao;
 use App\Models\Resposta;
+use App\Models\RevisaoEspacada as Revisao;
 use App\Models\User;
 use Carbon\CarbonImmutable;
 use Illuminate\Database\Eloquent\Builder;

@@ -71,7 +71,9 @@ class MontadorDeResultado
             ->orderByDesc('vezes')->orderBy('etiquetas.id')
             ->first();
 
-        return $linha ? ['etiqueta' => $linha->codigo, 'nome' => $linha->nome, 'vezes' => (int) $linha->vezes] : null;
+        $dados = $linha?->getAttributes();
+
+        return $dados ? ['etiqueta' => (string) $dados['codigo'], 'nome' => (string) $dados['nome'], 'vezes' => (int) $dados['vezes']] : null;
     }
 
     /** @return array{antes: int|null, depois: int}|null */

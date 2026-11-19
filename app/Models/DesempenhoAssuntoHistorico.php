@@ -5,9 +5,13 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Attributes\Table;
 use Illuminate\Database\Eloquent\Attributes\Unguarded;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Support\Carbon;
 
+/**
+ * @property Carbon $calculado_em
+ * @property int $nota
+ * @property int $n_primeiras
+ */
 #[Table(name: 'desempenho_assunto_historico', timestamps: false)]
 #[Unguarded]
 class DesempenhoAssuntoHistorico extends Model

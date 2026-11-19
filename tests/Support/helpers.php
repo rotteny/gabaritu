@@ -11,6 +11,7 @@ use App\Models\Tentativa;
 use App\Models\User;
 use App\Models\VariacaoFala;
 use Illuminate\Support\Collection;
+use Illuminate\Testing\TestResponse;
 
 /**
  * @return array{materia: Materia, assunto: Assunto, questionario: Questionario, questoes: Collection<int, Questao>, etiqueta: Etiqueta}
@@ -79,7 +80,7 @@ function abrirQuestaoAtual(User $aluno, Tentativa $tentativa): array
 }
 
 /** Responde a questão atual; $certa escolhe a alternativa correta (ou uma errada) e $esperarMs simula o tempo de leitura. */
-function responderAtual(User $aluno, Tentativa $tentativa, bool $certa, int $esperarMs = 10_000): Illuminate\Testing\TestResponse
+function responderAtual(User $aluno, Tentativa $tentativa, bool $certa, int $esperarMs = 10_000): TestResponse
 {
     $questao = abrirQuestaoAtual($aluno, $tentativa);
     $banco = Questao::with('alternativas')->findOrFail($questao['id']);

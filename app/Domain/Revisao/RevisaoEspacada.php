@@ -22,7 +22,7 @@ final class RevisaoEspacada
             return $this->gravar($atual->caixa, $atual->acertosSeguidos, $hoje, self::CAIXA_INICIAL);
         }
 
-        $maxima = max(array_keys((array) config('gabaritu.revisao.caixas_dias')));
+        $maxima = max([1, ...array_keys((array) config('gabaritu.revisao.caixas_dias'))]);
 
         return $atual->caixa >= $maxima
             ? new DecisaoRevisao(AcaoRevisao::Remover)
