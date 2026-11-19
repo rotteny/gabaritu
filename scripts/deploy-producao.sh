@@ -3,6 +3,8 @@
 # Uso: scripts/deploy-producao.sh [ref]   (padrão: origin/main)
 # Fluxo: atualizar código -> build (tag = sha) -> pg_dump -> migrar e importar conteúdo com a imagem NOVA -> só então virar o `current`.
 # Se o build, a migration ou a importação falharem, o que está no ar continua intacto.
+# O script se re-executa depois do `git reset`: sem isso, o bash rodaria a versão ANTERIOR do próprio arquivo
+# (o `command=` do authorized_keys chama este arquivo do clone) e passos novos só valeriam no deploy seguinte.
 set -euo pipefail
 
 APP_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
@@ -49,9 +51,17 @@ prune_old_sha_images() {
     while read -r old; do docker image rm "${IMAGES[@]/%/:$old}" >/dev/null 2>&1 || true; done
 }
 
-main() {
+reexec_with_updated_code() {
+  [[ -z "${DEPLOY_REEXECUTADO:-}" ]] || return 0
   validate_ref
   update_code
+  export DEPLOY_REEXECUTADO=1
+  exec "$APP_DIR/scripts/deploy-producao.sh" "$REF"
+}
+
+main() {
+  reexec_with_updated_code
+  validate_ref
   [[ -f "$APP_DIR/.env" ]] || "$APP_DIR/scripts/producao-init-env.sh"
 
   local sha; sha="$(git -C "$APP_DIR" rev-parse --short=12 HEAD)"
