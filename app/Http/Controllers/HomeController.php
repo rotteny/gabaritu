@@ -9,12 +9,10 @@ class HomeController extends Controller
 {
     public function __invoke(): Response
     {
-        if (config('gabaritu.cadastro_aberto')) {
-            return Inertia::render('Welcome');
-        }
-
-        return Inertia::render('EmBreve', [
+        return Inertia::render('Landing', [
+            'cadastroAberto' => (bool) config('gabaritu.cadastro_aberto'),
             'emailContato' => config('gabaritu.email_contato'),
+            'repositorioUrl' => config('gabaritu.repositorio_url'),
         ]);
     }
 }

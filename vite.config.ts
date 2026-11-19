@@ -15,6 +15,12 @@ export default defineConfig({
                 bunny('Instrument Sans', {
                     weights: [400, 500, 600],
                 }),
+                bunny('Titan One', {
+                    weights: [400],
+                }),
+                bunny('Nunito', {
+                    weights: [600, 800, 900],
+                }),
             ],
         }),
         inertia(),
