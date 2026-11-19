@@ -40,7 +40,7 @@ export function montarSaida(c: BaseAudioContext, destino: AudioNode): Saida {
     bus.connect(destino);
     const eco = c.createGain();
     eco.gain.value = 0.3;
-    const atraso = c.createDelay(1);
+    const atraso = c.createDelay(2);
     atraso.delayTime.value = COLCHEIA * 3;
     const realimenta = c.createGain();
     realimenta.gain.value = 0.3;
