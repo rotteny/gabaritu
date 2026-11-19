@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Attributes\DateFormat;
 use Illuminate\Database\Eloquent\Attributes\Table;
 use Illuminate\Database\Eloquent\Attributes\Unguarded;
 use Illuminate\Database\Eloquent\Model;
@@ -10,6 +11,7 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 
 #[Table(name: 'respostas', timestamps: false)]
 #[Unguarded]
+#[DateFormat('Y-m-d H:i:s.v')]
 class Resposta extends Model
 {
     /** @return array<string, string> */

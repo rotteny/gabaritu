@@ -18,7 +18,6 @@ return new class extends Migration
             $table->timestamp('iniciada_em');
             $table->timestamp('finalizada_em')->nullable();
             $table->unsignedSmallInteger('acertos')->nullable();
-            $table->double('theta_antes')->nullable();
             $table->index(['user_id', 'questionario_id']);
         });
 
@@ -27,7 +26,7 @@ return new class extends Migration
             $table->foreignId('tentativa_id')->constrained('tentativas')->cascadeOnDelete();
             $table->foreignId('questao_id')->constrained('questoes')->cascadeOnDelete();
             $table->unsignedSmallInteger('posicao');
-            $table->timestamp('servida_em')->nullable();
+            $table->timestamp('servida_em', 3)->nullable();
             $table->unique(['tentativa_id', 'questao_id']);
         });
 
@@ -42,8 +41,8 @@ return new class extends Migration
             $table->boolean('correta');
             $table->boolean('chute');
             $table->boolean('repetida');
-            $table->timestamp('servida_em');
-            $table->timestamp('respondida_em');
+            $table->timestamp('servida_em', 3);
+            $table->timestamp('respondida_em', 3);
             $table->unsignedInteger('tempo_ms');
             $table->unique(['tentativa_id', 'questao_id']);
             $table->index(['user_id', 'questao_id']);

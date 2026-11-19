@@ -498,5 +498,29 @@
       "O TANQUE ESTÁ EM LIMPEZA! VOLTA DAQUI A POUCO!"
     ],
     "reserva": "Serviço em manutenção. Tente de novo em alguns minutos."
+  },
+  "privacidade": {
+    "fofo": [
+      "Aqui a gente conta tudo sobre os seus dados, sem letra miúda.",
+      "O Peixoto guarda o mínimo e explica o resto. Pode ler com calma.",
+      "Transparência é com a gente. Leia e tire suas dúvidas.",
+      "Seus dados são seus. O Peixoto só cuida do essencial.",
+      "Pouco dado, muita clareza. Esse é o combinado."
+    ],
+    "sarc": [
+      "Ninguém lê termos de uso, mas o Peixoto escreveu este aqui pra ser lido.",
+      "Sim, é uma página de privacidade. Não, não é um tédio. Quase.",
+      "O Peixoto não vende seus dados. Nem sabe vender, na verdade.",
+      "Leitura obrigatória, mas curta. O Peixoto tem respeito pelo seu tempo.",
+      "Aqui está o que guardamos. Spoiler: é bem pouco."
+    ],
+    "sem": [
+      "PRIVACIDADE EM PRIMEIRO LUGAR! LEIA TUDO, É CURTINHO!",
+      "O PEIXOTO GUARDA SEUS DADOS COMO TESOURO! E SÓ O NECESSÁRIO!",
+      "NADA DE LETRINHA MIÚDA! AQUI É TUDO NA CARA!",
+      "SEUS DADOS, SUAS REGRAS! O PEIXOTO SÓ OBEDECE!",
+      "TRANSPARÊNCIA TOTAL! O TANQUE É DE VIDRO!"
+    ],
+    "reserva": "Veja o que o Gabaritu guarda, por quê e como apagar."
   }
 }

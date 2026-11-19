@@ -1,8 +1,6 @@
 <?php
 
-use Illuminate\Foundation\Testing\RefreshDatabase;
 
-uses(RefreshDatabase::class);
 
 describe('fechado (padrão)', function () {
     beforeEach(fn () => config(['gabaritu.cadastro_aberto' => false]));
@@ -29,10 +27,10 @@ describe('fechado (padrão)', function () {
 
     it('tira cadastro, login e área logada do ar', function (string $rota) {
         $this->get($rota)->assertNotFound();
-    })->with(['/register', '/login', '/forgot-password', '/dashboard', '/settings/profile']);
+    })->with(['/cadastro', '/entrar', '/esqueci-senha', '/inicio', '/conta']);
 
     it('recusa o POST de cadastro', function () {
-        $this->post('/register', ['name' => 'a', 'email' => 'a@a.test', 'password' => 'x'])->assertNotFound();
+        $this->post('/cadastro', ['apelido' => 'a', 'email' => 'a@a.test', 'senha' => 'x'])->assertNotFound();
     });
 });
 
@@ -46,8 +44,8 @@ describe('aberto', function () {
                 ->component('Landing')
                 ->where('cadastroAberto', true))
             ->assertDontSee('noindex', false);
-        $this->get('/register')->assertOk();
-        $this->get('/login')->assertOk();
+        $this->get('/cadastro')->assertOk();
+        $this->get('/entrar')->assertOk();
         $this->get('/robots.txt')->assertDontSee('Disallow: /');
     });
 });

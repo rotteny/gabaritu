@@ -2,51 +2,53 @@
 
 namespace App\Concerns;
 
+use App\Enums\Serie;
 use App\Models\User;
 use Illuminate\Contracts\Validation\ValidationRule;
 use Illuminate\Validation\Rule;
+use Illuminate\Validation\Rules\Enum;
 use Illuminate\Validation\Rules\Unique;
 
 trait ProfileValidationRules
 {
-    /**
-     * Get the validation rules used to validate user profiles.
-     *
-     * @return array<string, array<int, Unique|ValidationRule|array<mixed>|string>>
-     */
-    protected function profileRules(?int $userId = null): array
+    private const int APELIDO_MAX = 30;
+
+    private const int APELIDO_MIN = 2;
+
+    private const int IDADE_MAXIMA_ACEITA = 100;
+
+    /** @return array<int, string> */
+    protected function apelidoRules(): array
     {
-        return [
-            'name' => $this->nameRules(),
-            'email' => $this->emailRules($userId),
-        ];
+        return ['required', 'string', 'min:'.self::APELIDO_MIN, 'max:'.self::APELIDO_MAX];
     }
 
-    /**
-     * Get the validation rules used to validate user names.
-     *
-     * @return array<int, Unique|ValidationRule|array<mixed>|string>
-     */
-    protected function nameRules(): array
+    /** @return array<int, Enum|string> */
+    protected function serieRules(): array
     {
-        return ['required', 'string', 'max:255'];
+        return ['required', Rule::enum(Serie::class)];
     }
 
-    /**
-     * Get the validation rules used to validate user emails.
-     *
-     * @return array<int, Unique|ValidationRule|array<mixed>|string>
-     */
-    protected function emailRules(?int $userId = null): array
+    /** @return array<int, Unique|string> */
+    protected function emailRules(): array
     {
+        return ['required', 'string', 'email', 'max:255', Rule::unique(User::class)];
+    }
+
+    /** @return array<int, ValidationRule|string> */
+    protected function anoNascimentoRules(): array
+    {
+        $anoAtual = (int) now(config('gabaritu.fuso'))->format('Y');
+
         return [
             'required',
-            'string',
-            'email',
-            'max:255',
-            $userId === null
-                ? Rule::unique(User::class)
-                : Rule::unique(User::class)->ignore($userId),
+            'integer',
+            'min:'.($anoAtual - self::IDADE_MAXIMA_ACEITA),
+            function (string $atributo, mixed $valor, \Closure $falhar): void {
+                if (is_numeric($valor) && User::idadePorAno((int) $valor) < (int) config('gabaritu.idade_minima')) {
+                    $falhar('O Gabaritu é para quem tem 13 anos ou mais. Não conseguimos criar a sua conta.');
+                }
+            },
         ];
     }
 }

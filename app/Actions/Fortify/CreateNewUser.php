@@ -2,32 +2,45 @@
 
 namespace App\Actions\Fortify;
 
-use App\Concerns\PasswordValidationRules;
 use App\Concerns\ProfileValidationRules;
 use App\Models\User;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Validation\Rules\Password;
 use Laravel\Fortify\Contracts\CreatesNewUsers;
 
 class CreateNewUser implements CreatesNewUsers
 {
-    use PasswordValidationRules, ProfileValidationRules;
+    use ProfileValidationRules;
 
-    /**
-     * Validate and create a newly registered user.
-     *
-     * @param  array<string, string>  $input
-     */
+    private const string ZOEIRA_INICIAL = 'fofo';
+
+    /** @param  array<string, mixed>  $input */
     public function create(array $input): User
     {
-        Validator::make($input, [
-            ...$this->profileRules(),
-            'password' => $this->passwordRules(),
+        $dados = Validator::make($input, [
+            'apelido' => $this->apelidoRules(),
+            'email' => $this->emailRules(),
+            'senha' => $this->senhaRules(),
+            'ano_nascimento' => $this->anoNascimentoRules(),
+            'serie' => $this->serieRules(),
+            'aceite_privacidade' => ['accepted'],
+        ], [
+            'aceite_privacidade.accepted' => 'Para criar a conta, é preciso aceitar a política de privacidade.',
         ])->validate();
 
         return User::create([
-            'name' => $input['name'],
-            'email' => $input['email'],
-            'password' => $input['password'],
+            'apelido' => $dados['apelido'],
+            'email' => $dados['email'],
+            'password' => $dados['senha'],
+            'ano_nascimento' => (int) $dados['ano_nascimento'],
+            'serie' => $dados['serie'],
+            'zoeira' => self::ZOEIRA_INICIAL,
         ]);
+    }
+
+    /** @return array<int, mixed> */
+    private function senhaRules(): array
+    {
+        return ['required', 'string', Password::default(), 'confirmed'];
     }
 }

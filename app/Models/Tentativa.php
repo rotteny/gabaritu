@@ -16,10 +16,17 @@ class Tentativa extends Model
 
     public const string TIPO_REVISAO = 'revisao';
 
+    public const string TIPO_REVISAO_ERRADAS = 'revisao_erradas';
+
     /** @return array<string, string> */
     protected function casts(): array
     {
         return ['iniciada_em' => 'datetime', 'finalizada_em' => 'datetime'];
+    }
+
+    public function ehRevisao(): bool
+    {
+        return $this->tipo !== self::TIPO_QUESTIONARIO;
     }
 
     /** @return BelongsTo<User, $this> */
