@@ -14,7 +14,7 @@ Referências: `docs/escopo-mvp.md` e `docs/regras-nota.md`. Conteúdo em `~/work
 
 ## Prop compartilhada (HandleInertiaRequests)
 ```ts
-auth.user: { id, apelido, serie, idade, preferencias: { zoeira: 'fofo'|'sarc'|'sem', zoeira_maxima: 'sarc'|'sem', som: boolean, reduzir_movimento: boolean, ultima_materia: string|null } } | null
+auth.user: { id, apelido, serie, idade, preferencias: { zoeira: 'fofo'|'sarc'|'sem', zoeira_maxima: 'sarc'|'sem', som: boolean, musica: boolean, reduzir_movimento: boolean, ultima_materia: string|null } } | null
 gabaritu: { email_contato: string, repositorio_url: string, cadastro_aberto: boolean }
 ```
 

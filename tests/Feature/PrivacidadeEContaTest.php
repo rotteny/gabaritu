@@ -44,6 +44,18 @@ describe('conta', function () {
             ->and(Hash::check('senha-nova-456', $aluno->password))->toBeTrue();
     });
 
+    it('salva e expõe a preferência de música de fundo', function () {
+        $aluno = User::factory()->create();
+        $this->actingAs($aluno);
+        expect($aluno->fresh()->musica)->toBeTrue();
+
+        $this->patch('/conta/preferencias', ['musica' => false])->assertSessionHasNoErrors();
+        $this->patch('/conta/preferencias', ['musica' => 'talvez'])->assertSessionHasErrors('musica');
+
+        expect($aluno->fresh()->musica)->toBeFalse()
+            ->and($aluno->fresh()->paraCompartilhar()['preferencias']['musica'])->toBeFalse();
+    });
+
     it('recusa nível acima do teto de idade e senha atual errada', function () {
         $aluno = User::factory()->comIdade(14)->create();
         $this->actingAs($aluno);

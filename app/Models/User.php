@@ -20,6 +20,7 @@ use Illuminate\Support\Carbon;
  * @property string|null $serie
  * @property string $zoeira
  * @property bool $som
+ * @property bool $musica
  * @property bool $reduzir_movimento
  * @property string|null $ultima_materia
  * @property string $password
@@ -27,7 +28,7 @@ use Illuminate\Support\Carbon;
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
  */
-#[Fillable(['apelido', 'email', 'password', 'ano_nascimento', 'serie', 'zoeira', 'som', 'reduzir_movimento', 'ultima_materia'])]
+#[Fillable(['apelido', 'email', 'password', 'ano_nascimento', 'serie', 'zoeira', 'som', 'musica', 'reduzir_movimento', 'ultima_materia'])]
 #[Hidden(['password', 'remember_token'])]
 class User extends Authenticatable
 {
@@ -40,6 +41,7 @@ class User extends Authenticatable
         return [
             'password' => 'hashed',
             'som' => 'boolean',
+            'musica' => 'boolean',
             'reduzir_movimento' => 'boolean',
             'ano_nascimento' => 'integer',
         ];
@@ -77,6 +79,7 @@ class User extends Authenticatable
                 'zoeira' => $this->zoeiraEfetiva()->value,
                 'zoeira_maxima' => $this->zoeiraMaxima()->value,
                 'som' => $this->som,
+                'musica' => $this->musica,
                 'reduzir_movimento' => $this->reduzir_movimento,
                 'ultima_materia' => $this->ultima_materia,
             ],

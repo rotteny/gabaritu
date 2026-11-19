@@ -35,6 +35,7 @@ class ContaController extends Controller
         $dados = $request->validate([
             'zoeira' => ['sometimes', Rule::enum(Nivel::class)],
             'som' => ['sometimes', 'boolean'],
+            'musica' => ['sometimes', 'boolean'],
             'reduzir_movimento' => ['sometimes', 'boolean'],
         ]);
 
