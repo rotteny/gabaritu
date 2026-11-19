@@ -83,3 +83,23 @@ it('ignora variação vencida e ainda não vigente', function () {
 
     expect($texto)->toBe('valida');
 });
+
+it('acerto com o freio ativo usa fala de acerto com humor ajuda, não a do freio', function () {
+    criarFala('acerto_apos_erro', 'acertou depois do erro', 'fofo');
+    $tentativa = iniciarTentativa($this->aluno, $this->c['questionario']);
+
+    foreach ([false, false, false] as $certa) {
+        responderAtual($this->aluno, $tentativa, $certa);
+    }
+    $acerto = responderAtual($this->aluno, $tentativa, true);
+
+    expect($acerto->json('freio_ativo'))->toBeTrue()
+        ->and($acerto->json('fala.texto'))->not->toBe('calma, modo ajuda')
+        ->and($acerto->json('fala.humor'))->toBe('ajuda');
+});
+
+it('acerto sem freio continua feliz', function () {
+    $tentativa = iniciarTentativa($this->aluno, $this->c['questionario']);
+
+    expect(responderAtual($this->aluno, $tentativa, true)->json('fala'))->toMatchArray(['texto' => 'acertou', 'humor' => 'feliz']);
+});

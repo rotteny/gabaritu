@@ -106,15 +106,22 @@ class ResponderQuestao
     private function escolherFala(User $aluno, Tentativa $tentativa, Questao $questao, Alternativa $escolhida, ModoFreio $modo): Fala
     {
         return match (true) {
-            $modo === ModoFreio::Ajuda => $this->falas->sortear($aluno, ['freio'], Fala::HUMOR_AJUDA, Nivel::Fofo),
             $modo === ModoFreio::Saida => $this->falas->sortear($aluno, ['freio_saida'], Fala::HUMOR_NEUTRO, Nivel::Fofo),
-            $escolhida->correta => $this->falas->sortear($aluno, [$this->houveErroAntes($tentativa) ? 'acerto_apos_erro' : 'acerto', 'acerto'], Fala::HUMOR_FELIZ),
+            $modo === ModoFreio::Ajuda && ! $escolhida->correta => $this->falas->sortear($aluno, ['freio'], Fala::HUMOR_AJUDA, Nivel::Fofo),
+            $escolhida->correta => $this->falaDeAcerto($aluno, $tentativa, $modo === ModoFreio::Ajuda ? Fala::HUMOR_AJUDA : Fala::HUMOR_FELIZ, $modo === ModoFreio::Ajuda ? Nivel::Fofo : null),
             default => $this->falas->sortear($aluno, array_values(array_filter([
                 'erro_especifico:'.$questao->codigo,
                 $escolhida->etiqueta ? 'erro:'.$escolhida->etiqueta->codigo : null,
                 'erro',
             ])), Fala::HUMOR_BRAVO),
         };
+    }
+
+    private function falaDeAcerto(User $aluno, Tentativa $tentativa, string $humor, ?Nivel $teto): Fala
+    {
+        $chaves = [$this->houveErroAntes($tentativa) ? 'acerto_apos_erro' : 'acerto', 'acerto'];
+
+        return $this->falas->sortear($aluno, $chaves, $humor, $teto);
     }
 
     private function houveErroAntes(Tentativa $tentativa): bool
