@@ -1,0 +1,282 @@
+[
+  {
+    "id": "his-guerras-mundiais-guerra-fria-001", "materia": "historia", "assunto": "guerras-mundiais-guerra-fria", "questionario": 1, "dificuldade": -1,
+    "contexto": "Tiro em Sarajevo",
+    "enunciado": "Em 28 de junho de 1914, na cidade de Sarajevo, o herdeiro do trono do Império Austro-Húngaro foi assassinado por um jovem nacionalista. Esse episódio foi o estopim de qual conflito?",
+    "alternativas": [
+      { "letra": "A", "texto": "da invasão da Polônia pela Alemanha", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "B", "texto": "da Primeira Guerra Mundial", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "do ataque japonês a Pearl Harbor", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "D", "texto": "da Guerra Fria", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "E", "texto": "da Revolução Russa", "correta": false, "etiqueta": "his-causa-consequencia-invertida" }
+    ],
+    "explicacao": "O assassinato do arquiduque Francisco Ferdinando desencadeou uma sequência de declarações de guerra entre as potências aliadas e inimigas, dando início à Primeira Guerra Mundial. A Revolução Russa foi um efeito da guerra, e não sua causa.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-guerras-mundiais-guerra-fria-002", "materia": "historia", "assunto": "guerras-mundiais-guerra-fria", "questionario": 1, "dificuldade": -1,
+    "contexto": "A conta de Versalhes",
+    "enunciado": "Ao fim da Primeira Guerra, o Tratado de Versalhes (1919) atribuiu à Alemanha a responsabilidade pelo conflito. Entre as imposições feitas aos alemães estava:",
+    "alternativas": [
+      { "letra": "A", "texto": "a anexação da Áustria ao território alemão", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "B", "texto": "o direito de rearmar livremente o exército", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "C", "texto": "o comando da Liga das Nações", "correta": false, "etiqueta": "his-confundiu-conceito" },
+      { "letra": "D", "texto": "o pagamento de pesadas reparações, a redução do exército e a perda de territórios", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "o recebimento de novas colônias na África", "correta": false, "etiqueta": "his-oposto-do-texto" }
+    ],
+    "explicacao": "Versalhes puniu a Alemanha com reparações, limites militares e perdas territoriais, inclusive de colônias. Esse ressentimento foi explorado pelo nazismo mais tarde. A anexação da Áustria (1938) foi uma ação de Hitler que violou o tratado.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-guerras-mundiais-guerra-fria-003", "materia": "historia", "assunto": "guerras-mundiais-guerra-fria", "questionario": 1, "dificuldade": 0,
+    "contexto": "Pólvora acumulada",
+    "enunciado": "Para explicar a Primeira Guerra, os historiadores combinam fatores como as rivalidades imperialistas, os nacionalismos, a corrida armamentista e o sistema de alianças militares. Isso mostra que:",
+    "alternativas": [
+      { "letra": "A", "texto": "o conflito teve causas múltiplas e interligadas, além do estopim em Sarajevo", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "o assassinato do arquiduque explica sozinho a guerra", "correta": false, "etiqueta": "his-causa-unica" },
+      { "letra": "C", "texto": "a guerra opôs apenas Alemanha e França", "correta": false, "etiqueta": "his-generalizou" },
+      { "letra": "D", "texto": "a guerra foi causada pelo Tratado de Versalhes", "correta": false, "etiqueta": "his-causa-consequencia-invertida" },
+      { "letra": "E", "texto": "a guerra ocorreu depois da Revolução Russa", "correta": false, "etiqueta": "his-confundiu-periodo" }
+    ],
+    "explicacao": "O assassinato foi o estopim, mas as tensões já estavam acumuladas. Versalhes foi o tratado de paz ao final da guerra, e a Revolução Russa (1917) aconteceu durante o conflito.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-guerras-mundiais-guerra-fria-004", "materia": "historia", "assunto": "guerras-mundiais-guerra-fria", "questionario": 1, "dificuldade": 0,
+    "contexto": "Paz, terra e pão",
+    "enunciado": "Em 1917, os bolcheviques, liderados por Lênin, tomaram o poder na Rússia, prometendo paz, terra e pão, e em 1918 o novo governo retirou o país da Primeira Guerra. Essa revolução:",
+    "alternativas": [
+      { "letra": "A", "texto": "foi liderada pelo czar Nicolau II", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "B", "texto": "instalou o capitalismo liberal", "correta": false, "etiqueta": "his-confundiu-ideologia" },
+      { "letra": "C", "texto": "ocorreu depois da Segunda Guerra Mundial", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "D", "texto": "teve Stalin como único líder da tomada do poder", "correta": false, "etiqueta": "his-confundiu-personagem" },
+      { "letra": "E", "texto": "derrubou o governo provisório, que sucedeu o czar, e inaugurou o primeiro Estado socialista do mundo", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "A Revolução de Outubro de 1917 levou os bolcheviques ao poder e criou a base da futura União Soviética. O czar já tinha caído na Revolução de Fevereiro, e Lênin e Trotsky foram figuras centrais da tomada do poder.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-guerras-mundiais-guerra-fria-005", "materia": "historia", "assunto": "guerras-mundiais-guerra-fria", "questionario": 1, "dificuldade": 1,
+    "contexto": "Crise e extremismo",
+    "enunciado": "Depois da quebra da Bolsa de Nova York, em 1929, a Alemanha, dependente de empréstimos americanos, mergulhou em desemprego e crise. Nesse cenário, o Partido Nazista cresceu e Hitler tornou-se chanceler em 1933. Isso mostra que a ascensão do nazismo:",
+    "alternativas": [
+      { "letra": "A", "texto": "foi consequência direta e exclusiva da Primeira Guerra", "correta": false, "etiqueta": "his-causa-unica" },
+      { "letra": "B", "texto": "ocorreu por um golpe armado imediato, sem alianças políticas", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "C", "texto": "foi favorecida por crise econômica, ressentimento com Versalhes, propaganda e alianças com setores conservadores", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "contou com o apoio de mais de 90% dos eleitores", "correta": false, "etiqueta": "his-generalizou" },
+      { "letra": "E", "texto": "ocorreu antes da quebra da Bolsa de 1929", "correta": false, "etiqueta": "his-confundiu-periodo" }
+    ],
+    "explicacao": "Hitler foi nomeado chanceler dentro do sistema político alemão, com apoio de setores conservadores, depois de o partido crescer na crise. Mesmo nas melhores eleições livres, os nazistas ficaram longe de 90% dos votos. Depois de chegar ao poder, ele concentrou todos os poderes.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-guerras-mundiais-guerra-fria-006", "materia": "historia", "assunto": "guerras-mundiais-guerra-fria", "questionario": 2, "dificuldade": -1,
+    "contexto": "Ideia de raça",
+    "enunciado": "O regime nazista defendia a superioridade de uma suposta raça ariana e perseguiu judeus, ciganos e outros grupos. Esse tipo de ideologia, que hierarquiza pessoas por origem e ancestralidade, é chamada de:",
+    "alternativas": [
+      { "letra": "A", "texto": "nacionalismo democrático", "correta": false, "etiqueta": "his-confundiu-ideologia" },
+      { "letra": "B", "texto": "internacionalismo socialista", "correta": false, "etiqueta": "his-confundiu-ideologia" },
+      { "letra": "C", "texto": "racismo, sem base científica, pois não existem raças biológicas entre os seres humanos", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "pacifismo", "correta": false, "etiqueta": "his-confundiu-conceito" },
+      { "letra": "E", "texto": "liberalismo político", "correta": false, "etiqueta": "his-confundiu-ideologia" }
+    ],
+    "explicacao": "O nazismo se apoiava em racismo e antissemitismo, apresentados como ciência, mas sem qualquer base. A genética mostra que a espécie humana não se divide em raças biológicas.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-guerras-mundiais-guerra-fria-007", "materia": "historia", "assunto": "guerras-mundiais-guerra-fria", "questionario": 2, "dificuldade": -1,
+    "contexto": "1º de setembro de 1939",
+    "enunciado": "A Segunda Guerra Mundial começou em 1º de setembro de 1939, quando a Alemanha nazista invadiu um país vizinho. Reino Unido e França declararam guerra à Alemanha dois dias depois. O país invadido foi:",
+    "alternativas": [
+      { "letra": "A", "texto": "a Polônia", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "a Áustria", "correta": false, "etiqueta": "his-confundiu-lugar" },
+      { "letra": "C", "texto": "a França", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "D", "texto": "a União Soviética", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "E", "texto": "o Japão", "correta": false, "etiqueta": "his-confundiu-lugar" }
+    ],
+    "explicacao": "A invasão da Polônia deu início à guerra na Europa. A Áustria foi anexada em 1938, a França foi atacada em 1940 e a União Soviética, em 1941. O Japão era aliado da Alemanha.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-guerras-mundiais-guerra-fria-008", "materia": "historia", "assunto": "guerras-mundiais-guerra-fria", "questionario": 2, "dificuldade": 0,
+    "contexto": "Holocausto",
+    "enunciado": "Entre 1941 e 1945, o regime nazista promoveu o extermínio sistemático de cerca de seis milhões de judeus, além de ciganos, pessoas com deficiência, opositores políticos e outros grupos. Esse genocídio é chamado de Holocausto (ou Shoá). Qual afirmação é correta?",
+    "alternativas": [
+      { "letra": "A", "texto": "Foi um fato isolado, sem participação do Estado", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "B", "texto": "Atingiu somente soldados inimigos", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "C", "texto": "Foi improvisado nos últimos dias da guerra", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "D", "texto": "Ocorreu apenas dentro das fronteiras da Alemanha", "correta": false, "etiqueta": "his-confundiu-lugar" },
+      { "letra": "E", "texto": "Foi uma política organizada pelo Estado alemão, com perseguição, campos de concentração e de extermínio em vários países ocupados", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "O Holocausto foi um genocídio planejado e executado de forma burocrática pelo Estado nazista, e começou com perseguição e exclusão antes do extermínio. Os principais campos de extermínio ficavam em territórios ocupados, sobretudo na Polônia.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-guerras-mundiais-guerra-fria-009", "materia": "historia", "assunto": "guerras-mundiais-guerra-fria", "questionario": 2, "dificuldade": 0,
+    "contexto": "O fim no Pacífico",
+    "enunciado": "Em 7 de dezembro de 1941, o Japão atacou a base americana de Pearl Harbor, no Havaí, e os Estados Unidos entraram na Segunda Guerra. Em agosto de 1945, bombas atômicas lançadas pelos EUA, com enorme número de vítimas civis, atingiram as cidades de:",
+    "alternativas": [
+      { "letra": "A", "texto": "Tóquio e Osaka", "correta": false, "etiqueta": "his-confundiu-lugar" },
+      { "letra": "B", "texto": "Hiroshima e Nagasaki", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Berlim e Dresden", "correta": false, "etiqueta": "his-confundiu-lugar" },
+      { "letra": "D", "texto": "Pequim e Xangai", "correta": false, "etiqueta": "his-confundiu-lugar" },
+      { "letra": "E", "texto": "Seul e Pyongyang", "correta": false, "etiqueta": "his-confundiu-lugar" }
+    ],
+    "explicacao": "Hiroshima (6 de agosto) e Nagasaki (9 de agosto) foram as duas cidades atingidas. O Japão se rendeu logo depois. Berlim e Dresden sofreram outros bombardeios na Europa, com armas convencionais.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-guerras-mundiais-guerra-fria-010", "materia": "historia", "assunto": "guerras-mundiais-guerra-fria", "questionario": 2, "dificuldade": 1,
+    "contexto": "Inimigos que assinam",
+    "enunciado": "Em agosto de 1939, a Alemanha nazista e a União Soviética assinaram o pacto Molotov-Ribbentrop, de não agressão, com cláusulas secretas de divisão da Polônia. Em 1941, a Alemanha invadiu a URSS. Esse episódio mostra que:",
+    "alternativas": [
+      { "letra": "A", "texto": "nazistas e soviéticos eram aliados permanentes", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "B", "texto": "a URSS apoiava a ideologia nazista", "correta": false, "etiqueta": "his-confundiu-ideologia" },
+      { "letra": "C", "texto": "o pacto durou até o fim da guerra, em 1945", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "D", "texto": "alianças de curto prazo podem prevalecer sobre diferenças ideológicas quando há interesses estratégicos em jogo", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "os Estados Unidos participaram do acordo", "correta": false, "etiqueta": "his-confundiu-personagem" }
+    ],
+    "explicacao": "O pacto foi uma aliança de conveniência: Hitler queria evitar uma guerra em duas frentes e Stalin queria ganhar tempo e territórios. Ele foi rompido pela invasão alemã de 1941.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-guerras-mundiais-guerra-fria-011", "materia": "historia", "assunto": "guerras-mundiais-guerra-fria", "questionario": 3, "dificuldade": -1,
+    "contexto": "Mundo em dois blocos",
+    "enunciado": "Depois da Segunda Guerra Mundial, o mundo se dividiu entre dois blocos liderados pelos Estados Unidos e pela União Soviética, com disputa por influência, corrida armamentista e propaganda, mas sem confronto militar direto entre as duas potências. Esse período é chamado de:",
+    "alternativas": [
+      { "letra": "A", "texto": "Guerra dos Trinta Anos", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "B", "texto": "Guerra Franco-Prussiana", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "C", "texto": "Segunda Guerra Mundial", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "D", "texto": "Guerra do Golfo", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "E", "texto": "Guerra Fria", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Guerra Fria é o nome da disputa entre EUA e URSS, de 1947 a 1991, sem choque militar direto entre as duas potências. As guerras citadas são de outros períodos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-guerras-mundiais-guerra-fria-012", "materia": "historia", "assunto": "guerras-mundiais-guerra-fria", "questionario": 3, "dificuldade": 0,
+    "contexto": "Dinheiro com estratégia",
+    "enunciado": "A partir de 1947, os Estados Unidos passaram a financiar a reconstrução da Europa Ocidental por meio do Plano Marshall. Além da ajuda econômica, o plano tinha um objetivo estratégico:",
+    "alternativas": [
+      { "letra": "A", "texto": "ajudar a União Soviética a se reconstruir", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "B", "texto": "conter o avanço do comunismo e criar mercados para produtos americanos", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "financiar o rearmamento da Alemanha nazista", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "D", "texto": "estatizar as indústrias europeias", "correta": false, "etiqueta": "his-confundiu-ideologia" },
+      { "letra": "E", "texto": "criar o Pacto de Varsóvia", "correta": false, "etiqueta": "his-confundiu-conceito" }
+    ],
+    "explicacao": "A reconstrução da Europa Ocidental evitaria crises sociais que favorecessem o comunismo e reativaria mercados para os EUA. O Pacto de Varsóvia foi a aliança militar do bloco soviético, criada em 1955.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-guerras-mundiais-guerra-fria-013", "materia": "historia", "assunto": "guerras-mundiais-guerra-fria", "questionario": 3, "dificuldade": 0,
+    "contexto": "Muro",
+    "enunciado": "Em 1961, o governo da Alemanha Oriental construiu um muro dividindo Berlim, para impedir a fuga de seus cidadãos para o lado ocidental. A queda do muro, em 1989, simboliza:",
+    "alternativas": [
+      { "letra": "A", "texto": "o início da Guerra Fria", "correta": false, "etiqueta": "his-causa-consequencia-invertida" },
+      { "letra": "B", "texto": "o começo da Segunda Guerra Mundial", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "C", "texto": "a vitória definitiva do bloco soviético", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "D", "texto": "o enfraquecimento do bloco socialista e o caminho para a reunificação alemã, em 1990", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "a criação da União Europeia", "correta": false, "etiqueta": "his-extrapolou-fonte" }
+    ],
+    "explicacao": "A queda do Muro, em 9 de novembro de 1989, mostrou o colapso dos regimes socialistas do Leste Europeu e levou à reunificação alemã. A Guerra Fria terminou formalmente com a dissolução da URSS, em 1991.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-guerras-mundiais-guerra-fria-014", "materia": "historia", "assunto": "guerras-mundiais-guerra-fria", "questionario": 3, "dificuldade": 1,
+    "contexto": "Beira do abismo",
+    "enunciado": "Em outubro de 1962, os EUA descobriram mísseis soviéticos instalados em Cuba, a poucos quilômetros de seu território. O mundo chegou perto de uma guerra nuclear. A crise terminou com:",
+    "alternativas": [
+      { "letra": "A", "texto": "uma invasão americana de Cuba", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "B", "texto": "um bombardeio nuclear soviético sobre os EUA", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "C", "texto": "a retirada dos mísseis soviéticos de Cuba, em troca de um compromisso americano de não invadir a ilha, além da retirada de mísseis americanos da Turquia", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "o fim da Guerra Fria", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "E", "texto": "uma aliança militar entre EUA e Cuba", "correta": false, "etiqueta": "his-confundiu-personagem" }
+    ],
+    "explicacao": "A crise foi resolvida por negociação: a URSS retirou os mísseis, e os EUA se comprometeram a não invadir Cuba e, em acordo discreto, a retirar mísseis da Turquia. A Guerra Fria continuou por quase trinta anos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-guerras-mundiais-guerra-fria-015", "materia": "historia", "assunto": "guerras-mundiais-guerra-fria", "questionario": 3, "dificuldade": 1,
+    "contexto": "Guerras dos outros",
+    "enunciado": "Durante a Guerra Fria, EUA e URSS evitaram confronto direto, mas apoiaram lados opostos em conflitos regionais, como as guerras da Coreia (1950-1953) e do Vietnã. Esse tipo de guerra é chamado de:",
+    "alternativas": [
+      { "letra": "A", "texto": "guerra por procuração, em que as potências apoiam lados opostos de um conflito regional", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "guerra civil sem interferência externa", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "C", "texto": "guerra mundial convencional", "correta": false, "etiqueta": "his-confundiu-conceito" },
+      { "letra": "D", "texto": "guerra de conquista da Europa", "correta": false, "etiqueta": "his-confundiu-lugar" },
+      { "letra": "E", "texto": "guerra religiosa entre cristãos e muçulmanos", "correta": false, "etiqueta": "his-confundiu-conceito" }
+    ],
+    "explicacao": "Nas guerras por procuração, as grandes potências fornecem armas, dinheiro e assessoria a lados opostos, sem se enfrentarem diretamente. Coreia e Vietnã foram divididos entre um lado capitalista e outro socialista.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-guerras-mundiais-guerra-fria-016", "materia": "historia", "assunto": "guerras-mundiais-guerra-fria", "questionario": 4, "dificuldade": -1,
+    "contexto": "Independência da Índia",
+    "enunciado": "Depois da Segunda Guerra, o Reino Unido e outras potências europeias, enfraquecidas, perderam colônias na Ásia e na África. Em 1947, a Índia conquistou a independência, após um processo de mobilização no qual a resistência não violenta de Mahatma Gandhi teve papel importante. Esse movimento faz parte da:",
+    "alternativas": [
+      { "letra": "A", "texto": "partilha da África pelas potências europeias", "correta": false, "etiqueta": "his-causa-consequencia-invertida" },
+      { "letra": "B", "texto": "expansão imperialista do século XIX", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "C", "texto": "Revolução Industrial inglesa", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "D", "texto": "descolonização afro-asiática do pós-guerra", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Primeira Guerra Mundial", "correta": false, "etiqueta": "his-confundiu-periodo" }
+    ],
+    "explicacao": "A descolonização afro-asiática ocorreu após 1945, com independências na Ásia e na África. A Índia se tornou independente em 1947, junto com a criação do Paquistão, em um processo marcado também por violência.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-guerras-mundiais-guerra-fria-017", "materia": "historia", "assunto": "guerras-mundiais-guerra-fria", "questionario": 4, "dificuldade": 0,
+    "contexto": "Nunca mais",
+    "enunciado": "Criada em 1945, a Organização das Nações Unidas aprovou, em 1948, a Declaração Universal dos Direitos Humanos. Esse documento foi, em grande medida, uma resposta:",
+    "alternativas": [
+      { "letra": "A", "texto": "à Revolução Francesa de 1789", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "B", "texto": "à crise econômica de 1929", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "C", "texto": "às atrocidades da Segunda Guerra, como o Holocausto, afirmando direitos válidos para todas as pessoas", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "à Guerra Fria, para dividir o mundo em dois blocos", "correta": false, "etiqueta": "his-causa-consequencia-invertida" },
+      { "letra": "E", "texto": "ao Tratado de Versalhes", "correta": false, "etiqueta": "his-confundiu-periodo" }
+    ],
+    "explicacao": "A Declaração de 1948 nasceu do choque com as violações em massa da guerra e do nazismo. Ela serve de base para tratados e leis nacionais e afirma que todas as pessoas têm direitos, sem distinção.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-guerras-mundiais-guerra-fria-018", "materia": "historia", "assunto": "guerras-mundiais-guerra-fria", "questionario": 4, "dificuldade": 0,
+    "contexto": "O fim da URSS",
+    "enunciado": "Nos anos 1980, o líder soviético Mikhail Gorbatchov lançou a glasnost (transparência) e a perestroika (reestruturação). Em 1991, a URSS foi dissolvida. Esse processo:",
+    "alternativas": [
+      { "letra": "A", "texto": "foi causado exclusivamente por uma invasão militar americana", "correta": false, "etiqueta": "his-causa-unica" },
+      { "letra": "B", "texto": "foi marcado por crise econômica, reformas e pressões internas, e encerrou a Guerra Fria", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "ocorreu em 1961", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "D", "texto": "restaurou o czarismo na Rússia", "correta": false, "etiqueta": "his-anacronismo" },
+      { "letra": "E", "texto": "manteve o sistema soviético intacto", "correta": false, "etiqueta": "his-oposto-do-texto" }
+    ],
+    "explicacao": "A URSS enfrentava estagnação econômica, corrida armamentista cara e movimentos nacionalistas. As reformas de Gorbatchov abriram o sistema, e a dissolução em 1991 marcou o fim da Guerra Fria. Não houve invasão americana.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-guerras-mundiais-guerra-fria-019", "materia": "historia", "assunto": "guerras-mundiais-guerra-fria", "questionario": 4, "dificuldade": 1,
+    "contexto": "Brasileiros na Itália",
+    "enunciado": "O Brasil declarou guerra ao Eixo em 1942, depois de ataques de submarinos alemães e italianos a navios mercantes brasileiros, e enviou à Itália a Força Expedicionária Brasileira (FEB). Qual foi uma consequência interna dessa participação?",
+    "alternativas": [
+      { "letra": "A", "texto": "Contribuiu para questionar o Estado Novo, já que o país lutava contra regimes autoritários no exterior", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Levou à adoção do nazismo como ideologia oficial", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "C", "texto": "A FEB combateu no Pacífico, contra o Japão", "correta": false, "etiqueta": "his-confundiu-lugar" },
+      { "letra": "D", "texto": "O Brasil permaneceu neutro durante todo o conflito", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "E", "texto": "O Brasil lutou ao lado da Alemanha", "correta": false, "etiqueta": "his-confundiu-personagem" }
+    ],
+    "explicacao": "O Brasil lutou ao lado dos Aliados, e a contradição de combater o fascismo na Europa enquanto vivia uma ditadura enfraqueceu o Estado Novo, que terminou em 1945. A FEB atuou na Itália.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-guerras-mundiais-guerra-fria-020", "materia": "historia", "assunto": "guerras-mundiais-guerra-fria", "questionario": 4, "dificuldade": 1,
+    "contexto": "Mao no poder",
+    "enunciado": "Em 1949, depois de uma longa guerra civil, o Partido Comunista Chinês, liderado por Mao Tsé-Tung, proclamou a República Popular da China. Esse acontecimento foi importante na Guerra Fria porque:",
+    "alternativas": [
+      { "letra": "A", "texto": "a China se aliou imediatamente aos Estados Unidos", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "B", "texto": "a revolução foi liderada por Chiang Kai-shek", "correta": false, "etiqueta": "his-confundiu-personagem" },
+      { "letra": "C", "texto": "o processo ocorreu na Coreia", "correta": false, "etiqueta": "his-confundiu-lugar" },
+      { "letra": "D", "texto": "a vitória comunista pôs fim às guerras civis no mundo", "correta": false, "etiqueta": "his-generalizou" },
+      { "letra": "E", "texto": "ampliou o bloco socialista e deu ao mundo bipolar um novo ator de grande peso, por ser um país muito populoso", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "A vitória comunista na China, em 1949, mudou o equilíbrio de forças na Ásia. Chiang Kai-shek foi o líder nacionalista derrotado, que se refugiou em Taiwan.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]

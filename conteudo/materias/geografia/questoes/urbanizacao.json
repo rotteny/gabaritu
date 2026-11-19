@@ -1,0 +1,902 @@
+[
+  {
+    "id": "geo-urbanizacao-001",
+    "materia": "geografia",
+    "assunto": "urbanizacao",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Cidades que se juntam",
+    "enunciado": "Duas cidades vizinhas cresceram tanto que as áreas construídas se encontraram, e já não se vê onde uma termina e a outra começa. Esse processo é a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "migração pendular",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "conurbação",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "gentrificação",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "segregação residencial",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "globalização",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      }
+    ],
+    "explicacao": "Conurbação é a junção da malha urbana de cidades vizinhas por causa do crescimento. Migração pendular é o deslocamento diário para trabalhar ou estudar em outro município.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-urbanizacao-002",
+    "materia": "geografia",
+    "assunto": "urbanizacao",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Dormir em uma, trabalhar em outra",
+    "enunciado": "Moradores de uma cidade-dormitório pegam trem todos os dias para trabalhar na capital e voltam à noite. Esse deslocamento diário é chamado de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "êxodo rural",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "imigração",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "migração sazonal",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "movimento pendular",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "turismo",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      }
+    ],
+    "explicacao": "O movimento pendular é a ida e volta diária entre casa e trabalho ou estudo, em geral entre municípios diferentes. Êxodo rural é a saída definitiva do campo para a cidade.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-urbanizacao-003",
+    "materia": "geografia",
+    "assunto": "urbanizacao",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Bairro que muda de cara",
+    "enunciado": "Um bairro popular de uma cidade fictícia passa por reformas e ganha cafés e prédios novos. Os aluguéis sobem e muitos moradores antigos precisam se mudar. Esse processo é a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "gentrificação",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "conurbação",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "verticalização",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "favelização",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "migração de retorno",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      }
+    ],
+    "explicacao": "Gentrificação é a valorização de uma área urbana que leva à substituição dos moradores originais, geralmente de menor renda, por grupos de renda maior.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-urbanizacao-004",
+    "materia": "geografia",
+    "assunto": "urbanizacao",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Enchente no asfalto",
+    "enunciado": "Em uma cidade quase toda coberta por asfalto e concreto, chuvas fortes causam alagamentos com frequência. O principal fator urbano para isso é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a chuva ser cada vez mais ácida",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "a falta de vento nas ruas",
+        "correta": false,
+        "etiqueta": "geo-fator-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "o excesso de áreas verdes",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "D",
+        "texto": "a topografia plana, que sempre causa alagamentos",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      },
+      {
+        "letra": "E",
+        "texto": "a impermeabilização do solo, que reduz a infiltração e aumenta o escoamento",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "Asfalto e concreto impedem a água de penetrar no solo. A água escorre de uma vez para bueiros e rios, que transbordam, o que explica os alagamentos.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-urbanizacao-005",
+    "materia": "geografia",
+    "assunto": "urbanizacao",
+    "questionario": 1,
+    "dificuldade": 1,
+    "contexto": "Quem mora onde?",
+    "enunciado": "Em muitas metrópoles brasileiras, os bairros com mais infraestrutura têm moradia cara, enquanto famílias de baixa renda ocupam periferias distantes, encostas e várzeas. Essa divisão se explica, sobretudo, por",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "escolha livre das famílias, que preferem morar longe",
+        "correta": false,
+        "etiqueta": "geo-solucao-simplista"
+      },
+      {
+        "letra": "B",
+        "texto": "falta de vontade de trabalhar em áreas centrais",
+        "correta": false,
+        "etiqueta": "geo-solucao-simplista"
+      },
+      {
+        "letra": "C",
+        "texto": "preço da terra urbana, que empurra os mais pobres para áreas desvalorizadas e com menos infraestrutura",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "a periferia ser naturalmente mais protegida de riscos",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "E",
+        "texto": "crescimento da população sem relação com a renda",
+        "correta": false,
+        "etiqueta": "geo-causa-consequencia"
+      }
+    ],
+    "explicacao": "A segregação socioespacial vem do mercado de terras e da desigualdade de renda: quem não pode pagar vai para áreas mais baratas, geralmente com menos serviços e mais riscos.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-urbanizacao-006",
+    "materia": "geografia",
+    "assunto": "urbanizacao",
+    "questionario": 2,
+    "dificuldade": -1,
+    "contexto": "Mais de dez milhões",
+    "enunciado": "Tóquio, Délhi e São Paulo são frequentemente citadas como megacidades. Esse termo costuma designar aglomerações urbanas",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "com mais de 100 mil habitantes",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "com mais de 1 milhão de habitantes",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "que são capitais de países",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "que não têm periferia",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      },
+      {
+        "letra": "E",
+        "texto": "com mais de 10 milhões de habitantes",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "O termo megacidade é usado para aglomerações com mais de 10 milhões de habitantes. Cidades com mais de 1 milhão não são necessariamente megacidades.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-urbanizacao-007",
+    "materia": "geografia",
+    "assunto": "urbanizacao",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Plano diretor",
+    "enunciado": "O Estatuto da Cidade (2001) define o plano diretor como instrumento básico da política urbana municipal. Ele serve, principalmente, para",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "orientar o uso do solo e o desenvolvimento do município, cuidando da função social da propriedade e da cidade",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "proibir que a cidade cresça",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      },
+      {
+        "letra": "C",
+        "texto": "registrar turistas que visitam o município",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "cobrar imposto sobre os carros",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "apenas desenhar o mapa de ruas",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      }
+    ],
+    "explicacao": "O plano diretor estabelece regras de uso e ocupação do solo, zoneamento, mobilidade e habitação, buscando que a cidade e a propriedade cumpram sua função social.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-urbanizacao-008",
+    "materia": "geografia",
+    "assunto": "urbanizacao",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Trânsito parado",
+    "enunciado": "Uma cidade tem congestionamentos diários e muita poluição por causa do uso intenso de carros. Uma política coerente com a mobilidade sustentável seria",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "alargar avenidas e nada mais",
+        "correta": false,
+        "etiqueta": "geo-solucao-simplista"
+      },
+      {
+        "letra": "B",
+        "texto": "acabar com o transporte público",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "C",
+        "texto": "ampliar o transporte coletivo de massa, as ciclovias e as calçadas seguras",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "construir apenas estacionamentos",
+        "correta": false,
+        "etiqueta": "geo-solucao-simplista"
+      },
+      {
+        "letra": "E",
+        "texto": "mandar a população de volta ao campo",
+        "correta": false,
+        "etiqueta": "geo-solucao-simplista"
+      }
+    ],
+    "explicacao": "Mobilidade sustentável prioriza transporte coletivo, bicicletas e pedestres. Alargar vias e criar estacionamentos tende a atrair mais carros e manter o congestionamento.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-urbanizacao-009",
+    "materia": "geografia",
+    "assunto": "urbanizacao",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Urbanização acelerada",
+    "enunciado": "A urbanização brasileira se intensificou a partir de meados do século XX, com a industrialização. Uma característica desse processo foi",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "ocorrer ainda no século XVI, sem ligação com a indústria",
+        "correta": false,
+        "etiqueta": "geo-cronologia"
+      },
+      {
+        "letra": "B",
+        "texto": "ser acelerada e sem infraestrutura suficiente, o que gerou déficit de moradia e crescimento de favelas",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "ser mais lenta que a europeia",
+        "correta": false,
+        "etiqueta": "geo-cronologia"
+      },
+      {
+        "letra": "D",
+        "texto": "resultar só de políticas de moradia bem-sucedidas",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      },
+      {
+        "letra": "E",
+        "texto": "não envolver migração do campo para a cidade",
+        "correta": false,
+        "etiqueta": "geo-causa-consequencia"
+      }
+    ],
+    "explicacao": "Em poucas décadas a maioria da população passou a viver em cidades, atraída pela indústria e expulsa do campo. O crescimento rápido superou a oferta de moradia, saneamento e transporte.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-urbanizacao-010",
+    "materia": "geografia",
+    "assunto": "urbanizacao",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Cidades que mandam no mundo",
+    "enunciado": "Nova York, Londres e Tóquio concentram sedes de empresas, bolsas de valores e serviços financeiros que influenciam a economia mundial. Esse tipo de cidade é chamado de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "cidade-dormitório",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "megalópole, por definição",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "capital política do país",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "cidade global, nó de comando da economia mundializada",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "cidade industrial clássica",
+        "correta": false,
+        "etiqueta": "geo-cronologia"
+      }
+    ],
+    "explicacao": "Cidades globais concentram funções de comando (finanças, serviços avançados, sedes de transnacionais). Nem toda cidade global é capital, e nem toda grande cidade é global.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-urbanizacao-011",
+    "materia": "geografia",
+    "assunto": "urbanizacao",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Onde jogar o lixo",
+    "enunciado": "Qual é a destinação ambientalmente adequada para os resíduos que não podem ser reaproveitados nem reciclados?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Lixão a céu aberto",
+        "correta": false,
+        "etiqueta": "geo-solucao-simplista"
+      },
+      {
+        "letra": "B",
+        "texto": "Queimar a céu aberto",
+        "correta": false,
+        "etiqueta": "geo-solucao-simplista"
+      },
+      {
+        "letra": "C",
+        "texto": "Aterro sanitário, com impermeabilização e controle do chorume",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "Jogar nos rios, onde a água leva embora",
+        "correta": false,
+        "etiqueta": "geo-solucao-simplista"
+      },
+      {
+        "letra": "E",
+        "texto": "Enterrar direto no terreno, sem proteção",
+        "correta": false,
+        "etiqueta": "geo-solucao-simplista"
+      }
+    ],
+    "explicacao": "O aterro sanitário usa mantas impermeáveis, drenagem de chorume e de gases e cobertura diária. Lixões, queimadas e descarte em rios poluem o solo, o ar e a água.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-urbanizacao-012",
+    "materia": "geografia",
+    "assunto": "urbanizacao",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Prédios altos",
+    "enunciado": "O aumento no número de edifícios altos em uma cidade, aproveitando melhor o terreno, é chamado de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "crescimento horizontal",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "B",
+        "texto": "conurbação",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "êxodo urbano",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "macrocefalia",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "verticalização",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "Verticalização é o crescimento da cidade em altura. Em excesso e sem planejamento, pode sobrecarregar a infraestrutura do bairro.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-urbanizacao-013",
+    "materia": "geografia",
+    "assunto": "urbanizacao",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Por que existem favelas",
+    "enunciado": "Do ponto de vista da Geografia urbana, a existência de favelas e de ocupações irregulares nas cidades brasileiras é explicada principalmente por",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "uma escolha cultural de morar em áreas de risco",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      },
+      {
+        "letra": "B",
+        "texto": "ações do poder público para expandir a cidade",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "C",
+        "texto": "a chegada recente de estrangeiros",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "o déficit de moradia acessível e a desigualdade de renda, e não por preferência por áreas de risco",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "a baixa natalidade",
+        "correta": false,
+        "etiqueta": "geo-fator-errado"
+      }
+    ],
+    "explicacao": "A favela está ligada à falta de moradia a preço acessível e à desigualdade de renda. As pessoas ocupam áreas que conseguem pagar, mesmo com risco e pouca infraestrutura.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-urbanizacao-014",
+    "materia": "geografia",
+    "assunto": "urbanizacao",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Esgoto e doenças",
+    "enunciado": "Em um bairro fictício sem rede de esgoto, crianças têm diarreia com frequência, principalmente depois das enchentes. A relação entre os fatos é que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a falta de saneamento contamina água e solo, e as enchentes espalham a contaminação",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "doenças só dependem do clima",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      },
+      {
+        "letra": "C",
+        "texto": "só falta remédio na região",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "esgoto a céu aberto melhora a qualidade da água",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "E",
+        "texto": "enchentes só atingem bairros ricos",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      }
+    ],
+    "explicacao": "Sem coleta e tratamento de esgoto, dejetos chegam à água e ao solo. Com as enchentes, a contaminação se espalha e aumenta o risco de diarreias e outras doenças.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-urbanizacao-015",
+    "materia": "geografia",
+    "assunto": "urbanizacao",
+    "questionario": 3,
+    "dificuldade": 1,
+    "contexto": "Região metropolitana",
+    "enunciado": "Alguns municípios de uma região metropolitana não têm contato físico direto com a metrópole, mas trabalham e consomem serviços nela. Isso mostra que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "toda região metropolitana é uma conurbação",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      },
+      {
+        "letra": "B",
+        "texto": "a região metropolitana se define pela integração funcional e por lei, e não só pela contiguidade das áreas construídas",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "só existe região metropolitana com mais de 10 milhões de pessoas",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "a metrópole não influencia esses municípios",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "E",
+        "texto": "esses municípios deixam de ser urbanos",
+        "correta": false,
+        "etiqueta": "geo-causa-consequencia"
+      }
+    ],
+    "explicacao": "A região metropolitana é um conjunto de municípios integrados por fluxos de pessoas, serviços e economia, instituído por lei. Não exige continuidade física nem um número mínimo tão alto.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-urbanizacao-016",
+    "materia": "geografia",
+    "assunto": "urbanizacao",
+    "questionario": 4,
+    "dificuldade": -1,
+    "contexto": "Por que as pessoas saíram do campo",
+    "enunciado": "Um dos fatores que impulsionaram o êxodo rural no Brasil no século XX foi",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a falta de cidades no país",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "B",
+        "texto": "a proibição de morar no campo",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      },
+      {
+        "letra": "C",
+        "texto": "a desvalorização da vida urbana",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "D",
+        "texto": "a mecanização e a concentração de terras, somadas aos empregos na indústria urbana",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "o aumento do emprego rural",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      }
+    ],
+    "explicacao": "A mecanização reduziu o trabalho no campo, a concentração de terras limitou o acesso, e a indústria urbana atraiu trabalhadores. Esse movimento foi chamado de êxodo rural.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-urbanizacao-017",
+    "materia": "geografia",
+    "assunto": "urbanizacao",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Chuva e encostas",
+    "enunciado": "Em uma cidade fictícia, deslizamentos de terra atingem moradias em encostas sempre que chove muito. Uma explicação coerente é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "é um castigo da natureza, inevitável",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      },
+      {
+        "letra": "B",
+        "texto": "só a chuva causa os deslizamentos",
+        "correta": false,
+        "etiqueta": "geo-causa-consequencia"
+      },
+      {
+        "letra": "C",
+        "texto": "a ocupação de áreas de risco, com cortes e desmatamento, somada a chuvas intensas e à falta de infraestrutura",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "a culpa é só de quem mora no local",
+        "correta": false,
+        "etiqueta": "geo-solucao-simplista"
+      },
+      {
+        "letra": "E",
+        "texto": "a falta de vento nas encostas",
+        "correta": false,
+        "etiqueta": "geo-fator-errado"
+      }
+    ],
+    "explicacao": "Os deslizamentos resultam da soma de chuva forte com ocupação de encostas sem infraestrutura, drenagem e contenção, em geral por falta de moradia acessível em áreas seguras.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-urbanizacao-018",
+    "materia": "geografia",
+    "assunto": "urbanizacao",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Praças de um lado só",
+    "enunciado": "Um mapeamento de um município fictício mostra que os bairros ricos têm praças, ciclovias e creches em abundância, e os bairros periféricos têm poucos desses equipamentos. O mapeamento evidencia",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "que moradores da periferia preferem não ter praças",
+        "correta": false,
+        "etiqueta": "geo-solucao-simplista"
+      },
+      {
+        "letra": "B",
+        "texto": "a desigualdade socioespacial no acesso a serviços e infraestrutura",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "que a cidade é planejada de forma neutra e igual",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      },
+      {
+        "letra": "D",
+        "texto": "um caso de conurbação",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "um processo de gentrificação",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      }
+    ],
+    "explicacao": "A distribuição desigual de serviços públicos segundo o bairro revela desigualdade socioespacial, ligada à renda, ao preço da terra e às prioridades de investimento.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-urbanizacao-019",
+    "materia": "geografia",
+    "assunto": "urbanizacao",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Terrenos vazios no centro",
+    "enunciado": "Em uma área com água, luz, transporte e escolas, há vários terrenos vazios mantidos à espera de valorização, enquanto famílias sem teto procuram moradia. Essa prática é a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "conurbação",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "reforma agrária",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "gentrificação",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "verticalização",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "especulação imobiliária, que contraria a função social da propriedade prevista no Estatuto da Cidade",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "Na especulação imobiliária, o proprietário retém o terreno à espera de lucro, contrariando a função social da propriedade e agravando o déficit habitacional.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-urbanizacao-020",
+    "materia": "geografia",
+    "assunto": "urbanizacao",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Casas populares distantes",
+    "enunciado": "Um programa fictício constrói milhares de casas populares a 40 km do centro, sem transporte, escola nem posto de saúde nas proximidades. O efeito mais provável é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a reprodução da segregação, com longos deslocamentos e demanda por serviços inexistentes",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "o fim do déficit habitacional e da segregação",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      },
+      {
+        "letra": "C",
+        "texto": "a valorização imediata de bairros centrais por falta de gente",
+        "correta": false,
+        "etiqueta": "geo-causa-consequencia"
+      },
+      {
+        "letra": "D",
+        "texto": "a queda do trânsito, pois todos moram perto do trabalho",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "E",
+        "texto": "a conurbação do bairro com a capital, sem custos",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      }
+    ],
+    "explicacao": "Moradia sem acesso a emprego e serviços cria longos deslocamentos e reforça a segregação. Habitação precisa estar integrada com transporte, escola, saúde e emprego.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  }
+]

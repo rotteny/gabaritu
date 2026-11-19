@@ -1,0 +1,282 @@
+[
+  {
+    "id": "edf-jogos-e-brincadeiras-001", "materia": "educacao-fisica", "assunto": "jogos-e-brincadeiras", "questionario": 1, "dificuldade": -1,
+    "contexto": "Casas riscadas no chão",
+    "enunciado": "No recreio, as crianças desenham casas numeradas no chão e pulam num pé só, empurrando uma pedrinha de casa em casa. Que brincadeira popular é essa?",
+    "alternativas": [
+      { "letra": "A", "texto": "Amarelinha", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Pega-pega", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "C", "texto": "Queimada", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "D", "texto": "Cabo de guerra", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "E", "texto": "Pipa", "correta": false, "etiqueta": "edf-confundiu-categoria" }
+    ],
+    "explicacao": "Casas numeradas no chão, pulo num pé só e uma pedrinha são as marcas da amarelinha. Pega-pega envolve correr, queimada usa bola, cabo de guerra usa corda e pipa é lançada ao vento.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-jogos-e-brincadeiras-002", "materia": "educacao-fisica", "assunto": "jogos-e-brincadeiras", "questionario": 1, "dificuldade": -1,
+    "contexto": "Duas equipes, uma corda",
+    "enunciado": "Duas equipes seguram uma corda comprida em lados opostos e cada uma tenta puxar a outra para o seu lado. Como se chama essa brincadeira?",
+    "alternativas": [
+      { "letra": "A", "texto": "Amarelinha", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "B", "texto": "Pique-esconde", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "C", "texto": "Bolinha de gude", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "D", "texto": "Cabo de guerra", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Ciranda", "correta": false, "etiqueta": "edf-confundiu-categoria" }
+    ],
+    "explicacao": "No cabo de guerra, duas equipes puxam uma corda em direções opostas. Ele trabalha a força e a cooperação dentro de cada equipe.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-jogos-e-brincadeiras-003", "materia": "educacao-fisica", "assunto": "jogos-e-brincadeiras", "questionario": 1, "dificuldade": 0,
+    "contexto": "Dança das cadeiras diferente",
+    "enunciado": "Na dança das cadeiras cooperativa, ninguém é eliminado: a cada rodada uma cadeira é retirada, e todos precisam dar um jeito de caber nas que sobram. Que característica de jogo cooperativo aparece aqui?",
+    "alternativas": [
+      { "letra": "A", "texto": "Vence quem for mais rápido", "correta": false, "etiqueta": "edf-so-rendimento" },
+      { "letra": "B", "texto": "O objetivo é eliminar os adversários", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "C", "texto": "O objetivo é alcançado coletivamente, sem excluir ninguém", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Só o último participante é premiado", "correta": false, "etiqueta": "edf-so-rendimento" },
+      { "letra": "E", "texto": "O resultado depende apenas da habilidade individual", "correta": false, "etiqueta": "edf-confundiu-categoria" }
+    ],
+    "explicacao": "Em jogos cooperativos, todos jogam juntos pelo mesmo objetivo e ninguém sai da brincadeira. Na dança das cadeiras tradicional, a eliminação é o que o jogo faz, e aqui a regra muda.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-jogos-e-brincadeiras-004", "materia": "educacao-fisica", "assunto": "jogos-e-brincadeiras", "questionario": 1, "dificuldade": 0,
+    "contexto": "Reis, rainhas e peões",
+    "enunciado": "O xadrez tem origem num jogo indiano antigo, o chaturanga, que se espalhou pela Pérsia e depois pela Europa. Que tipo de jogo ele é?",
+    "alternativas": [
+      { "letra": "A", "texto": "Um jogo de perseguição ao ar livre", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "B", "texto": "Um esporte de combate", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "C", "texto": "Um jogo de roda cantado", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "D", "texto": "Uma brincadeira exclusiva de crianças", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "E", "texto": "Um jogo de tabuleiro estratégico, praticado em lazer e em competições, que desenvolve o raciocínio", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "O xadrez é um jogo de tabuleiro de estratégia, jogado por pessoas de todas as idades. Seu percurso do Oriente à Europa mostra como os jogos viajam entre culturas.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-jogos-e-brincadeiras-005", "materia": "educacao-fisica", "assunto": "jogos-e-brincadeiras", "questionario": 1, "dificuldade": 1,
+    "contexto": "Campeonatos de jogos eletrônicos",
+    "enunciado": "Jogos eletrônicos competitivos, os e-sports, têm campeonatos com equipes, treinos, comentaristas e torcida. Que análise é a mais adequada sobre esse fenômeno?",
+    "alternativas": [
+      { "letra": "A", "texto": "Eles só trazem prejuízos, em qualquer situação", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "B", "texto": "Podem ser analisados como parte da cultura de jogo atual, com competição, convivência e mercado, sem substituir a necessidade de se movimentar no dia a dia", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "São idênticos ao futebol em todos os aspectos", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "D", "texto": "Não têm nenhuma regra", "correta": false, "etiqueta": "edf-regra-errada" },
+      { "letra": "E", "texto": "Nunca envolvem trabalho em equipe", "correta": false, "etiqueta": "edf-extremo" }
+    ],
+    "explicacao": "Os e-sports têm regras, equipes e público, e fazem parte da cultura contemporânea de jogos. Como todo lazer, pedem equilíbrio com outras atividades, inclusive as que envolvem movimento.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-jogos-e-brincadeiras-006", "materia": "educacao-fisica", "assunto": "jogos-e-brincadeiras", "questionario": 2, "dificuldade": -1,
+    "contexto": "Bola de penas",
+    "enunciado": "A peteca é lançada com a palma da mão, de um jogador para outro, e é feita de uma base com penas. A brincadeira é muito popular no Brasil. De qual tradição ela vem?",
+    "alternativas": [
+      { "letra": "A", "texto": "Egípcia", "correta": false, "etiqueta": "edf-origem-errada" },
+      { "letra": "B", "texto": "Japonesa", "correta": false, "etiqueta": "edf-origem-errada" },
+      { "letra": "C", "texto": "Romana", "correta": false, "etiqueta": "edf-origem-errada" },
+      { "letra": "D", "texto": "Indígena brasileira", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Viking", "correta": false, "etiqueta": "edf-origem-errada" }
+    ],
+    "explicacao": "A peteca tem origem nos povos indígenas do Brasil, e o próprio nome vem de uma palavra tupi que se refere a bater com a mão. Ela é um bom exemplo de como a cultura indígena está presente nos jogos populares.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-jogos-e-brincadeiras-007", "materia": "educacao-fisica", "assunto": "jogos-e-brincadeiras", "questionario": 2, "dificuldade": -1,
+    "contexto": "Papagaio no céu",
+    "enunciado": "A pipa, também chamada de papagaio ou pandorga em algumas regiões, é uma brincadeira de céu aberto e muito antiga. Em que país ela se originou?",
+    "alternativas": [
+      { "letra": "A", "texto": "Brasil", "correta": false, "etiqueta": "edf-origem-errada" },
+      { "letra": "B", "texto": "China", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Egito", "correta": false, "etiqueta": "edf-origem-errada" },
+      { "letra": "D", "texto": "Grécia", "correta": false, "etiqueta": "edf-origem-errada" },
+      { "letra": "E", "texto": "Peru", "correta": false, "etiqueta": "edf-origem-errada" }
+    ],
+    "explicacao": "A pipa tem origem na China, há muitos séculos, e se espalhou pelo mundo. O fato de ter nomes diferentes de região para região mostra como a brincadeira foi apropriada por diversas culturas.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-jogos-e-brincadeiras-008", "materia": "educacao-fisica", "assunto": "jogos-e-brincadeiras", "questionario": 2, "dificuldade": 0,
+    "contexto": "Brincar é direito",
+    "enunciado": "O Estatuto da Criança e do Adolescente (ECA) inclui, entre os direitos de crianças e adolescentes, brincar, praticar esportes e se divertir. Qual afirmação é coerente com esse direito?",
+    "alternativas": [
+      { "letra": "A", "texto": "Brincar é perda de tempo", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "B", "texto": "Brincar só deve ocorrer nos fins de semana", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "C", "texto": "Brincar é um direito de quem tem brinquedos caros", "correta": false, "etiqueta": "edf-ignorou-inclusao" },
+      { "letra": "D", "texto": "Brincar só é permitido na escola", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "E", "texto": "Brincar é essencial ao desenvolvimento e deve ser garantido em casa, na escola e na comunidade", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "O brincar é parte do desenvolvimento e um direito de todas as crianças, independentemente do que possam comprar. Ele deve ser garantido em vários ambientes, e não só na escola.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-jogos-e-brincadeiras-009", "materia": "educacao-fisica", "assunto": "jogos-e-brincadeiras", "questionario": 2, "dificuldade": 0,
+    "contexto": "Regras que mudam",
+    "enunciado": "Numa aula, a turma criou uma nova versão de um jogo de bola, mudando as regras para que ninguém ficasse esperando de fora e todos jogassem o tempo todo. Que compreensão essa experiência desenvolve?",
+    "alternativas": [
+      { "letra": "A", "texto": "Que as regras são imutáveis", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "B", "texto": "Que ninguém precisa respeitar regras", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "C", "texto": "Que regras são combinados que o grupo pode negociar e adaptar para melhorar a convivência", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Que só o professor pode criar regras", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "E", "texto": "Que regras servem para excluir os menos habilidosos", "correta": false, "etiqueta": "edf-ignorou-inclusao" }
+    ],
+    "explicacao": "Em jogos e brincadeiras, as regras são acordos entre as pessoas e podem ser ajustadas para que todos participem. Adaptar regras exige conversa, respeito e cooperação.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-jogos-e-brincadeiras-010", "materia": "educacao-fisica", "assunto": "jogos-e-brincadeiras", "questionario": 2, "dificuldade": 1,
+    "contexto": "Jogos dos povos indígenas",
+    "enunciado": "Nos Jogos dos Povos Indígenas, etnias de várias regiões do país se reúnem em provas como corrida de toras, arco e flecha e cabo de guerra, que têm ligação com rituais e saberes de cada povo. Que interpretação é adequada?",
+    "alternativas": [
+      { "letra": "A", "texto": "São práticas corporais com sentido cultural e ritual, e não se reduzem ao modelo do esporte competitivo ocidental", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "São apenas cópias dos Jogos Olímpicos", "correta": false, "etiqueta": "edf-origem-errada" },
+      { "letra": "C", "texto": "Têm como único objetivo o rendimento e o recorde", "correta": false, "etiqueta": "edf-so-rendimento" },
+      { "letra": "D", "texto": "Desvalorizam as tradições dos povos que participam", "correta": false, "etiqueta": "edf-ignorou-contexto" },
+      { "letra": "E", "texto": "Mostram que todos os povos têm exatamente as mesmas práticas", "correta": false, "etiqueta": "edf-extremo" }
+    ],
+    "explicacao": "As provas expressam tradições e valores de cada povo, e por isso têm significados que vão além de ganhar ou perder. Cada etnia tem suas próprias práticas, e o encontro mostra essa diversidade.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-jogos-e-brincadeiras-011", "materia": "educacao-fisica", "assunto": "jogos-e-brincadeiras", "questionario": 3, "dificuldade": -1,
+    "contexto": "Mãos dadas e cantiga",
+    "enunciado": "Numa festa, crianças formam uma grande roda de mãos dadas e cantam girando juntas, como na ciranda. Essa prática é um exemplo de:",
+    "alternativas": [
+      { "letra": "A", "texto": "esporte de rendimento", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "B", "texto": "jogo eletrônico", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "C", "texto": "brincadeira de roda, ligada à cultura popular", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "luta", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "E", "texto": "ginástica de competição", "correta": false, "etiqueta": "edf-confundiu-categoria" }
+    ],
+    "explicacao": "A roda com cantigas é uma brincadeira tradicional, passada de geração em geração e ligada à cultura popular. Não tem foco em vencer nem em rendimento.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-jogos-e-brincadeiras-012", "materia": "educacao-fisica", "assunto": "jogos-e-brincadeiras", "questionario": 3, "dificuldade": 0,
+    "contexto": "Jogar online com segurança",
+    "enunciado": "Muitos jogos online permitem conversar com pessoas desconhecidas. Qual cuidado é o mais adequado para jogar com segurança?",
+    "alternativas": [
+      { "letra": "A", "texto": "Não compartilhar dados pessoais, usar as configurações de privacidade e conversar com um adulto de confiança se algo causar desconforto", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Aceitar qualquer convite que aparecer", "correta": false, "etiqueta": "edf-regra-errada" },
+      { "letra": "C", "texto": "Passar a senha para os colegas de jogo", "correta": false, "etiqueta": "edf-regra-errada" },
+      { "letra": "D", "texto": "Jogar por horas sem pausa", "correta": false, "etiqueta": "edf-regra-errada" },
+      { "letra": "E", "texto": "Considerar que jogos online não têm nenhum risco", "correta": false, "etiqueta": "edf-extremo" }
+    ],
+    "explicacao": "Preservar dados, usar a privacidade do jogo e pedir ajuda quando algo incomoda reduzem os riscos. Dividir senha ou aceitar qualquer convite coloca a segurança em perigo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-jogos-e-brincadeiras-013", "materia": "educacao-fisica", "assunto": "jogos-e-brincadeiras", "questionario": 3, "dificuldade": 0,
+    "contexto": "Brincadeira ou esporte?",
+    "enunciado": "Um grupo de crianças inventa um pega-pega com regras flexíveis, combinadas na hora e mudadas durante a brincadeira. Comparada ao esporte institucionalizado, essa prática:",
+    "alternativas": [
+      { "letra": "A", "texto": "é um esporte oficial, com regras fixas", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "B", "texto": "não tem nenhuma regra", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "C", "texto": "é sempre voltada ao rendimento", "correta": false, "etiqueta": "edf-so-rendimento" },
+      { "letra": "D", "texto": "é um jogo ou brincadeira, com regras flexíveis criadas pelo próprio grupo", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "só pode ser feita em quadras oficiais", "correta": false, "etiqueta": "edf-regra-errada" }
+    ],
+    "explicacao": "Brincadeiras têm regras criadas e ajustadas pelo grupo, enquanto o esporte institucionalizado segue regras oficiais e fixas. Flexível não quer dizer sem regras: elas apenas são combinadas pelos participantes.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-jogos-e-brincadeiras-014", "materia": "educacao-fisica", "assunto": "jogos-e-brincadeiras", "questionario": 3, "dificuldade": 1,
+    "contexto": "Pique, pega ou pira?",
+    "enunciado": "Uma mesma brincadeira de perseguição recebe nomes e regras ligeiramente diferentes conforme a região do país, e é passada oralmente entre gerações. Como essa variação pode ser entendida?",
+    "alternativas": [
+      { "letra": "A", "texto": "Há apenas uma versão correta, e as outras são erros", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "B", "texto": "Por serem transmitidas pela oralidade e adaptadas, as brincadeiras ganham variações regionais, o que faz parte da riqueza cultural", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "As variações mostram que as crianças não aprenderam direito", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "D", "texto": "As brincadeiras só existem em livros oficiais", "correta": false, "etiqueta": "edf-ignorou-contexto" },
+      { "letra": "E", "texto": "As brincadeiras não têm relação com a cultura", "correta": false, "etiqueta": "edf-ignorou-contexto" }
+    ],
+    "explicacao": "Quando uma brincadeira passa de pessoa a pessoa, ela é adaptada ao jeito de cada lugar. As diferentes versões são parte do patrimônio cultural, e nenhuma é erro.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-jogos-e-brincadeiras-015", "materia": "educacao-fisica", "assunto": "jogos-e-brincadeiras", "questionario": 3, "dificuldade": 1,
+    "contexto": "Carrinhos de sucata",
+    "enunciado": "Numa comunidade, algumas crianças brincam com carrinhos que elas mesmas fazem com sucata, enquanto outras têm brinquedos industrializados. O que essa diferença permite analisar?",
+    "alternativas": [
+      { "letra": "A", "texto": "Que só brinquedos caros permitem brincar", "correta": false, "etiqueta": "edf-acritico-midia" },
+      { "letra": "B", "texto": "Que brincar com sucata não é brincar de verdade", "correta": false, "etiqueta": "edf-ignorou-inclusao" },
+      { "letra": "C", "texto": "Que a desigualdade social não tem efeito sobre as brincadeiras", "correta": false, "etiqueta": "edf-ignorou-contexto" },
+      { "letra": "D", "texto": "Que a criatividade só existe com muito dinheiro", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "E", "texto": "Que o brincar acontece em condições sociais diferentes, e que a criatividade e a cultura popular criam brincadeiras mesmo com poucos recursos", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "A situação mostra que as condições para brincar variam, mas que a criatividade permite brincar em qualquer contexto. Brinquedo caro não é condição para o brincar.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-jogos-e-brincadeiras-016", "materia": "educacao-fisica", "assunto": "jogos-e-brincadeiras", "questionario": 4, "dificuldade": -1,
+    "contexto": "Queimada",
+    "enunciado": "Na queimada, duas equipes se enfrentam em quadras divididas, usando uma bola. Qual é o objetivo principal do jogo?",
+    "alternativas": [
+      { "letra": "A", "texto": "Chutar a bola ao gol adversário", "correta": false, "etiqueta": "edf-regra-errada" },
+      { "letra": "B", "texto": "Passar a bola por cima de uma rede", "correta": false, "etiqueta": "edf-regra-errada" },
+      { "letra": "C", "texto": "Derrubar pinos com a bola", "correta": false, "etiqueta": "edf-regra-errada" },
+      { "letra": "D", "texto": "Chegar primeiro ao fim de um percurso", "correta": false, "etiqueta": "edf-regra-errada" },
+      { "letra": "E", "texto": "Acertar os adversários com a bola, “queimando-os”, e proteger a própria equipe", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Na queimada, o jogador que é atingido pela bola é “queimado”, e a equipe tenta queimar todos os adversários. Chutar ao gol é do futebol e passar a bola por cima da rede é do vôlei.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-jogos-e-brincadeiras-017", "materia": "educacao-fisica", "assunto": "jogos-e-brincadeiras", "questionario": 4, "dificuldade": 0,
+    "contexto": "Sementes e covas",
+    "enunciado": "A mancala é um conjunto de jogos de tabuleiro em que se movem sementes entre covas, jogado há séculos em muitos países africanos e também em outros continentes. O que a existência desse jogo revela?",
+    "alternativas": [
+      { "letra": "A", "texto": "Que jogo de tabuleiro é uma invenção recente", "correta": false, "etiqueta": "edf-ignorou-contexto" },
+      { "letra": "B", "texto": "Que só a Europa criou jogos de tabuleiro", "correta": false, "etiqueta": "edf-origem-errada" },
+      { "letra": "C", "texto": "Que jogos de tabuleiro atravessam culturas e épocas, e podem ser valorizados como patrimônio cultural", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Que só crianças jogam jogos de tabuleiro", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "E", "texto": "Que jogos de tabuleiro não têm regras", "correta": false, "etiqueta": "edf-regra-errada" }
+    ],
+    "explicacao": "Jogos como a mancala existem há muito tempo, foram transmitidos entre povos e fazem parte da herança cultural da humanidade. Têm regras e são jogados por todas as idades.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-jogos-e-brincadeiras-018", "materia": "educacao-fisica", "assunto": "jogos-e-brincadeiras", "questionario": 4, "dificuldade": 0,
+    "contexto": "Pular corda",
+    "enunciado": "Ao pular corda, a criança precisa acertar o momento do salto, manter o equilíbrio e coordenar braços e pernas. Quais capacidades são trabalhadas nessa brincadeira?",
+    "alternativas": [
+      { "letra": "A", "texto": "Somente flexibilidade", "correta": false, "etiqueta": "edf-capacidade-trocada" },
+      { "letra": "B", "texto": "Coordenação, ritmo e equilíbrio", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Somente força máxima", "correta": false, "etiqueta": "edf-capacidade-trocada" },
+      { "letra": "D", "texto": "Nenhuma capacidade física", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "E", "texto": "Somente memória", "correta": false, "etiqueta": "edf-fuga-do-tema" }
+    ],
+    "explicacao": "Pular corda exige acertar o tempo do salto, coordenar o corpo e manter o equilíbrio, e por isso trabalha coordenação, ritmo e equilíbrio. Brincadeiras simples desenvolvem várias capacidades ao mesmo tempo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-jogos-e-brincadeiras-019", "materia": "educacao-fisica", "assunto": "jogos-e-brincadeiras", "questionario": 4, "dificuldade": 1,
+    "contexto": "Gincana equilibrada",
+    "enunciado": "Numa gincana escolar, a comissão propôs que a pontuação das equipes também contasse gestos de ajuda e de respeito entre times, além do resultado nas provas. Qual objetivo está por trás dessa proposta?",
+    "alternativas": [
+      { "letra": "A", "texto": "Valorizar a cooperação e o respeito além da vitória, equilibrando competição e convivência", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Eliminar a competição de vez", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "C", "texto": "Premiar apenas quem vence", "correta": false, "etiqueta": "edf-so-rendimento" },
+      { "letra": "D", "texto": "Fazer com que cada pessoa participe sozinha", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "E", "texto": "Evitar que existam regras", "correta": false, "etiqueta": "edf-extremo" }
+    ],
+    "explicacao": "A pontuação por gestos de ajuda valoriza a convivência, sem acabar com a competição. É uma forma de equilibrar o desejo de ganhar com o respeito e a cooperação.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-jogos-e-brincadeiras-020", "materia": "educacao-fisica", "assunto": "jogos-e-brincadeiras", "questionario": 4, "dificuldade": 1,
+    "contexto": "Videogame com movimento",
+    "enunciado": "Alguns jogos eletrônicos exigem que o jogador se movimente de verdade, dançando, pulando ou imitando esportes diante de um sensor. Como esses jogos podem ser avaliados em relação à atividade física?",
+    "alternativas": [
+      { "letra": "A", "texto": "Substituem completamente qualquer outra atividade física", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "B", "texto": "Não exigem nenhum movimento", "correta": false, "etiqueta": "edf-regra-errada" },
+      { "letra": "C", "texto": "São proibidos em todas as escolas", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "D", "texto": "Podem estimular o movimento e ser uma opção de lazer ativo, mas não substituem a variedade de experiências corporais", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Só funcionam dentro de quadras esportivas", "correta": false, "etiqueta": "edf-regra-errada" }
+    ],
+    "explicacao": "Esses jogos incentivam o movimento e podem ser uma boa porta de entrada para o lazer ativo. Mas as experiências variadas, como brincar ao ar livre, dançar e praticar esportes, continuam importantes.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "id": "mat-geometria-001", "materia": "matematica", "assunto": "geometria", "questionario": 1, "dificuldade": -1,
+    "contexto": "Piso da quadra",
+    "enunciado": "A quadra da escola é retangular e mede 20 m de comprimento por 12 m de largura. Quantos metros quadrados de piso ela tem?",
+    "alternativas": [
+      { "letra": "A", "texto": "64 m²", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "B", "texto": "32 m²", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "C", "texto": "120 m²", "correta": false, "etiqueta": "mat-erro-de-conta" },
+      { "letra": "D", "texto": "24 m²", "correta": false, "etiqueta": "mat-unidade" },
+      { "letra": "E", "texto": "240 m²", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "A área do retângulo é comprimento × largura: 20 × 12 = 240 m². Os 64 m seriam o perímetro (a volta da quadra), que se mede em metros, não em m².",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-geometria-002", "materia": "matematica", "assunto": "geometria", "questionario": 1, "dificuldade": -1,
+    "contexto": "Cerca do terreno",
+    "enunciado": "Um terreno quadrado tem 15 m de lado e vai ser cercado com arame em volta de todo o terreno. Quantos metros de arame são necessários para uma volta?",
+    "alternativas": [
+      { "letra": "A", "texto": "225 m", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "B", "texto": "60 m", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "30 m", "correta": false, "etiqueta": "mat-erro-de-conta" },
+      { "letra": "D", "texto": "45 m", "correta": false, "etiqueta": "mat-ignorou-dado" },
+      { "letra": "E", "texto": "900 m", "correta": false, "etiqueta": "mat-formula-errada" }
+    ],
+    "explicacao": "O perímetro do quadrado é 4 × lado = 4 × 15 = 60 m. Os 225 vêm de 15 × 15, que é a área em m², e 45 conta só três lados.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-geometria-003", "materia": "matematica", "assunto": "geometria", "questionario": 1, "dificuldade": 0,
+    "contexto": "Bandeira do time",
+    "enunciado": "A bandeira do time é um triângulo com 8 dm de base e 5 dm de altura. Qual é a área de tecido, em dm²?",
+    "alternativas": [
+      { "letra": "A", "texto": "40 dm²", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "B", "texto": "13 dm²", "correta": false, "etiqueta": "mat-somou-em-vez-de-multiplicar" },
+      { "letra": "C", "texto": "80 dm²", "correta": false, "etiqueta": "mat-erro-de-conta" },
+      { "letra": "D", "texto": "20 dm²", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "16 dm²", "correta": false, "etiqueta": "mat-sinal" }
+    ],
+    "explicacao": "A área do triângulo é (base × altura) ÷ 2 = (8 × 5) ÷ 2 = 20 dm². Os 40 dm² são a área de um retângulo de mesma base e altura, sem dividir por 2.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-geometria-004", "materia": "matematica", "assunto": "geometria", "questionario": 1, "dificuldade": 0,
+    "contexto": "Pizza gigante",
+    "enunciado": "Uma pizza redonda tem 20 cm de raio. Usando π = 3, qual é a área da pizza?",
+    "alternativas": [
+      { "letra": "A", "texto": "120 cm²", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "B", "texto": "400 cm²", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "C", "texto": "1.200 cm²", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "4.800 cm²", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "E", "texto": "2.400 cm²", "correta": false, "etiqueta": "mat-erro-de-conta" }
+    ],
+    "explicacao": "A área do círculo é π × r² = 3 × 20² = 3 × 400 = 1.200 cm². O 120 é o comprimento da borda (2πr), e o 400 é só o r² sem multiplicar por π.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-geometria-005", "materia": "matematica", "assunto": "geometria", "questionario": 1, "dificuldade": 1,
+    "contexto": "Reforma do piso",
+    "enunciado": "Uma sala retangular mede 5 m por 4 m e será revestida com peças quadradas de 50 cm de lado. Para cobrir eventuais quebras, compra-se 10% a mais do que o necessário. Quantas peças devem ser compradas?",
+    "alternativas": [
+      { "letra": "A", "texto": "88", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "80", "correta": false, "etiqueta": "mat-ignorou-dado" },
+      { "letra": "C", "texto": "800", "correta": false, "etiqueta": "mat-unidade" },
+      { "letra": "D", "texto": "44", "correta": false, "etiqueta": "mat-escala-quadrado" },
+      { "letra": "E", "texto": "90", "correta": false, "etiqueta": "mat-somou-porcentagens" }
+    ],
+    "explicacao": "A sala tem 5 × 4 = 20 m² e cada peça tem 0,5 × 0,5 = 0,25 m², então são 20 ÷ 0,25 = 80 peças. Com 10% a mais: 80 × 1,1 = 88 peças. Dividir 20 por 0,5 (o lado) dá 40, erro de usar comprimento no lugar de área.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-geometria-006", "materia": "matematica", "assunto": "geometria", "questionario": 2, "dificuldade": -1,
+    "contexto": "Caixa de sapato",
+    "enunciado": "Uma caixa em forma de paralelepípedo mede 5 cm de comprimento, 4 cm de largura e 3 cm de altura. Qual é o volume da caixa?",
+    "alternativas": [
+      { "letra": "A", "texto": "60 cm³", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "20 cm³", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "C", "texto": "12 cm³", "correta": false, "etiqueta": "mat-somou-em-vez-de-multiplicar" },
+      { "letra": "D", "texto": "94 cm³", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "E", "texto": "120 cm³", "correta": false, "etiqueta": "mat-erro-de-conta" }
+    ],
+    "explicacao": "O volume é comprimento × largura × altura = 5 × 4 × 3 = 60 cm³. Os 20 são só a área da base e os 94 são a área da superfície total.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-geometria-007", "materia": "matematica", "assunto": "geometria", "questionario": 2, "dificuldade": 0,
+    "contexto": "Lata de achocolatado",
+    "enunciado": "Uma lata cilíndrica tem 5 cm de raio e 10 cm de altura. Usando π = 3, quantos mililitros cabem na lata (1 cm³ = 1 mL)?",
+    "alternativas": [
+      { "letra": "A", "texto": "250 mL", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "B", "texto": "150 mL", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "C", "texto": "7.500 mL", "correta": false, "etiqueta": "mat-unidade" },
+      { "letra": "D", "texto": "750 mL", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "3.000 mL", "correta": false, "etiqueta": "mat-formula-errada" }
+    ],
+    "explicacao": "O volume do cilindro é π × r² × h = 3 × 25 × 10 = 750 cm³, ou seja, 750 mL. Os 250 são o volume de um cone com a mesma base e altura (um terço), e os 3.000 usam o diâmetro no lugar do raio.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-geometria-008", "materia": "matematica", "assunto": "geometria", "questionario": 2, "dificuldade": 0,
+    "contexto": "Escada na parede",
+    "enunciado": "Uma escada de 5 m está apoiada em uma parede vertical, com a base a 3 m da parede, sobre chão plano. A que altura da parede a escada encosta?",
+    "alternativas": [
+      { "letra": "A", "texto": "8 m", "correta": false, "etiqueta": "mat-somou-em-vez-de-multiplicar" },
+      { "letra": "B", "texto": "2 m", "correta": false, "etiqueta": "mat-sinal" },
+      { "letra": "C", "texto": "4 m", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "5,8 m", "correta": false, "etiqueta": "mat-sinal" },
+      { "letra": "E", "texto": "16 m", "correta": false, "etiqueta": "mat-parou-no-intermediario" }
+    ],
+    "explicacao": "A escada é a hipotenusa: 5² = 3² + h², então h² = 25 − 9 = 16 e h = 4 m. Somar os quadrados (25 + 9) trata a escada como cateto, e os 16 são h² sem tirar a raiz.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-geometria-009", "materia": "matematica", "assunto": "geometria", "questionario": 2, "dificuldade": 1,
+    "contexto": "Maquete da caixa-d'água",
+    "enunciado": "Uma caixa-d'água de 125 m³ foi reproduzida numa maquete na escala 1:50. Qual é o volume da maquete, em cm³? (1 m³ = 1.000.000 cm³)",
+    "alternativas": [
+      { "letra": "A", "texto": "2.500.000 cm³", "correta": false, "etiqueta": "mat-escala-quadrado" },
+      { "letra": "B", "texto": "50.000 cm³", "correta": false, "etiqueta": "mat-escala-quadrado" },
+      { "letra": "C", "texto": "1 cm³", "correta": false, "etiqueta": "mat-unidade" },
+      { "letra": "D", "texto": "5.000 cm³", "correta": false, "etiqueta": "mat-erro-de-conta" },
+      { "letra": "E", "texto": "1.000 cm³", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "A escala 1:50 vale para comprimentos, então o volume diminui 50³ = 125.000 vezes. O volume real é 125 × 1.000.000 = 125.000.000 cm³, e dividido por 125.000 dá 1.000 cm³. Dividir por 50 ou por 50² não basta para um volume.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-geometria-010", "materia": "matematica", "assunto": "geometria", "questionario": 2, "dificuldade": 1,
+    "contexto": "Jardim com canteiro",
+    "enunciado": "Um jardim retangular mede 10 m por 8 m e tem, no meio, um canteiro circular de raio 2 m que não será gramado. Usando π = 3, qual é a área a ser coberta com grama?",
+    "alternativas": [
+      { "letra": "A", "texto": "80 m²", "correta": false, "etiqueta": "mat-ignorou-dado" },
+      { "letra": "B", "texto": "68 m²", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "92 m²", "correta": false, "etiqueta": "mat-sinal" },
+      { "letra": "D", "texto": "74 m²", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "E", "texto": "32 m²", "correta": false, "etiqueta": "mat-formula-errada" }
+    ],
+    "explicacao": "O jardim tem 10 × 8 = 80 m² e o canteiro tem π × r² = 3 × 4 = 12 m². A área gramada é 80 − 12 = 68 m². Somar daria 92, e usar 3 × 2 (sem o quadrado) dá 74.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-geometria-011", "materia": "matematica", "assunto": "geometria", "questionario": 3, "dificuldade": -1,
+    "contexto": "Ângulos do triângulo",
+    "enunciado": "Em um triângulo, dois ângulos medem 60° e 50°. Quanto mede o terceiro ângulo?",
+    "alternativas": [
+      { "letra": "A", "texto": "110°", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "B", "texto": "130°", "correta": false, "etiqueta": "mat-erro-de-conta" },
+      { "letra": "C", "texto": "70°", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "80°", "correta": false, "etiqueta": "mat-sinal" },
+      { "letra": "E", "texto": "90°", "correta": false, "etiqueta": "mat-formula-errada" }
+    ],
+    "explicacao": "A soma dos ângulos internos de um triângulo é 180°. Então o terceiro é 180° − 60° − 50° = 70°. Os 110° são só a soma dos dois ângulos dados.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-geometria-012", "materia": "matematica", "assunto": "geometria", "questionario": 3, "dificuldade": -1,
+    "contexto": "Terreno retangular",
+    "enunciado": "Um terreno retangular tem 36 m de perímetro e um dos lados mede 10 m. Qual é a área do terreno?",
+    "alternativas": [
+      { "letra": "A", "texto": "18 m²", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "B", "texto": "26 m²", "correta": false, "etiqueta": "mat-erro-de-conta" },
+      { "letra": "C", "texto": "100 m²", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "D", "texto": "160 m²", "correta": false, "etiqueta": "mat-erro-de-conta" },
+      { "letra": "E", "texto": "80 m²", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "O semiperímetro é 36 ÷ 2 = 18, então o outro lado mede 18 − 10 = 8 m. A área é 10 × 8 = 80 m². O 18 é só o semiperímetro, e o 100 trataria o terreno como quadrado.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-geometria-013", "materia": "matematica", "assunto": "geometria", "questionario": 3, "dificuldade": 0,
+    "contexto": "Terreno em trapézio",
+    "enunciado": "Um terreno tem formato de trapézio, com bases de 12 m e 8 m e distância de 5 m entre elas. Qual é a área do terreno?",
+    "alternativas": [
+      { "letra": "A", "texto": "100 m²", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "B", "texto": "50 m²", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "480 m²", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "D", "texto": "40 m²", "correta": false, "etiqueta": "mat-pegou-parte-errada" },
+      { "letra": "E", "texto": "60 m²", "correta": false, "etiqueta": "mat-pegou-parte-errada" }
+    ],
+    "explicacao": "A área do trapézio é (base maior + base menor) × altura ÷ 2 = (12 + 8) × 5 ÷ 2 = 50 m². Os 100 m² esquecem de dividir por 2.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-geometria-014", "materia": "matematica", "assunto": "geometria", "questionario": 3, "dificuldade": 0,
+    "contexto": "Tamanho da tela",
+    "enunciado": "A tela de um monitor é um retângulo de 40 cm por 30 cm. Qual é o comprimento da diagonal da tela?",
+    "alternativas": [
+      { "letra": "A", "texto": "50 cm", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "70 cm", "correta": false, "etiqueta": "mat-somou-em-vez-de-multiplicar" },
+      { "letra": "C", "texto": "10 cm", "correta": false, "etiqueta": "mat-sinal" },
+      { "letra": "D", "texto": "2.500 cm", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "E", "texto": "1.200 cm", "correta": false, "etiqueta": "mat-formula-errada" }
+    ],
+    "explicacao": "A diagonal é a hipotenusa de um triângulo retângulo de catetos 40 e 30: d² = 1.600 + 900 = 2.500, então d = 50 cm. O 2.500 é d² sem a raiz, e o 70 soma os lados direto.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-geometria-015", "materia": "matematica", "assunto": "geometria", "questionario": 3, "dificuldade": 1,
+    "contexto": "Enchendo a piscina",
+    "enunciado": "Uma piscina retangular mede 10 m por 5 m e tem 2 m de profundidade. Uma mangueira joga 5 m³ de água por hora. Quantas horas são necessárias para encher a piscina até 80% da sua capacidade?",
+    "alternativas": [
+      { "letra": "A", "texto": "20 h", "correta": false, "etiqueta": "mat-ignorou-dado" },
+      { "letra": "B", "texto": "80 h", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "C", "texto": "4 h", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "D", "texto": "16 h", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "25 h", "correta": false, "etiqueta": "mat-esqueceu-base" }
+    ],
+    "explicacao": "O volume é 10 × 5 × 2 = 100 m³ e 80% disso é 80 m³. Com 5 m³ por hora: 80 ÷ 5 = 16 h. Os 20 h seriam para encher tudo, e os 80 são só o volume, em m³.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-geometria-016", "materia": "matematica", "assunto": "geometria", "questionario": 4, "dificuldade": -1,
+    "contexto": "Roda da bicicleta",
+    "enunciado": "Uma roda tem 60 cm de diâmetro. Usando π = 3,14, qual é o comprimento da circunferência da roda, ou seja, a distância percorrida em uma volta completa?",
+    "alternativas": [
+      { "letra": "A", "texto": "94,2 cm", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "B", "texto": "188,4 cm", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "2.826 cm", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "D", "texto": "60 cm", "correta": false, "etiqueta": "mat-ignorou-dado" },
+      { "letra": "E", "texto": "18,84 cm", "correta": false, "etiqueta": "mat-unidade" }
+    ],
+    "explicacao": "O comprimento é C = π × d = 3,14 × 60 = 188,4 cm. Os 94,2 vêm de π × r (esqueceu de dobrar o raio) e os 2.826 são a área do círculo, π × r².",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-geometria-017", "materia": "matematica", "assunto": "geometria", "questionario": 4, "dificuldade": 0,
+    "contexto": "Quadrado maior",
+    "enunciado": "Se o lado de um quadrado é dobrado, o que acontece com a área desse quadrado?",
+    "alternativas": [
+      { "letra": "A", "texto": "Fica 4 vezes maior.", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Fica 2 vezes maior.", "correta": false, "etiqueta": "mat-escala-quadrado" },
+      { "letra": "C", "texto": "Fica 3 vezes maior.", "correta": false, "etiqueta": "mat-erro-de-conta" },
+      { "letra": "D", "texto": "Fica 8 vezes maior.", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "E", "texto": "Fica 4 vezes menor.", "correta": false, "etiqueta": "mat-sinal" }
+    ],
+    "explicacao": "Com lado L, a área é L². Com lado 2L, a área é (2L)² = 4L², ou seja, 4 vezes maior. O fator 2 vale para comprimentos, e a área depende de duas dimensões. Os 8 seriam o caso do volume de um cubo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-geometria-018", "materia": "matematica", "assunto": "geometria", "questionario": 4, "dificuldade": 0,
+    "contexto": "Poste e sombra",
+    "enunciado": "No mesmo horário, um poste de 2 m projeta uma sombra de 3 m. Um prédio projeta, nesse horário, uma sombra de 45 m. Qual é a altura do prédio?",
+    "alternativas": [
+      { "letra": "A", "texto": "67,5 m", "correta": false, "etiqueta": "mat-proporcao-invertida" },
+      { "letra": "B", "texto": "42 m", "correta": false, "etiqueta": "mat-sinal" },
+      { "letra": "C", "texto": "30 m", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "15 m", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "E", "texto": "22,5 m", "correta": false, "etiqueta": "mat-esqueceu-base" }
+    ],
+    "explicacao": "Os triângulos formados são semelhantes, então altura/sombra é constante: 2/3 = h/45, e h = 2 × 45 ÷ 3 = 30 m. O 15 é 45 ÷ 3, que dá quantas vezes a sombra do prédio é maior, e falta multiplicar por 2.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-geometria-019", "materia": "matematica", "assunto": "geometria", "questionario": 4, "dificuldade": 1,
+    "contexto": "Tanque cilíndrico",
+    "enunciado": "Um tanque cilíndrico tem 1 m de raio e 2 m de altura. Usando π = 3, quantos litros de água ele comporta? (1 m³ = 1.000 L)",
+    "alternativas": [
+      { "letra": "A", "texto": "6 L", "correta": false, "etiqueta": "mat-unidade" },
+      { "letra": "B", "texto": "12.000 L", "correta": false, "etiqueta": "mat-formula-errada" },
+      { "letra": "C", "texto": "3.000 L", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "D", "texto": "6.000 L", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "2.000 L", "correta": false, "etiqueta": "mat-formula-errada" }
+    ],
+    "explicacao": "A área da base é π × r² = 3 × 1² = 3 m². O volume é 3 × 2 = 6 m³, ou 6.000 L. Os 6 L esquecem a conversão, e os 2.000 L seriam o volume de um cone (um terço do cilindro).",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "mat-geometria-020", "materia": "matematica", "assunto": "geometria", "questionario": 4, "dificuldade": 1,
+    "contexto": "Cubinhos na caixa",
+    "enunciado": "Uma caixa em forma de paralelepípedo tem internamente 10 cm × 8 cm × 6 cm. Quantos cubinhos de 2 cm de aresta cabem nela, sem sobra de espaço?",
+    "alternativas": [
+      { "letra": "A", "texto": "240", "correta": false, "etiqueta": "mat-escala-quadrado" },
+      { "letra": "B", "texto": "120", "correta": false, "etiqueta": "mat-escala-quadrado" },
+      { "letra": "C", "texto": "480", "correta": false, "etiqueta": "mat-parou-no-intermediario" },
+      { "letra": "D", "texto": "12", "correta": false, "etiqueta": "mat-somou-em-vez-de-multiplicar" },
+      { "letra": "E", "texto": "60", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "A caixa tem volume 10 × 8 × 6 = 480 cm³ e cada cubinho tem 2³ = 8 cm³, então cabem 480 ÷ 8 = 60. Pode-se contar também por fileiras: 5 × 4 × 3 = 60. Dividir por 2 ou por 4 ignora que o volume depende do cubo da aresta.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]

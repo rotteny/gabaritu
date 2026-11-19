@@ -1,0 +1,902 @@
+[
+  {
+    "id": "geo-cartografia-001",
+    "materia": "geografia",
+    "assunto": "cartografia",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Distância no mapa da cidade",
+    "enunciado": "O mapa do seu bairro tem escala 1:50.000. Você mede 4 cm em linha reta entre a escola e a quadra de esportes. Qual é a distância real entre os dois pontos?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "200 m",
+        "correta": false,
+        "etiqueta": "geo-erro-de-conta"
+      },
+      {
+        "letra": "B",
+        "texto": "2 km",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "20 km",
+        "correta": false,
+        "etiqueta": "geo-erro-de-conta"
+      },
+      {
+        "letra": "D",
+        "texto": "200 km",
+        "correta": false,
+        "etiqueta": "geo-erro-de-conta"
+      },
+      {
+        "letra": "E",
+        "texto": "Não dá para calcular, pois essa escala só vale para mapas de países",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      }
+    ],
+    "explicacao": "Escala 1:50.000 significa que 1 cm no mapa equivale a 50.000 cm no terreno. Então 4 cm valem 200.000 cm, ou seja, 2.000 m = 2 km. A pegadinha é errar a quantidade de zeros ao converter centímetros em metros e quilômetros.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-cartografia-002",
+    "materia": "geografia",
+    "assunto": "cartografia",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Quanto vale um fuso",
+    "enunciado": "A Terra completa uma volta de 360° em 24 horas. Quantos graus de longitude separam dois fusos horários vizinhos?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "10°",
+        "correta": false,
+        "etiqueta": "geo-erro-de-conta"
+      },
+      {
+        "letra": "B",
+        "texto": "24°",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "30°",
+        "correta": false,
+        "etiqueta": "geo-erro-de-conta"
+      },
+      {
+        "letra": "D",
+        "texto": "15°",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "360°",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      }
+    ],
+    "explicacao": "Dividindo 360° por 24 horas, cada fuso tem 15° de longitude. Quem responde 24° confunde o número de horas com graus, e quem divide errado cai em 10° ou 30°.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-cartografia-003",
+    "materia": "geografia",
+    "assunto": "cartografia",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Que horas são em Manaus?",
+    "enunciado": "Um jogo de futebol começa às 15h no horário de Brasília (UTC-3). Um torcedor assiste de Manaus, que está no fuso UTC-4. Em que horário local o jogo começa para ele?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "14h",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "16h",
+        "correta": false,
+        "etiqueta": "geo-fuso-sentido"
+      },
+      {
+        "letra": "C",
+        "texto": "13h",
+        "correta": false,
+        "etiqueta": "geo-erro-de-conta"
+      },
+      {
+        "letra": "D",
+        "texto": "12h",
+        "correta": false,
+        "etiqueta": "geo-fuso-sentido"
+      },
+      {
+        "letra": "E",
+        "texto": "15h, pois o Brasil tem um único horário",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      }
+    ],
+    "explicacao": "Manaus está um fuso a oeste de Brasília, então o relógio marca uma hora a menos: 14h. Quem soma erra o sentido do fuso, e quem diz 15h esquece que o Brasil tem mais de um fuso horário.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-cartografia-004",
+    "materia": "geografia",
+    "assunto": "cartografia",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Onde fica esse ponto?",
+    "enunciado": "As coordenadas aproximadas de Brasília são 16° S e 48° W. Em que hemisférios esse ponto está localizado?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Norte e Oriental",
+        "correta": false,
+        "etiqueta": "geo-lat-long"
+      },
+      {
+        "letra": "B",
+        "texto": "Norte e Ocidental",
+        "correta": false,
+        "etiqueta": "geo-lat-long"
+      },
+      {
+        "letra": "C",
+        "texto": "Sul e Oriental",
+        "correta": false,
+        "etiqueta": "geo-fuso-sentido"
+      },
+      {
+        "letra": "D",
+        "texto": "Apenas no Hemisfério Sul, pois a longitude não define hemisfério",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "Sul e Ocidental",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "S indica latitude ao sul do Equador (Hemisfério Sul) e W indica longitude a oeste de Greenwich (Hemisfério Ocidental). Trocar S por N ou W por E inverte o lado do mapa em que o ponto está.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-cartografia-005",
+    "materia": "geografia",
+    "assunto": "cartografia",
+    "questionario": 1,
+    "dificuldade": 1,
+    "contexto": "Gigantes que parecem maiores",
+    "enunciado": "Em um mapa-múndi na projeção de Mercator, a Groenlândia parece quase tão grande quanto a África, embora a África tenha área muito maior. Essa distorção acontece porque a projeção",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "usa escala pequena, que sempre deforma regiões frias",
+        "correta": false,
+        "etiqueta": "geo-escala-invertida"
+      },
+      {
+        "letra": "B",
+        "texto": "ampliou a Groenlândia por ela estar no Equador",
+        "correta": false,
+        "etiqueta": "geo-lat-long"
+      },
+      {
+        "letra": "C",
+        "texto": "conserva os ângulos, mas deforma as áreas, que aumentam com a latitude",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "conserva todas as áreas, e o erro é só da impressão",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      },
+      {
+        "letra": "E",
+        "texto": "mede apenas o relevo, e não a área dos territórios",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      }
+    ],
+    "explicacao": "A projeção de Mercator é cilíndrica e conserva os ângulos (boa para navegação), mas estica as áreas conforme a latitude aumenta. A Groenlândia, perto do polo, aparece inflada, enquanto a África, no Equador, fica comparativamente menor.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-cartografia-006",
+    "materia": "geografia",
+    "assunto": "cartografia",
+    "questionario": 2,
+    "dificuldade": -1,
+    "contexto": "Qual mapa para andar a pé?",
+    "enunciado": "Você vai montar o trajeto a pé entre a sua casa e uma praça, passando por ruas pequenas do bairro. Qual mapa dá mais detalhes para isso?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Escala 1:10.000.000",
+        "correta": false,
+        "etiqueta": "geo-escala-invertida"
+      },
+      {
+        "letra": "B",
+        "texto": "Escala 1:5.000.000",
+        "correta": false,
+        "etiqueta": "geo-escala-invertida"
+      },
+      {
+        "letra": "C",
+        "texto": "Escala 1:1.000.000",
+        "correta": false,
+        "etiqueta": "geo-escala-invertida"
+      },
+      {
+        "letra": "D",
+        "texto": "Um planisfério mundial",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "Escala 1:5.000",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "Quanto menor o denominador, maior a escala e mais detalhes aparecem em uma área menor. 1:5.000 mostra ruas e quarteirões, enquanto 1:10.000.000 só mostra grandes regiões.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-cartografia-007",
+    "materia": "geografia",
+    "assunto": "cartografia",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Lendo curvas de nível",
+    "enunciado": "Num mapa topográfico, as curvas de nível estão muito próximas umas das outras no lado leste e bem espaçadas no lado oeste. Isso indica que o relevo é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "mais inclinado no leste e mais suave no oeste",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "mais suave no leste e mais inclinado no oeste",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "C",
+        "texto": "mais quente no leste que no oeste",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "coberto de rios no leste e de desertos no oeste",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      },
+      {
+        "letra": "E",
+        "texto": "igual nos dois lados, e só a escala muda",
+        "correta": false,
+        "etiqueta": "geo-escala-invertida"
+      }
+    ],
+    "explicacao": "Curvas próximas indicam que a altitude muda rápido em pouca distância, ou seja, declive acentuado. Curvas afastadas indicam relevo mais suave. Quem inverte a leitura troca o lado íngreme pelo suave.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-cartografia-008",
+    "materia": "geografia",
+    "assunto": "cartografia",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Reunião entre continentes",
+    "enunciado": "Uma cidade X está no fuso UTC+2 e uma cidade Y está no fuso UTC-3. Quando são 10h de terça-feira em Y, que horas são em X?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "5h de terça",
+        "correta": false,
+        "etiqueta": "geo-fuso-sentido"
+      },
+      {
+        "letra": "B",
+        "texto": "8h de terça",
+        "correta": false,
+        "etiqueta": "geo-erro-de-conta"
+      },
+      {
+        "letra": "C",
+        "texto": "15h de terça",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "12h de terça",
+        "correta": false,
+        "etiqueta": "geo-erro-de-conta"
+      },
+      {
+        "letra": "E",
+        "texto": "10h de terça, pois só a data muda",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      }
+    ],
+    "explicacao": "A diferença é 2 - (-3) = 5 horas, e X está a leste (mais adiantada). Logo, 10h + 5h = 15h. Subtrair, como em A, erra o sentido do fuso.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-cartografia-009",
+    "materia": "geografia",
+    "assunto": "cartografia",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Cruzando a Linha Internacional de Data",
+    "enunciado": "A Linha Internacional de Data segue aproximadamente o meridiano de 180°. Um navio cruza essa linha no sentido oeste-leste. O calendário de bordo deve ser ajustado em",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "avançar um dia",
+        "correta": false,
+        "etiqueta": "geo-fuso-sentido"
+      },
+      {
+        "letra": "B",
+        "texto": "voltar um dia",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "adiantar 12 horas",
+        "correta": false,
+        "etiqueta": "geo-erro-de-conta"
+      },
+      {
+        "letra": "D",
+        "texto": "nenhum ajuste, pois a linha coincide com Greenwich",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "voltar uma hora",
+        "correta": false,
+        "etiqueta": "geo-erro-de-conta"
+      }
+    ],
+    "explicacao": "Ao cruzar a linha de oeste para leste, o navio volta um dia no calendário; de leste para oeste, avança um dia. A linha fica em torno de 180°, oposta a Greenwich (0°), e o ajuste é de um dia, não de horas.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-cartografia-010",
+    "materia": "geografia",
+    "assunto": "cartografia",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Dois mapas, duas escalas",
+    "enunciado": "Duas folhas do mesmo tamanho mostram a mesma região. O mapa A tem escala 1:200.000 e o mapa B tem escala 1:2.000.000. Qual conclusão está correta?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "B tem mais detalhes, pois o número da escala é maior",
+        "correta": false,
+        "etiqueta": "geo-escala-invertida"
+      },
+      {
+        "letra": "B",
+        "texto": "A cobre uma área maior que B",
+        "correta": false,
+        "etiqueta": "geo-escala-invertida"
+      },
+      {
+        "letra": "C",
+        "texto": "Têm o mesmo nível de detalhe, só o papel muda",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "A mostra mais detalhes, mas cobre uma área menor que B",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "A e B cobrem a mesma área, só o detalhe muda",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      }
+    ],
+    "explicacao": "A escala 1:200.000 é maior que 1:2.000.000: cada centímetro representa uma distância menor, então cabe mais detalhe e a folha cobre uma área menor. Número maior no denominador significa escala menor.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-cartografia-011",
+    "materia": "geografia",
+    "assunto": "cartografia",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Rosa dos ventos",
+    "enunciado": "Em um mapa com o norte para cima, a cidade A aparece à esquerda da cidade B, na mesma altura. Em relação à cidade B, a cidade A fica a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "leste",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "B",
+        "texto": "norte",
+        "correta": false,
+        "etiqueta": "geo-lat-long"
+      },
+      {
+        "letra": "C",
+        "texto": "oeste",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "sul",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "E",
+        "texto": "nordeste",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      }
+    ],
+    "explicacao": "Com o norte no topo, a esquerda é o oeste. Logo, A está a oeste de B. Trocar esquerda por leste é um erro comum de quem lê o mapa ao contrário.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-cartografia-012",
+    "materia": "geografia",
+    "assunto": "cartografia",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Ponto de partida das latitudes",
+    "enunciado": "A latitude é a distância angular de um ponto ao Equador. Qual é a latitude dos pontos que estão exatamente sobre o Equador?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "90° N",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "180°",
+        "correta": false,
+        "etiqueta": "geo-lat-long"
+      },
+      {
+        "letra": "C",
+        "texto": "23°27' S",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "66°33' N",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "0°",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "O Equador é a linha de partida das latitudes, com 0°. 90° são os polos, 23°27' são os trópicos e 66°33' são os círculos polares. 180° é o limite da longitude, não da latitude.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-cartografia-013",
+    "materia": "geografia",
+    "assunto": "cartografia",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Mapas que deformam",
+    "enunciado": "Uma reportagem usa um mapa em que cada país tem o tamanho proporcional à sua população, e os contornos aparecem deformados. Esse tipo de representação é chamado de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "mapa topográfico",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "mapa político",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "planisfério físico",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "cartograma (anamorfose)",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "carta náutica",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      }
+    ],
+    "explicacao": "No cartograma ou anamorfose, a área de cada região é redesenhada de acordo com uma variável, como a população. Mapas topográficos mostram relevo e cartas náuticas servem à navegação.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-cartografia-014",
+    "materia": "geografia",
+    "assunto": "cartografia",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Assistindo de Rio Branco",
+    "enunciado": "Um estudante em Rio Branco (UTC-5) vai assistir a uma transmissão que começa às 16h no horário de Brasília (UTC-3). Que horas serão no relógio dele quando começar?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "14h",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "18h",
+        "correta": false,
+        "etiqueta": "geo-fuso-sentido"
+      },
+      {
+        "letra": "C",
+        "texto": "15h",
+        "correta": false,
+        "etiqueta": "geo-erro-de-conta"
+      },
+      {
+        "letra": "D",
+        "texto": "16h, pois todo o Brasil usa o mesmo horário",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      },
+      {
+        "letra": "E",
+        "texto": "21h",
+        "correta": false,
+        "etiqueta": "geo-erro-de-conta"
+      }
+    ],
+    "explicacao": "Rio Branco está duas horas a oeste de Brasília, então o relógio marca 14h. Quem soma erra o sentido do fuso, e quem esquece uma das duas horas de diferença chega a 15h.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-cartografia-015",
+    "materia": "geografia",
+    "assunto": "cartografia",
+    "questionario": 3,
+    "dificuldade": 1,
+    "contexto": "Camadas sobre o mapa",
+    "enunciado": "Uma prefeitura sobrepõe, em computador, camadas de rios, uso do solo e declividade do terreno para escolher o melhor local para um aterro sanitário. Essa técnica é um exemplo de uso de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "projeção cilíndrica",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "Sistema de Informação Geográfica (SIG)",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "anamorfose",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "escala gráfica",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "sensoriamento remoto, que apenas faz fotografias e não analisa camadas",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      }
+    ],
+    "explicacao": "O SIG reúne e cruza camadas de dados geográficos para apoiar decisões. O sensoriamento remoto coleta as imagens (por satélite, por exemplo), mas a análise combinada de camadas é função do SIG.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-cartografia-016",
+    "materia": "geografia",
+    "assunto": "cartografia",
+    "questionario": 4,
+    "dificuldade": -1,
+    "contexto": "Escala em centímetros",
+    "enunciado": "Em um mapa, 1 cm representa 10 km no terreno. Qual é a escala numérica desse mapa?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1:10",
+        "correta": false,
+        "etiqueta": "geo-erro-de-conta"
+      },
+      {
+        "letra": "B",
+        "texto": "1:10.000",
+        "correta": false,
+        "etiqueta": "geo-erro-de-conta"
+      },
+      {
+        "letra": "C",
+        "texto": "1:100.000",
+        "correta": false,
+        "etiqueta": "geo-erro-de-conta"
+      },
+      {
+        "letra": "D",
+        "texto": "1:1.000.000",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "1:10.000.000",
+        "correta": false,
+        "etiqueta": "geo-erro-de-conta"
+      }
+    ],
+    "explicacao": "10 km = 10.000 m = 1.000.000 cm. Portanto, 1 cm no mapa equivale a 1.000.000 cm no terreno: escala 1:1.000.000. O erro típico é contar um zero a mais ou a menos na conversão.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-cartografia-017",
+    "materia": "geografia",
+    "assunto": "cartografia",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Preservar proporções de área",
+    "enunciado": "Um professor quer um mapa-múndi em que as áreas dos continentes sejam proporcionais às reais, mesmo que as formas fiquem alongadas. Qual projeção atende ao pedido?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Mercator",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "Cônica de Lambert, que conserva os ângulos",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "Peters (Gall-Peters)",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "Qualquer projeção, pois todas conservam todas as propriedades",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      },
+      {
+        "letra": "E",
+        "texto": "Nenhuma, pois um mapa é cópia fiel da Terra",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      }
+    ],
+    "explicacao": "A projeção de Peters é cilíndrica de áreas equivalentes: conserva proporção entre áreas, deformando formas. Mercator conserva ângulos, mas distorce áreas. Nenhuma projeção plana conserva tudo ao mesmo tempo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-cartografia-018",
+    "materia": "geografia",
+    "assunto": "cartografia",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Quem está a oeste?",
+    "enunciado": "O ponto A tem coordenadas 10° S e 40° W. O ponto B tem 10° S e 50° W. Em relação a A, o ponto B está",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a leste, na mesma latitude",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "B",
+        "texto": "a oeste, na mesma latitude",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "ao sul, na mesma longitude",
+        "correta": false,
+        "etiqueta": "geo-lat-long"
+      },
+      {
+        "letra": "D",
+        "texto": "ao norte, na mesma longitude",
+        "correta": false,
+        "etiqueta": "geo-lat-long"
+      },
+      {
+        "letra": "E",
+        "texto": "exatamente na mesma posição, pois ambos têm 10°",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      }
+    ],
+    "explicacao": "As latitudes são iguais (10° S), então os pontos estão no mesmo paralelo. Como 50° W fica mais distante de Greenwich para o lado ocidental, B está a oeste de A.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-cartografia-019",
+    "materia": "geografia",
+    "assunto": "cartografia",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Reunião com o outro lado do mundo",
+    "enunciado": "Uma reunião online será às 9h no horário de Brasília (UTC-3). Um participante está em uma cidade fictícia no fuso UTC+8. Qual horário local ele deve usar?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "17h",
+        "correta": false,
+        "etiqueta": "geo-erro-de-conta"
+      },
+      {
+        "letra": "B",
+        "texto": "22h do dia anterior",
+        "correta": false,
+        "etiqueta": "geo-fuso-sentido"
+      },
+      {
+        "letra": "C",
+        "texto": "1h",
+        "correta": false,
+        "etiqueta": "geo-fuso-sentido"
+      },
+      {
+        "letra": "D",
+        "texto": "12h",
+        "correta": false,
+        "etiqueta": "geo-erro-de-conta"
+      },
+      {
+        "letra": "E",
+        "texto": "20h",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "A diferença entre UTC+8 e UTC-3 é 11 horas, e a cidade está a leste, adiantada. 9h + 11h = 20h. Subtrair 11h ou 8h erra o sentido do fuso.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-cartografia-020",
+    "materia": "geografia",
+    "assunto": "cartografia",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Norte para baixo?",
+    "enunciado": "Um artista desenha um mapa-múndi com o sul na parte de cima, questionando a ideia de que o norte é 'o alto' do mapa. Essa obra mostra que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a orientação com o norte em cima é uma convenção cartográfica, e não uma lei da natureza",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "o planeta tem um lado de cima real, e o mapa está errado",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "mapas invertidos devem ser proibidos por serem sempre errados",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      },
+      {
+        "letra": "D",
+        "texto": "o Hemisfério Sul é o que fica acima do Equador",
+        "correta": false,
+        "etiqueta": "geo-lat-long"
+      },
+      {
+        "letra": "E",
+        "texto": "inverter o mapa muda as distâncias reais entre os lugares",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      }
+    ],
+    "explicacao": "No espaço não existe 'em cima' ou 'embaixo': colocar o norte no topo é uma escolha histórica. Inverter o mapa muda a orientação, mas não muda as distâncias nem as posições relativas.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "id": "edf-corpo-e-sociedade-001", "materia": "educacao-fisica", "assunto": "corpo-e-sociedade", "questionario": 1, "dificuldade": -1,
+    "contexto": "Um aceno de longe",
+    "enunciado": "Ao ver uma amiga do outro lado da rua, Bia levanta a mão e acena para cumprimentá-la, sem dizer nada. Esse gesto mostra que o corpo:",
+    "alternativas": [
+      { "letra": "A", "texto": "serve apenas para executar tarefas físicas", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "B", "texto": "só se comunica quando a pessoa fala", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "C", "texto": "é uma máquina sem relação com a cultura", "correta": false, "etiqueta": "edf-ignorou-contexto" },
+      { "letra": "D", "texto": "só expressa sentimentos negativos", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "E", "texto": "também é uma forma de linguagem e de expressão", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Gestos, expressões e posturas comunicam mensagens, muitas vezes sem palavras. Isso faz do corpo um meio de linguagem e de cultura, e não apenas uma estrutura para realizar movimentos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-corpo-e-sociedade-002", "materia": "educacao-fisica", "assunto": "corpo-e-sociedade", "questionario": 1, "dificuldade": -1,
+    "contexto": "Movimentos lentos no parque",
+    "enunciado": "Em um parque, um grupo pratica movimentos lentos, contínuos e coordenados com a respiração. A prática surgiu na China, como arte marcial e também como cuidado com o bem-estar. Qual é o nome dela?",
+    "alternativas": [
+      { "letra": "A", "texto": "Capoeira", "correta": false, "etiqueta": "edf-origem-errada" },
+      { "letra": "B", "texto": "Ginástica rítmica", "correta": false, "etiqueta": "edf-confundiu-categoria" },
+      { "letra": "C", "texto": "Tai chi chuan", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Parkour", "correta": false, "etiqueta": "edf-origem-errada" },
+      { "letra": "E", "texto": "Jiu-jítsu brasileiro", "correta": false, "etiqueta": "edf-origem-errada" }
+    ],
+    "explicacao": "O tai chi chuan é de origem chinesa e une movimentos lentos com respiração. A capoeira é brasileira, o parkour surgiu na França e o jiu-jítsu brasileiro se desenvolveu no Brasil, a partir de uma arte marcial japonesa.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-corpo-e-sociedade-003", "materia": "educacao-fisica", "assunto": "corpo-e-sociedade", "questionario": 1, "dificuldade": 0,
+    "contexto": "Pinturas e adornos",
+    "enunciado": "Em diferentes povos e épocas, o corpo é pintado e enfeitado de acordo com significados próprios, como as pinturas rituais de povos indígenas e as tatuagens em várias culturas. O que isso mostra?",
+    "alternativas": [
+      { "letra": "A", "texto": "Que o corpo tem apenas função biológica", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "B", "texto": "Que o corpo também é construção cultural, e seus significados mudam conforme o povo e a época", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Que adornos são sempre modismos recentes", "correta": false, "etiqueta": "edf-ignorou-contexto" },
+      { "letra": "D", "texto": "Que todas as culturas dão o mesmo sentido ao mesmo adorno", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "E", "texto": "Que só a cultura ocidental valoriza adornos corporais", "correta": false, "etiqueta": "edf-origem-errada" }
+    ],
+    "explicacao": "Pintura, tatuagem e adornos têm sentidos que dependem de cada cultura, o que mostra que o corpo é também cultural. O mesmo desenho pode ter significados bem diferentes em povos distintos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-corpo-e-sociedade-004", "materia": "educacao-fisica", "assunto": "corpo-e-sociedade", "questionario": 1, "dificuldade": 0,
+    "contexto": "Um único modelo nas revistas",
+    "enunciado": "Revistas e perfis de redes sociais mostram com muita frequência um único modelo de corpo como se fosse o ideal para todo mundo. Qual leitura crítica é adequada diante disso?",
+    "alternativas": [
+      { "letra": "A", "texto": "Aceitar o que a mídia mostra como verdade universal", "correta": false, "etiqueta": "edf-acritico-midia" },
+      { "letra": "B", "texto": "Seguir o modelo da mídia como objetivo de vida", "correta": false, "etiqueta": "edf-acritico-midia" },
+      { "letra": "C", "texto": "Concluir que a mídia não influencia a forma como as pessoas pensam", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "D", "texto": "Perceber que a mídia constrói e vende modelos, e que a diversidade de corpos é natural e merece respeito", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Considerar que imagens de revistas nunca são editadas", "correta": false, "etiqueta": "edf-acritico-midia" }
+    ],
+    "explicacao": "A mídia seleciona e constrói imagens, e muitas vezes tem interesse comercial. Pessoas e corpos são diversos, e todos merecem respeito. Ler criticamente é perguntar quem mostra, o que mostra e para quê.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-corpo-e-sociedade-005", "materia": "educacao-fisica", "assunto": "corpo-e-sociedade", "questionario": 1, "dificuldade": 1,
+    "contexto": "Filtros e fotos editadas",
+    "enunciado": "Aplicativos permitem editar fotos e vídeos com filtros que suavizam e modificam traços, e muita gente compara a própria imagem com o que vê nas redes. Qual análise é a mais adequada sobre isso?",
+    "alternativas": [
+      { "letra": "A", "texto": "Imagens editadas não representam a realidade, e comparar-se a elas pode gerar insatisfação, por isso é importante ter olhar crítico", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Imagens editadas sempre são fiéis à realidade", "correta": false, "etiqueta": "edf-acritico-midia" },
+      { "letra": "C", "texto": "Quem usa filtros tem sempre a intenção de enganar", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "D", "texto": "Comparar-se a imagens das redes é sempre positivo", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "E", "texto": "Redes sociais não têm nenhuma relação com a imagem que as pessoas fazem de si", "correta": false, "etiqueta": "edf-ignorou-contexto" }
+    ],
+    "explicacao": "Uma imagem editada é uma versão construída, e se comparar a ela pode causar desconforto sem necessidade. Desenvolver um olhar crítico ajuda a lidar melhor com o que se vê. Nem todo uso de filtro tem intenção de enganar.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-corpo-e-sociedade-006", "materia": "educacao-fisica", "assunto": "corpo-e-sociedade", "questionario": 2, "dificuldade": -1,
+    "contexto": "Apelidos que humilham",
+    "enunciado": "Na escola, alguns colegas repetem apelidos e piadas que humilham outros por características físicas. Como essa prática deve ser entendida?",
+    "alternativas": [
+      { "letra": "A", "texto": "Como brincadeira inofensiva", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "B", "texto": "Como competição saudável", "correta": false, "etiqueta": "edf-confundiu-conceito" },
+      { "letra": "C", "texto": "Como bullying, uma forma de violência que deve ser combatida", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Como forma de integração do grupo", "correta": false, "etiqueta": "edf-confundiu-conceito" },
+      { "letra": "E", "texto": "Como esporte de contato", "correta": false, "etiqueta": "edf-confundiu-categoria" }
+    ],
+    "explicacao": "Piadas e apelidos repetidos que humilham alguém são bullying, que causa sofrimento e deve ser enfrentado com diálogo e respeito. Brincadeira de verdade é aquela de que todos riem juntos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-corpo-e-sociedade-007", "materia": "educacao-fisica", "assunto": "corpo-e-sociedade", "questionario": 2, "dificuldade": -1,
+    "contexto": "Todo mundo joga",
+    "enunciado": "Numa aula de Educação Física, o professor garante que todos tenham direito de participar, independentemente de gênero, habilidade ou condição, adaptando a atividade quando necessário. Essa postura se baseia em qual princípio?",
+    "alternativas": [
+      { "letra": "A", "texto": "Inclusão e respeito à diversidade", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Seleção dos mais habilidosos", "correta": false, "etiqueta": "edf-so-rendimento" },
+      { "letra": "C", "texto": "Competição obrigatória", "correta": false, "etiqueta": "edf-so-rendimento" },
+      { "letra": "D", "texto": "Separação fixa por habilidade em todos os momentos", "correta": false, "etiqueta": "edf-ignorou-inclusao" },
+      { "letra": "E", "texto": "Dispensa de quem tem alguma dificuldade", "correta": false, "etiqueta": "edf-ignorou-inclusao" }
+    ],
+    "explicacao": "Garantir a participação de todos, com adaptações quando preciso, é inclusão. Selecionar os melhores, dispensar alguém ou separar sempre por habilidade vai na direção contrária.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-corpo-e-sociedade-008", "materia": "educacao-fisica", "assunto": "corpo-e-sociedade", "questionario": 2, "dificuldade": 0,
+    "contexto": "Do chão de fábrica ao home office",
+    "enunciado": "Na Revolução Industrial, trabalhadores cumpriam longas jornadas em movimentos repetitivos nas fábricas. Hoje, muita gente passa horas em tarefas repetitivas no computador. Qual cuidado ajuda a reduzir tensões e lesões por esforço repetitivo?",
+    "alternativas": [
+      { "letra": "A", "texto": "Ignorar a postura durante o trabalho", "correta": false, "etiqueta": "edf-regra-errada" },
+      { "letra": "B", "texto": "Trabalhar mais horas seguidas, sem pausas", "correta": false, "etiqueta": "edf-regra-errada" },
+      { "letra": "C", "texto": "Usar apenas medicamentos quando houver dor", "correta": false, "etiqueta": "edf-saude-so-doenca" },
+      { "letra": "D", "texto": "Adaptar o ambiente e fazer pausas com movimento, aplicando princípios de ergonomia", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Alongar-se apenas nos fins de semana", "correta": false, "etiqueta": "edf-regra-errada" }
+    ],
+    "explicacao": "Ergonomia é adaptar o ambiente e as tarefas à pessoa, com apoio, postura adequada e pausas. Prevenir é melhor que tratar só quando a dor aparece, e o movimento deve fazer parte da rotina diária.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-corpo-e-sociedade-009", "materia": "educacao-fisica", "assunto": "corpo-e-sociedade", "questionario": 2, "dificuldade": 0,
+    "contexto": "Coisa de menino, coisa de menina",
+    "enunciado": "Frases como “dança é coisa de menina” e “futebol é coisa de menino” ainda são ouvidas em escolas e quadras. Elas são exemplos de:",
+    "alternativas": [
+      { "letra": "A", "texto": "fatos biológicos comprovados", "correta": false, "etiqueta": "edf-confundiu-conceito" },
+      { "letra": "B", "texto": "estereótipos de gênero, que limitam o acesso das pessoas a práticas corporais", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "regras oficiais das modalidades", "correta": false, "etiqueta": "edf-regra-errada" },
+      { "letra": "D", "texto": "direitos garantidos por lei", "correta": false, "etiqueta": "edf-confundiu-conceito" },
+      { "letra": "E", "texto": "tradições que devem ser mantidas", "correta": false, "etiqueta": "edf-ignorou-contexto" }
+    ],
+    "explicacao": "Essas frases repetem ideias socialmente construídas sobre o que cada gênero deveria fazer, e impedem muita gente de experimentar práticas de que gostaria. Dança e futebol podem ser praticados por qualquer pessoa.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-corpo-e-sociedade-010", "materia": "educacao-fisica", "assunto": "corpo-e-sociedade", "questionario": 2, "dificuldade": 1,
+    "contexto": "O corpo ao longo da história",
+    "enunciado": "Na Grécia Antiga, a ginástica e os jogos faziam parte da formação dos cidadãos. Na Idade Média, a influência da Igreja fez prevalecer a ideia de que o espírito merecia mais atenção que o corpo. O que essas diferenças indicam sobre a forma de entender o corpo?",
+    "alternativas": [
+      { "letra": "A", "texto": "Que o corpo sempre foi tratado do mesmo jeito em todas as épocas", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "B", "texto": "Que só os gregos davam importância ao corpo", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "C", "texto": "Que na Idade Média todas as práticas corporais deixaram de existir", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "D", "texto": "Que o corpo só tem importância em contextos de guerra", "correta": false, "etiqueta": "edf-fuga-do-tema" },
+      { "letra": "E", "texto": "Que as formas de pensar e tratar o corpo variam conforme a época e os valores de cada sociedade", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "A maneira de valorizar ou limitar as práticas corporais muda com a época, a religião e a organização social. Isso mostra que a concepção de corpo é histórica, e não fixa.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-corpo-e-sociedade-011", "materia": "educacao-fisica", "assunto": "corpo-e-sociedade", "questionario": 3, "dificuldade": -1,
+    "contexto": "Hidroginástica na terceira idade",
+    "enunciado": "Um centro comunitário oferece aulas de caminhada e hidroginástica para pessoas idosas. Qual é o principal objetivo desse tipo de programa?",
+    "alternativas": [
+      { "letra": "A", "texto": "Preparar atletas para os Jogos Olímpicos", "correta": false, "etiqueta": "edf-so-rendimento" },
+      { "letra": "B", "texto": "Promover saúde, autonomia e convivência na velhice", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Substituir totalmente o acompanhamento médico", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "D", "texto": "Provocar competições de rendimento entre os participantes", "correta": false, "etiqueta": "edf-so-rendimento" },
+      { "letra": "E", "texto": "Manter as pessoas idosas isoladas", "correta": false, "etiqueta": "edf-ignorou-inclusao" }
+    ],
+    "explicacao": "Esses programas favorecem a saúde, a autonomia para as tarefas do dia a dia e o encontro com outras pessoas. Não têm foco em rendimento e não substituem o acompanhamento de saúde.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-corpo-e-sociedade-012", "materia": "educacao-fisica", "assunto": "corpo-e-sociedade", "questionario": 3, "dificuldade": 0,
+    "contexto": "O tênis do anúncio",
+    "enunciado": "Uma propaganda diz que só é possível praticar atividade física com roupas e tênis de determinada marca, apresentados como indispensáveis. Qual análise crítica é a mais adequada?",
+    "alternativas": [
+      { "letra": "A", "texto": "Sem aquela marca não é possível se exercitar", "correta": false, "etiqueta": "edf-acritico-midia" },
+      { "letra": "B", "texto": "A marca determina sempre o desempenho de quem pratica", "correta": false, "etiqueta": "edf-acritico-midia" },
+      { "letra": "C", "texto": "Quem não compra o produto deve desistir da prática", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "D", "texto": "A publicidade nunca influencia o consumo", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "E", "texto": "É possível se exercitar com materiais acessíveis, e o consumo de produtos nem sempre é necessário", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "A propaganda tem interesse em vender. Dá para se movimentar com roupas e calçados simples, e a prática não depende de uma marca específica. Olhar criticamente ajuda a separar necessidade de consumo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-corpo-e-sociedade-013", "materia": "educacao-fisica", "assunto": "corpo-e-sociedade", "questionario": 3, "dificuldade": 0,
+    "contexto": "Dança inclusiva",
+    "enunciado": "Um grupo de dança inclusiva reúne pessoas com e sem deficiência e cria os movimentos a partir das possibilidades de cada pessoa. O que essa proposta valoriza?",
+    "alternativas": [
+      { "letra": "A", "texto": "Uma única técnica correta de movimento", "correta": false, "etiqueta": "edf-receita-unica" },
+      { "letra": "B", "texto": "A uniformidade dos gestos, iguais para todos", "correta": false, "etiqueta": "edf-receita-unica" },
+      { "letra": "C", "texto": "A diversidade de corpos e formas de se mover como riqueza expressiva", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "A exclusão de quem não segue um modelo", "correta": false, "etiqueta": "edf-ignorou-inclusao" },
+      { "letra": "E", "texto": "A competição por pontuação entre os participantes", "correta": false, "etiqueta": "edf-so-rendimento" }
+    ],
+    "explicacao": "Na dança inclusiva, a diversidade de jeitos de se mover é a matéria-prima da criação. Em vez de exigir um modelo único, o grupo parte das possibilidades de cada pessoa.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-corpo-e-sociedade-014", "materia": "educacao-fisica", "assunto": "corpo-e-sociedade", "questionario": 3, "dificuldade": 1,
+    "contexto": "Felicidade em promoção",
+    "enunciado": "Um anúncio afirma que a felicidade depende de comprar um produto específico para transformar o corpo. Que análise crítica é a mais adequada?",
+    "alternativas": [
+      { "letra": "A", "texto": "Associar felicidade ao consumo é estratégia comercial, e o bem-estar depende de fatores variados, não de um produto", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Anúncios sempre dizem toda a verdade", "correta": false, "etiqueta": "edf-acritico-midia" },
+      { "letra": "C", "texto": "A felicidade só vem de produtos", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "D", "texto": "Anúncios nunca têm público definido", "correta": false, "etiqueta": "edf-fuga-do-tema" },
+      { "letra": "E", "texto": "O consumo não tem relação com a cultura corporal", "correta": false, "etiqueta": "edf-ignorou-contexto" }
+    ],
+    "explicacao": "Anúncios muitas vezes vendem uma promessa de bem-estar para estimular a compra. O bem-estar vem de muitos fatores, como relações, lazer, saúde e sentido, e nenhum produto garante isso sozinho.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-corpo-e-sociedade-015", "materia": "educacao-fisica", "assunto": "corpo-e-sociedade", "questionario": 3, "dificuldade": 1,
+    "contexto": "Quadra sem rampa",
+    "enunciado": "Uma quadra pública de um bairro só pode ser acessada por escadas, sem rampa nem espaço adaptado. Considerando o direito ao lazer e à prática de esportes, o que essa situação exige?",
+    "alternativas": [
+      { "letra": "A", "texto": "Que quem não consegue entrar fique sem o espaço", "correta": false, "etiqueta": "edf-ignorou-inclusao" },
+      { "letra": "B", "texto": "Que rampas sejam vistas como luxo", "correta": false, "etiqueta": "edf-ignorou-inclusao" },
+      { "letra": "C", "texto": "Que a acessibilidade importe apenas para atletas", "correta": false, "etiqueta": "edf-so-rendimento" },
+      { "letra": "D", "texto": "Que o espaço seja adaptado, pois o direito ao lazer e ao esporte inclui acessibilidade para todas as pessoas", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Que cada pessoa se adapte sozinha ao espaço", "correta": false, "etiqueta": "edf-ignorou-contexto" }
+    ],
+    "explicacao": "Direito ao lazer e ao esporte só existe de verdade se o espaço for acessível. A adaptação é responsabilidade coletiva e do poder público, e não de quem tem dificuldade de acesso.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-corpo-e-sociedade-016", "materia": "educacao-fisica", "assunto": "corpo-e-sociedade", "questionario": 4, "dificuldade": -1,
+    "contexto": "Cada um no seu ritmo",
+    "enunciado": "Numa aula de dança, a turma respeita o jeito de cada colega participar e evita comparações que constrangem. Que valor a turma está praticando?",
+    "alternativas": [
+      { "letra": "A", "texto": "Competição", "correta": false, "etiqueta": "edf-so-rendimento" },
+      { "letra": "B", "texto": "Indiferença", "correta": false, "etiqueta": "edf-confundiu-conceito" },
+      { "letra": "C", "texto": "Rendimento máximo", "correta": false, "etiqueta": "edf-so-rendimento" },
+      { "letra": "D", "texto": "Empatia e respeito às diferenças", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Seleção dos mais habilidosos", "correta": false, "etiqueta": "edf-so-rendimento" }
+    ],
+    "explicacao": "Respeitar o jeito e o ritmo de cada pessoa é um exercício de empatia e valorização das diferenças. Comparações que constrangem afastam as pessoas da prática.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-corpo-e-sociedade-017", "materia": "educacao-fisica", "assunto": "corpo-e-sociedade", "questionario": 4, "dificuldade": 0,
+    "contexto": "Cidade como pista",
+    "enunciado": "Jovens usam escadas, muretas e corrimãos da cidade para praticar parkour e skate. Que interpretação cultural é adequada para essa prática?",
+    "alternativas": [
+      { "letra": "A", "texto": "Mostra que a cidade só pode ter o uso previsto no planejamento", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "B", "texto": "Mostra jovens ressignificando o espaço urbano como lugar de prática corporal e expressão", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Mostra que essas práticas só ocorrem dentro de ginásios", "correta": false, "etiqueta": "edf-regra-errada" },
+      { "letra": "D", "texto": "Mostra que são práticas proibidas em qualquer lugar", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "E", "texto": "Mostra que servem somente para competição", "correta": false, "etiqueta": "edf-so-rendimento" }
+    ],
+    "explicacao": "Parkour e skate dão novos usos aos elementos da cidade e ajudam a criar identidade e convivência entre jovens. Nem toda prática precisa de espaço fechado ou de competição.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-corpo-e-sociedade-018", "materia": "educacao-fisica", "assunto": "corpo-e-sociedade", "questionario": 4, "dificuldade": 0,
+    "contexto": "Posturas e respiração",
+    "enunciado": "Uma prática corporal que combina posturas, controle da respiração e meditação tem origem milenar e é muito difundida hoje em dia. De qual país ela é originária?",
+    "alternativas": [
+      { "letra": "A", "texto": "Índia", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Brasil", "correta": false, "etiqueta": "edf-origem-errada" },
+      { "letra": "C", "texto": "Japão", "correta": false, "etiqueta": "edf-origem-errada" },
+      { "letra": "D", "texto": "Grécia", "correta": false, "etiqueta": "edf-origem-errada" },
+      { "letra": "E", "texto": "França", "correta": false, "etiqueta": "edf-origem-errada" }
+    ],
+    "explicacao": "O yoga é uma prática de origem indiana, com posturas, respiração e meditação. Ele foi adaptado em muitos lugares do mundo e hoje tem diversas formas de prática.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-corpo-e-sociedade-019", "materia": "educacao-fisica", "assunto": "corpo-e-sociedade", "questionario": 4, "dificuldade": 1,
+    "contexto": "Quem aparece na transmissão",
+    "enunciado": "Num levantamento fictício feito por uma turma, as modalidades esportivas femininas ocupavam muito menos tempo na TV aberta e recebiam bem menos patrocínio que as masculinas. Que leitura é a mais adequada?",
+    "alternativas": [
+      { "letra": "A", "texto": "Mostra que o público não se interessa por esporte feminino por natureza", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "B", "texto": "Não tem relação alguma com a mídia", "correta": false, "etiqueta": "edf-ignorou-contexto" },
+      { "letra": "C", "texto": "É natural e inevitável, e não pode ser mudado", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "D", "texto": "Só vale para o Brasil e para nenhum outro país", "correta": false, "etiqueta": "edf-fuga-do-tema" },
+      { "letra": "E", "texto": "Reflete desigualdades de gênero na visibilidade e nos investimentos, que podem ser debatidas e transformadas", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "A diferença de espaço e de patrocínio depende de decisões de mercado e de mídia, que carregam desigualdades históricas. Por serem construídas socialmente, podem ser debatidas e mudadas. Atribuir a diferença à natureza do público é uma explicação simplista.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "edf-corpo-e-sociedade-020", "materia": "educacao-fisica", "assunto": "corpo-e-sociedade", "questionario": 4, "dificuldade": 1,
+    "contexto": "Conhecer os próprios limites",
+    "enunciado": "Entre as finalidades da Educação Física escolar está desenvolver autonomia e consciência crítica sobre as práticas corporais. Nesse sentido, perceber os próprios limites e possibilidades ao se movimentar, sem se comparar com padrões alheios, contribui para:",
+    "alternativas": [
+      { "letra": "A", "texto": "aumentar a competição entre colegas", "correta": false, "etiqueta": "edf-so-rendimento" },
+      { "letra": "B", "texto": "uniformizar os resultados de todos", "correta": false, "etiqueta": "edf-receita-unica" },
+      { "letra": "C", "texto": "o autoconhecimento e a autonomia nas escolhas de cuidado e de prática", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "evitar qualquer tipo de atividade", "correta": false, "etiqueta": "edf-extremo" },
+      { "letra": "E", "texto": "depender sempre da aprovação dos outros", "correta": false, "etiqueta": "edf-fuga-do-tema" }
+    ],
+    "explicacao": "Conhecer o próprio ritmo e as próprias possibilidades ajuda cada pessoa a escolher práticas que façam sentido para ela, com autonomia. A comparação constante com padrões alheios atrapalha esse processo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]

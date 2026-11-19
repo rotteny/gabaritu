@@ -1,0 +1,327 @@
+[
+  {
+    "etiqueta": "ing-palavra-solta",
+    "fofo": [
+      "Essa palavra estava no texto mesmo, só não estava respondendo nada. Tá quase!",
+      "Foi no que brilhou mais, né? Da próxima, olha também a pergunta.",
+      "Até eu, que sou peixe, já peguei isca só pelo brilho. Acontece!",
+      "Achou a palavra certa na alternativa errada. Quase um achado!",
+      "Calma, respira: ler a pergunta antes das alternativas vira seu superpoder."
+    ],
+    "sarc": [
+      "A palavra estava no texto, parabéns. A resposta é que não estava.",
+      "Ah, claro: se aparece no texto, tem que ser a resposta. Lógica de caça-palavras.",
+      "Procurou a palavra igual e achou. Interpretar que é bom, nada ainda.",
+      "Que rapidez para achar a palavra repetida. Pena que ela não respondia nada.",
+      "Dedo rápido, leitura em modo econômico. Uma combinação interessante."
+    ],
+    "sem": [
+      "CAÇA-PALAVRAS NÃO É PROVA DE INTERPRETAÇÃO!!!",
+      "A PALAVRA REPETIDA ERA UMA ISCA E VOCÊ MORDEU COM FÚRIA!",
+      "O TEXTO GRITOU A RESPOSTA E VOCÊ FOI ATRÁS DE UMA PALAVRINHA SOLTA!",
+      "EU FICO INFLADO DE TANTA PALAVRA SOLTA, E ISSO NEM É POR CAUSA DO SUSTO!",
+      "FOI NA PRIMEIRA PALAVRA PARECIDA COMO QUEM PEGA O PRIMEIRO ÔNIBUS SEM VER O DESTINO!"
+    ],
+    "reserva": "Palavra repetida no texto não quer dizer resposta certa. Primeiro a pergunta, depois a caça ao tesouro."
+  },
+  {
+    "etiqueta": "ing-falso-cognato",
+    "fofo": [
+      "Ele é parecido com o português só pra enganar a gente. Já me pegou várias vezes!",
+      "A palavra deu uma de gêmea do português, mas é prima distante. Quase!",
+      "Todo mundo cai nessa pelo menos uma vez. Agora você já sabe da pegadinha!",
+      "Falso cognato é tipo o vizinho que se parece com seu primo. Confunde mesmo.",
+      "Boa tentativa! Anote essa palavra no caderninho que ela volta na prova."
+    ],
+    "sarc": [
+      "Parece português, soa português, mas não é português. Surpresa!",
+      "A palavra disse que era amiga, e você acreditou. Muito confiável, essa leitura.",
+      "Quando em dúvida, finja que é português. Funciona sempre, né? (Não funciona.)",
+      "Que fé na semelhança entre as palavras. O dicionário manda lembranças.",
+      "Se fosse tudo igual ao português, ninguém precisava de aula de inglês."
+    ],
+    "sem": [
+      "FALSO COGNATO PEGOU VOCÊ COM A MÃO NA MASSA!!!",
+      "A PALAVRA SE FEZ DE AMIGA E DEU A FACADA PELAS COSTAS!",
+      "UM FALSO COGNATO DERRUBOU TUDO E AINDA SAIU ASSOBIANDO!",
+      "O INGLÊS SÓ ESTAVA FINGINDO SER PORTUGUÊS E VOCÊ CAIU TODINHO!",
+      "FALSO COGNATO, VERDADEIRO DRAMA: A DERROTA FOI FEITA EM CASA!"
+    ],
+    "reserva": "Falso cognato é palavra que pisca em português e fala outra língua. Desconfie de sósia."
+  },
+  {
+    "etiqueta": "ing-extrapolou",
+    "fofo": [
+      "Sua imaginação é ótima, mas o texto não disse isso. Fica pra fanfic!",
+      "Você foi além do texto. Se for o caso, escreve o final alternativo depois!",
+      "Quase sensata! Só que o texto não deu esse dado. A prova cobra o que está escrito.",
+      "Detetive de mão cheia, só falta provar com o texto. Tenta de novo!",
+      "Ideia criativa! Mas aqui a regra é: se não está escrito, não vale."
+    ],
+    "sarc": [
+      "Inventou um enredo novo, hein? O autor do texto vai querer direitos autorais.",
+      "O texto não disse isso, mas você disse bem alto. Confiança é tudo.",
+      "Uau, leu nas entrelinhas até o que nem estava escrito.",
+      "Que imaginação! Pena que a prova cobra a leitura, não a fanfic.",
+      "Interpretar é uma coisa, inventar é outra. Você está de olho na segunda."
+    ],
+    "sem": [
+      "O TEXTO NÃO DISSE ISSO!!! DE ONDE VOCÊ TIROU ESSA HISTÓRIA?!",
+      "VIROU ROTEIRISTA DE NOVELA E NINGUÉM AVISOU O AUTOR!",
+      "VOCÊ LEU ATÉ O QUE NÃO ESTAVA ESCRITO. QUE PODER É ESSE?!",
+      "PAROU DE INTERPRETAR E COMEÇOU A ESCREVER UM LIVRO NOVO!",
+      "ESSA ALTERNATIVA É UM UNIVERSO PARALELO E NINGUÉM TE PEDIU VIAGEM!"
+    ],
+    "reserva": "Na prova de interpretação, a resposta tem que caber no texto. Imaginação fica para depois."
+  },
+  {
+    "etiqueta": "ing-detalhe-central",
+    "fofo": [
+      "Essa informação está no texto, mas não é o assunto principal. Foi por pouco!",
+      "Você pegou um detalhe bonito. A pergunta pedia o quadro geral.",
+      "Olhou a árvore bonita, mas a pergunta queria a floresta. Acontece!",
+      "Boa leitura de detalhe! Só falta subir um degrau e ver a ideia geral.",
+      "Detalhe certo, pergunta errada. Quase um empate!"
+    ],
+    "sarc": [
+      "Um detalhe e tanto! Pena que a pergunta era sobre outra coisa.",
+      "Ver só o detalhe é um talento. Ver o todo seria um bônus.",
+      "Esse trecho está mesmo no texto. Falta só ele ser o assunto principal.",
+      "Escolheu o figurante como protagonista. Muito corajoso.",
+      "Achou o detalhe e esqueceu o resto do filme."
+    ],
+    "sem": [
+      "VIROU O FIGURANTE NO ASTRO DO FILME!!!",
+      "O DETALHE NÃO É A IDEIA PRINCIPAL, MEU CAMPEÃO!",
+      "ENFIOU O NARIZ NUMA MIGALHA E PERDEU O BOLO INTEIRO!",
+      "VOCÊ FOTOGRAFOU O RODAPÉ E FINGIU QUE ERA O QUADRO!",
+      "EU TAMBÉM ME DISTRAIO COM DETALHE, MAS O ASSUNTO PRINCIPAL AINDA MANDA AQUI!"
+    ],
+    "reserva": "Detalhe é bom, mas nem todo detalhe é a ideia central. Dá um passo atrás e olha o texto todo."
+  },
+  {
+    "etiqueta": "ing-ignorou-negacao",
+    "fofo": [
+      "Aquele not minúsculo se escondeu bem. Da próxima você o pega!",
+      "Foi só um not que passou despercebido. Acontece com os melhores!",
+      "Dica rápida: sublinha as negações (not, never, nobody) quando ler.",
+      "O texto negou, você afirmou. Quase na mesma direção, só que ao contrário!",
+      "Uma palavrinha pequena derrubou tudo. Vale conferir o not antes de marcar."
+    ],
+    "sarc": [
+      "O not estava ali, em letras nítidas. Mas você foi de olhos fechados.",
+      "Lendo sem o not, tudo fica mais positivo. Só que errado.",
+      "Parabéns, você entendeu exatamente o oposto do que estava escrito.",
+      "O texto falou não, e você ouviu sim. Seletividade é uma arte.",
+      "Que otimismo: onde o texto disse never, você leu always."
+    ],
+    "sem": [
+      "O NOT ESTAVA LÁ!!! IMENSO, SOLENE, E VOCÊ PASSOU DIRETO!",
+      "UMA NEGAÇÃO TRANSFORMOU TUDO EM TRAGÉDIA E VOCÊ NEM PERCEBEU!",
+      "NEGAÇÃO IGNORADA É RESPOSTA JOGADA FORA!",
+      "O TEXTO DISSE NÃO E VOCÊ ENTENDEU SIM COM TODAS AS FORÇAS!",
+      "UM NOT PEQUENINO DERRUBOU UM GIGANTE, E O GIGANTE ERA VOCÊ!"
+    ],
+    "reserva": "Not, never, nobody: palavrinhas pequenas que viram o sentido de cabeça para baixo. Confira antes de marcar."
+  },
+  {
+    "etiqueta": "ing-traducao-literal",
+    "fofo": [
+      "Traduzir palavra por palavra é tentador, mas o inglês gosta de pregar peça!",
+      "Quase! A expressão tem sentido próprio, que não aparece na tradução literal.",
+      "Todo mundo tenta isso uma vez. Expressão não se traduz, se entende.",
+      "Se tem pedaço de bolo na frase, vale conferir se é bolo mesmo!",
+      "Boa tentativa! Olha o contexto quando a tradução ficar esquisita."
+    ],
+    "sarc": [
+      "Traduzir cada palavra com carinho e perder o sentido de todas. Dedicação!",
+      "Ao pé da letra, tudo é possível. Só o sentido que não aparece.",
+      "O tradutor automático em você deve estar orgulhoso.",
+      "Quando a frase fica estranha em português, talvez o problema seja a tradução.",
+      "Ótima tradução! Só faltou a parte em que a frase faz sentido."
+    ],
+    "sem": [
+      "PALAVRA POR PALAVRA E NENHUM SENTIDO NO FINAL!!!",
+      "A EXPRESSÃO NÃO É PARA SER TRADUZIDA AO PÉ DA LETRA, COMPADRE!",
+      "TRADUÇÃO LITERAL ATACOU DE NOVO E DEIXOU UM RASTRO DE DESTRUIÇÃO!",
+      "VOCÊ TRADUZIU E O SENTIDO FOI EMBORA SEM SE DESPEDIR!",
+      "DAQUI A POUCO A TRADUÇÃO VIRA PIADA E AÍ NINGUÉM TE SEGURA!"
+    ],
+    "reserva": "Expressão é como piada interna: só faz sentido quando você conhece o contexto."
+  },
+  {
+    "etiqueta": "ing-intencao-errada",
+    "fofo": [
+      "Todo texto é escrito para alguma coisa. Pergunta: quem escreveu queria vender, avisar ou pedir?",
+      "Quase! Vale olhar o gênero antes: anúncio, convite, aviso, notícia.",
+      "Seu palpite foi criativo, mas o texto tinha outro objetivo. Respira e relê!",
+      "Dica de ouro: ver quem escreve e para quem ajuda a achar a intenção.",
+      "Intenção é como o tom de voz do texto: às vezes escondido, mas sempre existe."
+    ],
+    "sarc": [
+      "Anúncio virou convite, convite virou aviso. Texto de múltiplas identidades.",
+      "Você identificou um objetivo, só que não era o do texto.",
+      "Se fosse esse o propósito, o texto teria outro título.",
+      "Que leitura original: o autor com certeza quis dizer algo bem diferente do que escreveu.",
+      "Vender, pedir, convidar... você sorteou, né?"
+    ],
+    "sem": [
+      "O TEXTO QUERIA UMA COISA E VOCÊ ENTENDEU OUTRA, QUE CAOS!!!",
+      "CONFUNDIU UM ANÚNCIO COM UM TESTAMENTO! COMO ASSIM?!",
+      "A INTENÇÃO DO AUTOR FOI PARA UM LADO E VOCÊ FOI PARA O OUTRO, EM VELOCIDADE MÁXIMA!",
+      "O GÊNERO ERA UM E VOCÊ ENXERGOU OUTRO, SERÁ QUE FOI O NEVOEIRO?!",
+      "ERROU O PROPÓSITO DO TEXTO COM UMA CONFIANÇA QUE EU ATÉ ADMIRO!"
+    ],
+    "reserva": "Antes de responder, pergunte: quem escreveu isso e para quê? O resto vem fácil."
+  },
+  {
+    "etiqueta": "ing-referente-errado",
+    "fofo": [
+      "O pronome apontou para outro lugar. Dica: procura o último substantivo compatível!",
+      "Quase! It, they e which sempre voltam para alguém. Basta achar quem.",
+      "Pronome é como sombra: sempre vai atrás de algum termo. Cadê ele?",
+      "Tudo bem, é fácil confundir. Substitui o pronome pela alternativa e vê se faz sentido.",
+      "Achou um termo, mas não o certo. Já está perto!"
+    ],
+    "sarc": [
+      "O pronome estava apontando pra um lado e você olhou pro outro.",
+      "Uma conexão feita com tanta convicção e tão pouca checagem.",
+      "O referente não era esse, mas a confiança estava ótima.",
+      "It virou ele, ela, aquilo, tudo. Menos o que o texto pedia.",
+      "Se o pronome pudesse falar, diria: não sou eu, é outra pessoa."
+    ],
+    "sem": [
+      "O PRONOME APONTOU PARA UM LADO E VOCÊ FOI ENCONTRAR OUTRO TERMO NO MEIO DO MATO!!!",
+      "REFERENTE ERRADO! O PRONOME ESTÁ ATÔNITO E EU TAMBÉM!",
+      "VOCÊ LIGOU O PRONOME À PALAVRA ERRADA COMO QUEM TROCA DE PAR NO BAILE!",
+      "O IT TÁ PERDIDO, O WHICH TÁ PERDIDO E VOCÊ TAMBÉM!",
+      "É UM PRONOME, NÃO UMA ROLETA RUSSA!"
+    ],
+    "reserva": "Pronome sempre aponta para alguém. Descubra quem, e metade da questão está resolvida."
+  },
+  {
+    "etiqueta": "ing-conector-errado",
+    "fofo": [
+      "Conector é a cola das ideias. Dessa vez a cola grudou no lugar errado!",
+      "Quase! But, because e so mudam completamente a relação entre as frases.",
+      "Boa tentativa. Antes de marcar, pergunta: isso é contraste, causa ou soma?",
+      "Os conectores são pequenos, mas mandam muito no sentido do texto.",
+      "Um although virou because e pronto. Fica de olho nessas peças!"
+    ],
+    "sarc": [
+      "Contraste virou causa. Que criatividade na hora de ligar ideias.",
+      "Se fosse because, a frase seria outra. Mas tudo bem, você deve ter um plano.",
+      "Conectou as ideias de um jeito que nem o autor imaginava.",
+      "O although agradece pela atenção, mas virou outra coisa na sua cabeça.",
+      "But, so, because... tudo parece igual quando a gente não olha."
+    ],
+    "sem": [
+      "O CONECTOR ESTAVA GRITANDO CONTRASTE E VOCÊ LEU CAUSA!!!",
+      "VOCÊ TROCOU UM BUT POR UM SO E O TEXTO CAIU EM CHAMAS!",
+      "CONECTOR INVERTIDO: A IDEIA FOI PARA UM LADO E A RESPOSTA, PARA O OUTRO!",
+      "ALTHOUGH VIROU BECAUSE E UM ALUNO SUMIU NO MEIO DA CONFUSÃO!",
+      "ESSA LIGAÇÃO NÃO SE SUSTENTA NEM COM OITO PALAVRAS DE COLA!"
+    ],
+    "reserva": "Conector é a seta que diz para onde a ideia vai: contraste, causa, soma ou condição. Siga a seta."
+  },
+  {
+    "etiqueta": "ing-tempo-verbal",
+    "fofo": [
+      "O tempo do verbo entregou a resposta, só faltou olhar. Quase!",
+      "Passado, presente ou futuro? Uma conferida rápida no verbo resolve.",
+      "Dica: procure marcas como yesterday, will, -ed e -ing. Elas dizem quando.",
+      "Quase certo! O verbo estava avisando o momento da ação.",
+      "Verbo é um relógio. Dessa vez ele marcou outra hora, mas dá pra acertar!"
+    ],
+    "sarc": [
+      "Viajou no tempo sem avisar. O verbo estava no passado e você, no futuro.",
+      "O verbo dizia ontem e você entendeu amanhã. Máquina do tempo?",
+      "O tempo verbal estava na frase. Faltou só olhar para ele.",
+      "Que fluidez para trocar passado por presente. O texto não perdoou.",
+      "Ontem, hoje, amanhã... tudo parece igual quando não se lê o verbo."
+    ],
+    "sem": [
+      "O VERBO ESTAVA NO PASSADO E VOCÊ NO FUTURO, QUE DESCONTROLE!!!",
+      "VOCÊ EMBARCOU NA MÁQUINA DO TEMPO E ESQUECEU O VERBO NO CAMINHO!",
+      "O TEMPO VERBAL ERA UM RELÓGIO E VOCÊ OLHOU PARA O CALENDÁRIO ERRADO!",
+      "WILL, WAS, IS... VOCÊ DECIDIU QUE TUDO ISSO É A MESMA COISA?!",
+      "ESSE VERBO ESTAVA GRITANDO O MOMENTO E VOCÊ COM FONE DE OUVIDO!"
+    ],
+    "reserva": "Cada verbo conta quando a ação acontece. Escute o relógio dele antes de responder."
+  },
+  {
+    "etiqueta": "ing-sentido-errado",
+    "fofo": [
+      "Essa palavra tem vários sentidos, e você achou um deles. Falta o do texto!",
+      "Quase! O contexto é quem escolhe qual significado vale aqui.",
+      "Palavra com mais de um sentido pega todo mundo. Pergunta pro texto!",
+      "Boa tentativa com o significado mais comum. Agora, olha em volta.",
+      "Dica: leia a frase toda antes de decidir o que a palavra quer dizer."
+    ],
+    "sarc": [
+      "Um sentido legítimo da palavra, só que de outro texto.",
+      "A palavra tem cinco significados e você escolheu um que não está na frase.",
+      "O dicionário concorda com você. O contexto, nem tanto.",
+      "Sentido certo, texto errado. Quase uma peça de museu.",
+      "Escolheu o significado mais popular e fugiu do contexto. Clássico!"
+    ],
+    "sem": [
+      "A PALAVRA TEM MIL SENTIDOS E VOCÊ PEGOU O ÚNICO QUE NÃO SERVIA!!!",
+      "O CONTEXTO GRITOU QUAL ERA O SENTIDO E VOCÊ COM MÚSICA ALTA!",
+      "VOCÊ PEGOU UM SENTIDO DE OUTRA FRASE, DE OUTRO TEXTO, DE OUTRO UNIVERSO!",
+      "SENTIDO ERRADO, CONFIANÇA GIGANTE, DRAMA GARANTIDO!",
+      "PALAVRA PLURAL, ALUNO SINGULAR, RESULTADO TRÁGICO!"
+    ],
+    "reserva": "Uma palavra pode ter vários sentidos. O contexto é quem escolhe qual vale."
+  },
+  {
+    "etiqueta": "ing-tom-errado",
+    "fofo": [
+      "O texto estava com um tom bem especial, e passou batido. Tá quase lá!",
+      "Ironia é difícil mesmo. Quando o elogio parece estranho, desconfie!",
+      "Dica: olhe a intenção por trás das palavras. O tom conta tanto quanto o conteúdo.",
+      "Fato e opinião às vezes se misturam. Procure pistas como I think, believe, best.",
+      "Quase! Dessa vez o autor estava só sendo irônico."
+    ],
+    "sarc": [
+      "O autor foi irônico e você levou a sério. Que bonito!",
+      "Elogiou, né? Foi assim que você entendeu a crítica mais amarga do dia.",
+      "Tom de voz do texto: ironia. Seu tom: sinceridade. Choque cultural.",
+      "Leu como notícia o que era opinião. Dedicação.",
+      "Interpretou ao contrário com todo o respeito."
+    ],
+    "sem": [
+      "O AUTOR ESTAVA DEBOCHANDO E VOCÊ ACHOU QUE ERA ELOGIO!!!",
+      "IRONIA PASSOU RASPANDO E VOCÊ NÃO SENTIU O VENTO!",
+      "OPINIÃO VIROU FATO E O TEXTO VIROU UM CAOS!",
+      "O TOM ERA DE CRÍTICA E VOCÊ LEU COMO PROPAGANDA!",
+      "VOCÊ LEU O TEXTO INTEIRO NO TOM ERRADO E AINDA CANTOU TRIUNFO!"
+    ],
+    "reserva": "Nem tudo que parece elogio é elogio. Confira o tom antes de marcar."
+  },
+  {
+    "etiqueta": "ing-generalizou",
+    "fofo": [
+      "O texto falou de um caso, mas você aplicou a todo mundo. Dica: cuidado com always e all!",
+      "Quase! Algumas pessoas não são todas as pessoas.",
+      "Generalizar é tentador, mas o texto não abraçou o mundo todo.",
+      "Dica: desconfie de alternativas com sempre, todos e nunca.",
+      "Boa ideia, mas o texto fala de alguns casos, não de uma regra geral."
+    ],
+    "sarc": [
+      "Um caso virou regra universal. Que ambição!",
+      "O texto falou de um, e você concluiu sobre todos. Que atalho.",
+      "Generalização de nível profissional, direto do texto para o universo.",
+      "Sempre, todos, nunca. Só falta o texto concordar.",
+      "Algumas pessoas viraram toda a humanidade. Um salto e tanto."
+    ],
+    "sem": [
+      "UM CASO VIROU REGRA E O TEXTO CHOROU DE SUSTO!!!",
+      "DE UM EXEMPLO PARA O UNIVERSO EM ZERO SEGUNDOS, PARABÉNS PELO FOGUETE!",
+      "O TEXTO FALOU DE ALGUNS E VOCÊ CONVOCOU O PLANETA INTEIRO!",
+      "ALWAYS, ALL, NEVER... EU ESTOU TONTO COM TANTO EXAGERO!",
+      "GENERALIZAR É O ESPORTE FAVORITO DA RESPOSTA ERRADA!"
+    ],
+    "reserva": "Alternativa com sempre, todos e nunca merece desconfiança. O texto raramente é tão radical."
+  }
+]

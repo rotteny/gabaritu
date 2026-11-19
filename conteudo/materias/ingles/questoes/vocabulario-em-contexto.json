@@ -1,0 +1,902 @@
+[
+  {
+    "id": "ing-vocabulario-em-contexto-001",
+    "materia": "ingles",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Almoço com amigos",
+    "enunciado": "\"I'm hungry. Let's have lunch at that new place. They serve great burgers.\"\n\nNo texto, o verbo \"serve\" significa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "servem de apoio.",
+        "correta": false,
+        "etiqueta": "ing-sentido-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "prestam o serviço militar.",
+        "correta": false,
+        "etiqueta": "ing-sentido-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "fazem o primeiro saque no tênis.",
+        "correta": false,
+        "etiqueta": "ing-sentido-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "oferecem, vendem (comida).",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "limpam a mesa.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      }
+    ],
+    "explicacao": "Em um restaurante, \"serve\" quer dizer colocar comida à disposição dos clientes. Os outros sentidos não combinam com \"burgers\".",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-vocabulario-em-contexto-002",
+    "materia": "ingles",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Jogo às cinco",
+    "enunciado": "\"The match starts at 5. Don't be late!\"\n\nNessa frase, \"late\" quer dizer",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "atrasado.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "falecido.",
+        "correta": false,
+        "etiqueta": "ing-sentido-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "recente.",
+        "correta": false,
+        "etiqueta": "ing-sentido-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "tarde da noite.",
+        "correta": false,
+        "etiqueta": "ing-traducao-literal"
+      },
+      {
+        "letra": "E",
+        "texto": "adiantado.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      }
+    ],
+    "explicacao": "\"Don't be late\" é uma recomendação de pontualidade: não se atrase. \"Late\" pode significar falecido ou tarde, mas não nesse contexto.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-vocabulario-em-contexto-003",
+    "materia": "ingles",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Decisão tomada",
+    "enunciado": "\"She made up her mind and signed up for the English course.\"\n\nA expressão \"made up her mind\" significa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "maquiou a cabeça.",
+        "correta": false,
+        "etiqueta": "ing-traducao-literal"
+      },
+      {
+        "letra": "B",
+        "texto": "inventou uma história.",
+        "correta": false,
+        "etiqueta": "ing-sentido-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "decidiu-se.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "mudou de ideia.",
+        "correta": false,
+        "etiqueta": "ing-sentido-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "ficou confusa.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      }
+    ],
+    "explicacao": "\"Make up one's mind\" é uma expressão fixa que quer dizer tomar uma decisão. A prova disso é que, logo depois, ela se inscreve no curso.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-vocabulario-em-contexto-004",
+    "materia": "ingles",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Bateria no fim",
+    "enunciado": "\"My phone ran out of battery during the trip.\"\n\nA expressão \"ran out of\" indica que a bateria",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "saiu correndo.",
+        "correta": false,
+        "etiqueta": "ing-traducao-literal"
+      },
+      {
+        "letra": "B",
+        "texto": "acabou.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "foi roubada.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "D",
+        "texto": "explodiu.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "foi carregada.",
+        "correta": false,
+        "etiqueta": "ing-sentido-errado"
+      }
+    ],
+    "explicacao": "\"Run out of\" significa ficar sem algo, esgotar-se. A tradução palavra por palavra (\"correu para fora\") não faz sentido.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-vocabulario-em-contexto-005",
+    "materia": "ingles",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 1,
+    "dificuldade": 1,
+    "contexto": "Barulho sem fim",
+    "enunciado": "\"I'm fed up with this noise. It's been going on for hours.\"\n\nA expressão \"fed up with\" expressa que a pessoa está",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "bem alimentada.",
+        "correta": false,
+        "etiqueta": "ing-traducao-literal"
+      },
+      {
+        "letra": "B",
+        "texto": "curiosa sobre o barulho.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "C",
+        "texto": "animada com a música.",
+        "correta": false,
+        "etiqueta": "ing-sentido-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "com fome.",
+        "correta": false,
+        "etiqueta": "ing-traducao-literal"
+      },
+      {
+        "letra": "E",
+        "texto": "farta, sem paciência.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "\"Fed up with\" quer dizer estar cheio de algo, sem aguentar mais. O trecho \"for hours\" reforça a irritação.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-vocabulario-em-contexto-006",
+    "materia": "ingles",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 2,
+    "dificuldade": -1,
+    "contexto": "Livro e abajur",
+    "enunciado": "\"The book is on the table, next to the lamp.\"\n\nA expressão \"next to\" indica que o livro está",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "depois do abajur.",
+        "correta": false,
+        "etiqueta": "ing-sentido-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "em cima do abajur.",
+        "correta": false,
+        "etiqueta": "ing-palavra-solta"
+      },
+      {
+        "letra": "C",
+        "texto": "ao lado do abajur.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "dentro do abajur.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "longe do abajur.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      }
+    ],
+    "explicacao": "\"Next to\" é uma expressão de lugar que quer dizer ao lado de. O livro está sobre a mesa, e não sobre o abajur.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-vocabulario-em-contexto-007",
+    "materia": "ingles",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Antes do show",
+    "enunciado": "\"Please turn off your phones during the show.\"\n\nO pedido é para que o público",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "desligue os celulares.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "vire os celulares para fora.",
+        "correta": false,
+        "etiqueta": "ing-traducao-literal"
+      },
+      {
+        "letra": "C",
+        "texto": "ligue os celulares.",
+        "correta": false,
+        "etiqueta": "ing-sentido-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "esconda os celulares.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "só use o celular nos intervalos.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      }
+    ],
+    "explicacao": "\"Turn off\" é o oposto de \"turn on\": desligar. A tradução literal (virar para fora) perde o sentido.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-vocabulario-em-contexto-008",
+    "materia": "ingles",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Pessoa gentil",
+    "enunciado": "\"He is a kind person, always ready to help.\"\n\nNessa frase, \"kind\" significa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "tipo, espécie.",
+        "correta": false,
+        "etiqueta": "ing-sentido-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "gentil.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "exigente.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "D",
+        "texto": "tímido.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "econômico.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      }
+    ],
+    "explicacao": "\"Kind\" pode ser substantivo (what kind of = que tipo de), mas aqui descreve a pessoa e combina com \"ready to help\": gentil, bondoso.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-vocabulario-em-contexto-009",
+    "materia": "ingles",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Preço da carne",
+    "enunciado": "\"Prices went up, so many families cut back on meat.\"\n\nA expressão \"cut back on\" quer dizer",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "cortar em pedaços.",
+        "correta": false,
+        "etiqueta": "ing-traducao-literal"
+      },
+      {
+        "letra": "B",
+        "texto": "voltar a comer.",
+        "correta": false,
+        "etiqueta": "ing-sentido-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "deixar de pagar por.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "D",
+        "texto": "reduzir o consumo de.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "recuar para trás.",
+        "correta": false,
+        "etiqueta": "ing-traducao-literal"
+      }
+    ],
+    "explicacao": "Com preços altos, as famílias passam a comprar ou comer menos carne. \"Cut back on\" é reduzir, não cortar fisicamente.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-vocabulario-em-contexto-010",
+    "materia": "ingles",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Tempestade no evento",
+    "enunciado": "\"The mayor called off the event because of the storm.\"\n\nO prefeito",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "chamou as pessoas para fora do evento.",
+        "correta": false,
+        "etiqueta": "ing-traducao-literal"
+      },
+      {
+        "letra": "B",
+        "texto": "convocou mais gente para o evento.",
+        "correta": false,
+        "etiqueta": "ing-sentido-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "adiou o evento por uma hora.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "D",
+        "texto": "inaugurou o evento.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "cancelou o evento.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "\"Call off\" é cancelar. A tempestade explica o motivo; o texto não fala em adiar nem em inaugurar.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-vocabulario-em-contexto-011",
+    "materia": "ingles",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Passe o sal",
+    "enunciado": "\"Could you pass me the salt?\"\n\nNesse pedido, \"pass\" quer dizer",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "ser aprovado em.",
+        "correta": false,
+        "etiqueta": "ing-sentido-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "entregar.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "ultrapassar.",
+        "correta": false,
+        "etiqueta": "ing-sentido-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "gastar tempo com.",
+        "correta": false,
+        "etiqueta": "ing-sentido-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "ir embora com.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      }
+    ],
+    "explicacao": "À mesa, \"pass me the salt\" é pedir que alguém entregue o sal. Os outros sentidos de \"pass\" não fazem sentido na cena.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-vocabulario-em-contexto-012",
+    "materia": "ingles",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Rotina da manhã",
+    "enunciado": "\"I usually wake up at 6. Then I brush my teeth.\"\n\nEm \"brush my teeth\", o verbo \"brush\" significa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pentear.",
+        "correta": false,
+        "etiqueta": "ing-sentido-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "varrer.",
+        "correta": false,
+        "etiqueta": "ing-sentido-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "lavar.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "D",
+        "texto": "escovar.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "trocar.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      }
+    ],
+    "explicacao": "\"Brush\" também é pentear ou varrer, mas com \"teeth\" o sentido é escovar os dentes.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-vocabulario-em-contexto-013",
+    "materia": "ingles",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Parar de fumar",
+    "enunciado": "\"She gave up smoking last year.\"\n\nA frase quer dizer que ela",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "deu cigarros de presente.",
+        "correta": false,
+        "etiqueta": "ing-traducao-literal"
+      },
+      {
+        "letra": "B",
+        "texto": "começou a fumar.",
+        "correta": false,
+        "etiqueta": "ing-sentido-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "parou de fumar.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "passou a fumar menos.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "ofereceu cigarros ao pai.",
+        "correta": false,
+        "etiqueta": "ing-traducao-literal"
+      }
+    ],
+    "explicacao": "\"Give up\" + verbo no gerúndio quer dizer parar de fazer algo. A tradução literal (dar para cima) não faz sentido.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-vocabulario-em-contexto-014",
+    "materia": "ingles",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Sucesso de bilheteria",
+    "enunciado": "\"The movie was a hit; people queued for hours.\"\n\nNesse contexto, \"hit\" significa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pancada.",
+        "correta": false,
+        "etiqueta": "ing-sentido-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "fracasso.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "C",
+        "texto": "filme de ação.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "D",
+        "texto": "erro de roteiro.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "sucesso.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "\"Hit\" também é golpe, mas, depois do ponto e vírgula, as pessoas que enfrentam filas por horas mostram que foi um sucesso.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-vocabulario-em-contexto-015",
+    "materia": "ingles",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 3,
+    "dificuldade": 1,
+    "contexto": "Tanto faz o placar",
+    "enunciado": "\"Honestly, I couldn't care less about the final score.\"\n\nA pessoa quer dizer que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o resultado não lhe importa nada.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "o placar lhe importa um pouco menos.",
+        "correta": false,
+        "etiqueta": "ing-traducao-literal"
+      },
+      {
+        "letra": "C",
+        "texto": "o placar é o que mais importa.",
+        "correta": false,
+        "etiqueta": "ing-sentido-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "ela não pode cuidar do placar.",
+        "correta": false,
+        "etiqueta": "ing-traducao-literal"
+      },
+      {
+        "letra": "E",
+        "texto": "ela se importa menos que os outros.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      }
+    ],
+    "explicacao": "\"I couldn't care less\" é uma expressão fixa que indica total indiferença. A tradução literal dá a ideia contrária.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-vocabulario-em-contexto-016",
+    "materia": "ingles",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 4,
+    "dificuldade": -1,
+    "contexto": "Cheiro na cozinha",
+    "enunciado": "\"Grandma's kitchen always smells good.\"\n\nA frase diz que a cozinha da avó",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "sempre tem cheiro ruim.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "B",
+        "texto": "serve comida saborosa.",
+        "correta": false,
+        "etiqueta": "ing-sentido-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "sempre tem um cheiro bom.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "é barulhenta e agitada.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "fica sempre na penumbra.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      }
+    ],
+    "explicacao": "\"Smell\" como verbo de ligação descreve o cheiro, e \"good\" diz que é agradável. Sabor seria \"taste\".",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-vocabulario-em-contexto-017",
+    "materia": "ingles",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Contagem regressiva",
+    "enunciado": "\"I'm looking forward to the holidays.\"\n\nA expressão \"looking forward to\" mostra que a pessoa está",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "olhando para a frente das férias.",
+        "correta": false,
+        "etiqueta": "ing-traducao-literal"
+      },
+      {
+        "letra": "B",
+        "texto": "ansiosa pelas férias.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "dando adeus às férias.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "D",
+        "texto": "ignorando as férias.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "com medo das férias.",
+        "correta": false,
+        "etiqueta": "ing-sentido-errado"
+      }
+    ],
+    "explicacao": "\"Look forward to\" é esperar com expectativa positiva algo que vai acontecer. A tradução palavra por palavra erra o sentido.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-vocabulario-em-contexto-018",
+    "materia": "ingles",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Ajuda com as sacolas",
+    "enunciado": "\"Can you give me a hand with these bags?\"\n\nO pedido é para que alguém",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "ajude a carregar as sacolas.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "dê a mão a quem pede.",
+        "correta": false,
+        "etiqueta": "ing-traducao-literal"
+      },
+      {
+        "letra": "C",
+        "texto": "entregue uma mão de tinta.",
+        "correta": false,
+        "etiqueta": "ing-traducao-literal"
+      },
+      {
+        "letra": "D",
+        "texto": "aplauda quem carrega as sacolas.",
+        "correta": false,
+        "etiqueta": "ing-sentido-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "deixe a pessoa em paz.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      }
+    ],
+    "explicacao": "\"Give me a hand\" é uma expressão que significa ajudar, e o contexto das sacolas confirma o sentido.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-vocabulario-em-contexto-019",
+    "materia": "ingles",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Dia de cama",
+    "enunciado": "\"He's under the weather today, so he stayed in bed.\"\n\nA expressão \"under the weather\" indica que ele está",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "debaixo do clima.",
+        "correta": false,
+        "etiqueta": "ing-traducao-literal"
+      },
+      {
+        "letra": "B",
+        "texto": "na chuva.",
+        "correta": false,
+        "etiqueta": "ing-traducao-literal"
+      },
+      {
+        "letra": "C",
+        "texto": "preocupado com a previsão do tempo.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "D",
+        "texto": "indisposto.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "muito animado.",
+        "correta": false,
+        "etiqueta": "ing-sentido-errado"
+      }
+    ],
+    "explicacao": "\"Under the weather\" é um idiomatismo para quem não está bem de saúde. O resto da frase (ficou na cama) confirma.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-vocabulario-em-contexto-020",
+    "materia": "ingles",
+    "assunto": "vocabulario-em-contexto",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Prova moleza",
+    "enunciado": "\"That exam was a piece of cake.\"\n\nCom essa frase, a pessoa quer dizer que a prova foi",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "um pedaço de bolo.",
+        "correta": false,
+        "etiqueta": "ing-traducao-literal"
+      },
+      {
+        "letra": "B",
+        "texto": "uma comemoração de aniversário.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "C",
+        "texto": "muito doce.",
+        "correta": false,
+        "etiqueta": "ing-sentido-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "muito difícil.",
+        "correta": false,
+        "etiqueta": "ing-sentido-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "muito fácil.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "\"A piece of cake\" é uma expressão para algo muito fácil, como a nossa \"moleza\". A tradução literal vira piada sem sentido.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  }
+]

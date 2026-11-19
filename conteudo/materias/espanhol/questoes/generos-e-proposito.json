@@ -1,0 +1,902 @@
+[
+  {
+    "id": "esp-generos-e-proposito-001",
+    "materia": "espanhol",
+    "assunto": "generos-e-proposito",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Promoção de sapatos",
+    "enunciado": "¡Oferta! Todos los zapatos con 40% de descuento solo este fin de semana. Visítanos en la calle Mayor 12.\n\nO objetivo principal desse texto é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pedir doação de calçados.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      },
+      {
+        "letra": "B",
+        "texto": "avisar que a loja mudou de endereço.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      },
+      {
+        "letra": "C",
+        "texto": "divulgar uma promoção.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "contar uma experiência de compra.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      },
+      {
+        "letra": "E",
+        "texto": "criticar o preço dos sapatos.",
+        "correta": false,
+        "etiqueta": "esp-tom-errado"
+      }
+    ],
+    "explicacao": "\"Oferta\" e \"40% de descuento\" indicam promoção, e o convite para visitar a loja mostra que é uma propaganda.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-generos-e-proposito-002",
+    "materia": "espanhol",
+    "assunto": "generos-e-proposito",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Convite de aniversário",
+    "enunciado": "Estás invitado al cumpleaños de Lucas. Sábado a las 19 h, en su casa. Confirma tu asistencia hasta el jueves.\n\nEsse texto é um(a)",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "aviso de objeto perdido.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      },
+      {
+        "letra": "B",
+        "texto": "notícia sobre uma festa na cidade.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      },
+      {
+        "letra": "C",
+        "texto": "carta de reclamação.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      },
+      {
+        "letra": "D",
+        "texto": "receita culinária.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      },
+      {
+        "letra": "E",
+        "texto": "convite, com data, hora e local de uma festa.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "\"Estás invitado\" abre o convite, e o texto traz dia, horário, local e pede confirmação.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-generos-e-proposito-003",
+    "materia": "espanhol",
+    "assunto": "generos-e-proposito",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Macarrão passo a passo",
+    "enunciado": "Pon agua a hervir. Agrega la pasta y cocínala diez minutos. Escúrrela y añade la salsa.\n\nO texto tem a finalidade de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "vender macarrão e molho.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      },
+      {
+        "letra": "B",
+        "texto": "ensinar a preparar um prato.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "contar uma lembrança de família.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      },
+      {
+        "letra": "D",
+        "texto": "avaliar um restaurante.",
+        "correta": false,
+        "etiqueta": "esp-tom-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "explicar a origem da massa.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      }
+    ],
+    "explicacao": "Os verbos no imperativo (pon, agrega, escúrrela) e a sequência de passos são típicos de uma receita.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-generos-e-proposito-004",
+    "materia": "espanhol",
+    "assunto": "generos-e-proposito",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Proibido fumar",
+    "enunciado": "Prohibido fumar en todo el edificio.\n\nA função desse aviso é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "estabelecer uma proibição.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "recomendar com carinho que não se fume.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      },
+      {
+        "letra": "C",
+        "texto": "informar horário de funcionamento.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      },
+      {
+        "letra": "D",
+        "texto": "convidar para um evento.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      },
+      {
+        "letra": "E",
+        "texto": "divulgar uma marca de cigarros.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      }
+    ],
+    "explicacao": "\"Prohibido\" indica que é uma regra, e não uma sugestão. É um aviso comum em locais públicos.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-generos-e-proposito-005",
+    "materia": "espanhol",
+    "assunto": "generos-e-proposito",
+    "questionario": 1,
+    "dificuldade": 1,
+    "contexto": "Tirinha da mãe e do filho",
+    "enunciado": "En una tira cómica, un niño dice a su madre: \"Mamá, hoy aprendí que el sol es una estrella.\" La madre responde: \"Qué bien. Y yo aprendí que tu cuarto es un desastre. A limpiarlo.\"\n\nO humor da tirinha vem do fato de a mãe",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "discutir astronomia com o filho.",
+        "correta": false,
+        "etiqueta": "esp-detalhe-central"
+      },
+      {
+        "letra": "B",
+        "texto": "ficar orgulhosa e premiar o filho.",
+        "correta": false,
+        "etiqueta": "esp-tom-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "ignorar a bagunça do quarto.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "D",
+        "texto": "mudar de assunto e mandar o filho arrumar o quarto.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "ficar brava com o que o filho aprendeu.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      }
+    ],
+    "explicacao": "Depois de elogiar rapidamente, a mãe corta o assunto e dá uma ordem, o que quebra a expectativa e cria o humor.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-generos-e-proposito-006",
+    "materia": "espanhol",
+    "assunto": "generos-e-proposito",
+    "questionario": 2,
+    "dificuldade": -1,
+    "contexto": "Campeões da escola",
+    "enunciado": "Ayer ganamos el campeonato escolar. ¡Gracias a todos por el apoyo!\n\nA intenção do autor é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pedir ajuda para a próxima partida.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      },
+      {
+        "letra": "B",
+        "texto": "comemorar e agradecer.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "reclamar da arbitragem.",
+        "correta": false,
+        "etiqueta": "esp-tom-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "convidar para o próximo campeonato.",
+        "correta": false,
+        "etiqueta": "esp-detalhe-central"
+      },
+      {
+        "letra": "E",
+        "texto": "vender camisas do time.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      }
+    ],
+    "explicacao": "\"Ganamos\" mostra a conquista e \"gracias\" mostra o agradecimento. Não há pedido nem reclamação.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-generos-e-proposito-007",
+    "materia": "espanhol",
+    "assunto": "generos-e-proposito",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Reunião de pais",
+    "enunciado": "Asunto: Reunión de padres. Estimados padres: les recordamos que la reunión es el jueves, a las 18 h. Su presencia es importante.\n\nO objetivo do e-mail é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "cancelar a reunião de quinta.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "B",
+        "texto": "convidar os pais para uma festa.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      },
+      {
+        "letra": "C",
+        "texto": "divulgar notas dos alunos.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "D",
+        "texto": "pedir dinheiro aos pais.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      },
+      {
+        "letra": "E",
+        "texto": "lembrar a reunião e incentivar a presença.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "\"Les recordamos\" mostra que é um lembrete, e \"su presencia es importante\" reforça o pedido de presença.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-generos-e-proposito-008",
+    "materia": "espanhol",
+    "assunto": "generos-e-proposito",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Mutirão na praia",
+    "enunciado": "Se buscan voluntarios para limpiar la playa el domingo. Trae guantes y ganas.\n\nO cartaz tem a função de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "convocar pessoas para limpar a praia.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "vender luvas.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      },
+      {
+        "letra": "C",
+        "texto": "avisar que a praia está fechada.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "D",
+        "texto": "informar que a limpeza já foi feita.",
+        "correta": false,
+        "etiqueta": "esp-detalhe-central"
+      },
+      {
+        "letra": "E",
+        "texto": "pedir doações em dinheiro.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      }
+    ],
+    "explicacao": "\"Se buscan voluntarios\" é uma convocação, e \"el domingo\" mostra que a ação ainda vai acontecer.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-generos-e-proposito-009",
+    "materia": "espanhol",
+    "assunto": "generos-e-proposito",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Filme emocionante",
+    "enunciado": "La película es tan emocionante que dormí tres veces. Mi récord personal.\n\nO autor da frase",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "elogia sinceramente o filme.",
+        "correta": false,
+        "etiqueta": "esp-tom-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "descreve o filme de modo neutro.",
+        "correta": false,
+        "etiqueta": "esp-tom-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "critica o filme, usando ironia.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "recomenda o filme a todos.",
+        "correta": false,
+        "etiqueta": "esp-tom-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "convida o leitor para dormir no cinema.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      }
+    ],
+    "explicacao": "Dizer que o filme é \"emocionante\" e que dormiu três vezes é contraditório, e essa contradição revela a ironia.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-generos-e-proposito-010",
+    "materia": "espanhol",
+    "assunto": "generos-e-proposito",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Celular em aula",
+    "enunciado": "Prohibir los celulares en el aula no resuelve el problema. Mejor enseñar a usarlos con responsabilidad.\n\nO autor do texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "defende a proibição total.",
+        "correta": false,
+        "etiqueta": "esp-tom-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "afirma que o celular nunca atrapalha.",
+        "correta": false,
+        "etiqueta": "esp-generalizou"
+      },
+      {
+        "letra": "C",
+        "texto": "apenas informa a regra da escola.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      },
+      {
+        "letra": "D",
+        "texto": "é contra a proibição e defende ensinar o uso responsável.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "pede que as escolas comprem celulares.",
+        "correta": false,
+        "etiqueta": "esp-palavra-solta"
+      }
+    ],
+    "explicacao": "\"No resuelve el problema\" rejeita a proibição, e \"mejor enseñar\" apresenta a alternativa.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-generos-e-proposito-011",
+    "materia": "espanhol",
+    "assunto": "generos-e-proposito",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Gato sumido",
+    "enunciado": "Se perdió gato blanco llamado Nieve. Llamar al 555-0123.\n\nO objetivo do anúncio é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pedir ajuda para encontrar um gato.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "oferecer um gato para adoção.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      },
+      {
+        "letra": "C",
+        "texto": "vender um gato de raça.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      },
+      {
+        "letra": "D",
+        "texto": "avisar que o gato já foi encontrado.",
+        "correta": false,
+        "etiqueta": "esp-detalhe-central"
+      },
+      {
+        "letra": "E",
+        "texto": "reclamar do barulho do vizinho.",
+        "correta": false,
+        "etiqueta": "esp-tom-errado"
+      }
+    ],
+    "explicacao": "\"Se perdió\" indica o desaparecimento, e o telefone serve para quem tiver notícias.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-generos-e-proposito-012",
+    "materia": "espanhol",
+    "assunto": "generos-e-proposito",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Bilhete para a tia",
+    "enunciado": "Gracias por tu regalo, tía. El libro me encantó.\n\nA finalidade do texto é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pedir um presente.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      },
+      {
+        "letra": "B",
+        "texto": "reclamar do livro.",
+        "correta": false,
+        "etiqueta": "esp-tom-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "agradecer um presente.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "avisar que devolveu o livro.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "convidar a tia para um clube do livro.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      }
+    ],
+    "explicacao": "\"Gracias por tu regalo\" e \"me encantó\" mostram que o texto agradece e elogia o presente.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-generos-e-proposito-013",
+    "materia": "espanhol",
+    "assunto": "generos-e-proposito",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Ciclovia nova",
+    "enunciado": "La ciudad inauguró un carril para bicicletas. El alcalde dice que reducirá el tráfico. Algunos conductores se quejan de la falta de estacionamiento.\n\nO texto tem como objetivo principal",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "fazer propaganda de bicicletas.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      },
+      {
+        "letra": "B",
+        "texto": "informar sobre a ciclovia, mostrando opiniões diferentes.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "reclamar, em nome dos motoristas, das vagas.",
+        "correta": false,
+        "etiqueta": "esp-detalhe-central"
+      },
+      {
+        "letra": "D",
+        "texto": "contar um conto sobre o trânsito.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      },
+      {
+        "letra": "E",
+        "texto": "defender que só os ciclistas têm razão.",
+        "correta": false,
+        "etiqueta": "esp-tom-errado"
+      }
+    ],
+    "explicacao": "É uma notícia: apresenta o fato e a opinião do prefeito e de alguns motoristas. A queixa dos motoristas é só uma parte.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-generos-e-proposito-014",
+    "materia": "espanhol",
+    "assunto": "generos-e-proposito",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Corrida de 10 km",
+    "enunciado": "¡Terminé mi primera carrera de 10 km! Gracias a todos por el apoyo.\n\nA intenção do autor da postagem é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pedir dinheiro para financiar corridas.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      },
+      {
+        "letra": "B",
+        "texto": "dar dicas técnicas de treino.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      },
+      {
+        "letra": "C",
+        "texto": "reclamar do percurso.",
+        "correta": false,
+        "etiqueta": "esp-tom-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "compartilhar uma conquista e agradecer.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "anunciar a data da próxima corrida.",
+        "correta": false,
+        "etiqueta": "esp-detalhe-central"
+      }
+    ],
+    "explicacao": "O autor celebra a primeira corrida e agradece o apoio. Não há pedido, dica nem reclamação.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-generos-e-proposito-015",
+    "materia": "espanhol",
+    "assunto": "generos-e-proposito",
+    "questionario": 3,
+    "dificuldade": 1,
+    "contexto": "Manchete satírica",
+    "enunciado": "Hombre descubre que su despertador suena igual los domingos. Expertos: \"No puede ser\".\n\nA manchete foi escrita para",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "divulgar uma descoberta científica séria.",
+        "correta": false,
+        "etiqueta": "esp-tom-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "alertar sobre os perigos do despertador.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      },
+      {
+        "letra": "C",
+        "texto": "fazer propaganda de relógios.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      },
+      {
+        "letra": "D",
+        "texto": "provar que todos os despertadores tocam aos domingos.",
+        "correta": false,
+        "etiqueta": "esp-generalizou"
+      },
+      {
+        "letra": "E",
+        "texto": "fazer humor com uma situação comum do dia a dia.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "A graça está em tratar um fato óbvio como se fosse uma grande descoberta, com \"expertos\" dando opinião. É uma sátira, não uma pesquisa.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-generos-e-proposito-016",
+    "materia": "espanhol",
+    "assunto": "generos-e-proposito",
+    "questionario": 4,
+    "dificuldade": -1,
+    "contexto": "Aviso no avião",
+    "enunciado": "Abróchense los cinturones durante el vuelo.\n\nA função dessa frase é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pedir desculpas por um atraso.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      },
+      {
+        "letra": "B",
+        "texto": "dar uma instrução de segurança.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "vender passagens aéreas.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      },
+      {
+        "letra": "D",
+        "texto": "descrever a paisagem da janela.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      },
+      {
+        "letra": "E",
+        "texto": "perguntar onde fica o assento.",
+        "correta": false,
+        "etiqueta": "esp-palavra-solta"
+      }
+    ],
+    "explicacao": "A frase usa o imperativo e fala de cinto de segurança durante o voo. É uma orientação de segurança.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-generos-e-proposito-017",
+    "materia": "espanhol",
+    "assunto": "generos-e-proposito",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Vaga na padaria",
+    "enunciado": "Se necesita ayudante de panadería. Sin experiencia. Horario: mañanas y fines de semana. Enviar currículum a pan@correo.com.\n\nO anúncio se dirige a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pessoas interessadas na vaga, mesmo sem experiência.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "padeiros com anos de experiência.",
+        "correta": false,
+        "etiqueta": "esp-ignorou-negacao"
+      },
+      {
+        "letra": "C",
+        "texto": "clientes que querem comprar pães.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      },
+      {
+        "letra": "D",
+        "texto": "quem só pode trabalhar à tarde.",
+        "correta": false,
+        "etiqueta": "esp-detalhe-central"
+      },
+      {
+        "letra": "E",
+        "texto": "quem deseja uma receita de pão.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      }
+    ],
+    "explicacao": "\"Sin experiencia\" abre a vaga a iniciantes, e o horário informa manhãs e fins de semana.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-generos-e-proposito-018",
+    "materia": "espanhol",
+    "assunto": "generos-e-proposito",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Carta ao diretor",
+    "enunciado": "Estimado director: le escribo para quejarme de la falta de bancos en el parque. Los ancianos no tienen dónde sentarse.\n\nO propósito do texto é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "elogiar a estrutura do parque.",
+        "correta": false,
+        "etiqueta": "esp-tom-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "convidar para um evento no parque.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      },
+      {
+        "letra": "C",
+        "texto": "informar que os bancos já foram instalados.",
+        "correta": false,
+        "etiqueta": "esp-detalhe-central"
+      },
+      {
+        "letra": "D",
+        "texto": "vender bancos para a prefeitura.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      },
+      {
+        "letra": "E",
+        "texto": "reclamar de um problema e pedir uma solução.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "\"Le escribo para quejarme\" declara a intenção de reclamar, e a falta de lugar para os idosos sentarem é o problema.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-generos-e-proposito-019",
+    "materia": "espanhol",
+    "assunto": "generos-e-proposito",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Troféu e treino",
+    "enunciado": "Un trofeo es bonito. Pero las mañanas de entrenamiento son las que lo hacen tuyo.\n\nA ideia central do trecho é que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "troféus são inúteis.",
+        "correta": false,
+        "etiqueta": "esp-tom-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "o texto ensina a ganhar uma corrida.",
+        "correta": false,
+        "etiqueta": "esp-intencao-errada"
+      },
+      {
+        "letra": "C",
+        "texto": "o esforço do treino vale mais do que o prêmio.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "o autor narra uma competição.",
+        "correta": false,
+        "etiqueta": "esp-detalhe-central"
+      },
+      {
+        "letra": "E",
+        "texto": "todo mundo que treina ganha um troféu.",
+        "correta": false,
+        "etiqueta": "esp-generalizou"
+      }
+    ],
+    "explicacao": "O \"pero\" mostra que, embora o troféu seja bonito, o que o torna seu é o esforço dos treinos.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "esp-generos-e-proposito-020",
+    "materia": "espanhol",
+    "assunto": "generos-e-proposito",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Letras miúdas",
+    "enunciado": "¡Celular gratis! (Al contratar un plan de 24 meses a 60 dólares mensuales.)\n\nO trecho entre parênteses revela que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o celular é dado sem condições.",
+        "correta": false,
+        "etiqueta": "esp-tom-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "o plano custa menos de 24 dólares.",
+        "correta": false,
+        "etiqueta": "esp-palavra-solta"
+      },
+      {
+        "letra": "C",
+        "texto": "a oferta vale por apenas 24 horas.",
+        "correta": false,
+        "etiqueta": "esp-detalhe-central"
+      },
+      {
+        "letra": "D",
+        "texto": "o celular só é grátis com um plano longo e pago.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "o plano pode ser cancelado sem custo.",
+        "correta": false,
+        "etiqueta": "esp-extrapolou"
+      }
+    ],
+    "explicacao": "O parêntese traz a condição: contratar um plano de 24 meses com mensalidade de 60 dólares. O \"gratis\" do início depende disso.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  }
+]

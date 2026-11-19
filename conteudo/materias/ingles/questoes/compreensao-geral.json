@@ -1,0 +1,902 @@
+[
+  {
+    "id": "ing-compreensao-geral-001",
+    "materia": "ingles",
+    "assunto": "compreensao-geral",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Mochila perdida",
+    "enunciado": "Lost: a small green backpack with a blue key chain. I left it on bus 42 yesterday afternoon. My school books are inside. If you find it, please call Marta at 555-0143. Thank you!\n\nDe acordo com o texto, a mochila de Marta",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "foi roubada por alguém dentro do ônibus 42.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "B",
+        "texto": "foi esquecida em um ônibus e tem livros escolares dentro.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "é azul e tem um chaveiro verde.",
+        "correta": false,
+        "etiqueta": "ing-palavra-solta"
+      },
+      {
+        "letra": "D",
+        "texto": "foi esquecida no ônibus ontem de manhã.",
+        "correta": false,
+        "etiqueta": "ing-detalhe-central"
+      },
+      {
+        "letra": "E",
+        "texto": "já foi encontrada, e Marta agradece quem ligou.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      }
+    ],
+    "explicacao": "O texto diz que a mochila ficou no ônibus 42 ontem à tarde e que os livros da escola estão dentro. Roubo não é mencionado, e as cores aparecem trocadas nas outras alternativas.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-compreensao-geral-002",
+    "materia": "ingles",
+    "assunto": "compreensao-geral",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Passeio na praia",
+    "enunciado": "Saturday plan: we leave for the beach at 9 a.m. Bring sunscreen, water and a hat. Don't bring glass bottles! Lunch is at the kiosk near the parking lot.\n\nO que o texto proíbe os participantes de levar?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Protetor solar.",
+        "correta": false,
+        "etiqueta": "ing-ignorou-negacao"
+      },
+      {
+        "letra": "B",
+        "texto": "Água.",
+        "correta": false,
+        "etiqueta": "ing-ignorou-negacao"
+      },
+      {
+        "letra": "C",
+        "texto": "Chapéu.",
+        "correta": false,
+        "etiqueta": "ing-palavra-solta"
+      },
+      {
+        "letra": "D",
+        "texto": "Garrafas de vidro.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "Almoço próprio.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      }
+    ],
+    "explicacao": "A proibição vem em \"Don't bring glass bottles\". Sunscreen, water e hat estão na lista do que se deve levar, e o almoço é no quiosque.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-compreensao-geral-003",
+    "materia": "ingles",
+    "assunto": "compreensao-geral",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Árvores na escola",
+    "enunciado": "Local students planted 200 trees around their school last Friday. The project began after a heat wave made the playground too hot for outdoor classes. The principal said the trees will give shade in two years, not tomorrow.\n\nQual é a ideia principal do texto?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Alunos plantaram árvores para criar sombra no pátio, com resultado a médio prazo.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "As árvores darão sombra ao pátio já a partir de amanhã.",
+        "correta": false,
+        "etiqueta": "ing-ignorou-negacao"
+      },
+      {
+        "letra": "C",
+        "texto": "A escola cancelou todas as aulas por causa do calor.",
+        "correta": false,
+        "etiqueta": "ing-generalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "A onda de calor foi provocada pela escola.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "O diretor plantou sozinho as 200 árvores.",
+        "correta": false,
+        "etiqueta": "ing-detalhe-central"
+      }
+    ],
+    "explicacao": "O texto liga o plantio à onda de calor e avisa que a sombra só virá em dois anos (\"not tomorrow\"). Só as aulas ao ar livre foram afetadas, e foram os alunos que plantaram.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-compreensao-geral-004",
+    "materia": "ingles",
+    "assunto": "compreensao-geral",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Videogame e idiomas",
+    "enunciado": "I know many people say video games are a waste of time. But my cousin learned English by playing online with players from other countries. He didn't take any course. He just needed to talk to his team.\n\nO autor do texto defende que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "videogames são perda de tempo.",
+        "correta": false,
+        "etiqueta": "ing-palavra-solta"
+      },
+      {
+        "letra": "B",
+        "texto": "os jogos online substituem qualquer curso de inglês.",
+        "correta": false,
+        "etiqueta": "ing-generalizou"
+      },
+      {
+        "letra": "C",
+        "texto": "o primo fez um curso para jogar melhor.",
+        "correta": false,
+        "etiqueta": "ing-ignorou-negacao"
+      },
+      {
+        "letra": "D",
+        "texto": "quem joga online deve ser criticado.",
+        "correta": false,
+        "etiqueta": "ing-tom-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "jogos online podem ajudar a aprender inglês.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "A frase \"waste of time\" é a opinião dos outros, que o autor contesta com o exemplo do primo. Ele não afirma que os jogos substituem qualquer curso, só que ajudaram nesse caso.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-compreensao-geral-005",
+    "materia": "ingles",
+    "assunto": "compreensao-geral",
+    "questionario": 1,
+    "dificuldade": 1,
+    "contexto": "Horário genial",
+    "enunciado": "Our school's new schedule is brilliant: classes start at 7 a.m., the bus arrives at 7:20, and the bell rings at 7:05 so nobody misses the opening speech. Truly, a masterpiece of planning.\n\nA atitude do autor em relação ao novo horário é de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "elogio sincero ao planejamento da escola.",
+        "correta": false,
+        "etiqueta": "ing-tom-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "neutralidade, apenas informando os horários.",
+        "correta": false,
+        "etiqueta": "ing-detalhe-central"
+      },
+      {
+        "letra": "C",
+        "texto": "ironia, pois critica a falta de lógica do horário.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "preocupação com o discurso de abertura.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "alívio, porque o ônibus chega antes da aula.",
+        "correta": false,
+        "etiqueta": "ing-palavra-solta"
+      }
+    ],
+    "explicacao": "As palavras de elogio (brilliant, masterpiece) contrastam com os fatos: o ônibus chega às 7h20, depois do início das aulas. Esse contraste mostra ironia.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-compreensao-geral-006",
+    "materia": "ingles",
+    "assunto": "compreensao-geral",
+    "questionario": 2,
+    "dificuldade": -1,
+    "contexto": "Cartão da viagem",
+    "enunciado": "Hi Grandma! I'm in Salvador now. The hotel is next to the beach and the food is amazing. Tomorrow we visit the old city. I miss you! Love, Pedro\n\nO texto é uma mensagem em que Pedro",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "conta à avó como está sendo a viagem a Salvador.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "pede ajuda à avó com um problema no hotel.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "C",
+        "texto": "convida a avó para visitar Salvador.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      },
+      {
+        "letra": "D",
+        "texto": "reclama da comida e do hotel.",
+        "correta": false,
+        "etiqueta": "ing-tom-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "avisa que mora em Salvador.",
+        "correta": false,
+        "etiqueta": "ing-palavra-solta"
+      }
+    ],
+    "explicacao": "Pedro conta onde está, fala bem do hotel e da comida e diz o que vai fazer. Nada indica pedido de ajuda, convite ou reclamação.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-compreensao-geral-007",
+    "materia": "ingles",
+    "assunto": "compreensao-geral",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Regras da biblioteca",
+    "enunciado": "Library rules: you may borrow up to three books for two weeks. If you return them late, you can't borrow anything else for a month. Magazines are for reading in the library only.\n\nQuem devolve livros com atraso",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "paga uma multa por dia de atraso.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "B",
+        "texto": "pode levar revistas para casa.",
+        "correta": false,
+        "etiqueta": "ing-ignorou-negacao"
+      },
+      {
+        "letra": "C",
+        "texto": "pode pegar mais de três livros no mês seguinte.",
+        "correta": false,
+        "etiqueta": "ing-generalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "fica um mês sem poder pegar emprestado.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "perde o direito de ler na biblioteca.",
+        "correta": false,
+        "etiqueta": "ing-detalhe-central"
+      }
+    ],
+    "explicacao": "A regra é \"can't borrow anything else for a month\". O texto não fala de multa, e as revistas são só para leitura no local (\"only\").",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-compreensao-geral-008",
+    "materia": "ingles",
+    "assunto": "compreensao-geral",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Canudos de plástico",
+    "enunciado": "Plastic straws seem small, but together they are a big problem. A single café can use hundreds a day. That is why many places now offer paper straws, or none at all.\n\nSegundo o texto, muitos locais trocaram os canudos de plástico porque",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "os canudos de papel custam menos.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "B",
+        "texto": "cada canudo é tão pequeno que não polui.",
+        "correta": false,
+        "etiqueta": "ing-ignorou-negacao"
+      },
+      {
+        "letra": "C",
+        "texto": "todos os cafés do mundo já os proíbem.",
+        "correta": false,
+        "etiqueta": "ing-generalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "os cafés pequenos nunca usam canudos.",
+        "correta": false,
+        "etiqueta": "ing-palavra-solta"
+      },
+      {
+        "letra": "E",
+        "texto": "o grande número de canudos pequenos causa um grande problema.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "\"Seem small, but together...\" mostra que o problema está na soma. O texto não compara preços e diz que muitos lugares, não todos, mudaram.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-compreensao-geral-009",
+    "materia": "ingles",
+    "assunto": "compreensao-geral",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Trabalho em casa",
+    "enunciado": "Some people think working from home is always easier. However, a recent survey of 500 employees suggests otherwise: while 70% saved commuting time, 55% said they worked longer hours and found it hard to disconnect.\n\nO texto indica que o trabalho em casa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "é sempre mais fácil do que o trabalho no escritório.",
+        "correta": false,
+        "etiqueta": "ing-tom-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "economiza tempo de deslocamento, mas pode aumentar a jornada.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "faz 70% dos funcionários trabalharem mais horas.",
+        "correta": false,
+        "etiqueta": "ing-detalhe-central"
+      },
+      {
+        "letra": "D",
+        "texto": "é comprovadamente pior, segundo a pesquisa.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "é preferido por 55% dos funcionários.",
+        "correta": false,
+        "etiqueta": "ing-palavra-solta"
+      }
+    ],
+    "explicacao": "A pesquisa mostra dois lados: 70% economizaram tempo de trajeto, 55% trabalharam mais. O verbo \"suggests\" indica uma sugestão, não uma prova, e a ideia de que é \"sempre mais fácil\" é justamente a opinião que o texto contesta.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-compreensao-geral-010",
+    "materia": "ingles",
+    "assunto": "compreensao-geral",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Mia no vídeo",
+    "enunciado": "Mia never speaks in class. Her teacher thought she was shy until she posted a video of herself explaining chemistry to her little brother. It got ten thousand views. \"I just needed a friendlier audience,\" she said.\n\nA história sugere que o silêncio de Mia em aula",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "acontece porque ela não entende química.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "B",
+        "texto": "mostra que ela é tímida em qualquer situação.",
+        "correta": false,
+        "etiqueta": "ing-generalizou"
+      },
+      {
+        "letra": "C",
+        "texto": "pode estar ligado ao ambiente, não à falta de conhecimento.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "foi punido pela professora depois do vídeo.",
+        "correta": false,
+        "etiqueta": "ing-detalhe-central"
+      },
+      {
+        "letra": "E",
+        "texto": "só existe quando o irmão está por perto.",
+        "correta": false,
+        "etiqueta": "ing-palavra-solta"
+      }
+    ],
+    "explicacao": "Mia explicou química com clareza para um público que lhe pareceu amistoso. Isso sugere que o problema é o contexto, e não o conhecimento nem uma timidez geral.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-compreensao-geral-011",
+    "materia": "ingles",
+    "assunto": "compreensao-geral",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Horário do café",
+    "enunciado": "Café Sol is open Monday to Saturday, from 8 a.m. to 6 p.m. On Sundays, we are closed.\n\nEm qual dia o café não abre?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Segunda-feira.",
+        "correta": false,
+        "etiqueta": "ing-palavra-solta"
+      },
+      {
+        "letra": "B",
+        "texto": "Sábado.",
+        "correta": false,
+        "etiqueta": "ing-detalhe-central"
+      },
+      {
+        "letra": "C",
+        "texto": "Todos os dias depois das 18h.",
+        "correta": false,
+        "etiqueta": "ing-generalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "Nenhum dia da semana.",
+        "correta": false,
+        "etiqueta": "ing-ignorou-negacao"
+      },
+      {
+        "letra": "E",
+        "texto": "Domingo.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "O texto termina com \"On Sundays, we are closed\", ou seja, domingo o café fica fechado.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-compreensao-geral-012",
+    "materia": "ingles",
+    "assunto": "compreensao-geral",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Os bichos do Tom",
+    "enunciado": "Tom has two pets: a dog called Rex and a cat called Luna. Rex loves to run in the park. Luna prefers to sleep on the sofa.\n\nSegundo o texto, o que a gata Luna prefere fazer?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Correr no parque.",
+        "correta": false,
+        "etiqueta": "ing-detalhe-central"
+      },
+      {
+        "letra": "B",
+        "texto": "Dormir no sofá.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "Brincar com o cachorro.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "D",
+        "texto": "Dormir no parque.",
+        "correta": false,
+        "etiqueta": "ing-palavra-solta"
+      },
+      {
+        "letra": "E",
+        "texto": "Ficar longe do sofá.",
+        "correta": false,
+        "etiqueta": "ing-ignorou-negacao"
+      }
+    ],
+    "explicacao": "Luna é a gata e prefere dormir no sofá. Correr no parque é o gosto do cachorro Rex.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-compreensao-geral-013",
+    "materia": "ingles",
+    "assunto": "compreensao-geral",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Nuvens e dias ruins",
+    "enunciado": "Not every cloud brings rain. Some clouds just pass by and leave nothing but shade. The same happens with bad days: they don't always end in disaster.\n\nA mensagem do texto é que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "nem todo dia ruim termina em desastre.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "toda nuvem traz chuva.",
+        "correta": false,
+        "etiqueta": "ing-ignorou-negacao"
+      },
+      {
+        "letra": "C",
+        "texto": "dias ruins sempre acabam em desastre.",
+        "correta": false,
+        "etiqueta": "ing-generalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "as nuvens servem só para dar sombra.",
+        "correta": false,
+        "etiqueta": "ing-palavra-solta"
+      },
+      {
+        "letra": "E",
+        "texto": "o texto ensina como prever o tempo.",
+        "correta": false,
+        "etiqueta": "ing-intencao-errada"
+      }
+    ],
+    "explicacao": "\"Not every\" e \"don't always\" indicam que o ruim não é regra. A comparação com as nuvens é só um recurso para passar essa ideia.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-compreensao-geral-014",
+    "materia": "ingles",
+    "assunto": "compreensao-geral",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Derrota de cabeça erguida",
+    "enunciado": "After the match, both coaches said they were proud of their players. Still, only one team took home the trophy. \"Football is like that,\" said the losing coach. \"Sometimes you do everything right and still lose.\"\n\nO técnico derrotado quis dizer que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "sua equipe jogou muito mal.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "B",
+        "texto": "só o time vencedor merece orgulho.",
+        "correta": false,
+        "etiqueta": "ing-detalhe-central"
+      },
+      {
+        "letra": "C",
+        "texto": "às vezes se perde mesmo fazendo tudo certo.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "os dois times levaram o troféu.",
+        "correta": false,
+        "etiqueta": "ing-ignorou-negacao"
+      },
+      {
+        "letra": "E",
+        "texto": "o futebol deveria ser mudado por ser injusto.",
+        "correta": false,
+        "etiqueta": "ing-tom-errado"
+      }
+    ],
+    "explicacao": "Os dois técnicos ficaram orgulhosos, mas só um time levou o troféu (\"only one\"). A frase do perdedor aceita que o resultado nem sempre reflete o esforço, sem criticar o esporte.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-compreensao-geral-015",
+    "materia": "ingles",
+    "assunto": "compreensao-geral",
+    "questionario": 3,
+    "dificuldade": 1,
+    "contexto": "Entrada no museu",
+    "enunciado": "The museum is free on the first Sunday of every month, but only until noon. After that, tickets cost 20 reais, unless you are under 12 or over 65, who never pay.\n\nNo primeiro domingo do mês, às 15h, quem terá de pagar o ingresso?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Uma senhora de 70 anos.",
+        "correta": false,
+        "etiqueta": "ing-ignorou-negacao"
+      },
+      {
+        "letra": "B",
+        "texto": "Uma criança de 10 anos.",
+        "correta": false,
+        "etiqueta": "ing-ignorou-negacao"
+      },
+      {
+        "letra": "C",
+        "texto": "Qualquer visitante, pois a entrada é livre o dia todo.",
+        "correta": false,
+        "etiqueta": "ing-palavra-solta"
+      },
+      {
+        "letra": "D",
+        "texto": "Um jovem de 15 anos.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "Ninguém, pois o museu fecha ao meio-dia.",
+        "correta": false,
+        "etiqueta": "ing-generalizou"
+      }
+    ],
+    "explicacao": "Depois do meio-dia, a entrada custa 20 reais, exceto para menores de 12 e maiores de 65. Só o jovem de 15 anos não se enquadra na isenção.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-compreensao-geral-016",
+    "materia": "ingles",
+    "assunto": "compreensao-geral",
+    "questionario": 4,
+    "dificuldade": -1,
+    "contexto": "Aviso da excursão",
+    "enunciado": "Dear students, the school trip to the science museum is on Thursday. Please bring a lunch box and wear comfortable shoes. Don't forget the permission slip signed by your parents.\n\nO que os alunos devem levar assinado pelos pais?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A autorização para o passeio.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "A lancheira.",
+        "correta": false,
+        "etiqueta": "ing-detalhe-central"
+      },
+      {
+        "letra": "C",
+        "texto": "O tênis confortável.",
+        "correta": false,
+        "etiqueta": "ing-detalhe-central"
+      },
+      {
+        "letra": "D",
+        "texto": "O ingresso do museu.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "E",
+        "texto": "O boletim da escola.",
+        "correta": false,
+        "etiqueta": "ing-palavra-solta"
+      }
+    ],
+    "explicacao": "\"Permission slip\" é o papel de autorização, e é ele que deve estar assinado. Lancheira e calçado confortável são só itens a levar.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-compreensao-geral-017",
+    "materia": "ingles",
+    "assunto": "compreensao-geral",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Conversa de grupo",
+    "enunciado": "- Are you coming to the party?\n- I can't. I have an exam tomorrow.\n- Oh, no! Good luck!\n- Thanks. Maybe next time.\n\nPor que a segunda pessoa não vai à festa?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Porque a festa é amanhã.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "B",
+        "texto": "Porque nunca vai a festas.",
+        "correta": false,
+        "etiqueta": "ing-generalizou"
+      },
+      {
+        "letra": "C",
+        "texto": "Porque a prova é hoje à noite.",
+        "correta": false,
+        "etiqueta": "ing-detalhe-central"
+      },
+      {
+        "letra": "D",
+        "texto": "Porque foi a primeira a desejar boa sorte.",
+        "correta": false,
+        "etiqueta": "ing-palavra-solta"
+      },
+      {
+        "letra": "E",
+        "texto": "Porque tem uma prova amanhã.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "A segunda pessoa diz \"I can't. I have an exam tomorrow\" e ainda promete ir da próxima vez, o que descarta a ideia de que nunca vai a festas.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-compreensao-geral-018",
+    "materia": "ingles",
+    "assunto": "compreensao-geral",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Tartarugas e o mapa",
+    "enunciado": "Every year, thousands of turtles travel to the same beach to lay eggs. Scientists don't know exactly how they find it, but they believe the turtles use the Earth's magnetic field.\n\nSobre como as tartarugas encontram a praia, o texto diz que os cientistas",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "sabem exatamente como elas fazem isso.",
+        "correta": false,
+        "etiqueta": "ing-ignorou-negacao"
+      },
+      {
+        "letra": "B",
+        "texto": "descobriram que cada ano elas escolhem outra praia.",
+        "correta": false,
+        "etiqueta": "ing-detalhe-central"
+      },
+      {
+        "letra": "C",
+        "texto": "levam os ovos de volta para a praia.",
+        "correta": false,
+        "etiqueta": "ing-extrapolou"
+      },
+      {
+        "letra": "D",
+        "texto": "acreditam que elas usam o campo magnético da Terra.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "não têm nenhuma hipótese sobre o assunto.",
+        "correta": false,
+        "etiqueta": "ing-generalizou"
+      }
+    ],
+    "explicacao": "O texto afirma que os cientistas \"don't know exactly\", mas têm uma crença: o campo magnético. As tartarugas voltam à mesma praia todo ano.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-compreensao-geral-019",
+    "materia": "ingles",
+    "assunto": "compreensao-geral",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Filme que não decolou",
+    "enunciado": "Although the film received great reviews abroad, it flopped at home. Critics blamed the release date, not the script, and the director says she will try again next year with the same story.\n\nÉ correto afirmar, de acordo com o texto, que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "os críticos culparam o roteiro pelo fracasso.",
+        "correta": false,
+        "etiqueta": "ing-detalhe-central"
+      },
+      {
+        "letra": "B",
+        "texto": "o filme foi elogiado fora do país, mas foi mal no país de origem.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "o filme foi mal no exterior e bem no país de origem.",
+        "correta": false,
+        "etiqueta": "ing-palavra-solta"
+      },
+      {
+        "letra": "D",
+        "texto": "a diretora vai mudar a história na próxima tentativa.",
+        "correta": false,
+        "etiqueta": "ing-ignorou-negacao"
+      },
+      {
+        "letra": "E",
+        "texto": "o filme foi um grande sucesso de bilheteria.",
+        "correta": false,
+        "etiqueta": "ing-tom-errado"
+      }
+    ],
+    "explicacao": "\"Although\" contrasta as boas críticas no exterior com o fracasso (flopped) em casa. Os críticos culparam a data de estreia, \"not the script\", e a diretora manterá a história.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "ing-compreensao-geral-020",
+    "materia": "ingles",
+    "assunto": "compreensao-geral",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Prova difícil",
+    "enunciado": "Nobody said the exam was easy. Still, a few students managed to finish it in half the time, and not one of them left a question blank. The rest of us are still wondering how.\n\nO autor do texto demonstra",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a opinião de que a prova foi fácil.",
+        "correta": false,
+        "etiqueta": "ing-ignorou-negacao"
+      },
+      {
+        "letra": "B",
+        "texto": "crítica aos colegas que terminaram rápido.",
+        "correta": false,
+        "etiqueta": "ing-tom-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "admiração misturada com surpresa pelo desempenho dos colegas.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "a certeza de que todos os alunos terminaram cedo.",
+        "correta": false,
+        "etiqueta": "ing-generalizou"
+      },
+      {
+        "letra": "E",
+        "texto": "que os colegas deixaram questões em branco.",
+        "correta": false,
+        "etiqueta": "ing-detalhe-central"
+      }
+    ],
+    "explicacao": "\"Nobody said the exam was easy\" nega a facilidade. Só alguns terminaram na metade do tempo e nenhum deles deixou questão em branco; o resto, incluindo o autor, ainda se pergunta como.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  }
+]

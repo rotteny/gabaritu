@@ -1,0 +1,377 @@
+[
+  {
+    "etiqueta": "bio-confundiu-conceitos",
+    "fofo": [
+      "Quase! Esses dois termos são tão parecidos que até eu me confundo. Bora separar com carinho?",
+      "Você pegou o conceito certo da prateleira errada. Olha o rótulo de novo, tá quase!",
+      "Trocou um conceito pelo vizinho dele. A Biologia adora nome parecido, não é culpa sua!",
+      "Foi por um conceitinho só! Dá um abraço no termo certo e segue em frente.",
+      "Eu também já troquei esses dois, e olha que eu vivo no aquário. Anota o par e vai!"
+    ],
+    "sarc": [
+      "Trocou o termo por um parecido. Parecido não é igual, mas pontos pela criatividade.",
+      "Claro, tudo na Biologia é a mesma coisa com nome diferente. Só que não.",
+      "Esses dois conceitos nem são da mesma família, mas ok, quem repara, né?",
+      "Confiança nota 10, conceito nota 2. O equilíbrio é tudo.",
+      "Parabéns por escolher o termo errado com tanta segurança. Isso também é um talento."
+    ],
+    "sem": [
+      "OS CONCEITOS NÃO SÃO SINÔNIMOS!!! A BIOLOGIA NÃO É QUIZ DE 'PARECE QUE É ESSE'!",
+      "VOCÊ TROCOU OS TERMOS COMO QUEM TROCA DE PLAYLIST NO MEIO DA FESTA. NÃO COLA!",
+      "SÃO DOIS CONCEITOS DIFERENTES, MINHA GENTE! DOIS! TÃO LONGE QUANTO O PEIXE DO CAMELO!",
+      "Mistura de conceito é igual mistura de tinta: no fim vira uma coisa marrom e errada.",
+      "ERROU O TERMO E AINDA SORRIU PRA MIM. EU VI, EU INFLEI DE TENSÃO."
+    ],
+    "reserva": "Termo parecido não é termo igual. Anote o par e compare lado a lado."
+  },
+  {
+    "etiqueta": "bio-inverteu-causa-efeito",
+    "fofo": [
+      "Você pôs a consequência na frente da causa, tipo colocar a roupa antes da meia. Bora desfazer!",
+      "O raciocínio tava bonito, só rodou ao contrário. Vira a seta e pronto!",
+      "Causa e efeito trocaram de lugar na sua cabeça. Sem estresse, acontece com todo mundo!",
+      "Quase! A ordem dos fatos é que pegou você. Quem veio primeiro, o ovo ou a galinha? Aqui é o ovo.",
+      "Dei até um mortal de alegria por você ter pensado direitinho. Só faltou virar a seta."
+    ],
+    "sarc": [
+      "Ah, então o resultado causou o começo. A física quântica agradece a contribuição.",
+      "Inverter causa e efeito é tipo ligar o carro depois de chegar. Criativo.",
+      "O efeito veio antes da causa? Que ousadia viajar no tempo para responder uma questão.",
+      "Muito bem: a chuva molhou a nuvem. Faz todo sentido, né?",
+      "Pelo menos a lógica tem coerência interna. Só não tem coerência com o mundo."
+    ],
+    "sem": [
+      "VOCÊ PÔS O EFEITO COMO CAUSA!!! É COMO DIZER QUE O GUARDA-CHUVA CAUSA A CHUVA!",
+      "SETA AO CONTRÁRIO!!! A SETA TÁ NO LUGAR ERRADO, E EU ESTOU TONTO DE TANTO GIRAR!",
+      "CAUSA É O COMEÇO, EFEITO É O FIM. NÃO É DIFÍCIL, É SÓ NÃO PIRAR NA ORDEM!",
+      "A LÓGICA DE TRÁS PRA FRENTE É ÓTIMA PRA FILME, MAS NA PROVA NÃO CONVENCE!",
+      "ISSO FOI UM PLOT TWIST QUE NINGUÉM PEDIU. O EFEITO NÃO VEM ANTES DA CAUSA!"
+    ],
+    "reserva": "Pergunte sempre: o que veio primeiro? A causa nunca vem depois do efeito."
+  },
+  {
+    "etiqueta": "bio-generalizou",
+    "fofo": [
+      "Cuidado com o 'sempre' e o 'nunca', eles adoram enganar! Na Biologia quase tudo tem exceção.",
+      "Você pegou um caso e transformou em regra. É um instinto bonito, mas aqui precisa ser mais específico.",
+      "Quase certo! Faltou lembrar que 'todos' é uma palavra bem pesada na Ciência.",
+      "Essa alternativa tava com cara de verdade, mas só vale em alguns casos. Vamos de novo!",
+      "Palavras como 'sempre' me dão pavor, e olha que eu inflo de susto! Tá tudo bem, aprende com isso."
+    ],
+    "sarc": [
+      "Ah sim, TODOS os seres vivos fazem isso. Todos. Sem exceção. Com certeza.",
+      "Uma exceção apareceu e a sua regra foi pro saco. Que dia!",
+      "Generalizar é ótimo, só que a natureza adora exceções. Ela tem até hobby de criar.",
+      "Que bom que o 'sempre' nunca falha. Ops, falhou.",
+      "Pegou um exemplo e fez uma lei universal. Newton ficaria chateado."
+    ],
+    "sem": [
+      "'SEMPRE'?! 'NUNCA'?! A NATUREZA É UMA BAGUNÇA DE EXCEÇÕES, MEU CARO!",
+      "VOCÊ TRANSFORMOU UM CASO EM LEI! SÓ FALTOU PUBLICAR NA NATURE!",
+      "TODO MUNDO FAZ ISSO? TODO MUNDO MESMO? CITA UM, DOIS, TRÊS... TÁ VENDO? JÁ ERROU!",
+      "A PALAVRA 'TODOS' EM BIOLOGIA É ARMADILHA CLÁSSICA! CAIU COMO UM PATINHO!",
+      "GENERALIZOU TANTO QUE VIROU HORÓSCOPO: SERVE PRA TUDO E NÃO ACERTA NADA."
+    ],
+    "reserva": "Palavras como 'sempre' e 'nunca' pedem desconfiança. Procure a exceção."
+  },
+  {
+    "etiqueta": "bio-ignorou-dado",
+    "fofo": [
+      "A pista estava ali no enunciado, escondidinha! Volta lá e dá mais uma olhada.",
+      "Tem uma informação do texto que muda tudo. Releia com calma, você consegue achar.",
+      "Quase! Faltou usar aquele dado que o enunciado entregou de bandeja.",
+      "O enunciado deixou uma dica e ela passou batida. Acontece com a pressa!",
+      "Eu também leio rápido às vezes e perco o detalhe. Aí o detalhe se vinga!"
+    ],
+    "sarc": [
+      "O enunciado deu um dado só pra ser ignorado, né? Respeito.",
+      "Leu a pergunta e respondeu outra. Muito produtivo.",
+      "O dado estava lá, brilhando. Mas tudo bem, a vista não gosta de cansar.",
+      "Quem precisa de todas as informações do texto quando se tem intuição?",
+      "O enunciado se deu ao trabalho de te ajudar, e você pulou. Delicado."
+    ],
+    "sem": [
+      "O DADO ESTAVA ESCRITO NO ENUNCIADO!!! NA SUA CARA!!! COM LETRINHA E TUDO!",
+      "LEU O ENUNCIADO OU SÓ SENTIU A VIBE?! A INFORMAÇÃO ERA O CORAÇÃO DA QUESTÃO!",
+      "O ENUNCIADO GRITOU, SUSSURROU, ACENOU, E VOCÊ PASSOU DIRETO COMO NA FILA DO BANDEJÃO!",
+      "IGNOROU A PISTA PRINCIPAL! É COMO ESQUECER O MAPA E RECLAMAR QUE SE PERDEU!",
+      "ESSE DADO TINHA UM NEON ACESO. UM NEON. E VOCÊ NEM PISCOU!"
+    ],
+    "reserva": "Antes de escolher, sublinhe todos os dados do enunciado e confira se usou cada um."
+  },
+  {
+    "etiqueta": "bio-erro-calculo",
+    "fofo": [
+      "A ideia estava certa, a conta é que escorregou. Refaz com calma que você pega!",
+      "Foi um errinho de conta, só isso. Conferir o resultado ajuda bastante!",
+      "O caminho estava bom, mas o número final fugiu. Passo a passo e vai!",
+      "Conta chata é assim mesmo, vive tentando derrubar a gente. Vamos revisar juntos?",
+      "Eu errei conta mil vezes e olha eu aqui, baiacu feliz. Tenta de novo!"
+    ],
+    "sarc": [
+      "Quase acertou! Faltou só... o resultado certo.",
+      "A matemática é a mesma de ontem, o problema deve ser a sua parte. Brincadeira. Mais ou menos.",
+      "Parou na metade da conta e achou que era o final. Otimismo nota 10.",
+      "Olha que lindo: contas diferentes, um resultado errado. Variedade!",
+      "Aquele resultado intermediário se passou por resposta e você caiu. Clássico."
+    ],
+    "sem": [
+      "A CONTA NÃO FECHOU!!! O RESULTADO FICOU LONGE DO CERTO COMO O WI-FI DO ÚLTIMO QUARTO!",
+      "FALTOU UM PASSO NA CONTA E SOBROU TRISTEZA NA RESPOSTA!",
+      "VOCÊ PAROU NO MEIO DO CAMINHO E COMEMOROU COMO SE TIVESSE CHEGADO NO FINAL!",
+      "SOMAR ERRADO É UM CRIME QUE O RESULTADO NÃO PERDOA!",
+      "O RESULTADO DEU UM NÚMERO QUE NÃO EXISTE NO UNIVERSO. A CALCULADORA CHOROU!"
+    ],
+    "reserva": "Refaça a conta de trás pra frente: se o resultado não volta ao dado inicial, tem erro no meio."
+  },
+  {
+    "etiqueta": "bio-erro-probabilidade",
+    "fofo": [
+      "Probabilidade confunde mesmo! Lembra: 'e' multiplica, 'ou' soma. Tenta de novo!",
+      "Quase! A chance de cada evento você acertou, faltou combinar eles do jeito certo.",
+      "Os quadradinhos de Punnett são seus amigos. Desenha tudo e a resposta aparece!",
+      "Foi um errinho de proporção, bem comum. Contar os casos favoráveis ajuda muito!",
+      "Eu já fiquei com a probabilidade embolada, e eu vivo em cardume, imagina! Respira e refaz."
+    ],
+    "sarc": [
+      "Somou onde era pra multiplicar. A matemática está em estado de choque.",
+      "Probabilidade de acerto na sua conta: baixa. Só que isso tem solução.",
+      "Que bela fração! Pena que não é a da questão.",
+      "Parabéns, você criou uma proporção genética nova. A natureza não aprovou.",
+      "Ah, claro, a sorte é igual pra todo mundo, exceto pra essa alternativa."
+    ],
+    "sem": [
+      "SOMOU?! ERA PRA MULTIPLICAR!!! A PROBABILIDADE ESTÁ CHORANDO NO CANTO!",
+      "ESSA FRAÇÃO NÃO EXISTE NEM NO CRUZAMENTO MAIS FANTASIOSO DO UNIVERSO!",
+      "DESENHA O QUADRO DE PUNNETT, PELO AMOR DOS MARES!!!",
+      "VOCÊ DEU UM CHUTE ESTATÍSTICO COM CARA DE CÁLCULO. EU VI O TRUQUE!",
+      "A PROBABILIDADE FOI PRO LADO ERRADO E AINDA LEVOU O DENOMINADOR JUNTO!"
+    ],
+    "reserva": "Probabilidade de eventos independentes: multiplique. Quando há alternativas, some."
+  },
+  {
+    "etiqueta": "bio-confundiu-organela",
+    "fofo": [
+      "Cada organela tem seu trabalho e você deu o crachá da vizinha. Troca o crachá e pronto!",
+      "A mitocôndria e o cloroplasto adoram ser confundidos, mas cada um tem sua função. Bora relembrar!",
+      "Quase! Essa função pertence a outra organela da célula. Faz um mapinha mental!",
+      "A célula é um bairro, e você mandou a entrega pra rua errada. Acontece!",
+      "Eu mesmo confundi isso ontem, e olha que sou especialista em inflar. Revisa a tabelinha!"
+    ],
+    "sarc": [
+      "Deu o emprego do núcleo pro ribossomo. A célula pediu demissão.",
+      "Organela errada, confiança certa. Já é meio caminho andado... pro erro.",
+      "Nossa, que organização: todo mundo fazendo o serviço de todo mundo.",
+      "A mitocôndria viu isso e pediu transferência para outra célula.",
+      "Troca de função na célula: o tipo de reforma que ninguém pediu."
+    ],
+    "sem": [
+      "VOCÊ DEU O TRABALHO DA MITOCÔNDRIA PRO CLOROPLASTO!!! A CÉLULA VIROU CAOS TOTAL!",
+      "ESSA ORGANELA TÁ NO ENTREGADOR ERRADO! CADÊ O CRACHÁ?! CADÊ A FUNÇÃO?!",
+      "A ORGANELA CERTA TÁ ROXA DE ÓDIO DE TANTO QUE VOCÊ A IGNOROU!",
+      "TROCOU A FUNÇÃO COMO QUEM TROCA O NOME DO COLEGA NO GRUPO DO ZAP!",
+      "O RIBOSSOMO NÃO FAZ ENERGIA, MEU AMIGO! ELE JÁ TEM TRABALHO DEMAIS!"
+    ],
+    "reserva": "Para cada organela, decore uma frase curta: quem ela é e o que produz ou faz."
+  },
+  {
+    "etiqueta": "bio-lamarckismo",
+    "fofo": [
+      "Essa ideia é do Lamarck, e foi bem popular no século XIX! A ciência mostrou que as coisas não funcionam assim.",
+      "Seria lindo se esforço mudasse o DNA, mas a hereditariedade é outra história. Bora entender?",
+      "Você pensou que a necessidade muda o organismo. O certo é que a variação já existe, e o ambiente seleciona.",
+      "O pescoço da girafa não esticou por esforço! Revisa a lógica da seleção natural.",
+      "Todo mundo já imaginou isso, até eu pensei que ia crescer se me esforçasse. Mas não, baiacu é assim."
+    ],
+    "sarc": [
+      "Ah, então a girafa fez um treininho de pescoço e passou o resultado pros filhos. Que academia!",
+      "Esforço genético: o único tipo de treino que passa para a próxima geração, segundo o Lamarck de 1809.",
+      "Que gracinha acreditar que a bactéria decidiu ficar resistente. Ela só queria viver.",
+      "Se fosse assim, quem malha teria filho já sarado. Mas a natureza não funciona na base do 'esforça-se e herdará'.",
+      "Lamarck ficaria orgulhoso. Já o Darwin, nem tanto."
+    ],
+    "sem": [
+      "A NATUREZA NÃO ATENDE PEDIDO!!! O ORGANISMO NÃO MUDA SÓ PORQUE 'PRECISA'!",
+      "LAMARCK TÁ DE PÉ NO ARMÁRIO DA CIÊNCIA E VOCÊ ACABOU DE ABRIR A PORTA!",
+      "SE ESFORÇO MUDASSE O DNA, EU JÁ TERIA NASCIDO PEIXE-BOI SARADO!",
+      "A GIRAFA NÃO ESTICOU O PESCOÇO! A SELEÇÃO NATURAL RIU DESSA TEORIA!",
+      "'ELA SE ADAPTOU PORQUE PRECISAVA'. NÃO, NÃO, NÃO, NÃO! É SELEÇÃO NATURAL, MEU BOM!"
+    ],
+    "reserva": "O ambiente seleciona quem já tem a variação. Ninguém muda os genes por vontade ou esforço."
+  },
+  {
+    "etiqueta": "bio-confundiu-processos",
+    "fofo": [
+      "Esses dois processos são tão parecidos que o nome já confunde! Bora comparar lado a lado?",
+      "Você acertou o assunto, só trocou o processo. Vale revisar os dois com calma!",
+      "Quase! Fotossíntese e respiração parecem espelho um do outro, mas cada um tem o seu papel.",
+      "A mitose e a meiose gostam de pregar peça nessa hora. Repara no número de cromossomos!",
+      "Eu confundo as duas coisas quando tô nadando rápido, mas na prova a gente respira fundo!"
+    ],
+    "sarc": [
+      "Fotossíntese, respiração... tanto faz, né? Tudo é processo.",
+      "Trocou o processo por um parecido. A célula agradece a confusão extra.",
+      "Mitose, meiose: as duas começam com M, então deve ser a mesma coisa. Lógica de ferro.",
+      "Que bela mistura de processos! Falta só um forninho e um brigadeiro.",
+      "Ah sim, fermentação é só respiração com outro nome. Alguém avisa a levedura."
+    ],
+    "sem": [
+      "FOTOSSÍNTESE NÃO É RESPIRAÇÃO!!! SÃO CAMINHOS OPOSTOS, MEU NOBRE!",
+      "VOCÊ LIGOU O PROCESSO ERRADO! A CÉLULA NÃO RECEBEU O MEMORANDO!",
+      "MITOSE E MEIOSE NÃO SÃO IRMÃS GÊMEAS! UMA FAZ CÓPIA, A OUTRA FAZ GAMETA!",
+      "ISSO FOI UMA TROCA DE ETAPA! A CÉLULA NÃO TEM ESSA FLEXIBILIDADE!",
+      "CONFUNDIR PROCESSOS É COMO TROCAR O PÃO PELO PEIXE NA RECEITA E CULPAR O FORNO!"
+    ],
+    "reserva": "Para processos parecidos, escreva entrada e saída de cada um e compare."
+  },
+  {
+    "etiqueta": "bio-sentido-fluxo",
+    "fofo": [
+      "A energia só vai para um lado, e a seta tá no sentido contrário. Vira a seta e pronto!",
+      "Você acertou os personagens, mas inverteu o caminho. Reveja quem passa para quem!",
+      "O fluxo pegou você de surpresa! Segue a energia a partir do Sol e vai achar o rumo.",
+      "O caminho da matéria é circular, e o da energia é de mão única. Bora revisar?",
+      "Eu também nado no sentido errado às vezes e dou de cara com o vidro do aquário!"
+    ],
+    "sarc": [
+      "Então a energia sobe pela cadeia e depois desce. Teoria nova, adorei.",
+      "O fluxo foi pro lado errado, mas a segurança com que você escolheu foi linda.",
+      "Que originalidade: o decompositor alimentando o produtor com energia. Magia pura.",
+      "A seta ficou confusa, mas pelo menos ela estava bem desenhada.",
+      "Se a energia voltasse, ninguém precisava de almoço. Que beleza de mundo seria."
+    ],
+    "sem": [
+      "SENTIDO ERRADO!!! A ENERGIA NÃO FAZ MARCHA RÉ NA CADEIA ALIMENTAR!",
+      "A SETA VAI NO OUTRO LADO, MEU QUERIDO! OLHA O SENTIDO DO FLUXO!",
+      "ENERGIA É MÃO ÚNICA!!! NÃO TEM RETORNO NA ESTRADA DA CADEIA ALIMENTAR!",
+      "VOCÊ NAVEGOU CONTRA A CORRENTE E AINDA PEDIU MEDALHA!",
+      "FLUXO INVERTIDO!!! É COMO ENTRAR NA SAÍDA DO SHOPPING E CULPAR O CARRINHO!"
+    ],
+    "reserva": "Energia segue um só sentido, do Sol para os produtores e daí para frente. Desenhe a seta antes de responder."
+  },
+  {
+    "etiqueta": "bio-senso-comum",
+    "fofo": [
+      "Essa resposta soou lógica no dia a dia, mas a Ciência usa outro conceito. Bora aprender o certo!",
+      "O senso comum nos engana bastante em Biologia. Tá tudo bem, a gente corrige!",
+      "Você respondeu com a intuição, e ela quase acertou. Falta o termo científico!",
+      "Muita gente pensa assim! Só que na prova vale o conceito, e não o 'achismo'.",
+      "Eu mesmo já 'achei' muita coisa. Aí o professor mostrou, e eu quase estourei de vergonha!"
+    ],
+    "sarc": [
+      "Ah, o famoso 'todo mundo sabe que é assim'. Spoiler: nem sempre é.",
+      "Seu achismo foi muito bem articulado. A ciência, porém, quer evidência.",
+      "Se bastasse o 'parece que é' a Biologia seria uma matéria de uma página.",
+      "Que bonito usar a lógica da vovó nessa questão. Só que ela não fez Ciências.",
+      "Você acredita em quê? Na tia do zap ou no livro? Aqui é no livro."
+    ],
+    "sem": [
+      "'ACHEI' NÃO É CONCEITO CIENTÍFICO!!! A CIÊNCIA PEDE EVIDÊNCIA, NÃO VIBE!",
+      "ISSO É CRENÇA DE GRUPO DE FAMÍLIA, NÃO É BIOLOGIA!",
+      "VOCÊ RESPONDEU COM A INTUIÇÃO E ELA FALHOU COMO A INTERNET NA HORA DO JOGO!",
+      "SENSO COMUM É ÓTIMO PRA ESCOLHER SORVETE, MAS NA PROVA É ARMADILHA!",
+      "'TODO MUNDO SABE' NÃO É UM ARGUMENTO. NEM NO ENEM, NEM NO AQUÁRIO!"
+    ],
+    "reserva": "Quando a resposta 'parece óbvia', pare e confira se é conceito científico ou só impressão."
+  },
+  {
+    "etiqueta": "bio-confundiu-agente",
+    "fofo": [
+      "Vírus, bactéria e protozoário parecem tudo a mesma coisa, mas cada um tem seu jeito. Bora revisar!",
+      "Quase! A doença foi para o agente errado, e isso muda o tipo de tratamento.",
+      "Cada agente tem o próprio remédio e a própria prevenção. Faz uma tabelinha, ajuda demais!",
+      "Antibiótico é para bactéria, tá? Vírus pede outro caminho. Já já você pega!",
+      "Eu até me confundo, mas anoto: bactéria, antibiótico. Vírus, vacina. Simples!"
+    ],
+    "sarc": [
+      "Então o antibiótico mata vírus. Parabéns, você descobriu uma cura que nenhum cientista achou.",
+      "Vírus, bactéria, tudo micróbio, né? Vamos misturar os dois no mesmo saco.",
+      "Confundir o agente da doença é o tipo de coisa que dá vontade de pedir segunda opinião.",
+      "A vacina ficou encantada com o seu ponto de vista. Ela só funciona em vírus, tá?",
+      "Genial: um mosquito causa a doença, e a doença se espalha pelo ar. Quase ninguém viu isso."
+    ],
+    "sem": [
+      "BACTÉRIA NÃO É VÍRUS!!! O ANTIBIÓTICO NÃO FAZ NADA CONTRA VÍRUS!",
+      "VOCÊ MISTUROU OS AGENTES COMO QUEM MISTURA OS CABOS NO FUNDO DA GAVETA!",
+      "ESSA DOENÇA TEM OUTRO CULPADO!!! O AGENTE FOI TROCADO NA CENA DO CRIME!",
+      "PROTOZOÁRIO, BACTÉRIA, VÍRUS: TRÊS SERES, TRÊS HISTÓRIAS, TRÊS TRATAMENTOS!",
+      "ISSO FOI UM ERRO DE FÁBRICA!!! COLOCOU O MICRÓBIO ERRADO NA DOENÇA!"
+    ],
+    "reserva": "Antes de escolher a prevenção, identifique o agente: vírus, bactéria, protozoário ou verme."
+  },
+  {
+    "etiqueta": "bio-erro-dominancia",
+    "fofo": [
+      "Dominante não quer dizer o mais comum nem o mais forte, só o que aparece com um alelo! Revisa isso!",
+      "Quase! O alelo dominante manda no fenótipo, mas pode ser raro na população.",
+      "Pais iguais podem ter filho diferente se carregarem o alelo recessivo escondido!",
+      "Essa história de dominante e recessivo confunde! Pensa em quem aparece e quem fica escondido.",
+      "Eu, que sou baiacu dominante do aquário, só consegui entender isso na terceira tentativa!"
+    ],
+    "sarc": [
+      "Então dominante é o mais forte? Parece o caso de uma teoria muito popular e muito errada.",
+      "Que gracinha achar que alelo dominante sempre é o mais comum. A genética chora de rir.",
+      "Dominante e recessivo: a única briga em que quem vence nem sempre tem mais gente.",
+      "Pais iguais, filho diferente: genética nível 'surpresa'.",
+      "Alelo dominante dominando a população? Só se o resto concordar, né."
+    ],
+    "sem": [
+      "DOMINANTE NÃO É VALENTÃO!!! É SÓ O ALELO QUE APARECE PRIMEIRO!",
+      "DOMINANTE NÃO É O MAIS COMUM!!! ISSO É LENDA URBANA DA GENÉTICA!",
+      "FILHO COM FENÓTIPO DIFERENTE DOS PAIS? PODE SIM! É O ALELO ESCONDIDO!",
+      "VOCÊ CONFUNDIU DOMINANTE COM CAMPEÃO DE FREQUÊNCIA! A GENÉTICA GRITOU!",
+      "O ALELO RECESSIVO ESTAVA ESCONDIDO NO PORÃO E VOCÊ NÃO PERCEBEU!"
+    ],
+    "reserva": "Dominância é sobre quem aparece no fenótipo, não sobre quantos indivíduos têm o alelo."
+  },
+  {
+    "etiqueta": "bio-troca-orgao-funcao",
+    "fofo": [
+      "Essa função é de outro órgão! Cada um tem seu trabalho no corpo. Bora fazer um mapa?",
+      "Quase! Você chegou perto, mas o crachá era de outro órgão.",
+      "O corpo é uma equipe e cada um tem sua função. Dá uma revisada no mapa do corpo!",
+      "Fígado, pâncreas, rins: cada um faz uma coisa. Anota a função de cada e fica tranquilo!",
+      "Eu também confundo órgão, até porque o baiacu tem poucos. Mas você tem vários, revisa!"
+    ],
+    "sarc": [
+      "Passou o trabalho do rim pro fígado. O sistema do corpo agradece a reestruturação.",
+      "Ah, o pulmão digere? Descobertas fantásticas na sua aula de hoje.",
+      "Troca de função de órgão: o único tipo de reforma que dá errado antes de começar.",
+      "Quem precisa de especialização se todo órgão faz tudo, né?",
+      "Que criatividade: o coração produzindo insulina. O pâncreas pediu aviso prévio."
+    ],
+    "sem": [
+      "OS ÓRGÃOS NÃO TROCAM DE FUNÇÃO!!! CADA UM TEM O SEU CRACHÁ!",
+      "O FÍGADO NÃO FAZ O SERVIÇO DO RIM! O CORPO ESTÁ EM GREVE!",
+      "VOCÊ DEU O CARGO DO PÂNCREAS PRO ESTÔMAGO!!! UM ABSURDO ADMINISTRATIVO!",
+      "FUNÇÃO TROCADA!!! É COMO PÔR O GOLEIRO PRA FAZER GOL E O ATACANTE NO GOL!",
+      "CADA ÓRGÃO TEM UM TRABALHO E VOCÊ TROCOU TODOS NA BRINCADEIRA!"
+    ],
+    "reserva": "Associe cada órgão a uma função-chave: rim filtra, pulmão troca gases, fígado produz bile."
+  },
+  {
+    "etiqueta": "bio-meia-verdade",
+    "fofo": [
+      "Essa alternativa é verdadeira, mas não responde ao que foi perguntado! Releia a pergunta com carinho.",
+      "Quase! Você escolheu algo certo, só que não era a resposta pedida.",
+      "A frase está correta, mas a pergunta queria outra coisa. É pegadinha clássica!",
+      "Uma meia-verdade pode enganar até o melhor aluno. Foca no que o enunciado pede!",
+      "Já caí nessa várias vezes, e olha que eu vejo tudo da água. Perguntas têm foco, tá?"
+    ],
+    "sarc": [
+      "A frase está certa, só não é a resposta. Detalhe pequeno.",
+      "Que verdade linda! Infelizmente, de outra pergunta.",
+      "Você acertou o fato e errou a pergunta. Metade do caminho já é alguma coisa.",
+      "Verdade sem relevância: o tipo de resposta que enche a prova de estrelinhas e zero pontos.",
+      "Respondeu uma pergunta que ninguém fez. Muito original."
+    ],
+    "sem": [
+      "A FRASE ESTÁ CERTA, MAS NÃO É A RESPOSTA!!! A PERGUNTA PEDIA OUTRA COISA!",
+      "MEIA-VERDADE É A MAIS TRAIÇOEIRA DAS ALTERNATIVAS!!! CAIU DIRETO NO ANZOL!",
+      "VERDADEIRA PRA OUTRA QUESTÃO, MEU CARO!!! AQUI NÃO VALE!",
+      "VOCÊ ACERTOU UM FATO E ERROU O FOCO! EU FIQUEI COM ESSA VERDADE ENTALADA!",
+      "ESSA ALTERNATIVA É UMA ISCA BEM FEITA E VOCÊ MORDEU COMO TUBARÃO NA SEXTA!"
+    ],
+    "reserva": "Uma alternativa pode ser verdadeira e ainda assim não responder. Releia o que a pergunta pede."
+  }
+]

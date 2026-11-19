@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Middleware\TraduzirCamposDeLogin;
 use Laravel\Fortify\Features;
 
 return [
@@ -73,7 +74,7 @@ return [
     |
     */
 
-    'home' => '/dashboard',
+    'home' => '/inicio',
 
     /*
     |--------------------------------------------------------------------------
@@ -101,7 +102,7 @@ return [
     |
     */
 
-    'middleware' => ['web'],
+    'middleware' => ['web', TraduzirCamposDeLogin::class],
 
     /*
     |--------------------------------------------------------------------------
@@ -133,6 +134,18 @@ return [
 
     'views' => true,
 
+    'paths' => [
+        'login' => 'entrar',
+        'register' => 'cadastro',
+        // O Fortify lê com config('fortify.paths.password.request'), por isso o aninhamento.
+        'password' => [
+            'request' => 'esqueci-senha',
+            'email' => 'esqueci-senha',
+            'reset' => 'redefinir-senha/{token}',
+            'update' => 'redefinir-senha',
+        ],
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Passkeys
@@ -163,15 +176,6 @@ return [
     'features' => [
         Features::registration(),
         Features::resetPasswords(),
-        Features::emailVerification(),
-        Features::twoFactorAuthentication([
-            'confirm' => true,
-            'confirmPassword' => true,
-            // 'window' => 0
-        ]),
-        Features::passkeys([
-            'confirmPassword' => true,
-        ]),
     ],
 
 ];

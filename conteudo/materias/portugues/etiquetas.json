@@ -1,0 +1,16 @@
+[
+  { "id": "por-leitura-superficial", "nome": "Leitura superficial", "descricao": "Ficou só no que está escrito na superfície e não fez a inferência que o texto pedia." },
+  { "id": "por-extrapolacao", "nome": "Extrapolação", "descricao": "Afirmou algo que o texto não diz, indo além das informações dadas." },
+  { "id": "por-reducao", "nome": "Redução", "descricao": "Considerou só uma parte do texto e tratou como se fosse a ideia central." },
+  { "id": "por-contradicao-texto", "nome": "Contradição com o texto", "descricao": "Marcou uma ideia oposta ao que o texto defende." },
+  { "id": "por-ignorou-ironia", "nome": "Não percebeu a ironia", "descricao": "Leu no sentido direto um trecho que diz o contrário do que parece." },
+  { "id": "por-tema-x-tese", "nome": "Tema no lugar da tese", "descricao": "Confundiu o assunto geral do texto com a posição que o autor defende sobre ele." },
+  { "id": "por-sentido-literal", "nome": "Sentido literal", "descricao": "Tomou ao pé da letra uma expressão que está em sentido figurado." },
+  { "id": "por-confundiu-funcao", "nome": "Confundiu a função da linguagem", "descricao": "Trocou uma função da linguagem por outra pelo foco errado (emissor, receptor, código, canal, mensagem, contexto)." },
+  { "id": "por-confundiu-figura", "nome": "Confundiu a figura de linguagem", "descricao": "Trocou uma figura por outra parecida, como metáfora por comparação ou metonímia por sinédoque." },
+  { "id": "por-confundiu-variacao", "nome": "Confundiu o tipo de variação", "descricao": "Misturou variação regional, social, situacional ou histórica." },
+  { "id": "por-preconceito-linguistico", "nome": "Certo e errado no lugar de adequação", "descricao": "Julgou a fala como errada em vez de avaliar se é adequada à situação." },
+  { "id": "por-conectivo-errado", "nome": "Relação lógica trocada", "descricao": "Escolheu um conectivo que cria outra relação (oposição, causa, conclusão, concessão) no lugar da pedida." },
+  { "id": "por-referente-errado", "nome": "Referente errado", "descricao": "Ligou o pronome ou a expressão de retomada a outro termo do texto." },
+  { "id": "por-confundiu-genero", "nome": "Confundiu gênero ou tipo textual", "descricao": "Identificou o gênero ou o tipo de texto pelo tema, e não pelas características e pela finalidade." }
+]

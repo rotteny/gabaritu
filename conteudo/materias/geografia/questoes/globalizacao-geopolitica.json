@@ -1,0 +1,902 @@
+[
+  {
+    "id": "geo-globalizacao-geopolitica-001",
+    "materia": "geografia",
+    "assunto": "globalizacao-geopolitica",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "O mundo mais conectado",
+    "enunciado": "A globalização é o processo de intensificação da integração econômica, cultural e tecnológica entre os países. Ela foi favorecida, principalmente, por",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "fronteiras fechadas ao comércio",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "B",
+        "texto": "avanços nos transportes e nas telecomunicações",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "fim das desigualdades entre países",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      },
+      {
+        "letra": "D",
+        "texto": "troca restrita entre países vizinhos",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      },
+      {
+        "letra": "E",
+        "texto": "isolamento cultural dos povos",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      }
+    ],
+    "explicacao": "Transportes mais rápidos, internet e telecomunicações aproximaram mercados e culturas. A globalização não eliminou desigualdades nem fronteiras.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-globalizacao-geopolitica-002",
+    "materia": "geografia",
+    "assunto": "globalizacao-geopolitica",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Guerra sem tiros diretos",
+    "enunciado": "Após a Segunda Guerra Mundial, os Estados Unidos e a União Soviética disputaram influência no mundo, sem se enfrentar diretamente em guerra declarada. Esse período é chamado de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Guerra do Paraguai",
+        "correta": false,
+        "etiqueta": "geo-cronologia"
+      },
+      {
+        "letra": "B",
+        "texto": "Guerra Fria",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "Primeira Guerra Mundial",
+        "correta": false,
+        "etiqueta": "geo-cronologia"
+      },
+      {
+        "letra": "D",
+        "texto": "Guerra dos Cem Anos",
+        "correta": false,
+        "etiqueta": "geo-cronologia"
+      },
+      {
+        "letra": "E",
+        "texto": "Revolução Industrial",
+        "correta": false,
+        "etiqueta": "geo-cronologia"
+      }
+    ],
+    "explicacao": "A Guerra Fria (cerca de 1947 a 1991) foi marcada pela rivalidade entre capitalismo e socialismo, corrida armamentista e conflitos indiretos em vários países.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-globalizacao-geopolitica-003",
+    "materia": "geografia",
+    "assunto": "globalizacao-geopolitica",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Bloco do Cone Sul",
+    "enunciado": "Qual alternativa descreve corretamente o Mercosul?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Bloco do Cone Sul criado em 1991 pelo Tratado de Assunção, com Argentina, Brasil, Paraguai e Uruguai como fundadores",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "Bloco formado por Brasil, México e Canadá",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "Bloco criado em 1957 pelo Tratado de Roma",
+        "correta": false,
+        "etiqueta": "geo-cronologia"
+      },
+      {
+        "letra": "D",
+        "texto": "Bloco de países europeus com moeda única",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "Bloco só entre Brasil e Argentina",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      }
+    ],
+    "explicacao": "O Mercosul nasceu com o Tratado de Assunção, em 1991, entre Argentina, Brasil, Paraguai e Uruguai. Tratado de Roma e moeda única remetem à Europa.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-globalizacao-geopolitica-004",
+    "materia": "geografia",
+    "assunto": "globalizacao-geopolitica",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Disputa de tarifas",
+    "enunciado": "Dois países entram em conflito porque um deles aplicou taxas sobre produtos do outro acima do que havia sido combinado. Qual organização internacional tem entre suas funções mediar disputas desse tipo?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "FMI",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "ONU, só para guerras",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "OTAN",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "Banco Mundial",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "OMC, criada em 1995 para regular o comércio internacional",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "A Organização Mundial do Comércio cuida das regras do comércio entre países e dos mecanismos de solução de disputas. O FMI trata de estabilidade financeira e a OTAN é uma aliança militar.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-globalizacao-geopolitica-005",
+    "materia": "geografia",
+    "assunto": "globalizacao-geopolitica",
+    "questionario": 1,
+    "dificuldade": 1,
+    "contexto": "Peças pelo mundo",
+    "enunciado": "Uma empresa fictícia desenha o produto no país A, fabrica componentes no país B, monta no país C e vende no mundo todo. Esse arranjo é típico de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "autarquia, em que cada país produz tudo",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "fordismo do início do século XX, concentrado em uma só fábrica",
+        "correta": false,
+        "etiqueta": "geo-cronologia"
+      },
+      {
+        "letra": "C",
+        "texto": "cadeias globais de produção das empresas transnacionais, que buscam custos menores e mercados",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "protecionismo comercial",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "economia de subsistência",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      }
+    ],
+    "explicacao": "As transnacionais espalham as etapas da produção por vários países, buscando custos menores, mão de obra e mercados. O fordismo clássico concentrava a produção em uma grande fábrica.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-globalizacao-geopolitica-006",
+    "materia": "geografia",
+    "assunto": "globalizacao-geopolitica",
+    "questionario": 2,
+    "dificuldade": -1,
+    "contexto": "Muro que caiu",
+    "enunciado": "A queda do Muro de Berlim, em 1989, é lembrada como símbolo de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "início da Guerra Fria",
+        "correta": false,
+        "etiqueta": "geo-cronologia"
+      },
+      {
+        "letra": "B",
+        "texto": "criação da ONU",
+        "correta": false,
+        "etiqueta": "geo-cronologia"
+      },
+      {
+        "letra": "C",
+        "texto": "divisão da Alemanha em duas partes",
+        "correta": false,
+        "etiqueta": "geo-cronologia"
+      },
+      {
+        "letra": "D",
+        "texto": "início da União Europeia",
+        "correta": false,
+        "etiqueta": "geo-cronologia"
+      },
+      {
+        "letra": "E",
+        "texto": "declínio do bloco socialista e fim da Guerra Fria",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "O muro, construído em 1961, dividia Berlim. Sua queda simbolizou o fim da divisão da Europa e o declínio do bloco soviético, que se dissolveu em 1991.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-globalizacao-geopolitica-007",
+    "materia": "geografia",
+    "assunto": "globalizacao-geopolitica",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Produzir só o que vende",
+    "enunciado": "Um modelo de produção surgido no Japão no pós-guerra busca produzir conforme a demanda, manter estoques mínimos e contar com trabalhadores polivalentes. Esse modelo é o",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "toyotismo, ou produção flexível",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "fordismo, com linha de montagem rígida",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "artesanato tradicional",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "sistema de manufatura medieval",
+        "correta": false,
+        "etiqueta": "geo-cronologia"
+      },
+      {
+        "letra": "E",
+        "texto": "sistema escravista",
+        "correta": false,
+        "etiqueta": "geo-cronologia"
+      }
+    ],
+    "explicacao": "O toyotismo prioriza flexibilidade, 'just in time' e polivalência. O fordismo se baseia em produção em massa, linha de montagem e grandes estoques.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-globalizacao-geopolitica-008",
+    "materia": "geografia",
+    "assunto": "globalizacao-geopolitica",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Abertura chinesa",
+    "enunciado": "A partir do fim da década de 1970, a China passou por reformas econômicas. Uma característica desse processo foi",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "isolamento total do comércio mundial até hoje",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      },
+      {
+        "letra": "B",
+        "texto": "abertura iniciada só em 1991",
+        "correta": false,
+        "etiqueta": "geo-cronologia"
+      },
+      {
+        "letra": "C",
+        "texto": "abertura de parte da economia ao capital estrangeiro em zonas econômicas especiais, mantendo forte papel do Estado",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "economia apenas agrícola",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      },
+      {
+        "letra": "E",
+        "texto": "ausência de empresas estatais",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      }
+    ],
+    "explicacao": "As reformas criaram zonas econômicas especiais, como Shenzhen, atraindo investimentos e impulsionando a industrialização voltada à exportação, com forte presença do Estado.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-globalizacao-geopolitica-009",
+    "materia": "geografia",
+    "assunto": "globalizacao-geopolitica",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Refugiado ou migrante?",
+    "enunciado": "Em debates sobre migrações, diferenciar refugiado de migrante econômico é importante. Uma diferença conceitual correta é que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "são sinônimos",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "o refugiado deixa o país por fundado temor de perseguição ou conflito e tem proteção do direito internacional",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "o refugiado escolhe sair por lazer",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "D",
+        "texto": "o migrante econômico é sempre ilegal",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      },
+      {
+        "letra": "E",
+        "texto": "só tem direito de pedir refúgio quem tem passaporte",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      }
+    ],
+    "explicacao": "O refugiado foge de perseguição, guerra ou violação grave de direitos, e é protegido por convenções internacionais. O migrante econômico sai principalmente em busca de trabalho e melhores condições.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-globalizacao-geopolitica-010",
+    "materia": "geografia",
+    "assunto": "globalizacao-geopolitica",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Cultura global, cultura local",
+    "enunciado": "Músicas e séries mundiais chegam a todos os cantos do planeta, mas muitas comunidades adaptam esses produtos e misturam com suas tradições. Isso mostra que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a globalização extinguiu todas as culturas locais",
+        "correta": false,
+        "etiqueta": "geo-globalizacao-homogenea"
+      },
+      {
+        "letra": "B",
+        "texto": "a globalização não afeta a cultura",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      },
+      {
+        "letra": "C",
+        "texto": "só a cultura dos países pobres chega aos ricos",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "D",
+        "texto": "a cultura global se mistura às locais, com homogeneização e também reinterpretação local",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "a cultura global é imposta por lei a todos",
+        "correta": false,
+        "etiqueta": "geo-globalizacao-homogenea"
+      }
+    ],
+    "explicacao": "A circulação de bens culturais provoca padronização em alguns aspectos e adaptação local em outros, o que alguns autores chamam de hibridização ou glocalização.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-globalizacao-geopolitica-011",
+    "materia": "geografia",
+    "assunto": "globalizacao-geopolitica",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Bloco com moeda comum",
+    "enunciado": "Qual bloco econômico tem uma moeda comum, o euro, adotada por boa parte de seus membros?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Mercosul",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "ASEAN",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "União Europeia",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "USMCA",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "BRICS",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      }
+    ],
+    "explicacao": "A União Europeia tem o euro como moeda comum de parte dos seus membros. Os demais blocos listados não têm moeda única.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-globalizacao-geopolitica-012",
+    "materia": "geografia",
+    "assunto": "globalizacao-geopolitica",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Revolução da informação",
+    "enunciado": "A Terceira Revolução Industrial, ou revolução técnico-científica e informacional, está ligada principalmente a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "máquinas a vapor e carvão",
+        "correta": false,
+        "etiqueta": "geo-cronologia"
+      },
+      {
+        "letra": "B",
+        "texto": "eletricidade e petróleo",
+        "correta": false,
+        "etiqueta": "geo-cronologia"
+      },
+      {
+        "letra": "C",
+        "texto": "agricultura de subsistência",
+        "correta": false,
+        "etiqueta": "geo-cronologia"
+      },
+      {
+        "letra": "D",
+        "texto": "trabalho escravo nos engenhos",
+        "correta": false,
+        "etiqueta": "geo-cronologia"
+      },
+      {
+        "letra": "E",
+        "texto": "computadores, telecomunicações, internet e automação",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "Essa fase, a partir da segunda metade do século XX, tem como base a informação, a eletrônica, as telecomunicações e a automação, e sustenta a globalização atual.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-globalizacao-geopolitica-013",
+    "materia": "geografia",
+    "assunto": "globalizacao-geopolitica",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Crise que viaja",
+    "enunciado": "Uma crise financeira em um país de economia central afeta, em poucos dias, economias de várias partes do mundo. Qual característica da globalização ajuda a explicar isso?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "isolamento dos mercados nacionais",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "B",
+        "texto": "o fim das moedas",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      },
+      {
+        "letra": "C",
+        "texto": "a ausência de computadores",
+        "correta": false,
+        "etiqueta": "geo-cronologia"
+      },
+      {
+        "letra": "D",
+        "texto": "a alta mobilidade do capital financeiro entre economias integradas",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "proteção total dos países periféricos",
+        "correta": false,
+        "etiqueta": "geo-globalizacao-homogenea"
+      }
+    ],
+    "explicacao": "Com mercados interligados e capital que se move em segundos, abalos financeiros se espalham rapidamente. Não há isolamento entre as economias.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-globalizacao-geopolitica-014",
+    "materia": "geografia",
+    "assunto": "globalizacao-geopolitica",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Norte e Sul",
+    "enunciado": "Ao falar em desigualdade 'Norte-Sul' entre países, os geógrafos usam critérios",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "econômicos e sociais, e não apenas a posição no globo, pois a Austrália, no Hemisfério Sul, é um país desenvolvido",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "só geográficos, considerando todos os países do Hemisfério Sul em desenvolvimento",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      },
+      {
+        "letra": "C",
+        "texto": "apenas africanos",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "só de países ricos",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      },
+      {
+        "letra": "E",
+        "texto": "apenas da América do Sul",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      }
+    ],
+    "explicacao": "A divisão Norte-Sul é econômica e social, não puramente geográfica. A Austrália e a Nova Zelândia, no Hemisfério Sul, integram o grupo de países desenvolvidos.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-globalizacao-geopolitica-015",
+    "materia": "geografia",
+    "assunto": "globalizacao-geopolitica",
+    "questionario": 3,
+    "dificuldade": 1,
+    "contexto": "Quem manda hoje?",
+    "enunciado": "Depois da dissolução da União Soviética, em 1991, a descrição mais adequada da ordem mundial é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "bipolar, como na Guerra Fria",
+        "correta": false,
+        "etiqueta": "geo-cronologia"
+      },
+      {
+        "letra": "B",
+        "texto": "mais complexa, com centros de poder econômico, político e militar diversos, apesar da força dos Estados Unidos",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "unipolar absoluta, sem qualquer contestação",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      },
+      {
+        "letra": "D",
+        "texto": "de retorno aos impérios coloniais",
+        "correta": false,
+        "etiqueta": "geo-cronologia"
+      },
+      {
+        "letra": "E",
+        "texto": "sem Estados nacionais",
+        "correta": false,
+        "etiqueta": "geo-globalizacao-homogenea"
+      }
+    ],
+    "explicacao": "Hoje há potências e blocos com diferentes tipos de poder (Estados Unidos, China, União Europeia, Rússia, Índia etc.), o que configura multipolaridade, ainda que com assimetrias.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-globalizacao-geopolitica-016",
+    "materia": "geografia",
+    "assunto": "globalizacao-geopolitica",
+    "questionario": 4,
+    "dificuldade": -1,
+    "contexto": "Para que serve a ONU",
+    "enunciado": "A ONU foi criada em 1945, logo após a Segunda Guerra Mundial, com o objetivo principal de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "substituir os governos nacionais",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      },
+      {
+        "letra": "B",
+        "texto": "controlar o comércio mundial, como a OMC",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "financiar empresas privadas",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "promover a paz, a segurança e a cooperação entre os países",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "formar uma aliança militar ocidental, como a OTAN",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      }
+    ],
+    "explicacao": "A ONU busca manter a paz e a segurança e estimular a cooperação em áreas como direitos humanos, saúde e educação. Comércio é com a OMC; aliança militar, com a OTAN.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-globalizacao-geopolitica-017",
+    "materia": "geografia",
+    "assunto": "globalizacao-geopolitica",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Petróleo e poder",
+    "enunciado": "Por que o Oriente Médio tem grande peso geopolítico?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "por não ter recursos naturais",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "B",
+        "texto": "por ser a região mais populosa do planeta",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      },
+      {
+        "letra": "C",
+        "texto": "pela importância estratégica do petróleo e pela localização de grandes reservas",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "pela produção mundial de soja",
+        "correta": false,
+        "etiqueta": "geo-fator-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "por ser a única região com acesso ao mar",
+        "correta": false,
+        "etiqueta": "geo-generalizou"
+      }
+    ],
+    "explicacao": "A região concentra grandes reservas de petróleo, recurso estratégico para a economia mundial, o que gera interesses e disputas políticas e militares.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-globalizacao-geopolitica-018",
+    "materia": "geografia",
+    "assunto": "globalizacao-geopolitica",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Barreiras ao comércio",
+    "enunciado": "Quando um governo impõe tarifas e cotas às importações para proteger a indústria nacional, ele adota",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "livre comércio",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "B",
+        "texto": "protecionismo",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "dumping",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "globalização plena",
+        "correta": false,
+        "etiqueta": "geo-globalizacao-homogenea"
+      },
+      {
+        "letra": "E",
+        "texto": "autarquia absoluta",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      }
+    ],
+    "explicacao": "Protecionismo é a política de proteger a produção interna da concorrência estrangeira por tarifas e cotas. Dumping é vender no exterior abaixo do preço normal para ganhar mercado.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-globalizacao-geopolitica-019",
+    "materia": "geografia",
+    "assunto": "globalizacao-geopolitica",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Fábrica que se muda",
+    "enunciado": "Uma empresa fictícia fecha uma fábrica no país A e abre outra no país B, onde os salários são menores. Uma leitura crítica adequada é que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a globalização beneficia todos igualmente",
+        "correta": false,
+        "etiqueta": "geo-globalizacao-homogenea"
+      },
+      {
+        "letra": "B",
+        "texto": "o efeito é só positivo para todos os envolvidos",
+        "correta": false,
+        "etiqueta": "geo-globalizacao-homogenea"
+      },
+      {
+        "letra": "C",
+        "texto": "a empresa faliu",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "D",
+        "texto": "a decisão foi do FMI",
+        "correta": false,
+        "etiqueta": "geo-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "a mudança busca reduzir custos e pode gerar desemprego na origem e atrair investimentos no destino",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "As empresas procuram custos menores, o que desloca empregos entre países. O impacto é desigual: perdas de postos onde a fábrica fecha e ganhos, mas muitas vezes precários, onde abre.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "geo-globalizacao-geopolitica-020",
+    "materia": "geografia",
+    "assunto": "globalizacao-geopolitica",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Conectados, mas nem tanto",
+    "enunciado": "A internet conecta bilhões de pessoas, mas o acesso a conexões rápidas e a equipamentos varia muito entre países e dentro deles. Isso mostra que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a globalização conecta de forma desigual, e o acesso à tecnologia e à informação varia entre regiões e classes",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "toda a população tem acesso igual à internet",
+        "correta": false,
+        "etiqueta": "geo-globalizacao-homogenea"
+      },
+      {
+        "letra": "C",
+        "texto": "a internet dispensa infraestrutura física",
+        "correta": false,
+        "etiqueta": "geo-absoluto"
+      },
+      {
+        "letra": "D",
+        "texto": "só áreas rurais têm acesso",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      },
+      {
+        "letra": "E",
+        "texto": "a exclusão digital só afeta países ricos",
+        "correta": false,
+        "etiqueta": "geo-leitura-invertida"
+      }
+    ],
+    "explicacao": "A infraestrutura digital e a renda variam, o que cria exclusão digital. A globalização amplia conexões, mas não de modo igual para todos.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  }
+]

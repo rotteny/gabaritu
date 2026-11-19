@@ -1,0 +1,352 @@
+[
+  {
+    "etiqueta": "lit-confundiu-escola",
+    "fofo": [
+      "Foi uma escola vizinha! Romantismo e Realismo são tipo primos que se odeiam, mas você chega lá.",
+      "Quase! Cada escola tem seu jeitinho: olha a época e o tom do texto e acha o lar certo.",
+      "Eu também já coloquei o Barroco na festa do Arcadismo, e ninguém aguentou a briga. Relaxa!",
+      "Troquinha de escola! Respira, pensa no contexto e escolhe de novo, você consegue.",
+      "As escolas literárias parecem uma árvore genealógica complicada. Bora desenhar o mapa juntos?"
+    ],
+    "sarc": [
+      "Romantismo? Claro, aquele poema do século XX com verso livre e humor. Faz total sentido.",
+      "Você pôs o texto na escola errada com tanta firmeza que o autor quase mudou de época.",
+      "Trocar Barroco por Arcadismo é como confundir feijoada com salada. Mas tudo bem, é tudo comida.",
+      "Que ousadia atribuir o realismo a um poema cheio de lua e suspiros. Muito criativo.",
+      "A escola era uma, você escolheu outra com a segurança de um professor. Faltou a formação, só."
+    ],
+    "sem": [
+      "ESCOLA ERRADA! O AUTOR ESTÁ SE REVIRANDO NO TÚMULO E MANDOU UM ZAP!",
+      "VOCÊ COLOCOU O MODERNISMO NO SÉCULO XVIII! ATÉ A MÁQUINA DO TEMPO TÁ COM VERGONHA!",
+      "ROMANTISMO NÃO É REALISMO! UM SUSPIRA, O OUTRO ANALISA! DECORA ISSO COM URGÊNCIA!",
+      "VOCÊ MISTUROU ESCOLAS COMO QUEM MISTURA TODOS OS SABORES DE SORVETE: O RESULTADO FOI UM CAOS!",
+      "O TEXTO ESTAVA GRITANDO A ÉPOCA DELE E VOCÊ TAPOU OS OUVIDOS!"
+    ],
+    "reserva": "Essa alternativa colocou o texto em outra escola literária: observe a época e o estilo."
+  },
+  {
+    "etiqueta": "lit-trocou-caracteristica",
+    "fofo": [
+      "Essa característica existe, mas é de outra escola! Anota a diferença que você acerta na próxima.",
+      "Quase! Você emprestou a característica de uma escola vizinha. Bora devolver pra dona?",
+      "É que as escolas dividem alguns traços, mas cada uma tem o seu marca registrada!",
+      "Eu também confundi subjetivismo com objetivismo uma vez. Dá pra errar até na água!",
+      "Característica trocada! Pensa: qual escola reagiu a qual? Isso ajuda a lembrar."
+    ],
+    "sarc": [
+      "Objetividade científica no Romantismo? Muito original, os românticos ficariam chocados.",
+      "Claro, o Arcadismo adora subjetivismo e pranto. Quem nunca fugiu da cidade pra chorar no campo.",
+      "Atribuir verso livre ao Parnasianismo é uma audácia que os parnasianos jamais perdoariam.",
+      "Que bela mistura de características! Falta só um liquidificador pra completar.",
+      "Misturou escola com a facilidade de quem monta playlist sem ouvir: ficou esquisito, mas animado."
+    ],
+    "sem": [
+      "CARACTERÍSTICA ERRADA! VOCÊ DEU O CRACHÁ DO PARNASIANISMO PRO MODERNISMO E O SEGURANÇA ENLOUQUECEU!",
+      "ISSO É TRAÇO DE OUTRA ESCOLA! A ESCOLA CERTA ESTÁ CHORANDO NO CANTO!",
+      "VOCÊ EMPRESTOU A IDEIA DO REALISMO PRO ROMANTISMO E AGORA OS DOIS NÃO SE FALAM!",
+      "FOI UM TRAÇO TÃO FORA DO LUGAR QUE ATÉ O BAIACU AQUI SENTIU O ERRO NA PRÓPRIA PELE!",
+      "VOCÊ SAQUEOU AS ESCOLAS E LEVOU O QUE NÃO ERA SEU! DEVOLVE!"
+    ],
+    "reserva": "Essa característica pertence a outra escola literária, e não à que o texto representa."
+  },
+  {
+    "etiqueta": "lit-confundiu-autor-obra",
+    "fofo": [
+      "Troca de autor e obra é super comum! Faz uma listinha de cada autor com sua obra de ouro.",
+      "Quase! Você acertou o estilo, só o nome do autor foi pro lugar errado.",
+      "Eu mesmo já atribuí Iracema ao Machado. Respira que isso se treina!",
+      "Foi um autor próximo! Anota a dupla autor e obra que na próxima você pega.",
+      "Machado, Alencar, Aluísio... é mesmo muita gente! Bora fixar um por vez."
+    ],
+    "sarc": [
+      "Atribuir Iracema ao Machado é uma teoria. Interessante, mas só o Alencar assina.",
+      "Claro, o Cortiço foi escrito pelo autor de Dom Casmurro. A grade curricular concorda.",
+      "Autor errado com aquela confiança de quem ganhou o Nobel de Literatura. Parabéns.",
+      "Parabéns por inventar uma obra nova: 'A Moreninha de Brás Cubas'. Best-seller imaginário.",
+      "Trocou o autor como quem troca meia: sem prestar atenção e ficando todo desparelhado."
+    ],
+    "sem": [
+      "AUTOR ERRADO! MACHADO NÃO ESCREVEU ISSO E ESTÁ OFENDIDO ATÉ NO CÉU!",
+      "VOCÊ DEU O LIVRO PARA O AUTOR ERRADO! É COMO ENTREGAR PIZZA NO ENDEREÇO DO VIZINHO!",
+      "O AUTOR GRITOU 'NÃO FUI EU!' LÁ DO SÉCULO PASSADO E VOCÊ NÃO OUVIU!",
+      "TROCAR ALENCAR POR MACHADO É CRIME LITERÁRIO! SIGA PARA O CADERNO IMEDIATAMENTE!",
+      "VOCÊ FEZ UM CASAMENTO ERRADO ENTRE AUTOR E OBRA, AGORA PERGUNTA SE OS DOIS CONCORDAM!"
+    ],
+    "reserva": "O autor indicado não escreveu essa obra: reveja a ligação entre cada autor e seus livros."
+  },
+  {
+    "etiqueta": "lit-confundiu-geracao",
+    "fofo": [
+      "Gerações do Romantismo parecem gêmeas, mas cada uma tem sua cara! Indianista, ultrarromântica, condoreira.",
+      "Quase! Você acertou a escola, só errou a fase. Dica: nação, eu, sociedade!",
+      "Eu também troco a 2ª com a 3ª geração às vezes. É só repetir 'país, dor, causa social'!",
+      "Foi na escola certa, mas na fase errada! Isso é quase acerto, sabia?",
+      "Fases e gerações dão trabalho mesmo. Bora anotar um macete e arrasar!"
+    ],
+    "sarc": [
+      "Colocar Álvares de Azevedo na geração condoreira? Ele ficaria triste de verdade, só que por outro motivo.",
+      "Fases do Modernismo? Pra que, né? Tudo é 22 mesmo.",
+      "Claro, os poetas da dor e os poetas da causa social são a mesma geração. Se unir faz bem.",
+      "A geração era uma e você escolheu outra: um clássico do 'quase'.",
+      "Geração de 45 com irreverência de 22? Claro. Tudo igual, só mudando a data."
+    ],
+    "sem": [
+      "FASE ERRADA! VOCÊ PÔS A GERAÇÃO DO MAL DO SÉCULO NO LUGAR DA DO PROTESTO SOCIAL!",
+      "A 1ª, A 2ª E A 3ª GERAÇÃO NÃO SÃO LATAS DE TINTA PARA MISTURAR ALEATORIAMENTE!",
+      "ISSO FOI UMA CONFUSÃO CRONOLÓGICA DE NÍVEL ÉPICO! O TEMPO CHOROU!",
+      "VOCÊ DEU UM SALTO NA LINHA DO TEMPO E ATERRISSOU EM LUGAR NENHUM!",
+      "O ULTRARROMÂNTICO CHOROU E O CONDOREIRO GRITOU, E VOCÊ CONFUNDIU OS DOIS!"
+    ],
+    "reserva": "A escola está certa, mas a geração ou fase indicada não corresponde ao texto."
+  },
+  {
+    "etiqueta": "lit-ignorou-contexto",
+    "fofo": [
+      "O contexto histórico é a pista escondida! Olha a época do texto e as coisas que aconteciam.",
+      "Quase! Se você lembrar do que acontecia no mundo na época, a resposta aparece.",
+      "Eu também já li um poema sem saber da Independência e fiquei perdido. Contexto é o mapa!",
+      "Literatura é filha da história: se esquecer dos pais dela, não entende o filho. Bora revisar?",
+      "Faltou conectar o texto ao que estava rolando no país. Respira e liga os pontos!"
+    ],
+    "sarc": [
+      "Claro, o poema sobre a escravidão não tem nada a ver com a escravidão. Contexto é frescura.",
+      "Que beleza ler um texto de 1800 como se tivesse sido escrito ontem, no celular.",
+      "A Independência do Brasil? Nunca ouvi falar. O Romantismo também não.",
+      "Ignorou a época com a confiança de quem nunca precisou de datas. Admirável.",
+      "A Contrarreforma foi de férias e o Barroco também, pelo jeito."
+    ],
+    "sem": [
+      "CONTEXTO! O TEXTO NASCEU NUMA ÉPOCA E VOCÊ O LEU COMO SE TIVESSE NASCIDO NO ZAP!",
+      "VOCÊ IGNOROU A HISTÓRIA INTEIRA E CAIU NA ARMADILHA DA ALTERNATIVA ANACRÔNICA!",
+      "O TEXTO FALA DA ESCRAVIDÃO E VOCÊ RESPONDEU COMO SE FOSSE UM FOLHETO DE TURISMO!",
+      "SEM CONTEXTO, LITERATURA É SÓ UM MONTE DE FRASES! COM CONTEXTO, É GENIALIDADE!",
+      "A DATA GRITAVA NA CARA DO TEXTO E VOCÊ PASSOU PELA RUA SEM OLHAR!"
+    ],
+    "reserva": "Essa alternativa ignora a época e os fatos históricos que explicam o texto."
+  },
+  {
+    "etiqueta": "lit-idealizacao-x-critica",
+    "fofo": [
+      "Idealização e crítica social são opostas! O Romantismo embeleza, o Realismo desmascara.",
+      "Quase! Pergunte: o autor está enfeitando a realidade ou questionando ela?",
+      "Eu também já li um texto crítico como se fosse elogio. Olho no tom do autor!",
+      "Você pegou o clima de um e colocou no outro. Respira, olha pra intenção do texto!",
+      "Idealizar é embelezar, criticar é questionar. Anota a dica e vai de novo!"
+    ],
+    "sarc": [
+      "Claro, Peri é um indígena realista e o Machado é um romântico escondido.",
+      "Que ótimo ver alguém que acha que o Realismo era só pra elogiar. Todos concordamos.",
+      "O autor criticou duramente a sociedade, e você viu um elogio. Otimismo é isso.",
+      "A idealização virou denúncia e a denúncia virou conto de fadas. Bela inversão.",
+      "Ah sim, o amor realista é sempre puro e eterno. Esqueceu de ler o adultério."
+    ],
+    "sem": [
+      "ISSO NÃO É IDEALIZAÇÃO! É CRÍTICA SOCIAL! O AUTOR ESTÁ PEGANDO FOGO NO TEXTO!",
+      "VOCÊ TROCOU ELOGIO POR DENÚNCIA E O TEXTO FICOU UM CAOS!",
+      "PERI NÃO É REALISTA! ELE É UM CAVALEIRO DE CAMISETA SEM MANGAS! DECORA ISSO!",
+      "A CRÍTICA ESTAVA GRITANDO E VOCÊ OUVIU UMA SERENATA!",
+      "ROMÂNTICO EMBELEZA, REALISTA DESMASCARA! PARE DE MISTURAR OS DOIS ESPÍRITOS!"
+    ],
+    "reserva": "A alternativa trocou idealização por crítica social (ou o contrário): observe a intenção do autor."
+  },
+  {
+    "etiqueta": "lit-leitura-literal",
+    "fofo": [
+      "O texto estava usando figura de linguagem, não o sentido literal! Poesia é cheia de truque.",
+      "Quase! 'Marília' e 'Dirceu' são máscaras. Nem tudo é documentário.",
+      "Eu levaria tudo ao pé da letra também, afinal eu sou um peixe literal. Mas aqui é simbólico!",
+      "Pensa na metáfora! Se tudo fosse literal, Ismália tinha vivido numa torre de verdade.",
+      "O sentido real estava escondido no símbolo. Bora procurar a segunda camada?"
+    ],
+    "sarc": [
+      "Duas luas de verdade? Que astronomia avançada a sua.",
+      "Claro, a dedicatória ao verme foi um agradecimento sincero. O verme ficou emocionado.",
+      "Interpretou o poema como relatório. Poesia chorando num canto, mas tudo bem.",
+      "Sentido literal sempre: afinal, quem usa metáfora em literatura?",
+      "Que bom que você levou a ironia a sério. Machado ia amar a plateia."
+    ],
+    "sem": [
+      "LITERAL DEMAIS! O POEMA PEDIU IMAGINAÇÃO E VOCÊ ENTREGOU UM MANUAL!",
+      "NÃO EXISTEM DUAS LUAS! É UM SÍMBOLO! O POETA ESTÁ SURTANDO DE TANTO SIMBOLISMO!",
+      "VOCÊ LEU O PÁSSARO COMO PÁSSARO E O SÍMBOLO COMO PÁSSARO! SOCORRO!",
+      "O TEXTO FALOU EM METÁFORA E VOCÊ PROCUROU O SENTIDO NA DESPENSA DO VIZINHO!",
+      "LITERATURA NÃO É BULA DE REMÉDIO! LEIA COM A ALMA, NÃO COM A RÉGUA!"
+    ],
+    "reserva": "O trecho tem sentido figurado ou irônico, e essa alternativa o leu ao pé da letra."
+  },
+  {
+    "etiqueta": "lit-confundiu-narrador",
+    "fofo": [
+      "Quem narra a história faz toda a diferença! Dá uma olhadinha em quem está contando.",
+      "Quase! Brás Cubas conta tudo em 1ª pessoa, mesmo depois de morto. Fofo, né?",
+      "Eu também me confundo com narrador onisciente e narrador-personagem. É só treinar!",
+      "O narrador é uma peça-chave! Pense: ele participa da história ou só observa?",
+      "Narrador não é só 'quem fala', é 'de que lugar fala'. Respira e revê!"
+    ],
+    "sarc": [
+      "Narrador onisciente em Dom Casmurro? O Bentinho ficaria feliz com a promoção.",
+      "O defunto-autor era um narrador neutro e imparcial, claro. Machado está em lágrimas.",
+      "Interessante você achar que o Bentinho é testemunha neutra. Ele nem fingiu.",
+      "Foco narrativo errado com tanta convicção que o próprio narrador quase se ofendeu.",
+      "Narrador em 3ª pessoa num romance em 1ª pessoa. É a vanguarda, imagino."
+    ],
+    "sem": [
+      "NARRADOR ERRADO! O DEFUNTO-AUTOR ESTÁ ESCREVENDO UMA RECLAMAÇÃO DO ALÉM!",
+      "ONISCIENTE?! O BENTINHO SÓ SABE O QUE ELE QUER, E ELE QUER TE ENGANAR!",
+      "VOCÊ TROCOU O NARRADOR COMO QUEM TROCA DE CANAL! O ENREDO CHOROU!",
+      "QUEM CONTA A HISTÓRIA IMPORTA! SE NÃO, VIRA UM PROGRAMA SEM APRESENTADOR!",
+      "O FOCO NARRATIVO ESTAVA ESCANCARADO E VOCÊ PASSOU RASPANDO!"
+    ],
+    "reserva": "O foco narrativo indicado não corresponde ao do texto: veja quem conta a história e de onde."
+  },
+  {
+    "etiqueta": "lit-confundiu-recurso",
+    "fofo": [
+      "Recursos literários parecem gêmeos, mas cada um tem uma assinatura! Respira e compara.",
+      "Quase! Você acertou o clima, só trocou o recurso. Vale a lista de macetes!",
+      "Eu confundo aliteração com assonância toda hora. Vai na vogal ou na consoante!",
+      "A ironia e a hipérbole são primas distantes! Mas você chega lá.",
+      "Cada recurso tem um nome. Anota esse e na próxima você já sai de olho aberto."
+    ],
+    "sarc": [
+      "Zoomorfismo virou personificação. O naturalismo agradece a visita criativa.",
+      "Claro, aliteração é a mesma coisa que anáfora. Só muda o nome mesmo.",
+      "Trocou ironia por hipérbole com a confiança de quem nunca precisou de definição.",
+      "O recurso era um e você escolheu o outro. É quase uma tradição na prova.",
+      "A sinestesia sentiu falta de ser chamada pelo nome certo."
+    ],
+    "sem": [
+      "RECURSO ERRADO! É COMO CONFUNDIR METÁFORA COM TELEFONE!",
+      "VOCÊ CHAMOU SINESTESIA DE ALITERAÇÃO E O SIMBOLISMO NÃO ACEITOU A PIADA!",
+      "ANIMALIZAR É UMA COISA, PERSONIFICAR É OUTRA! O TEXTO ESTÁ ENLOUQUECENDO!",
+      "O RECURSO ESTAVA ALI, ACENANDO, E VOCÊ ACENOU DE VOLTA PRO ERRADO!",
+      "FIGURA DE LINGUAGEM NÃO É SORTEIO! PRESTE ATENÇÃO NO TEXTO!"
+    ],
+    "reserva": "Essa alternativa nomeou outro recurso literário: observe o procedimento que o texto usa."
+  },
+  {
+    "etiqueta": "lit-ignorou-tema",
+    "fofo": [
+      "O tema central estava ali, meio escondidinho! Pergunta: qual assunto o texto toca o tempo todo?",
+      "Quase! Você pegou um assunto que até aparece, mas o foco do texto era outro.",
+      "Eu também já fiquei preso num detalhe e perdi o assunto principal. Respira e olha o todo!",
+      "Tema é a ideia que atravessa o texto inteiro. Procura o fio condutor e puxa!",
+      "Foi perto do tema, mas não nele! Vale rever a pergunta do enunciado."
+    ],
+    "sarc": [
+      "Claro, o poema sobre a saudade da pátria era sobre morar no exterior. Que visão!",
+      "Sobre a seca? Claro. O texto falava de amor, mas tudo bem, é seca também.",
+      "O tema do texto era um, você escolheu outro, e esse outro não estava nem na história.",
+      "Escolheu um tema que o texto nunca tocou. Que originalidade.",
+      "Leu o texto de saudade e entendeu como panfleto político. Bem imaginativo."
+    ],
+    "sem": [
+      "TEMA ERRADO! O TEXTO FALAVA DE UMA COISA E VOCÊ RESPONDEU SOBRE OUTRA GALÁXIA!",
+      "VOCÊ ESCOLHEU UM TEMA QUE NÃO ESTÁ NEM NO ROTEIRO! É FAN-FICTION LITERÁRIA!",
+      "O TEMA ERA SAUDADE E VOCÊ SAIU GRITANDO REVOLUÇÃO! RESPIRE!",
+      "O ASSUNTO PRINCIPAL ESTAVA EM LETRAS GIGANTES E VOCÊ LEU AS LETRAS MIÚDAS!",
+      "O TEXTO ESTAVA A UM PASSO DE UMA CONCLUSÃO E VOCÊ PEGOU O CAMINHO DO OUTRO LADO DO PAÍS!"
+    ],
+    "reserva": "O tema apontado não é o foco do texto: releia procurando a ideia que atravessa o trecho."
+  },
+  {
+    "etiqueta": "lit-confundiu-forma",
+    "fofo": [
+      "Forma importa! Soneto, verso livre, prosa... cada um tem seu jeitinho. Bora revisar?",
+      "Quase! Dica: conta as sílabas e olha a rima, isso revela muita coisa.",
+      "Eu confundo soneto com quadra até hoje. Esse é um detalhe que se aprende!",
+      "Verso livre não tem métrica nem rima fixas. Essa dica salva muita questão!",
+      "Foi um escorregãozinho de forma! Respira e olha a estrutura do texto."
+    ],
+    "sarc": [
+      "Verso livre no soneto? Revolução formal que os parnasianos nunca imaginariam.",
+      "Claro, soneto tem sempre quinze versos. Quem precisa de catorze?",
+      "Poesia concreta sem espaço visual na página. Muito conceitual da sua parte.",
+      "A forma era uma e você escolheu a vizinha. Estilo, né?",
+      "Pegou a forma errada com a naturalidade de quem nunca contou verso. Ousado."
+    ],
+    "sem": [
+      "FORMA ERRADA! É COMO CHAMAR UM SONETO DE RAP IMPROVISADO!",
+      "VOCÊ FALOU QUE VERSO LIVRE TEM DEZ SÍLABAS E O MODERNISMO TEVE UM ATAQUE!",
+      "FORMA É IDENTIDADE! VOCÊ TROCOU O RG DO POEMA E O POEMA NÃO FOI AVISADO!",
+      "ISSO NÃO É UM SONETO! É UM CAOS POÉTICO COM CARA DE SONETO!",
+      "CONTE AS SÍLABAS, MEU CHAPA! A FORMA TÁ GRITANDO NA SUA CARA!"
+    ],
+    "reserva": "A alternativa descreve outra forma poética ou narrativa: confira a estrutura do texto."
+  },
+  {
+    "etiqueta": "lit-generalizou",
+    "fofo": [
+      "Você pegou um traço de um autor e jogou pra escola toda! Cuidado com a generalização.",
+      "Quase! Isso vale pra uma parte do movimento, não pra todos. Fica de olho!",
+      "Eu também já achei que todo romântico era sentimental, aí conheci o Macedo. Muito mais leve!",
+      "Escolas têm fases e autores diferentes. Dá pra generalizar um pouco, não tudo!",
+      "Foi uma generalização fofa! Mas o ENEM gosta de distinguir as fases."
+    ],
+    "sarc": [
+      "Claro, todo modernista era irreverente. O Graciliano deve ter rido da piada.",
+      "Todo parnasiano é frio, todo romântico chora: que ciência exata você inventou.",
+      "Generalizar é bom: poupa muito tempo e arruína muita nota.",
+      "Todo o Realismo é Machado de Assis. O Eça mandou um recado de Lisboa.",
+      "O estilo de um autor virou regra da escola. Revolução teórica no ar."
+    ],
+    "sem": [
+      "GENERALIZOU! UM AUTOR NÃO É A ESCOLA INTEIRA, MEU AMIGO!",
+      "VOCÊ PEGOU UMA CARACTERÍSTICA E COLOU EM TODA A LITERATURA BRASILEIRA!",
+      "NEM TODO MODERNISTA É IRREVERENTE! O ENEM FICOU CHATEADO COM VOCÊ!",
+      "ISSO VALE PARA UM, NÃO PARA TODOS! PARE DE ESPALHAR O ERRO COMO CONFETE!",
+      "VOCÊ TRATOU A ESCOLA COMO SE FOSSE UM AUTOR SÓ! ISSO É UMA FALHA DE BUSCA!"
+    ],
+    "reserva": "A característica vale só para um autor ou uma fase: evite generalizar para a escola inteira."
+  },
+  {
+    "etiqueta": "lit-nao-viu-intertextualidade",
+    "fofo": [
+      "Esse texto estava dialogando com outro! Procura a pista: é uma paródia, uma citação?",
+      "Quase! A pista estava na semelhança com a Canção do Exílio. Dá uma olhada!",
+      "Eu também já li uma paródia sem perceber. Anota: repetir para criticar é paródia!",
+      "O segredo estava no diálogo entre textos! Respira, compara e descobre quem fala com quem.",
+      "Intertextualidade parece complicada, mas é só um texto piscando para outro. Procura o piscar!"
+    ],
+    "sarc": [
+      "Claro, o poema de 'Minha terra tem shoppings' é inteiramente original. Surpreendente.",
+      "Copiou? Não, imagina. Foi puro acaso o verso ficar igual ao do Gonçalves Dias.",
+      "Ah, é só coincidência o texto ter a mesma estrutura de outro. Que sorte.",
+      "Não viu a paródia? Tão sutil quanto um trator, mas tudo bem.",
+      "Que lindo ver alguém achar que paródia é só plágio com humor."
+    ],
+    "sem": [
+      "É PARÓDIA! O TEXTO FICOU ACENANDO E PISCANDO PRA OUTRO E VOCÊ NÃO VIU!",
+      "O VERSO ERA IGUALZINHO AO DE GONÇALVES DIAS E VOCÊ FALOU 'QUE ORIGINAL'!",
+      "INTERTEXTO! AS DUAS OBRAS ESTÃO CONVERSANDO E VOCÊ TÁ NO MEIO DE FONE DE OUVIDO!",
+      "PARÓDIA NÃO É CÓPIA, É CRÍTICA DISFARÇADA! PARE DE CONFUNDIR!",
+      "O TEXTO FEZ REFERÊNCIA CLARA E VOCÊ PASSOU DIRETO COMO SE FOSSE FANTASMA!"
+    ],
+    "reserva": "O texto dialoga com outra obra: procure a relação de paródia, paráfrase ou citação."
+  },
+  {
+    "etiqueta": "lit-confundiu-contexto-social",
+    "fofo": [
+      "O cenário do texto fazia toda a diferença! Cortiço, corte, campo, sertão... cada um conta algo!",
+      "Quase! Olha o ambiente e os personagens: quem está em foco e onde vive?",
+      "Eu já troquei sertão por subúrbio e fiquei perdidinho. Ambientes diferentes, histórias diferentes!",
+      "Lima Barreto, subúrbio; Graciliano, sertão. Marca esse macete e arrasa!",
+      "O espaço social é uma pista valiosa! Dá uma olhada na próxima."
+    ],
+    "sarc": [
+      "O sertão virou o subúrbio carioca por simples vontade. Geografia criativa.",
+      "Claro, 'O Cortiço' se passa numa fazenda de café. Alguém avisa o João Romão.",
+      "Trocou aristocracia por classe trabalhadora como se fossem sinônimos. Ousadia.",
+      "O ambiente era um, você escolheu outro, e o enredo ficou tentando se localizar.",
+      "Que sensível: moveu o texto de cidade com a ajuda de um GPS imaginário."
+    ],
+    "sem": [
+      "AMBIENTE ERRADO! O CORTIÇO NÃO É UM CASTELO E O SERTÃO NÃO É UM CONDOMÍNIO!",
+      "VOCÊ TELETRANSPORTOU O ENREDO PARA OUTRO LUGAR E ELE FICOU SEM SINAL!",
+      "O GRUPO SOCIAL ERA OUTRO! SUBÚRBIO NÃO É SALÃO! RESPIRE E RELEIA!",
+      "CADA ESCRITOR TEM O SEU CANTO DO BRASIL E VOCÊ MISTUROU TUDO NUM MAPA DE CAOS!",
+      "O TEXTO DEU O ENDEREÇO E VOCÊ MANDOU O ENTREGADOR PRA OUTRA CIDADE!"
+    ],
+    "reserva": "O ambiente ou o grupo social indicado não é o retratado no texto: observe o cenário e as personagens."
+  }
+]

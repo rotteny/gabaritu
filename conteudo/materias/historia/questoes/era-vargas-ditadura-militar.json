@@ -1,0 +1,282 @@
+[
+  {
+    "id": "his-era-vargas-ditadura-militar-001", "materia": "historia", "assunto": "era-vargas-ditadura-militar", "questionario": 1, "dificuldade": -1,
+    "contexto": "Carteira assinada",
+    "enunciado": "Em 1943, o governo Vargas reuniu em um único código as leis que protegem o trabalhador, como jornada de trabalho, férias remuneradas e carteira profissional. Esse conjunto de normas ficou conhecido como:",
+    "alternativas": [
+      { "letra": "A", "texto": "Lei Áurea", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "B", "texto": "Consolidação das Leis do Trabalho (CLT)", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Código Civil", "correta": false, "etiqueta": "his-confundiu-conceito" },
+      { "letra": "D", "texto": "Constituição de 1988", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "E", "texto": "Estatuto da Terra", "correta": false, "etiqueta": "his-confundiu-periodo" }
+    ],
+    "explicacao": "A CLT, de 1943, reuniu e organizou a legislação trabalhista do período Vargas. A Lei Áurea é de 1888, o Estatuto da Terra é de 1964 e a Constituição de 1988 veio décadas depois.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-era-vargas-ditadura-militar-002", "materia": "historia", "assunto": "era-vargas-ditadura-militar", "questionario": 1, "dificuldade": -1,
+    "contexto": "Mulheres nas urnas",
+    "enunciado": "Pressionado por movimentos como o liderado pela cientista Bertha Lutz, o governo brasileiro mudou as regras eleitorais em 1932. Uma das medidas do novo Código Eleitoral, que ampliou a participação política, foi:",
+    "alternativas": [
+      { "letra": "A", "texto": "o voto dos analfabetos", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "B", "texto": "o voto facultativo aos 16 anos", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "C", "texto": "o fim do voto como direito político", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "D", "texto": "o direito de voto às mulheres", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "o voto distrital puro", "correta": false, "etiqueta": "his-confundiu-conceito" }
+    ],
+    "explicacao": "O Código Eleitoral de 1932 reconheceu o voto feminino, depois de muita mobilização das mulheres, e adotou o voto secreto. O voto dos analfabetos veio em 1985 e o voto aos 16 anos, na Constituição de 1988.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-era-vargas-ditadura-militar-003", "materia": "historia", "assunto": "era-vargas-ditadura-militar", "questionario": 1, "dificuldade": 0,
+    "contexto": "Golpe de 37",
+    "enunciado": "Em 10 de novembro de 1937, Getúlio Vargas fechou o Congresso e impôs uma nova Constituição, inspirada em modelos autoritários europeus. O golpe foi justificado pelo Plano Cohen, um documento forjado que apontava uma suposta ameaça comunista. O regime que durou até 1945 é o:",
+    "alternativas": [
+      { "letra": "A", "texto": "Estado Novo", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Governo Provisório", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "C", "texto": "Governo Constitucional de 1934", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "D", "texto": "Regime Militar", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "E", "texto": "República Velha", "correta": false, "etiqueta": "his-confundiu-periodo" }
+    ],
+    "explicacao": "O Estado Novo (1937-1945) foi a ditadura de Vargas, com censura e Congresso fechado. O Plano Cohen foi o pretexto para o golpe. O Regime Militar é bem posterior, de 1964.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-era-vargas-ditadura-militar-004", "materia": "historia", "assunto": "era-vargas-ditadura-militar", "questionario": 1, "dificuldade": 0,
+    "contexto": "São Paulo em armas",
+    "enunciado": "Em 1932, São Paulo se levantou em armas contra o governo federal, exigindo uma nova constituição para o país. Mesmo derrotada militarmente, a Revolução Constitucionalista levou Vargas a:",
+    "alternativas": [
+      { "letra": "A", "texto": "renunciar ao governo", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "B", "texto": "restaurar a Constituição de 1891", "correta": false, "etiqueta": "his-confundiu-conceito" },
+      { "letra": "C", "texto": "decretar imediatamente o Estado Novo", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "D", "texto": "conceder independência a São Paulo", "correta": false, "etiqueta": "his-anacronismo" },
+      { "letra": "E", "texto": "convocar uma Assembleia Constituinte, que resultou na Constituição de 1934", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "A derrota militar não impediu que a exigência de constitucionalização fosse atendida: a Constituinte foi convocada e a Constituição saiu em 1934. O Estado Novo só veio em 1937.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-era-vargas-ditadura-militar-005", "materia": "historia", "assunto": "era-vargas-ditadura-militar", "questionario": 1, "dificuldade": 1,
+    "contexto": "O pai dos pobres",
+    "enunciado": "Texto de apoio (autoral): 'O jornal da manhã trazia o retrato do presidente sorrindo para as crianças. O rádio repetia que o trabalhador tinha, no governo, um pai. Nenhuma crítica aparecia, e quem escrevia o contrário recebia, no dia seguinte, a visita da polícia.' O texto descreve, no Estado Novo, o papel de:",
+    "alternativas": [
+      { "letra": "A", "texto": "uma imprensa livre e plural", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "B", "texto": "uma oposição organizada em partidos", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "C", "texto": "propaganda oficial e censura, que construíam a imagem do líder, como fazia o DIP", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "plebiscitos frequentes de participação popular", "correta": false, "etiqueta": "his-extrapolou-fonte" },
+      { "letra": "E", "texto": "uma imprensa estrangeira financiada pelos Estados Unidos", "correta": false, "etiqueta": "his-extrapolou-fonte" }
+    ],
+    "explicacao": "O texto mostra culto ao líder, controle da informação e repressão a críticos, que é o que o Departamento de Imprensa e Propaganda (DIP) fazia. O texto não menciona partidos, plebiscitos nem imprensa estrangeira.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-era-vargas-ditadura-militar-006", "materia": "historia", "assunto": "era-vargas-ditadura-militar", "questionario": 2, "dificuldade": -1,
+    "contexto": "Aço em Volta Redonda",
+    "enunciado": "Em 1941, o governo Vargas criou a Companhia Siderúrgica Nacional, com usina em Volta Redonda (RJ), em negociação com os Estados Unidos, que buscavam o apoio brasileiro na Segunda Guerra Mundial. A usina simboliza o projeto de:",
+    "alternativas": [
+      { "letra": "A", "texto": "volta ao modelo agroexportador do século XIX", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "B", "texto": "privatização de todas as indústrias do país", "correta": false, "etiqueta": "his-anacronismo" },
+      { "letra": "C", "texto": "industrialização com forte presença do Estado", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "isolamento total do Brasil em relação aos EUA", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "E", "texto": "reforma agrária em larga escala", "correta": false, "etiqueta": "his-confundiu-conceito" }
+    ],
+    "explicacao": "A CSN foi uma estatal criada para fornecer aço à indústria nacional, símbolo do projeto de desenvolvimento industrial. O acordo com os EUA mostra que o Brasil negociou apoio na guerra em troca de investimento.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-era-vargas-ditadura-militar-007", "materia": "historia", "assunto": "era-vargas-ditadura-militar", "questionario": 2, "dificuldade": -1,
+    "contexto": "Direito dado ou conquistado?",
+    "enunciado": "Em 1940, foi instituído o salário mínimo no Brasil e, em 1943, veio a CLT. Muita gente diz que Vargas deu esses direitos aos trabalhadores. Qual afirmação é mais fiel à historiografia?",
+    "alternativas": [
+      { "letra": "A", "texto": "As leis também resultaram de décadas de greves e mobilização operária e vieram junto com o controle estatal dos sindicatos", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "O governo nunca se preocupou com as demandas operárias", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "C", "texto": "Só os trabalhadores rurais foram beneficiados", "correta": false, "etiqueta": "his-confundiu-conceito" },
+      { "letra": "D", "texto": "Os trabalhadores foram totalmente passivos nesse processo", "correta": false, "etiqueta": "his-ignorou-protagonismo" },
+      { "letra": "E", "texto": "As leis foram abandonadas em 1945", "correta": false, "etiqueta": "his-generalizou" }
+    ],
+    "explicacao": "A legislação trabalhista nasceu da combinação entre pressão operária anterior e interesse do governo em controlar e atrair os trabalhadores. A CLT, aliás, deixou de fora os trabalhadores rurais, e as leis seguiram valendo depois de 1945.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-era-vargas-ditadura-militar-008", "materia": "historia", "assunto": "era-vargas-ditadura-militar", "questionario": 2, "dificuldade": 0,
+    "contexto": "Catete, 1954",
+    "enunciado": "Em 24 de agosto de 1954, em meio a uma grave crise política, o presidente Getúlio Vargas se suicidou no Palácio do Catete e deixou uma carta-testamento em que se dizia alvo de forças contrárias ao povo. Uma consequência imediata foi:",
+    "alternativas": [
+      { "letra": "A", "texto": "o início da ditadura militar", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "B", "texto": "o fim do voto direto no país", "correta": false, "etiqueta": "his-extrapolou-fonte" },
+      { "letra": "C", "texto": "a eleição de Vargas para um novo mandato", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "D", "texto": "a posse imediata de João Goulart na presidência", "correta": false, "etiqueta": "his-confundiu-personagem" },
+      { "letra": "E", "texto": "uma enorme comoção popular, que mudou o clima político e frustrou por um tempo a oposição", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "A morte de Vargas gerou grande comoção e manifestações contra seus adversários, o que adiou a ofensiva da oposição. A ditadura militar só veio dez anos depois, em 1964.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-era-vargas-ditadura-militar-009", "materia": "historia", "assunto": "era-vargas-ditadura-militar", "questionario": 2, "dificuldade": 0,
+    "contexto": "O petróleo é nosso",
+    "enunciado": "Em 1953, depois de uma campanha popular cujo lema era 'O petróleo é nosso', foi criada a Petrobras, com monopólio estatal da pesquisa e da exploração de petróleo. Essa decisão reflete a corrente:",
+    "alternativas": [
+      { "letra": "A", "texto": "liberal, que defendia total abertura ao capital estrangeiro", "correta": false, "etiqueta": "his-confundiu-ideologia" },
+      { "letra": "B", "texto": "nacionalista, que defendia o controle estatal de recursos estratégicos", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "socialista revolucionária, que defendia o fim da propriedade privada", "correta": false, "etiqueta": "his-confundiu-ideologia" },
+      { "letra": "D", "texto": "fascista, aliada a Mussolini", "correta": false, "etiqueta": "his-anacronismo" },
+      { "letra": "E", "texto": "monarquista, que defendia a volta do imperador", "correta": false, "etiqueta": "his-anacronismo" }
+    ],
+    "explicacao": "O monopólio estatal do petróleo expressa o nacionalismo econômico: o recurso estratégico deveria ficar sob controle do Estado. Isso não equivale a socialismo revolucionário, e a campanha era popular e democrática.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-era-vargas-ditadura-militar-010", "materia": "historia", "assunto": "era-vargas-ditadura-militar", "questionario": 2, "dificuldade": 1,
+    "contexto": "50 anos em 5",
+    "enunciado": "No governo de Juscelino Kubitschek (1956-1961), o Plano de Metas prometia '50 anos de progresso em 5' e atraiu empresas estrangeiras, como as montadoras de automóveis. Brasília foi inaugurada em 1960. Um efeito desse modelo foi:",
+    "alternativas": [
+      { "letra": "A", "texto": "a redução da dependência de capital estrangeiro", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "B", "texto": "o fim das desigualdades regionais", "correta": false, "etiqueta": "his-extrapolou-fonte" },
+      { "letra": "C", "texto": "a estatização completa das indústrias", "correta": false, "etiqueta": "his-confundiu-conceito" },
+      { "letra": "D", "texto": "o crescimento industrial acelerado, com aumento da dívida externa e da inflação", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "o retorno da economia ao modelo agroexportador", "correta": false, "etiqueta": "his-confundiu-periodo" }
+    ],
+    "explicacao": "O Plano de Metas acelerou a industrialização com capital estrangeiro, mas deixou como herança endividamento e inflação. As desigualdades regionais continuaram.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-era-vargas-ditadura-militar-011", "materia": "historia", "assunto": "era-vargas-ditadura-militar", "questionario": 3, "dificuldade": -1,
+    "contexto": "31 de março",
+    "enunciado": "Em 31 de março de 1964, setores das Forças Armadas, com apoio de parte da sociedade civil e de empresários, depuseram o presidente João Goulart, que defendia as chamadas reformas de base. O golpe de 1964:",
+    "alternativas": [
+      { "letra": "A", "texto": "derrubou o Estado Novo de Vargas", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "B", "texto": "depôs o governo de Juscelino Kubitschek", "correta": false, "etiqueta": "his-confundiu-personagem" },
+      { "letra": "C", "texto": "pôs fim à monarquia", "correta": false, "etiqueta": "his-anacronismo" },
+      { "letra": "D", "texto": "encerrou uma ditadura e restaurou a democracia", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "E", "texto": "derrubou um governo eleito e instalou um regime militar que durou 21 anos", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Goulart era o presidente eleito (vice) e foi deposto. O regime militar que se seguiu foi de 1964 a 1985. O Estado Novo acabou em 1945 e o golpe contra a monarquia foi em 1889.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-era-vargas-ditadura-militar-012", "materia": "historia", "assunto": "era-vargas-ditadura-militar", "questionario": 3, "dificuldade": 0,
+    "contexto": "Ato Institucional nº 5",
+    "enunciado": "Em dezembro de 1968, o governo militar baixou o AI-5, que permitia fechar o Congresso, cassar mandatos, suspender o habeas corpus em crimes políticos e impor censura prévia. O AI-5 marca:",
+    "alternativas": [
+      { "letra": "A", "texto": "o início da redemocratização", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "B", "texto": "o endurecimento do regime, com mais repressão e censura", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "a volta do pluripartidarismo", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "D", "texto": "o próprio golpe de 1964", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "E", "texto": "o fim da censura aos meios de comunicação", "correta": false, "etiqueta": "his-oposto-do-texto" }
+    ],
+    "explicacao": "O AI-5 deu poderes quase ilimitados ao governo e inaugurou o período mais repressivo da ditadura. O pluripartidarismo só voltou em 1979 e a redemocratização veio nos anos 1980.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-era-vargas-ditadura-militar-013", "materia": "historia", "assunto": "era-vargas-ditadura-militar", "questionario": 3, "dificuldade": 0,
+    "contexto": "O milagre tinha letra miúda",
+    "enunciado": "Entre 1968 e 1973, o Brasil teve taxas de crescimento do PIB muito altas, período chamado de milagre econômico. Ao mesmo tempo, o salário mínimo perdeu poder de compra e a dívida externa cresceu. Isso indica que:",
+    "alternativas": [
+      { "letra": "A", "texto": "o crescimento reduziu a desigualdade social", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "B", "texto": "o regime militar nunca teve apoio de nenhum setor da sociedade", "correta": false, "etiqueta": "his-generalizou" },
+      { "letra": "C", "texto": "o país se tornou independente de capitais estrangeiros", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "D", "texto": "o crescimento veio com concentração de renda e endividamento, sem beneficiar a todos por igual", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "o milagre econômico foi o motivo do fim do regime", "correta": false, "etiqueta": "his-causa-consequencia-invertida" }
+    ],
+    "explicacao": "O crescimento foi real, mas concentrou renda e dependeu de empréstimos externos. Quando a crise do petróleo atingiu o país, a conta chegou. O regime teve apoio de alguns setores justamente nesse período de expansão.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-era-vargas-ditadura-militar-014", "materia": "historia", "assunto": "era-vargas-ditadura-militar", "questionario": 3, "dificuldade": 1,
+    "contexto": "Anistia de 1979",
+    "enunciado": "Em 1979, no governo Figueiredo, foi aprovada a Lei da Anistia, que permitiu o retorno de exilados políticos ao país. A lei é considerada controversa porque:",
+    "alternativas": [
+      { "letra": "A", "texto": "proibiu o retorno dos exilados", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "B", "texto": "foi aprovada no governo de Castelo Branco", "correta": false, "etiqueta": "his-confundiu-personagem" },
+      { "letra": "C", "texto": "permitiu a volta dos exilados, mas foi interpretada como cobrindo também agentes da repressão, o que dificultou punições", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "anistiou apenas os agentes do Estado", "correta": false, "etiqueta": "his-generalizou" },
+      { "letra": "E", "texto": "acabou com a censura no mesmo dia", "correta": false, "etiqueta": "his-confundiu-conceito" }
+    ],
+    "explicacao": "A anistia beneficiou perseguidos políticos, que puderam voltar, mas foi interpretada como valendo também para agentes do Estado acusados de tortura. Por isso o debate sobre memória e justiça continua.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-era-vargas-ditadura-militar-015", "materia": "historia", "assunto": "era-vargas-ditadura-militar", "questionario": 3, "dificuldade": 1,
+    "contexto": "O inimigo interno",
+    "enunciado": "Texto de apoio (autoral): 'Para o regime, havia um inimigo escondido na universidade, na fábrica e na igreja. Quem discordava era suspeito de servir a uma potência estrangeira, e a polícia política podia prender sem ordem judicial.' Esse trecho expressa a ideia de:",
+    "alternativas": [
+      { "letra": "A", "texto": "inimigo interno, da Doutrina de Segurança Nacional, usada para justificar a repressão", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "livre debate democrático", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "C", "texto": "neutralidade do Estado diante de divergências", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "D", "texto": "plena separação de poderes e respeito às garantias legais", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "E", "texto": "defesa internacional dos direitos humanos", "correta": false, "etiqueta": "his-leitura-superficial" }
+    ],
+    "explicacao": "A noção de inimigo interno tratava opositores como ameaça à segurança nacional, e isso justificava prisão sem ordem judicial e repressão. O texto descreve exatamente o contrário de garantias legais e de debate livre.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-era-vargas-ditadura-militar-016", "materia": "historia", "assunto": "era-vargas-ditadura-militar", "questionario": 4, "dificuldade": -1,
+    "contexto": "Diretas Já",
+    "enunciado": "Em 1984, milhões de brasileiros foram às ruas pedindo eleição direta para presidente da República, no movimento Diretas Já. A emenda constitucional que previa essa eleição, porém, foi:",
+    "alternativas": [
+      { "letra": "A", "texto": "aprovada, e Tancredo Neves foi eleito pelo voto popular", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "B", "texto": "aprovada, mas vetada pelo Supremo Tribunal Federal", "correta": false, "etiqueta": "his-extrapolou-fonte" },
+      { "letra": "C", "texto": "nunca votada pelo Congresso", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "D", "texto": "rejeitada pelo Congresso, e o presidente foi escolhido indiretamente em 1985", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "aprovada, e valeu já para as eleições de 1984", "correta": false, "etiqueta": "his-confundiu-periodo" }
+    ],
+    "explicacao": "A emenda Dante de Oliveira foi votada em abril de 1984 e não obteve os votos necessários. A eleição de 1985 ainda foi indireta, pelo Colégio Eleitoral, mas a mobilização das Diretas Já pesou na transição.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-era-vargas-ditadura-militar-017", "materia": "historia", "assunto": "era-vargas-ditadura-militar", "questionario": 4, "dificuldade": 0,
+    "contexto": "Só dois partidos",
+    "enunciado": "Em 1965, o regime militar extinguiu os partidos existentes e passou a permitir apenas dois: a ARENA, favorável ao governo, e o MDB, de oposição consentida. Esse sistema é chamado de:",
+    "alternativas": [
+      { "letra": "A", "texto": "multipartidarismo", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "B", "texto": "partido único", "correta": false, "etiqueta": "his-confundiu-conceito" },
+      { "letra": "C", "texto": "bipartidarismo, que limitava e controlava a oposição", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "parlamentarismo", "correta": false, "etiqueta": "his-confundiu-conceito" },
+      { "letra": "E", "texto": "voto distrital", "correta": false, "etiqueta": "his-confundiu-conceito" }
+    ],
+    "explicacao": "Dois partidos formam o bipartidarismo. Era um jeito de manter uma aparência de disputa política enquanto o regime controlava as regras. O pluripartidarismo voltou em 1979.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-era-vargas-ditadura-militar-018", "materia": "historia", "assunto": "era-vargas-ditadura-militar", "questionario": 4, "dificuldade": 0,
+    "contexto": "Constituição Cidadã",
+    "enunciado": "Promulgada em 5 de outubro de 1988, a Constituição chamada de Cidadã marcou o fim da ditadura em termos legais e ampliou direitos. Entre as novidades estava:",
+    "alternativas": [
+      { "letra": "A", "texto": "a volta da censura prévia aos jornais", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "B", "texto": "o racismo como crime inafiançável e imprescritível, e o voto facultativo para analfabetos", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "o fim do voto secreto", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "D", "texto": "o voto restrito a homens alfabetizados", "correta": false, "etiqueta": "his-anacronismo" },
+      { "letra": "E", "texto": "a eleição indireta para presidente", "correta": false, "etiqueta": "his-confundiu-periodo" }
+    ],
+    "explicacao": "A Constituição de 1988 criminalizou o racismo, restabeleceu eleições diretas e ampliou direitos políticos, inclusive o voto facultativo de analfabetos e de jovens de 16 e 17 anos. As alternativas sobre censura, fim do voto secreto e eleição indireta descrevem justamente o que a Constituição deixou para trás.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-era-vargas-ditadura-militar-019", "materia": "historia", "assunto": "era-vargas-ditadura-militar", "questionario": 4, "dificuldade": 1,
+    "contexto": "Transição lenta",
+    "enunciado": "Em janeiro de 1985, o Colégio Eleitoral escolheu Tancredo Neves como presidente, o primeiro civil depois de 21 anos de regime militar. Tancredo adoeceu e morreu antes da posse, e assumiu seu vice, José Sarney. Esse episódio mostra que:",
+    "alternativas": [
+      { "letra": "A", "texto": "a transição para a democracia foi gradual e negociada, ainda com eleição indireta", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "o fim da ditadura foi uma ruptura revolucionária", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "C", "texto": "o povo escolheu Tancredo pelo voto direto", "correta": false, "etiqueta": "his-confundiu-conceito" },
+      { "letra": "D", "texto": "os militares entregaram o poder a João Goulart", "correta": false, "etiqueta": "his-confundiu-personagem" },
+      { "letra": "E", "texto": "Sarney foi eleito por voto popular direto", "correta": false, "etiqueta": "his-confundiu-conceito" }
+    ],
+    "explicacao": "A eleição foi indireta, pelo Colégio Eleitoral, e a transição foi negociada, sem ruptura completa. Sarney assumiu por ser vice na chapa vencedora, e não por voto popular direto.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-era-vargas-ditadura-militar-020", "materia": "historia", "assunto": "era-vargas-ditadura-militar", "questionario": 4, "dificuldade": 1,
+    "contexto": "Memória e verdade",
+    "enunciado": "Criada em 2011 e com relatório final em 2014, a Comissão Nacional da Verdade investigou graves violações de direitos humanos ocorridas no Brasil entre 1946 e 1988. Iniciativas desse tipo, chamadas de justiça de transição, buscam:",
+    "alternativas": [
+      { "letra": "A", "texto": "substituir o Judiciário e julgar os acusados", "correta": false, "etiqueta": "his-confundiu-conceito" },
+      { "letra": "B", "texto": "defender a versão oficial dos governos da época", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "C", "texto": "esquecer o passado para facilitar a reconciliação", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "D", "texto": "investigar apenas crimes cometidos por grupos de oposição", "correta": false, "etiqueta": "his-generalizou" },
+      { "letra": "E", "texto": "esclarecer fatos, reconhecer vítimas e preservar a memória, para que abusos não se repitam", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Uma comissão da verdade não é um tribunal: ela apura e documenta fatos e recomenda medidas. O objetivo é memória, reconhecimento das vítimas e prevenção de novas violações.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "id": "fis-ondulatoria-001", "materia": "fisica", "assunto": "ondulatoria", "questionario": 1, "dificuldade": -1,
+    "contexto": "Zumbido da tomada",
+    "enunciado": "Um aparelho produz um zumbido com frequência de 50 Hz. Qual é o período dessa oscilação?",
+    "alternativas": [
+      { "letra": "A", "texto": "50 s", "correta": false, "etiqueta": "fis-frequencia-periodo" },
+      { "letra": "B", "texto": "0,2 s", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "C", "texto": "0,5 s", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "D", "texto": "0,002 s", "correta": false, "etiqueta": "fis-unidade" },
+      { "letra": "E", "texto": "0,02 s", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Período e frequência são inversos: T = 1 ÷ f = 1 ÷ 50 = 0,02 s. Os 50 s seriam o próprio valor da frequência tomado como período.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-ondulatoria-002", "materia": "fisica", "assunto": "ondulatoria", "questionario": 1, "dificuldade": -1,
+    "contexto": "Ondas na corda",
+    "enunciado": "Uma onda em uma corda tem comprimento de onda de 2 m e frequência de 5 Hz. Qual é a velocidade de propagação da onda?",
+    "alternativas": [
+      { "letra": "A", "texto": "0,4 m/s", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "B", "texto": "10 m/s", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "7 m/s", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "D", "texto": "3 m/s", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "E", "texto": "20 m/s", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "A equação fundamental da ondulatória é v = λ × f = 2 × 5 = 10 m/s. Dividir o comprimento de onda pela frequência (0,4) dá outra grandeza.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-ondulatoria-003", "materia": "fisica", "assunto": "ondulatoria", "questionario": 1, "dificuldade": 0,
+    "contexto": "Gritando no vale",
+    "enunciado": "Um grito é dado em frente a um paredão e o eco volta 2 s depois. Considerando a velocidade do som no ar de 340 m/s, qual é a distância até o paredão?",
+    "alternativas": [
+      { "letra": "A", "texto": "680 m", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "B", "texto": "170 m", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "C", "texto": "1.360 m", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "D", "texto": "340 m", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "2 m", "correta": false, "etiqueta": "fis-parou-no-intermediario" }
+    ],
+    "explicacao": "Em 2 s, o som vai até o paredão e volta, percorrendo 340 × 2 = 680 m no total. A distância até o paredão é metade disso: 340 m. Os 680 m esquecem que o som fez ida e volta.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-ondulatoria-004", "materia": "fisica", "assunto": "ondulatoria", "questionario": 1, "dificuldade": 0,
+    "contexto": "Tempestade chegando",
+    "enunciado": "Numa tempestade, o trovão é ouvido 6 s depois de se ver o relâmpago. Considere que a luz chega instantaneamente e que o som viaja a 340 m/s. A que distância caiu o raio?",
+    "alternativas": [
+      { "letra": "A", "texto": "57 m", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "B", "texto": "1.020 m", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "C", "texto": "2.040 m", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "346 m", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "E", "texto": "204 m", "correta": false, "etiqueta": "fis-unidade" }
+    ],
+    "explicacao": "Como a luz chega quase na hora, os 6 s são o tempo do som. A distância é d = v × t = 340 × 6 = 2.040 m. Aqui o som faz só a ida, então não se divide por 2 (isso valeria para eco).",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-ondulatoria-005", "materia": "fisica", "assunto": "ondulatoria", "questionario": 1, "dificuldade": 1,
+    "contexto": "Som do ar para a água",
+    "enunciado": "Um som de 170 Hz, que se propaga no ar a 340 m/s, passa para a água, onde se propaga a 1.700 m/s. Qual é o comprimento de onda desse som na água?",
+    "alternativas": [
+      { "letra": "A", "texto": "10 m", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "2 m", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "C", "texto": "0,1 m", "correta": false, "etiqueta": "fis-proporcao-invertida" },
+      { "letra": "D", "texto": "289.000 m", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "E", "texto": "5 m", "correta": false, "etiqueta": "fis-ignorou-dado" }
+    ],
+    "explicacao": "Ao mudar de meio, a frequência da onda não muda (170 Hz), mas a velocidade e o comprimento de onda mudam. Na água: λ = v ÷ f = 1.700 ÷ 170 = 10 m. Os 2 m são o comprimento de onda no ar (340 ÷ 170).",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-ondulatoria-006", "materia": "fisica", "assunto": "ondulatoria", "questionario": 2, "dificuldade": -1,
+    "contexto": "Rádio FM",
+    "enunciado": "Uma estação de rádio FM transmite em 100 MHz (100 × 10⁶ Hz). As ondas de rádio viajam a 3 × 10⁸ m/s. Qual é o comprimento de onda?",
+    "alternativas": [
+      { "letra": "A", "texto": "3 m", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "0,33 m", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "C", "texto": "30 m", "correta": false, "etiqueta": "fis-unidade" },
+      { "letra": "D", "texto": "300 m", "correta": false, "etiqueta": "fis-unidade" },
+      { "letra": "E", "texto": "3 × 10¹⁶ m", "correta": false, "etiqueta": "fis-formula-trocada" }
+    ],
+    "explicacao": "Como 100 MHz = 10⁸ Hz, λ = v ÷ f = (3 × 10⁸) ÷ (10⁸) = 3 m. Errar a conversão de MHz para Hz desloca a resposta em potências de 10.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-ondulatoria-007", "materia": "fisica", "assunto": "ondulatoria", "questionario": 2, "dificuldade": 0,
+    "contexto": "Boia no mar",
+    "enunciado": "Uma boia no mar sobe e desce 30 vezes por minuto, sempre de forma regular. Qual é o período do movimento da boia?",
+    "alternativas": [
+      { "letra": "A", "texto": "30 s", "correta": false, "etiqueta": "fis-ignorou-dado" },
+      { "letra": "B", "texto": "0,5 s", "correta": false, "etiqueta": "fis-frequencia-periodo" },
+      { "letra": "C", "texto": "0,033 s", "correta": false, "etiqueta": "fis-unidade" },
+      { "letra": "D", "texto": "2 s", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "60 s", "correta": false, "etiqueta": "fis-parou-no-intermediario" }
+    ],
+    "explicacao": "São 30 oscilações em 60 s, então a frequência é 30 ÷ 60 = 0,5 Hz. O período é o inverso: T = 1 ÷ 0,5 = 2 s. O 0,5 é a frequência em Hz, e não o período.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-ondulatoria-008", "materia": "fisica", "assunto": "ondulatoria", "questionario": 2, "dificuldade": 0,
+    "contexto": "Ondas do mar",
+    "enunciado": "Ondas do mar têm comprimento de onda de 8 m e período de 4 s. Qual é a velocidade de propagação delas?",
+    "alternativas": [
+      { "letra": "A", "texto": "32 m/s", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "B", "texto": "0,5 m/s", "correta": false, "etiqueta": "fis-proporcao-invertida" },
+      { "letra": "C", "texto": "2 m/s", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "12 m/s", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "E", "texto": "4 m/s", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "A velocidade é v = λ ÷ T = 8 ÷ 4 = 2 m/s (o mesmo que λ × f, com f = 1/T). Multiplicar λ por T (32) mistura as grandezas.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-ondulatoria-009", "materia": "fisica", "assunto": "ondulatoria", "questionario": 2, "dificuldade": 1,
+    "contexto": "Sirene da ambulância",
+    "enunciado": "Uma ambulância, com a sirene emitindo sempre a mesma frequência, se aproxima de uma pessoa parada na calçada. Qual afirmação descreve corretamente o som percebido pela pessoa?",
+    "alternativas": [
+      { "letra": "A", "texto": "A velocidade de propagação do som no ar aumenta.", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "B", "texto": "A frequência percebida diminui, e o som fica mais grave.", "correta": false, "etiqueta": "fis-sinal-direcao" },
+      { "letra": "C", "texto": "A sirene passa a emitir em frequência maior.", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "D", "texto": "Nada muda, pois a velocidade do som é constante.", "correta": false, "etiqueta": "fis-ignorou-dado" },
+      { "letra": "E", "texto": "A frequência percebida é maior que a emitida, e o som fica mais agudo.", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "É o efeito Doppler. Quando a fonte se aproxima, as frentes de onda chegam mais juntas ao ouvinte, e a frequência percebida aumenta (som mais agudo). A fonte continua emitindo a mesma frequência, e a velocidade do som no ar não muda. Ao se afastar, o som fica mais grave.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-ondulatoria-010", "materia": "fisica", "assunto": "ondulatoria", "questionario": 2, "dificuldade": 1,
+    "contexto": "Limite da audição humana",
+    "enunciado": "O ouvido humano percebe sons de, aproximadamente, 20 Hz a 20.000 Hz. Considerando a velocidade do som no ar de 340 m/s, qual é o maior comprimento de onda que um ser humano consegue ouvir?",
+    "alternativas": [
+      { "letra": "A", "texto": "0,017 m", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "B", "texto": "17 m", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "170 m", "correta": false, "etiqueta": "fis-unidade" },
+      { "letra": "D", "texto": "6.800 m", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "E", "texto": "0,059 m", "correta": false, "etiqueta": "fis-proporcao-invertida" }
+    ],
+    "explicacao": "Como λ = v ÷ f, o maior comprimento de onda corresponde à menor frequência: λ = 340 ÷ 20 = 17 m. Os 0,017 m são o menor comprimento de onda audível, que vem da frequência de 20.000 Hz.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-ondulatoria-011", "materia": "fisica", "assunto": "ondulatoria", "questionario": 3, "dificuldade": -1,
+    "contexto": "Ondas no espaço",
+    "enunciado": "Qual das ondas abaixo consegue se propagar no vácuo, como o espaço entre o Sol e a Terra?",
+    "alternativas": [
+      { "letra": "A", "texto": "O som de uma buzina", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "B", "texto": "A onda produzida em uma corda", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "C", "texto": "A luz do Sol", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "A onda do mar", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "E", "texto": "O ultrassom do sonar", "correta": false, "etiqueta": "fis-formula-trocada" }
+    ],
+    "explicacao": "A luz é uma onda eletromagnética e não precisa de meio material para se propagar. Som, ultrassom, ondas em cordas e ondas do mar são mecânicas e precisam de um meio (ar, água, corda).",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-ondulatoria-012", "materia": "fisica", "assunto": "ondulatoria", "questionario": 3, "dificuldade": -1,
+    "contexto": "Luz do Sol",
+    "enunciado": "A distância do Sol à Terra é de cerca de 1,5 × 10¹¹ m e a luz viaja a 3 × 10⁸ m/s. Em quanto tempo a luz do Sol chega à Terra?",
+    "alternativas": [
+      { "letra": "A", "texto": "0,002 s", "correta": false, "etiqueta": "fis-proporcao-invertida" },
+      { "letra": "B", "texto": "5.000 s", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "C", "texto": "50 s", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "D", "texto": "4,5 × 10¹⁹ s", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "E", "texto": "500 s", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "O tempo é t = d ÷ v = (1,5 × 10¹¹) ÷ (3 × 10⁸) = 0,5 × 10³ = 500 s, ou cerca de 8 min 20 s. Multiplicar distância por velocidade (4,5 × 10¹⁹) não dá um tempo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-ondulatoria-013", "materia": "fisica", "assunto": "ondulatoria", "questionario": 3, "dificuldade": 0,
+    "contexto": "Nota musical",
+    "enunciado": "Um instrumento emite uma nota de 680 Hz no ar, onde o som viaja a 340 m/s. Qual é o comprimento de onda dessa nota?",
+    "alternativas": [
+      { "letra": "A", "texto": "2 m", "correta": false, "etiqueta": "fis-proporcao-invertida" },
+      { "letra": "B", "texto": "0,5 m", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "231.200 m", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "D", "texto": "340 m", "correta": false, "etiqueta": "fis-ignorou-dado" },
+      { "letra": "E", "texto": "1.020 m", "correta": false, "etiqueta": "fis-conta" }
+    ],
+    "explicacao": "De v = λ × f, tem-se λ = v ÷ f = 340 ÷ 680 = 0,5 m. Dividir a frequência pela velocidade (2) inverte a razão.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-ondulatoria-014", "materia": "fisica", "assunto": "ondulatoria", "questionario": 3, "dificuldade": 0,
+    "contexto": "Grave ou agudo",
+    "enunciado": "Em um som, qual característica determina se ele é percebido como grave ou agudo (a altura do som)?",
+    "alternativas": [
+      { "letra": "A", "texto": "A frequência", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "A amplitude", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "C", "texto": "O timbre", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "D", "texto": "A velocidade de propagação", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "E", "texto": "A duração do som", "correta": false, "etiqueta": "fis-formula-trocada" }
+    ],
+    "explicacao": "A altura (grave ou agudo) depende da frequência: frequências baixas soam graves, e altas soam agudas. A amplitude determina o volume (intensidade), e o timbre é o que diferencia dois instrumentos tocando a mesma nota.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-ondulatoria-015", "materia": "fisica", "assunto": "ondulatoria", "questionario": 3, "dificuldade": 1,
+    "contexto": "Corda do violão",
+    "enunciado": "Uma corda de 1,2 m, presa nas duas extremidades, vibra no 3º harmônico (três ventres). A velocidade das ondas na corda é 40 m/s. Qual é a frequência de vibração? (f = n·v ÷ 2L)",
+    "alternativas": [
+      { "letra": "A", "texto": "16,7 Hz", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "B", "texto": "33,3 Hz", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "C", "texto": "100 Hz", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "D", "texto": "50 Hz", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "120 Hz", "correta": false, "etiqueta": "fis-esqueceu-etapa" }
+    ],
+    "explicacao": "Com n = 3: f = 3 × 40 ÷ (2 × 1,2) = 120 ÷ 2,4 = 50 Hz. Os 16,7 Hz são o modo fundamental (n = 1), e os 120 Hz esquecem de dividir por 2L.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-ondulatoria-016", "materia": "fisica", "assunto": "ondulatoria", "questionario": 4, "dificuldade": -1,
+    "contexto": "Sonar do barco",
+    "enunciado": "Um sonar emite um pulso de ultrassom em direção ao fundo do mar e recebe o eco 0,4 s depois. Se o som viaja a 1.500 m/s na água, qual é a profundidade?",
+    "alternativas": [
+      { "letra": "A", "texto": "600 m", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "B", "texto": "300 m", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "150 m", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "D", "texto": "3.750 m", "correta": false, "etiqueta": "fis-proporcao-invertida" },
+      { "letra": "E", "texto": "1.500 m", "correta": false, "etiqueta": "fis-ignorou-dado" }
+    ],
+    "explicacao": "O pulso vai até o fundo e volta: a distância total é 1.500 × 0,4 = 600 m. A profundidade é metade: 300 m. Os 600 m esquecem que o som fez ida e volta.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-ondulatoria-017", "materia": "fisica", "assunto": "ondulatoria", "questionario": 4, "dificuldade": 0,
+    "contexto": "Luz entrando na água",
+    "enunciado": "Um feixe de luz passa do ar para a água. Em relação à luz no ar, o que acontece com a onda luminosa na água?",
+    "alternativas": [
+      { "letra": "A", "texto": "Mantém a frequência e tem comprimento de onda menor.", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Mantém o comprimento de onda e tem frequência menor.", "correta": false, "etiqueta": "fis-frequencia-periodo" },
+      { "letra": "C", "texto": "Aumenta a frequência e a velocidade.", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "D", "texto": "Aumenta a velocidade e o comprimento de onda.", "correta": false, "etiqueta": "fis-sinal-direcao" },
+      { "letra": "E", "texto": "Mantém a velocidade e muda a frequência.", "correta": false, "etiqueta": "fis-formula-trocada" }
+    ],
+    "explicacao": "A frequência é determinada pela fonte e não muda na refração. Na água a luz é mais lenta que no ar, e como v = λ × f com f constante, o comprimento de onda também diminui.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-ondulatoria-018", "materia": "fisica", "assunto": "ondulatoria", "questionario": 4, "dificuldade": 0,
+    "contexto": "Período do som",
+    "enunciado": "Uma onda sonora no ar tem período de 0,005 s. Considerando a velocidade do som de 340 m/s, qual é o comprimento de onda?",
+    "alternativas": [
+      { "letra": "A", "texto": "68.000 m", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "B", "texto": "0,85 m", "correta": false, "etiqueta": "fis-conta" },
+      { "letra": "C", "texto": "0,0147 m", "correta": false, "etiqueta": "fis-proporcao-invertida" },
+      { "letra": "D", "texto": "200 m", "correta": false, "etiqueta": "fis-parou-no-intermediario" },
+      { "letra": "E", "texto": "1,7 m", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "O comprimento de onda é λ = v × T = 340 × 0,005 = 1,7 m. Também dá certo pela frequência: f = 1 ÷ 0,005 = 200 Hz e λ = 340 ÷ 200 = 1,7 m. Os 200 são a frequência em Hz, não o comprimento de onda.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-ondulatoria-019", "materia": "fisica", "assunto": "ondulatoria", "questionario": 4, "dificuldade": 1,
+    "contexto": "Forno de micro-ondas",
+    "enunciado": "Um forno de micro-ondas usa ondas eletromagnéticas de 2,45 GHz (2,45 × 10⁹ Hz). Sabendo que elas viajam a 3 × 10⁸ m/s, qual é aproximadamente o comprimento de onda delas?",
+    "alternativas": [
+      { "letra": "A", "texto": "1,2 cm", "correta": false, "etiqueta": "fis-unidade" },
+      { "letra": "B", "texto": "1,2 m", "correta": false, "etiqueta": "fis-unidade" },
+      { "letra": "C", "texto": "12 m", "correta": false, "etiqueta": "fis-unidade" },
+      { "letra": "D", "texto": "12 cm", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "7,35 × 10¹⁷ m", "correta": false, "etiqueta": "fis-formula-trocada" }
+    ],
+    "explicacao": "λ = v ÷ f = (3 × 10⁸) ÷ (2,45 × 10⁹) ≈ 0,122 m, ou seja, cerca de 12 cm. Multiplicar velocidade por frequência (7,35 × 10¹⁷) não dá um comprimento.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fis-ondulatoria-020", "materia": "fisica", "assunto": "ondulatoria", "questionario": 4, "dificuldade": 1,
+    "contexto": "Contando cristas",
+    "enunciado": "Numa piscina de ondas, 5 cristas passam por um ponto fixo em 2 s. A distância entre duas cristas consecutivas é 4 m. Qual é a velocidade de propagação das ondas?",
+    "alternativas": [
+      { "letra": "A", "texto": "20 m/s", "correta": false, "etiqueta": "fis-ignorou-dado" },
+      { "letra": "B", "texto": "8 m/s", "correta": false, "etiqueta": "fis-esqueceu-etapa" },
+      { "letra": "C", "texto": "10 m/s", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "1,6 m/s", "correta": false, "etiqueta": "fis-formula-trocada" },
+      { "letra": "E", "texto": "2,5 m/s", "correta": false, "etiqueta": "fis-parou-no-intermediario" }
+    ],
+    "explicacao": "A frequência é 5 ondas ÷ 2 s = 2,5 Hz, e o comprimento de onda (distância entre cristas) é 4 m. Então v = λ × f = 4 × 2,5 = 10 m/s. O 2,5 é só a frequência.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]

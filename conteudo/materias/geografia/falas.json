@@ -1,0 +1,352 @@
+[
+  {
+    "etiqueta": "geo-escala-invertida",
+    "fofo": [
+      "Escala grande e escala pequena se confundem mesmo, é tipo 'grande' ser o contrário do que parece. Bora de novo!",
+      "Quase! Número menor embaixo do 1:, mais detalhe. Pensa em zoom: perto vê tudo.",
+      "Até eu, que sou pequeno e inflado, me confundo com escala. Mas agora você pega!",
+      "Esse erro é o clássico da Geografia, tá no clube dos que já caíram nele!",
+      "Dica de amigo: 1:5.000 é lupa, 1:5.000.000 é drone lá no alto. Vai de novo!"
+    ],
+    "sarc": [
+      "Escala invertida. Claro, o mapa do bairro com cara de planisfério, bem pensado.",
+      "Que ótima ideia usar um mapa do mundo para achar a padaria da esquina.",
+      "Ah, 'grande' que mostra pouco. Faz todo sentido. Em outra dimensão.",
+      "Esse denominador não vai se ler sozinho, né? Mas tudo bem, a gente espera.",
+      "Escala 1:10.000.000 pra achar a rua? Boa sorte, vou torcer daqui."
+    ],
+    "sem": [
+      "VOCÊ INVERTEU A ESCALA! O UNIVERSO DOS MAPAS ESTÁ DE CABEÇA PRA BAIXO!",
+      "1:5.000 É DETALHE, 1:5.000.000 É PANORAMA! DECORA E NUNCA MAIS ME DECEPCIONA!",
+      "O CARTÓGRAFO CHOROU NESSA ALTERNATIVA. EU ESTOU AQUI, SECANDO AS LÁGRIMAS!",
+      "ESCALA GRANDE NÃO É ÁREA GRANDE! É DETALHE GRANDE! AAAAAAH!",
+      "ISSO FOI UMA CONFUSÃO CARTOGRÁFICA DIGNA DE NOVELA!"
+    ],
+    "reserva": "Escala é tipo zoom: quanto menor o número embaixo, mais perto você está do bairro."
+  },
+  {
+    "etiqueta": "geo-erro-de-conta",
+    "fofo": [
+      "A ideia estava certa, a conta só escorregou! Confere os zeros com carinho.",
+      "Conta de escala tem zero escondido, a gente vacila mesmo. Tenta de novo!",
+      "Foi por um zero! Até meu balão de baiacu cabe um zero a mais, olha só.",
+      "Você entendeu o caminho, só errou a aritmética. Respira e refaz!",
+      "Quase lá! Converte cm para m e depois para km, passo a passo."
+    ],
+    "sarc": [
+      "Um zero a mais ou a menos. Dá só uma distância de alguns quilômetros, nada demais.",
+      "A matemática achou que ia dar certo. Spoiler: não deu.",
+      "Parabéns, você inventou um novo país no meio do mapa com essa conta.",
+      "Esse zero do meio estava lá só de enfeite, né?",
+      "Claro, 4 cm no mapa e 400 km na rua. Super realista."
+    ],
+    "sem": [
+      "OS ZEROS FUGIRAM! ONDE FORAM PARAR? CONTA DE NOVO, POR FAVOR!",
+      "ESSA CONTA VIROU UM DESASTRE NATURAL! TERREMOTO DE ZEROS!",
+      "UM ZERO A MAIS E VOCÊ MUDOU A CIDADE DE ESTADO! RESPIRA!",
+      "A CALCULADORA ESTÁ ENVERGONHADA POR VOCÊ NÃO TER USADO ELA!",
+      "MATEMÁTICA DE ESCALA: CALMA, ZEROS E CENTÍMETROS NÃO PERDOAM!"
+    ],
+    "reserva": "Escala é regra de três com muitos zeros: passo a passo, sem pressa, e confere o final."
+  },
+  {
+    "etiqueta": "geo-fuso-sentido",
+    "fofo": [
+      "Leste é mais tarde, oeste é mais cedo. O sol nasce no leste, lembra?",
+      "Quase! Foi só o sentido do fuso que escapou. Bora de novo!",
+      "Fuso é pegadinha mesmo. Eu me perco, e olha que passo o dia boiando.",
+      "Truque: quem está mais a leste já viu o sol antes, então o relógio está adiantado.",
+      "Boa tentativa! Soma pra leste, subtrai pra oeste e fica tudo certo."
+    ],
+    "sarc": [
+      "Somou onde era pra subtrair. Viajou no tempo, parabéns.",
+      "O relógio andou pro lado errado. Aposto que o fuso não ficou ofendido.",
+      "Tudo bem, às vezes o sol nasce no oeste. Em algum universo paralelo.",
+      "Voo para o passado: custo de vida cinco horas atrás. Que promoção!",
+      "Adiantou quando era pra atrasar. Tá certo, tudo é relativo, né?"
+    ],
+    "sem": [
+      "VOCÊ INVERTEU O TEMPO! O SOL NASCE NO LESTE, MEU CAMPEÃO!",
+      "O FUSO VIROU AO CONTRÁRIO E EU NÃO ESTOU PRONTO PARA ISSO!",
+      "VIAJEI PRO PASSADO E SÓ ACHEI ERRO DE SENTIDO! SOCORRO!",
+      "LESTE ADIANTA, OESTE ATRASA! GRAVA ISSO NA ESCAMA!",
+      "ESSE RELÓGIO ANDOU PRO LADO ERRADO E O SOL SE OFENDEU!"
+    ],
+    "reserva": "Fuso horário: quem está mais a leste vê o sol antes, então o relógio dele está mais adiantado."
+  },
+  {
+    "etiqueta": "geo-lat-long",
+    "fofo": [
+      "Latitude e longitude gostam de se disfarçar uma de outra. Tenta de novo!",
+      "Truque: latitude é 'degrau' (paralelos), longitude é 'fatia' (meridianos).",
+      "Quase! Latitude parte do Equador, longitude parte de Greenwich.",
+      "Eu também confundo, juro. Latitude vai até 90°, longitude até 180°.",
+      "Boa! Só falta lembrar qual linha mede o quê. Vai de novo!"
+    ],
+    "sarc": [
+      "Latitude virou longitude. Quem precisa de GPS com uma confusão dessas?",
+      "Ah sim, o Equador em 180°. Muito original.",
+      "Trocou as linhas do mapa. Surpreendentemente criativo.",
+      "O mapa pediu desculpas pela confusão que você causou nele.",
+      "Paralelo, meridiano, tanto faz, né? Ninguém liga."
+    ],
+    "sem": [
+      "LATITUDE NÃO É LONGITUDE! O MAPA ESTÁ CHORANDO!",
+      "TROCOU AS LINHAS! O GPS PEDIU DEMISSÃO!",
+      "O EQUADOR É 0° DE LATITUDE! DE LATITUDE! LATITUDE!!",
+      "VOCÊ PERDEU O NORTE! E O SUL! E O LESTE! TUDO!",
+      "ISSO FOI UM DESASTRE DE COORDENADAS DIGNO DE FILME!"
+    ],
+    "reserva": "Latitude mede de norte a sul a partir do Equador; longitude mede de leste a oeste a partir de Greenwich."
+  },
+  {
+    "etiqueta": "geo-tempo-clima",
+    "fofo": [
+      "Tempo é o que está lá fora agora; clima é o que costuma acontecer. Tenta de novo!",
+      "Dica: se dá pra olhar pela janela, é tempo. Se precisa de décadas de dados, é clima.",
+      "Eu também confundo, e olha que vivo dentro d'água! Bora lá.",
+      "Chuva hoje é tempo. Chuva todo verão é clima. Vai que você pega!",
+      "Boa tentativa! A diferença é a escala do tempo."
+    ],
+    "sarc": [
+      "Choveu hoje, então o clima é chuvoso pra sempre. Raciocínio de ouro.",
+      "Um dia frio e pronto, o clima mudou. Genial.",
+      "Previsão do tempo e clima são a mesma coisa. E eu sou um tubarão.",
+      "Pela sua lógica, se almocei hoje, o clima é de almoço.",
+      "Tempo, clima, tanto faz. Aliás, hoje faz um sol lindo no seu raciocínio."
+    ],
+    "sem": [
+      "TEMPO NÃO É CLIMA! O METEOROLOGISTA ESTÁ CHORANDO!",
+      "UM DIA NÃO FAZ UM CLIMA! A CIÊNCIA PEDE SOCORRO!",
+      "VOCÊ CONFUNDIU O CLIMA COM O DIA DE HOJE! ISSO É CRIME CLIMÁTICO!",
+      "CLIMA É PADRÃO DE DÉCADAS! TEMPO É O DIA DE HOJE! GRAVA!",
+      "ESSA RESPOSTA FEZ O CÉU DESABAR! MAS SÓ POR HOJE!"
+    ],
+    "reserva": "Tempo é o que está acontecendo agora; clima é o que acontece, na média, por muitos anos."
+  },
+  {
+    "etiqueta": "geo-fator-errado",
+    "fofo": [
+      "Boa tentativa, mas o fator certo é outro. Pensa em latitude, altitude, maritimidade...",
+      "Quase! O clima tem vários fatores, e você escolheu o vizinho do certo.",
+      "Cada fenômeno tem seu motivo, e esse não era o dele. Tenta de novo!",
+      "Eu também erro o motivo, e olha que sou um baiacu com muitos motivos. Bora!",
+      "Pista: relaciona o fenômeno com o fator que realmente atua nele."
+    ],
+    "sarc": [
+      "Claro, a serra é fria por causa da corrente marítima. Muito lógico.",
+      "Ah, o Equador é quente porque fica perto do Sol. Que descoberta!",
+      "Fator errado, mas com muita confiança. Isso eu admiro.",
+      "Você escolheu o fator mais criativo possível, e o menos correto.",
+      "Mais um motivo inventado na hora. Parabéns pela imaginação."
+    ],
+    "sem": [
+      "ESSE FATOR NÃO TEM NADA A VER COM O FENÔMENO! NADA!",
+      "VOCÊ CULPOU O FATOR ERRADO! A ALTITUDE ESTÁ OFENDIDA!",
+      "QUE MOTIVO É ESSE?! A ATMOSFERA NÃO ENTENDEU!",
+      "CADA FENÔMENO TEM O SEU MOTIVO! ESSE NÃO ERA O DELE!",
+      "CULPAR A CORRENTE MARÍTIMA POR TUDO NÃO FUNCIONA, VIU?!"
+    ],
+    "reserva": "Cada característica do clima tem um fator principal: latitude, altitude, maritimidade, correntes e relevo."
+  },
+  {
+    "etiqueta": "geo-generalizou",
+    "fofo": [
+      "Essa característica vale para alguns casos, não para todos. Cuidado com o 'toda'!",
+      "Quase! Você pegou um exemplo e estendeu pra tudo.",
+      "Generalizar é tentador, mas a Geografia adora exceção. Tenta de novo!",
+      "Eu mesmo generalizo: acho que todo mundo gosta de ração de peixe. Não é bem assim!",
+      "Pista: procure o que é específico daquele caso."
+    ],
+    "sarc": [
+      "Um exemplo vale para o mundo inteiro, certo? Ciência de ponta.",
+      "Todo bioma é igual. Que simplificação conveniente!",
+      "Generalizar é ótimo: poupa trabalho e erra tudo de uma vez.",
+      "Aplicou a regra a todos os lugares. Eficiência máxima, precisão zero.",
+      "Não, nem toda cidade, região ou bioma funciona assim. Mas tudo bem."
+    ],
+    "sem": [
+      "ISSO NÃO VALE PARA TODO MUNDO! NEM PARA TODO LUGAR! NEM PARA TODO BIOMA!",
+      "VOCÊ GENERALIZOU TUDO! A GEOGRAFIA ESTÁ EM CHOQUE!",
+      "UM CASO NÃO FAZ UMA REGRA! UM CASO!",
+      "ESSA GENERALIZAÇÃO FEZ O MAPA CHORAR! E O ATLAS TAMBÉM!",
+      "TUDO IGUAL?! NA GEOGRAFIA?! NEM SONHANDO!"
+    ],
+    "reserva": "Na Geografia, quase toda regra tem exceção: pergunte sempre 'em que lugar isso vale?'."
+  },
+  {
+    "etiqueta": "geo-causa-consequencia",
+    "fofo": [
+      "Foi só uma inversão: o que você pôs como causa é consequência. Tenta de novo!",
+      "Pensa na ordem dos fatos: o que veio primeiro?",
+      "Quase! A seta da causa aponta para o outro lado.",
+      "Eu também me confundo com 'quem veio primeiro'. Nem sei se foi o ovo ou o baiacu.",
+      "Pista: o que acontece depois não pode ser o motivo do que aconteceu antes."
+    ],
+    "sarc": [
+      "A consequência causou a causa. Que reviravolta!",
+      "Chuva causa nuvem, claro. A ordem dos fatores não altera nada, né?",
+      "Pela sua lógica, o guarda-chuva faz chover.",
+      "Inverteu causa e consequência. Aliás, parabéns pela originalidade.",
+      "Causa e efeito: você deixou os dois de ponta-cabeça."
+    ],
+    "sem": [
+      "CAUSA É CAUSA, CONSEQUÊNCIA É CONSEQUÊNCIA! NÃO TROQUE, POR FAVOR!",
+      "VOCÊ TROCOU A SETA DO TEMPO! A FÍSICA ESTÁ INDIGNADA!",
+      "O EFEITO NÃO PODE SER A CAUSA! NEM NO CINEMA!",
+      "FOI O CONTRÁRIO! SEMPRE FOI O CONTRÁRIO! AAAAH!",
+      "ESSA INVERSÃO FOI UM PLOT TWIST QUE NINGUÉM PEDIU!"
+    ],
+    "reserva": "Para achar a causa, pergunte: o que veio primeiro e o que depende do quê?"
+  },
+  {
+    "etiqueta": "geo-absoluto",
+    "fofo": [
+      "Cuidado com 'sempre', 'nunca' e 'só': a Geografia raramente é tão certinha.",
+      "Alternativas muito radicais costumam ser pegadinha. Tenta de novo!",
+      "Quase! Quando o texto fala 'sempre', desconfia.",
+      "Eu mesmo digo 'nunca' e acabo comendo minhas palavras (e a ração).",
+      "Pista: a realidade quase nunca é tudo ou nada."
+    ],
+    "sarc": [
+      "'Sempre'? Que confiança! A realidade ficou até emocionada.",
+      "Nunca, jamais, em tempo algum. Bem típico de gabarito, né?",
+      "A alternativa mais radical é a certa? Claro, a vida é muito simples.",
+      "Absoluto é ótimo para discurso, péssimo para prova.",
+      "Só isso e mais nada. Que visão ampla."
+    ],
+    "sem": [
+      "'SEMPRE' E 'NUNCA' SÃO ARMADILHAS! ARMADILHAS!!",
+      "A GEOGRAFIA NÃO É PRETO NO BRANCO! É DEGRADÊ DE CINZA!",
+      "TUDO OU NADA?! A VIDA NÃO É UM ROMANCE DE TERROR!",
+      "VOCÊ CAIU NA PALAVRA ABSOLUTA! DE NOVO! E DE NOVO!",
+      "ESSA ALTERNATIVA ERA RADICAL DEMAIS, E VOCÊ FOI MESMO ASSIM!"
+    ],
+    "reserva": "Palavras como 'sempre', 'nunca' e 'apenas' merecem uma segunda olhada: a Geografia vive de exceções."
+  },
+  {
+    "etiqueta": "geo-conceito-trocado",
+    "fofo": [
+      "Conceitos parecidos confundem mesmo! Respira e compara as definições.",
+      "Quase! Você usou o termo do vizinho. Bora de novo!",
+      "Eu também troco nome de coisa parecida, e olha que sou um peixe pequeno.",
+      "Dica: escreva a definição de cada termo antes de escolher.",
+      "Esses dois conceitos são primos, mas não irmãos gêmeos."
+    ],
+    "sarc": [
+      "Conurbação, gentrificação, tanto faz. Tudo termina em 'ção'.",
+      "Trocou um conceito pelo outro. Quase igual, só que não.",
+      "Ah, os conceitos são todos iguais mesmo. Ninguém criou dois nomes à toa.",
+      "Termos diferentes, mas você usou o mesmo. Economia de vocabulário!",
+      "Que criatividade conceitual! A prova é que não gostou."
+    ],
+    "sem": [
+      "ESSES CONCEITOS NÃO SÃO A MESMA COISA! NÃO SÃO!",
+      "VOCÊ TROCOU OS TERMOS! O DICIONÁRIO CHOROU!",
+      "CONCEITO TROCADO É PRATO CHEIO DE ERRO! SOCORRO!",
+      "ÓTIMO! AGORA INVENTARAM UM TERMO NOVO NA HORA!",
+      "DEFINIÇÃO NÃO É OPCIONAL! LEIA ANTES DE ESCOLHER!"
+    ],
+    "reserva": "Termos parecidos têm definições diferentes: antes de marcar, diga a definição do conceito em voz alta."
+  },
+  {
+    "etiqueta": "geo-solucao-simplista",
+    "fofo": [
+      "Problema estrutural não se resolve com uma medida só. Pensa em várias frentes!",
+      "Quase! A solução é boa, mas incompleta. Tenta de novo!",
+      "Seria ótimo se fosse tão simples, né? Mas a Geografia é cheia de camadas.",
+      "Eu também queria resolver tudo com um mergulho. Mas a vida é mais complexa.",
+      "Pista: a melhor alternativa costuma envolver planejamento e vários setores."
+    ],
+    "sarc": [
+      "Alargar a avenida resolve o trânsito. Já tentaram isso por décadas.",
+      "Uma única medida resolve tudo. Por que ninguém pensou nisso antes?",
+      "Que solução simples! Falta combinar com a realidade.",
+      "Resolver desigualdade com uma lei só: o sonho de todo mundo.",
+      "Ah, é só mandar todo mundo voltar pro campo. Pronto, problema resolvido."
+    ],
+    "sem": [
+      "ISSO NÃO SE RESOLVE ASSIM! NEM DE LONGE!",
+      "SOLUÇÃO MÁGICA?! NA GEOGRAFIA?! NÃO EXISTE!",
+      "VOCÊ RESOLVEU UM PROBLEMA ESTRUTURAL EM UMA LINHA! IMPRESSIONANTE E ERRADO!",
+      "SIMPLES DEMAIS! O ESPAÇO GEOGRÁFICO RIU DE VOCÊ!",
+      "ESSA SOLUÇÃO FOI UM CURATIVO EM UM VULCÃO!"
+    ],
+    "reserva": "Problemas urbanos e ambientais costumam exigir várias medidas ao mesmo tempo, não uma solução mágica."
+  },
+  {
+    "etiqueta": "geo-leitura-invertida",
+    "fofo": [
+      "Foi só ler ao contrário: o mapa mostra o oposto do que você marcou. Bora de novo!",
+      "Quase! Confere o sentido do mapa ou do dado antes de responder.",
+      "Eu também leio mapa de ponta-cabeça, mas só quando estou de ponta-cabeça.",
+      "Pista: leia a legenda com calma, é ela que manda.",
+      "Boa tentativa! Olha de novo onde está o norte e o que o gráfico mostra."
+    ],
+    "sarc": [
+      "Leu ao contrário, né? Interpretação criativa de mapas.",
+      "O gráfico sobe, você leu que desce. Visão alternativa!",
+      "Mapa de cabeça pra baixo. Muito bem, que ousadia.",
+      "A legenda pediu licença pra não ser lida, e você respeitou.",
+      "Tudo bem, o oeste também pode ser leste em um mundo paralelo."
+    ],
+    "sem": [
+      "VOCÊ LEU TUDO AO CONTRÁRIO! ISSO É UM MAPA, NÃO UM LABIRINTO!",
+      "O GRÁFICO DISSE UMA COISA E VOCÊ OUVIU OUTRA! SOCORRO!",
+      "LEGENDA EXISTE POR UM MOTIVO! LEIA! LEIA! LEIA!",
+      "O NORTE ESTÁ EM CIMA! SEMPRE ESTEVE EM CIMA! (QUASE SEMPRE)!",
+      "ESSA LEITURA FOI UMA VIAGEM! E NEM FOI DE PRIMEIRA CLASSE!"
+    ],
+    "reserva": "Antes de responder, leia a legenda e o sentido do mapa ou do gráfico: é ela que diz o que cada marca representa."
+  },
+  {
+    "etiqueta": "geo-cronologia",
+    "fofo": [
+      "Foi um tropeço na linha do tempo! Confere quando o fato aconteceu.",
+      "Quase! Essa tecnologia ou evento é de outra época.",
+      "Eu também me embolo com datas, e olha que sou um peixe sem relógio.",
+      "Dica: monte uma linha do tempo rápida com os marcos principais.",
+      "Boa tentativa! A cronologia é só questão de prática."
+    ],
+    "sarc": [
+      "A internet existia na Revolução Industrial. Quem diria!",
+      "Mudou a história do mundo com uma única alternativa. Parabéns.",
+      "Fez a Guerra Fria acontecer antes da Segunda Guerra. Genial.",
+      "A cronologia pediu férias, e você deixou.",
+      "Século errado, mas muita convicção. Isso eu respeito."
+    ],
+    "sem": [
+      "VOCÊ EMBARALHOU A LINHA DO TEMPO! O RELÓGIO DA HISTÓRIA CHOROU!",
+      "ESSE FATO NÃO ACONTECEU NESSA ÉPOCA! NÃO ACONTECEU!",
+      "A DATA ESTÁ ERRADA POR SÉCULOS! SÉCULOS!!",
+      "ISSO FOI UMA VIAGEM NO TEMPO SEM PASSAGEM!",
+      "NA GEOGRAFIA TAMBÉM TEM DATA! E VOCÊ ERROU A DATA!"
+    ],
+    "reserva": "Fatos geopolíticos e tecnologias têm época: uma linha do tempo simples já evita muita troca."
+  },
+  {
+    "etiqueta": "geo-globalizacao-homogenea",
+    "fofo": [
+      "A globalização conecta, mas não iguala todo mundo. Tenta de novo!",
+      "Quase! Ela chega de modos muito diferentes em cada lugar.",
+      "Eu também achava que o mar era igual em todo canto. Cada lugar tem sua água!",
+      "Pista: fronteiras e desigualdades continuam existindo, mesmo com a globalização.",
+      "Boa tentativa! Procure a alternativa que fala em efeitos desiguais."
+    ],
+    "sarc": [
+      "A globalização igualou o planeta inteiro. Que lindo, onde isso aconteceu?",
+      "Todo mundo tem a mesma internet, a mesma renda e o mesmo mundo. Claro.",
+      "Fronteiras acabaram. Pergunte a quem tenta cruzar uma.",
+      "Globalização igual pra todos: o conto de fadas do século XXI.",
+      "Mundo todo igual: que tédio, ainda bem que não é verdade."
+    ],
+    "sem": [
+      "A GLOBALIZAÇÃO NÃO TRATA TODO MUNDO IGUAL! NEM DE LONGE!",
+      "O MUNDO NÃO VIROU UMA ALDEIA PERFEITA! TEM MURO, TEM DESIGUALDADE!",
+      "FRONTEIRAS CONTINUAM EXISTINDO! PASSAPORTE EXISTE POR ISSO!",
+      "VOCÊ ACHOU QUE A GLOBALIZAÇÃO IGUALOU TUDO! HAHAHA, NÃO!",
+      "ESSA FOI UMA VISÃO UTÓPICA DIGNA DE FILME DE FICÇÃO!"
+    ],
+    "reserva": "A globalização conecta o mundo, mas os efeitos são desiguais entre países, regiões e grupos sociais."
+  }
+]

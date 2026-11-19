@@ -1,0 +1,16 @@
+[
+  { "id": "art-confundiu-movimento", "nome": "Confundiu o movimento", "descricao": "Atribuiu as características de um movimento artístico a outro." },
+  { "id": "art-errou-epoca", "nome": "Errou a época", "descricao": "Situou a obra, o estilo ou o fato num período histórico que não é o dele." },
+  { "id": "art-trocou-artista", "nome": "Trocou o artista", "descricao": "Ligou a obra ou a característica a um artista ou grupo que não a produziu." },
+  { "id": "art-generalizou", "nome": "Generalizou demais", "descricao": "Pegou o traço de uma obra ou artista e tratou como regra de todo um movimento ou cultura." },
+  { "id": "art-leitura-literal", "nome": "Leitura literal", "descricao": "Leu a obra só pelo que mostra na superfície, sem perceber o sentido simbólico ou crítico." },
+  { "id": "art-ignorou-contexto", "nome": "Ignorou o contexto", "descricao": "Esqueceu o contexto histórico e social que explica por que a obra existe." },
+  { "id": "art-funcao-so-decorativa", "nome": "Arte só como enfeite", "descricao": "Reduziu a função da arte a decorar ou entreter, ignorando denúncia, memória, identidade e outras funções." },
+  { "id": "art-confundiu-linguagem", "nome": "Confundiu a linguagem", "descricao": "Misturou termos, técnicas ou recursos de linguagens artísticas diferentes." },
+  { "id": "art-patrimonio-so-pedra", "nome": "Patrimônio só de pedra e cal", "descricao": "Entendeu patrimônio apenas como prédio ou monumento, esquecendo saberes, celebrações e modos de fazer." },
+  { "id": "art-hierarquia-cultural", "nome": "Hierarquizou culturas", "descricao": "Tratou uma manifestação (erudita, europeia, de elite) como superior a outra (popular, indígena, afro-brasileira, periférica)." },
+  { "id": "art-extremo", "nome": "Alternativa extrema", "descricao": "Escolheu uma afirmação absoluta, com 'sempre', 'nunca', 'apenas', que a arte real não sustenta." },
+  { "id": "art-fuga-do-tema", "nome": "Fugiu do tema", "descricao": "Escolheu uma afirmação que pode até ser verdadeira, mas não responde ao que o enunciado perguntou." },
+  { "id": "art-origem-errada", "nome": "Origem errada", "descricao": "Atribuiu a manifestação cultural a uma origem, povo ou região que não é a dela." },
+  { "id": "art-elemento-musical", "nome": "Confundiu o elemento musical", "descricao": "Trocou ritmo, melodia, harmonia, timbre, altura ou intensidade entre si." }
+]

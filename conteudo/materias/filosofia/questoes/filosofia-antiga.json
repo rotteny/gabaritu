@@ -1,0 +1,282 @@
+[
+  {
+    "id": "fil-filosofia-antiga-001", "materia": "filosofia", "assunto": "filosofia-antiga", "questionario": 1, "dificuldade": -1,
+    "contexto": "Do mito à razão",
+    "enunciado": "Antes da filosofia, os gregos explicavam fenômenos como trovões e a origem do mundo por meio de mitos. Por volta do século VI a.C., em cidades como Mileto, surgiram pensadores que buscaram explicações baseadas na razão e na observação da natureza. Essa mudança é conhecida como passagem:",
+    "alternativas": [
+      { "letra": "A", "texto": "do logos ao mito", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "B", "texto": "do mito ao logos, isto é, à explicação racional", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "do politeísmo ao monoteísmo", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "D", "texto": "da ciência moderna ao mito", "correta": false, "etiqueta": "fil-misturou-epocas" },
+      { "letra": "E", "texto": "do ceticismo ao dogmatismo", "correta": false, "etiqueta": "fil-confundiu-corrente" }
+    ],
+    "explicacao": "Logos significa razão e discurso. A filosofia nasce quando se tenta explicar o mundo por argumentos e causas naturais, e não apenas por histórias sobre deuses. Isso não quer dizer que os mitos desapareceram de uma hora pra outra.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-antiga-002", "materia": "filosofia", "assunto": "filosofia-antiga", "questionario": 1, "dificuldade": -1,
+    "contexto": "O primeiro da lista",
+    "enunciado": "Tales de Mileto, considerado o primeiro filósofo ocidental, procurou um princípio natural de onde tudo se originaria, a que os gregos chamaram de arché. Para Tales, esse princípio era:",
+    "alternativas": [
+      { "letra": "A", "texto": "o fogo", "correta": false, "etiqueta": "fil-confundiu-filosofo" },
+      { "letra": "B", "texto": "o ar", "correta": false, "etiqueta": "fil-confundiu-filosofo" },
+      { "letra": "C", "texto": "o átomo", "correta": false, "etiqueta": "fil-confundiu-filosofo" },
+      { "letra": "D", "texto": "a água", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "o número", "correta": false, "etiqueta": "fil-confundiu-filosofo" }
+    ],
+    "explicacao": "Tales apontou a água como origem de tudo. O fogo é de Heráclito, o ar de Anaxímenes, o átomo de Demócrito e o número ficou associado a Pitágoras. O importante é a tentativa de explicar o mundo sem recorrer a mitos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-antiga-003", "materia": "filosofia", "assunto": "filosofia-antiga", "questionario": 1, "dificuldade": 0,
+    "contexto": "Perguntar pra pensar",
+    "enunciado": "Sócrates percorria Atenas fazendo perguntas aos cidadãos para que percebessem as contradições das próprias ideias e chegassem, por si mesmos, a conceitos mais bem fundamentados. Esse método de conversa é chamado de:",
+    "alternativas": [
+      { "letra": "A", "texto": "maiêutica, que usa perguntas para ajudar a dar à luz ideias", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "dialética hegeliana, que parte da tese e da antítese", "correta": false, "etiqueta": "fil-misturou-epocas" },
+      { "letra": "C", "texto": "método experimental, que testa hipóteses no laboratório", "correta": false, "etiqueta": "fil-confundiu-metodo" },
+      { "letra": "D", "texto": "retórica sofista, que busca convencer o público", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "E", "texto": "dúvida metódica, que rejeita tudo o que é duvidoso", "correta": false, "etiqueta": "fil-confundiu-metodo" }
+    ],
+    "explicacao": "Maiêutica quer dizer a arte de partejar: Sócrates ajudava o interlocutor a produzir o próprio conhecimento. A dúvida metódica é de Descartes, muitos séculos depois, e os sofistas se preocupavam mais em persuadir.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-antiga-004", "materia": "filosofia", "assunto": "filosofia-antiga", "questionario": 1, "dificuldade": 0,
+    "contexto": "Argumentar por dinheiro",
+    "enunciado": "Em Atenas, os sofistas ensinavam a arte de argumentar em troca de pagamento, e Protágoras afirmava que o homem é a medida de todas as coisas. Sócrates criticava os sofistas porque:",
+    "alternativas": [
+      { "letra": "A", "texto": "defendia cobrar caro pelas próprias aulas", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "B", "texto": "os sofistas negavam a existência da linguagem", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "C", "texto": "os sofistas defendiam o mundo das ideias eternas", "correta": false, "etiqueta": "fil-confundiu-filosofo" },
+      { "letra": "D", "texto": "os sofistas eram contra a democracia por princípio", "correta": false, "etiqueta": "fil-generalizou-pensador" },
+      { "letra": "E", "texto": "buscava verdades universais, enquanto os sofistas tendiam ao relativismo e usavam o argumento para vencer debates", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Para Sócrates, o objetivo do diálogo era chegar à verdade, e não vencer a discussão. Os sofistas, ao dizer que o homem é a medida de tudo, tendiam a achar que a verdade varia conforme quem fala. As ideias eternas são de Platão.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-antiga-005", "materia": "filosofia", "assunto": "filosofia-antiga", "questionario": 1, "dificuldade": 1,
+    "contexto": "Sombras na parede",
+    "enunciado": "Texto adaptado de Platão, A República: prisioneiros acorrentados desde a infância numa caverna, voltados para uma parede, veem só sombras de objetos projetadas por uma luz atrás deles, e acham que as sombras são a realidade. Um deles se liberta, sai da caverna e vê o mundo sob o sol. Na interpretação de Platão, a saída da caverna representa:",
+    "alternativas": [
+      { "letra": "A", "texto": "a fuga de um preso político da cidade", "correta": false, "etiqueta": "fil-leitura-literal" },
+      { "letra": "B", "texto": "a descoberta de que o prazer sensível é a verdade suprema", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "C", "texto": "o caminho da educação filosófica, que leva da aparência ao conhecimento verdadeiro", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "a vitória do conhecimento sensível sobre a razão", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "E", "texto": "o abandono da razão em favor da fé religiosa", "correta": false, "etiqueta": "fil-confundiu-corrente" }
+    ],
+    "explicacao": "A alegoria da caverna é uma imagem: as sombras são o mundo das aparências, e a luz do sol representa o conhecimento verdadeiro, alcançado pela razão. Ler como relato literal é a pegadinha.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-antiga-006", "materia": "filosofia", "assunto": "filosofia-antiga", "questionario": 2, "dificuldade": -1,
+    "contexto": "Dois mundos",
+    "enunciado": "Platão distinguia o mundo sensível, das coisas que vemos e tocamos e que estão sempre mudando, do mundo das ideias, eterno e perfeito. Para ele, o conhecimento verdadeiro:",
+    "alternativas": [
+      { "letra": "A", "texto": "vem principalmente da experiência dos sentidos", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "B", "texto": "é impossível de alcançar", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "C", "texto": "se alcança pela razão, voltada às ideias, e não pelos sentidos, que mostram só aparências", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "depende da opinião da maioria", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "E", "texto": "só existe nos mitos", "correta": false, "etiqueta": "fil-inverteu-conceito" }
+    ],
+    "explicacao": "Para Platão, os sentidos nos dão opinião e aparência (doxa), e só a razão chega ao conhecimento verdadeiro (episteme) das ideias. Valorizar os sentidos como fonte principal é uma posição mais próxima do empirismo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-antiga-007", "materia": "filosofia", "assunto": "filosofia-antiga", "questionario": 2, "dificuldade": -1,
+    "contexto": "O aluno que discordou",
+    "enunciado": "Aristóteles foi discípulo de Platão na Academia e depois fundou o Liceu. Ao contrário do mestre, dava grande valor à observação da natureza e à classificação dos seres vivos. Essa postura o aproxima de:",
+    "alternativas": [
+      { "letra": "A", "texto": "uma abordagem que parte da observação do mundo concreto", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "um desprezo pelo mundo sensível", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "C", "texto": "um ceticismo radical, que duvida de tudo", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "D", "texto": "um misticismo que dispensa a razão", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "E", "texto": "o idealismo de Kant, do século XVIII", "correta": false, "etiqueta": "fil-misturou-epocas" }
+    ],
+    "explicacao": "Aristóteles parte da observação e da classificação do mundo natural, enquanto Platão valorizava o mundo das ideias. Kant viveu mais de dois mil anos depois.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-antiga-008", "materia": "filosofia", "assunto": "filosofia-antiga", "questionario": 2, "dificuldade": 0,
+    "contexto": "Forma e matéria",
+    "enunciado": "Para Platão, as ideias existem num mundo separado do nosso. Aristóteles discordou: para ele, a forma de uma coisa não existe fora dela, mas nela mesma, junto com a matéria. Isso significa que, para Aristóteles:",
+    "alternativas": [
+      { "letra": "A", "texto": "o cavalo perfeito existe em um mundo separado", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "B", "texto": "a matéria não existe", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "C", "texto": "o conhecimento é impossível", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "D", "texto": "só importa a forma, e a matéria é irrelevante", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "E", "texto": "para conhecer a essência do cavalo, observamos cavalos reais, e não um modelo num mundo à parte", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Em Aristóteles, forma e matéria formam uma unidade em cada coisa concreta, por isso o conhecimento parte da observação. A ideia de um modelo perfeito em outro mundo é de Platão.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-antiga-009", "materia": "filosofia", "assunto": "filosofia-antiga", "questionario": 2, "dificuldade": 0,
+    "contexto": "O rio e o ser",
+    "enunciado": "Heráclito dizia que não se entra duas vezes no mesmo rio, pois tudo está em constante mudança. Parmênides, ao contrário, defendia que o ser é uno e imutável e que a mudança é ilusão dos sentidos. O ponto central da divergência entre os dois é:",
+    "alternativas": [
+      { "letra": "A", "texto": "ambos defendiam que a realidade é mudança constante", "correta": false, "etiqueta": "fil-generalizou-pensador" },
+      { "letra": "B", "texto": "a natureza da realidade: mudança permanente, para Heráclito, e permanência imutável do ser, para Parmênides", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Heráclito era sofista e Parmênides era cético", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "D", "texto": "Parmênides defendia o fogo como princípio de tudo", "correta": false, "etiqueta": "fil-confundiu-filosofo" },
+      { "letra": "E", "texto": "o debate era sobre a democracia ateniense", "correta": false, "etiqueta": "fil-confundiu-termo" }
+    ],
+    "explicacao": "Heráclito vê o devir, a mudança, como essência da realidade; Parmênides vê o ser como imutável. Essa tensão entre mudança e permanência atravessa a filosofia grega. O fogo, aliás, é o princípio de Heráclito.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-antiga-010", "materia": "filosofia", "assunto": "filosofia-antiga", "questionario": 2, "dificuldade": 1,
+    "contexto": "Quem deve governar?",
+    "enunciado": "Em A República, Platão defende que a cidade justa deveria ser governada por quem conhece a verdade e o bem, isto é, pelos filósofos. O ponto central dessa proposta é que:",
+    "alternativas": [
+      { "letra": "A", "texto": "o poder deve ser hereditário", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "B", "texto": "todos devem governar por sorteio, sem preparo", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "C", "texto": "o governo deve caber a quem for mais rico", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "D", "texto": "o governo deveria caber a quem tem conhecimento e virtude, e não a quem tem riqueza ou apenas popularidade", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "o melhor governo é a ausência total de Estado", "correta": false, "etiqueta": "fil-confundiu-termo" }
+    ],
+    "explicacao": "Platão desconfiava da democracia ateniense, em que cargos eram sorteados ou conquistados pela eloquência, e defendia o governo dos sábios. O raciocínio é que, assim como se confia a um médico a saúde, deve-se confiar a cidade a quem conhece o bem.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-antiga-011", "materia": "filosofia", "assunto": "filosofia-antiga", "questionario": 3, "dificuldade": -1,
+    "contexto": "Controle remoto da vida",
+    "enunciado": "Os estoicos, como Epicteto, ensinavam a distinguir o que depende de nós (nossos juízos, desejos e ações) do que não depende (o clima, a opinião alheia, a doença). Seguindo essa ideia, uma atitude estoica diante de uma chuva que cancela o passeio seria:",
+    "alternativas": [
+      { "letra": "A", "texto": "gritar com as nuvens até a chuva parar", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "B", "texto": "buscar o máximo de prazer imediato para esquecer", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "C", "texto": "nunca mais sair de casa", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "D", "texto": "negar que a chuva existe", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "E", "texto": "aceitar o que não se pode controlar e cuidar da própria reação", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Para o estoicismo, a tranquilidade vem de focar naquilo que podemos controlar, que é a nossa maneira de reagir. Aceitar não é desistir de tudo: é não sofrer por aquilo que não depende de nós.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-antiga-012", "materia": "filosofia", "assunto": "filosofia-antiga", "questionario": 3, "dificuldade": 0,
+    "contexto": "Prazer com cabeça",
+    "enunciado": "Epicuro defendia que a felicidade está no prazer, mas entendia prazer como ausência de dor no corpo e de perturbação na alma (ataraxia), alcançada com moderação, amizade e desejos simples. Qual alternativa descreve melhor o epicurismo?",
+    "alternativas": [
+      { "letra": "A", "texto": "farras e excessos, porque o prazer é tudo", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "B", "texto": "prazer entendido como serenidade, com desejos moderados e amizade", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "vida de sofrimento, pois a dor purifica a alma", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "D", "texto": "indiferença total ao prazer e à dor", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "E", "texto": "obediência ao Estado acima de qualquer desejo", "correta": false, "etiqueta": "fil-confundiu-termo" }
+    ],
+    "explicacao": "Epicuro não defendia excessos: para ele, os excessos trazem dor depois. O prazer verdadeiro é a tranquilidade. Indiferença diante do prazer e da dor aproxima-se mais dos estoicos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-antiga-013", "materia": "filosofia", "assunto": "filosofia-antiga", "questionario": 3, "dificuldade": 0,
+    "contexto": "Julgamento em Atenas",
+    "enunciado": "Em 399 a.C., Sócrates foi julgado em Atenas, acusado de corromper a juventude e de não reconhecer os deuses da cidade, e foi condenado a beber cicuta. Esse episódio costuma ser lembrado como exemplo de:",
+    "alternativas": [
+      { "letra": "A", "texto": "vitória da filosofia sobre a política", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "B", "texto": "fim da democracia em Atenas", "correta": false, "etiqueta": "fil-simplificou-demais" },
+      { "letra": "C", "texto": "prova de que Sócrates era um sofista", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "D", "texto": "tensão entre a investigação crítica de um pensador e a autoridade da cidade", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "o primeiro caso de censura na Idade Média", "correta": false, "etiqueta": "fil-misturou-epocas" }
+    ],
+    "explicacao": "O julgamento mostra o conflito entre quem questiona tudo e a ordem estabelecida da cidade. Sócrates não era sofista, e a Idade Média só começaria muitos séculos depois.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-antiga-014", "materia": "filosofia", "assunto": "filosofia-antiga", "questionario": 3, "dificuldade": 1,
+    "contexto": "Lógica de Aristóteles",
+    "enunciado": "Aristóteles sistematizou a lógica e o silogismo, raciocínio com duas premissas e uma conclusão. Considere: 'Todo gato é mamífero. O animal de Ana é mamífero. Logo, o animal de Ana é gato.' Esse raciocínio é:",
+    "alternativas": [
+      { "letra": "A", "texto": "válido, pois as duas premissas são verdadeiras", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "B", "texto": "válido, pois a conclusão é possível", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "C", "texto": "inválido, pois a conclusão não decorre das premissas: outros mamíferos também podem ser o animal de Ana", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "inválido, porque gato não é mamífero", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "E", "texto": "válido, pois segue o método socrático", "correta": false, "etiqueta": "fil-confundiu-metodo" }
+    ],
+    "explicacao": "Validade é diferente de verdade: um argumento é válido quando a conclusão decorre necessariamente das premissas. Aqui, saber que o animal é mamífero não garante que seja gato, pois cães, vacas e outros também são mamíferos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-antiga-015", "materia": "filosofia", "assunto": "filosofia-antiga", "questionario": 3, "dificuldade": 1,
+    "contexto": "O mestre que não escreveu",
+    "enunciado": "Sócrates não deixou obra escrita. O que sabemos dele vem sobretudo de discípulos, como Platão e Xenofonte, e de comédias, como as de Aristófanes. Por isso fala-se em uma 'questão socrática', que é:",
+    "alternativas": [
+      { "letra": "A", "texto": "a dificuldade de separar o Sócrates histórico do personagem construído por seus discípulos", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "a discussão sobre a data exata do julgamento", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "C", "texto": "o debate sobre se Sócrates escreveu em grego ou em latim", "correta": false, "etiqueta": "fil-misturou-epocas" },
+      { "letra": "D", "texto": "a dúvida sobre se Platão existiu", "correta": false, "etiqueta": "fil-confundiu-filosofo" },
+      { "letra": "E", "texto": "a proibição de ler Sócrates em Atenas", "correta": false, "etiqueta": "fil-generalizou-pensador" }
+    ],
+    "explicacao": "Como Sócrates nada escreveu, nossas fontes são interpretações de terceiros, e cada uma mostra um Sócrates um pouco diferente. A questão socrática é a pergunta de qual deles é o mais fiel ao homem real.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-antiga-016", "materia": "filosofia", "assunto": "filosofia-antiga", "questionario": 4, "dificuldade": -1,
+    "contexto": "Palavra de origem",
+    "enunciado": "A palavra filosofia vem do grego: philos, que significa amigo ou amor, e sophia, que significa sabedoria. Assim, filosofia significa:",
+    "alternativas": [
+      { "letra": "A", "texto": "medo do desconhecido", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "B", "texto": "ciência dos astros", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "C", "texto": "arte de convencer", "correta": false, "etiqueta": "fil-confundiu-corrente" },
+      { "letra": "D", "texto": "amor à sabedoria", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "religião dos gregos", "correta": false, "etiqueta": "fil-confundiu-termo" }
+    ],
+    "explicacao": "Filosofia é amor à sabedoria: quem filosofa busca saber, sem dizer que já possui todo o saber. A arte de convencer é a retórica, e a ciência dos astros é a astronomia.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-antiga-017", "materia": "filosofia", "assunto": "filosofia-antiga", "questionario": 4, "dificuldade": 0,
+    "contexto": "Tudo é feito de quê?",
+    "enunciado": "Os pensadores pré-socráticos buscavam o princípio originário, a arché, de todas as coisas. Demócrito de Abdera propôs que o mundo era formado por:",
+    "alternativas": [
+      { "letra": "A", "texto": "água", "correta": false, "etiqueta": "fil-confundiu-filosofo" },
+      { "letra": "B", "texto": "ar", "correta": false, "etiqueta": "fil-confundiu-filosofo" },
+      { "letra": "C", "texto": "átomos e vazio", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "fogo", "correta": false, "etiqueta": "fil-confundiu-filosofo" },
+      { "letra": "E", "texto": "ideias eternas num mundo separado", "correta": false, "etiqueta": "fil-confundiu-filosofo" }
+    ],
+    "explicacao": "Demócrito defendeu que tudo é composto por átomos, partículas indivisíveis, que se movem no vazio. A água é de Tales, o ar de Anaxímenes, o fogo de Heráclito e as ideias eternas de Platão.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-antiga-018", "materia": "filosofia", "assunto": "filosofia-antiga", "questionario": 4, "dificuldade": 0,
+    "contexto": "Opinião ou conhecimento?",
+    "enunciado": "Para Platão, a doxa é a opinião, ligada ao mundo sensível e sujeita ao erro, e a episteme é o conhecimento verdadeiro, baseado na razão. Qual situação é um exemplo de episteme?",
+    "alternativas": [
+      { "letra": "A", "texto": "afirmar que a pizza da esquina é a melhor porque você gosta dela", "correta": false, "etiqueta": "fil-opiniao-pessoal" },
+      { "letra": "B", "texto": "demonstrar, por raciocínio, que a soma dos ângulos internos de um triângulo é sempre 180 graus", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "repetir o que um colega disse sem conferir", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "D", "texto": "acreditar numa previsão de horóscopo", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "E", "texto": "dizer que o dia está bonito", "correta": false, "etiqueta": "fil-opiniao-pessoal" }
+    ],
+    "explicacao": "A demonstração matemática é o modelo de conhecimento racional e universal. Gostos pessoais, boatos e impressões são doxa, ou seja, opinião que pode variar e mudar.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-antiga-019", "materia": "filosofia", "assunto": "filosofia-antiga", "questionario": 4, "dificuldade": 1,
+    "contexto": "Quatro causas",
+    "enunciado": "Aristóteles explicava as coisas por quatro causas: material (do que é feito), formal (o que é), eficiente (quem ou o que a produz) e final (para quê existe). Numa estátua de bronze esculpida por um artista para homenagear um herói, quem ocupa o papel de causa eficiente?",
+    "alternativas": [
+      { "letra": "A", "texto": "o artista que a esculpiu", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "o bronze", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "C", "texto": "a forma de herói que a estátua apresenta", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "D", "texto": "a homenagem ao herói", "correta": false, "etiqueta": "fil-confundiu-termo" },
+      { "letra": "E", "texto": "a vontade dos deuses", "correta": false, "etiqueta": "fil-confundiu-corrente" }
+    ],
+    "explicacao": "A causa eficiente é o agente que produz a coisa: o artista. O bronze é a causa material, a forma de herói é a formal e a homenagem é a final. Aristóteles não precisava recorrer à vontade dos deuses para explicar a estátua.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "fil-filosofia-antiga-020", "materia": "filosofia", "assunto": "filosofia-antiga", "questionario": 4, "dificuldade": 1,
+    "contexto": "Cínico de verdade",
+    "enunciado": "Diógenes de Sinope, filósofo cínico da Antiguidade, vivia com extrema simplicidade, criticava convenções sociais e defendia viver segundo a natureza, dispensando o supérfluo. Hoje, cinismo costuma significar falta de sinceridade. O cinismo antigo difere disso porque:",
+    "alternativas": [
+      { "letra": "A", "texto": "defendia a mentira como virtude", "correta": false, "etiqueta": "fil-inverteu-conceito" },
+      { "letra": "B", "texto": "seus filósofos eram ricos e viviam de privilégios", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "C", "texto": "o sentido era exatamente o mesmo de hoje", "correta": false, "etiqueta": "fil-misturou-epocas" },
+      { "letra": "D", "texto": "defendia o acúmulo de riquezas como virtude", "correta": false, "etiqueta": "fil-ideia-oposta" },
+      { "letra": "E", "texto": "valorizava a autenticidade e criticava a hipocrisia social", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Os cínicos antigos eram radicalmente sinceros e desprezavam o luxo e a falsidade das convenções. O sentido atual da palavra, de pessoa que finge ou debocha de valores, é uma deformação posterior.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]

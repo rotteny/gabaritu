@@ -1,0 +1,282 @@
+[
+  {
+    "id": "art-linguagens-artisticas-001", "materia": "artes", "assunto": "linguagens-artisticas", "questionario": 1, "dificuldade": -1,
+    "contexto": "Luz que muda a cena",
+    "enunciado": "Numa peça de teatro, Lia percebeu que a luz mudou de azul para vermelho justamente na hora em que o personagem ficou com raiva. Qual elemento teatral foi usado para reforçar essa emoção?",
+    "alternativas": [
+      { "letra": "A", "texto": "A sonoplastia", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "B", "texto": "A iluminação", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "O figurino", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "D", "texto": "O cenário", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "E", "texto": "A maquiagem", "correta": false, "etiqueta": "art-confundiu-linguagem" }
+    ],
+    "explicacao": "A troca de cor da luz é um recurso de iluminação, que cria clima e reforça emoções. Sonoplastia trabalha com sons, figurino com roupas, cenário com os objetos do espaço e maquiagem com o rosto dos atores.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-linguagens-artisticas-002", "materia": "artes", "assunto": "linguagens-artisticas", "questionario": 1, "dificuldade": -1,
+    "contexto": "Cores na pintura",
+    "enunciado": "Num cartaz de festa, o artista usou vermelho, laranja e amarelo para passar sensação de calor e energia. Como esse grupo de cores é chamado?",
+    "alternativas": [
+      { "letra": "A", "texto": "Cores frias", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "B", "texto": "Cores neutras", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "C", "texto": "Cores apenas secundárias", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "D", "texto": "Cores monocromáticas", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "E", "texto": "Cores quentes", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Vermelho, laranja e amarelo são as cores quentes e lembram fogo e sol. As cores frias, como azul e verde, passam sensação oposta. Monocromático seria um único tom em variações.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-linguagens-artisticas-003", "materia": "artes", "assunto": "linguagens-artisticas", "questionario": 1, "dificuldade": 0,
+    "contexto": "Recorte da foto",
+    "enunciado": "Num curso de fotografia, o professor explica que duas pessoas no mesmo lugar podem fazer fotos totalmente diferentes, dependendo do enquadramento. O que é o enquadramento?",
+    "alternativas": [
+      { "letra": "A", "texto": "A revelação do filme em laboratório", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "B", "texto": "O tipo de lente da câmera, e nada mais", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "C", "texto": "O instante exato do clique, e nada mais", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "D", "texto": "A escolha do que entra na imagem e de como os elementos são dispostos no quadro", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "A edição final das cores no computador", "correta": false, "etiqueta": "art-confundiu-linguagem" }
+    ],
+    "explicacao": "Enquadrar é decidir o que mostrar e o que deixar de fora, e também a posição de cada elemento. A lente e o momento do clique influenciam, mas não definem sozinhos o enquadramento.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-linguagens-artisticas-004", "materia": "artes", "assunto": "linguagens-artisticas", "questionario": 1, "dificuldade": 0,
+    "contexto": "Câmera na mão",
+    "enunciado": "Nos anos 1960, cineastas brasileiros fizeram filmes de baixo orçamento, com câmera na mão e locações no sertão e nas periferias, tratando de desigualdade e injustiça social. Como é chamado esse movimento?",
+    "alternativas": [
+      { "letra": "A", "texto": "Cinema Novo", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Cinema mudo", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "C", "texto": "Pop Art", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "D", "texto": "Neorrealismo italiano", "correta": false, "etiqueta": "art-origem-errada" },
+      { "letra": "E", "texto": "Teatro épico", "correta": false, "etiqueta": "art-confundiu-linguagem" }
+    ],
+    "explicacao": "O Cinema Novo foi o movimento brasileiro que defendia filmes baratos, ligados à realidade do país e com forte crítica social. O Neorrealismo italiano o inspirou, mas é de outro país. O cinema mudo é das primeiras décadas do cinema.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-linguagens-artisticas-005", "materia": "artes", "assunto": "linguagens-artisticas", "questionario": 1, "dificuldade": 1,
+    "contexto": "A plateia entra na cena",
+    "enunciado": "Na proposta do Teatro do Oprimido, criada pelo brasileiro Augusto Boal, o público pode interromper a cena e entrar nela para propor outras saídas para um problema. O que essa proposta muda na relação entre palco e plateia?",
+    "alternativas": [
+      { "letra": "A", "texto": "Elimina completamente o papel do ator", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "B", "texto": "A plateia apenas aplaude no final", "correta": false, "etiqueta": "art-leitura-literal" },
+      { "letra": "C", "texto": "O espectador deixa de ser passivo e se torna participante da criação, o chamado “espect-ator”", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "O texto passa a ser fixo e imutável", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "E", "texto": "O teatro só pode acontecer dentro de salas fechadas", "correta": false, "etiqueta": "art-extremo" }
+    ],
+    "explicacao": "Boal queria que a plateia deixasse de só assistir e passasse a agir, discutindo problemas reais. Os atores continuam existindo, o roteiro é aberto à intervenção e o teatro pode ocorrer em praças e ruas.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-linguagens-artisticas-006", "materia": "artes", "assunto": "linguagens-artisticas", "questionario": 2, "dificuldade": -1,
+    "contexto": "Sapatilhas de ponta",
+    "enunciado": "O balé clássico, com sapatilhas de ponta e coreografias codificadas, teve origem nas cortes de qual região?",
+    "alternativas": [
+      { "letra": "A", "texto": "África Ocidental", "correta": false, "etiqueta": "art-origem-errada" },
+      { "letra": "B", "texto": "Nordeste do Brasil", "correta": false, "etiqueta": "art-origem-errada" },
+      { "letra": "C", "texto": "Ásia Oriental", "correta": false, "etiqueta": "art-origem-errada" },
+      { "letra": "D", "texto": "Estados Unidos, nos anos 1970", "correta": false, "etiqueta": "art-errou-epoca" },
+      { "letra": "E", "texto": "Itália e França, na Europa renascentista", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "O balé surgiu nas cortes italianas do Renascimento e se consolidou na França. É uma tradição europeia de dança de corte, diferente de danças populares de outros povos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-linguagens-artisticas-007", "materia": "artes", "assunto": "linguagens-artisticas", "questionario": 2, "dificuldade": -1,
+    "contexto": "Muro colorido",
+    "enunciado": "Numa rua da cidade, um grupo de artistas pintou um grande mural no muro, usando tinta spray, com um rosto e uma mensagem sobre cuidar do bairro. Esse tipo de pintura urbana é chamado de:",
+    "alternativas": [
+      { "letra": "A", "texto": "escultura", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "B", "texto": "gravura", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "C", "texto": "grafite", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "aquarela", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "E", "texto": "vitral", "correta": false, "etiqueta": "art-confundiu-linguagem" }
+    ],
+    "explicacao": "Pintura em muros e espaços urbanos, geralmente com spray, é o grafite, uma das linguagens da arte urbana. Aquarela usa tinta à base de água sobre papel, e vitral é feito com vidro colorido.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-linguagens-artisticas-008", "materia": "artes", "assunto": "linguagens-artisticas", "questionario": 2, "dificuldade": 0,
+    "contexto": "Mural da comunidade",
+    "enunciado": "Moradores de uma comunidade autorizaram artistas a pintar murais de grafite com temas locais, como a história do bairro e personagens do lugar. Que função essa arte cumpre?",
+    "alternativas": [
+      { "letra": "A", "texto": "Embelezar o espaço e dar voz e identidade à comunidade, ocupando o espaço público com cultura", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Ser vandalismo em qualquer circunstância", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "C", "texto": "Substituir totalmente os museus", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "D", "texto": "Servir somente como publicidade", "correta": false, "etiqueta": "art-funcao-so-decorativa" },
+      { "letra": "E", "texto": "Esconder os problemas do bairro", "correta": false, "etiqueta": "art-ignorou-contexto" }
+    ],
+    "explicacao": "Com autorização e temas locais, o grafite fortalece o sentimento de pertencimento e leva a arte para onde as pessoas vivem. Não precisa substituir os museus nem funciona como mera publicidade.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-linguagens-artisticas-009", "materia": "artes", "assunto": "linguagens-artisticas", "questionario": 2, "dificuldade": 0,
+    "contexto": "Cadeiras no ar",
+    "enunciado": "Numa exposição, um artista pendurou centenas de cadeiras no teto de uma sala, e o público caminha entre elas, sentindo o espaço ao redor. Que característica define esse tipo de obra, a instalação?",
+    "alternativas": [
+      { "letra": "A", "texto": "É uma pintura em tela portátil", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "B", "texto": "É uma escultura em bronze feita para praça", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "C", "texto": "É uma fotografia impressa e emoldurada", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "D", "texto": "É uma obra pensada para um espaço, que o espectador percorre e vivencia", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "É uma gravura reproduzida em série", "correta": false, "etiqueta": "art-confundiu-linguagem" }
+    ],
+    "explicacao": "A instalação organiza objetos no espaço de modo que o público participe da experiência andando, olhando e sentindo. Ela depende do lugar e da relação com o espectador, e não é um objeto fechado como a tela ou a escultura tradicional.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-linguagens-artisticas-010", "materia": "artes", "assunto": "linguagens-artisticas", "questionario": 2, "dificuldade": 1,
+    "contexto": "Uma mesa e uma cadeira vazia",
+    "enunciado": "Uma artista permanece sentada em silêncio, por horas, diante de uma mesa, com uma cadeira vazia à sua frente. Os visitantes podem sentar e ficar em silêncio com ela. Quando acaba, não resta nenhum objeto. Por que essa ação é considerada arte contemporânea?",
+    "alternativas": [
+      { "letra": "A", "texto": "Porque deixa um objeto valioso para colecionadores", "correta": false, "etiqueta": "art-leitura-literal" },
+      { "letra": "B", "texto": "Porque a obra é a ação e a experiência no tempo, com a participação do público, e não um objeto", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Não é arte, porque não resta nenhum objeto", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "D", "texto": "Porque usa tinta e pincel de forma inovadora", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "E", "texto": "Porque tem fins lucrativos garantidos", "correta": false, "etiqueta": "art-fuga-do-tema" }
+    ],
+    "explicacao": "Na performance, a obra acontece no tempo e no corpo, e a experiência com o público faz parte dela. Não depende de objeto final. A pegadinha é achar que arte precisa sempre deixar um produto.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-linguagens-artisticas-011", "materia": "artes", "assunto": "linguagens-artisticas", "questionario": 3, "dificuldade": -1,
+    "contexto": "Cortar e juntar as cenas",
+    "enunciado": "Depois de gravadas, as cenas de um filme são organizadas, cortadas e unidas para formar a história com ritmo. Como se chama essa etapa?",
+    "alternativas": [
+      { "letra": "A", "texto": "Roteiro", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "B", "texto": "Sonoplastia", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "C", "texto": "Figurino", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "D", "texto": "Montagem, ou edição", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Direção de arte", "correta": false, "etiqueta": "art-confundiu-linguagem" }
+    ],
+    "explicacao": "A montagem organiza as imagens gravadas em sequência e define o ritmo da narrativa. O roteiro é feito antes de gravar, e figurino e direção de arte tratam do visual das cenas.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-linguagens-artisticas-012", "materia": "artes", "assunto": "linguagens-artisticas", "questionario": 3, "dificuldade": 0,
+    "contexto": "Quando o ator fala com a plateia",
+    "enunciado": "Num espetáculo, o ator interrompe a cena, fala diretamente com o público e comenta a ação, lembrando que aquilo é uma encenação, para estimular a reflexão crítica. Esse recurso é associado a qual proposta teatral?",
+    "alternativas": [
+      { "letra": "A", "texto": "Ao realismo ilusionista, que quer que o público esqueça que é uma encenação", "correta": false, "etiqueta": "art-confundiu-movimento" },
+      { "letra": "B", "texto": "Ao distanciamento do teatro épico de Bertolt Brecht", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Ao balé clássico de corte", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "D", "texto": "Ao cinema mudo", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "E", "texto": "Ao teatro de sombras oriental", "correta": false, "etiqueta": "art-origem-errada" }
+    ],
+    "explicacao": "Brecht propôs o distanciamento: quebrar a ilusão para que o público pense sobre o que vê, em vez de apenas se emocionar. O realismo ilusionista faz o contrário.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-linguagens-artisticas-013", "materia": "artes", "assunto": "linguagens-artisticas", "questionario": 3, "dificuldade": 0,
+    "contexto": "Andar de mil jeitos",
+    "enunciado": "Numa oficina de dança, os alunos exploram o simples ato de andar variando a força, a velocidade, o caminho no espaço e a continuidade do movimento. Essa investigação trabalha com:",
+    "alternativas": [
+      { "letra": "A", "texto": "apenas coreografias fixas e decoradas", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "B", "texto": "somente o ritmo da música de fundo", "correta": false, "etiqueta": "art-elemento-musical" },
+      { "letra": "C", "texto": "apenas o figurino dos dançarinos", "correta": false, "etiqueta": "art-fuga-do-tema" },
+      { "letra": "D", "texto": "apenas a expressão facial", "correta": false, "etiqueta": "art-fuga-do-tema" },
+      { "letra": "E", "texto": "os fatores de movimento: peso, tempo, espaço e fluência", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Força (peso), velocidade (tempo), direção no espaço e continuidade (fluência) são fatores de movimento descritos por Rudolf Laban, usados para criar expressividade. Qualquer ação, até um simples andar, pode virar dança.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-linguagens-artisticas-014", "materia": "artes", "assunto": "linguagens-artisticas", "questionario": 3, "dificuldade": 1,
+    "contexto": "A foto e o que ficou de fora",
+    "enunciado": "Uma mesma foto de uma manifestação pode ser recortada para mostrar só a multidão tranquila ou só um pequeno tumulto, e receber legendas diferentes. O que isso mostra sobre a fotografia?",
+    "alternativas": [
+      { "letra": "A", "texto": "Que uma foto sempre mostra a verdade absoluta", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "B", "texto": "Que fotos não servem para informar", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "C", "texto": "Que a fotografia envolve escolhas, como recorte e legenda, e por isso não é uma cópia neutra da realidade", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Que só a tecnologia da câmera define o sentido da imagem", "correta": false, "etiqueta": "art-leitura-literal" },
+      { "letra": "E", "texto": "Que edição e recorte nunca são usados no jornalismo", "correta": false, "etiqueta": "art-extremo" }
+    ],
+    "explicacao": "Quem fotografa e quem publica escolhe o que mostrar, o que cortar e que texto colocar junto, e isso influencia o sentido. Por isso é importante ler imagens de modo crítico, sem tratá-las como espelho puro da realidade.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-linguagens-artisticas-015", "materia": "artes", "assunto": "linguagens-artisticas", "questionario": 3, "dificuldade": 1,
+    "contexto": "Muros e leis",
+    "enunciado": "Pela lei brasileira de 2011, grafitar para valorizar o patrimônio público ou privado não é crime se houver consentimento do proprietário e, no caso de bem público, autorização do órgão competente. O que se aprende com esse texto?",
+    "alternativas": [
+      { "letra": "A", "texto": "A lei diferencia a ação consentida e voltada à valorização da que danifica o espaço sem autorização, pois o espaço tem dono ou uso coletivo", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Toda intervenção em muros é arte protegida pela lei", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "C", "texto": "Toda pintura em muro é crime, sem exceção", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "D", "texto": "Só artistas famosos podem grafitar", "correta": false, "etiqueta": "art-hierarquia-cultural" },
+      { "letra": "E", "texto": "A lei proíbe qualquer forma de arte de rua", "correta": false, "etiqueta": "art-extremo" }
+    ],
+    "explicacao": "O texto condiciona a legalidade ao consentimento do dono e à finalidade de valorizar o espaço. Sem isso, a intervenção pode ser tratada como dano. Não há exigência de fama do artista.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-linguagens-artisticas-016", "materia": "artes", "assunto": "linguagens-artisticas", "questionario": 4, "dificuldade": -1,
+    "contexto": "Quadrinhos",
+    "enunciado": "Em uma história em quadrinhos, a fala dos personagens costuma aparecer dentro de:",
+    "alternativas": [
+      { "letra": "A", "texto": "balões", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "bulas", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "C", "texto": "créditos finais", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "D", "texto": "partituras", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "E", "texto": "legendas de museu", "correta": false, "etiqueta": "art-confundiu-linguagem" }
+    ],
+    "explicacao": "Os balões são o recurso próprio dos quadrinhos para as falas e pensamentos. O formato do balão pode indicar o tom da fala, como grito ou cochicho.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-linguagens-artisticas-017", "materia": "artes", "assunto": "linguagens-artisticas", "questionario": 4, "dificuldade": 0,
+    "contexto": "O rosto em destaque",
+    "enunciado": "Numa cena de filme, a câmera mostra o rosto da personagem muito de perto, enchendo a tela, para destacar a emoção dela. Como é chamado esse enquadramento?",
+    "alternativas": [
+      { "letra": "A", "texto": "Plano geral", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "B", "texto": "Plano panorâmico", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "C", "texto": "Plano-sequência", "correta": false, "etiqueta": "art-confundiu-linguagem" },
+      { "letra": "D", "texto": "Primeiro plano, ou close", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Plano aberto", "correta": false, "etiqueta": "art-confundiu-linguagem" }
+    ],
+    "explicacao": "Quando a câmera se aproxima muito do rosto, temos o close, usado para destacar emoções. Plano geral e plano aberto mostram o ambiente inteiro, e o plano-sequência é uma cena longa sem cortes.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-linguagens-artisticas-018", "materia": "artes", "assunto": "linguagens-artisticas", "questionario": 4, "dificuldade": 0,
+    "contexto": "Imagem em movimento nos museus",
+    "enunciado": "A videoarte usa a imagem em movimento como meio artístico e surgiu a partir dos anos 1960, com a popularização de câmeras e monitores. Em que ela costuma se diferenciar do cinema comercial?",
+    "alternativas": [
+      { "letra": "A", "texto": "É sempre mais longa", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "B", "texto": "Usa apenas atores famosos", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "C", "texto": "Costuma explorar a experimentação de linguagem, sem seguir necessariamente uma narrativa convencional", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Não usa imagens", "correta": false, "etiqueta": "art-leitura-literal" },
+      { "letra": "E", "texto": "Mostra apenas paisagens naturais", "correta": false, "etiqueta": "art-generalizou" }
+    ],
+    "explicacao": "A videoarte costuma experimentar com imagem, tempo e som, sem seguir o modelo de história com começo, meio e fim do cinema comercial. As alternativas absolutas, como “sempre” e “apenas”, não se sustentam.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-linguagens-artisticas-019", "materia": "artes", "assunto": "linguagens-artisticas", "questionario": 4, "dificuldade": 1,
+    "contexto": "Danças com o chão e o tambor",
+    "enunciado": "Danças de matriz africana, como o jongo, são dançadas em roda, com tambores, canto e forte relação com o chão e a comunidade. Já o balé clássico valoriza a leveza e a verticalidade. Que leitura é adequada para comparar as duas?",
+    "alternativas": [
+      { "letra": "A", "texto": "O balé é superior, porque é mais antigo", "correta": false, "etiqueta": "art-hierarquia-cultural" },
+      { "letra": "B", "texto": "Cada dança expressa valores, história e jeito de organizar a vida de seu povo, e não deve ser avaliada pelo padrão da outra", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Dança popular não tem técnica nem aprendizagem", "correta": false, "etiqueta": "art-hierarquia-cultural" },
+      { "letra": "D", "texto": "Só o balé pode ser considerado dança de verdade", "correta": false, "etiqueta": "art-hierarquia-cultural" },
+      { "letra": "E", "texto": "Ritmos africanos não têm coreografia nem estrutura", "correta": false, "etiqueta": "art-generalizou" }
+    ],
+    "explicacao": "Toda dança tem técnica, tradição e significado dentro do seu contexto. Comparar usando um único padrão como régua é uma forma de hierarquizar culturas. Diferenças de estilo não equivalem a diferenças de valor.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "art-linguagens-artisticas-020", "materia": "artes", "assunto": "linguagens-artisticas", "questionario": 4, "dificuldade": 1,
+    "contexto": "Criar com o que já existe",
+    "enunciado": "Na internet, muitos artistas criam obras ao recombinar imagens, sons e vídeos de outras fontes, no que se chama de remix ou colagem digital. Que discussão essa prática costuma gerar?",
+    "alternativas": [
+      { "letra": "A", "texto": "Nenhuma, pois não envolve qualquer questão de autoria", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "B", "texto": "Apenas a escolha da técnica mais moderna", "correta": false, "etiqueta": "art-fuga-do-tema" },
+      { "letra": "C", "texto": "Que obras digitais jamais podem ser consideradas arte", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "D", "texto": "Que só o original, sem nenhuma referência, tem valor", "correta": false, "etiqueta": "art-extremo" },
+      { "letra": "E", "texto": "Autoria, originalidade e direitos autorais, pois criar passa por reaproveitar materiais existentes", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Remix e colagem digital levantam dúvidas sobre quem é o autor, o que é original e como respeitar os direitos de quem criou o material usado. A arte sempre dialogou com o que já existia, o que torna o debate ainda mais rico.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]

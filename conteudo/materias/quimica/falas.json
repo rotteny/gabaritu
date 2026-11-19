@@ -1,0 +1,327 @@
+[
+  {
+    "etiqueta": "qui-erro-massa-molar",
+    "fofo": [
+      "Quase! A massa molar escorregou. Confere cada átomo da fórmula e bora de novo!",
+      "Faltou contar um átomo na hora de somar. Acontece, a tabela periódica é grande!",
+      "A ideia estava certa, só a soma das massas atômicas tropeçou. Respira e refaz!",
+      "Cada índice da fórmula multiplica o átomo. Dá uma olhadinha nos pequeninhos embaixo!",
+      "Eu também já esqueci o segundo oxigênio, e olha que vivo na água. Anota e segue!"
+    ],
+    "sarc": [
+      "Massa molar da sua alternativa: de outro composto. Parabéns pela originalidade.",
+      "Esqueceu um átomo na fórmula? Ele deve ter ficado chateado de ser ignorado.",
+      "Somar massas atômicas é fácil, mas você fez o favor de complicar.",
+      "O número pequenininho embaixo do símbolo não é enfeite, viu?",
+      "Que bonito: você inventou uma substância nova. Pena que não vai pro ENEM."
+    ],
+    "sem": [
+      "A MASSA MOLAR NÃO FECHOU!!! UM ÁTOMO FUGIU DA CONTA E EU NÃO ESTOU PRONTO!",
+      "VOCÊ IGNOROU O ÍNDICE DA FÓRMULA!!! O 2 EMBAIXO NÃO É DECORAÇÃO!",
+      "SOMOU OS ÁTOMOS COMO QUEM SOMA A CONTA DO RODÍZIO: DE QUALQUER JEITO!",
+      "ESSA MASSA MOLAR É DE OUTRA MOLÉCULA!!! A MINHA FICOU SEM IDENTIDADE!",
+      "FALTOU UM OXIGÊNIO NA CONTA E O ARGUMENTO FICOU SEM AR!"
+    ],
+    "reserva": "Antes de somar, liste cada elemento da fórmula e quantos átomos dele existem."
+  },
+  {
+    "etiqueta": "qui-esqueceu-balancear",
+    "fofo": [
+      "Os coeficientes da equação mandam na proporção. Dá uma olhada neles de novo!",
+      "Quase! Faltou usar o número na frente da fórmula, que é quem diz quantos mols reagem.",
+      "A conta estava bonita, só que a equação não estava balanceada na sua cabeça. Bora equilibrar!",
+      "Balancear é o primeiro passo da estequiometria. Faz com carinho e a resposta aparece!",
+      "Eu já ignorei coeficiente e fiquei sem mols no final. Todo mundo passa por isso!"
+    ],
+    "sarc": [
+      "Equação sem balancear: o jeito mais criativo de errar uma conta de Química.",
+      "Os coeficientes estão lá, em negrito, e você preferiu ignorar. Respeito.",
+      "Proporção de 1 para 1 em tudo? Que mundo simples você inventou.",
+      "A natureza não ligou pro seu 'mais ou menos', ela quer coeficiente exato.",
+      "Que ótima resposta, se a equação fosse outra."
+    ],
+    "sem": [
+      "EQUAÇÃO SEM BALANCEAR NÃO É EQUAÇÃO, É SUGESTÃO!!! OS COEFICIENTES EXISTEM!",
+      "O NÚMERO NA FRENTE DA FÓRMULA NÃO É DE ENFEITE!!! ELE MANDA NA PROPORÇÃO!",
+      "VOCÊ USOU 1 PARA 1 NA PROPORÇÃO E A QUÍMICA SOLTOU UM GRITO!",
+      "ESQUECEU O COEFICIENTE 2 E A CONTA VIROU UM CASTELO DE AREIA!",
+      "BALANCEIA ESSA EQUAÇÃO ANTES QUE EU INFLE DE DESESPERO!"
+    ],
+    "reserva": "Balanceie a equação antes de qualquer conta: os coeficientes dão a proporção em mols."
+  },
+  {
+    "etiqueta": "qui-confundiu-unidade",
+    "fofo": [
+      "Foi só uma conversão de unidade! mL, L, g, kg... todo mundo se embola nelas.",
+      "O número estava certo, mas a unidade não era a que a questão pedia. Dá uma conferida!",
+      "Mil vezes mais ou menos, por causa de uma conversão. Respira, converte e vai!",
+      "Cuidado com g e mol: parecem primos, mas são unidades diferentes. Você consegue!",
+      "Eu já confundi litro com mililitro e quase inflei de susto. Tudo certo, a gente aprende!"
+    ],
+    "sarc": [
+      "Que conversão ousada: litros em mililitros sem avisar.",
+      "O resultado só está errado por um fator de mil. Detalhezinho.",
+      "A unidade não era essa, mas o número estava lindo, né?",
+      "Misturou massa com volume: a Química achou criativo e discordou.",
+      "Quilo ou grama, tanto faz, né? Só que não."
+    ],
+    "sem": [
+      "L É L, mL É mL!!! MIL VEZES DE DIFERENÇA NÃO É DETALHE!",
+      "VOCÊ MISTUROU GRAMAS COM MOLS E A QUÍMICA CHOROU NO CANTINHO!",
+      "FALTOU CONVERTER A UNIDADE E O RESULTADO VIROU UM NÚMERO DE OUTRO UNIVERSO!",
+      "KG, G, MG... SÃO TRÊS UNIDADES, NÃO TRÊS SINÔNIMOS!",
+      "A UNIDADE ERA OUTRA!!! COMO UM BALDE E UMA PISCINA, NÃO DÁ PRA TROCAR!"
+    ],
+    "reserva": "Escreva a unidade junto de cada número e converta tudo antes de montar a conta."
+  },
+  {
+    "etiqueta": "qui-inverteu-razao",
+    "fofo": [
+      "A regra de três saiu de ponta-cabeça! Dá uma olhadinha em quem divide quem.",
+      "Quase! Você dividiu ao contrário, e o resultado ficou do avesso. Troca e refaz!",
+      "Multiplicar ou dividir? É a pergunta de sempre. Olhe a unidade final e decida!",
+      "Foi só inverter a razão. Percebendo isso, você já acertou metade!",
+      "Já multipliquei quando era pra dividir e fiquei do tamanho de um balão. Tá tudo bem!"
+    ],
+    "sarc": [
+      "Dividiu ao contrário. Que visão alternativa da matemática.",
+      "Pelo jeito a regra de três virou regra de trás pra frente.",
+      "O resultado parece um número que cabe em outro universo, mas não neste.",
+      "Você inverteu a razão tão bem que o resultado ficou perfeitamente errado.",
+      "Multiplicou onde era pra dividir. Alguém tá com saudade de tabuada?"
+    ],
+    "sem": [
+      "DIVIDIU AO CONTRÁRIO!!! O RESULTADO FICOU DE CABEÇA PRA BAIXO COMO MORCEGO!",
+      "A RAZÃO FOI PRO LADO ERRADO!!! O DENOMINADOR PEDE EXPLICAÇÃO!",
+      "MULTIPLICAR E DIVIDIR NÃO SÃO INTERCAMBIÁVEIS!!! É ISSO QUE A VIDA ENSINA!",
+      "ESSE NÚMERO É TÃO PEQUENO (OU GRANDE) QUE NÃO EXISTE NA NATUREZA!",
+      "INVERTEU A PROPORÇÃO COMO SE ESTIVESSE LENDO UMA RECEITA AO CONTRÁRIO!"
+    ],
+    "reserva": "Confira se o resultado faz sentido: mais reagente deve dar mais produto, e não menos."
+  },
+  {
+    "etiqueta": "qui-ignorou-limitante-rendimento",
+    "fofo": [
+      "Faltou lembrar de quem acaba primeiro na reação, o reagente limitante. Já já você acerta!",
+      "O rendimento não é 100% nem na vida, nem na Química! Dá um olhadinha nele.",
+      "Quase! A pureza da amostra mudava a conta. Releia o enunciado com carinho!",
+      "Reação para quando acaba o reagente limitante. Anota isso e vai!",
+      "Eu também acho que tudo vira produto, mas na prática sempre sobra um pouquinho. Revê!"
+    ],
+    "sarc": [
+      "Ah, claro, rendimento de 100%. Só no mundo dos sonhos da Química.",
+      "Que otimista! Achou que todo reagente vira produto sem sobrar nada.",
+      "Ignorou a pureza da amostra, né? Impureza também é pegadinha.",
+      "O limitante ficou chateado de não ser percebido.",
+      "Conta perfeita para uma reação perfeita. Pena que o laboratório é real."
+    ],
+    "sem": [
+      "O REAGENTE LIMITANTE EXISTE!!! A REAÇÃO NÃO CONTINUA SEM ELE!",
+      "RENDIMENTO NÃO É 100%!!! NEM MEU AQUÁRIO TEM ESSA PERFEIÇÃO!",
+      "A AMOSTRA ERA 80% PURA E VOCÊ TRATOU COMO 100%!!! TENHO PALPITAÇÃO!",
+      "VOCÊ DEIXOU O LIMITANTE NO ESCANTEIO!!! ELE É O PROTAGONISTA DA REAÇÃO!",
+      "ESSA CONTA SÓ FUNCIONA SE O UNIVERSO FOR PERFEITO. E NÃO É!"
+    ],
+    "reserva": "Cheque três coisas: quem é o limitante, qual o rendimento e qual a pureza da amostra."
+  },
+  {
+    "etiqueta": "qui-erro-diluicao",
+    "fofo": [
+      "Na diluição, o soluto fica igual e o volume muda. Revisa essa ideia e tenta de novo!",
+      "Cuidado com o volume final: ele é a soma do que já havia com o que foi adicionado.",
+      "Quase! O soluto não mudou, só ficou mais espalhado. Bora olhar com calma?",
+      "C₁·V₁ = C₂·V₂ é seu amigo. Escreve ele primeiro, depois o resto flui!",
+      "Já confundi água adicionada com volume final. Quando eu inflo, ninguém me avisa o volume!"
+    ],
+    "sarc": [
+      "A água entrou, mas o soluto ficou intacto. A sua resposta ignorou isso.",
+      "Somar as concentrações das duas soluções? Que ousadia.",
+      "O volume que você usou é de outro frasco, né?",
+      "Diluir é fácil, só não é tão fácil quanto errar na hora da conta.",
+      "Água adicionada ou volume final? Para você parece ser tudo a mesma coisa."
+    ],
+    "sem": [
+      "O SOLUTO NÃO MUDOU!!! SÓ O VOLUME AUMENTOU!!! É ISSO!",
+      "VOCÊ SOMOU CONCENTRAÇÕES COMO SE FOSSEM PONTOS EM JOGO!",
+      "VOLUME FINAL NÃO É O QUE VOCÊ ADICIONOU, É O QUE TEM NO FRASCO NO FIM!",
+      "DILUIR NÃO É SUMIR COM O SOLUTO!!! ELE SÓ FICA MAIS LONGE DOS VIZINHOS!",
+      "ESSA DILUIÇÃO FOI UMA AVENTURA, E A AVENTURA ACABOU EM ERRO!"
+    ],
+    "reserva": "Na diluição, a quantidade de soluto se mantém. Escreva C₁·V₁ = C₂·V₂ e identifique cada volume."
+  },
+  {
+    "etiqueta": "qui-erro-ph",
+    "fofo": [
+      "A escala de pH é logarítmica: cada unidade muda 10 vezes. Dá uma olhada nisso com carinho!",
+      "Quase! pH menor que 7 é ácido e maior que 7 é básico. Anota no cantinho do caderno!",
+      "Foi um tropeço no sinal do logaritmo, bem comum. Respira e tenta outra vez!",
+      "pH e pOH são parentes, mas não são a mesma coisa. Vale revisar os dois!",
+      "Eu mesmo já li pH ao contrário. No aquário o meu é meio básico, e eu entendo agora!"
+    ],
+    "sarc": [
+      "Tratou a escala de pH como régua. A escala agradece a criatividade e discorda.",
+      "pH alto é ácido? Que mundo ao contrário você inventou.",
+      "pH 3 e pH 5 diferem em 2, só que 2 vezes 100. Detalhe.",
+      "Misturou pH com pOH. O logaritmo está olhando pra você.",
+      "A água pura tem pH 7. Se você achou que era 0, já passou do ponto."
+    ],
+    "sem": [
+      "pH NÃO É LINEAR!!! CADA UNIDADE É DEZ VEZES MAIS!!! É O SEGREDO DA ESCALA!",
+      "ÁCIDO TEM pH MENOR QUE 7!!! ISSO NÃO É NEGOCIÁVEL!",
+      "VOCÊ INVERTEU ÁCIDO E BASE COMO QUEM INVERTE O PNEU E A RODA!",
+      "pH E pOH NÃO SÃO A MESMA COISA!!! A SOMA É 14, E ISSO FICA NA CABEÇA!",
+      "O LOGARITMO FICOU CHOCADO!!! ATÉ O pH PAROU DE RESPONDER!"
+    ],
+    "reserva": "Lembre: pH = −log[H⁺], pH + pOH = 14 a 25 °C, e cada unidade de pH vale um fator 10."
+  },
+  {
+    "etiqueta": "qui-confundiu-funcao-organica",
+    "fofo": [
+      "Cada função orgânica tem seu grupo funcional. Faz uma tabelinha, que fica fácil!",
+      "Quase! Esses dois grupos são parecidos, mas o oxigênio está em lugares diferentes.",
+      "Álcool, éter, éster e ácido têm um monte de O, mas cada um com sua marca. Vamos separar?",
+      "Foi na nomenclatura! Conte os carbonos e olhe o final do nome. Você pega!",
+      "Eu também já confundi éter com éster. Até as moléculas se confundem entre si!"
+    ],
+    "sarc": [
+      "Álcool, éter, éster... tudo tem oxigênio, então é tudo igual, né?",
+      "Trocou a função orgânica por uma de nome parecido. Ótimo esforço, pelo menos.",
+      "Isomeria de função é difícil? Que surpresa... só que não.",
+      "Contou os carbonos do jeito que quis. A Química prefere a contagem certa.",
+      "Esse grupo funcional é tão claro que até eu enxergo, e olha que sou um peixe."
+    ],
+    "sem": [
+      "ÉTER NÃO É ÉSTER!!! SÃO DUAS FUNÇÕES, DOIS MUNDOS!!!",
+      "O GRUPO FUNCIONAL ESTAVA DESENHADO E VOCÊ PASSOU DIRETO!!!",
+      "VOCÊ CONFUNDIU ÁLCOOL COM ÁCIDO!!! UM TEM -OH, O OUTRO TEM -COOH!!!",
+      "CONTOU OS CARBONOS DO JEITO QUE QUIS!!! A NOMENCLATURA TEM REGRA!",
+      "FUNÇÃO ORGÂNICA NÃO É CARA OU COROA!!! O GRUPO FUNCIONAL DEFINE!"
+    ],
+    "reserva": "Identifique o grupo funcional na estrutura antes de escolher o nome da função."
+  },
+  {
+    "etiqueta": "qui-erro-sinal-energia",
+    "fofo": [
+      "O sinal do ΔH deu uma rasteira! Exotérmica libera calor e ΔH é negativo. Guarda essa!",
+      "Quase! Endotérmica absorve calor, então ΔH é positivo. Faz uma setinha mental!",
+      "Entre quebrar e formar ligações, quem libera energia é a formação. Revisa isso!",
+      "Troquei exotérmico com endotérmico já umas mil vezes. É normal, vai!",
+      "Pensa em 'exo' de 'exit', a energia sai. Fica fácil de lembrar, tenta de novo!"
+    ],
+    "sarc": [
+      "Calor liberado com ΔH positivo? A termodinâmica pediu para sair da sala.",
+      "Quebrar ligação libera energia, né? Aham, e eu sou um tubarão.",
+      "Exotérmica, endotérmica... tanto faz, o calor vai para algum lugar.",
+      "O sinal do ΔH ficou confuso, mas pelo menos você ficou firme na sua escolha.",
+      "Achou que a reação absorveu calor quando ela liberou? Só faltou o termômetro."
+    ],
+    "sem": [
+      "ΔH NEGATIVO É EXOTÉRMICO!!! O CALOR SAI!!! NÃO DÁ PRA DIZER O CONTRÁRIO!",
+      "VOCÊ TROCOU O SINAL DO ΔH E A TEMPERATURA CAIU NO CHÃO DE VERGONHA!",
+      "QUEBRAR LIGAÇÃO ABSORVE ENERGIA!!! FORMAR LIBERA!!! É O ABC!",
+      "ESSA REAÇÃO LIBERA CALOR E VOCÊ DISSE QUE ABSORVE!!! O SOL ESTÁ RINDO!",
+      "EXO É PRA FORA, ENDO É PRA DENTRO!!! DECORA ISSO COMO FAZ COM O NOME DO CRUSH!"
+    ],
+    "reserva": "Exotérmica: libera calor, ΔH < 0. Endotérmica: absorve calor, ΔH > 0."
+  },
+  {
+    "etiqueta": "qui-erro-oxirreducao",
+    "fofo": [
+      "Oxidar é perder elétrons e reduzir é ganhar. Guarda com um 'perdeu = oxidou'!",
+      "Quase! No ânodo sempre ocorre oxidação, e no cátodo, redução. Boa regra!",
+      "Foi um embolado entre agente oxidante e redutor, bem comum. Vamos organizar?",
+      "O potencial maior reduz e o menor oxida. Faz uma tabelinha, que ajuda!",
+      "Eu já confundi ânodo com cátodo mais de uma vez, e olha que nadava em círculos."
+    ],
+    "sarc": [
+      "Ganhar elétrons é oxidar? A pilha agradece o novo conceito.",
+      "Trocou ânodo e cátodo. A pilha funciona ao contrário na sua cabeça.",
+      "Somar potenciais em vez de subtrair: o jeito mais criativo de errar a ddp.",
+      "O agente oxidante é o que perde elétrons, né? Sim, em outro universo.",
+      "Fez a pilha rodar para trás, mas o resultado continua errado."
+    ],
+    "sem": [
+      "OXIDAÇÃO É PERDA DE ELÉTRONS!!! NÃO É GANHO!!! É OBVIEDADE QUÍMICA!",
+      "ÂNODO É ONDE OXIDA!!! CÁTODO É ONDE REDUZ!!! SEMPRE!!! SEMPRE!!! SEMPRE!!!",
+      "VOCÊ SOMOU OS POTENCIAIS E ISSO ESTÁ ERRADO COMO TOCAR PIANO COM LUVA!",
+      "ESSA PILHA FUNCIONOU AO CONTRÁRIO, E ISSO É CRIME CONTRA A ELETROQUÍMICA!",
+      "TROCOU O AGENTE OXIDANTE PELO REDUTOR!!! ELES NÃO SÃO O MESMO PERSONAGEM!"
+    ],
+    "reserva": "Perdeu elétrons: oxidou (ânodo). Ganhou elétrons: reduziu (cátodo)."
+  },
+  {
+    "etiqueta": "qui-erro-conta",
+    "fofo": [
+      "O caminho estava certo, a conta é que escorregou. Refaz com calma que você acerta!",
+      "Foi uma continha, só isso. Confere cada passo e pronto!",
+      "Parou no meio do caminho com um resultado intermediário. Tá quase lá!",
+      "Mesmo as melhores continhas têm seus dias. Revisa e tenta de novo!",
+      "Eu também erro conta, olha que nem tenho dedos. Respira e vai!"
+    ],
+    "sarc": [
+      "Uma conta de Química errada por um detalhezinho. Que sorte, hein?",
+      "O número final estava ali pertinho, e você pegou o vizinho.",
+      "A calculadora ficou triste, mas o lápis também.",
+      "Que bela conta, só não é a conta do enunciado.",
+      "Resultado intermediário confundido com resposta final: clássico."
+    ],
+    "sem": [
+      "A CONTA NÃO FECHOU!!! O NÚMERO FICOU LONGE COMO O ÚLTIMO LUGAR NA FILA!",
+      "ERROU UMA CASA DECIMAL E TUDO VIROU CAOS!!!",
+      "VOCÊ PAROU NO MEIO DA CONTA E COMEMOROU COMO SE TIVESSE CHEGADO!!!",
+      "ESSE RESULTADO ESTÁ ERRADO POR UM FATOR DE DEZ!!! A QUÍMICA VAI CHORAR!",
+      "A CALCULADORA TÁ PEDINDO DEMISSÃO DEPOIS DESSA!"
+    ],
+    "reserva": "Refaça a conta passo a passo e confira o resultado final contra a unidade pedida."
+  },
+  {
+    "etiqueta": "qui-senso-comum",
+    "fofo": [
+      "A resposta fazia sentido no dia a dia, mas a Química pede outro conceito. Vamos entender?",
+      "Quase! A intuição quase acertou, faltou o termo científico.",
+      "Muita gente pensa assim! Na prova vale o conceito, e não o 'achismo'.",
+      "O senso comum nos engana bastante em Química. Tá tudo bem!",
+      "Eu mesmo já 'achei' muita coisa. Aí o professor mostrou e eu quase estourei de vergonha!"
+    ],
+    "sarc": [
+      "Ah, o famoso 'todo mundo sabe que é assim'. Spoiler: nem sempre é.",
+      "Seu achismo foi muito bem articulado. A Química, porém, pede evidência.",
+      "Se bastasse o 'parece que é', Química seria uma matéria de uma página.",
+      "A lógica do cotidiano não é a lógica do laboratório. Que surpresa.",
+      "Você confiou na intuição e ela confiou no erro. Parceria linda."
+    ],
+    "sem": [
+      "'ACHEI' NÃO É CONCEITO QUÍMICO!!! A CIÊNCIA PEDE EVIDÊNCIA, NÃO VIBE!",
+      "ISSO É CRENÇA DE GRUPO DE FAMÍLIA, NÃO É QUÍMICA!",
+      "SENSO COMUM É ÓTIMO PRA ESCOLHER SORVETE, MAS NA PROVA É ARMADILHA!",
+      "VOCÊ RESPONDEU COM A INTUIÇÃO E ELA FALHOU COMO WI-FI NA HORA DO JOGO!",
+      "'TODO MUNDO SABE' NÃO É ARGUMENTO!!! NEM NO ENEM NEM NO AQUÁRIO!"
+    ],
+    "reserva": "Quando a resposta parece óbvia demais, confira se ela vem de um conceito químico ou só de impressão."
+  },
+  {
+    "etiqueta": "qui-ignorou-dado",
+    "fofo": [
+      "A pista estava ali no enunciado, escondidinha! Volta lá e dá mais uma olhada.",
+      "Tem um dado no texto que muda tudo. Releia com calma que você acha!",
+      "Quase! Faltou usar aquele valor que o enunciado entregou de bandeja.",
+      "O enunciado deixou uma dica e ela passou batida. Acontece com a pressa!",
+      "Eu também leio rápido e perco o detalhe. Aí o detalhe se vinga!"
+    ],
+    "sarc": [
+      "O enunciado deu um dado só para ser ignorado, né? Respeito.",
+      "Leu a pergunta e respondeu outra. Muito produtivo.",
+      "O dado estava lá, brilhando. Mas a vista não gosta de cansar.",
+      "Quem precisa de todas as informações do texto quando se tem intuição?",
+      "O enunciado se deu ao trabalho de ajudar, e você pulou. Delicado."
+    ],
+    "sem": [
+      "O DADO ESTAVA ESCRITO NO ENUNCIADO!!! NA SUA CARA!!! COM NÚMERO E TUDO!",
+      "LEU O ENUNCIADO OU SÓ SENTIU A VIBE?! A INFORMAÇÃO ERA O CORAÇÃO DA QUESTÃO!",
+      "O ENUNCIADO GRITOU E VOCÊ PASSOU DIRETO COMO NA FILA DA CANTINA!",
+      "IGNOROU A PISTA PRINCIPAL!!! É COMO ESQUECER O MAPA E RECLAMAR QUE SE PERDEU!",
+      "ESSE DADO TINHA UM NEON ACESO. UM NEON. E VOCÊ NEM PISCOU!"
+    ],
+    "reserva": "Antes de calcular, sublinhe todos os dados do enunciado e confira se usou cada um."
+  }
+]

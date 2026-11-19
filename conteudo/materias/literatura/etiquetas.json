@@ -1,0 +1,16 @@
+[
+  { "id": "lit-confundiu-escola", "nome": "Confundiu a escola literária", "descricao": "Atribuiu o texto ou a característica a outra escola, de época vizinha ou oposta." },
+  { "id": "lit-trocou-caracteristica", "nome": "Trocou a característica", "descricao": "Atribuiu à escola uma característica que pertence a outra." },
+  { "id": "lit-confundiu-autor-obra", "nome": "Trocou autor e obra", "descricao": "Ligou a obra ou o estilo a um autor que não a escreveu." },
+  { "id": "lit-confundiu-geracao", "nome": "Confundiu a geração", "descricao": "Errou a fase ou geração dentro da mesma escola (por exemplo, indianista x ultrarromântica)." },
+  { "id": "lit-ignorou-contexto", "nome": "Ignorou o contexto histórico", "descricao": "Leu o texto sem considerar a época, a sociedade e os acontecimentos que o explicam." },
+  { "id": "lit-idealizacao-x-critica", "nome": "Idealização no lugar de crítica", "descricao": "Trocou a idealização romântica pela crítica social realista, ou o contrário." },
+  { "id": "lit-leitura-literal", "nome": "Leitura ao pé da letra", "descricao": "Leu em sentido literal um trecho que tem sentido figurado ou irônico." },
+  { "id": "lit-confundiu-narrador", "nome": "Confundiu o foco narrativo", "descricao": "Errou o tipo de narrador ou a perspectiva (1ª ou 3ª pessoa, onisciente, narrador-personagem)." },
+  { "id": "lit-confundiu-recurso", "nome": "Confundiu o recurso literário", "descricao": "Trocou uma figura ou um procedimento da linguagem por outro parecido." },
+  { "id": "lit-ignorou-tema", "nome": "Errou o tema central", "descricao": "Apontou um tema secundário ou ausente como central no texto." },
+  { "id": "lit-confundiu-forma", "nome": "Confundiu a forma", "descricao": "Errou aspectos formais, como verso livre x metrificado, soneto, prosa ou poesia." },
+  { "id": "lit-generalizou", "nome": "Generalizou o estilo", "descricao": "Aplicou a toda uma escola ou autor uma característica que vale só para uma parte." },
+  { "id": "lit-nao-viu-intertextualidade", "nome": "Não viu o diálogo entre textos", "descricao": "Ignorou a paródia, a paráfrase ou a referência a outra obra." },
+  { "id": "lit-confundiu-contexto-social", "nome": "Confundiu o público ou o ambiente", "descricao": "Errou o cenário social retratado (campo, cidade, corte, cortiço) ou o grupo humano em foco." }
+]

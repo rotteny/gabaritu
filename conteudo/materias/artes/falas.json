@@ -1,0 +1,352 @@
+[
+  {
+    "etiqueta": "art-confundiu-movimento",
+    "fofo": [
+      "Misturou os movimentos, mas é só trocar a etiqueta da gaveta. Bora arrumar essa estante juntos?",
+      "Quase! Esse estilo é primo do certo, só não mora na mesma casa.",
+      "Eu já confundi Cubismo com quebra-cabeça. Vamos rever as pistas do enunciado?",
+      "Movimento errado, mas a vontade de acertar tá linda. Olha as pistas de novo!",
+      "É tipo trocar o sabor do pirulito: ainda é doce, mas não é o que você pediu. Tenta o outro!"
+    ],
+    "sarc": [
+      "Ah, claro, Impressionismo, Cubismo, tudo igual. Só mudam as pinturas e os séculos.",
+      "Que ousadia misturar os movimentos. Os livros de arte devem estar emocionados.",
+      "Parabéns, inventou o Impressio-Cubo-Barroquismo. Não vale ponto, mas é criativo.",
+      "Tudo bem, ninguém liga pra pinceladas, planos geométricos ou sonhos. Só o enunciado, que deu todas as pistas.",
+      "Movimento errado com convicção total. É um estilo também, só não é o da prova."
+    ],
+    "sem": [
+      "TROCOU O MOVIMENTO! OS ARTISTAS ESTÃO SE REVIRANDO NO ATELIÊ!",
+      "ISSO NÃO É CUBISMO! NEM BARROCO! NEM NADA! RELEIA AS PISTAS AGORA!",
+      "Você misturou os estilos como quem joga tudo no liquidificador. Saiu uma vitamina de século XX!",
+      "MOVIMENTO TROCADO É PONTO PERDIDO! O Peixoto perdeu o fôlego de tanto rir.",
+      "TUDO NA MESMA GAVETA! SEPARA OS MOVIMENTOS ANTES QUE O MUSEU PEÇA SOCORRO!"
+    ],
+    "reserva": "Movimento trocado acontece nas melhores galerias. Confere as pistas e tenta de novo."
+  },
+  {
+    "etiqueta": "art-errou-epoca",
+    "fofo": [
+      "Essa obra é de outra época! Volta a linha do tempo e acha o século certo comigo.",
+      "Quase! Você pegou a máquina do tempo e desceu uns séculos antes ou depois.",
+      "Eu também me perco no calendário. Bora conferir quando esse estilo nasceu?",
+      "Época errada, mas a ideia tava boa. Procura a data na pista do enunciado!",
+      "É tipo escalar o Brasil pra Copa de 1500: boa vontade, calendário errado."
+    ],
+    "sarc": [
+      "Claro, um celular na Idade Média, super comum. Ah, espera, não.",
+      "Viajar no tempo é legal, mas o enunciado não pediu essa excursão.",
+      "Que precisão: errou só uns trezentos anos. Pequeno detalhe na história da arte.",
+      "O calendário pediu pra você prestar atenção nele. Só avisando.",
+      "Maravilha, pintou o Barroco em pleno século XX. O Barroco agradece o convite."
+    ],
+    "sem": [
+      "ÉPOCA ERRADA! VOCÊ TELETRANSPORTOU O BARROCO PRO FUTURO!",
+      "OS SÉCULOS ESTÃO NA FILA E VOCÊ FUROU TODOS ELES!",
+      "Precisei de uma máquina do tempo pra consertar essa linha do tempo!",
+      "O professor de História pediu um minuto de silêncio pelo seu calendário!",
+      "VOCÊ MISTUROU OS SÉCULOS COMO SALADA! ORGANIZA ESSA LINHA DO TEMPO!"
+    ],
+    "reserva": "Linha do tempo é amiga da arte: situou no século certo, o resto vem fácil."
+  },
+  {
+    "etiqueta": "art-trocou-artista",
+    "fofo": [
+      "Artista trocado! Acontece: os nomes se parecem, mas as obras são bem diferentes.",
+      "Quase! O autor certo tá na estante do lado. Vai lá pegar?",
+      "Eu já confundi pintor com escultor. A gente se ajuda e aprende!",
+      "Trocou o artista, mas o estilo tava certo. Só falta casar nome e obra.",
+      "É igual trocar o nome do amigo no grupo: a amizade tá lá, só o apelido mudou. Tenta de novo!"
+    ],
+    "sarc": [
+      "Ah sim, óbvio que foi aquele artista. Quem liga pra detalhe tipo quem fez a obra?",
+      "Artista errado com a maior confiança. Pelo menos tem estilo.",
+      "A obra olhou pra resposta e disse: 'eu não fiz isso'.",
+      "Trocar o autor é fácil. Difícil é o autor aceitar a fama que não é dele.",
+      "Parabéns pelo plágio de crédito: deu a obra de um pro outro."
+    ],
+    "sem": [
+      "AUTOR ERRADO! A OBRA ESTÁ INDIGNADA!",
+      "VOCÊ DEU O CRÉDITO PRO ARTISTA ERRADO! ELE NEM SABIA!",
+      "Eu quase caí do aquário com esse autor trocado!",
+      "É COMO AUTOGRAFAR A FOTO DO OUTRO! DEVOLVE A OBRA!",
+      "ERROU O ARTISTA! O CURADOR FOI TOMAR UM CAFÉ PRA SE RECUPERAR!"
+    ],
+    "reserva": "Autor trocado: liga a obra ao nome certo e a próxima vem de primeira."
+  },
+  {
+    "etiqueta": "art-generalizou",
+    "fofo": [
+      "Um traço não faz o movimento inteiro! Vamos olhar o conjunto antes de decidir.",
+      "Boa ideia, mas generalizou um tiquinho. Nem todo artista do movimento fazia assim.",
+      "Eu também acho que todo baiacu é igual. Spoiler: não é.",
+      "Um exemplo é só um exemplo, não a regra. Respira e lê de novo!",
+      "É tipo achar que toda pizza é de calabresa. Tem outros sabores na arte também!"
+    ],
+    "sarc": [
+      "Ah, todos os artistas do movimento pensavam igual. Claro, fizeram reunião e tudo.",
+      "Um quadro virou a regra de todo o século. Que rapidez de conclusão.",
+      "Generalizar é ótimo, né? Economiza o trabalho de ler as exceções.",
+      "Se um pintor fez, todos fizeram. Esse é o famoso método copiar e colar.",
+      "Impressionante: resumiu um movimento inteiro numa frase. Pena que a frase não vale."
+    ],
+    "sem": [
+      "NEM TODO ARTISTA FAZIA ASSIM! VOCÊ PEGOU UM E EXPLICOU TODOS!",
+      "GENERALIZOU DEMAIS! O MOVIMENTO INTEIRO ESTÁ DE BRAÇOS CRUZADOS!",
+      "Eu vi um peixe e achei que todo bicho do mar era peixe. Aí lembrei do golfinho!",
+      "UM EXEMPLO NÃO É REGRA! O PROFESSOR DE ARTES SUSPIROU DE LONGE!",
+      "ISSO É CONCLUSÃO NA VELOCIDADE DA LUZ! VOLTA E LÊ AS EXCEÇÕES!"
+    ],
+    "reserva": "Um exemplo não vale pelo todo: olha as exceções antes de decidir."
+  },
+  {
+    "etiqueta": "art-leitura-literal",
+    "fofo": [
+      "A obra tem mais camadas que lasanha! Vai além do que aparece na superfície.",
+      "Quase! Procura o sentido por trás da imagem, como detetive de arte.",
+      "Eu também já olhei só a superfície e achei que era só um peixe. Era uma metáfora!",
+      "Leitura direta demais, mas dá pra fazer melhor: o que a obra quer dizer?",
+      "Arte raramente é só o que parece. Respira e pensa no recado!"
+    ],
+    "sarc": [
+      "Claro, é só um quadro de pessoas tristes. Nenhuma mensagem, nada.",
+      "Ah, o artista só quis pintar. Nunca pensou em passar recado. Total.",
+      "Leitura literal: o jeito mais rápido de perder o sentido da obra.",
+      "O quadro diz uma coisa, o artista quis dizer outra, e você ficou com a primeira.",
+      "Que olhar objetivo! Só faltou o porquê da obra."
+    ],
+    "sem": [
+      "A OBRA É UM RECADO, NÃO UMA FOTO! LEIA AS ENTRELINHAS!",
+      "LEITURA TOTALMENTE LITERAL! O SÍMBOLO ESTÁ GRITANDO E NINGUÉM OUVIU!",
+      "Eu olhei o quadro e só vi tinta. A mensagem passou nadando por cima!",
+      "SÓ A SUPERFÍCIE! A OBRA TEM FUNDO E VOCÊ FICOU NA PRAIA!",
+      "O SIGNIFICADO ERA ENORME E PASSOU RETO! BORA REVER!"
+    ],
+    "reserva": "Arte quase sempre fala mais do que mostra: procure o recado por trás da imagem."
+  },
+  {
+    "etiqueta": "art-ignorou-contexto",
+    "fofo": [
+      "Faltou o contexto! Pensa no que tava acontecendo no mundo quando a obra surgiu.",
+      "Toda obra nasce de um tempo. Qual era o clima histórico daquele momento?",
+      "Eu também esqueço o contexto: nado sem checar a maré. Bora olhar o cenário?",
+      "Quase! Se você ligar a obra à época, tudo faz mais sentido.",
+      "É tipo ler a piada sem saber a história: perde a graça. Vê o contexto!"
+    ],
+    "sarc": [
+      "Contexto histórico? Ah, isso é só um detalhe sem importância pra obra.",
+      "A guerra, a revolução, a crise... nada a ver com a arte, óbvio.",
+      "Interpretar obra fora do tempo é o jeito mais corajoso de errar.",
+      "A obra surgiu do nada, no vácuo. Sem história, sem sociedade. Lindo.",
+      "Que bom que ignorou o contexto: dá mais liberdade pra errar."
+    ],
+    "sem": [
+      "CONTEXTO IGNORADO! A HISTÓRIA ESTÁ BATENDO NA PORTA!",
+      "VOCÊ LEU A OBRA SEM LER O MUNDO AO REDOR DELA! IMPOSSÍVEL!",
+      "Eu vi um quadro de guerra e achei que era paisagem! O contexto gritava!",
+      "SEM CONTEXTO NÃO TEM SENTIDO! RELEIA O ENUNCIADO COM CALMA!",
+      "O CONTEXTO ERA A CHAVE E ELA FICOU NO CHAVEIRO!"
+    ],
+    "reserva": "Toda obra tem época e razões: ligue a arte ao que acontecia ao redor dela."
+  },
+  {
+    "etiqueta": "art-funcao-so-decorativa",
+    "fofo": [
+      "A arte faz mais que enfeitar! Pensa: ela também denuncia, conta, emociona.",
+      "Quase! Nem toda obra é pra pendurar na parede. Qual era o recado dela?",
+      "Eu também achava que arte era só bonitinha. Aí descobri que ela fala, grita e protesta.",
+      "Decorar é uma função, mas tem muitas outras: memória, crítica, identidade.",
+      "É tipo achar que o violão serve de enfeite na sala. Ele é pra tocar e dizer coisas!"
+    ],
+    "sarc": [
+      "Arte é só decoração, claro. Por isso tanta obra foi censurada. Por ser bonitinha.",
+      "Ah, pintaram só pra combinar com o sofá. Nenhum outro objetivo.",
+      "Que visão moderna: museu é só uma loja de quadro bonito.",
+      "Se fosse só enfeite, ninguém brigaria por causa dela. Mas brigam.",
+      "Quanta praticidade: reduzir uma obra a um adesivo de geladeira."
+    ],
+    "sem": [
+      "ARTE NÃO É SÓ ENFEITE! É DENÚNCIA, MEMÓRIA, GRITO!",
+      "VOCÊ TRANSFORMOU A OBRA NUM QUADRINHO DE SALA! ELA TINHA MENSAGEM!",
+      "Eu quase caí do aquário quando li que arte é só bonitinha!",
+      "ENFEITAR É O BÁSICO! A ARTE TEM MUITO MAIS NO CARDÁPIO!",
+      "REDUZIR A ARTE A DECORAÇÃO É UM ERRO ENORME! RELEIA O RECADO DA OBRA!"
+    ],
+    "reserva": "Arte pode decorar, mas também denuncia, lembra e emociona: veja qual função está em jogo."
+  },
+  {
+    "etiqueta": "art-confundiu-linguagem",
+    "fofo": [
+      "Misturou as linguagens! Cada uma tem seus recursos: vamos separar direitinho?",
+      "Quase! Esse termo é de outra linguagem artística. Bora conferir?",
+      "Eu já confundi plano de cena com plano de fim de semana. Acontece!",
+      "Termo trocado, mas a lógica tá boa. É só achar a linguagem a que ele pertence.",
+      "É tipo chamar bateria de violão: os dois são música, mas não são iguais. Tenta de novo!"
+    ],
+    "sarc": [
+      "Claro, close é coisa de balé e sapatilha é coisa de cinema mudo. Tudo igual.",
+      "Misturar as linguagens artísticas é prático: aí qualquer resposta serve.",
+      "Se todas as artes fossem iguais, não teria tantos cursos. Mas tem.",
+      "Parabéns, inventou uma nova linguagem: a do mais ou menos.",
+      "O vocabulário artístico agradece a contribuição criativa. Ou não."
+    ],
+    "sem": [
+      "LINGUAGENS TROCADAS! O TEATRO E O CINEMA ESTÃO BRIGANDO NO CORREDOR!",
+      "ESSE TERMO NÃO É DESSA LINGUAGEM! O DICIONÁRIO DE ARTE ESTÁ INDIGNADO!",
+      "Eu confundi quadro, quadrinho e quadra. Você misturou a arte inteira!",
+      "VOCÊ JUNTOU TODAS AS LINGUAGENS NUM LIQUIDIFICADOR! SEPARA!",
+      "TERMOS TROCADOS! RESPIRA E CONFERE QUAL RECURSO PERTENCE A QUAL ARTE!"
+    ],
+    "reserva": "Cada linguagem artística tem seus próprios recursos: ligue cada termo à arte certa."
+  },
+  {
+    "etiqueta": "art-patrimonio-so-pedra",
+    "fofo": [
+      "Patrimônio não é só prédio! Saberes, festas e receitas também contam.",
+      "Quase! Pensa também no que as pessoas fazem, cantam e cozinham, não só no que se constrói.",
+      "Eu achava que patrimônio era só castelo de aquário. Aprendi que tem festa e receita também!",
+      "Material é só um lado. O outro vive nas pessoas e nas tradições!",
+      "O patrimônio tem corpo e alma: prédio e tradição. Falta olhar o segundo!"
+    ],
+    "sarc": [
+      "Claro, só o que é de pedra e cal merece proteção. A feijoada que se vire.",
+      "Pra proteger, só vale o que dá pra tombar. Dança e receita ficam de fora.",
+      "Que visão moderna: cultura é só o que cabe num museu.",
+      "Se não for um prédio velho, não é patrimônio? Interessante teoria.",
+      "O IPHAN registrou o acarajé só pra distrair, claro."
+    ],
+    "sem": [
+      "PATRIMÔNIO NÃO É SÓ PRÉDIO ANTIGO! TEM SABER, FESTA E ROTINA!",
+      "VOCÊ TOMBOU TUDO MENOS A CULTURA VIVA! CADÊ A RODA DE SAMBA?",
+      "Quase caí do aquário: patrimônio é pedra, mas também é canto, dança e comida!",
+      "SÓ MONUMENTO?! TEM A CAPOEIRA, O CARIMBÓ, O ACARAJÉ! REVÊ ISSO!",
+      "PATRIMÔNIO TEM DUAS FACES E VOCÊ VIU SÓ UMA! VOLTA LÁ!"
+    ],
+    "reserva": "Patrimônio é feito de coisas e de gente: prédios, saberes, festas e jeitos de fazer."
+  },
+  {
+    "etiqueta": "art-hierarquia-cultural",
+    "fofo": [
+      "Toda cultura tem valor! Nenhuma é melhor só por ser de elite ou de longe.",
+      "Quase! Cultura popular e erudita são diferentes, não maiores ou menores.",
+      "Eu aprendi: tem valor no samba, no coral e no repente. Sem ranking!",
+      "A diversidade é o brilho da arte. Vamos olhar cada manifestação no seu contexto?",
+      "É como comparar maçã com manga: cada uma é gostosa do seu jeito."
+    ],
+    "sarc": [
+      "Claro, só o que está no teatro municipal é cultura. O resto é só barulho, né?",
+      "Que critério refinado: cultura boa é a que vem de longe.",
+      "Hierarquizar culturas dá menos trabalho do que entender cada uma.",
+      "Ah, o samba perdeu pra ópera. Alguém avisou o Carnaval?",
+      "Nota máxima pra elitismo. Pena que a prova não pontua isso."
+    ],
+    "sem": [
+      "NÃO EXISTE CULTURA SUPERIOR! SÓ EXISTE CULTURA DIFERENTE!",
+      "VOCÊ FEZ RANKING DE CULTURA! O MUSEU, A RODA DE SAMBA E O CORAL ESTÃO ESTRANHANDO!",
+      "Eu tentei eleger a melhor cultura e fui vaiado pelo mar inteiro!",
+      "JULGAR CULTURA PELO CRACHÁ? NÃO! RELEIA E VALORIZE TODAS!",
+      "ESSA ALTERNATIVA É PRECONCEITO CULTURAL NA FÁBRICA! REPENSA!"
+    ],
+    "reserva": "Culturas diferentes não são maiores nem menores: cada uma tem valor no seu contexto."
+  },
+  {
+    "etiqueta": "art-extremo",
+    "fofo": [
+      "Cuidado com sempre, nunca e apenas! Em arte quase nada é tão absoluto.",
+      "Quase! A arte tem exceções, e essa alternativa não deixou nenhuma.",
+      "Eu aprendi: quando aparece só ou nunca, desconfia!",
+      "Palavras radicais costumam ser pegadinha. Procura uma resposta mais equilibrada.",
+      "É como dizer que todo baiacu é bravo: tem exceção, e eu sou a prova!"
+    ],
+    "sarc": [
+      "Claro, sempre e nunca valem pra toda a história da arte. Tão simples.",
+      "Que certeza absoluta! Pena que a arte não é feita de absolutos.",
+      "Afirmação radical: o jeito mais confiante de errar.",
+      "Se fosse tão radical assim, não existiriam tantos artistas diferentes.",
+      "Todas as obras do movimento eram assim? Que conveniente."
+    ],
+    "sem": [
+      "SEMPRE? NUNCA? APENAS? DESCONFIA DELES!",
+      "ALTERNATIVA EXTREMA! A ARTE É CHEIA DE EXCEÇÕES E NINGUÉM OLHOU!",
+      "Eu marquei a que tinha nunca e quase caí do aquário!",
+      "RADICAL DEMAIS! A VIDA CULTURAL É CHEIA DE MEIOS-TERMOS!",
+      "ABSOLUTO NA ARTE É CILADA! RESPIRA E VOLTA!"
+    ],
+    "reserva": "Alternativas com sempre, nunca e apenas pedem desconfiança: a arte tem exceções."
+  },
+  {
+    "etiqueta": "art-fuga-do-tema",
+    "fofo": [
+      "Essa alternativa até é verdadeira, mas não responde ao que foi perguntado. Releia a pergunta!",
+      "Quase! Boa informação, mas do assunto errado. Volta pro enunciado.",
+      "Eu também já respondi outra coisa e me achei esperto. Era outra pergunta!",
+      "Verdadeira não é igual a correta. Vamos reler o que a questão pediu?",
+      "É tipo responder tá chovendo pra que horas são? Faz sentido, mas não ajuda!"
+    ],
+    "sarc": [
+      "Resposta ótima. Pena que era pra outra pergunta.",
+      "Verdadeiro e irrelevante: uma combinação clássica.",
+      "Você respondeu muito bem a pergunta que ninguém fez.",
+      "Leu o enunciado ou só sentiu a vibe?",
+      "Fatos corretos, aplicação errada. Que coleção interessante."
+    ],
+    "sem": [
+      "RESPONDEU OUTRA PERGUNTA! A QUESTÃO ESTÁ CONFUSA COM ISSO!",
+      "ISSO É VERDADE, MAS NADA A VER! O ENUNCIADO ESTÁ CHORANDO!",
+      "Eu respondi sobre outro tema e ainda me achei esperto! RELEIA!",
+      "FUGIU DO TEMA! VOLTA PRA PERGUNTA, A GENTE ESPERA!",
+      "VERDADE SOLTA NÃO VALE PONTO! TEM QUE RESPONDER O QUE FOI PERGUNTADO!"
+    ],
+    "reserva": "Verdadeiro nem sempre é o que a questão quer: confira se a resposta responde à pergunta."
+  },
+  {
+    "etiqueta": "art-origem-errada",
+    "fofo": [
+      "Origem trocada! Essa manifestação nasceu em outro lugar. Vamos conferir o mapa?",
+      "Quase! Cada tradição tem sua casa, e essa não é a que você marcou.",
+      "Eu já errei a região do frevo. Ainda bem que o aquário não tem GPS!",
+      "É só ajustar o mapa mental: de onde essa cultura vem?",
+      "É como achar que o chimarrão é da Bahia: bom palpite, mas o mapa é outro!"
+    ],
+    "sarc": [
+      "Claro, o frevo é gaúcho e o chimarrão é pernambucano. A geografia chora.",
+      "Que viagem! Pena que o mapa não concorda.",
+      "Origem errada com convicção: o jeito mais turístico de estudar.",
+      "Se tudo vem de qualquer lugar, ninguém precisa saber de onde vem nada.",
+      "Nada como inventar uma origem nova pra tradição. Mas não vale."
+    ],
+    "sem": [
+      "ORIGEM ERRADA! A TRADIÇÃO ESTÁ ESPERNEANDO EM OUTRO ESTADO!",
+      "VOCÊ MUDOU O ENDEREÇO DA CULTURA! DEVOLVE!",
+      "Eu olhei o mapa de cabeça pra baixo e achei o frevo no Sul!",
+      "ESSA TRADIÇÃO NÃO É DAÍ! CHECA O MAPA E OS POVOS DE ORIGEM!",
+      "FEZ A CULTURA IMIGRAR SEM PASSAPORTE! PARA E CONFERE!"
+    ],
+    "reserva": "Toda tradição nasce em algum povo e lugar: confira a origem antes de marcar."
+  },
+  {
+    "etiqueta": "art-elemento-musical",
+    "fofo": [
+      "Trocou o elemento musical! Altura, timbre e intensidade são parentes, mas diferentes.",
+      "Quase! Vamos separar: o que é grave e agudo, forte e fraco, e o sotaque do instrumento?",
+      "Eu já confundi volume com altura. Aí fui ouvir de novo!",
+      "Ritmo, melodia e harmonia são um trio, mas cada um faz uma coisa. Bora rever?",
+      "É como misturar tempero com ingrediente: tudo está na música, mas cada um tem seu papel."
+    ],
+    "sarc": [
+      "Claro, timbre, altura e intensidade são a mesma coisa. Os músicos ficaram felizes.",
+      "Misturar os elementos da música dá um som bem original. Pena que não vale.",
+      "Volume é altura, altura é timbre... só falta o ritmo ser uma cor.",
+      "Que ouvido aberto à criatividade teórica.",
+      "Esse elemento musical foi trocado com muita confiança. Aplausos."
+    ],
+    "sem": [
+      "ELEMENTO MUSICAL TROCADO! A PARTITURA CAIU DA ESTANTE!",
+      "VOLUME NÃO É ALTURA! TIMBRE NÃO É RITMO! AAAAH!",
+      "Eu bati palmas fora do tempo quando vi essa troca de elementos!",
+      "ISSO FOI UM DESAFINO TEÓRICO! RELEIA O CONCEITO!",
+      "VOCÊ MISTUROU OS ELEMENTOS COMO PLAYLIST NO ALEATÓRIO! ORGANIZA!"
+    ],
+    "reserva": "Altura, intensidade, timbre, ritmo e melodia são coisas diferentes: confira qual deles está em jogo."
+  }
+]

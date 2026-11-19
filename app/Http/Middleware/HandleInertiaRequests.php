@@ -39,9 +39,13 @@ class HandleInertiaRequests extends Middleware
             ...parent::share($request),
             'name' => config('app.name'),
             'auth' => [
-                'user' => $request->user(),
+                'user' => $request->user()?->paraCompartilhar(),
             ],
-            'sidebarOpen' => ! $request->hasCookie('sidebar_state') || $request->cookie('sidebar_state') === 'true',
+            'gabaritu' => [
+                'email_contato' => config('gabaritu.email_contato'),
+                'repositorio_url' => config('gabaritu.repositorio_url'),
+                'cadastro_aberto' => (bool) config('gabaritu.cadastro_aberto'),
+            ],
         ];
     }
 }

@@ -1,0 +1,902 @@
+[
+  {
+    "id": "por-coesao-e-coerencia-001",
+    "materia": "portugues",
+    "assunto": "coesao-e-coerencia",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Chuva e jogo adiado",
+    "enunciado": "Complete a frase com o conectivo que expressa conclusão: “Choveu muito durante a manhã; ___, o jogo foi adiado.”",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "embora",
+        "correta": false,
+        "etiqueta": "por-conectivo-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "por isso",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "mas",
+        "correta": false,
+        "etiqueta": "por-conectivo-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "porque",
+        "correta": false,
+        "etiqueta": "por-conectivo-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "se",
+        "correta": false,
+        "etiqueta": "por-conectivo-errado"
+      }
+    ],
+    "explicacao": "O adiamento é a consequência da chuva, e “por isso” liga causa e conclusão. “Embora” e “mas” criam concessão e oposição, e “porque” inverteria a relação (a causa viria depois). “Se” marcaria uma condição.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-coesao-e-coerencia-002",
+    "materia": "portugues",
+    "assunto": "coesao-e-coerencia",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "O cachorro e o animal",
+    "enunciado": "“O cachorro de Dona Lúcia fugiu pelo portão. O animal só foi encontrado à noite.” A expressão “O animal” retoma, no segundo período,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "“Dona Lúcia”.",
+        "correta": false,
+        "etiqueta": "por-referente-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "“o cachorro de Dona Lúcia”.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "“o portão”.",
+        "correta": false,
+        "etiqueta": "por-referente-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "“a noite”.",
+        "correta": false,
+        "etiqueta": "por-referente-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "todos os animais do bairro.",
+        "correta": false,
+        "etiqueta": "por-extrapolacao"
+      }
+    ],
+    "explicacao": "A palavra “animal” é mais geral que “cachorro” e funciona como substituição lexical: evita repetir o termo e retoma o mesmo ser. Dona Lúcia é pessoa, e portão e noite não são animais.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-coesao-e-coerencia-003",
+    "materia": "portugues",
+    "assunto": "coesao-e-coerencia",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Cansado, mas foi",
+    "enunciado": "“Embora estivesse cansado, Pedro foi ao treino.” A oração introduzida por “embora” expressa uma relação de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "causa, pois explica o motivo de Pedro ir ao treino.",
+        "correta": false,
+        "etiqueta": "por-conectivo-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "condição, pois indica o que era necessário para Pedro ir.",
+        "correta": false,
+        "etiqueta": "por-conectivo-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "concessão, pois apresenta um fato que seria obstáculo, mas não impede o resultado.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "finalidade, pois indica o objetivo de Pedro ao ir.",
+        "correta": false,
+        "etiqueta": "por-conectivo-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "conformidade, pois indica que Pedro seguiu uma regra.",
+        "correta": false,
+        "etiqueta": "por-conectivo-errado"
+      }
+    ],
+    "explicacao": "O cansaço seria um motivo para não ir, mas Pedro foi mesmo assim. Esse “obstáculo que não impede” é a ideia de concessão, expressa por embora, apesar de, ainda que e conquanto.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-coesao-e-coerencia-004",
+    "materia": "portugues",
+    "assunto": "coesao-e-coerencia",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Treino para a seleção",
+    "enunciado": "“Treinou todos os dias para que pudesse entrar na seleção.” A expressão “para que” introduz uma ideia de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "finalidade, pois indica o objetivo do treino.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "causa, pois indica o motivo do treino.",
+        "correta": false,
+        "etiqueta": "por-conectivo-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "concessão, pois indica um obstáculo ao treino.",
+        "correta": false,
+        "etiqueta": "por-conectivo-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "condição, pois indica um requisito para o treino.",
+        "correta": false,
+        "etiqueta": "por-conectivo-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "tempo, pois indica o momento do treino.",
+        "correta": false,
+        "etiqueta": "por-conectivo-errado"
+      }
+    ],
+    "explicacao": "“Para que” aponta o objetivo (finalidade): treinou a fim de conseguir entrar na seleção. A causa explicaria o porquê já ocorrido, e a finalidade, o objetivo que se quer alcançar.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-coesao-e-coerencia-005",
+    "materia": "portugues",
+    "assunto": "coesao-e-coerencia",
+    "questionario": 1,
+    "dificuldade": 1,
+    "contexto": "Apesar da divulgação",
+    "enunciado": "“Apesar de o evento ter sido bem divulgado, poucas pessoas compareceram.” Mantém o mesmo sentido da frase original a reescrita:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "“Visto que o evento foi bem divulgado, poucas pessoas compareceram.”",
+        "correta": false,
+        "etiqueta": "por-conectivo-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "“Embora o evento tenha sido bem divulgado, poucas pessoas compareceram.”",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "“O evento foi bem divulgado; portanto, poucas pessoas compareceram.”",
+        "correta": false,
+        "etiqueta": "por-conectivo-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "“Desde que o evento seja bem divulgado, poucas pessoas comparecem.”",
+        "correta": false,
+        "etiqueta": "por-conectivo-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "“Uma vez que o evento foi bem divulgado, poucas pessoas compareceram.”",
+        "correta": false,
+        "etiqueta": "por-conectivo-errado"
+      }
+    ],
+    "explicacao": "“Apesar de” e “embora” expressam concessão: a boa divulgação deveria atrair gente, mas não atraiu. As outras opções criam causa (visto que, uma vez que), conclusão (portanto) ou condição (desde que), o que muda o sentido.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-coesao-e-coerencia-006",
+    "materia": "portugues",
+    "assunto": "coesao-e-coerencia",
+    "questionario": 2,
+    "dificuldade": -1,
+    "contexto": "A escritora cujo romance",
+    "enunciado": "“Conheci a escritora cujo romance você leu.” O pronome relativo “cujo” estabelece uma relação de posse entre os termos. Nessa frase, a posse é de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "“você”, que é o dono do romance.",
+        "correta": false,
+        "etiqueta": "por-referente-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "“o romance”, que é o dono da escritora.",
+        "correta": false,
+        "etiqueta": "por-referente-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "“eu”, que sou o dono do romance.",
+        "correta": false,
+        "etiqueta": "por-referente-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "“a escritora”, que é a dona do romance.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "“a leitura”, que é dona do romance.",
+        "correta": false,
+        "etiqueta": "por-referente-errado"
+      }
+    ],
+    "explicacao": "“Cujo” liga um possuidor (antecedente) a algo possuído (o termo que vem depois). Aqui, o romance pertence à escritora. É também o relativo que concorda com o possuído (cujo romance), e não com o possuidor.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-coesao-e-coerencia-007",
+    "materia": "portugues",
+    "assunto": "coesao-e-coerencia",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Nunca gostei, por isso assisto",
+    "enunciado": "Em um texto lê-se: “Nunca gostei de futebol; por isso, assisto a todos os jogos do meu time.” O problema de coerência dessa frase está",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "na falta de pontuação, que impede a leitura do texto.",
+        "correta": false,
+        "etiqueta": "por-leitura-superficial"
+      },
+      {
+        "letra": "B",
+        "texto": "na repetição desnecessária da palavra “jogos”.",
+        "correta": false,
+        "etiqueta": "por-leitura-superficial"
+      },
+      {
+        "letra": "C",
+        "texto": "no pronome “meu”, que não tem a quem se referir.",
+        "correta": false,
+        "etiqueta": "por-referente-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "na troca de pessoa verbal entre os dois verbos.",
+        "correta": false,
+        "etiqueta": "por-leitura-superficial"
+      },
+      {
+        "letra": "E",
+        "texto": "no uso de “por isso”, que indica conclusão, mas liga duas ideias contraditórias.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "A segunda ideia não é consequência da primeira: quem nunca gostou de futebol, em geral, não assiste a todos os jogos. Uma relação adequada seria de oposição (“mas”, “apesar disso”). A coerência exige que as relações lógicas façam sentido.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-coesao-e-coerencia-008",
+    "materia": "portugues",
+    "assunto": "coesao-e-coerencia",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Programa de vacinação",
+    "enunciado": "“O governo anunciou um novo programa de vacinação. A iniciativa vai atender crianças de até cinco anos.” No segundo período, “A iniciativa” retoma",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "“o governo”, que é o autor do anúncio.",
+        "correta": false,
+        "etiqueta": "por-referente-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "“crianças de até cinco anos”.",
+        "correta": false,
+        "etiqueta": "por-referente-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "o próprio anúncio, como ato de comunicação.",
+        "correta": false,
+        "etiqueta": "por-referente-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "“um novo programa de vacinação”.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "“vacinação”, apenas no sentido de aplicar a injeção.",
+        "correta": false,
+        "etiqueta": "por-reducao"
+      }
+    ],
+    "explicacao": "O substantivo “iniciativa” resume e retoma o programa que acabou de ser apresentado. É um caso de coesão referencial por substituição lexical. O programa é que vai atender as crianças, não o governo nem o anúncio.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-coesao-e-coerencia-009",
+    "materia": "portugues",
+    "assunto": "coesao-e-coerencia",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Só uma coisa",
+    "enunciado": "“Ele só pensava nisto: ganhar a corrida.” Na frase, o pronome “nisto” antecipa uma informação que vem depois dos dois-pontos. Esse tipo de retomada é chamado de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "catáfora, pois o pronome aponta para algo que vem adiante no texto.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "anáfora, pois o pronome retoma algo que já foi dito antes.",
+        "correta": false,
+        "etiqueta": "por-referente-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "elipse, pois o pronome omite um termo subentendido.",
+        "correta": false,
+        "etiqueta": "por-referente-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "coesão por conectivo, pois o pronome liga duas orações.",
+        "correta": false,
+        "etiqueta": "por-referente-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "substituição lexical, pois o pronome é um sinônimo.",
+        "correta": false,
+        "etiqueta": "por-referente-errado"
+      }
+    ],
+    "explicacao": "Na anáfora, o termo retoma algo já mencionado. Na catáfora, ele antecipa algo que vem a seguir (aqui, “ganhar a corrida”). A diferença está na direção da retomada no texto.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-coesao-e-coerencia-010",
+    "materia": "portugues",
+    "assunto": "coesao-e-coerencia",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Até o diretor",
+    "enunciado": "“Até o diretor concordou com o aluno.” O operador argumentativo “até” sugere que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a concordância do diretor era a menos esperada, o que reforça a força do argumento do aluno.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "o diretor sempre concorda com todos os alunos.",
+        "correta": false,
+        "etiqueta": "por-extrapolacao"
+      },
+      {
+        "letra": "C",
+        "texto": "o diretor foi o último a chegar à reunião.",
+        "correta": false,
+        "etiqueta": "por-leitura-superficial"
+      },
+      {
+        "letra": "D",
+        "texto": "apenas o diretor concordou, e ninguém mais.",
+        "correta": false,
+        "etiqueta": "por-reducao"
+      },
+      {
+        "letra": "E",
+        "texto": "o diretor discordou, mas depois mudou de ideia.",
+        "correta": false,
+        "etiqueta": "por-contradicao-texto"
+      }
+    ],
+    "explicacao": "“Até” coloca o termo seguinte no extremo de uma escala: se até o diretor concordou, fica implícito que ele seria o menos propenso a isso. Esse efeito de sentido reforça o argumento do aluno. Os demais sentidos não decorrem do texto.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-coesao-e-coerencia-011",
+    "materia": "portugues",
+    "assunto": "coesao-e-coerencia",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Treinou, contudo perdeu",
+    "enunciado": "Complete: “O time treinou bastante; ___, perdeu o jogo.”",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "portanto",
+        "correta": false,
+        "etiqueta": "por-conectivo-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "pois",
+        "correta": false,
+        "etiqueta": "por-conectivo-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "assim",
+        "correta": false,
+        "etiqueta": "por-conectivo-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "além disso",
+        "correta": false,
+        "etiqueta": "por-conectivo-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "contudo",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "O treino bastante levaria a esperar a vitória, mas houve a derrota. Para expressar essa quebra de expectativa, usamos conectivo de oposição, como “contudo”, “porém” ou “no entanto”. Os demais expressam conclusão ou adição.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-coesao-e-coerencia-012",
+    "materia": "portugues",
+    "assunto": "coesao-e-coerencia",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Verão e calor",
+    "enunciado": "“O verão é a estação mais quente do ano. Nessa época, as praias ficam cheias.” A expressão “Nessa época” retoma",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "“o ano” inteiro.",
+        "correta": false,
+        "etiqueta": "por-referente-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "“as praias”.",
+        "correta": false,
+        "etiqueta": "por-referente-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "“o verão”.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "“a estação mais fria”.",
+        "correta": false,
+        "etiqueta": "por-contradicao-texto"
+      },
+      {
+        "letra": "E",
+        "texto": "“todas as estações do ano”.",
+        "correta": false,
+        "etiqueta": "por-extrapolacao"
+      }
+    ],
+    "explicacao": "A expressão “Nessa época” aponta para o período mencionado antes, o verão, e evita a repetição da palavra. Cuidado para não ampliar o referente para o ano todo ou para todas as estações.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-coesao-e-coerencia-013",
+    "materia": "portugues",
+    "assunto": "coesao-e-coerencia",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Abriu e respirou",
+    "enunciado": "“Luísa abriu a janela e respirou fundo.” Em “respirou fundo”, o sujeito não é repetido, pois é facilmente subentendido. Esse mecanismo de coesão é a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "repetição, que reaparece a mesma palavra para dar ênfase.",
+        "correta": false,
+        "etiqueta": "por-referente-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "pronominalização, pois um pronome substitui o sujeito.",
+        "correta": false,
+        "etiqueta": "por-referente-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "sinonímia, pois uma palavra de sentido parecido retoma o termo.",
+        "correta": false,
+        "etiqueta": "por-referente-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "elipse, que suprime um termo recuperável pelo contexto.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "conexão, pois o conectivo “e” retoma o sujeito.",
+        "correta": false,
+        "etiqueta": "por-conectivo-errado"
+      }
+    ],
+    "explicacao": "Na elipse, o termo omitido (aqui, “Luísa”) é facilmente recuperado pelo contexto. Não há pronome nem sinônimo. O “e” liga as orações, mas quem garante o sujeito é a omissão.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-coesao-e-coerencia-014",
+    "materia": "portugues",
+    "assunto": "coesao-e-coerencia",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Isso prejudica",
+    "enunciado": "“Muitos jovens dormem pouco. Isso prejudica a concentração.” O pronome “Isso” retoma",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "somente a palavra “jovens”.",
+        "correta": false,
+        "etiqueta": "por-referente-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "a palavra “concentração”, que vem depois.",
+        "correta": false,
+        "etiqueta": "por-referente-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "apenas o verbo “dormem”.",
+        "correta": false,
+        "etiqueta": "por-reducao"
+      },
+      {
+        "letra": "D",
+        "texto": "a ideia de que o sono prejudica os jovens.",
+        "correta": false,
+        "etiqueta": "por-extrapolacao"
+      },
+      {
+        "letra": "E",
+        "texto": "toda a ideia anterior: o fato de muitos jovens dormirem pouco.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "Pronomes demonstrativos como “isso” podem retomar uma frase inteira, e não só um substantivo. Aqui, a causa do prejuízo é o fato de os jovens dormirem pouco. A palavra “concentração” vem depois e é o objeto de “prejudica”.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-coesao-e-coerencia-015",
+    "materia": "portugues",
+    "assunto": "coesao-e-coerencia",
+    "questionario": 3,
+    "dificuldade": 1,
+    "contexto": "Chovia, mas saímos",
+    "enunciado": "“Chovia, mas saímos.” Mantém a mesma relação lógica de sentido a reescrita:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "“Embora chovesse, saímos.”",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "“Como chovia, saímos.”",
+        "correta": false,
+        "etiqueta": "por-conectivo-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "“Saímos porque chovia.”",
+        "correta": false,
+        "etiqueta": "por-conectivo-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "“Chovia; portanto, saímos.”",
+        "correta": false,
+        "etiqueta": "por-conectivo-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "“Se chovesse, sairíamos.”",
+        "correta": false,
+        "etiqueta": "por-conectivo-errado"
+      }
+    ],
+    "explicacao": "“Mas” expressa oposição, e “embora” expressa concessão: ambas indicam que a chuva não impediu a saída. As demais opções transformam a chuva em causa, conclusão ou condição para sair.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-coesao-e-coerencia-016",
+    "materia": "portugues",
+    "assunto": "coesao-e-coerencia",
+    "questionario": 4,
+    "dificuldade": -1,
+    "contexto": "Enquanto um estudava",
+    "enunciado": "“Enquanto Pedro estudava, Ana jogava no celular.” A conjunção “enquanto” expressa relação de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "causa, pois uma ação provoca a outra.",
+        "correta": false,
+        "etiqueta": "por-conectivo-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "finalidade, pois uma ação é o objetivo da outra.",
+        "correta": false,
+        "etiqueta": "por-conectivo-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "condição, pois uma ação depende da outra.",
+        "correta": false,
+        "etiqueta": "por-conectivo-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "concessão, pois uma ação é obstáculo à outra.",
+        "correta": false,
+        "etiqueta": "por-conectivo-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "tempo, com ações simultâneas.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "As duas ações ocorrem ao mesmo tempo, sem uma causar a outra. Por isso “enquanto” marca simultaneidade temporal. Em outros contextos, pode ter valor de contraste, mas aqui é temporal.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-coesao-e-coerencia-017",
+    "materia": "portugues",
+    "assunto": "coesao-e-coerencia",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Comunicação e informação",
+    "enunciado": "“Os celulares facilitam a comunicação entre as pessoas. ___, tornaram o acesso à informação muito mais rápido.” O conectivo que expressa adição de argumento é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "contudo.",
+        "correta": false,
+        "etiqueta": "por-conectivo-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "portanto.",
+        "correta": false,
+        "etiqueta": "por-conectivo-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "embora.",
+        "correta": false,
+        "etiqueta": "por-conectivo-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "além disso.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "caso.",
+        "correta": false,
+        "etiqueta": "por-conectivo-errado"
+      }
+    ],
+    "explicacao": "Os dois períodos apresentam vantagens e somam argumentos. “Além disso” acrescenta uma ideia na mesma direção. “Contudo” opõe, “portanto” conclui, “embora” concede e “caso” condiciona.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-coesao-e-coerencia-018",
+    "materia": "portugues",
+    "assunto": "coesao-e-coerencia",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Dormiu cedo",
+    "enunciado": "“Como estava cansado, Rafael dormiu cedo.” Mantém a mesma relação de causa a reescrita:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "“Rafael dormiu cedo, mas estava cansado.”",
+        "correta": false,
+        "etiqueta": "por-conectivo-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "“Rafael dormiu cedo para que estivesse cansado.”",
+        "correta": false,
+        "etiqueta": "por-conectivo-errado"
+      },
+      {
+        "letra": "C",
+        "texto": "“Rafael dormiu cedo, pois estava cansado.”",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "“Rafael dormiu cedo, caso estivesse cansado.”",
+        "correta": false,
+        "etiqueta": "por-conectivo-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "“Rafael dormiu cedo; portanto, estava cansado.”",
+        "correta": false,
+        "etiqueta": "por-conectivo-errado"
+      }
+    ],
+    "explicacao": "O cansaço é a causa do sono cedo. “Pois” explica o motivo, assim como “como” no início. As outras alternativas trocam por oposição, finalidade, condição ou conclusão invertida.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-coesao-e-coerencia-019",
+    "materia": "portugues",
+    "assunto": "coesao-e-coerencia",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Quem chorava?",
+    "enunciado": "Na frase “Quando Carla encontrou Joana, ela estava chorando”, não está claro quem chorava. Para deixar claro que quem chorava era Joana, a melhor reescrita é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "“Quando Carla encontrou Joana, aquela estava chorando.”",
+        "correta": false,
+        "etiqueta": "por-referente-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "“Quando Carla encontrou Joana, esta estava chorando.”",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "“Quando Carla encontrou Joana, elas estavam chorando.”",
+        "correta": false,
+        "etiqueta": "por-referente-errado"
+      },
+      {
+        "letra": "D",
+        "texto": "“Quando Carla encontrou Joana, ela mesma estava chorando.”",
+        "correta": false,
+        "etiqueta": "por-referente-errado"
+      },
+      {
+        "letra": "E",
+        "texto": "“Quando Carla encontrou Joana, estava chorando.”",
+        "correta": false,
+        "etiqueta": "por-referente-errado"
+      }
+    ],
+    "explicacao": "“Este” retoma o termo mais próximo (Joana), e “aquele” retoma o mais distante (Carla). Em “ela mesma” ou na omissão do sujeito, a ambiguidade continua. Esse uso evita problemas de referência e favorece a clareza.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "por-coesao-e-coerencia-020",
+    "materia": "portugues",
+    "assunto": "coesao-e-coerencia",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Coesão e coerência",
+    "enunciado": "Sobre a diferença entre coesão e coerência em um texto, é correto afirmar que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a coesão é a lógica do texto, e a coerência é a ligação gramatical entre as frases.",
+        "correta": false,
+        "etiqueta": "por-referente-errado"
+      },
+      {
+        "letra": "B",
+        "texto": "as duas são o mesmo fenômeno, só mudam de nome conforme o autor.",
+        "correta": false,
+        "etiqueta": "por-reducao"
+      },
+      {
+        "letra": "C",
+        "texto": "a coesão é a ligação entre as partes por meio de recursos linguísticos, e a coerência é a unidade lógica de sentido.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "só há coerência quando o texto usa muitos conectivos.",
+        "correta": false,
+        "etiqueta": "por-reducao"
+      },
+      {
+        "letra": "E",
+        "texto": "a coerência depende apenas da correção gramatical dos períodos.",
+        "correta": false,
+        "etiqueta": "por-reducao"
+      }
+    ],
+    "explicacao": "Coesão está na superfície do texto: pronomes, conectivos, sinônimos. Coerência está no sentido: as ideias precisam ter lógica entre si e com o mundo. Um texto pode ter muitos conectivos e ainda ser incoerente, ou ter poucos e ser coerente.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  }
+]

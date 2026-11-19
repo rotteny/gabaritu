@@ -1,0 +1,282 @@
+[
+  {
+    "id": "qui-eletroquimica-001", "materia": "quimica", "assunto": "eletroquimica", "questionario": 1, "dificuldade": -1,
+    "contexto": "Pilha do controle remoto",
+    "enunciado": "As pilhas usadas em controles remotos e lanternas são dispositivos eletroquímicos. Que transformação de energia ocorre em uma pilha em funcionamento?",
+    "alternativas": [
+      { "letra": "A", "texto": "Energia elétrica em energia química.", "correta": false, "etiqueta": "qui-erro-oxirreducao" },
+      { "letra": "B", "texto": "Energia química em energia elétrica.", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Energia térmica em energia química.", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "D", "texto": "Energia luminosa em energia elétrica.", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "E", "texto": "Energia nuclear em energia química.", "correta": false, "etiqueta": "qui-senso-comum" }
+    ],
+    "explicacao": "Em uma pilha, uma reação de oxirredução espontânea transforma energia química em energia elétrica. O contrário (energia elétrica em química) é a eletrólise, que ocorre, por exemplo, quando se recarrega uma bateria.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-eletroquimica-002", "materia": "quimica", "assunto": "eletroquimica", "questionario": 1, "dificuldade": -1,
+    "contexto": "Zinco perdendo elétrons",
+    "enunciado": "Em uma pilha, ocorre a semirreação Zn → Zn²⁺ + 2 e⁻. O que acontece com o zinco nessa semirreação?",
+    "alternativas": [
+      { "letra": "A", "texto": "Sofre redução, porque ganha elétrons.", "correta": false, "etiqueta": "qui-erro-oxirreducao" },
+      { "letra": "B", "texto": "Sofre redução, porque perde elétrons.", "correta": false, "etiqueta": "qui-erro-oxirreducao" },
+      { "letra": "C", "texto": "Sofre oxidação, porque ganha elétrons.", "correta": false, "etiqueta": "qui-erro-oxirreducao" },
+      { "letra": "D", "texto": "Sofre oxidação, porque perde elétrons.", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Não sofre nenhuma alteração.", "correta": false, "etiqueta": "qui-ignorou-dado" }
+    ],
+    "explicacao": "Oxidação é a perda de elétrons e redução é o ganho de elétrons. O zinco passa de Zn (nox 0) para Zn²⁺ (nox +2), então perde elétrons e sofre oxidação. Quem se oxida é o agente redutor.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-eletroquimica-003", "materia": "quimica", "assunto": "eletroquimica", "questionario": 1, "dificuldade": 0,
+    "contexto": "Pilha de Daniell",
+    "enunciado": "Em uma pilha de zinco e cobre, os potenciais padrão de redução são Zn²⁺/Zn = −0,76 V e Cu²⁺/Cu = +0,34 V. Qual a diferença de potencial (ddp) padrão da pilha?",
+    "alternativas": [
+      { "letra": "A", "texto": "1,10 V", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "0,42 V", "correta": false, "etiqueta": "qui-erro-oxirreducao" },
+      { "letra": "C", "texto": "−1,10 V", "correta": false, "etiqueta": "qui-erro-oxirreducao" },
+      { "letra": "D", "texto": "0,76 V", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "E", "texto": "0,34 V", "correta": false, "etiqueta": "qui-ignorou-dado" }
+    ],
+    "explicacao": "O cobre tem o maior potencial de redução, então é o cátodo (reduz), e o zinco é o ânodo (oxida). ddp = E°(cátodo) − E°(ânodo) = 0,34 − (−0,76) = 1,10 V. Uma pilha em funcionamento tem ddp positiva, e somar os potenciais (0,42) é erro clássico.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-eletroquimica-004", "materia": "quimica", "assunto": "eletroquimica", "questionario": 1, "dificuldade": 0,
+    "contexto": "Polos da pilha",
+    "enunciado": "Na pilha de zinco e cobre, o zinco se oxida e o cobre se reduz. Em qual eletrodo ocorre a oxidação, e qual é o seu polo?",
+    "alternativas": [
+      { "letra": "A", "texto": "No cátodo (cobre), polo positivo.", "correta": false, "etiqueta": "qui-erro-oxirreducao" },
+      { "letra": "B", "texto": "No ânodo (zinco), polo positivo.", "correta": false, "etiqueta": "qui-erro-oxirreducao" },
+      { "letra": "C", "texto": "No cátodo (zinco), polo negativo.", "correta": false, "etiqueta": "qui-erro-oxirreducao" },
+      { "letra": "D", "texto": "No ânodo (cobre), polo negativo.", "correta": false, "etiqueta": "qui-erro-oxirreducao" },
+      { "letra": "E", "texto": "No ânodo (zinco), polo negativo.", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Ânodo é onde ocorre oxidação e cátodo é onde ocorre redução, em qualquer célula eletroquímica. O zinco se oxida, logo é o ânodo. Em uma pilha, o ânodo é o polo negativo (os elétrons saem dele) e o cátodo é o polo positivo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-eletroquimica-005", "materia": "quimica", "assunto": "eletroquimica", "questionario": 1, "dificuldade": 1,
+    "contexto": "Proteção de tubulação enterrada",
+    "enunciado": "Uma tubulação de ferro enterrada pode ser protegida da corrosão ligando-a a um metal que se oxida no lugar dela (ânodo de sacrifício). Potenciais de redução (V): Zn²⁺/Zn = −0,76; Fe²⁺/Fe = −0,44; Cu²⁺/Cu = +0,34; Ag⁺/Ag = +0,80; Pt²⁺/Pt = +1,20; Au³⁺/Au = +1,50. Qual metal da lista é adequado como ânodo de sacrifício para o ferro?",
+    "alternativas": [
+      { "letra": "A", "texto": "Cobre", "correta": false, "etiqueta": "qui-erro-oxirreducao" },
+      { "letra": "B", "texto": "Prata", "correta": false, "etiqueta": "qui-erro-oxirreducao" },
+      { "letra": "C", "texto": "Zinco", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Ouro, por ser o mais nobre", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "E", "texto": "Platina, por ser muito resistente", "correta": false, "etiqueta": "qui-senso-comum" }
+    ],
+    "explicacao": "Para proteger o ferro, o metal ligado a ele precisa se oxidar mais facilmente que ele, ou seja, ter potencial de redução menor que o do ferro (−0,44 V). Só o zinco (−0,76 V) cumpre isso. Cobre, prata, platina e ouro têm potenciais maiores e fariam o ferro se oxidar ainda mais.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-eletroquimica-006", "materia": "quimica", "assunto": "eletroquimica", "questionario": 2, "dificuldade": -1,
+    "contexto": "Quem oxida mais fácil",
+    "enunciado": "Potenciais padrão de redução (V): Cu²⁺/Cu = +0,34; Zn²⁺/Zn = −0,76; Ag⁺/Ag = +0,80; Fe²⁺/Fe = −0,44. Qual desses metais tem maior tendência a se oxidar?",
+    "alternativas": [
+      { "letra": "A", "texto": "Cobre", "correta": false, "etiqueta": "qui-erro-oxirreducao" },
+      { "letra": "B", "texto": "Prata", "correta": false, "etiqueta": "qui-erro-oxirreducao" },
+      { "letra": "C", "texto": "Zinco", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Ferro", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "E", "texto": "Todos têm a mesma tendência.", "correta": false, "etiqueta": "qui-senso-comum" }
+    ],
+    "explicacao": "Quanto menor (mais negativo) o potencial de redução, maior a tendência a se oxidar. O zinco, com −0,76 V, é o mais fácil de oxidar da lista, seguido do ferro. Cobre e prata, com potenciais positivos, são metais mais nobres.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-eletroquimica-007", "materia": "quimica", "assunto": "eletroquimica", "questionario": 2, "dificuldade": 0,
+    "contexto": "Prego enferrujado",
+    "enunciado": "Um prego de ferro deixado ao ar livre durante meses fica coberto por uma camada marrom-avermelhada, a ferrugem. Quais condições são necessárias para esse processo de corrosão?",
+    "alternativas": [
+      { "letra": "A", "texto": "Presença de oxigênio e de água.", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Apenas oxigênio, em ambiente totalmente seco.", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "C", "texto": "Apenas água, sem oxigênio dissolvido.", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "D", "texto": "Apenas calor.", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "E", "texto": "Nitrogênio e luz do Sol.", "correta": false, "etiqueta": "qui-senso-comum" }
+    ],
+    "explicacao": "A ferrugem é produzida pela oxidação do ferro por oxigênio na presença de umidade. Sem água, o processo é muito lento, e sem oxigênio, ele praticamente não ocorre. Por isso pintar ou revestir o metal ajuda: impede o contato com O2 e H2O.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-eletroquimica-008", "materia": "quimica", "assunto": "eletroquimica", "questionario": 2, "dificuldade": 0,
+    "contexto": "Eletrólise do sal fundido",
+    "enunciado": "Na eletrólise ígnea (sem água) do cloreto de sódio fundido, NaCl, passa-se corrente elétrica pelo sal derretido. Qual substância se forma no cátodo?",
+    "alternativas": [
+      { "letra": "A", "texto": "Gás cloro (Cl2)", "correta": false, "etiqueta": "qui-erro-oxirreducao" },
+      { "letra": "B", "texto": "Gás hidrogênio (H2)", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "C", "texto": "Gás oxigênio (O2)", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "D", "texto": "Hidróxido de sódio (NaOH)", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "E", "texto": "Sódio metálico (Na)", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "No sal fundido só há Na⁺ e Cl⁻, e não há água. No cátodo ocorre redução: Na⁺ + e⁻ → Na. No ânodo ocorre oxidação: 2 Cl⁻ → Cl2 + 2 e⁻. Hidrogênio, oxigênio e NaOH exigiriam a presença de água.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-eletroquimica-009", "materia": "quimica", "assunto": "eletroquimica", "questionario": 2, "dificuldade": 1,
+    "contexto": "Prateando um talher",
+    "enunciado": "Em uma eletrólise com solução de Ag⁺, passa-se uma corrente de 2 A por 965 s. Considere 1 mol de elétrons = 96.500 C e Ag = 108 g/mol (Ag⁺ + e⁻ → Ag). Qual a massa de prata depositada no cátodo?",
+    "alternativas": [
+      { "letra": "A", "texto": "1,08 g", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "B", "texto": "2,16 g", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "4,32 g", "correta": false, "etiqueta": "qui-esqueceu-balancear" },
+      { "letra": "D", "texto": "21,6 g", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "E", "texto": "0,02 g", "correta": false, "etiqueta": "qui-ignorou-dado" }
+    ],
+    "explicacao": "Carga: Q = i · t = 2 × 965 = 1.930 C. Mols de elétrons: 1.930 ÷ 96.500 = 0,02 mol. Como Ag⁺ + e⁻ → Ag (1 e⁻ por Ag), formam-se 0,02 mol de Ag, ou 0,02 × 108 = 2,16 g. Os 0,02 são os mols de elétrons, e não gramas.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-eletroquimica-010", "materia": "quimica", "assunto": "eletroquimica", "questionario": 2, "dificuldade": 1,
+    "contexto": "Pilha de zinco e prata",
+    "enunciado": "Uma pilha é montada com zinco e prata (Zn²⁺/Zn = −0,76 V; Ag⁺/Ag = +0,80 V). Qual a equação global espontânea e a ddp padrão? (O potencial não depende dos coeficientes.)",
+    "alternativas": [
+      { "letra": "A", "texto": "Zn²⁺ + 2 Ag → Zn + 2 Ag⁺, ddp = 1,56 V", "correta": false, "etiqueta": "qui-erro-oxirreducao" },
+      { "letra": "B", "texto": "Zn + Ag⁺ → Zn²⁺ + Ag, ddp = 1,56 V", "correta": false, "etiqueta": "qui-esqueceu-balancear" },
+      { "letra": "C", "texto": "Zn + 2 Ag⁺ → Zn²⁺ + 2 Ag, ddp = 3,12 V", "correta": false, "etiqueta": "qui-esqueceu-balancear" },
+      { "letra": "D", "texto": "Zn + 2 Ag⁺ → Zn²⁺ + 2 Ag, ddp = 1,56 V", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Zn + 2 Ag⁺ → Zn²⁺ + 2 Ag, ddp = 0,04 V", "correta": false, "etiqueta": "qui-erro-oxirreducao" }
+    ],
+    "explicacao": "A prata tem maior potencial, então reduz (cátodo), e o zinco se oxida. ddp = 0,80 − (−0,76) = 1,56 V. Para equilibrar os elétrons, a semirreação da prata é multiplicada por 2, mas o potencial não é multiplicado (é uma grandeza intensiva). A ddp de 0,04 V vem de somar os potenciais.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-eletroquimica-011", "materia": "quimica", "assunto": "eletroquimica", "questionario": 3, "dificuldade": -1,
+    "contexto": "Descarte de pilhas",
+    "enunciado": "Pilhas e baterias usadas devem ser entregues em pontos de coleta, e não jogadas no lixo comum. Qual é a principal razão dessa recomendação?",
+    "alternativas": [
+      { "letra": "A", "texto": "Elas explodem sozinhas quando misturadas com outro lixo.", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "B", "texto": "Elas atraem insetos e roedores para os aterros.", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "C", "texto": "Elas emitem radiação que atinge o solo.", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "D", "texto": "Elas ocupam muito espaço por serem grandes.", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "E", "texto": "Contêm metais tóxicos, como chumbo, cádmio e mercúrio, que podem contaminar o solo e a água.", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Muitas pilhas e baterias contêm metais pesados tóxicos, que podem vazar e contaminar solo, água e cadeia alimentar. Em pontos de coleta, os materiais podem ser tratados e parte deles reaproveitada.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-eletroquimica-012", "materia": "quimica", "assunto": "eletroquimica", "questionario": 3, "dificuldade": -1,
+    "contexto": "Nox da ferrugem",
+    "enunciado": "A ferrugem contém principalmente o óxido de ferro Fe2O3. Sabendo que o oxigênio tem número de oxidação −2 nesse composto, qual o número de oxidação do ferro?",
+    "alternativas": [
+      { "letra": "A", "texto": "+2", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "B", "texto": "+1", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "C", "texto": "+3", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "+6", "correta": false, "etiqueta": "qui-erro-oxirreducao" },
+      { "letra": "E", "texto": "0", "correta": false, "etiqueta": "qui-senso-comum" }
+    ],
+    "explicacao": "A soma dos nox em uma molécula neutra é zero. Os três oxigênios somam 3 × (−2) = −6, então os dois ferros somam +6, e cada um tem +3. Responder +6 esquece que há dois átomos de ferro.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-eletroquimica-013", "materia": "quimica", "assunto": "eletroquimica", "questionario": 3, "dificuldade": 0,
+    "contexto": "Prego na solução de cobre",
+    "enunciado": "Um prego de zinco é mergulhado em solução de sulfato de cobre, e o zinco fica coberto por cobre metálico: Zn + Cu²⁺ → Zn²⁺ + Cu. Qual é o agente oxidante dessa reação?",
+    "alternativas": [
+      { "letra": "A", "texto": "Zn, que perde elétrons.", "correta": false, "etiqueta": "qui-erro-oxirreducao" },
+      { "letra": "B", "texto": "Zn²⁺, que é produto da reação.", "correta": false, "etiqueta": "qui-erro-oxirreducao" },
+      { "letra": "C", "texto": "SO4²⁻, que está em solução.", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "D", "texto": "Cu²⁺, que recebe elétrons.", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Cu metálico, que se deposita.", "correta": false, "etiqueta": "qui-erro-oxirreducao" }
+    ],
+    "explicacao": "O agente oxidante é a espécie que provoca a oxidação de outra, e para isso se reduz, ganhando elétrons. O Cu²⁺ vai a Cu, ganhando 2 elétrons, então ele é o agente oxidante. O zinco, que perde elétrons, é o agente redutor.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-eletroquimica-014", "materia": "quimica", "assunto": "eletroquimica", "questionario": 3, "dificuldade": 0,
+    "contexto": "Quebrando a água com eletricidade",
+    "enunciado": "Na eletrólise da água, 2 H2O → 2 H2 + O2, os gases H2 e O2 são recolhidos nos dois eletrodos, nas mesmas condições de temperatura e pressão. Qual a relação entre os volumes de H2 e de O2?",
+    "alternativas": [
+      { "letra": "A", "texto": "2 : 1", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "1 : 2", "correta": false, "etiqueta": "qui-inverteu-razao" },
+      { "letra": "C", "texto": "1 : 1", "correta": false, "etiqueta": "qui-esqueceu-balancear" },
+      { "letra": "D", "texto": "4 : 1", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "E", "texto": "3 : 2", "correta": false, "etiqueta": "qui-erro-conta" }
+    ],
+    "explicacao": "Para gases nas mesmas condições, a proporção em volume é a dos coeficientes: 2 H2 para 1 O2, então o volume de H2 é o dobro do de O2. O H2 se forma no cátodo e o O2 no ânodo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-eletroquimica-015", "materia": "quimica", "assunto": "eletroquimica", "questionario": 3, "dificuldade": 1,
+    "contexto": "Quanto zinco a pilha gasta",
+    "enunciado": "Em uma pilha, circula uma corrente de 1 A durante 9.650 s, com o zinco sofrendo Zn → Zn²⁺ + 2 e⁻. Considere 1 mol de elétrons = 96.500 C e Zn = 65 g/mol. Qual a massa de zinco consumida?",
+    "alternativas": [
+      { "letra": "A", "texto": "6,5 g", "correta": false, "etiqueta": "qui-esqueceu-balancear" },
+      { "letra": "B", "texto": "3,25 g", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "0,65 g", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "D", "texto": "32,5 g", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "E", "texto": "65 g", "correta": false, "etiqueta": "qui-ignorou-dado" }
+    ],
+    "explicacao": "Carga: 1 × 9.650 = 9.650 C, o que dá 9.650 ÷ 96.500 = 0,1 mol de elétrons. Cada Zn libera 2 elétrons, então se consome 0,05 mol de Zn, ou 0,05 × 65 = 3,25 g. Responder 6,5 g supõe 1 elétron por zinco.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-eletroquimica-016", "materia": "quimica", "assunto": "eletroquimica", "questionario": 4, "dificuldade": -1,
+    "contexto": "Cátodo, sempre o mesmo",
+    "enunciado": "Em qualquer célula eletroquímica, seja uma pilha ou uma eletrólise, que processo ocorre no cátodo?",
+    "alternativas": [
+      { "letra": "A", "texto": "Oxidação", "correta": false, "etiqueta": "qui-erro-oxirreducao" },
+      { "letra": "B", "texto": "Perda de elétrons", "correta": false, "etiqueta": "qui-erro-oxirreducao" },
+      { "letra": "C", "texto": "Liberação de calor", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "D", "texto": "Redução", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Dissolução do metal do eletrodo", "correta": false, "etiqueta": "qui-erro-oxirreducao" }
+    ],
+    "explicacao": "No cátodo sempre ocorre redução (ganho de elétrons), e no ânodo sempre ocorre oxidação. Os polos é que mudam: na pilha o cátodo é positivo e na eletrólise ele é negativo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-eletroquimica-017", "materia": "quimica", "assunto": "eletroquimica", "questionario": 4, "dificuldade": 0,
+    "contexto": "Niquelação de uma peça",
+    "enunciado": "Para revestir uma peça de ferro com níquel por eletrólise de uma solução com íons Ni²⁺, a peça deve ser ligada a qual polo, e por quê?",
+    "alternativas": [
+      { "letra": "A", "texto": "Ao ânodo (polo positivo), onde Ni²⁺ se oxida.", "correta": false, "etiqueta": "qui-erro-oxirreducao" },
+      { "letra": "B", "texto": "Ao cátodo (polo negativo), onde Ni²⁺ se reduz e se deposita.", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Ao ânodo, pois é onde os íons metálicos se depositam.", "correta": false, "etiqueta": "qui-erro-oxirreducao" },
+      { "letra": "D", "texto": "Ao polo positivo, pois cátions são atraídos por cargas positivas.", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "E", "texto": "Não precisa ser ligada a nenhum polo: basta mergulhar na solução.", "correta": false, "etiqueta": "qui-senso-comum" }
+    ],
+    "explicacao": "O níquel só se deposita quando Ni²⁺ é reduzido (Ni²⁺ + 2 e⁻ → Ni), e a redução ocorre no cátodo, que na eletrólise é o polo negativo. Os cátions são atraídos por cargas opostas, isto é, pelo polo negativo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-eletroquimica-018", "materia": "quimica", "assunto": "eletroquimica", "questionario": 4, "dificuldade": 0,
+    "contexto": "Para que serve a ponte salina",
+    "enunciado": "Na pilha de Daniell, as duas semicélulas são conectadas por uma ponte salina, um tubo com solução salina. Qual é a função da ponte salina?",
+    "alternativas": [
+      { "letra": "A", "texto": "Conduzir os elétrons de um eletrodo ao outro.", "correta": false, "etiqueta": "qui-erro-oxirreducao" },
+      { "letra": "B", "texto": "Fornecer elétrons para a reação.", "correta": false, "etiqueta": "qui-erro-oxirreducao" },
+      { "letra": "C", "texto": "Permitir a migração de íons entre as soluções, mantendo-as eletricamente neutras.", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Aumentar a ddp da pilha.", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "E", "texto": "Impedir a oxidação do ânodo.", "correta": false, "etiqueta": "qui-senso-comum" }
+    ],
+    "explicacao": "Os elétrons passam pelo fio externo, e não pela ponte. A ponte salina deixa os íons migrarem entre as semicélulas e compensa o acúmulo de cargas: sem ela, o circuito não fecha e a pilha para de funcionar rapidamente.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-eletroquimica-019", "materia": "quimica", "assunto": "eletroquimica", "questionario": 4, "dificuldade": 1,
+    "contexto": "Qual solução cabe no recipiente de ferro",
+    "enunciado": "Potenciais padrão de redução (V): Mg²⁺/Mg = −2,37; Zn²⁺/Zn = −0,76; Fe²⁺/Fe = −0,44; Cu²⁺/Cu = +0,34. Uma solução só pode ser guardada em recipiente de ferro se o ferro não for atacado por ela. Qual das soluções abaixo corroeria o recipiente de ferro?",
+    "alternativas": [
+      { "letra": "A", "texto": "Solução de MgSO4", "correta": false, "etiqueta": "qui-erro-oxirreducao" },
+      { "letra": "B", "texto": "Solução de ZnSO4", "correta": false, "etiqueta": "qui-erro-oxirreducao" },
+      { "letra": "C", "texto": "Solução de FeSO4", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "D", "texto": "Água destilada, sem oxigênio", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "E", "texto": "Solução de CuSO4", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "O ferro se oxida (Fe → Fe²⁺) se o cátion da solução tiver potencial de redução maior que o dele (−0,44 V). Só o Cu²⁺ (+0,34 V) tem: Fe + Cu²⁺ → Fe²⁺ + Cu, com ddp = 0,34 − (−0,44) = 0,78 V, espontânea. Mg²⁺ e Zn²⁺ têm potenciais menores e não reagem com o ferro.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-eletroquimica-020", "materia": "quimica", "assunto": "eletroquimica", "questionario": 4, "dificuldade": 1,
+    "contexto": "Fabricando soda e cloro",
+    "enunciado": "Na indústria, faz-se a eletrólise de uma solução aquosa concentrada de NaCl para obter cloro, hidrogênio e soda cáustica. Nessas condições, o que se forma em cada eletrodo e na solução?",
+    "alternativas": [
+      { "letra": "A", "texto": "Cl2 no ânodo, H2 no cátodo e NaOH em solução.", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Na metálico no cátodo e Cl2 no ânodo.", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "C", "texto": "O2 no ânodo e H2 no cátodo, sem formação de NaOH.", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "D", "texto": "Cl2 no cátodo e H2 no ânodo.", "correta": false, "etiqueta": "qui-erro-oxirreducao" },
+      { "letra": "E", "texto": "Apenas NaCl sólido, que se deposita nos dois eletrodos.", "correta": false, "etiqueta": "qui-senso-comum" }
+    ],
+    "explicacao": "Em solução aquosa, a água compete com os íons. No cátodo, a água se reduz mais facilmente que o Na⁺: 2 H2O + 2 e⁻ → H2 + 2 OH⁻. No ânodo, o Cl⁻ se oxida: 2 Cl⁻ → Cl2 + 2 e⁻. Sobram Na⁺ e OH⁻ na solução, ou seja, NaOH. Na metálico só se forma na eletrólise ígnea.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]

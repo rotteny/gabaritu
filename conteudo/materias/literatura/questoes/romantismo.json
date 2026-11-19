@@ -1,0 +1,902 @@
+[
+  {
+    "id": "lit-romantismo-001",
+    "materia": "literatura",
+    "assunto": "romantismo",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Marcas do Romantismo",
+    "enunciado": "O Romantismo, que se desenvolveu no Brasil no século XIX, valorizou o indivíduo e a emoção. Entre suas características principais estão",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o objetivismo, o cientificismo e a análise impessoal da sociedade.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "B",
+        "texto": "o equilíbrio, a razão e a imitação dos modelos clássicos.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "C",
+        "texto": "o subjetivismo, o sentimentalismo, a exaltação da natureza e a liberdade de criação.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "a arte pela arte, o rigor formal e a descrição precisa.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "E",
+        "texto": "o verso livre, a ruptura com a tradição e a experimentação de vanguarda.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      }
+    ],
+    "explicacao": "O Romantismo põe o eu e o sentimento no centro e rompe com as regras clássicas, valorizando a natureza e a imaginação. As outras opções descrevem Realismo e Naturalismo (objetividade), Arcadismo (razão), Parnasianismo (rigor formal) e Modernismo (verso livre).",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-romantismo-002",
+    "materia": "literatura",
+    "assunto": "romantismo",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Canção do Exílio",
+    "enunciado": "“Minha terra tem palmeiras, / Onde canta o Sabiá; / As aves, que aqui gorjeiam, / Não gorjeiam como lá.” (Gonçalves Dias, “Canção do Exílio”). O tema central desses versos é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a crítica política ao governo imperial e às suas leis.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "B",
+        "texto": "o desejo de abandonar o Brasil e viver no exterior.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      },
+      {
+        "letra": "C",
+        "texto": "a descrição científica das espécies de aves tropicais.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "D",
+        "texto": "o ceticismo e o desencanto do eu lírico diante da vida.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      },
+      {
+        "letra": "E",
+        "texto": "a saudade da pátria e a exaltação da natureza brasileira, marcas do nacionalismo romântico.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "O poeta escreve distante do Brasil e sente saudade, exaltando palmeiras e sabiás como símbolos da terra. Esse nacionalismo ufanista, com natureza idealizada, é típico da 1ª geração romântica. Não há crítica política nem desejo de partir.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-romantismo-003",
+    "materia": "literatura",
+    "assunto": "romantismo",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Iracema",
+    "enunciado": "Em “Iracema”, de José de Alencar, o nome da protagonista indígena é um anagrama de “América”. Essa escolha sugere que o romance simboliza",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a formação da nação brasileira a partir da união entre indígena e colonizador.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "o extermínio violento dos povos indígenas pelos portugueses.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "C",
+        "texto": "a crítica à escravidão africana nas fazendas.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "D",
+        "texto": "a idealização do vaqueiro nordestino e do coronelismo.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-contexto-social"
+      },
+      {
+        "letra": "E",
+        "texto": "a denúncia da corrupção na corte portuguesa.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      }
+    ],
+    "explicacao": "Iracema, a “virgem dos lábios de mel”, une-se a Martim, o colonizador português, e dá à luz Moacir, o primeiro brasileiro. É uma fundação mítica da nação, e o anagrama América reforça o simbolismo. A obra pertence ao indianismo idealizado do Romantismo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-romantismo-004",
+    "materia": "literatura",
+    "assunto": "romantismo",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Geração do mal do século",
+    "enunciado": "Leia o poema autoral: “Se a vida me cansa, a morte me chama; / No leito de sombras, repouso e sonho; / Sou triste, e a tristeza é minha dama / Num mundo vazio, sem luz, sem ensejo.” Esse poema pertence à geração",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "indianista, pelo nacionalismo e pela exaltação do herói indígena.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-geracao"
+      },
+      {
+        "letra": "B",
+        "texto": "condoreira, pelo tom grandiloquente e pelo engajamento social.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-geracao"
+      },
+      {
+        "letra": "C",
+        "texto": "realista, pela análise objetiva da sociedade.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "D",
+        "texto": "árcade, pelo equilíbrio racional e pela vida pastoril.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "E",
+        "texto": "ultrarromântica, pelo desencanto, pela atração pela morte e pelo tédio.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "Pessimismo, evasão, culto da noite e da morte, e o sofrimento como estado natural são marcas da 2ª geração romântica, ligada ao mal do século. É a poesia de Álvares de Azevedo e de Casimiro de Abreu. O tom é intimista, e não social ou nacionalista.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-romantismo-005",
+    "materia": "literatura",
+    "assunto": "romantismo",
+    "questionario": 1,
+    "dificuldade": 1,
+    "contexto": "Navio Negreiro",
+    "enunciado": "“Senhor Deus dos desgraçados! / Dizei-me vós, Senhor Deus, / Se é loucura... se é verdade / Tanto horror perante os céus?!” Esse trecho de “O Navio Negreiro”, de Castro Alves, evidencia",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a evasão sentimental, sem nenhuma relação com o contexto social.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-geracao"
+      },
+      {
+        "letra": "B",
+        "texto": "a descrição objetiva e impessoal do tráfico, típica do Realismo.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "C",
+        "texto": "a exaltação do indígena como herói nacional.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-geracao"
+      },
+      {
+        "letra": "D",
+        "texto": "a denúncia da escravidão, em tom grandiloquente e de apelo social, típico da 3ª geração romântica.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "o elogio ao progresso trazido pelo comércio marítimo.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      }
+    ],
+    "explicacao": "Castro Alves usa o recurso da apóstrofe (Senhor Deus...) e tom épico para protestar contra a escravidão. É a poesia social e abolicionista da geração condoreira, em que o poeta se compromete com causas coletivas. Não se trata de evasão nem de descrição fria.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-romantismo-006",
+    "materia": "literatura",
+    "assunto": "romantismo",
+    "questionario": 2,
+    "dificuldade": -1,
+    "contexto": "A Moreninha",
+    "enunciado": "O romance “A Moreninha” (1844), um dos primeiros sucessos do romance romântico urbano brasileiro, foi escrito por",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "José de Alencar.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      },
+      {
+        "letra": "B",
+        "texto": "Joaquim Manuel de Macedo.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "Machado de Assis.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      },
+      {
+        "letra": "D",
+        "texto": "Manuel Antônio de Almeida.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      },
+      {
+        "letra": "E",
+        "texto": "Aluísio Azevedo.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      }
+    ],
+    "explicacao": "Macedo escreveu romances leves ambientados na elite urbana do Rio de Janeiro, com enredos amorosos e jovens estudantes. Alencar escreveu “Iracema”, Almeida escreveu “Memórias de um Sargento de Milícias”, Machado e Aluísio pertencem ao Realismo e ao Naturalismo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-romantismo-007",
+    "materia": "literatura",
+    "assunto": "romantismo",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "O sargento e o malandro",
+    "enunciado": "“Memórias de um Sargento de Milícias”, de Manuel Antônio de Almeida, destaca-se no Romantismo brasileiro por",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "apresentar um herói idealizado, nobre e sem defeitos.",
+        "correta": false,
+        "etiqueta": "lit-idealizacao-x-critica"
+      },
+      {
+        "letra": "B",
+        "texto": "analisar cientificamente a influência do meio sobre os personagens.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "C",
+        "texto": "retratar de forma bem-humorada o povo e os costumes do Rio de Janeiro de D. João VI, com um herói malandro e pouco idealizado.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "ser narrado em primeira pessoa por um defunto.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-narrador"
+      },
+      {
+        "letra": "E",
+        "texto": "idealizar o sertão e o sertanejo como cenário épico.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-contexto-social"
+      }
+    ],
+    "explicacao": "A obra foge do padrão idealizado: Leonardo é um malandro, e o romance traz tipos populares, humor e crítica leve. Ela é considerada precursora do romance de costumes e antecipa traços do Realismo. A narrativa em 1ª pessoa por um defunto é de Machado de Assis.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-romantismo-008",
+    "materia": "literatura",
+    "assunto": "romantismo",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "I-Juca Pirama",
+    "enunciado": "“Meu canto de morte, / Guerreiros, ouvi: / Sou filho das selvas, / Nas selvas cresci;” (Gonçalves Dias, “I-Juca Pirama”). Nesses versos, o indígena é apresentado como",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "retrato realista e documental do cotidiano dos povos indígenas.",
+        "correta": false,
+        "etiqueta": "lit-idealizacao-x-critica"
+      },
+      {
+        "letra": "B",
+        "texto": "herói nacional idealizado, corajoso e honrado, símbolo da identidade brasileira.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "estereótipo cômico usado para criticar a corte portuguesa.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      },
+      {
+        "letra": "D",
+        "texto": "vítima passiva, sem nenhum valor ou dignidade pessoal.",
+        "correta": false,
+        "etiqueta": "lit-idealizacao-x-critica"
+      },
+      {
+        "letra": "E",
+        "texto": "estrangeiro sem ligação com a natureza e a terra.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      }
+    ],
+    "explicacao": "O guerreiro tupi canta seu valor e sua origem nas selvas com orgulho, como um cavaleiro medieval. É a idealização típica do indianismo romântico, que buscou um herói nacional no passado indígena. Não se trata de documento etnográfico.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-romantismo-009",
+    "materia": "literatura",
+    "assunto": "romantismo",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Aurélia e Seixas",
+    "enunciado": "No romance “Senhora” (1875), de José de Alencar, uma jovem rica, Aurélia, “compra” como marido o rapaz que a abandonou quando ela era pobre. A obra tem como tema central",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a vida do sertanejo e os conflitos da seca no interior.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      },
+      {
+        "letra": "B",
+        "texto": "a escravidão nas grandes fazendas de café.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-contexto-social"
+      },
+      {
+        "letra": "C",
+        "texto": "a mercantilização do casamento e dos sentimentos pela lógica do dinheiro.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "a saudade da pátria vivida por um poeta no exílio.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      },
+      {
+        "letra": "E",
+        "texto": "a vida boêmia de estudantes de Direito em São Paulo.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-contexto-social"
+      }
+    ],
+    "explicacao": "Em “Senhora”, Alencar retrata a sociedade urbana do Rio de Janeiro e critica o casamento por interesse, usando a linguagem do comércio (dote, preço, compra). É um dos romances urbanos do autor, que mostram traços críticos mesmo dentro da estética romântica.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-romantismo-010",
+    "materia": "literatura",
+    "assunto": "romantismo",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Três gerações românticas",
+    "enunciado": "A poesia romântica brasileira costuma ser dividida em três gerações. A correspondência correta é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1ª, social e condoreira; 2ª, nacionalista; 3ª, pessimista.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-geracao"
+      },
+      {
+        "letra": "B",
+        "texto": "1ª, nacionalista e indianista; 2ª, subjetiva e pessimista (mal do século); 3ª, social e condoreira.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "1ª, pessimista; 2ª, social; 3ª, indianista.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-geracao"
+      },
+      {
+        "letra": "D",
+        "texto": "1ª, condoreira; 2ª, indianista; 3ª, subjetiva.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-geracao"
+      },
+      {
+        "letra": "E",
+        "texto": "1ª, subjetiva; 2ª, social e abolicionista; 3ª, nacionalista.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-geracao"
+      }
+    ],
+    "explicacao": "A cronologia vai da exaltação da pátria (Gonçalves Dias) ao individualismo pessimista (Álvares de Azevedo) e ao engajamento social (Castro Alves). Quem decora a sequência “nação, eu, sociedade” não erra a ordem.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-romantismo-011",
+    "materia": "literatura",
+    "assunto": "romantismo",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "O marco inicial",
+    "enunciado": "O Romantismo brasileiro costuma ter como marco inicial, em 1836, a publicação de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "“Iracema”, de José de Alencar.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "B",
+        "texto": "“Memórias Póstumas de Brás Cubas”, de Machado de Assis.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "C",
+        "texto": "“Missal”, de Cruz e Sousa.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "D",
+        "texto": "“Suspiros Poéticos e Saudades”, de Gonçalves de Magalhães.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "“Pauliceia Desvairada”, de Mário de Andrade.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      }
+    ],
+    "explicacao": "O livro de Gonçalves de Magalhães, publicado em Paris em 1836, inaugura o Romantismo no Brasil. As outras obras são posteriores ou de outras escolas: Memórias Póstumas (Realismo, 1881), Missal (Simbolismo, 1893) e Pauliceia Desvairada (Modernismo, 1922).",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-romantismo-012",
+    "materia": "literatura",
+    "assunto": "romantismo",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Independência e identidade",
+    "enunciado": "O nacionalismo é uma marca do Romantismo brasileiro. Um fator histórico que ajuda a explicá-lo é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a Proclamação da República (1889), que criou o novo regime.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "B",
+        "texto": "a Abolição da escravatura (1888), que libertou os escravizados.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "C",
+        "texto": "a Guerra do Paraguai (1864 a 1870), que dividiu o país.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "D",
+        "texto": "a Semana de Arte Moderna (1922), que renovou a cultura.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "E",
+        "texto": "a independência do país (1822), que exigia a construção de uma identidade e de uma literatura nacionais.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "Depois da Independência, os escritores sentiram a necessidade de criar símbolos nacionais: o indígena, a natureza, a história do país. As outras datas são posteriores ao início do Romantismo ou pertencem a outro contexto.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-romantismo-013",
+    "materia": "literatura",
+    "assunto": "romantismo",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Meus oito anos",
+    "enunciado": "“Oh! que saudades que tenho / Da aurora da minha vida, / Da minha infância querida / Que os anos não trazem mais!” (Casimiro de Abreu, “Meus oito anos”). O tema do trecho é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a crítica social ao trabalho infantil nas fábricas.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "B",
+        "texto": "a defesa do fim da escravidão.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-tema"
+      },
+      {
+        "letra": "C",
+        "texto": "a nostalgia da infância, idealizada como um tempo de pureza e felicidade.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "a análise científica do desenvolvimento humano.",
+        "correta": false,
+        "etiqueta": "lit-trocou-caracteristica"
+      },
+      {
+        "letra": "E",
+        "texto": "a exaltação do indígena como herói nacional.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-geracao"
+      }
+    ],
+    "explicacao": "O eu lírico lamenta a perda da infância, que aparece como paraíso perdido, com a natureza e o aconchego da família. Esse saudosismo sentimental é típico da 2ª geração romântica. Não há crítica social nem ciência.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-romantismo-014",
+    "materia": "literatura",
+    "assunto": "romantismo",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Peri, o herói",
+    "enunciado": "Em “O Guarani”, de José de Alencar, Peri protege Ceci com lealdade absoluta e submete-se à ordem dos brancos. Esse personagem representa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o índio idealizado, forte e fiel, uma espécie de cavaleiro medieval a serviço do colonizador.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "o indígena que resiste e luta contra o colonizador.",
+        "correta": false,
+        "etiqueta": "lit-idealizacao-x-critica"
+      },
+      {
+        "letra": "C",
+        "texto": "um malandro urbano que vive de pequenos golpes.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      },
+      {
+        "letra": "D",
+        "texto": "um tipo naturalista condicionado pelo meio e pela raça.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "E",
+        "texto": "um fazendeiro escravocrata do século XIX.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-contexto-social"
+      }
+    ],
+    "explicacao": "Peri é bravo, nobre e devotado, em um modelo idealizado que lembra o herói cavalheiresco europeu. Esse retrato serviu à construção de um mito de fundação nacional, e não ao registro realista da vida indígena.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-romantismo-015",
+    "materia": "literatura",
+    "assunto": "romantismo",
+    "questionario": 3,
+    "dificuldade": 1,
+    "contexto": "Poema da noite",
+    "enunciado": "Leia o poema autoral: “Das horas que passo em vigília, / só a noite me escuta e consola; / amo a dor, minha velha familiar, / e a morte me chama, mais bela que a vida.” Predominam nesse texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o egocentrismo, o tédio e a idealização da morte, típicos do mal do século.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "o equilíbrio racional e a vida simples do campo, típicos do Arcadismo.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "C",
+        "texto": "a impessoalidade e o rigor científico, típicos do Naturalismo.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "D",
+        "texto": "o contraste entre carne e espírito, típico do Barroco.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "E",
+        "texto": "o uso da língua coloquial e do cotidiano, típicos do Modernismo.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      }
+    ],
+    "explicacao": "O texto fala de noite, dor e morte como refúgio, em primeira pessoa e tom intimista, marcas do ultrarromantismo. As outras escolas têm tom distinto: razão e campo (Arcadismo), ciência (Naturalismo), dualismo religioso (Barroco) e coloquialismo (Modernismo).",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-romantismo-016",
+    "materia": "literatura",
+    "assunto": "romantismo",
+    "questionario": 4,
+    "dificuldade": -1,
+    "contexto": "Quem escreveu a Canção?",
+    "enunciado": "O poema “Canção do Exílio”, que começa com “Minha terra tem palmeiras”, é de autoria de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Castro Alves.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      },
+      {
+        "letra": "B",
+        "texto": "Álvares de Azevedo.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      },
+      {
+        "letra": "C",
+        "texto": "Casimiro de Abreu.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      },
+      {
+        "letra": "D",
+        "texto": "Gonçalves Dias.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "Machado de Assis.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-autor-obra"
+      }
+    ],
+    "explicacao": "O poema foi escrito por Gonçalves Dias em 1843, quando estudava em Coimbra, e se tornou o grande símbolo do nacionalismo romântico. Foi muito retomado em paródias, como no Modernismo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-romantismo-017",
+    "materia": "literatura",
+    "assunto": "romantismo",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "Teatro de costumes",
+    "enunciado": "No teatro romântico brasileiro, Martins Pena ficou conhecido por escrever",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "tragédias gregas, sobre o destino dos heróis míticos.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-forma"
+      },
+      {
+        "letra": "B",
+        "texto": "comédias de costumes, que retratam com humor a vida e os tipos populares da sociedade da época.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "autos religiosos, para ensinar a doutrina cristã.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      },
+      {
+        "letra": "D",
+        "texto": "dramas históricos sobre a vida da corte.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-forma"
+      },
+      {
+        "letra": "E",
+        "texto": "peças do teatro do absurdo, sem enredo.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      }
+    ],
+    "explicacao": "Martins Pena escreveu comédias curtas, de grande sucesso popular, que satirizam costumes, golpes e relações sociais do Rio de Janeiro do século XIX. É o principal nome da comédia de costumes no período.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-romantismo-018",
+    "materia": "literatura",
+    "assunto": "romantismo",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "O folhetim",
+    "enunciado": "No século XIX, muitos romances românticos foram publicados em capítulos nos jornais, os chamados folhetins. Essa prática contribuiu para",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "substituir a poesia, que deixou de ser publicada.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "B",
+        "texto": "limitar a leitura exclusivamente à corte imperial.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "C",
+        "texto": "popularizar o teatro de revista no país.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "D",
+        "texto": "afastar os leitores, que preferiam ouvir histórias.",
+        "correta": false,
+        "etiqueta": "lit-ignorou-contexto"
+      },
+      {
+        "letra": "E",
+        "texto": "formar um público leitor urbano e difundir o romance no Brasil.",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "O folhetim aproximou o romance do cotidiano, criou o hábito de leitura regular e transformou o jornal em veículo literário. Alencar, Macedo e Almeida publicaram obras assim.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-romantismo-019",
+    "materia": "literatura",
+    "assunto": "romantismo",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Minha terra tem shoppings",
+    "enunciado": "Leia o poema autoral: “Minha terra tem palmeiras, / onde canta o sabiá; / mas só escuto o barulho / do trânsito que não para.” Em relação à “Canção do Exílio”, de Gonçalves Dias, o texto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "retoma o poema romântico em forma de paródia, invertendo o ufanismo para criticar a vida urbana.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "copia fielmente o poema original, como forma de homenagem.",
+        "correta": false,
+        "etiqueta": "lit-nao-viu-intertextualidade"
+      },
+      {
+        "letra": "C",
+        "texto": "mantém o mesmo elogio à terra, porque o sentido não muda.",
+        "correta": false,
+        "etiqueta": "lit-nao-viu-intertextualidade"
+      },
+      {
+        "letra": "D",
+        "texto": "pertence à mesma geração romântica, pois usa os mesmos versos.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-geracao"
+      },
+      {
+        "letra": "E",
+        "texto": "é um poema árcade, pois fala de pássaros e de campo.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      }
+    ],
+    "explicacao": "O poema repete o início do original, mas o contraste com o “barulho do trânsito” subverte a exaltação da natureza. Retomar para criticar é paródia, recurso muito usado depois do Romantismo, inclusive por modernistas.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "lit-romantismo-020",
+    "materia": "literatura",
+    "assunto": "romantismo",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "O Sertanejo",
+    "enunciado": "O romance “O Sertanejo” (1875), de José de Alencar, ambientado no interior do Ceará, valoriza a paisagem e os tipos humanos do sertão. Ele integra o conjunto de romances",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "urbanos, que retratam o cotidiano dos salões do Rio de Janeiro.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-contexto-social"
+      },
+      {
+        "letra": "B",
+        "texto": "históricos, que reconstituem a época das primeiras viagens marítimas.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-contexto-social"
+      },
+      {
+        "letra": "C",
+        "texto": "indianistas, que têm como herói o indígena do século XVI.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-geracao"
+      },
+      {
+        "letra": "D",
+        "texto": "regionalistas, que exploram o interior do país e seus tipos humanos.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "naturalistas, que analisam o homem como produto do meio.",
+        "correta": false,
+        "etiqueta": "lit-confundiu-escola"
+      }
+    ],
+    "explicacao": "Alencar escreveu em vários “ciclos”: indianista, histórico, urbano e regionalista. “O Sertanejo” e “O Gaúcho” são regionalistas, e o herói do sertão é idealizado. O Naturalismo é posterior e tem outra proposta.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  }
+]

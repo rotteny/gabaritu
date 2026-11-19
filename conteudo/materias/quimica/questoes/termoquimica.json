@@ -1,0 +1,282 @@
+[
+  {
+    "id": "qui-termoquimica-001", "materia": "quimica", "assunto": "termoquimica", "questionario": 1, "dificuldade": -1,
+    "contexto": "Vela acesa",
+    "enunciado": "A queima de uma vela libera calor e luz para o ambiente. Como essa reação é classificada, e qual o sinal da variação de entalpia (ΔH)?",
+    "alternativas": [
+      { "letra": "A", "texto": "Endotérmica, com ΔH > 0.", "correta": false, "etiqueta": "qui-erro-sinal-energia" },
+      { "letra": "B", "texto": "Exotérmica, com ΔH < 0.", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Exotérmica, com ΔH > 0.", "correta": false, "etiqueta": "qui-erro-sinal-energia" },
+      { "letra": "D", "texto": "Endotérmica, com ΔH < 0.", "correta": false, "etiqueta": "qui-erro-sinal-energia" },
+      { "letra": "E", "texto": "Nem exotérmica nem endotérmica, pois a vela precisa de fogo para acender.", "correta": false, "etiqueta": "qui-senso-comum" }
+    ],
+    "explicacao": "Reações que liberam calor são exotérmicas, e nelas a entalpia dos produtos é menor que a dos reagentes, então ΔH < 0. Precisar de uma chama para começar não muda isso: é só a energia de ativação.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-termoquimica-002", "materia": "quimica", "assunto": "termoquimica", "questionario": 1, "dificuldade": -1,
+    "contexto": "Bolsa de gelo instantânea",
+    "enunciado": "Em uma bolsa de gelo instantânea, ao se romper a ampola interna, um sal se dissolve na água e a bolsa esfria. Esse processo, em que o sistema absorve calor do ambiente, é chamado de:",
+    "alternativas": [
+      { "letra": "A", "texto": "exotérmico", "correta": false, "etiqueta": "qui-erro-sinal-energia" },
+      { "letra": "B", "texto": "isotérmico", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "C", "texto": "catalítico", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "D", "texto": "endotérmico", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "adiabático", "correta": false, "etiqueta": "qui-senso-comum" }
+    ],
+    "explicacao": "Um processo que absorve calor da vizinhança é endotérmico. Por isso a bolsa fica fria: ela retira calor do ambiente (e da sua pele). Exotérmico seria o contrário, com liberação de calor.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-termoquimica-003", "materia": "quimica", "assunto": "termoquimica", "questionario": 1, "dificuldade": 0,
+    "contexto": "Esquentando a água do chimarrão",
+    "enunciado": "A quantidade de calor absorvida por uma massa de água é Q = m · c · ΔT. Para aquecer 200 g de água de 20 °C a 70 °C, sendo o calor específico da água 1 cal/(g·°C), quantas calorias são necessárias?",
+    "alternativas": [
+      { "letra": "A", "texto": "10.000 cal", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "4.000 cal", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "C", "texto": "14.000 cal", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "D", "texto": "4 cal", "correta": false, "etiqueta": "qui-inverteu-razao" },
+      { "letra": "E", "texto": "250 cal", "correta": false, "etiqueta": "qui-erro-conta" }
+    ],
+    "explicacao": "A variação de temperatura é ΔT = 70 − 20 = 50 °C. Então Q = 200 × 1 × 50 = 10.000 cal. Usar só a temperatura inicial (4.000) ou só a final (14.000) esquece que o que importa é a diferença entre elas.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-termoquimica-004", "materia": "quimica", "assunto": "termoquimica", "questionario": 1, "dificuldade": 0,
+    "contexto": "Energia do gás natural",
+    "enunciado": "A combustão completa de 1 mol de metano (CH4) libera cerca de 890 kJ. Quanta energia é liberada na queima de 32 g de metano (16 g/mol)?",
+    "alternativas": [
+      { "letra": "A", "texto": "890 kJ liberados", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "B", "texto": "1.780 kJ absorvidos", "correta": false, "etiqueta": "qui-erro-sinal-energia" },
+      { "letra": "C", "texto": "445 kJ liberados", "correta": false, "etiqueta": "qui-inverteu-razao" },
+      { "letra": "D", "texto": "28.480 kJ liberados", "correta": false, "etiqueta": "qui-confundiu-unidade" },
+      { "letra": "E", "texto": "1.780 kJ liberados", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "32 g ÷ 16 g/mol = 2 mol de CH4. Como cada mol libera 890 kJ, são 2 × 890 = 1.780 kJ liberados. A combustão é exotérmica, então a energia é liberada, e não absorvida. Multiplicar 32 por 890 mistura massa com mol.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-termoquimica-005", "materia": "quimica", "assunto": "termoquimica", "questionario": 1, "dificuldade": 1,
+    "contexto": "Lei de Hess em duas etapas",
+    "enunciado": "São dadas as equações: (I) C(s) + O2(g) → CO2(g), ΔH = −394 kJ; (II) CO(g) + ½ O2(g) → CO2(g), ΔH = −283 kJ. Pela lei de Hess, qual a variação de entalpia da reação C(s) + ½ O2(g) → CO(g)?",
+    "alternativas": [
+      { "letra": "A", "texto": "−677 kJ", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "B", "texto": "+111 kJ", "correta": false, "etiqueta": "qui-erro-sinal-energia" },
+      { "letra": "C", "texto": "−111 kJ", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "+283 kJ", "correta": false, "etiqueta": "qui-erro-sinal-energia" },
+      { "letra": "E", "texto": "−394 kJ", "correta": false, "etiqueta": "qui-ignorou-dado" }
+    ],
+    "explicacao": "Mantém-se a equação (I) e inverte-se a (II) para que o CO apareça como produto, trocando o sinal do ΔH dela para +283 kJ. Somando: −394 + 283 = −111 kJ. Somar os dois valores originais (−677) não corresponde à reação pedida.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-termoquimica-006", "materia": "quimica", "assunto": "termoquimica", "questionario": 2, "dificuldade": -1,
+    "contexto": "Qual combustível rende mais",
+    "enunciado": "Valores aproximados de energia liberada na combustão por grama: etanol, 30 kJ/g; gasolina, 46 kJ/g; metano (gás natural), 55 kJ/g; carvão mineral, 27 kJ/g. Qual desses combustíveis libera mais energia por grama queimada?",
+    "alternativas": [
+      { "letra": "A", "texto": "Etanol", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "B", "texto": "Gasolina", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "C", "texto": "Metano", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Carvão mineral", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "E", "texto": "Todos liberam a mesma energia por grama.", "correta": false, "etiqueta": "qui-senso-comum" }
+    ],
+    "explicacao": "Basta comparar os valores: 55 kJ/g do metano é o maior da lista. Cada combustível libera uma quantidade diferente de energia, e a comparação por massa é um dos critérios para escolher um combustível.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-termoquimica-007", "materia": "quimica", "assunto": "termoquimica", "questionario": 2, "dificuldade": 0,
+    "contexto": "Energia em quilos de etanol",
+    "enunciado": "Sabendo que a combustão do etanol libera cerca de 30 kJ por grama, qual a energia liberada na queima de 2 kg de etanol?",
+    "alternativas": [
+      { "letra": "A", "texto": "60.000 kJ", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "60 kJ", "correta": false, "etiqueta": "qui-confundiu-unidade" },
+      { "letra": "C", "texto": "6.000 kJ", "correta": false, "etiqueta": "qui-confundiu-unidade" },
+      { "letra": "D", "texto": "15 kJ", "correta": false, "etiqueta": "qui-inverteu-razao" },
+      { "letra": "E", "texto": "30.000 kJ", "correta": false, "etiqueta": "qui-ignorou-dado" }
+    ],
+    "explicacao": "2 kg = 2.000 g. A energia é 2.000 × 30 = 60.000 kJ. Os valores 60 e 6.000 vêm de errar a conversão de kg para g, e 30.000 kJ considera só 1 kg.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-termoquimica-008", "materia": "quimica", "assunto": "termoquimica", "questionario": 2, "dificuldade": 0,
+    "contexto": "Lendo um diagrama de entalpia",
+    "enunciado": "Em um diagrama de entalpia, os reagentes estão em 100 kJ e os produtos, em 40 kJ. Qual o valor de ΔH e como a reação é classificada?",
+    "alternativas": [
+      { "letra": "A", "texto": "ΔH = +60 kJ, endotérmica", "correta": false, "etiqueta": "qui-erro-sinal-energia" },
+      { "letra": "B", "texto": "ΔH = −60 kJ, endotérmica", "correta": false, "etiqueta": "qui-erro-sinal-energia" },
+      { "letra": "C", "texto": "ΔH = +140 kJ, endotérmica", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "D", "texto": "ΔH = −140 kJ, exotérmica", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "E", "texto": "ΔH = −60 kJ, exotérmica", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "ΔH = H(produtos) − H(reagentes) = 40 − 100 = −60 kJ. Como ΔH é negativo, a energia é liberada e a reação é exotérmica. Somar as entalpias (140) não tem significado.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-termoquimica-009", "materia": "quimica", "assunto": "termoquimica", "questionario": 2, "dificuldade": 1,
+    "contexto": "Entalpia de formação",
+    "enunciado": "Entalpias de formação aproximadas, em kJ/mol: CH4(g) = −75; CO2(g) = −394; H2O(l) = −286; O2(g) = 0. Qual o ΔH da combustão CH4 + 2 O2 → CO2 + 2 H2O(l), calculado por ΔH = Σ(produtos) − Σ(reagentes)?",
+    "alternativas": [
+      { "letra": "A", "texto": "−1.041 kJ", "correta": false, "etiqueta": "qui-erro-sinal-energia" },
+      { "letra": "B", "texto": "−891 kJ", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "−966 kJ", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "D", "texto": "−605 kJ", "correta": false, "etiqueta": "qui-esqueceu-balancear" },
+      { "letra": "E", "texto": "+891 kJ", "correta": false, "etiqueta": "qui-erro-sinal-energia" }
+    ],
+    "explicacao": "Produtos: −394 + 2 × (−286) = −966 kJ. Reagentes: −75 + 0 = −75 kJ. ΔH = −966 − (−75) = −891 kJ. Esquecer o coeficiente 2 da água dá −605, e subtrair o sinal errado do CH4 dá −1.041.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-termoquimica-010", "materia": "quimica", "assunto": "termoquimica", "questionario": 2, "dificuldade": 1,
+    "contexto": "Rótulo de barra de cereal",
+    "enunciado": "Em alimentos, considere que 1 g de carboidrato ou de proteína fornece 4 kcal e 1 g de lipídio fornece 9 kcal. Uma barra de cereal contém 20 g de carboidratos, 5 g de proteínas e 8 g de lipídios. Qual o valor energético dela?",
+    "alternativas": [
+      { "letra": "A", "texto": "33 kcal", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "B", "texto": "100 kcal", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "C", "texto": "132 kcal", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "D", "texto": "172 kcal", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "1.720 kcal", "correta": false, "etiqueta": "qui-confundiu-unidade" }
+    ],
+    "explicacao": "Carboidratos: 20 × 4 = 80 kcal. Proteínas: 5 × 4 = 20 kcal. Lipídios: 8 × 9 = 72 kcal. Total: 80 + 20 + 72 = 172 kcal. Somar só as massas (33) ignora o valor energético de cada nutriente, e usar 4 kcal/g para os lipídios (132) subestima a gordura.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-termoquimica-011", "materia": "quimica", "assunto": "termoquimica", "questionario": 3, "dificuldade": -1,
+    "contexto": "Mudanças de estado e calor",
+    "enunciado": "Entre os processos abaixo, qual é exotérmico, ou seja, libera calor para o ambiente?",
+    "alternativas": [
+      { "letra": "A", "texto": "Fusão do gelo", "correta": false, "etiqueta": "qui-erro-sinal-energia" },
+      { "letra": "B", "texto": "Evaporação do suor", "correta": false, "etiqueta": "qui-erro-sinal-energia" },
+      { "letra": "C", "texto": "Ebulição da água", "correta": false, "etiqueta": "qui-erro-sinal-energia" },
+      { "letra": "D", "texto": "Sublimação do gelo-seco", "correta": false, "etiqueta": "qui-erro-sinal-energia" },
+      { "letra": "E", "texto": "Congelamento da água", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Mudanças de estado que vão do mais ordenado ao menos ordenado (fusão, vaporização, sublimação) absorvem calor. A solidificação (congelamento) faz o caminho contrário e libera calor.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-termoquimica-012", "materia": "quimica", "assunto": "termoquimica", "questionario": 3, "dificuldade": -1,
+    "contexto": "Unidades de energia",
+    "enunciado": "Qual é a unidade de energia (e de calor) no Sistema Internacional de Unidades?",
+    "alternativas": [
+      { "letra": "A", "texto": "Watt (W)", "correta": false, "etiqueta": "qui-confundiu-unidade" },
+      { "letra": "B", "texto": "Newton (N)", "correta": false, "etiqueta": "qui-confundiu-unidade" },
+      { "letra": "C", "texto": "Joule (J)", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Kelvin (K)", "correta": false, "etiqueta": "qui-confundiu-unidade" },
+      { "letra": "E", "texto": "Pascal (Pa)", "correta": false, "etiqueta": "qui-confundiu-unidade" }
+    ],
+    "explicacao": "A unidade de energia no SI é o joule (J). O watt mede potência (J por segundo), o newton mede força, o kelvin mede temperatura e o pascal mede pressão.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-termoquimica-013", "materia": "quimica", "assunto": "termoquimica", "questionario": 3, "dificuldade": 0,
+    "contexto": "Banho morno",
+    "enunciado": "Misturam-se 100 g de água a 80 °C com 100 g de água a 20 °C, em um recipiente isolado. Considerando que só há troca de calor entre as duas porções de água, qual a temperatura final de equilíbrio?",
+    "alternativas": [
+      { "letra": "A", "texto": "100 °C", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "B", "texto": "60 °C", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "C", "texto": "40 °C", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "D", "texto": "50 °C", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "80 °C", "correta": false, "etiqueta": "qui-senso-comum" }
+    ],
+    "explicacao": "A água quente perde a mesma quantidade de calor que a fria ganha: 100·c·(80 − T) = 100·c·(T − 20). Como as massas são iguais, T é a média: (80 + 20) ÷ 2 = 50 °C. A temperatura final fica sempre entre as duas iniciais.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-termoquimica-014", "materia": "quimica", "assunto": "termoquimica", "questionario": 3, "dificuldade": 0,
+    "contexto": "Quebrar e formar ligações",
+    "enunciado": "Em uma reação química, ligações dos reagentes são quebradas e ligações dos produtos são formadas. Quebrar ligações absorve energia e formar ligações libera energia. Quando a reação é exotérmica?",
+    "alternativas": [
+      { "letra": "A", "texto": "Quando a energia liberada ao formar as ligações dos produtos é maior que a absorvida ao quebrar as dos reagentes.", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Quando a energia absorvida ao quebrar as ligações dos reagentes é maior que a liberada ao formar as dos produtos.", "correta": false, "etiqueta": "qui-erro-sinal-energia" },
+      { "letra": "C", "texto": "Quando a quebra de ligações libera mais energia que a formação.", "correta": false, "etiqueta": "qui-erro-sinal-energia" },
+      { "letra": "D", "texto": "Quando os reagentes têm entalpia menor que os produtos.", "correta": false, "etiqueta": "qui-erro-sinal-energia" },
+      { "letra": "E", "texto": "Sempre que a reação ocorre sozinha, sem ajuda externa.", "correta": false, "etiqueta": "qui-senso-comum" }
+    ],
+    "explicacao": "O saldo é o que define: se formar as ligações dos produtos libera mais energia do que quebrar as dos reagentes custou, sobra energia, e a reação é exotérmica (ΔH < 0). Reagentes com entalpia menor que a dos produtos caracterizam uma reação endotérmica.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-termoquimica-015", "materia": "quimica", "assunto": "termoquimica", "questionario": 3, "dificuldade": 1,
+    "contexto": "Energia de ligação na formação do HCl",
+    "enunciado": "Energias de ligação, em kJ/mol: H–H = 436; Cl–Cl = 243; H–Cl = 432. Para a reação H2 + Cl2 → 2 HCl, qual o ΔH, calculado como energia absorvida na quebra menos energia liberada na formação?",
+    "alternativas": [
+      { "letra": "A", "texto": "+185 kJ", "correta": false, "etiqueta": "qui-erro-sinal-energia" },
+      { "letra": "B", "texto": "−185 kJ", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "−864 kJ", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "D", "texto": "+679 kJ", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "E", "texto": "−92,5 kJ", "correta": false, "etiqueta": "qui-esqueceu-balancear" }
+    ],
+    "explicacao": "Quebra: 436 + 243 = 679 kJ absorvidos. Formação: 2 × 432 = 864 kJ liberados (dois mols de HCl). ΔH = 679 − 864 = −185 kJ. Esquecer o coeficiente 2 do HCl daria −92,5 kJ, e usar só um dos lados não dá o saldo.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-termoquimica-016", "materia": "quimica", "assunto": "termoquimica", "questionario": 4, "dificuldade": -1,
+    "contexto": "Caloria e joule",
+    "enunciado": "Considere 1 cal ≈ 4,2 J. Quantos joules correspondem a 100 cal?",
+    "alternativas": [
+      { "letra": "A", "texto": "23,8 J", "correta": false, "etiqueta": "qui-inverteu-razao" },
+      { "letra": "B", "texto": "4,2 J", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "C", "texto": "100 J", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "D", "texto": "420 J", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "4.200 J", "correta": false, "etiqueta": "qui-confundiu-unidade" }
+    ],
+    "explicacao": "Cada caloria vale 4,2 J, então 100 cal = 100 × 4,2 = 420 J. Dividir (23,8 J) inverte a conversão, e 4.200 J erra a conta por um fator de 10.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-termoquimica-017", "materia": "quimica", "assunto": "termoquimica", "questionario": 4, "dificuldade": 0,
+    "contexto": "Hidrogênio como combustível",
+    "enunciado": "A reação 2 H2(g) + O2(g) → 2 H2O(l) tem ΔH = −572 kJ. Considerando a massa molar do H2 igual a 2 g/mol, qual a energia liberada na queima de 1 g de H2?",
+    "alternativas": [
+      { "letra": "A", "texto": "286 kJ", "correta": false, "etiqueta": "qui-confundiu-unidade" },
+      { "letra": "B", "texto": "143 kJ", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "572 kJ", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "D", "texto": "1.144 kJ", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "E", "texto": "71,5 kJ", "correta": false, "etiqueta": "qui-erro-conta" }
+    ],
+    "explicacao": "A equação usa 2 mol de H2, ou seja, 4 g. Então 4 g liberam 572 kJ, e 1 g libera 572 ÷ 4 = 143 kJ. Os 286 kJ correspondem a 1 mol (2 g), e não a 1 g.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-termoquimica-018", "materia": "quimica", "assunto": "termoquimica", "questionario": 4, "dificuldade": 0,
+    "contexto": "Fogão com chama amarela",
+    "enunciado": "Quando a chama do fogão fica amarela e solta fuligem, a combustão é incompleta. Por que a combustão incompleta libera menos energia que a completa?",
+    "alternativas": [
+      { "letra": "A", "texto": "Porque o oxigênio absorve parte do calor.", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "B", "texto": "Porque a reação deixa de ser exotérmica.", "correta": false, "etiqueta": "qui-erro-sinal-energia" },
+      { "letra": "C", "texto": "Porque forma CO e C, que ainda guardam energia química e poderiam ser queimados.", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Porque se forma mais CO2 do que na completa.", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "E", "texto": "Porque se consome menos combustível.", "correta": false, "etiqueta": "qui-senso-comum" }
+    ],
+    "explicacao": "Na combustão incompleta o carbono não chega a CO2: forma-se CO ou fuligem (C), que ainda poderiam liberar mais energia ao queimar. Por isso se aproveita menos energia do mesmo combustível, além de se produzir um gás tóxico, o CO. A reação continua exotérmica.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-termoquimica-019", "materia": "quimica", "assunto": "termoquimica", "questionario": 4, "dificuldade": 1,
+    "contexto": "Calor de formação do metano",
+    "enunciado": "São dadas: (I) CH4 + 2 O2 → CO2 + 2 H2O, ΔH = −890 kJ; (II) C + O2 → CO2, ΔH = −394 kJ; (III) H2 + ½ O2 → H2O, ΔH = −286 kJ. Qual o ΔH da reação de formação do metano, C + 2 H2 → CH4?",
+    "alternativas": [
+      { "letra": "A", "texto": "+76 kJ", "correta": false, "etiqueta": "qui-erro-sinal-energia" },
+      { "letra": "B", "texto": "−1.856 kJ", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "C", "texto": "−966 kJ", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "D", "texto": "−394 kJ", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "E", "texto": "−76 kJ", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Mantém-se (II), multiplica-se (III) por 2 e inverte-se (I) para que o CH4 fique como produto: ΔH = −394 + 2 × (−286) + 890 = −394 − 572 + 890 = −76 kJ. Sem inverter a equação (I), chega-se a −1.856 kJ, que não corresponde à reação pedida.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-termoquimica-020", "materia": "quimica", "assunto": "termoquimica", "questionario": 4, "dificuldade": 1,
+    "contexto": "Quanto etanol para esquentar a água",
+    "enunciado": "Quantos gramas de etanol, que libera 30 kJ por grama, precisam ser queimados para aquecer 1 kg de água de 20 °C a 50 °C? Considere o calor específico da água 4,2 J/(g·°C) e que todo o calor da queima é aproveitado.",
+    "alternativas": [
+      { "letra": "A", "texto": "4,2 g", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "126 g", "correta": false, "etiqueta": "qui-confundiu-unidade" },
+      { "letra": "C", "texto": "0,24 g", "correta": false, "etiqueta": "qui-inverteu-razao" },
+      { "letra": "D", "texto": "42 g", "correta": false, "etiqueta": "qui-confundiu-unidade" },
+      { "letra": "E", "texto": "12,6 g", "correta": false, "etiqueta": "qui-erro-conta" }
+    ],
+    "explicacao": "Q = m · c · ΔT = 1.000 × 4,2 × 30 = 126.000 J = 126 kJ. Cada grama de etanol fornece 30 kJ, então 126 ÷ 30 = 4,2 g. Esquecer a conversão de J para kJ leva a 126 g, e inverter a divisão leva a 0,24 g.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]

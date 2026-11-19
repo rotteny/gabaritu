@@ -1,0 +1,282 @@
+[
+  {
+    "id": "his-revolucao-industrial-iluminismo-001", "materia": "historia", "assunto": "revolucao-industrial-iluminismo", "questionario": 1, "dificuldade": -1,
+    "contexto": "Por que na Inglaterra?",
+    "enunciado": "A Revolução Industrial começou na Inglaterra, na segunda metade do século XVIII. Qual conjunto de fatores ajuda a explicar por que o processo teve início ali?",
+    "alternativas": [
+      { "letra": "A", "texto": "Era o único país da Europa com cientistas e inventores", "correta": false, "etiqueta": "his-generalizou" },
+      { "letra": "B", "texto": "Reunia carvão e ferro, capital acumulado, mercado consumidor colonial e mão de obra deslocada do campo", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Não possuía colônias e, por isso, precisava produzir tudo sozinha", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "D", "texto": "Usava trabalho escravo em larga escala, o que dispensava máquinas", "correta": false, "etiqueta": "his-confundiu-conceito" },
+      { "letra": "E", "texto": "A França havia proibido o uso de máquinas no continente", "correta": false, "etiqueta": "his-extrapolou-fonte" }
+    ],
+    "explicacao": "A Inglaterra tinha jazidas de carvão e ferro, capital de séculos de comércio, colônias que compravam seus produtos e camponeses que perderam a terra e foram para as cidades. Não houve um fator único.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-revolucao-industrial-iluminismo-002", "materia": "historia", "assunto": "revolucao-industrial-iluminismo", "questionario": 1, "dificuldade": -1,
+    "contexto": "Força do vapor",
+    "enunciado": "A máquina a vapor, aperfeiçoada por James Watt a partir de 1769, foi uma das peças centrais da Revolução Industrial. Ela foi decisiva porque:",
+    "alternativas": [
+      { "letra": "A", "texto": "funcionava com energia elétrica", "correta": false, "etiqueta": "his-anacronismo" },
+      { "letra": "B", "texto": "foi inventada no século XX", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "C", "texto": "substituiu o carvão pelo petróleo", "correta": false, "etiqueta": "his-confundiu-conceito" },
+      { "letra": "D", "texto": "permitiu mover máquinas e transportes sem depender de rios, animais ou só da força humana", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "eliminou a necessidade de trabalhadores nas fábricas", "correta": false, "etiqueta": "his-generalizou" }
+    ],
+    "explicacao": "O vapor liberou a produção da dependência de rios e animais e permitiu fábricas em qualquer lugar com carvão, além de ferrovias e navios a vapor. A eletricidade só se tornou central na Segunda Revolução Industrial. As fábricas continuaram precisando de muitos trabalhadores.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-revolucao-industrial-iluminismo-003", "materia": "historia", "assunto": "revolucao-industrial-iluminismo", "questionario": 1, "dificuldade": 0,
+    "contexto": "Quebra-quebra de máquinas",
+    "enunciado": "Entre 1811 e 1816, grupos de trabalhadores ingleses, conhecidos como ludistas, destruíram máquinas em fábricas têxteis. Qual interpretação é mais coerente com o que os historiadores apontam?",
+    "alternativas": [
+      { "letra": "A", "texto": "Era um protesto contra desemprego, queda de salários e piora das condições de trabalho trazidas pela mecanização", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Era uma reação à ignorância, pois os trabalhadores não entendiam a tecnologia", "correta": false, "etiqueta": "his-mito-popular" },
+      { "letra": "C", "texto": "Era um movimento pela volta da monarquia absoluta", "correta": false, "etiqueta": "his-anacronismo" },
+      { "letra": "D", "texto": "Foi um ataque aos comerciantes franceses por causa do bloqueio comercial", "correta": false, "etiqueta": "his-confundiu-personagem" },
+      { "letra": "E", "texto": "Foi uma ação de empresários para reduzir a concorrência", "correta": false, "etiqueta": "his-confundiu-personagem" }
+    ],
+    "explicacao": "Os ludistas atacavam as máquinas como forma de pressão por salários e empregos, e não por desconhecer a técnica. Muitos eram artesãos qualificados que perderam espaço com a mecanização.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-revolucao-industrial-iluminismo-004", "materia": "historia", "assunto": "revolucao-industrial-iluminismo", "questionario": 1, "dificuldade": 0,
+    "contexto": "Século das Luzes",
+    "enunciado": "No século XVIII, pensadores como Voltaire, Montesquieu e Rousseau defenderam o uso da razão para entender o mundo e criticaram o absolutismo, os privilégios da nobreza e a intolerância religiosa. Esse movimento intelectual é chamado de:",
+    "alternativas": [
+      { "letra": "A", "texto": "Renascimento, que valorizava a cultura greco-romana a partir do século XIV", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "B", "texto": "Reforma Protestante, liderada por Lutero", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "C", "texto": "Absolutismo, que defendia o poder ilimitado dos reis", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "D", "texto": "Mercantilismo, que defendia o acúmulo de metais preciosos", "correta": false, "etiqueta": "his-confundiu-conceito" },
+      { "letra": "E", "texto": "Iluminismo, que se apoiava na razão, na liberdade e na crítica aos privilégios", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "O Iluminismo é o movimento do século XVIII que confiava na razão e criticava o Antigo Regime. Renascimento e Reforma são dos séculos XIV a XVI, e o absolutismo era justamente o alvo das críticas.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-revolucao-industrial-iluminismo-005", "materia": "historia", "assunto": "revolucao-industrial-iluminismo", "questionario": 1, "dificuldade": 1,
+    "contexto": "Rei que lê filósofo",
+    "enunciado": "Monarcas como Frederico II da Prússia, Catarina II da Rússia e, em Portugal, o ministro Marquês de Pombal adotaram reformas inspiradas no Iluminismo, mas sem abrir mão do poder concentrado. Esse modelo é chamado de despotismo esclarecido e se caracteriza por:",
+    "alternativas": [
+      { "letra": "A", "texto": "monarquias constitucionais, com poderes limitados pelo parlamento", "correta": false, "etiqueta": "his-confundiu-conceito" },
+      { "letra": "B", "texto": "governos republicanos escolhidos por filósofos", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "C", "texto": "reformas racionalizadoras, feitas por monarcas que mantinham o poder absoluto para fortalecer o Estado", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "reis que abdicaram e entregaram o poder ao povo", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "E", "texto": "regimes que rejeitavam o avanço científico e a educação", "correta": false, "etiqueta": "his-oposto-do-texto" }
+    ],
+    "explicacao": "No despotismo esclarecido, os reis usavam as ideias iluministas para modernizar a administração, a economia e a educação, sem dividir o poder. A monarquia limitada por parlamento é o modelo inglês.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-revolucao-industrial-iluminismo-006", "materia": "historia", "assunto": "revolucao-industrial-iluminismo", "questionario": 2, "dificuldade": -1,
+    "contexto": "14 de julho",
+    "enunciado": "Em 14 de julho de 1789, uma multidão tomou a Bastilha, prisão-fortaleza de Paris símbolo do poder do rei. O episódio marcou o início de qual processo histórico?",
+    "alternativas": [
+      { "letra": "A", "texto": "da Revolução Industrial inglesa", "correta": false, "etiqueta": "his-confundiu-lugar" },
+      { "letra": "B", "texto": "da independência dos Estados Unidos", "correta": false, "etiqueta": "his-confundiu-lugar" },
+      { "letra": "C", "texto": "da Revolução Francesa", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "da Primeira Guerra Mundial", "correta": false, "etiqueta": "his-anacronismo" },
+      { "letra": "E", "texto": "da Reforma Protestante", "correta": false, "etiqueta": "his-confundiu-periodo" }
+    ],
+    "explicacao": "A queda da Bastilha, em 1789, é o marco simbólico da Revolução Francesa, que derrubou o Antigo Regime. A independência dos EUA foi declarada em 1776.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-revolucao-industrial-iluminismo-007", "materia": "historia", "assunto": "revolucao-industrial-iluminismo", "questionario": 2, "dificuldade": -1,
+    "contexto": "Todos iguais?",
+    "enunciado": "A Declaração dos Direitos do Homem e do Cidadão, aprovada na França em agosto de 1789, afirma que os homens nascem e permanecem livres e iguais em direitos. Essa ideia fundamentava:",
+    "alternativas": [
+      { "letra": "A", "texto": "o fim dos privilégios de nascimento do Antigo Regime", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "a manutenção dos direitos exclusivos da nobreza", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "C", "texto": "o poder divino e ilimitado do rei", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "D", "texto": "o direito de voto universal para mulheres e homens, já em 1789", "correta": false, "etiqueta": "his-anacronismo" },
+      { "letra": "E", "texto": "a propriedade coletiva de todos os bens", "correta": false, "etiqueta": "his-confundiu-ideologia" }
+    ],
+    "explicacao": "A Declaração atacava os privilégios de nobreza e clero e afirmava igualdade jurídica. Mas ela não incluiu as mulheres, o que motivou a Declaração dos Direitos da Mulher e da Cidadã (1791), de Olympe de Gouges, e protegia a propriedade privada.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-revolucao-industrial-iluminismo-008", "materia": "historia", "assunto": "revolucao-industrial-iluminismo", "questionario": 2, "dificuldade": 0,
+    "contexto": "Sem representação",
+    "enunciado": "Em 1776, as Treze Colônias inglesas da América do Norte declararam independência. Um dos principais motivos do conflito com a metrópole foi o aumento de impostos, como os do chá, decididos pelo Parlamento britânico. O lema dos colonos era 'sem representação, sem tributação'. Isso significa que eles:",
+    "alternativas": [
+      { "letra": "A", "texto": "recusavam qualquer imposto, em qualquer situação", "correta": false, "etiqueta": "his-generalizou" },
+      { "letra": "B", "texto": "queriam apenas ser colônia da França", "correta": false, "etiqueta": "his-confundiu-lugar" },
+      { "letra": "C", "texto": "defendiam a escravidão como motivo central da revolta", "correta": false, "etiqueta": "his-causa-unica" },
+      { "letra": "D", "texto": "queriam abolir o Parlamento britânico", "correta": false, "etiqueta": "his-extrapolou-fonte" },
+      { "letra": "E", "texto": "contestavam ser taxados por um Parlamento no qual não tinham representantes", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "O lema critica a taxação sem voz política. Os colonos aceitavam impostos criados pelas assembleias coloniais, mas não os decididos no Parlamento em Londres sem a sua participação.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-revolucao-industrial-iluminismo-009", "materia": "historia", "assunto": "revolucao-industrial-iluminismo", "questionario": 2, "dificuldade": 0,
+    "contexto": "Código de Napoleão",
+    "enunciado": "Em 1804, durante o governo de Napoleão Bonaparte, a França adotou um Código Civil que garantia a igualdade de todos perante a lei, o direito à propriedade e o fim de privilégios feudais, mas mantinha a mulher em posição legal subordinada. Esse código mostra que Napoleão:",
+    "alternativas": [
+      { "letra": "A", "texto": "restaurou integralmente o Antigo Regime", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "B", "texto": "consolidou conquistas da Revolução, como a igualdade jurídica, mas também preservou desigualdades, como as de gênero", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "defendeu a volta dos privilégios da nobreza", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "D", "texto": "aboliu a propriedade privada", "correta": false, "etiqueta": "his-confundiu-ideologia" },
+      { "letra": "E", "texto": "deu poder político igual a mulheres e homens", "correta": false, "etiqueta": "his-extrapolou-fonte" }
+    ],
+    "explicacao": "O Código Napoleônico firmou princípios burgueses da Revolução, como igualdade perante a lei e propriedade, e influenciou muitos países. Ele, porém, não igualou os direitos de mulheres e homens.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-revolucao-industrial-iluminismo-010", "materia": "historia", "assunto": "revolucao-industrial-iluminismo", "questionario": 2, "dificuldade": 1,
+    "contexto": "Cercas no campo inglês",
+    "enunciado": "A partir do século XVIII, leis do Parlamento inglês, chamadas de cercamentos, autorizaram grandes proprietários a cercar terras antes usadas coletivamente por camponeses para pastagem e lenha. Qual foi uma consequência desse processo para a Revolução Industrial?",
+    "alternativas": [
+      { "letra": "A", "texto": "Os camponeses ganharam mais terras para cultivar", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "B", "texto": "O campo ficou mais populoso, pois ninguém migrou para as cidades", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "C", "texto": "A agricultura foi abandonada pelo governo", "correta": false, "etiqueta": "his-extrapolou-fonte" },
+      { "letra": "D", "texto": "Muitos camponeses perderam o acesso à terra e foram para as cidades, formando mão de obra para as fábricas", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "O Parlamento passou a proibir o trabalho nas fábricas", "correta": false, "etiqueta": "his-confundiu-periodo" }
+    ],
+    "explicacao": "Sem terra comunal, muitos camponeses migraram para as cidades e se tornaram trabalhadores assalariados, o que ajudou a fornecer mão de obra à indústria. A migração rural foi um dos fatores da urbanização acelerada.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-revolucao-industrial-iluminismo-011", "materia": "historia", "assunto": "revolucao-industrial-iluminismo", "questionario": 3, "dificuldade": -1,
+    "contexto": "Relógio na fábrica",
+    "enunciado": "Antes da fábrica, o artesão decidia o ritmo e o horário do próprio trabalho. Na fábrica, o trabalhador passou a obedecer a horários fixos, ao apito, ao relógio e ao ritmo das máquinas. Esse contraste mostra que a indústria trouxe:",
+    "alternativas": [
+      { "letra": "A", "texto": "mais autonomia ao trabalhador sobre o próprio tempo", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "B", "texto": "o fim da divisão do trabalho", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "C", "texto": "o desaparecimento imediato de todos os artesãos", "correta": false, "etiqueta": "his-generalizou" },
+      { "letra": "D", "texto": "o trabalho em casa como modelo dominante", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "E", "texto": "uma nova disciplina do tempo, controlada pelo dono da fábrica e pelo ritmo das máquinas", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "A fábrica impôs horários rígidos e vigilância, uma disciplina diferente da do artesão autônomo. Isso não significa que todos os artesãos desapareceram de uma vez, mas que o trabalho assalariado se tornou cada vez mais comum.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-revolucao-industrial-iluminismo-012", "materia": "historia", "assunto": "revolucao-industrial-iluminismo", "questionario": 3, "dificuldade": 0,
+    "contexto": "Mão invisível",
+    "enunciado": "Em A Riqueza das Nações (1776), o escocês Adam Smith defendeu a divisão do trabalho e a livre concorrência, argumentando que o mercado se autorregularia, como se fosse guiado por uma mão invisível. Essa corrente de pensamento é o:",
+    "alternativas": [
+      { "letra": "A", "texto": "socialismo, que defende a propriedade coletiva dos meios de produção", "correta": false, "etiqueta": "his-confundiu-ideologia" },
+      { "letra": "B", "texto": "liberalismo econômico, que defende mercado livre com pouca intervenção do Estado", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "mercantilismo, que defendia forte controle do Estado sobre a economia", "correta": false, "etiqueta": "his-confundiu-conceito" },
+      { "letra": "D", "texto": "anarquismo, que defendia a eliminação de toda propriedade", "correta": false, "etiqueta": "his-confundiu-ideologia" },
+      { "letra": "E", "texto": "fascismo, que defendia o Estado totalitário", "correta": false, "etiqueta": "his-anacronismo" }
+    ],
+    "explicacao": "Smith é um dos pais do liberalismo econômico. O mercantilismo, que ele criticava, defendia o controle estatal do comércio, e o fascismo só surgiu no século XX.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-revolucao-industrial-iluminismo-013", "materia": "historia", "assunto": "revolucao-industrial-iluminismo", "questionario": 3, "dificuldade": 0,
+    "contexto": "Carta do Povo",
+    "enunciado": "Na Inglaterra, entre 1838 e 1848, o movimento cartista reuniu trabalhadores em torno da Carta do Povo, que pedia, entre outros pontos, o sufrágio universal masculino e o voto secreto. Esse movimento mostra que:",
+    "alternativas": [
+      { "letra": "A", "texto": "os operários aceitavam sem protesto a exclusão política", "correta": false, "etiqueta": "his-ignorou-protagonismo" },
+      { "letra": "B", "texto": "o voto já era universal na Inglaterra do século XIX", "correta": false, "etiqueta": "his-anacronismo" },
+      { "letra": "C", "texto": "o movimento pedia a volta do absolutismo", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "D", "texto": "os trabalhadores se organizaram para reivindicar direitos políticos, e não só melhores salários", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "o cartismo era um movimento de empresários contra os operários", "correta": false, "etiqueta": "his-confundiu-personagem" }
+    ],
+    "explicacao": "O cartismo foi um dos primeiros grandes movimentos operários, com pauta política. Na época, só uma pequena parcela da população masculina votava, e as mulheres não votavam.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-revolucao-industrial-iluminismo-014", "materia": "historia", "assunto": "revolucao-industrial-iluminismo", "questionario": 3, "dificuldade": 1,
+    "contexto": "Aço, petróleo e eletricidade",
+    "enunciado": "A partir da segunda metade do século XIX, a industrialização ganhou novos setores e novos protagonistas. Entraram em cena a eletricidade, o aço, a química e o petróleo, e países como Alemanha e Estados Unidos passaram a disputar a liderança com a Inglaterra. Esse processo é conhecido como:",
+    "alternativas": [
+      { "letra": "A", "texto": "Primeira Revolução Industrial, baseada no carvão e na indústria têxtil", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "B", "texto": "Revolução Verde, ligada ao uso de agrotóxicos no campo", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "C", "texto": "Segunda Revolução Industrial, com novas fontes de energia e concorrência entre potências", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Revolução Digital, que se baseia em computadores", "correta": false, "etiqueta": "his-anacronismo" },
+      { "letra": "E", "texto": "Revolução Comercial, dos séculos XV e XVI", "correta": false, "etiqueta": "his-confundiu-periodo" }
+    ],
+    "explicacao": "A Segunda Revolução Industrial combinou novas fontes de energia, como eletricidade e petróleo, com novos materiais e a entrada de Alemanha, EUA e Japão na disputa. A primeira etapa tinha carvão, vapor e têxteis como destaques.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-revolucao-industrial-iluminismo-015", "materia": "historia", "assunto": "revolucao-industrial-iluminismo", "questionario": 3, "dificuldade": 1,
+    "contexto": "Criança na tecelagem",
+    "enunciado": "Texto de apoio (autoral): 'Aos oito anos, ela já trabalhava dez horas por dia na tecelagem, em pé, sob o barulho das máquinas. Sua mãe aceitava, porque o salário das crianças ajudava a pagar o aluguel. Só mais tarde leis passaram a limitar a idade e o horário dos pequenos operários.' Esse trecho sugere que, no início da industrialização:",
+    "alternativas": [
+      { "letra": "A", "texto": "o trabalho infantil era comum e só foi limitado depois, por leis, em parte por pressão social", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "o trabalho infantil era proibido desde o início", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "C", "texto": "as famílias operárias tinham renda de sobra", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "D", "texto": "as fábricas pagavam melhor que o campo, por isso todos eram felizes", "correta": false, "etiqueta": "his-extrapolou-fonte" },
+      { "letra": "E", "texto": "o trabalho infantil era exclusivo da Inglaterra", "correta": false, "etiqueta": "his-generalizou" }
+    ],
+    "explicacao": "O texto indica que o trabalho de crianças era normal e necessário para a renda familiar, e que só depois vieram limites legais, como as leis fabris inglesas do século XIX. O texto não afirma nada sobre outros países.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-revolucao-industrial-iluminismo-016", "materia": "historia", "assunto": "revolucao-industrial-iluminismo", "questionario": 4, "dificuldade": -1,
+    "contexto": "Partilha da África",
+    "enunciado": "Na Conferência de Berlim (1884-1885), potências europeias estabeleceram regras para dividir o território africano entre si, sem consultar os povos locais. Esse processo, ligado às necessidades da industrialização, é chamado de:",
+    "alternativas": [
+      { "letra": "A", "texto": "descolonização, com independência dos países africanos", "correta": false, "etiqueta": "his-causa-consequencia-invertida" },
+      { "letra": "B", "texto": "mercantilismo, com monopólio das metrópoles sobre as colônias americanas", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "C", "texto": "pan-africanismo, com união dos povos africanos", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "D", "texto": "neocolonialismo ou imperialismo, em busca de matérias-primas e mercados consumidores", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Guerra Fria, com disputa entre EUA e URSS", "correta": false, "etiqueta": "his-confundiu-periodo" }
+    ],
+    "explicacao": "As indústrias europeias precisavam de matérias-primas, mercados e áreas de investimento. Por isso as potências partilharam a África e a Ásia no século XIX. A descolonização ocorreu depois da Segunda Guerra.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-revolucao-industrial-iluminismo-017", "materia": "historia", "assunto": "revolucao-industrial-iluminismo", "questionario": 4, "dificuldade": 0,
+    "contexto": "O Terror",
+    "enunciado": "Entre 1793 e 1794, durante a fase radical da Revolução Francesa, os jacobinos, liderados por Robespierre, governaram por meio do Comitê de Salvação Pública. Esse período, chamado de Terror, caracterizou-se por:",
+    "alternativas": [
+      { "letra": "A", "texto": "restauração da monarquia com Luís XVI", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "B", "texto": "tomada do poder por Napoleão", "correta": false, "etiqueta": "his-confundiu-periodo" },
+      { "letra": "C", "texto": "perseguição e execução de inimigos reais ou supostos da Revolução, com medidas de controle econômico e político", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "fim dos tribunais e das execuções", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "E", "texto": "controle do governo pela nobreza", "correta": false, "etiqueta": "his-oposto-do-texto" }
+    ],
+    "explicacao": "Luís XVI foi executado em janeiro de 1793. No Terror, o governo revolucionário reprimiu opositores com tribunais especiais e guilhotina. Napoleão só chegou ao poder em 1799.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-revolucao-industrial-iluminismo-018", "materia": "historia", "assunto": "revolucao-industrial-iluminismo", "questionario": 4, "dificuldade": 0,
+    "contexto": "Obra coletiva",
+    "enunciado": "Entre 1751 e 1772, Diderot e D'Alembert coordenaram a Enciclopédia, obra em vários volumes que reuniu artigos de muitos autores sobre ciência, técnicas, política e filosofia. O objetivo da Enciclopédia era:",
+    "alternativas": [
+      { "letra": "A", "texto": "defender o direito divino dos reis", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "B", "texto": "reunir e difundir o conhecimento com base na razão, em oposição a dogmas e privilégios", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "servir de manual oficial da Igreja", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "D", "texto": "exaltar a corte de Luís XIV", "correta": false, "etiqueta": "his-confundiu-personagem" },
+      { "letra": "E", "texto": "ensinar operários a usar máquinas a vapor", "correta": false, "etiqueta": "his-leitura-superficial" }
+    ],
+    "explicacao": "A Enciclopédia foi um dos grandes projetos do Iluminismo, que buscava difundir o saber racional e científico. Por criticar dogmas e privilégios, sofreu censura e perseguição.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-revolucao-industrial-iluminismo-019", "materia": "historia", "assunto": "revolucao-industrial-iluminismo", "questionario": 4, "dificuldade": 1,
+    "contexto": "Haiti, 1804",
+    "enunciado": "A partir de 1791, escravizados da colônia francesa de Saint-Domingue se rebelaram, e em 1804 foi proclamada a independência do Haiti. A Revolução Haitiana é considerada um marco porque:",
+    "alternativas": [
+      { "letra": "A", "texto": "foi a primeira revolta de escravizados a criar um Estado independente, o que assustou elites escravistas das Américas", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "foi liderada por Napoleão Bonaparte", "correta": false, "etiqueta": "his-confundiu-personagem" },
+      { "letra": "C", "texto": "manteve a escravidão sob novo governo", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "D", "texto": "ocorreu antes da Revolução Francesa e sem relação com ela", "correta": false, "etiqueta": "his-causa-consequencia-invertida" },
+      { "letra": "E", "texto": "ocorreu na colônia espanhola de Cuba", "correta": false, "etiqueta": "his-confundiu-lugar" }
+    ],
+    "explicacao": "O Haiti foi a primeira república independente fundada por antigos escravizados, e o processo dialogou com ideias de liberdade e igualdade da Revolução Francesa. Napoleão foi justamente quem tentou, sem sucesso, retomar a colônia.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "his-revolucao-industrial-iluminismo-020", "materia": "historia", "assunto": "revolucao-industrial-iluminismo", "questionario": 4, "dificuldade": 1,
+    "contexto": "Depois de Napoleão",
+    "enunciado": "Entre 1814 e 1815, após a derrota de Napoleão, as potências europeias se reuniram no Congresso de Viena, sob forte influência do chanceler austríaco Metternich. Entre os objetivos do Congresso estava:",
+    "alternativas": [
+      { "letra": "A", "texto": "criar repúblicas liberais em todos os países europeus", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "B", "texto": "dar independência às colônias latino-americanas", "correta": false, "etiqueta": "his-confundiu-lugar" },
+      { "letra": "C", "texto": "ampliar os direitos políticos dos trabalhadores", "correta": false, "etiqueta": "his-oposto-do-texto" },
+      { "letra": "D", "texto": "impor o Código Napoleônico a toda a Europa", "correta": false, "etiqueta": "his-confundiu-personagem" },
+      { "letra": "E", "texto": "restaurar monarquias, conter ideias liberais e manter o equilíbrio entre as potências", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "O Congresso de Viena buscou restaurar a ordem anterior à Revolução Francesa, com legitimidade das dinastias e equilíbrio de poder. Isso gerou resistência liberal e nacionalista ao longo do século XIX.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]

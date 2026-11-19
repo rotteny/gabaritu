@@ -1,0 +1,902 @@
+[
+  {
+    "id": "soc-classicos-da-sociologia-001",
+    "materia": "sociologia",
+    "assunto": "classicos-da-sociologia",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Regras que já estavam aí",
+    "enunciado": "Ao chegar a um país, um turista percebe regras de comportamento que existiam antes dele, valem para todos e geram constrangimento ou sanção se desrespeitadas. Émile Durkheim chamou esse tipo de fenômeno de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "ação social",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "fato social",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "mais-valia",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "tipo ideal",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "anomia",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      }
+    ],
+    "explicacao": "Para Durkheim, fato social é um modo de agir, pensar ou sentir que é exterior ao indivíduo, geral na sociedade e coercitivo.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-classicos-da-sociologia-002",
+    "materia": "sociologia",
+    "assunto": "classicos-da-sociologia",
+    "questionario": 1,
+    "dificuldade": -1,
+    "contexto": "Quem é o proletário?",
+    "enunciado": "Para Karl Marx, no capitalismo, o proletariado é a classe que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "possui as fábricas e as máquinas",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "vive de renda de terras",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "governa o Estado em qualquer sociedade",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "não possui meios de produção e vende sua força de trabalho",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "é formada só por funcionários públicos",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      }
+    ],
+    "explicacao": "Marx dividia o capitalismo em burguesia (dona dos meios de produção) e proletariado (que só tem sua força de trabalho para vender em troca de salário).",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-classicos-da-sociologia-003",
+    "materia": "sociologia",
+    "assunto": "classicos-da-sociologia",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Estudando para passar",
+    "enunciado": "Um estudante monta um cronograma, compara custos e benefícios de cada método de estudo e escolhe o mais eficiente para passar no vestibular. Segundo Max Weber, essa é uma ação social",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "racional com relação a fins",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "racional com relação a valores",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "tradicional, motivada por hábito",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "afetiva, motivada pela emoção",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "coercitiva, imposta pela sociedade",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      }
+    ],
+    "explicacao": "Na ação racional com relação a fins, escolhe-se o meio mais adequado para alcançar um objetivo calculado. A racional com relação a valores segue princípios, sem calcular consequências.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-classicos-da-sociologia-004",
+    "materia": "sociologia",
+    "assunto": "classicos-da-sociologia",
+    "questionario": 1,
+    "dificuldade": 0,
+    "contexto": "Pai do positivismo",
+    "enunciado": "O pensador francês do século XIX que propôs o estudo científico da sociedade, a 'física social', e criou o positivismo, com o lema 'ordem e progresso', foi",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Karl Marx",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "Max Weber",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "Émile Durkheim",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "Adam Smith",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "Auguste Comte",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "Auguste Comte é o fundador do positivismo. Durkheim foi influenciado por essa corrente, mas a ideia e o lema são de Comte.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-classicos-da-sociologia-005",
+    "materia": "sociologia",
+    "assunto": "classicos-da-sociologia",
+    "questionario": 1,
+    "dificuldade": 1,
+    "contexto": "Mesma tarefa, o dia todo",
+    "enunciado": "Um operário aperta o mesmo parafuso o dia inteiro, não decide nada sobre o processo e não é dono do que produz. Para Marx, esse trabalhador vive a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "anomia",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "o desencantamento do mundo",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "alienação do trabalho",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "solidariedade orgânica",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "ação tradicional",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      }
+    ],
+    "explicacao": "Para Marx, no capitalismo o trabalhador se aliena do produto, do processo e de si, pois não controla o que faz nem o resultado. Anomia e solidariedade são conceitos de Durkheim.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-classicos-da-sociologia-006",
+    "materia": "sociologia",
+    "assunto": "classicos-da-sociologia",
+    "questionario": 2,
+    "dificuldade": -1,
+    "contexto": "Cada um com uma função",
+    "enunciado": "Em cidades grandes, cada pessoa exerce uma profissão diferente e depende do trabalho dos outros. Para Durkheim, esse tipo de laço é a solidariedade",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "mecânica, baseada na semelhança entre as pessoas",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "anômica, sem normas",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "afetiva",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "de classe",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "orgânica, baseada na interdependência da divisão do trabalho",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "Na solidariedade orgânica, a coesão vem da divisão do trabalho e da interdependência. Na mecânica, vem da semelhança de crenças e modos de vida, típica de sociedades menos diversificadas.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-classicos-da-sociologia-007",
+    "materia": "sociologia",
+    "assunto": "classicos-da-sociologia",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Falta de normas",
+    "enunciado": "Durkheim chamou de anomia",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a situação em que normas sociais se enfraquecem ou estão ausentes, como em mudanças muito rápidas",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "o excesso de regras e controle",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "o trabalho que aliena o operário",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "qualquer crime individual",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      },
+      {
+        "letra": "E",
+        "texto": "a solidariedade das sociedades simples",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      }
+    ],
+    "explicacao": "Anomia é um estado de desregulação em que as normas deixam de orientar bem o comportamento, comum em períodos de grandes transformações.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-classicos-da-sociologia-008",
+    "materia": "sociologia",
+    "assunto": "classicos-da-sociologia",
+    "questionario": 2,
+    "dificuldade": 0,
+    "contexto": "Líder de magnetismo",
+    "enunciado": "Um líder religioso fictício consegue obediência dos seguidores por causa de dons e magnetismo pessoais que eles reconhecem como extraordinários. Para Weber, trata-se de dominação",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "tradicional",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "legal-racional",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "carismática",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "burocrática",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "anômica",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      }
+    ],
+    "explicacao": "Weber descreveu três tipos de dominação legítima: tradicional (costumes), carismática (qualidades pessoais excepcionais) e legal-racional (regras impessoais).",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-classicos-da-sociologia-009",
+    "materia": "sociologia",
+    "assunto": "classicos-da-sociologia",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Religião e capitalismo",
+    "enunciado": "No livro A Ética Protestante e o Espírito do Capitalismo, Weber sustenta que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a religião criou sozinha o capitalismo",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "B",
+        "texto": "os valores do protestantismo ascético tiveram afinidade com a mentalidade capitalista de trabalho disciplinado e acumulação",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "o capitalismo acabou com todas as religiões",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "D",
+        "texto": "esse livro foi escrito por Karl Marx",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "o capitalismo nasceu de uma guerra entre católicos e muçulmanos",
+        "correta": false,
+        "etiqueta": "soc-anacronismo"
+      }
+    ],
+    "explicacao": "Weber via uma afinidade entre certos valores religiosos (trabalho, poupança, disciplina) e o espírito do capitalismo, sem dizer que um criou o outro por si só.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-classicos-da-sociologia-010",
+    "materia": "sociologia",
+    "assunto": "classicos-da-sociologia",
+    "questionario": 2,
+    "dificuldade": 1,
+    "contexto": "Base e ideias",
+    "enunciado": "Para Marx, a organização econômica de uma sociedade (as relações de produção) condiciona, em grande medida, suas instituições jurídicas, políticas e ideológicas. Isso significa que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "as ideias determinam sozinhas a economia",
+        "correta": false,
+        "etiqueta": "soc-causa-consequencia"
+      },
+      {
+        "letra": "B",
+        "texto": "a economia é irrelevante para a política",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "C",
+        "texto": "as instituições nunca mudam",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "D",
+        "texto": "a superestrutura é a própria fábrica",
+        "correta": false,
+        "etiqueta": "soc-leitura-literal"
+      },
+      {
+        "letra": "E",
+        "texto": "as formas de organizar a produção influenciam as ideias e as instituições de cada época",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "É o materialismo histórico: a base econômica (infraestrutura) tem peso na formação das leis, da política e das ideias (superestrutura), embora haja interações entre elas.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-classicos-da-sociologia-011",
+    "materia": "sociologia",
+    "assunto": "classicos-da-sociologia",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Nascimento da Sociologia",
+    "enunciado": "A Sociologia surgiu como ciência no século XIX, em um contexto marcado por",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a invenção da imprensa",
+        "correta": false,
+        "etiqueta": "soc-anacronismo"
+      },
+      {
+        "letra": "B",
+        "texto": "a invenção da internet",
+        "correta": false,
+        "etiqueta": "soc-anacronismo"
+      },
+      {
+        "letra": "C",
+        "texto": "transformações da Revolução Industrial e da Revolução Francesa, que geraram problemas sociais novos",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "a sociedade feudal da Idade Média",
+        "correta": false,
+        "etiqueta": "soc-anacronismo"
+      },
+      {
+        "letra": "E",
+        "texto": "a colonização da América como único fato histórico",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      }
+    ],
+    "explicacao": "Urbanização acelerada, fábricas, novas classes e mudanças políticas exigiram novas formas de explicar a vida em sociedade, o que impulsionou o nascimento da Sociologia.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-classicos-da-sociologia-012",
+    "materia": "sociologia",
+    "assunto": "classicos-da-sociologia",
+    "questionario": 3,
+    "dificuldade": -1,
+    "contexto": "Autor de O Capital",
+    "enunciado": "O livro O Capital, que analisa o funcionamento do capitalismo, é de autoria de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Max Weber",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "Auguste Comte",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "Émile Durkheim",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "Adam Smith",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "Karl Marx",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "Karl Marx escreveu O Capital, e com Friedrich Engels, o Manifesto Comunista (1848). Weber escreveu A Ética Protestante, e Durkheim, As Regras do Método Sociológico.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-classicos-da-sociologia-013",
+    "materia": "sociologia",
+    "assunto": "classicos-da-sociologia",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Horas que sobram",
+    "enunciado": "Em uma fábrica fictícia, o trabalhador produz em 2 horas o valor equivalente ao seu salário do dia, mas trabalha 8 horas. Marx chamaria o valor produzido nas horas restantes e apropriado pelo dono de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "lucro cambial",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "anomia",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "carisma",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "mais-valia",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "fato social",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      }
+    ],
+    "explicacao": "A mais-valia é a diferença entre o valor que o trabalhador produz e o que recebe como salário. Para Marx, é a fonte do lucro capitalista.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-classicos-da-sociologia-014",
+    "materia": "sociologia",
+    "assunto": "classicos-da-sociologia",
+    "questionario": 3,
+    "dificuldade": 0,
+    "contexto": "Fatos como coisas",
+    "enunciado": "Durkheim afirmou que os fatos sociais devem ser tratados 'como coisas'. Isso quer dizer que devem ser",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "observados e explicados de forma objetiva, sem se guiar por pré-noções",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "considerados objetos sem importância",
+        "correta": false,
+        "etiqueta": "soc-leitura-literal"
+      },
+      {
+        "letra": "C",
+        "texto": "vistos como propriedade privada",
+        "correta": false,
+        "etiqueta": "soc-leitura-literal"
+      },
+      {
+        "letra": "D",
+        "texto": "comprados e vendidos em lojas",
+        "correta": false,
+        "etiqueta": "soc-leitura-literal"
+      },
+      {
+        "letra": "E",
+        "texto": "explicados apenas por sentimentos individuais",
+        "correta": false,
+        "etiqueta": "soc-causa-consequencia"
+      }
+    ],
+    "explicacao": "'Como coisas' é uma regra de método: estudar a sociedade com objetividade, observando os fatos de fora e evitando julgamentos prévios.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-classicos-da-sociologia-015",
+    "materia": "sociologia",
+    "assunto": "classicos-da-sociologia",
+    "questionario": 3,
+    "dificuldade": 1,
+    "contexto": "Regularidades estatísticas",
+    "enunciado": "Durkheim notou que certas taxas, como as de casamento ou de alfabetização, variavam de modo estável entre as sociedades e os grupos. Ele concluiu que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "são apenas questões psicológicas individuais",
+        "correta": false,
+        "etiqueta": "soc-so-esforco"
+      },
+      {
+        "letra": "B",
+        "texto": "fatores sociais, como integração e regras coletivas, influenciam esses fenômenos além das escolhas individuais",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "são causadas só pelo clima",
+        "correta": false,
+        "etiqueta": "soc-naturalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "são efeito da mais-valia",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "não podem ser estudados cientificamente",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      }
+    ],
+    "explicacao": "Regularidades que se repetem em escala social sugerem causas sociais, e não apenas decisões individuais isoladas. Esse foi um argumento central para a sociologia como ciência.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-classicos-da-sociologia-016",
+    "materia": "sociologia",
+    "assunto": "classicos-da-sociologia",
+    "questionario": 4,
+    "dificuldade": -1,
+    "contexto": "Escola com protocolo",
+    "enunciado": "Uma escola fictícia exige protocolos escritos, hierarquia de cargos, regras iguais para todos e funcionários escolhidos por qualificação. Para Weber, esse modelo de organização é a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "alienação",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "anomia",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "mais-valia",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "burocracia",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "dominação carismática",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      }
+    ],
+    "explicacao": "A burocracia, na visão de Weber, é a forma de organização racional com regras impessoais, hierarquia, divisão de tarefas e registros escritos.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-classicos-da-sociologia-017",
+    "materia": "sociologia",
+    "assunto": "classicos-da-sociologia",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "O tipo ideal",
+    "enunciado": "Weber propôs 'tipos ideais', como o de dominação carismática. Eles servem para",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "descrever a realidade exatamente como ela é, sem simplificar",
+        "correta": false,
+        "etiqueta": "soc-leitura-literal"
+      },
+      {
+        "letra": "B",
+        "texto": "indicar o melhor modelo, que todos devem seguir",
+        "correta": false,
+        "etiqueta": "soc-descritivo-normativo"
+      },
+      {
+        "letra": "C",
+        "texto": "comparar a realidade com um modelo conceitual construído pelo pesquisador, sem pretender descrever casos reais de forma exata",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "provar que a sociedade é perfeita",
+        "correta": false,
+        "etiqueta": "soc-descritivo-normativo"
+      },
+      {
+        "letra": "E",
+        "texto": "classificar pessoas como boas ou más",
+        "correta": false,
+        "etiqueta": "soc-descritivo-normativo"
+      }
+    ],
+    "explicacao": "O tipo ideal acentua traços de um fenômeno para servir de régua de comparação. 'Ideal' aqui significa construção conceitual, e não modelo desejável.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-classicos-da-sociologia-018",
+    "materia": "sociologia",
+    "assunto": "classicos-da-sociologia",
+    "questionario": 4,
+    "dificuldade": 0,
+    "contexto": "História em disputa",
+    "enunciado": "Marx e Engels afirmam, no Manifesto Comunista (1848), que a história das sociedades até então foi a história de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "guerras entre nações apenas",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      },
+      {
+        "letra": "B",
+        "texto": "lutas de classes",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "inovações tecnológicas isoladas",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "harmonia entre classes",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "E",
+        "texto": "consenso moral",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      }
+    ],
+    "explicacao": "A frase clássica do Manifesto é 'a história de todas as sociedades até hoje é a história de lutas de classes', que veem o conflito como motor das mudanças.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-classicos-da-sociologia-019",
+    "materia": "sociologia",
+    "assunto": "classicos-da-sociologia",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Conflito ou coesão?",
+    "enunciado": "Um aluno resume: 'Marx vê o conflito entre classes como motor da mudança social; Durkheim enfatiza a coesão e as normas que mantêm a ordem'. Esse resumo é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "errado, pois Durkheim defendia a luta de classes",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      },
+      {
+        "letra": "B",
+        "texto": "errado, pois Marx ignorava as classes",
+        "correta": false,
+        "etiqueta": "soc-autor-trocado"
+      },
+      {
+        "letra": "C",
+        "texto": "errado, pois ambos explicam tudo pela religião",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "inconclusivo, pois sociólogos nunca discordam",
+        "correta": false,
+        "etiqueta": "soc-absoluto"
+      },
+      {
+        "letra": "E",
+        "texto": "adequado, pois contrasta a ênfase no conflito com a ênfase na integração social",
+        "correta": true,
+        "etiqueta": null
+      }
+    ],
+    "explicacao": "É uma boa síntese: Marx foca no conflito de classes e nas relações de produção; Durkheim, na integração, nas normas e na solidariedade social.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "soc-classicos-da-sociologia-020",
+    "materia": "sociologia",
+    "assunto": "classicos-da-sociologia",
+    "questionario": 4,
+    "dificuldade": 1,
+    "contexto": "Além do dinheiro",
+    "enunciado": "Weber ampliou a análise da desigualdade ao considerar, além da classe econômica,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o prestígio social (status) e o poder político (partido)",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "apenas a escolaridade",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      },
+      {
+        "letra": "C",
+        "texto": "o grau de religiosidade",
+        "correta": false,
+        "etiqueta": "soc-conceito-trocado"
+      },
+      {
+        "letra": "D",
+        "texto": "só a origem familiar",
+        "correta": false,
+        "etiqueta": "soc-naturalizou"
+      },
+      {
+        "letra": "E",
+        "texto": "a nacionalidade",
+        "correta": false,
+        "etiqueta": "soc-generalizou"
+      }
+    ],
+    "explicacao": "Para Weber, a desigualdade tem três dimensões: classe (econômica), status (prestígio) e partido (poder). Isso ampliou a visão de Marx, centrada na economia.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "id": "qui-quimica-organica-001", "materia": "quimica", "assunto": "quimica-organica", "questionario": 1, "dificuldade": -1,
+    "contexto": "Álcool do posto",
+    "enunciado": "O etanol, usado como combustível, tem fórmula estrutural CH3–CH2–OH, com um grupo –OH ligado a um carbono saturado. A que função orgânica ele pertence?",
+    "alternativas": [
+      { "letra": "A", "texto": "Ácido carboxílico", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" },
+      { "letra": "B", "texto": "Álcool", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "Éter", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" },
+      { "letra": "D", "texto": "Cetona", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" },
+      { "letra": "E", "texto": "Aldeído", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" }
+    ],
+    "explicacao": "A função álcool é caracterizada pela hidroxila (–OH) ligada a um carbono saturado. O ácido carboxílico tem –COOH, o éter tem um oxigênio entre dois carbonos, a cetona tem C=O no meio da cadeia e o aldeído tem –CHO na ponta.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-quimica-organica-002", "materia": "quimica", "assunto": "quimica-organica", "questionario": 1, "dificuldade": -1,
+    "contexto": "Gasolina, gás e nafta",
+    "enunciado": "Combustíveis como a gasolina e o gás de cozinha são formados principalmente por hidrocarbonetos. O que são hidrocarbonetos?",
+    "alternativas": [
+      { "letra": "A", "texto": "Compostos formados por carbono e oxigênio.", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" },
+      { "letra": "B", "texto": "Compostos formados por carbono, hidrogênio e nitrogênio.", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" },
+      { "letra": "C", "texto": "Compostos formados apenas por carbono.", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" },
+      { "letra": "D", "texto": "Compostos formados apenas por carbono e hidrogênio.", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Sais que contêm carbono.", "correta": false, "etiqueta": "qui-senso-comum" }
+    ],
+    "explicacao": "O nome já entrega: hidro (hidrogênio) + carbono. Hidrocarbonetos têm apenas átomos de carbono e hidrogênio, como o metano (CH4) e o propano (C3H8). Se aparecer oxigênio ou nitrogênio, já é outra função orgânica.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-quimica-organica-003", "materia": "quimica", "assunto": "quimica-organica", "questionario": 1, "dificuldade": 0,
+    "contexto": "Vinagre na salada",
+    "enunciado": "O vinagre tem como componente principal o ácido acético, de fórmula CH3–COOH. Qual é o grupo funcional responsável pelo caráter ácido dessa substância?",
+    "alternativas": [
+      { "letra": "A", "texto": "Carboxila (–COOH)", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Hidroxila ligada a carbono saturado (–OH de álcool)", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" },
+      { "letra": "C", "texto": "Carbonila de cetona (C=O entre dois carbonos)", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" },
+      { "letra": "D", "texto": "Grupo amino (–NH2)", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" },
+      { "letra": "E", "texto": "Ligação éster (–COO– entre dois carbonos)", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" }
+    ],
+    "explicacao": "O grupo –COOH (carboxila) caracteriza os ácidos carboxílicos, e é o hidrogênio dele que pode ser liberado como H⁺. Álcoois têm –OH, mas não se comportam como ácidos em água, e o éster não tem o H ácido da carboxila.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-quimica-organica-004", "materia": "quimica", "assunto": "quimica-organica", "questionario": 1, "dificuldade": 0,
+    "contexto": "Mesma fórmula, outra substância",
+    "enunciado": "O etanol (CH3–CH2–OH) e o éter dimetílico (CH3–O–CH3) têm a mesma fórmula molecular, C2H6O, mas propriedades bem diferentes. Que tipo de isomeria existe entre eles?",
+    "alternativas": [
+      { "letra": "A", "texto": "Isomeria de cadeia", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" },
+      { "letra": "B", "texto": "Isomeria de posição", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" },
+      { "letra": "C", "texto": "Isomeria geométrica (cis-trans)", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" },
+      { "letra": "D", "texto": "Isomeria óptica", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" },
+      { "letra": "E", "texto": "Isomeria de função", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Os dois compostos têm a mesma fórmula molecular, mas grupos funcionais diferentes: um é álcool e o outro é éter. Isso caracteriza a isomeria de função. Na de cadeia, o que muda é o esqueleto de carbonos, e na de posição, o lugar de um grupo ou de uma ligação.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-quimica-organica-005", "materia": "quimica", "assunto": "quimica-organica", "questionario": 1, "dificuldade": 1,
+    "contexto": "Louça engordurada",
+    "enunciado": "Água sozinha não remove a gordura de uma panela, mas água com detergente remove. As moléculas de detergente têm uma extremidade polar e uma longa cadeia carbônica apolar. Como o detergente consegue remover a gordura?",
+    "alternativas": [
+      { "letra": "A", "texto": "Ele reage com a gordura e a transforma em água.", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "B", "texto": "Ele é ácido e dissolve a gordura por completo.", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "C", "texto": "A parte apolar se liga à gordura e a parte polar se liga à água, formando gotículas (micelas) que são levadas pelo enxágue.", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "A molécula inteira é polar e atrai a gordura, que também é polar.", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" },
+      { "letra": "E", "texto": "Ele aquece a água e derrete a gordura sem interagir com ela.", "correta": false, "etiqueta": "qui-senso-comum" }
+    ],
+    "explicacao": "A gordura é apolar e a água é polar, por isso não se misturam. O detergente tem duas partes: a cauda apolar interage com a gordura e a cabeça polar interage com a água. Assim a gordura fica envolvida em micelas e sai com a água do enxágue.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-quimica-organica-006", "materia": "quimica", "assunto": "quimica-organica", "questionario": 2, "dificuldade": -1,
+    "contexto": "Nome do gás do botijão",
+    "enunciado": "O gás de cozinha contém, entre outros, um hidrocarboneto de cadeia aberta com 3 átomos de carbono e apenas ligações simples entre carbonos. Qual o nome dele?",
+    "alternativas": [
+      { "letra": "A", "texto": "Metano", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "B", "texto": "Etano", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "C", "texto": "Propano", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Butano", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "E", "texto": "Propeno", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" }
+    ],
+    "explicacao": "O prefixo indica o número de carbonos: met (1), et (2), prop (3), but (4). Com ligações simples, o final é -ano. Logo: propano. O propeno também tem 3 carbonos, mas tem uma ligação dupla.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-quimica-organica-007", "materia": "quimica", "assunto": "quimica-organica", "questionario": 2, "dificuldade": 0,
+    "contexto": "Fórmula do pentano",
+    "enunciado": "Os alcanos de cadeia aberta seguem a fórmula geral CnH2n+2. Qual a fórmula molecular do pentano, um alcano com 5 átomos de carbono?",
+    "alternativas": [
+      { "letra": "A", "texto": "C5H12", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "C5H10", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" },
+      { "letra": "C", "texto": "C5H8", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" },
+      { "letra": "D", "texto": "C5H14", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "E", "texto": "C10H12", "correta": false, "etiqueta": "qui-erro-conta" }
+    ],
+    "explicacao": "Com n = 5: 2n + 2 = 12 hidrogênios, então C5H12. C5H10 seria um alceno (uma ligação dupla) e C5H8 seria um alcino ou dieno. Não faz sentido aumentar o número de carbonos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-quimica-organica-008", "materia": "quimica", "assunto": "quimica-organica", "questionario": 2, "dificuldade": 0,
+    "contexto": "Cheiro de fruta artificial",
+    "enunciado": "Muitos aromas artificiais de frutas, como o de banana em balas, são produzidos pela reação entre um ácido carboxílico e um álcool, com formação de água. Qual função orgânica é formada nessa reação?",
+    "alternativas": [
+      { "letra": "A", "texto": "Aldeído", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" },
+      { "letra": "B", "texto": "Éter", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" },
+      { "letra": "C", "texto": "Cetona", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" },
+      { "letra": "D", "texto": "Amina", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" },
+      { "letra": "E", "texto": "Éster", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "Ácido carboxílico + álcool → éster + água. Essa é a esterificação, e os ésteres são responsáveis por muitos aromas de frutas e flores.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-quimica-organica-009", "materia": "quimica", "assunto": "quimica-organica", "questionario": 2, "dificuldade": 1,
+    "contexto": "Butano e seu primo",
+    "enunciado": "O butano (CH3–CH2–CH2–CH3) e o metilpropano (CH3–CH(CH3)–CH3) têm a mesma fórmula, C4H10, mas pontos de ebulição diferentes. Que relação existe entre eles?",
+    "alternativas": [
+      { "letra": "A", "texto": "São a mesma substância, pois têm a mesma fórmula molecular.", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "B", "texto": "São isômeros de cadeia: mesma fórmula, mas esqueletos de carbono diferentes.", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "São isômeros de função, pois pertencem a funções diferentes.", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" },
+      { "letra": "D", "texto": "São isômeros de posição, pois um grupo mudou de lugar na mesma cadeia.", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" },
+      { "letra": "E", "texto": "Não têm relação entre si, pois são hidrocarbonetos diferentes.", "correta": false, "etiqueta": "qui-senso-comum" }
+    ],
+    "explicacao": "O butano tem cadeia linear e o metilpropano tem cadeia ramificada. Como a fórmula molecular é a mesma e o esqueleto de carbonos muda, são isômeros de cadeia. Os dois são hidrocarbonetos, da mesma função, e por isso não é isomeria de função.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-quimica-organica-010", "materia": "quimica", "assunto": "quimica-organica", "questionario": 2, "dificuldade": 1,
+    "contexto": "Ponto de ebulição de isômeros",
+    "enunciado": "O etanol (CH3CH2OH) e o éter dimetílico (CH3OCH3) têm a mesma massa molar (46 g/mol), mas o etanol ferve a cerca de 78 °C e o éter, a −24 °C. Qual a melhor explicação para essa diferença?",
+    "alternativas": [
+      { "letra": "A", "texto": "O etanol tem massa molar maior.", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "B", "texto": "O etanol é apolar e, por isso, suas moléculas se atraem mais.", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" },
+      { "letra": "C", "texto": "O éter tem mais átomos de carbono que o etanol.", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "D", "texto": "As moléculas de etanol se unem por ligações de hidrogênio, que o éter não forma entre si.", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "O etanol tem mais oxigênio por molécula.", "correta": false, "etiqueta": "qui-senso-comum" }
+    ],
+    "explicacao": "No etanol, o H do grupo –OH forma ligações de hidrogênio com o O de outras moléculas, e essas atrações fortes exigem mais energia para separar as moléculas. O éter não tem H ligado a oxigênio e não forma esse tipo de ligação consigo mesmo. A massa molar e o número de C e de O são iguais nos dois.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-quimica-organica-011", "materia": "quimica", "assunto": "quimica-organica", "questionario": 3, "dificuldade": -1,
+    "contexto": "Gás natural",
+    "enunciado": "O gás natural, usado em indústrias e veículos, é uma mistura de hidrocarbonetos. Qual é o seu componente principal?",
+    "alternativas": [
+      { "letra": "A", "texto": "Etanol", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" },
+      { "letra": "B", "texto": "Propano", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" },
+      { "letra": "C", "texto": "Butano", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" },
+      { "letra": "D", "texto": "Benzeno", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" },
+      { "letra": "E", "texto": "Metano", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "O gás natural é formado majoritariamente por metano (CH4), o hidrocarboneto mais simples. Propano e butano são os principais componentes do gás de cozinha (GLP), e o etanol é um álcool líquido.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-quimica-organica-012", "materia": "quimica", "assunto": "quimica-organica", "questionario": 3, "dificuldade": -1,
+    "contexto": "Do poço ao posto",
+    "enunciado": "O petróleo é uma mistura de hidrocarbonetos e é enviado a refinarias, onde é separado em gasolina, diesel, querosene e outros derivados. Qual processo de separação é usado, aproveitando os diferentes pontos de ebulição?",
+    "alternativas": [
+      { "letra": "A", "texto": "Filtração", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "B", "texto": "Decantação", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "C", "texto": "Destilação fracionada", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "Separação magnética", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "E", "texto": "Catação", "correta": false, "etiqueta": "qui-senso-comum" }
+    ],
+    "explicacao": "Na destilação fracionada, o petróleo é aquecido e cada fração evapora e condensa em uma altura diferente da torre, de acordo com o ponto de ebulição. É assim que se separam os derivados, que são misturas de líquidos miscíveis.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-quimica-organica-013", "materia": "quimica", "assunto": "quimica-organica", "questionario": 3, "dificuldade": 0,
+    "contexto": "Sacolinha de plástico",
+    "enunciado": "O polietileno, plástico usado em sacolas e embalagens, é formado pela união de milhares de moléculas pequenas, chamadas monômeros, em uma polimerização de adição. Qual é o monômero do polietileno?",
+    "alternativas": [
+      { "letra": "A", "texto": "Etano (C2H6)", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" },
+      { "letra": "B", "texto": "Etanol (C2H5OH)", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" },
+      { "letra": "C", "texto": "Metano (CH4)", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" },
+      { "letra": "D", "texto": "Eteno ou etileno (C2H4)", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Propeno (C3H6)", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" }
+    ],
+    "explicacao": "A polimerização de adição abre a ligação dupla do monômero, e por isso o monômero tem de ser um alceno. O eteno (etileno) origina o polietileno. O propeno origina o polipropileno, e o etano, que só tem ligações simples, não polimeriza assim.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-quimica-organica-014", "materia": "quimica", "assunto": "quimica-organica", "questionario": 3, "dificuldade": 0,
+    "contexto": "Combustão completa",
+    "enunciado": "Em uma queima completa, com oxigênio em excesso, qualquer hidrocarboneto reage com O2 e produz quais substâncias?",
+    "alternativas": [
+      { "letra": "A", "texto": "CO2 e H2O", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "CO e H2O", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "C", "texto": "C (fuligem) e H2O", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "D", "texto": "CO2 e H2", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "E", "texto": "O2 e H2O", "correta": false, "etiqueta": "qui-senso-comum" }
+    ],
+    "explicacao": "Na combustão completa, todo o carbono vira CO2 e todo o hidrogênio vira H2O. Se faltar oxigênio (combustão incompleta), pode formar CO ou fuligem (C), mas o enunciado fala em oxigênio em excesso.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-quimica-organica-015", "materia": "quimica", "assunto": "quimica-organica", "questionario": 3, "dificuldade": 1,
+    "contexto": "Octano da gasolina",
+    "enunciado": "O octano (C8H18) é um dos componentes da gasolina. Na combustão completa de 1 mol de octano, quantos mols de CO2 e de H2O são formados, respectivamente?",
+    "alternativas": [
+      { "letra": "A", "texto": "8 mol de CO2 e 18 mol de H2O", "correta": false, "etiqueta": "qui-esqueceu-balancear" },
+      { "letra": "B", "texto": "8 mol de CO2 e 9 mol de H2O", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "16 mol de CO2 e 9 mol de H2O", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "D", "texto": "8 mol de CO2 e 8 mol de H2O", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "E", "texto": "9 mol de CO2 e 8 mol de H2O", "correta": false, "etiqueta": "qui-erro-conta" }
+    ],
+    "explicacao": "Cada átomo de carbono vira uma molécula de CO2, então 8 C formam 8 CO2. Cada H2O leva 2 átomos de hidrogênio, então 18 H formam 18 ÷ 2 = 9 H2O. A equação fica C8H18 + 25/2 O2 → 8 CO2 + 9 H2O.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-quimica-organica-016", "materia": "quimica", "assunto": "quimica-organica", "questionario": 4, "dificuldade": -1,
+    "contexto": "Frutas amadurecendo",
+    "enunciado": "O eteno (C2H4) é um gás liberado por frutas e acelera o amadurecimento de outras frutas próximas. Que tipo de ligação existe entre os dois carbonos do eteno?",
+    "alternativas": [
+      { "letra": "A", "texto": "Simples", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" },
+      { "letra": "B", "texto": "Tripla", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" },
+      { "letra": "C", "texto": "Iônica", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "D", "texto": "Dupla", "correta": true, "etiqueta": null },
+      { "letra": "E", "texto": "Metálica", "correta": false, "etiqueta": "qui-senso-comum" }
+    ],
+    "explicacao": "O eteno (H2C=CH2) tem uma ligação dupla entre os carbonos, característica dos alcenos. Com essa dupla, cada carbono faz 4 ligações (2 com C e 2 com H). Ligações iônicas e metálicas não ocorrem entre dois átomos de carbono em compostos orgânicos.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-quimica-organica-017", "materia": "quimica", "assunto": "quimica-organica", "questionario": 4, "dificuldade": 0,
+    "contexto": "Sabão artesanal",
+    "enunciado": "Um sabão pode ser feito em casa, aquecendo gordura ou óleo de cozinha usado com uma solução de soda cáustica. Além do sabão, forma-se glicerol. A base forte usada, nessa reação de saponificação, é qual?",
+    "alternativas": [
+      { "letra": "A", "texto": "HCl (ácido clorídrico)", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "B", "texto": "NaOH (hidróxido de sódio)", "correta": true, "etiqueta": null },
+      { "letra": "C", "texto": "H2O (água pura)", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "D", "texto": "C2H5OH (etanol)", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" },
+      { "letra": "E", "texto": "O2 (oxigênio)", "correta": false, "etiqueta": "qui-senso-comum" }
+    ],
+    "explicacao": "Soda cáustica é o NaOH. Na saponificação, triglicerídeos (óleos e gorduras) reagem com uma base forte, formando sabão (sal de ácido graxo) e glicerol. O HCl é um ácido, e não produz sabão por esse caminho.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-quimica-organica-018", "materia": "quimica", "assunto": "quimica-organica", "questionario": 4, "dificuldade": 0,
+    "contexto": "Ácido do músculo",
+    "enunciado": "O ácido lático, produzido nos músculos durante exercício intenso, tem a fórmula CH3–CH(OH)–COOH. Um carbono quiral (assimétrico) é aquele ligado a quatro grupos diferentes. Quantos carbonos quirais há no ácido lático?",
+    "alternativas": [
+      { "letra": "A", "texto": "Nenhum", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" },
+      { "letra": "B", "texto": "2", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "C", "texto": "1", "correta": true, "etiqueta": null },
+      { "letra": "D", "texto": "3", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "E", "texto": "4", "correta": false, "etiqueta": "qui-erro-conta" }
+    ],
+    "explicacao": "O carbono do meio está ligado a quatro grupos diferentes: H, OH, CH3 e COOH. Já o carbono do CH3 tem três H iguais e o da carboxila só se liga a três átomos. Por isso há apenas 1 carbono quiral.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-quimica-organica-019", "materia": "quimica", "assunto": "quimica-organica", "questionario": 4, "dificuldade": 1,
+    "contexto": "Quanto CO2 sai do fogão",
+    "enunciado": "Na combustão completa de 1 kg de metano (CH4, 16 g/mol), todo o carbono vira CO2 (44 g/mol). Qual a massa aproximada de CO2 liberada?",
+    "alternativas": [
+      { "letra": "A", "texto": "0,75 kg", "correta": false, "etiqueta": "qui-ignorou-dado" },
+      { "letra": "B", "texto": "1,0 kg", "correta": false, "etiqueta": "qui-senso-comum" },
+      { "letra": "C", "texto": "3,67 kg", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "D", "texto": "5,50 kg", "correta": false, "etiqueta": "qui-erro-conta" },
+      { "letra": "E", "texto": "2,75 kg", "correta": true, "etiqueta": null }
+    ],
+    "explicacao": "1.000 g de CH4 são 1.000 ÷ 16 = 62,5 mol. Como CH4 + 2 O2 → CO2 + 2 H2O, forma-se 62,5 mol de CO2, ou 62,5 × 44 = 2.750 g = 2,75 kg. Os 0,75 kg são só a massa do carbono presente, e 3,67 kg suporia que todo o metano é carbono.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "qui-quimica-organica-020", "materia": "quimica", "assunto": "quimica-organica", "questionario": 4, "dificuldade": 1,
+    "contexto": "Funções do analgésico",
+    "enunciado": "O ácido acetilsalicílico (AAS) tem um anel aromático ao qual estão ligados dois grupos: um grupo –COOH e um grupo –O–CO–CH3 (um oxigênio ligado ao anel e a uma carbonila). Quais funções orgânicas oxigenadas estão presentes, além do anel aromático?",
+    "alternativas": [
+      { "letra": "A", "texto": "Ácido carboxílico e éster", "correta": true, "etiqueta": null },
+      { "letra": "B", "texto": "Álcool e cetona", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" },
+      { "letra": "C", "texto": "Aldeído e éter", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" },
+      { "letra": "D", "texto": "Ácido carboxílico e éter", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" },
+      { "letra": "E", "texto": "Amida e álcool", "correta": false, "etiqueta": "qui-confundiu-funcao-organica" }
+    ],
+    "explicacao": "O grupo –COOH é um ácido carboxílico. O grupo –O–CO–CH3 é um éster, porque tem o oxigênio ligado a um carbono de carbonila (C=O). No éter, o oxigênio fica entre dois carbonos sem carbonila.",
+    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+  }
+]
