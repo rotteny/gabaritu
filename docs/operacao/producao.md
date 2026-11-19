@@ -8,11 +8,11 @@ Ambiente: `https://gabaritu.gorilash.com.br`. Servidor: `45.178.177.3` (usuário
 
 Projeto compose isolado `gabaritu` (`infra/producao/compose.yaml`), sem Redis (sessão, cache e fila em banco) e sem worker/scheduler (nada roda em fila com o cadastro fechado; ao abrir, adicionar `queue:work` e `schedule:work`).
 
-| Serviço | Imagem | Função |
-|---|---|---|
-| `db` | `postgres:18.6-trixie` | banco próprio (`gabaritu`), volume `pgdata`, 384 MB |
-| `app` | `gabaritu-app` (PHP 8.4 FPM) | php-fpm, 256 MB |
-| `gabaritu-web` | `gabaritu-web` (nginx) | serve `public/` e fala FastCGI com o `app`; alias `gabaritu-web` na rede `laradock_backend` |
+| Serviço        | Imagem                       | Função                                                                                      |
+| -------------- | ---------------------------- | ------------------------------------------------------------------------------------------- |
+| `db`           | `postgres:18.6-trixie`       | banco próprio (`gabaritu`), volume `pgdata`, 384 MB                                         |
+| `app`          | `gabaritu-app` (PHP 8.4 FPM) | php-fpm, 256 MB                                                                             |
+| `gabaritu-web` | `gabaritu-web` (nginx)       | serve `public/` e fala FastCGI com o `app`; alias `gabaritu-web` na rede `laradock_backend` |
 
 - Borda: o nginx do Laradock termina o TLS e faz proxy para `gabaritu-web` (vhost `/app/laradock/nginx/sites/gabaritu.conf`, fonte em `infra/producao/nginx/edge/`). Cabeçalhos de segurança ficam lá.
 - Proxy confiável: `TRUSTED_PROXIES=172.16.0.0/12` (bridges do Docker). Sem isso o Laravel geraria URLs `http`.
@@ -20,14 +20,14 @@ Projeto compose isolado `gabaritu` (`infra/producao/compose.yaml`), sem Redis (s
 
 ## Arquivos no servidor
 
-| O quê | Onde |
-|---|---|
-| Código (clone público, branch `main`) | `/app/www/gabaritu` |
-| `.env` (0600, chaves geradas no servidor por `scripts/producao-init-env.sh`) | `/app/www/gabaritu/.env` |
-| Desafio ACME | `/app/www/gabaritu-acme` |
-| Vhost de borda | `/app/laradock/nginx/sites/gabaritu.conf` |
-| Certificado (cópia para o nginx) | `/app/laradock/nginx/ssl/gabaritu/` (hook `/etc/letsencrypt/renewal-hooks/deploy/copy-to-nginx.sh`) |
-| Backups | `/data/backups/gabaritu/` |
+| O quê                                                                        | Onde                                                                                                |
+| ---------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| Código (clone público, branch `main`)                                        | `/app/www/gabaritu`                                                                                 |
+| `.env` (0600, chaves geradas no servidor por `scripts/producao-init-env.sh`) | `/app/www/gabaritu/.env`                                                                            |
+| Desafio ACME                                                                 | `/app/www/gabaritu-acme`                                                                            |
+| Vhost de borda                                                               | `/app/laradock/nginx/sites/gabaritu.conf`                                                           |
+| Certificado (cópia para o nginx)                                             | `/app/laradock/nginx/ssl/gabaritu/` (hook `/etc/letsencrypt/renewal-hooks/deploy/copy-to-nginx.sh`) |
+| Backups                                                                      | `/data/backups/gabaritu/`                                                                           |
 
 Não troque o `APP_KEY` depois de haver dados (sessões e cookies cifrados deixam de valer).
 
@@ -61,14 +61,14 @@ tail -f /app/laradock/logs/nginx/gabaritu-error.log
    `whmapi1 addzonerecord domain=gorilash.com.br name=gabaritu.gorilash.com.br. type=A address=45.178.177.3 ttl=300 class=IN`
    (o nome precisa ser o FQDN completo com `.br.`). O PowerDNS só enxerga o registro novo depois de `pdns_control bind-reload-now gorilash.com.br`. Conferir: `dig +short gabaritu.gorilash.com.br @ns1.tikbot.com.br`.
 2. No servidor da Gorila:
-   ```bash
-   sudo install -d -o gorillas -g gorillas /app/www/gabaritu-acme
-   cd /app/www/gabaritu
-   scripts/producao-edge.sh http    # vhost só com ACME + nginx -t + reload gracioso
-   scripts/producao-edge.sh cert    # mapeia o lineage no hook e emite o certificado (HTTP-01)
-   scripts/producao-edge.sh https   # vhost definitivo + nginx -t + reload + teste dos cabeçalhos
-   ```
-   Os hooks de `renewal-hooks/deploy/` só rodam em `certbot renew`, não em `certonly`: por isso o `cert` chama o hook à mão (com `RENEWED_LINEAGE`) logo após a emissão. Conferir a renovação sem renovar: `sudo certbot renew --cert-name gabaritu.gorilash.com.br --dry-run`.
+    ```bash
+    sudo install -d -o gorillas -g gorillas /app/www/gabaritu-acme
+    cd /app/www/gabaritu
+    scripts/producao-edge.sh http    # vhost só com ACME + nginx -t + reload gracioso
+    scripts/producao-edge.sh cert    # mapeia o lineage no hook e emite o certificado (HTTP-01)
+    scripts/producao-edge.sh https   # vhost definitivo + nginx -t + reload + teste dos cabeçalhos
+    ```
+    Os hooks de `renewal-hooks/deploy/` só rodam em `certbot renew`, não em `certonly`: por isso o `cert` chama o hook à mão (com `RENEWED_LINEAGE`) logo após a emissão. Conferir a renovação sem renovar: `sudo certbot renew --cert-name gabaritu.gorilash.com.br --dry-run`.
 
 ## Backup e restauração
 

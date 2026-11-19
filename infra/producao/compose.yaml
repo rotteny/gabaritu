@@ -1,55 +1,72 @@
 name: gabaritu
 
 services:
-  db:
-    image: postgres:18.6-trixie
-    restart: unless-stopped
-    networks: [internal]
-    mem_limit: 384m
-    shm_size: 64m
-    environment:
-      POSTGRES_DB: ${DB_DATABASE}
-      POSTGRES_USER: ${DB_USERNAME}
-      POSTGRES_PASSWORD: ${DB_PASSWORD}
-    command: ["postgres", "-c", "shared_buffers=64MB", "-c", "max_connections=30"]
-    volumes:
-      - pgdata:/var/lib/postgresql
-    healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
-      interval: 5s
-      timeout: 3s
-      retries: 20
+    db:
+        image: postgres:18.6-trixie
+        restart: unless-stopped
+        networks: [internal]
+        mem_limit: 384m
+        shm_size: 64m
+        environment:
+            POSTGRES_DB: ${DB_DATABASE}
+            POSTGRES_USER: ${DB_USERNAME}
+            POSTGRES_PASSWORD: ${DB_PASSWORD}
+        command:
+            [
+                'postgres',
+                '-c',
+                'shared_buffers=64MB',
+                '-c',
+                'max_connections=30',
+            ]
+        volumes:
+            - pgdata:/var/lib/postgresql
+        healthcheck:
+            test:
+                [
+                    'CMD-SHELL',
+                    'pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}',
+                ]
+            interval: 5s
+            timeout: 3s
+            retries: 20
 
-  app:
-    image: gabaritu-app:${APP_TAG:-current}
-    build: { context: ., dockerfile: infra/producao/Dockerfile, target: app }
-    env_file: .env
-    restart: unless-stopped
-    networks: [internal]
-    mem_limit: 256m
-    depends_on:
-      db: { condition: service_healthy }
+    app:
+        image: gabaritu-app:${APP_TAG:-current}
+        build:
+            { context: ., dockerfile: infra/producao/Dockerfile, target: app }
+        env_file: .env
+        restart: unless-stopped
+        networks: [internal]
+        mem_limit: 256m
+        depends_on:
+            db: { condition: service_healthy }
 
-  gabaritu-web:
-    image: gabaritu-web:${APP_TAG:-current}
-    build: { context: ., dockerfile: infra/producao/Dockerfile, target: web }
-    restart: unless-stopped
-    networks:
-      internal: {}
-      edge: { aliases: [gabaritu-web] }
-    mem_limit: 64m
-    depends_on: [app]
-    healthcheck:
-      test: ["CMD-SHELL", "wget -q -O /dev/null http://127.0.0.1/up || exit 1"]
-      interval: 15s
-      timeout: 5s
-      retries: 5
+    gabaritu-web:
+        image: gabaritu-web:${APP_TAG:-current}
+        build:
+            { context: ., dockerfile: infra/producao/Dockerfile, target: web }
+        restart: unless-stopped
+        networks:
+            internal: {}
+            edge: { aliases: [gabaritu-web] }
+        mem_limit: 64m
+        depends_on: [app]
+        healthcheck:
+            test:
+                [
+                    'CMD-SHELL',
+                    'wget -q -O /dev/null http://127.0.0.1/up || exit 1',
+                ]
+            interval: 15s
+            timeout: 5s
+            retries: 5
 
 networks:
-  internal: {}
-  edge:
-    external: true
-    name: laradock_backend
+    internal: {}
+    edge:
+        external: true
+        name: laradock_backend
 
 volumes:
-  pgdata: {}
+    pgdata: {}
