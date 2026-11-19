@@ -2,7 +2,7 @@ import { computed, ref } from 'vue';
 import { alternativasDemo, questaoDemo } from '@/data/landingDemo';
 import type { Zoeira } from '@/data/landingDemo';
 
-export type HumorPeixoto = 'idle' | 'mad' | 'happy';
+export type HumorPeixoto = 'idle' | 'mad' | 'happy' | 'help';
 
 const PUFF_POR_ERRO = 0.16;
 const MAX_ERROS_NO_INCHACO = 3;

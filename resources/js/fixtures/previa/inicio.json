@@ -1,0 +1,125 @@
+{
+    "component": "Inicio",
+    "props": {
+        "materias": [
+            {
+                "slug": "matematica",
+                "nome": "Matemática",
+                "area": "Matemática",
+                "nota": 560,
+                "assuntos_total": 8,
+                "revisao_hoje": 3
+            },
+            {
+                "slug": "portugues",
+                "nome": "Português",
+                "area": "Linguagens",
+                "nota": null,
+                "assuntos_total": 6,
+                "revisao_hoje": 0
+            },
+            {
+                "slug": "literatura",
+                "nome": "Literatura",
+                "area": "Linguagens",
+                "nota": 480,
+                "assuntos_total": 5,
+                "revisao_hoje": 2
+            },
+            {
+                "slug": "ingles",
+                "nome": "Inglês",
+                "area": "Linguagens",
+                "nota": null,
+                "assuntos_total": 4,
+                "revisao_hoje": 0
+            },
+            {
+                "slug": "espanhol",
+                "nome": "Espanhol",
+                "area": "Linguagens",
+                "nota": null,
+                "assuntos_total": 3,
+                "revisao_hoje": 0
+            },
+            {
+                "slug": "artes",
+                "nome": "Artes",
+                "area": "Linguagens",
+                "nota": null,
+                "assuntos_total": 3,
+                "revisao_hoje": 0
+            },
+            {
+                "slug": "educacao-fisica",
+                "nome": "Educação Física",
+                "area": "Linguagens",
+                "nota": null,
+                "assuntos_total": 2,
+                "revisao_hoje": 0
+            },
+            {
+                "slug": "historia",
+                "nome": "História",
+                "area": "Humanas",
+                "nota": 610,
+                "assuntos_total": 7,
+                "revisao_hoje": 0
+            },
+            {
+                "slug": "geografia",
+                "nome": "Geografia",
+                "area": "Humanas",
+                "nota": null,
+                "assuntos_total": 6,
+                "revisao_hoje": 0
+            },
+            {
+                "slug": "filosofia",
+                "nome": "Filosofia",
+                "area": "Humanas",
+                "nota": null,
+                "assuntos_total": 4,
+                "revisao_hoje": 0
+            },
+            {
+                "slug": "sociologia",
+                "nome": "Sociologia",
+                "area": "Humanas",
+                "nota": null,
+                "assuntos_total": 4,
+                "revisao_hoje": 0
+            },
+            {
+                "slug": "biologia",
+                "nome": "Biologia",
+                "area": "Natureza",
+                "nota": 520,
+                "assuntos_total": 9,
+                "revisao_hoje": 1
+            },
+            {
+                "slug": "quimica",
+                "nome": "Química",
+                "area": "Natureza",
+                "nota": null,
+                "assuntos_total": 7,
+                "revisao_hoje": 0
+            },
+            {
+                "slug": "fisica",
+                "nome": "Física",
+                "area": "Natureza",
+                "nota": null,
+                "assuntos_total": 6,
+                "revisao_hoje": 0
+            }
+        ],
+        "revisao_hoje_total": 6,
+        "fala": {
+            "texto": "Bora estudar? Eu tô aqui só pra torcer. E pra zoar um pouquinho.",
+            "humor": "feliz",
+            "variacao_id": 3
+        }
+    }
+}

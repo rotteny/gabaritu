@@ -1,0 +1,12 @@
+{
+    "component": "Conta",
+    "props": {},
+    "aluno": {
+        "idade": 13,
+        "serie": "9ano",
+        "preferencias": {
+            "zoeira": "sarc",
+            "zoeira_maxima": "sarc"
+        }
+    }
+}

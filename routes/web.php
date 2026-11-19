@@ -36,3 +36,7 @@ Route::middleware('auth')->group(function () {
     Route::put('conta/senha', [ContaController::class, 'senha'])->middleware('throttle:6,1')->name('conta.senha');
     Route::delete('conta', [ContaController::class, 'destroy'])->middleware('throttle:6,1')->name('conta.destroy');
 });
+
+if (app()->isLocal()) {
+    require __DIR__.'/previa.php';
+}

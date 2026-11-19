@@ -1,5 +1,5 @@
 /* Landing do Gabaritu: tokens, base e botões. Visual cartoon: contorno grosso, sombra sólida, cor chapada. */
-.landing {
+:is(.landing, .gb) {
     --ink: #1b1030;
     --paper: #fff6d9;
     --white: #fff;
@@ -20,7 +20,9 @@
     --line: 4px;
     --font-display: 'Titan One', 'Arial Black', Impact, sans-serif;
     --font-body: 'Nunito', 'Segoe UI', system-ui, sans-serif;
+}
 
+.landing {
     min-height: 100dvh;
     overflow-x: clip;
     background: var(--cyan);
@@ -31,7 +33,7 @@
     line-height: 1.45;
 }
 
-.landing *:focus-visible {
+:is(.landing, .gb) *:focus-visible {
     outline: 4px solid var(--focus, var(--ink));
     outline-offset: 3px;
 }

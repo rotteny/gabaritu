@@ -1,0 +1,11 @@
+{
+    "component": "Erro",
+    "props": {
+        "status": 500,
+        "fala": {
+            "texto": "Eu inchei, mas dessa vez a culpa não foi sua.",
+            "humor": "bravo",
+            "variacao_id": 9
+        }
+    }
+}
