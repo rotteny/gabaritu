@@ -1,0 +1,39 @@
+name: deploy
+
+# Push na main = CI completo e, SÓ se passar, deploy em 45.178.177.3. Nunca roda em pull_request.
+# A chave DEPLOY_SSH_KEY é dedicada: no servidor está em authorized_keys com `restrict,command="..."`
+# e só consegue rodar scripts/deploy-producao.sh (origin/main). Host e usuário não são segredo.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-producao
+  cancel-in-progress: false
+
+jobs:
+  ci:
+    uses: ./.github/workflows/ci.yml
+
+  deploy:
+    needs: ci
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    environment: producao
+    steps:
+      - name: Preparar SSH
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          SSH_KNOWN_HOSTS: ${{ secrets.DEPLOY_SSH_KNOWN_HOSTS }}
+        run: |
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$SSH_PRIVATE_KEY" > ~/.ssh/id_deploy
+          chmod 600 ~/.ssh/id_deploy
+          printf '%s\n' "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
+
+      - name: Rodar o deploy no servidor
+        run: ssh -i ~/.ssh/id_deploy -o StrictHostKeyChecking=yes -o BatchMode=yes gorillas@45.178.177.3 deploy
