@@ -1,0 +1,13 @@
+{
+    "name": "Gabaritu",
+    "short_name": "Gabaritu",
+    "description": "Estude pro ENEM com um baiacu que zoa a sua resposta.",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#35c9ee",
+    "background_color": "#35c9ee",
+    "icons": [
+        { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+        { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+    ]
+}
