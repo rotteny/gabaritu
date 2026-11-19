@@ -3,7 +3,7 @@ import { ehGrito, humorDaFala } from '@/lib/grito';
 
 describe('ehGrito', () => {
     it('detecta fala toda em maiúscula', () => {
-        expect(ehGrito('ISSO É UMA MITOCÔNDRIA, SEU TOTÓ!')).toBe(true);
+        expect(ehGrito('ISSO É UMA MITOCÔNDRIA, NÃO UM RIBOSSOMO!')).toBe(true);
     });
 
     it('ignora fala normal', () => {
