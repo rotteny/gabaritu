@@ -73,7 +73,7 @@ onBeforeUnmount(() => {
             <LandingPrivacy />
             <LandingOpenSource :repositorio-url="repositorioUrl" />
         </main>
-        <PeixotoNadador :oculto="heroVisivel" :reduzido="reduzido" />
+        <PeixotoNadador :discreto="heroVisivel" :reduzido="reduzido" />
         <LandingFooter
             :email-contato="emailContato"
             :repositorio-url="repositorioUrl"

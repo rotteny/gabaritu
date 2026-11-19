@@ -34,14 +34,14 @@ export function useNadadorScroll(
         ultimoT = t;
         vel += ((y - ultimoY) / dt - vel) * 0.2;
         ultimoY = y;
-        const alvo = limitar(-vel * 0.05, 70);
+        const alvo = limitar(-vel * 0.09, 110);
         offV += ((alvo - off) * 60 - offV * 9) * dt;
         off += offV * dt;
         const rapidez = Math.min(Math.abs(vel) / 1500, 1);
         fase += dt * (2 + rapidez * 12) * Math.PI * 2;
 
         if (el) {
-            el.style.transform = `translate3d(0, ${off.toFixed(1)}px, 0) rotate(${limitar(vel * 0.012, 22).toFixed(1)}deg)`;
+            el.style.transform = `translate3d(0, ${off.toFixed(1)}px, 0) rotate(${limitar(vel * 0.018, 26).toFixed(1)}deg)`;
             cauda()?.style.setProperty(
                 'transform',
                 `rotate(${(Math.sin(fase) * (10 + rapidez * 14)).toFixed(1)}deg)`,

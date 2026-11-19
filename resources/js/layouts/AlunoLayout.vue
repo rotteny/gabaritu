@@ -5,7 +5,6 @@ import FundoAquario from '@/components/aluno/FundoAquario.vue';
 import BotaoSair from '@/components/aluno/BotaoSair.vue';
 import LinhaCredito from '@/components/LinhaCredito.vue';
 import MarcaGabaritu from '@/components/MarcaGabaritu.vue';
-import PeixotoNadador from '@/components/PeixotoNadador.vue';
 import BotaoSom from '@/components/BotaoSom.vue';
 import { useAluno } from '@/composables/useAluno';
 import { useMovimentoReduzido } from '@/composables/useMovimentoReduzido';
@@ -69,7 +68,6 @@ const ativo = (href: string) =>
         <main id="conteudo" class="gb-pagina">
             <slot />
         </main>
-        <PeixotoNadador :reduzido="reduzido" />
         <LinhaCredito :repositorio-url="repositorioUrl" />
     </div>
 </template>

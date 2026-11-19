@@ -4,7 +4,7 @@ import PeixotoSvg from '@/components/landing/PeixotoSvg.vue';
 import { useNadadorScroll } from '@/composables/useNadadorScroll';
 import { blipHover, palcoAtivo } from '@/lib/motorSom';
 
-const props = defineProps<{ oculto?: boolean; reduzido?: boolean }>();
+const props = defineProps<{ discreto?: boolean; reduzido?: boolean }>();
 
 type Bolha = { id: number; dx: number };
 
@@ -35,7 +35,7 @@ useNadadorScroll(
             }
         },
     },
-    () => props.reduzido === true || props.oculto === true,
+    () => props.reduzido === true,
 );
 
 function cutucar() {
@@ -51,9 +51,11 @@ function cutucar() {
 
 <template>
     <div
-        v-show="!oculto"
         class="nadador"
-        :class="{ 'nadador--reduzido': reduzido }"
+        :class="{
+            'nadador--reduzido': reduzido,
+            'nadador--discreto': discreto,
+        }"
     >
         <span
             v-for="b in bolhas"

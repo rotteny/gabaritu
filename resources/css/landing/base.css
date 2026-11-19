@@ -306,6 +306,8 @@
 
 /* Linha de crédito: texto discreto, fundo transparente, contraste AA sobre o ciano/areia. */
 .credito {
+    position: relative;
+    z-index: 2;
     margin: 0;
     padding: 6px 12px 10px;
     background: transparent;
