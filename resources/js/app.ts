@@ -1,7 +1,9 @@
 import { createInertiaApp } from '@inertiajs/vue3';
 import { initializeTheme } from '@/composables/useAppearance';
+import AlunoLayout from '@/layouts/AlunoLayout.vue';
 import AppLayout from '@/layouts/AppLayout.vue';
 import AuthLayout from '@/layouts/AuthLayout.vue';
+import QuestaoLayout from '@/layouts/QuestaoLayout.vue';
 import SettingsLayout from '@/layouts/settings/Layout.vue';
 import { initializeFlashToast } from '@/lib/flashToast';
 
@@ -13,12 +15,16 @@ void createInertiaApp({
         switch (true) {
             case name === 'Landing':
                 return null;
+            case name === 'Questao':
+                return QuestaoLayout;
             case name.startsWith('auth/'):
                 return AuthLayout;
             case name.startsWith('settings/'):
                 return [AppLayout, SettingsLayout];
-            default:
+            case name === 'Dashboard':
                 return AppLayout;
+            default:
+                return AlunoLayout;
         }
     },
     withApp: (app) => {
@@ -31,7 +37,7 @@ void createInertiaApp({
         });
     },
     progress: {
-        color: '#4B5563',
+        color: '#e2640a',
     },
 });
 
