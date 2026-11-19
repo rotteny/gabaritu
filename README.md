@@ -15,7 +15,7 @@ Laravel 13, PHP 8.4, Vue 3 + Inertia, Vite, PostgreSQL 18, Pest 5.
 Pré-requisitos: Laradock rodando (workspace, nginx, postgres, mailpit) com `~/workspace` montado em `/var/www`, e `127.0.0.1 gabaritu.local` no hosts.
 
 1. Crie os bancos `gabaritu` e `gabaritu_test` no Postgres do Laradock.
-2. Copie [docs/laradock-nginx.conf.example](docs/laradock-nginx.conf.example) para `laradock/nginx/sites/gabaritu.conf` e recarregue o nginx do Laradock.
+2. Copie [docs/laradock-nginx.conf.example](docs/laradock-nginx.conf.example) para `laradock/nginx/sites/gabaritu.conf` gere o certificado local com `mkcert -cert-file laradock/nginx/ssl/gabaritu.local.pem -key-file laradock/nginx/ssl/gabaritu.local-key.pem gabaritu.local` e recarregue o nginx do Laradock. Use `APP_URL=https://gabaritu.local` no `.env` (o navegador costuma forçar https; sem o certificado a página fica em branco).
 3. No container (`docker exec -u laradock -w /var/www/gabaritu laradock-workspace-1 ...`):
 
 ```bash
@@ -25,7 +25,7 @@ php artisan migrate
 npm run build
 ```
 
-Abra http://gabaritu.local. E-mails saem no Mailpit (porta 8125 do host).
+Abra https://gabaritu.local. E-mails saem no Mailpit (porta 8125 do host).
 
 ## Modo "em breve"
 
