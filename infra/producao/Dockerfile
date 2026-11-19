@@ -26,6 +26,7 @@ COPY database ./database
 COPY routes ./routes
 COPY resources ./resources
 COPY public ./public
+RUN mkdir -p storage/app/private storage/framework/cache/data storage/framework/sessions storage/framework/views storage/logs bootstrap/cache
 RUN composer dump-autoload --no-dev --optimize --classmap-authoritative
 
 # O plugin Wayfinder do Vite roda `php artisan wayfinder:generate`: o estágio de front precisa de PHP + vendor.
@@ -42,8 +43,7 @@ RUN cp "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini" \
     && printf 'memory_limit=256M\nexpose_php=0\nopcache.validate_timestamps=0\n' > "$PHP_INI_DIR/conf.d/zz-gabaritu.ini"
 COPY --from=vendor --chown=www-data:www-data /var/www/html ./
 COPY --from=front --chown=www-data:www-data /var/www/html/public/build ./public/build
-RUN mkdir -p storage/app/private storage/framework/cache/data storage/framework/sessions storage/framework/views storage/logs bootstrap/cache \
-    && chown -R www-data:www-data storage bootstrap/cache
+RUN chown -R www-data:www-data storage bootstrap/cache
 COPY --chmod=0755 infra/producao/entrypoint.sh /usr/local/bin/gabaritu-entrypoint
 USER www-data
 EXPOSE 9000
