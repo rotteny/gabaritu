@@ -15,7 +15,9 @@ export function useSomPeixoto(ligado: MaybeRefOrGetter<boolean>) {
 
     return {
         destravar: destravarSom,
-        bipe: se((humor: HumorFala) => bipePeixoto(humor)),
+        bipe: se((humor: HumorFala, grito?: boolean) =>
+            bipePeixoto(humor, grito ?? false),
+        ),
         acerto: se(somAcerto),
         erro: se(somErro),
     };

@@ -172,10 +172,17 @@ function tom(
     osc.stop(t0 + t + 0.03);
 }
 
-export function bipePeixoto(humor: HumorFala, p: Palco | null = palcoAtivo()) {
-    const t = entre(0.09, 0.11);
+export function bipePeixoto(
+    humor: HumorFala,
+    grito = false,
+    p: Palco | null = palcoAtivo(),
+) {
+    const t = grito ? entre(0.06, 0.08) : entre(0.09, 0.11);
 
-    if (humor === 'bravo') {
+    if (grito) {
+        const f = entre(240, 380);
+        tom(p, { f, f2: f * 0.7, type: 'sawtooth', v: 0.55, t });
+    } else if (humor === 'bravo') {
         const f = entre(180, 300);
         tom(p, { f, f2: f * 0.7, type: 'sawtooth', v: 0.4, t });
     } else if (humor === 'feliz') {

@@ -528,3 +528,9 @@
 .gb[data-reduzir='true'] .q-alts li:has(.q-alt--recolhida) {
     display: none;
 }
+
+/* Balão de grito na questão: folga para as pontas e o rabicho, sem empurrar o jogo para fora da tela. */
+html .q-balao.gb-grito-alvo[data-grito='true'] {
+    margin: 10px 16px 18px 14px;
+    padding: 12px 22px 14px;
+}

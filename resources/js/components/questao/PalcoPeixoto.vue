@@ -1,9 +1,11 @@
 <script setup lang="ts">
+import { computed } from 'vue';
 import PeixotoSvg from '@/components/landing/PeixotoSvg.vue';
+import { ehGrito } from '@/lib/grito';
 import { INCHACO, humorPeixoto } from '@/lib/humor';
 import type { HumorFala } from '@/types/gabaritu';
 
-defineProps<{
+const props = defineProps<{
     humor: HumorFala;
     textoCompleto: string;
     digitado: string;
@@ -11,11 +13,16 @@ defineProps<{
     podePular: boolean;
 }>();
 defineEmits<{ pular: [] }>();
+const grito = computed(() => ehGrito(props.textoCompleto));
 </script>
 
 <template>
     <section class="q-palco" aria-label="Peixoto, o baiacu">
-        <div class="q-balao" :data-humor="humor">
+        <div
+            class="q-balao gb-grito-alvo"
+            :data-humor="humor"
+            :data-grito="grito"
+        >
             <span class="q-balao-corpo" aria-hidden="true">
                 <span class="q-fantasma">{{ textoCompleto }}</span>
                 <span class="q-digitado">{{ digitado }}</span>

@@ -1,5 +1,6 @@
 import { ref, watch } from 'vue';
 import type { Ref } from 'vue';
+import { ehGrito, humorDaFala } from '@/lib/grito';
 import type { HumorFala } from '@/types/gabaritu';
 
 const LETRA = /[A-Za-zÀ-ÿ0-9]/;
@@ -11,15 +12,17 @@ const VELOCIDADE: Record<HumorFala, number> = {
     neutro: 26,
     ajuda: 30,
 };
+const VELOCIDADE_GRITO = 13;
 
 /**
  * Balão de fala que "digita" o texto, com um bipe por letra.
  * Só avança enquanto `pode` for true (Peixoto visível, aba ativa, áudio destravado); fora disso pausa e retoma.
+ * Grito (ver `ehGrito`) vira humor bravo, com bipe mais alto e digitação mais rápida.
  * `falar` resolve true quando termina (ou é pulada) e false se outra fala a interrompeu.
  */
 export function useFalaDigitada(
     reduzido: Ref<boolean>,
-    bipe: (humor: HumorFala) => void,
+    bipe: (humor: HumorFala, grito?: boolean) => void,
     pode: Ref<boolean> = ref(true),
 ) {
     const digitado = ref('');
@@ -36,7 +39,9 @@ export function useFalaDigitada(
         }
     });
 
-    function falar(texto: string, humor: HumorFala): Promise<boolean> {
+    function falar(texto: string, humorContrato: HumorFala): Promise<boolean> {
+        const grito = ehGrito(texto);
+        const humor = humorDaFala(texto, humorContrato);
         const meu = ++token;
         retomar = null;
         digitado.value = '';
@@ -53,6 +58,7 @@ export function useFalaDigitada(
         return new Promise((resolve) => {
             let i = 0;
             let timer = 0;
+            const ritmo = grito ? VELOCIDADE_GRITO : VELOCIDADE[humor];
 
             const concluir = () => {
                 clearTimeout(timer);
@@ -82,7 +88,7 @@ export function useFalaDigitada(
                 digitado.value = texto.slice(0, i);
 
                 if (LETRA.test(letra)) {
-                    bipe(humor);
+                    bipe(humor, grito);
                 }
 
                 if (i >= texto.length) {
@@ -93,9 +99,7 @@ export function useFalaDigitada(
 
                 timer = window.setTimeout(
                     passo,
-                    PAUSA.test(letra)
-                        ? VELOCIDADE[humor] * 4
-                        : VELOCIDADE[humor],
+                    PAUSA.test(letra) ? ritmo * 4 : ritmo,
                 );
             };
 

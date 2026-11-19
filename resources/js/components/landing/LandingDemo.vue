@@ -1,10 +1,12 @@
 <script setup lang="ts">
-import { useTemplateRef, watch } from 'vue';
+import { computed, useTemplateRef, watch } from 'vue';
 import { usePodeFalar } from '@/composables/usePodeFalar';
 import { useDemoSound } from '@/composables/useDemoSound';
 import { useFalaDigitada } from '@/composables/useFalaDigitada';
 import { useMovimentoReduzido } from '@/composables/useMovimentoReduzido';
 import { usePeixotoDemo } from '@/composables/usePeixotoDemo';
+import { INCHACO } from '@/lib/humor';
+import { ehGrito } from '@/lib/grito';
 import { alternativasDemo, questaoDemo } from '@/data/landingDemo';
 import DemoBurst from './DemoBurst.vue';
 import DemoControls from './DemoControls.vue';
@@ -28,6 +30,11 @@ const reduzido = useMovimentoReduzido();
 const palco = useTemplateRef<HTMLElement>('palco');
 const podeFalar = usePodeFalar(() => palco.value);
 const { digitado, falar } = useFalaDigitada(reduzido, bipe, podeFalar);
+const grito = computed(() => ehGrito(fala.value));
+const humorExibido = computed(() => (grito.value ? 'mad' : humor.value));
+const inchacoExibido = computed(() =>
+    grito.value ? Math.max(inchaco.value, INCHACO.bravo) : inchaco.value,
+);
 const falaHumor = {
     idle: 'neutro',
     mad: 'bravo',
@@ -71,12 +78,20 @@ function estadoDaAlternativa(
 
             <div class="l-demo-grid">
                 <div ref="palco" class="l-demo-fish">
-                    <p class="l-speech" :data-humor="humor" aria-live="polite">
+                    <p
+                        class="l-speech gb-grito-alvo"
+                        :data-humor="humorExibido"
+                        :data-grito="grito"
+                        aria-live="polite"
+                    >
                         {{ digitado || fala }}
                     </p>
                     <div class="l-float">
-                        <div class="l-puff" :style="{ '--puff': inchaco }">
-                            <PeixotoSvg :humor="humor" />
+                        <div
+                            class="l-puff"
+                            :style="{ '--puff': inchacoExibido }"
+                        >
+                            <PeixotoSvg :humor="humorExibido" />
                         </div>
                     </div>
                     <DemoBurst v-if="acertou" :key="rodada" />

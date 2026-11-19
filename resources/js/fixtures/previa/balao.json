@@ -1,0 +1,15 @@
+{
+    "component": "PreviaBalao",
+    "props": {
+        "normal": {
+            "texto": "Quase! A mitocôndria faz a respiração celular.",
+            "humor": "neutro",
+            "variacao_id": 1
+        },
+        "grito": {
+            "texto": "RIBOSSOMO NÃO FAZ ENERGIA, SEU TOTÓ!",
+            "humor": "neutro",
+            "variacao_id": 2
+        }
+    }
+}

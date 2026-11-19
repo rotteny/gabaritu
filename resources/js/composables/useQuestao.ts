@@ -5,6 +5,7 @@ import { usePodeFalar } from '@/composables/usePodeFalar';
 import { useFalaDigitada } from '@/composables/useFalaDigitada';
 import { useMovimentoReduzido } from '@/composables/useMovimentoReduzido';
 import { useControleSom } from '@/composables/useMusica';
+import { humorDaFala } from '@/lib/grito';
 import { useSomPeixoto } from '@/composables/useSomPeixoto';
 import { enviarResposta } from '@/lib/respostas';
 import type {
@@ -39,7 +40,9 @@ export function useQuestao({ tentativa, questao, abertura }: Entrada) {
     const efeitosPulados = ref(false);
     let montado = true;
 
-    const humor = computed(() => falaAtual.value.humor);
+    const humor = computed(() =>
+        humorDaFala(falaAtual.value.texto, falaAtual.value.humor),
+    );
     const acertou = computed(() => resposta.value?.correta === true);
     const freio = computed(() => resposta.value?.freio_ativo === true);
     const ultima = computed(
