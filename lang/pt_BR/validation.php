@@ -13,6 +13,13 @@ return [
     'required' => 'Este campo é obrigatório.',
     'string' => 'Informe um texto válido.',
     'unique' => 'Este valor já está em uso.',
+    'between' => ['string' => 'Use entre :min e :max caracteres.', 'numeric' => 'Informe um valor entre :min e :max.'],
+    'date' => 'Informe uma data válida.',
+    'required_with' => 'Este campo é obrigatório.',
+    'size' => ['string' => 'Use exatamente :size caracteres.', 'numeric' => 'O valor precisa ser :size.'],
+    'numeric' => 'Informe um número.',
+    'regex' => 'O formato informado é inválido.',
+    'array' => 'Informe uma lista válida.',
     'boolean' => 'Informe verdadeiro ou falso.',
     'exists' => 'Valor inválido.',
     'password' => [
@@ -24,6 +31,9 @@ return [
     ],
     'attributes' => [
         'apelido' => 'apelido',
+        'zoeira' => 'zoeira',
+        'serie' => 'série',
+        'email' => 'e-mail',
         'senha' => 'senha',
         'ano_nascimento' => 'ano de nascimento',
         'aceite_privacidade' => 'aceite da privacidade',
