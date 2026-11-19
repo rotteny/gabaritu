@@ -1,9 +1,10 @@
 import { router } from '@inertiajs/vue3';
-import { onBeforeUnmount, ref, watch } from 'vue';
+import { computed, ref, watch } from 'vue';
 import { useAluno } from '@/composables/useAluno';
 import { definirMusicaAtiva, reterMusica } from '@/lib/motorMusica';
 import { destravarSom } from '@/lib/motorSom';
 import { rotas } from '@/lib/rotas';
+import type { PropsCompartilhadas } from '@/types/gabaritu';
 
 /** Estado único (som de efeitos e música) compartilhado entre layouts, questão e landing. */
 const somLigado = ref(true);
@@ -32,55 +33,83 @@ export function useControleSom() {
     return { somLigado, musicaLigada };
 }
 
-/** Alterna a música; no app logado salva a preferência `musica` no servidor. */
-export function useAlternarMusica() {
+const CHAVE_LOCAL = 'gabaritu:som';
+
+function lerLocal(): { som: boolean; musica: boolean } | null {
+    try {
+        const bruto = window.localStorage.getItem(CHAVE_LOCAL);
+
+        return bruto ? JSON.parse(bruto) : null;
+    } catch {
+        return null;
+    }
+}
+
+function gravarLocal() {
+    try {
+        window.localStorage.setItem(
+            CHAVE_LOCAL,
+            JSON.stringify({
+                som: somLigado.value,
+                musica: musicaLigada.value,
+            }),
+        );
+    } catch {
+        // Navegador sem armazenamento: a preferência vale só nesta visita.
+    }
+}
+
+/** Raiz do app: música e som valem em qualquer página Inertia, inclusive a landing. Chamar uma vez. */
+export function iniciarSomGlobal() {
+    const local = lerLocal();
+
+    if (local) {
+        somLigado.value = local.som !== false;
+        musicaLigada.value = local.musica !== false;
+    }
+
+    ligarAoMotor();
+    reterMusica();
+    router.on('navigate', (evento) => {
+        const prefs = (
+            evento.detail.page.props as unknown as Partial<PropsCompartilhadas>
+        ).auth?.user?.preferencias;
+
+        if (prefs) {
+            somLigado.value = prefs.som;
+            musicaLigada.value = prefs.musica;
+        }
+    });
+}
+
+/** Botão único de som + música: logado salva no servidor; deslogado, no localStorage. */
+export function useAlternarSom() {
     const { preferencias } = useAluno();
+    const ligado = computed(() => somLigado.value && musicaLigada.value);
 
-    function alternarMusica() {
-        musicaLigada.value = !musicaLigada.value;
+    function alternar() {
+        const novo = !ligado.value;
+        somLigado.value = novo;
+        musicaLigada.value = novo;
 
-        if (musicaLigada.value) {
+        if (novo) {
             destravarSom();
         }
 
         if (preferencias.value) {
             router.patch(
                 rotas.conta + '/preferencias',
-                { musica: musicaLigada.value },
+                { som: novo, musica: novo },
                 {
                     preserveScroll: true,
                     preserveState: true,
                     only: ['auth', 'errors'],
                 },
             );
+        } else {
+            gravarLocal();
         }
     }
 
-    return { musicaLigada, alternarMusica };
-}
-
-/**
- * Telas que querem música de fundo (layouts do app e demo da landing).
- * Sincroniza com as preferências do aluno, quando existem, e segura a música enquanto montadas.
- */
-export function useMusicaAmbiente() {
-    const { preferencias } = useAluno();
-    useControleSom();
-
-    watch(
-        () => [preferencias.value?.som, preferencias.value?.musica] as const,
-        ([som, musica]) => {
-            if (som !== undefined) {
-                somLigado.value = som;
-            }
-
-            if (musica !== undefined) {
-                musicaLigada.value = musica;
-            }
-        },
-        { immediate: true },
-    );
-
-    const soltar = reterMusica();
-    onBeforeUnmount(soltar);
+    return { ligado, alternar };
 }

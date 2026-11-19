@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { Head } from '@inertiajs/vue3';
-import MarcaGabaritu from '@/components/MarcaGabaritu.vue';
+import { onBeforeUnmount, onMounted } from 'vue';
+import { observarSecoes } from '@/lib/somInterface';
+import BotaoSom from '@/components/BotaoSom.vue';
 import LandingDemo from '@/components/landing/LandingDemo.vue';
 import LandingFooter from '@/components/landing/LandingFooter.vue';
 import LandingHero from '@/components/landing/LandingHero.vue';
@@ -19,6 +21,14 @@ defineProps<{
     emailContato: string;
     repositorioUrl: string;
 }>();
+
+let parar = () => {};
+onMounted(() => {
+    parar = observarSecoes([
+        ...document.querySelectorAll('main#conteudo > section'),
+    ]);
+});
+onBeforeUnmount(() => parar());
 </script>
 
 <template>
@@ -31,7 +41,7 @@ defineProps<{
     <div class="landing">
         <a href="#conteudo" class="l-skip">Pular para o conteúdo</a>
         <header class="l-header">
-            <div class="l-wrap"><MarcaGabaritu tamanho="sm" /></div>
+            <div class="l-wrap l-header-in"><BotaoSom /></div>
         </header>
         <main id="conteudo">
             <LandingHero

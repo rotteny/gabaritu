@@ -1,5 +1,11 @@
 import { somLigadoRef } from '@/composables/useMusica';
-import { blipHover, somDestravado, tokClique } from '@/lib/motorSom';
+import {
+    bipePeixoto,
+    blipHover,
+    popSecao,
+    somDestravado,
+    tokClique,
+} from '@/lib/motorSom';
 
 const SELECIONAVEL =
     'a[href], button, [role="button"], summary, select, label:has(input), input[type="radio"], input[type="checkbox"]';
@@ -56,6 +62,17 @@ export function instalarSomInterface() {
         (e) => {
             const el = alvo(e.target);
 
+            if (
+                e.target instanceof Element &&
+                e.target.closest('.l-hero-peixoto') &&
+                pode()
+            ) {
+                bipePeixoto('feliz');
+                blipHover();
+
+                return;
+            }
+
             // Alternativas têm som próprio de acerto/erro.
             if (el && !el.closest('.q-alt') && pode()) {
                 tokClique();
@@ -63,4 +80,24 @@ export function instalarSomInterface() {
         },
         true,
     );
+}
+
+/** Toca um "pop" na primeira vez que cada seção da landing entra na tela. */
+export function observarSecoes(secoes: Element[]): () => void {
+    const io = new IntersectionObserver(
+        (entradas) =>
+            entradas.forEach((e) => {
+                if (e.isIntersecting) {
+                    io.unobserve(e.target);
+
+                    if (pode()) {
+                        popSecao();
+                    }
+                }
+            }),
+        { threshold: 0.25 },
+    );
+    secoes.forEach((el) => io.observe(el));
+
+    return () => io.disconnect();
 }

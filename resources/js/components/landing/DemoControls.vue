@@ -1,11 +1,9 @@
 <script setup lang="ts">
-import { RotateCcw, Volume2, VolumeX } from '@lucide/vue';
-import BotaoMusica from '@/components/BotaoMusica.vue';
+import { RotateCcw } from '@lucide/vue';
 import { niveisZoeira } from '@/data/landingDemo';
 import type { Zoeira } from '@/data/landingDemo';
 
-defineProps<{ somLigado: boolean; musicaLigada: boolean }>();
-defineEmits<{ alternarSom: []; alternarMusica: []; reiniciar: [] }>();
+defineEmits<{ reiniciar: [] }>();
 
 const nivel = defineModel<Zoeira>('nivel', { required: true });
 </script>
@@ -28,25 +26,6 @@ const nivel = defineModel<Zoeira>('nivel', { required: true });
             </div>
         </fieldset>
         <div class="flex gap-2">
-            <button
-                type="button"
-                class="l-icon-btn"
-                :aria-pressed="somLigado"
-                :aria-label="
-                    somLigado
-                        ? 'Efeitos sonoros ligados. Desligar os efeitos sonoros'
-                        : 'Efeitos sonoros desligados. Ligar os efeitos sonoros'
-                "
-                @click="$emit('alternarSom')"
-            >
-                <Volume2 v-if="somLigado" class="size-5" aria-hidden="true" />
-                <VolumeX v-else class="size-5" aria-hidden="true" />
-            </button>
-            <BotaoMusica
-                :ligada="musicaLigada"
-                :sem-som="!somLigado"
-                @alternar="$emit('alternarMusica')"
-            />
             <button
                 type="button"
                 class="l-icon-btn"

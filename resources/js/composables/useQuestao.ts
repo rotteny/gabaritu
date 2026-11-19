@@ -3,7 +3,7 @@ import { computed, onBeforeUnmount, ref } from 'vue';
 import type { Ref } from 'vue';
 import { useFalaDigitada } from '@/composables/useFalaDigitada';
 import { useMovimentoReduzido } from '@/composables/useMovimentoReduzido';
-import { useAlternarMusica, useControleSom } from '@/composables/useMusica';
+import { useControleSom } from '@/composables/useMusica';
 import { useSomPeixoto } from '@/composables/useSomPeixoto';
 import { enviarResposta } from '@/lib/respostas';
 import type {
@@ -26,7 +26,6 @@ type Entrada = {
 export function useQuestao({ tentativa, questao, abertura }: Entrada) {
     const reduzido = useMovimentoReduzido();
     const { somLigado: somLocal } = useControleSom();
-    const { musicaLigada, alternarMusica } = useAlternarMusica();
     const som = useSomPeixoto(somLocal);
     const fala = useFalaDigitada(reduzido, som.bipe);
 
@@ -109,10 +108,6 @@ export function useQuestao({ tentativa, questao, abertura }: Entrada) {
         router.visit('url' in destino ? destino.url : destino.resultado_url);
     }
 
-    function alternarSom() {
-        somLocal.value = !somLocal.value;
-    }
-
     onBeforeUnmount(() => {
         montado = false;
         fala.pular();
@@ -129,15 +124,11 @@ export function useQuestao({ tentativa, questao, abertura }: Entrada) {
         ultima,
         efeitosPulados,
         reduzido,
-        somLigado: somLocal,
         digitado: fala.digitado,
         falando: fala.falando,
         textoCompleto: computed(() => falaAtual.value.texto),
         responder,
         pularAnimacao,
         proxima,
-        alternarSom,
-        musicaLigada,
-        alternarMusica,
     };
 }

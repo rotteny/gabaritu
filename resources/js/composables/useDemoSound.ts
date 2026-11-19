@@ -18,13 +18,5 @@ export function useDemoSound() {
         }
     }
 
-    function alternar() {
-        ligado.value = !ligado.value;
-
-        if (ligado.value) {
-            som.destravar();
-        }
-    }
-
-    return { ligado, tocar, alternar, bipe: som.bipe };
+    return { ligado, tocar, bipe: som.bipe };
 }

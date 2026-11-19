@@ -33,13 +33,7 @@ const efeitos = computed(
 
 <template>
     <div class="q-tela" :class="{ 'q-tela--pulou': q.efeitosPulados.value }">
-        <CabecalhoQuestao
-            :tentativa="tentativa"
-            :som-ligado="q.somLigado.value"
-            :musica-ligada="q.musicaLigada.value"
-            @alternar-som="q.alternarSom"
-            @alternar-musica="q.alternarMusica"
-        />
+        <CabecalhoQuestao :tentativa="tentativa" />
         <PalcoPeixoto
             :humor="q.humor.value"
             :texto-completo="q.textoCompleto.value"

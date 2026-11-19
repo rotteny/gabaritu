@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { Link } from '@inertiajs/vue3';
 import { computed } from 'vue';
+import BotaoSom from '@/components/BotaoSom.vue';
 import LinhaCredito from '@/components/LinhaCredito.vue';
 import MarcaGabaritu from '@/components/MarcaGabaritu.vue';
 import FundoAquario from '@/components/aluno/FundoAquario.vue';
@@ -38,6 +39,7 @@ const repositorioUrl = computed(
                 <div class="gb-auth-peixe" aria-hidden="true">
                     <PeixotoSvg />
                 </div>
+                <BotaoSom />
             </div>
             <section class="gb-cartao gb-auth-cartao">
                 <h1 v-if="title" class="gb-titulo gb-titulo--cartao">

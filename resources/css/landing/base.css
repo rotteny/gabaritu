@@ -329,3 +329,8 @@
 .credito a:hover {
     text-decoration-thickness: 2px;
 }
+
+.l-header-in {
+    display: flex;
+    justify-content: flex-end;
+}

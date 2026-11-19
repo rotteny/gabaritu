@@ -210,6 +210,11 @@ export function blipHover(p: Palco | null = palcoAtivo()) {
     tom(p, { f, f2: f * 1.25, t: 0.04, v: 0.07, duck: false });
 }
 
+/** "Pop" suave quando uma seção da landing aparece pela primeira vez. */
+export function popSecao(p: Palco | null = palcoAtivo()) {
+    tom(p, { f: 340, f2: 700, t: 0.07, v: 0.1, duck: false });
+}
+
 /** "Tok" curto de clique em elemento selecionável. */
 export function tokClique(p: Palco | null = palcoAtivo()) {
     const f = entre(480, 560);

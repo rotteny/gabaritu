@@ -5,6 +5,7 @@ import AuthLayout from '@/layouts/AuthLayout.vue';
 import QuestaoLayout from '@/layouts/QuestaoLayout.vue';
 import { initializeFlashToast } from '@/lib/flashToast';
 import { instalarDestravamento } from '@/lib/motorSom';
+import { iniciarSomGlobal } from '@/composables/useMusica';
 import { instalarSomInterface } from '@/lib/somInterface';
 
 const appName = import.meta.env.VITE_APP_NAME || 'Laravel';
@@ -41,6 +42,7 @@ void createInertiaApp({
 initializeTheme();
 instalarDestravamento();
 instalarSomInterface();
+iniciarSomGlobal();
 
 // This will listen for flash toast data from the server...
 initializeFlashToast();

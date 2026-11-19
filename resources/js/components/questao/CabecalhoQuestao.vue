@@ -6,12 +6,7 @@ import BotaoMusica from '@/components/BotaoMusica.vue';
 import { rotas } from '@/lib/rotas';
 import type { Tentativa } from '@/types/gabaritu';
 
-defineProps<{
-    tentativa: Tentativa;
-    somLigado: boolean;
-    musicaLigada: boolean;
-}>();
-defineEmits<{ 'alternar-som': []; 'alternar-musica': [] }>();
+defineProps<{ tentativa: Tentativa }>();
 </script>
 
 <template>
@@ -47,25 +42,7 @@ defineEmits<{ 'alternar-som': []; 'alternar-musica': [] }>();
             </span>
         </div>
         <div class="q-hud-acoes">
-            <button
-                type="button"
-                class="l-icon-btn"
-                :aria-pressed="somLigado"
-                :aria-label="
-                    somLigado
-                        ? 'Som ligado. Desligar o som'
-                        : 'Som desligado. Ligar o som'
-                "
-                @click="$emit('alternar-som')"
-            >
-                <Volume2 v-if="somLigado" :size="22" aria-hidden="true" />
-                <VolumeX v-else :size="22" aria-hidden="true" />
-            </button>
-            <BotaoMusica
-                :ligada="musicaLigada"
-                :sem-som="!somLigado"
-                @alternar="$emit('alternar-musica')"
-            />
+            <BotaoSom />
             <Link
                 :href="rotas.inicio"
                 class="l-icon-btn"

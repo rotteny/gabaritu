@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { watch } from 'vue';
 import { useDemoSound } from '@/composables/useDemoSound';
-import { useAlternarMusica, useMusicaAmbiente } from '@/composables/useMusica';
 import { useFalaDigitada } from '@/composables/useFalaDigitada';
 import { useMovimentoReduzido } from '@/composables/useMovimentoReduzido';
 import { usePeixotoDemo } from '@/composables/usePeixotoDemo';
@@ -23,14 +22,7 @@ const {
     escolher,
     reiniciar,
 } = usePeixotoDemo();
-const {
-    ligado: somLigado,
-    tocar,
-    alternar: alternarSom,
-    bipe,
-} = useDemoSound();
-useMusicaAmbiente();
-const { musicaLigada, alternarMusica } = useAlternarMusica();
+const { tocar, bipe } = useDemoSound();
 const reduzido = useMovimentoReduzido();
 const { digitado, falar } = useFalaDigitada(reduzido, bipe);
 const falaHumor = {
@@ -72,14 +64,7 @@ function estadoDaAlternativa(
     >
         <div class="l-card l-demo">
             <DemoSlime :ativa="erradas.length > 0 && !acertou" />
-            <DemoControls
-                v-model:nivel="nivel"
-                :som-ligado="somLigado"
-                :musica-ligada="musicaLigada"
-                @alternar-som="alternarSom"
-                @alternar-musica="alternarMusica"
-                @reiniciar="reiniciar"
-            />
+            <DemoControls v-model:nivel="nivel" @reiniciar="reiniciar" />
 
             <div class="l-demo-grid">
                 <div class="l-demo-fish">
