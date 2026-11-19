@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { Link } from '@inertiajs/vue3';
 import { Volume2, VolumeX, X } from '@lucide/vue';
+import MarcaGabaritu from '@/components/MarcaGabaritu.vue';
 import BotaoMusica from '@/components/BotaoMusica.vue';
 import { rotas } from '@/lib/rotas';
 import type { Tentativa } from '@/types/gabaritu';
@@ -15,6 +16,7 @@ defineEmits<{ 'alternar-som': []; 'alternar-musica': [] }>();
 
 <template>
     <header class="q-hud">
+        <MarcaGabaritu tamanho="sm" class="q-hud-marca" />
         <div class="q-hud-titulo">
             <h1 class="q-h1">{{ tentativa.titulo }}</h1>
             <p class="q-hud-sub">

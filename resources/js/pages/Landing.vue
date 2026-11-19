@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { Head } from '@inertiajs/vue3';
+import MarcaGabaritu from '@/components/MarcaGabaritu.vue';
 import LandingDemo from '@/components/landing/LandingDemo.vue';
 import LandingFooter from '@/components/landing/LandingFooter.vue';
 import LandingHero from '@/components/landing/LandingHero.vue';
@@ -30,7 +31,7 @@ defineProps<{
     <div class="landing">
         <a href="#conteudo" class="l-skip">Pular para o conteúdo</a>
         <header class="l-header">
-            <div class="l-wrap"><span class="l-logo">Gabaritu</span></div>
+            <div class="l-wrap"><MarcaGabaritu tamanho="sm" /></div>
         </header>
         <main id="conteudo">
             <LandingHero
@@ -45,6 +46,9 @@ defineProps<{
             <LandingPrivacy />
             <LandingOpenSource :repositorio-url="repositorioUrl" />
         </main>
-        <LandingFooter :email-contato="emailContato" />
+        <LandingFooter
+            :email-contato="emailContato"
+            :repositorio-url="repositorioUrl"
+        />
     </div>
 </template>

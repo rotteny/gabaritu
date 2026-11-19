@@ -2,6 +2,9 @@
 import { Link, usePage } from '@inertiajs/vue3';
 import { computed } from 'vue';
 import FundoAquario from '@/components/aluno/FundoAquario.vue';
+import BotaoSair from '@/components/aluno/BotaoSair.vue';
+import LinhaCredito from '@/components/LinhaCredito.vue';
+import MarcaGabaritu from '@/components/MarcaGabaritu.vue';
 import BotaoMusica from '@/components/BotaoMusica.vue';
 import { useAluno } from '@/composables/useAluno';
 import { useMovimentoReduzido } from '@/composables/useMovimentoReduzido';
@@ -10,18 +13,22 @@ import {
     useControleSom,
     useMusicaAmbiente,
 } from '@/composables/useMusica';
+import { REPOSITORIO_PADRAO } from '@/lib/constantes';
 import { rotas } from '@/lib/rotas';
 import '../../css/landing/base.css';
 import '../../css/landing/peixoto.css';
 import '../../css/aluno/base.css';
 import '../../css/aluno/paginas.css';
 
-const { aluno } = useAluno();
+const { aluno, gabaritu } = useAluno();
 const reduzido = useMovimentoReduzido();
 useMusicaAmbiente();
 const { somLigado } = useControleSom();
 const { musicaLigada, alternarMusica } = useAlternarMusica();
 const page = usePage();
+const repositorioUrl = computed(
+    () => gabaritu.value?.repositorio_url ?? REPOSITORIO_PADRAO,
+);
 
 const itens = [
     { rotulo: 'Início', href: rotas.inicio },
@@ -45,8 +52,9 @@ const ativo = (href: string) =>
                 <Link
                     :href="aluno ? rotas.inicio : rotas.landing"
                     class="gb-logo"
+                    aria-label="Gabaritu"
                 >
-                    Gabaritu
+                    <MarcaGabaritu tamanho="sm" />
                 </Link>
                 <nav v-if="aluno" class="gb-nav" aria-label="Principal">
                     <Link
@@ -61,6 +69,7 @@ const ativo = (href: string) =>
                 <nav v-else class="gb-nav" aria-label="Principal">
                     <Link :href="rotas.entrar">Entrar</Link>
                 </nav>
+                <BotaoSair v-if="aluno" compacto />
                 <BotaoMusica
                     v-if="aluno"
                     :ligada="musicaLigada"
@@ -72,5 +81,6 @@ const ativo = (href: string) =>
         <main id="conteudo" class="gb-pagina">
             <slot />
         </main>
+        <LinhaCredito :repositorio-url="repositorioUrl" />
     </div>
 </template>

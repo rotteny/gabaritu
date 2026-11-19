@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import MarcaGabaritu from '@/components/MarcaGabaritu.vue';
 import LandingBubbles from './LandingBubbles.vue';
 import LandingCta from './LandingCta.vue';
 import PeixotoSvg from './PeixotoSvg.vue';
@@ -10,11 +11,16 @@ defineProps<{ cadastroAberto: boolean; repositorioUrl: string }>();
     <section class="l-hero" aria-labelledby="titulo-hero">
         <LandingBubbles />
         <div class="l-wrap l-hero-grid">
+            <div class="l-hero-marca">
+                <h1 class="l-hero-nome">
+                    <MarcaGabaritu tamanho="hero" com-peixe />
+                </h1>
+            </div>
             <div class="l-board">
                 <p class="l-board-tag">Estudo pro ENEM, versão aquário</p>
-                <h1 id="titulo-hero" class="l-board-title">
+                <h2 id="titulo-hero" class="l-board-title">
                     Estude pro ENEM com um baiacu que zoa a sua resposta.
-                </h1>
+                </h2>
                 <p class="l-board-text">
                     O Gabaritu é uma plataforma gratuita e open source de estudo
                     pro ENEM, pra quem tem 13 anos ou mais. Sem anúncio e sem

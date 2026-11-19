@@ -367,11 +367,6 @@
     text-underline-offset: 4px;
     overflow-wrap: anywhere;
 }
-.l-footer-small {
-    margin: 0;
-    font-size: 15px;
-}
-
 @media (min-width: 768px) {
     .l-hero {
         padding-block: 24px 72px;
@@ -422,5 +417,21 @@
     }
     .l-exam {
         display: none;
+    }
+}
+
+.l-hero-marca {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 8px;
+}
+.l-hero-nome {
+    margin: 0;
+    line-height: 1;
+}
+@media (min-width: 768px) {
+    .l-hero-marca {
+        grid-column: 1 / -1;
+        padding-bottom: 12px;
     }
 }

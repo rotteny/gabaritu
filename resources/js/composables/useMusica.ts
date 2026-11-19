@@ -8,6 +8,8 @@ import { rotas } from '@/lib/rotas';
 /** Estado único (som de efeitos e música) compartilhado entre layouts, questão e landing. */
 const somLigado = ref(true);
 const musicaLigada = ref(true);
+/** Leitura do estado de som sem efeitos colaterais (não liga a música ao motor). */
+export const somLigadoRef = somLigado;
 let ligadoAoMotor = false;
 
 function ligarAoMotor() {

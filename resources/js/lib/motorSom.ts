@@ -9,6 +9,8 @@ type Tom = {
     at?: number;
     /** Fração da duração mantida no volume cheio antes de decair (padrão 0). */
     s?: number;
+    /** Abaixa a música enquanto soa (padrão true); efeitos de interface não abaixam. */
+    duck?: boolean;
 };
 
 /** Cadeia de saída: efeitos entram em `entrada`; a música entra em `musica` (com ducking). */
@@ -124,7 +126,7 @@ function abaixarMusica(p: Palco, t0: number, dur: number) {
 
 function tom(
     p: Palco | null,
-    { f, f2, t = 0.1, v = 0.5, type = 'sine', at = 0, s = 0 }: Tom,
+    { f, f2, t = 0.1, v = 0.5, type = 'sine', at = 0, s = 0, duck = true }: Tom,
 ) {
     if (!p) {
         return;
@@ -132,7 +134,10 @@ function tom(
 
     const c = p.ctx;
     const t0 = c.currentTime + at;
-    abaixarMusica(p, t0, t);
+    if (duck) {
+        abaixarMusica(p, t0, t);
+    }
+
     const osc = c.createOscillator();
     const ganho = c.createGain();
     osc.type = type;
@@ -197,4 +202,16 @@ export function somErro(p: Palco | null = palcoAtivo()) {
         s: 0.6,
         at: 0.22,
     });
+}
+
+/** "Plic" de bolhinha ao passar o mouse: ~40 ms, agudo, pitch aleatório, bem abaixo do clique. */
+export function blipHover(p: Palco | null = palcoAtivo()) {
+    const f = entre(1300, 2100);
+    tom(p, { f, f2: f * 1.25, t: 0.04, v: 0.07, duck: false });
+}
+
+/** "Tok" curto de clique em elemento selecionável. */
+export function tokClique(p: Palco | null = palcoAtivo()) {
+    const f = entre(480, 560);
+    tom(p, { f, f2: f * 0.5, t: 0.06, v: 0.2, type: 'triangle', duck: false });
 }

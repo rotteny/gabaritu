@@ -119,16 +119,7 @@
 }
 .gb-logo {
     display: inline-block;
-    padding: 0 12px 2px;
-    background: var(--orange);
-    border: var(--line) solid var(--ink);
-    border-radius: 16px 10px 18px 12px;
-    box-shadow: 3px 3px 0 var(--ink);
     color: var(--ink);
-    font-family: var(--font-display);
-    font-size: 22px;
-    font-weight: 400;
-    rotate: -2deg;
     text-decoration: none;
 }
 .gb-nav {
@@ -442,5 +433,41 @@
     }
     .gb-bolhas {
         display: none;
+    }
+}
+
+/* Botão Sair */
+.gb-sair {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    min-width: 40px;
+    min-height: 40px;
+    padding: 4px 12px;
+    background: var(--white);
+    border: 3px solid var(--ink);
+    border-radius: 14px 9px 15px 10px;
+    box-shadow: 2px 2px 0 var(--ink);
+    color: var(--ink);
+    cursor: pointer;
+    font-family: var(--font-display);
+    font-size: 16px;
+}
+.gb-sair:hover {
+    background: var(--yellow);
+}
+.gb-sair--compacto .gb-sair-rotulo {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+@media (min-width: 640px) {
+    .gb-sair--compacto .gb-sair-rotulo {
+        position: static;
+        width: auto;
+        height: auto;
+        clip: auto;
     }
 }

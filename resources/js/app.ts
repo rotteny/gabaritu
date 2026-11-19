@@ -5,6 +5,7 @@ import AuthLayout from '@/layouts/AuthLayout.vue';
 import QuestaoLayout from '@/layouts/QuestaoLayout.vue';
 import { initializeFlashToast } from '@/lib/flashToast';
 import { instalarDestravamento } from '@/lib/motorSom';
+import { instalarSomInterface } from '@/lib/somInterface';
 
 const appName = import.meta.env.VITE_APP_NAME || 'Laravel';
 
@@ -39,6 +40,7 @@ void createInertiaApp({
 // This will set light / dark mode on page load...
 initializeTheme();
 instalarDestravamento();
+instalarSomInterface();
 
 // This will listen for flash toast data from the server...
 initializeFlashToast();
