@@ -117,11 +117,27 @@ export function somDestravado(): boolean {
 }
 
 /** Abaixa a música enquanto o efeito soa e solta devagar depois. */
+let duckAte = 0;
+
+/**
+ * Abaixa a música enquanto o efeito soa e solta devagar depois. Os efeitos se
+ * sobrepõem e alguns começam no futuro (`at`), então a soltura fica sempre no
+ * fim do último efeito agendado; cancelar a partir de `t0` apagava a soltura
+ * de um efeito anterior e deixava a música presa no nível baixo.
+ */
 function abaixarMusica(p: Palco, t0: number, dur: number) {
     const g = p.duck.gain;
-    g.cancelScheduledValues(t0);
-    g.setTargetAtTime(DUCK_NIVEL, t0, 0.04);
-    g.setTargetAtTime(1, t0 + dur, DUCK_SOLTAR / 3);
+    const agora = p.ctx.currentTime;
+    duckAte = Math.max(duckAte, t0 + dur);
+
+    if (typeof g.cancelAndHoldAtTime === 'function') {
+        g.cancelAndHoldAtTime(agora);
+    } else {
+        g.cancelScheduledValues(agora);
+    }
+
+    g.setTargetAtTime(DUCK_NIVEL, Math.max(agora, Math.min(t0, duckAte)), 0.04);
+    g.setTargetAtTime(1, duckAte, DUCK_SOLTAR / 3);
 }
 
 function tom(
