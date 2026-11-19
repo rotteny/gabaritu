@@ -59,7 +59,12 @@
 }
 
 .l-header {
-    padding-block: 14px;
+    padding-block: 8px;
+}
+@media (min-width: 768px) {
+    .l-header {
+        padding-block: 14px;
+    }
 }
 
 .l-btn {
@@ -222,9 +227,9 @@
     --marca-sombra: 2px;
 }
 .marca--hero {
-    --marca-tam: clamp(52px, 17vw, 112px);
-    --marca-borda: clamp(8px, 2.2vw, 14px);
-    --marca-sombra: clamp(4px, 1.2vw, 8px);
+    --marca-tam: clamp(40px, 12.5vw, 112px);
+    --marca-borda: clamp(6px, 1.8vw, 14px);
+    --marca-sombra: clamp(3px, 1vw, 8px);
 }
 .marca-sr {
     position: absolute;
@@ -309,7 +314,7 @@
     position: relative;
     z-index: 2;
     margin: 0;
-    padding: 6px 12px 10px;
+    padding: 6px 16px 10px;
     background: transparent;
     color: var(--ink, #1b1030);
     font-size: 13px;

@@ -386,7 +386,7 @@
 /* Alterações por tamanho */
 @media (max-height: 700px) {
     .q-hud-rotulo {
-        font-size: 11px;
+        font-size: 12px;
     }
     .q-palco {
         min-height: 88px;

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { Head, Link } from '@inertiajs/vue3';
+import LinkExterno from '@/components/LinkExterno.vue';
 import FalaPeixoto from '@/components/aluno/FalaPeixoto.vue';
 import { useAluno } from '@/composables/useAluno';
 import { rotas } from '@/lib/rotas';
@@ -71,12 +72,11 @@ const coletamos = [
             Só você. Outros alunos, professores e responsáveis não têm acesso às
             suas notas e respostas. O código do Gabaritu é aberto: qualquer
             pessoa pode conferir o que ele faz
-            <a
+            <LinkExterno
                 v-if="gabaritu"
                 :href="gabaritu.repositorio_url"
                 class="gb-link"
-                rel="noopener"
-                >no repositório</a
+                >no repositório</LinkExterno
             >.
         </p>
     </section>

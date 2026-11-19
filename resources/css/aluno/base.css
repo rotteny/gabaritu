@@ -109,7 +109,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 8px 16px;
-    width: min(100% - 24px, 1100px);
+    width: min(100% - 32px, 1100px);
     margin-inline: auto;
     padding: 6px 12px;
     background: var(--paper);
@@ -150,8 +150,9 @@
     position: relative;
     z-index: 2;
     display: grid;
+    grid-template-columns: minmax(0, 1fr);
     gap: 18px;
-    width: min(100% - 24px, 1100px);
+    width: min(100% - 32px, 1100px);
     margin-inline: auto;
     padding-block: 16px 48px;
 }
@@ -394,8 +395,9 @@
     position: relative;
     z-index: 2;
     display: grid;
+    grid-template-columns: minmax(0, 1fr);
     gap: 14px;
-    width: min(100% - 24px, 520px);
+    width: min(100% - 32px, 520px);
     margin-inline: auto;
     padding-block: 20px 48px;
 }
@@ -418,6 +420,12 @@
 }
 
 @media (max-width: 520px) {
+    .gb-topo-in {
+        padding-inline: 8px;
+    }
+    .gb-nav {
+        gap: 2px;
+    }
     .gb-nav a {
         padding-inline: 8px;
         font-size: 15px;
@@ -470,4 +478,14 @@
         height: auto;
         clip: auto;
     }
+}
+
+/* Grids de formulário não crescem além do cartão em telas de 320 px. */
+.gb-form,
+.gb-campo,
+.gb-auth-cartao {
+    grid-template-columns: minmax(0, 1fr);
+}
+.gb-entrada input {
+    min-width: 0;
 }

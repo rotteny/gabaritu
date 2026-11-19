@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { Fish } from '@lucide/vue';
+import LinkExterno from '@/components/LinkExterno.vue';
 
 defineProps<{ repositorioUrl: string }>();
 </script>
@@ -7,8 +8,9 @@ defineProps<{ repositorioUrl: string }>();
 <template>
     <p class="credito">
         feito com <Fish class="credito-icone" aria-hidden="true" /> por
-        <a href="https://github.com/rotteny" rel="noopener">rotteny</a>
+        <LinkExterno href="https://github.com/rotteny">rotteny</LinkExterno>
         ·
-        <a :href="repositorioUrl" rel="noopener">código aberto</a> no GitHub
+        <LinkExterno :href="repositorioUrl">código aberto</LinkExterno> no
+        GitHub
     </p>
 </template>

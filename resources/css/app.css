@@ -140,3 +140,12 @@
         @apply bg-background text-foreground;
     }
 }
+
+/* Link para fora da plataforma: ícone pequeno depois do texto. */
+.link-externo-icone {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin-left: 3px;
+    vertical-align: -1px;
+}
