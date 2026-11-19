@@ -7,14 +7,19 @@ uses(RefreshDatabase::class);
 describe('fechado (padrão)', function () {
     beforeEach(fn () => config(['gabaritu.cadastro_aberto' => false]));
 
-    it('mostra a página em breve com o contato da config', function () {
-        config(['gabaritu.email_contato' => 'contato@exemplo.test']);
+    it('mostra a landing sem CTA de cadastro, com contato e repositório da config', function () {
+        config([
+            'gabaritu.email_contato' => 'contato@exemplo.test',
+            'gabaritu.repositorio_url' => 'https://github.com/exemplo/repo',
+        ]);
 
         $this->get('/')
             ->assertOk()
             ->assertInertia(fn ($page) => $page
-                ->component('EmBreve')
-                ->where('emailContato', 'contato@exemplo.test'))
+                ->component('Landing')
+                ->where('cadastroAberto', false)
+                ->where('emailContato', 'contato@exemplo.test')
+                ->where('repositorioUrl', 'https://github.com/exemplo/repo'))
             ->assertSee('<meta name="robots" content="noindex">', false);
     });
 
@@ -34,10 +39,12 @@ describe('fechado (padrão)', function () {
 describe('aberto', function () {
     beforeEach(fn () => config(['gabaritu.cadastro_aberto' => true]));
 
-    it('volta ao comportamento do starter', function () {
+    it('mostra a landing com os botões de criar conta e entrar', function () {
         $this->get('/')
             ->assertOk()
-            ->assertInertia(fn ($page) => $page->component('Welcome'))
+            ->assertInertia(fn ($page) => $page
+                ->component('Landing')
+                ->where('cadastroAberto', true))
             ->assertDontSee('noindex', false);
         $this->get('/register')->assertOk();
         $this->get('/login')->assertOk();

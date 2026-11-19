@@ -8,4 +8,6 @@ return [
     'cadastro_aberto' => (bool) env('GABARITU_CADASTRO_ABERTO', false),
 
     'email_contato' => env('GABARITU_EMAIL_CONTATO', 'gabaritu@gorilash.com.br'),
+
+    'repositorio_url' => env('GABARITU_REPOSITORIO_URL', 'https://github.com/rotteny/gabaritu'),
 ];
