@@ -25,36 +25,23 @@ class UserFactory extends Factory
     public function definition(): array
     {
         return [
-            'name' => fake()->name(),
+            'apelido' => fake()->unique()->userName(),
             'email' => fake()->unique()->safeEmail(),
-            'email_verified_at' => now(),
+            'ano_nascimento' => (int) now()->format('Y') - 17,
+            'serie' => '2em',
+            'zoeira' => 'sarc',
             'password' => static::$password ??= Hash::make('password'),
             'remember_token' => Str::random(10),
-            'two_factor_secret' => null,
-            'two_factor_recovery_codes' => null,
-            'two_factor_confirmed_at' => null,
         ];
     }
 
-    /**
-     * Indicate that the model's email address should be unverified.
-     */
-    public function unverified(): static
+    public function comIdade(int $idade): static
     {
-        return $this->state(fn (array $attributes) => [
-            'email_verified_at' => null,
-        ]);
+        return $this->state(fn () => ['ano_nascimento' => (int) now()->format('Y') - $idade - 1]);
     }
 
-    /**
-     * Indicate that the model has two-factor authentication configured.
-     */
-    public function withTwoFactor(): static
+    public function comZoeira(string $nivel): static
     {
-        return $this->state(fn (array $attributes) => [
-            'two_factor_secret' => encrypt('secret'),
-            'two_factor_recovery_codes' => encrypt(json_encode(['recovery-code-1'])),
-            'two_factor_confirmed_at' => now(),
-        ]);
+        return $this->state(fn () => ['zoeira' => $nivel]);
     }
 }

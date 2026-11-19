@@ -1,0 +1,44 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Attributes\Table;
+use Illuminate\Database\Eloquent\Attributes\Unguarded;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+
+#[Table(name: 'respostas', timestamps: false)]
+#[Unguarded]
+class Resposta extends Model
+{
+    /** @return array<string, string> */
+    protected function casts(): array
+    {
+        return [
+            'correta' => 'boolean',
+            'chute' => 'boolean',
+            'repetida' => 'boolean',
+            'servida_em' => 'datetime',
+            'respondida_em' => 'datetime',
+        ];
+    }
+
+    /** @return BelongsTo<Questao, $this> */
+    public function questao(): BelongsTo
+    {
+        return $this->belongsTo(Questao::class);
+    }
+
+    /** @return BelongsTo<Alternativa, $this> */
+    public function alternativa(): BelongsTo
+    {
+        return $this->belongsTo(Alternativa::class);
+    }
+
+    /** @return BelongsTo<Tentativa, $this> */
+    public function tentativa(): BelongsTo
+    {
+        return $this->belongsTo(Tentativa::class);
+    }
+}
