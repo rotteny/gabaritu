@@ -31,13 +31,14 @@ Pelo art. 24 do ECA Digital (Lei 15.211/2025, em vigor desde 17/03/2026), a cont
    - **Apagar a conta do aluno:** pede a senha do responsável e apaga tudo do aluno.
 7. **Ao menos 1 responsável.** O aluno menor sempre tem pelo menos 1 vínculo ativo para ficar `ativo`. Nenhuma ação deixa um aluno `ativo` com zero vínculos.
 8. **Um responsável, vários alunos.** Uma conta de responsável pode estar ligada a N alunos, e um aluno a N responsáveis.
-9. **Aluno que faz 18 anos.** Os vínculos continuam (o aluno pode encerrar pela Conta, opção "encerrar acompanhamento", só quando tiver 18 anos ou mais). Fica fora do MVP se complicar; registre como pendência.
+9. **Aluno que faz 18 anos.** Os vínculos continuam até o aluno decidir. Na Conta, "Encerrar acompanhamento" (só 18+) apaga todos os vínculos, invalida convites pendentes e avisa os responsáveis por e-mail; não há restauração. Se o aluno 18+ contestar um responsável, o vínculo suspenso só pode ser removido, nunca restaurado (422 `vinculo`).
 10. **O aluno sabe que é acompanhado.** A Conta do aluno mostra quem são os responsáveis (nome, parentesco e e-mail mascarado), os convites pendentes e o que eles veem.
     - **O aluno pede a inclusão de um responsável.** Ele informa o e-mail e o parentesco e o sistema envia um convite do tipo `coresponsavel_aluno`. O responsável entra pelo mesmo fluxo de convite: cria a conta ou faz login, declara e autoriza. Também vale para o aluno ativo, com limite de 3 convites por dia e no máximo 5 responsáveis por aluno. O aluno pode cancelar o convite pendente, mas não pode remover um responsável ativo: só o próprio responsável revoga o vínculo.
 11. **Parentesco.** Todo vínculo tem `parentesco`: `pai`, `mae`, `avo` (avó ou avô), `tutor` (tutor ou guardião legal), `outro` (com texto livre curto: tio, padrasto…). O responsável confirma ou corrige o parentesco ao autorizar. A declaração passa a ser "sou responsável legal por este aluno (pai, mãe, avó/avô, tutor ou guardião com a guarda)". Quem pede o convite (aluno ou responsável) informa o parentesco esperado.
 12. **Retenção.**
     - Aluno que fica `aguardando_responsavel` por mais de **30 dias** é apagado por um comando agendado (`gabaritu:limpar-pendentes`), com aviso por e-mail 3 dias antes.
-    - Convites vencidos são apagados.
+    - Convites vencidos são apagados. A prova do aceite e da aprovação fica em `aceites_responsavel` (sem chave estrangeira para o convite; some junto com a conta do aluno).
+    - A limpeza roda com `withoutOverlapping` e reconfere o critério com a linha travada, dentro da transação, antes de apagar.
     - Conta de responsável sem nenhum aluno por 30 dias é apagada pelo mesmo comando.
 13. **Papéis.** A tabela `users` ganha `tipo` (`aluno` ou `responsavel`). O responsável não estuda: só acessa o painel e a própria conta. Aluno não acessa `/responsavel`. Um e-mail tem uma conta só.
 14. **Segurança.** Toda rota do responsável checa se o vínculo é ativo e se o aluno é dele (IDOR), com rate limit em convite, reenvio e aceite. A resposta do convite não revela se o e-mail tem conta.
@@ -64,16 +65,19 @@ O responsável informa só o necessário para identificá-lo e responsabilizá-l
 | `GET /responsavel/convite/{token}` | `responsavel/Convite.vue` | `token`, `convite: { aluno: { apelido, serie }, email, tipo: 'autorizacao'|'coresponsavel'|'coresponsavel_aluno'|'transferencia', parentesco, parentesco_outro, expira_em } | null`, `vencido: boolean`, `tem_conta: boolean`, `logado_como_destinatario: boolean`. Token inválido, usado ou vencido: a mesma página, com `convite: null` (`vencido: true` só quando o prazo passou). Aluno logado no aceite: 422 com a mensagem da regra 14. |
 | `POST /responsavel/convite/{token}` | redirect → `/responsavel` | sem conta: `nome, senha, senha_confirmation, ano_nascimento, parentesco, parentesco_outro?, declara_responsavel, aceite_termos`; com conta (logado): `parentesco, parentesco_outro?, declara_responsavel, aceite_termos` |
 | `POST /responsavel/convite/{token}/recusar` | redirect → `/` | — |
-| `GET /responsavel` | `responsavel/Painel.vue` | `alunos: [{ id, apelido, serie, avatar, idade, status, teto_zoeira_responsavel, notas: [{ slug, nome, nota }], responsaveis: [{ nome, parentesco, parentesco_outro, email_mascarado, status: 'ativo'|'suspenso', autorizado_em, sou_eu }], convites_pendentes: [{ email_mascarado, tipo, expira_em }], pedidos_pendentes: [{ id, solicitante: { nome, parentesco, parentesco_outro, email_mascarado }, aluno_aceitou, expira_em }] }]`, `pedidos_enviados: [{ id, email_mascarado, parentesco, parentesco_outro, expira_em }]`, `fala` |
+| `GET /responsavel` | `responsavel/Painel.vue` | `alunos: [{ id, apelido, serie, avatar, idade, status, teto_zoeira_responsavel, notas: [{ slug, nome, nota }], responsaveis: [{ nome, parentesco, parentesco_outro, email_mascarado, status: 'ativo'|'suspenso', autorizado_em, sou_eu }], convites_pendentes: [{ id, email_mascarado, tipo, expira_em, pode_cancelar }], pedidos_pendentes: [{ id, solicitante: { nome, parentesco, parentesco_outro, email_mascarado }, aluno_aceitou, expira_em }] }]`, `pedidos_enviados: [{ id, email_mascarado, parentesco, parentesco_outro, expira_em }]`, `fala` |
 | `GET /responsavel/alunos/{aluno}` | `responsavel/Aluno.vue` | `aluno` (como acima) + o mesmo payload de desempenho de `/desempenho` |
 | `PATCH /responsavel/alunos/{aluno}/zoeira` | redirect | `teto: 'fofo'|'sarc'|'sem'` (`sem` = sem limite do responsável) |
 | `POST /responsavel/alunos/{aluno}/convites` | redirect | `email`, `parentesco`, `parentesco_outro?`, `tipo: 'coresponsavel'|'transferencia'` |
 | `DELETE /responsavel/alunos/{aluno}/vinculo` | redirect | revogar o próprio vínculo (bloqueado se for o único: 422 com mensagem clara) |
 | `DELETE /responsavel/alunos/{aluno}` | redirect | `senha` → apaga o aluno |
 | `GET /responsavel/conta` | `responsavel/Conta.vue` | `responsavel: { nome, email, ano_nascimento }`, `alunos_unicos: string[]` (apelidos dos alunos em que ele é o único responsável). `PUT /responsavel/conta/senha` troca a senha (`senha_atual`, `senha`, `senha_confirmation`); `DELETE /responsavel/conta` (`senha`) apaga a conta, 422 enquanto for o único responsável de algum aluno. |
-| `GET /conta` (aluno, existente) | `Conta.vue` | + `perfil.avatar`, `avatares: string[]`, `responsaveis: [{ id, nome, parentesco, parentesco_outro, email_mascarado, status, autorizado_em }]`, `convites_responsavel: [{ id, email_mascarado, parentesco, parentesco_outro, expira_em }]`, `pedidos_vinculo: [{ id, solicitante: { nome, parentesco, parentesco_outro, email_mascarado }, expira_em, aguarda_responsavel, aceito_por_mim }]`, `pode_convidar: boolean` |
+| `GET /conta` (aluno, existente) | `Conta.vue` | + `pode_encerrar_acompanhamento: boolean` (18+ com ao menos um vínculo), `perfil.avatar`, `avatares: string[]`, `responsaveis: [{ id, nome, parentesco, parentesco_outro, email_mascarado, status, autorizado_em }]`, `convites_responsavel: [{ id, email_mascarado, parentesco, parentesco_outro, expira_em }]`, `pedidos_vinculo: [{ id, solicitante: { nome, parentesco, parentesco_outro, email_mascarado }, expira_em, aguarda_responsavel, aceito_por_mim }]`, `pode_convidar: boolean` |
 | `POST /conta/responsaveis` | redirect | `email`, `parentesco`, `parentesco_outro?` (throttle 3/dia, máx. 5 responsáveis) |
 | `DELETE /conta/responsaveis/convites/{convite}` | redirect | cancela um convite pendente do próprio aluno |
+| `POST /conta/acompanhamento/encerrar` | redirect | só aluno 18+ (422 na chave `acompanhamento` se menor): apaga todos os vínculos, invalida convites pendentes e avisa os responsáveis por e-mail. Sem restauração. |
+| `PATCH /conta/perfil` | redirect | `apelido`, `serie` e `avatar` são `sometimes`: pode mandar só o avatar. |
+| `DELETE /responsavel/alunos/{aluno}/convites/{convite}` | redirect | veto: qualquer responsável ativo cancela um convite `coresponsavel_aluno` pendente (404 fora disso) |
 | `GET /termos` | `Termos.vue` | pública, inclusive com o cadastro fechado |
 
 **Login:** responsável cai em `/responsavel`; aluno pendente cai em `/aguardando-responsavel`. O acesso dos dois tipos é separado (ver "Acesso separado").
@@ -92,6 +96,8 @@ O responsável informa só o necessário para identificá-lo e responsabilizá-l
 - autorização confirmada (para o responsável: resumo, painel, como revogar e registro do aceite com data, hora e versão dos termos);
 - pedido do responsável ao aluno (sem conta: link `/cadastro?convite=`; com conta: link para a Conta);
 - aviso aos responsáveis atuais sobre um pedido de vínculo;
+- aviso aos responsáveis atuais sobre o convite de co-responsável feito pelo aluno (nome, parentesco e e-mail mascarado; só aviso e veto, sem aprovação);
+- acompanhamento encerrado (aluno 18+, para cada responsável);
 - vínculo contestado pelo aluno (aos outros responsáveis e ao contato do Gabaritu).
 
 ## Páginas legais
@@ -128,7 +134,7 @@ Não inventar fato jurídico: o que for duvidoso entra em `docs/lgpd/` como "ver
 - Mesmo guard, sessão regenerada no login; logout volta para a landing.
 
 ## Pedido iniciado pelo responsável
-- **`POST /responsavel/pedidos`** (botão "Adicionar aluno"): `email`, `parentesco`, `parentesco_outro?`, `declara_responsavel` (aceito). Resposta sempre igual: "Se existir um aluno com esse e-mail, ele receberá o pedido." (flash `status`), exista conta ou não. Máx. 5 pedidos por dia por responsável (422 na chave `email`). Nunca gera pedido para o e-mail de outro responsável, para o próprio ou para aluno com 18+. O aceite do responsável (IP, data e hora, versão dos termos) fica gravado no pedido.
+- **`POST /responsavel/pedidos`** (botão "Adicionar aluno"): `email`, `parentesco`, `parentesco_outro?`, `declara_responsavel` (aceito). Resposta sempre igual (a busca do e-mail, a criação e o envio rodam depois da resposta, no mesmo caminho para qualquer e-mail; só o limite diário roda antes): "Se existir um aluno com esse e-mail, ele receberá o pedido." (flash `status`), exista conta ou não. Máx. 5 pedidos por dia por responsável (422 na chave `email`). Nunca gera pedido para o e-mail de outro responsável, para o próprio ou para aluno com 18+. O aceite do responsável (IP, data e hora, versão dos termos) fica gravado no pedido.
 - **E-mail sem conta** (`pedido_responsavel`, aluno nulo): e-mail "<nome> quer ser seu responsável no Gabaritu" com link `/cadastro?convite=<token>`. `GET /cadastro` ganha `convite_responsavel: { token, responsavel: { nome }, email, parentesco, parentesco_outro, expira_em } | null`. `POST /cadastro` aceita `convite` e `confirma_responsavel`: com confirmação (e menor de 18), o aluno nasce `ativo`, vinculado, sem passar pela espera. Sem confirmar, o pedido é recusado e o fluxo normal pede `email_responsavel`. Com 18+: 422 na chave `convite` ("Maiores de idade não precisam de responsável."). O e-mail do cadastro tem de ser o convidado (422 na chave `convite`).
 - **E-mail de aluno já cadastrado** (`pedido_vinculo`): o aluno recebe e-mail e vê o pedido em `Conta.pedidos_vinculo`; `POST /conta/pedidos/{id}/aceitar` e `/recusar` (valem também para o aluno pendente).
 - **Proteção contra adulto estranho:** com responsável ativo, o pedido (`exige_aprovacao`) só vira vínculo quando o aluno aceita **e** um responsável atual aprova (`POST /responsavel/pedidos/{id}/aprovar` ou `/recusar`, em qualquer ordem); todos os atuais recebem e-mail com nome, parentesco e e-mail mascarado de quem pediu. Sem responsável ativo, basta o aluno aceitar. O solicitante cancela o próprio pedido em `DELETE /responsavel/pedidos/{id}`. O pedido vale 7 dias e não funciona como convite de responsável.
@@ -143,7 +149,7 @@ Não inventar fato jurídico: o que for duvidoso entra em `docs/lgpd/` como "ver
 Lista fixa em `config('gabaritu.avatares')` (12 bichos marinhos), sem upload de foto, de propósito (não guardamos imagem de menor). `avatar` é opcional no cadastro (sorteado se faltar) e editável em `PATCH /conta/perfil` (422 fora da lista). Props: `auth.user.avatar`, `perfil.avatar` e `avatares` na Conta, `avatar` de cada aluno no painel e em `/responsavel/alunos/{aluno}`.
 
 ## Versão dos textos
-`config('gabaritu.termos_versao')` e `privacidade_versao` valem `2026-11-20` (mesmo valor). Mudou o texto, mude a versão.
+`config('gabaritu.termos_versao')` e `privacidade_versao` valem `2026-11-22` (mesmo valor). Mudou o texto, mude a versão.
 
 ## Detalhes de implementação (mudanças em relação ao desenho inicial)
 - `responsaveis[].parentesco_outro` e `autorizado_em` acrescentados; no painel, `status` do vínculo.

@@ -10,14 +10,22 @@ const props = defineProps<{
     alunoId: number;
     apelido: string;
     responsavel: ResponsavelDoAluno & { id: number };
+    podeRestaurar?: boolean;
 }>();
 
 const removendo = ref(false);
+const erro = ref('');
 const restaurar = () =>
     router.post(
         rotas.restaurarSuspenso(props.alunoId, props.responsavel.id),
         {},
-        { preserveScroll: true },
+        {
+            preserveScroll: true,
+            onStart: () => (erro.value = ''),
+            onError: (erros) =>
+                (erro.value =
+                    erros.vinculo ?? 'Não deu para restaurar o vínculo.'),
+        },
     );
 const remover = () =>
     router.delete(rotas.removerSuspenso(props.alunoId, props.responsavel.id), {
@@ -43,6 +51,7 @@ const remover = () =>
                 Confirmar remoção
             </button>
             <button
+                v-if="podeRestaurar !== false"
                 type="button"
                 class="l-btn l-btn--white gb-btn-mini"
                 @click="restaurar"
@@ -50,6 +59,13 @@ const remover = () =>
                 Restaurar o vínculo
             </button>
         </div>
+        <p v-if="podeRestaurar === false" class="gb-miudo">
+            {{ apelido }} tem 18 anos ou mais: o vínculo contestado não pode ser
+            restaurado.
+        </p>
+        <p v-if="erro" class="gb-aviso gb-aviso--erro" role="alert">
+            {{ erro }}
+        </p>
         <ConfirmarAcao
             v-if="removendo"
             titulo="Remover essa pessoa?"

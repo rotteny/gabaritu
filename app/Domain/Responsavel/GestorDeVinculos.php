@@ -115,7 +115,13 @@ class GestorDeVinculos
     public function restaurar(User $aluno, User $alvo): void
     {
         DB::transaction(function () use ($aluno, $alvo): void {
-            $vinculo = $this->travarAluno($aluno)->vinculosComResponsaveis()->where('responsavel_id', $alvo->id)
+            $aluno = $this->travarAluno($aluno);
+            // Aluno de 18 anos ou mais que contestou decidiu: o vínculo não volta, só pode ser removido.
+            if (! $aluno->precisaDeResponsavel()) {
+                throw ValidationException::withMessages(['vinculo' => 'Este aluno tem 18 anos ou mais e contestou o vínculo. Ele não pode ser restaurado.']);
+            }
+
+            $vinculo = $aluno->vinculosComResponsaveis()->where('responsavel_id', $alvo->id)
                 ->where('status', VinculoResponsavel::SUSPENSO)->firstOrFail();
 
             $vinculo->forceFill(['status' => VinculoResponsavel::ATIVO, 'suspenso_em' => null])->save();

@@ -32,9 +32,11 @@ class ApresentadorDeAluno
                 ->map(fn (VinculoResponsavel $v) => ['id' => $v->responsavel_id, ...$this->dadosDoVinculo($v), 'sou_eu' => $v->responsavel_id === $responsavel->id])->all(),
             'convites_pendentes' => $this->convites($aluno)->filter(fn (ConviteResponsavel $c) => ! TipoConvite::from($c->tipo)->ehPedidoDoResponsavel())
                 ->map(fn (ConviteResponsavel $c) => [
+                    'id' => $c->id,
                     'email_mascarado' => EmailMascarado::de($c->email),
                     'tipo' => $c->tipo,
                     'expira_em' => $c->expira_em->toIso8601String(),
+                    'pode_cancelar' => $c->tipo === TipoConvite::CoresponsavelAluno->value,
                 ])->values()->all(),
             'pedidos_pendentes' => $this->pedidosAguardandoResponsavel($aluno),
         ];

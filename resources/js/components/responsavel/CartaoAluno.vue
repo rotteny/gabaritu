@@ -49,6 +49,7 @@ defineProps<{ aluno: AlunoAcompanhado }>();
             :apelido="aluno.apelido"
             :responsaveis="aluno.responsaveis"
             :convites="aluno.convites_pendentes"
+            :pode-restaurar="aluno.idade < 18"
         />
         <AcoesAluno :aluno="aluno" />
     </article>

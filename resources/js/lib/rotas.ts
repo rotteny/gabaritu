@@ -33,6 +33,9 @@ export const rotas = {
         `/responsavel/alunos/${aluno}/suspensos/${responsavel}/restaurar`,
     contaResponsaveis: '/conta/responsaveis',
     cancelarConviteAluno: (id: number) => `/conta/responsaveis/convites/${id}`,
+    encerrarAcompanhamento: '/conta/acompanhamento/encerrar',
+    cancelarConviteDoAlunoPeloResponsavel: (aluno: number, convite: number) =>
+        `/responsavel/alunos/${aluno}/convites/${convite}`,
     painel: '/responsavel',
     contaResponsavel: '/responsavel/conta',
     conviteResponsavel: (token: string) => `/responsavel/convite/${token}`,

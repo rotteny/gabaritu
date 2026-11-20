@@ -15,6 +15,6 @@ O que ficou **fora** do texto público por ser duvidoso, ou que o texto afirma m
 
 ## Conferir no código antes de publicar
 
-- **Versão e data**: o front mostra `VERSAO_TEXTOS = '2026-11-20'` e "20 de novembro de 2026" (`resources/js/lib/responsavel.ts`). Subir `gabaritu.privacidade_versao` no backend para o mesmo valor, e guardar o aceite dos Termos com essa versão.
+- **Versão e data**: o front mostra `VERSAO_TEXTOS = '2026-11-22'` e "22 de novembro de 2026" (`resources/js/lib/responsavel.ts`). Subir `gabaritu.privacidade_versao` no backend para o mesmo valor, e guardar o aceite dos Termos com essa versão.
 - **Retenção de 30 dias, aviso 3 dias antes, convites vencidos e conta de responsável sem aluno**: o texto repete o doc `responsaveis.md`; vale só se o comando `gabaritu:limpar-pendentes` fizer isso.
 - **Backup em até 7 dias**: conforme `retencao.md`.

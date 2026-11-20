@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { Head, Link } from '@inertiajs/vue3';
 import AvatarConta from '@/components/aluno/AvatarConta.vue';
+import EncerrarAcompanhamento from '@/components/aluno/EncerrarAcompanhamento.vue';
 import ApagarConta from '@/components/aluno/ApagarConta.vue';
 import BotaoSair from '@/components/aluno/BotaoSair.vue';
 import PerfilConta from '@/components/aluno/PerfilConta.vue';
@@ -22,6 +23,7 @@ withDefaults(
         pedidos_vinculo?: PedidoDeVinculo[];
         convites_responsavel?: ConviteDoAluno[];
         pode_convidar?: boolean;
+        pode_encerrar_acompanhamento?: boolean;
     }>(),
     {
         avatares: undefined,
@@ -29,6 +31,7 @@ withDefaults(
         pedidos_vinculo: () => [],
         convites_responsavel: () => [],
         pode_convidar: true,
+        pode_encerrar_acompanhamento: false,
     },
 );
 const { aluno } = useAluno();
@@ -52,6 +55,7 @@ const { aluno } = useAluno();
             :pedidos="pedidos_vinculo"
             :pode-convidar="pode_convidar"
         />
+        <EncerrarAcompanhamento v-if="pode_encerrar_acompanhamento" />
         <SenhaConta />
         <ApagarConta />
         <div><BotaoSair /></div>

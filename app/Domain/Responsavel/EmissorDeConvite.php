@@ -24,6 +24,7 @@ class EmissorDeConvite
         ?User $substitui = null,
     ): ConviteResponsavel {
         $token = Str::random(self::TAMANHO_DO_TOKEN);
+        $this->substituirPendenteParaOMesmoEmail($aluno, $tipo, $email);
 
         $convite = new ConviteResponsavel([
             'aluno_id' => $aluno->id,
@@ -41,6 +42,13 @@ class EmissorDeConvite
         Mail::to($convite->email)->send(new ConviteDeResponsavel($convite, $aluno, $token));
 
         return $convite;
+    }
+
+    /** Reenviar o mesmo convite (mesmo aluno, tipo e e-mail) substitui o anterior: nunca ficam dois pendentes. */
+    private function substituirPendenteParaOMesmoEmail(User $aluno, TipoConvite $tipo, string $email): void
+    {
+        ConviteResponsavel::query()->pendentes()->where('aluno_id', $aluno->id)
+            ->where('tipo', $tipo->value)->where('email', Str::lower(trim($email)))->update(['invalidado_em' => now()]);
     }
 
     public function invalidarPendentes(User $aluno, TipoConvite $tipo): void

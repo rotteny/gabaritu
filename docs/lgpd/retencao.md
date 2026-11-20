@@ -35,3 +35,8 @@ O que **não** é apagado na hora:
 ## Marco Civil da Internet, art. 15
 
 O dever de guardar registros de acesso a aplicações por 6 meses vale para o provedor "constituído na forma de pessoa jurídica" que exerce a atividade "de forma organizada, profissionalmente e com fins econômicos". Projeto de pessoa física, sem CNPJ e sem fins econômicos, em princípio fica fora. **[verificar com advogado]** Prudente: manter o log do nginx com prazo curto e definido, e não guardar além do que a política declara.
+
+## Prova do aceite (`aceites_responsavel`)
+- Guarda, por convite ou pedido usado: data e hora do aceite, IP, versão dos Termos e da Privacidade, quem aprovou e quando o aluno aceitou.
+- Fica fora de `convites_responsavel` de propósito: o convite vencido é apagado pela limpeza e a prova continua.
+- Apaga junto com a conta do aluno. Prazo de guarda após a exclusão: verificar com advogado.

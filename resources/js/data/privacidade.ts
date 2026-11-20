@@ -6,7 +6,7 @@ export const SECOES_PRIVACIDADE: SecaoLegal[] = [
         titulo: 'O resumo',
         itens: [
             'O Gabaritu guarda só o que precisa pra funcionar.',
-            'Quem vê o seu desempenho: você e o seu responsável, se você tiver menos de 18 anos.',
+            'Quem vê o seu desempenho: você e o seu responsável. Com 18 anos ou mais, você mesmo pode encerrar o acompanhamento.',
             'Não pedimos CPF, RG, telefone, endereço, foto nem documento de ninguém.',
             'Você (ou o responsável) apaga a conta e tudo some, quando quiser.',
         ],
@@ -24,6 +24,10 @@ export const SECOES_PRIVACIDADE: SecaoLegal[] = [
                 'pra checar a idade mínima (13 anos), saber se precisa de responsável e liberar o nível de zoeira certo.',
             ],
             ['Série', 'pra organizar o seu estudo.'],
+            [
+                'Avatar',
+                'um bicho marinho que você escolhe de uma lista pronta. Não existe upload de foto: não guardamos imagem de ninguém.',
+            ],
             ['E-mail', 'pra você entrar e recuperar a senha.'],
             [
                 'Suas respostas',
@@ -82,6 +86,7 @@ export const SECOES_PRIVACIDADE: SecaoLegal[] = [
             'O aluno vê o próprio desempenho.',
             'O responsável vê o desempenho dos alunos que acompanha, só para leitura: nota estimada, assuntos e diagnóstico de erros. Ele também vê o apelido, a série, a idade e quem são os outros responsáveis, com o e-mail parcialmente escondido.',
             'O aluno vê quem são os responsáveis dele (nome, parentesco e e-mail parcialmente escondido).',
+            'Quando o aluno convida mais um responsável, os responsáveis atuais recebem um aviso por e-mail com o nome, o parentesco e o e-mail parcialmente escondido de quem foi convidado, e podem cancelar o convite enquanto ele estiver pendente.',
             'Outros alunos e professores não veem nada.',
         ],
         paragrafos: [
@@ -117,7 +122,7 @@ export const SECOES_PRIVACIDADE: SecaoLegal[] = [
             'Conta e dados de estudo: até a conta ser apagada.',
             'Depois de apagar, cópias de segurança (backup) somem sozinhas em até 7 dias.',
             'Aluno que fica 30 dias sem a autorização do responsável é apagado, com aviso por e-mail 3 dias antes.',
-            'Convites vencidos são apagados.',
+            'Convites vencidos são apagados. O registro do aceite (data e hora, IP, versão dos textos e quem aprovou) fica guardado à parte do convite, até a conta do aluno ser apagada.',
             'Conta de responsável sem nenhum aluno por 30 dias é apagada.',
         ],
     },
@@ -133,6 +138,7 @@ export const SECOES_PRIVACIDADE: SecaoLegal[] = [
         titulo: 'Idade mínima',
         paragrafos: [
             'O Gabaritu é pra quem tem 13 anos ou mais. Quem tem menos de 18 precisa da autorização de um responsável. O nível de zoeira "sem filtro" só é liberado a partir de 15 anos, e o responsável pode baixar o teto.',
+            'Ao completar 18 anos, o acompanhamento não acaba sozinho: os vínculos continuam até você decidir. Na página Conta, "Encerrar acompanhamento" desfaz todos os vínculos, avisa os responsáveis por e-mail e não pode ser restaurado. Se você tem 18 anos ou mais e contesta um responsável, ele não consegue restaurar o vínculo.',
         ],
     },
     { id: 'contato', titulo: 'Ficou com dúvida?' },

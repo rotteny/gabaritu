@@ -26,6 +26,8 @@ export const SECOES_TERMOS: SecaoLegal[] = [
             'Cuidar da própria senha e não usar a conta de outra pessoa.',
             'Saber quem o acompanha: a página Conta mostra os seus responsáveis e o que eles veem.',
             'Pedir a inclusão de outro responsável pela página Conta.',
+            'Escolher o seu avatar, um bicho marinho de uma lista pronta (não há upload de foto).',
+            'Com 18 anos ou mais, encerrar o acompanhamento pela página Conta.',
             'Apagar a própria conta quando quiser.',
         ],
     },
@@ -55,6 +57,7 @@ export const SECOES_TERMOS: SecaoLegal[] = [
         titulo: 'Encerrar, transferir ou revogar',
         itens: [
             'O aluno apaga a conta na página Conta, informando a senha.',
+            'O aluno com 18 anos ou mais pode encerrar o acompanhamento na página Conta: todos os vínculos acabam, os responsáveis são avisados por e-mail e isso não pode ser restaurado.',
             'O responsável pode revogar a própria autorização. Se o aluno ficar sem nenhum responsável ativo, a conta volta a aguardar autorização. O único responsável não consegue revogar: ele transfere a responsabilidade ou apaga a conta do aluno.',
             'Na transferência, o novo responsável recebe um convite. O vínculo do antigo só termina quando o novo aceita.',
             'O responsável pode apagar a conta do aluno, informando a própria senha.',

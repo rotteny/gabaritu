@@ -1,14 +1,26 @@
 <script setup lang="ts">
+import { router } from '@inertiajs/vue3';
 import VinculoSuspenso from '@/components/responsavel/VinculoSuspenso.vue';
 import { formatarData, nomeDoVinculo, TIPOS_CONVITE } from '@/lib/responsavel';
+import { rotas } from '@/lib/rotas';
 import type { ConvitePendente, ResponsavelDoAluno } from '@/types/gabaritu';
 
-defineProps<{
+const props = defineProps<{
     alunoId: number;
     apelido: string;
     responsaveis: ResponsavelDoAluno[];
     convites: ConvitePendente[];
+    podeRestaurar?: boolean;
 }>();
+
+const cancelar = (convite: ConvitePendente) =>
+    router.delete(
+        rotas.cancelarConviteDoAlunoPeloResponsavel(
+            props.alunoId,
+            convite.id as number,
+        ),
+        { preserveScroll: true },
+    );
 
 const comId = (r: ResponsavelDoAluno) =>
     r as ResponsavelDoAluno & { id: number };
@@ -34,6 +46,7 @@ const comId = (r: ResponsavelDoAluno) =>
                 :aluno-id="alunoId"
                 :apelido="apelido"
                 :responsavel="comId(r)"
+                :pode-restaurar="podeRestaurar !== false"
             />
         </template>
         <template v-if="convites.length > 0">
@@ -47,6 +60,14 @@ const comId = (r: ResponsavelDoAluno) =>
                     <span class="gb-miudo">
                         vale até {{ formatarData(c.expira_em) }}</span
                     >
+                    <button
+                        v-if="c.pode_cancelar && c.id"
+                        type="button"
+                        class="l-btn l-btn--white gb-btn-mini"
+                        @click="cancelar(c)"
+                    >
+                        Cancelar convite
+                    </button>
                 </li>
             </ul>
         </template>

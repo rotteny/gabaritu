@@ -9,4 +9,4 @@ Artisan::command('inspire', function () {
 })->purpose('Display an inspiring quote');
 
 // Produção precisa de `schedule:work` ou do cron do scheduler (docs/operacao/producao.md).
-Schedule::command('gabaritu:limpar-pendentes')->dailyAt('03:30')->timezone(config('gabaritu.fuso'));
+Schedule::command('gabaritu:limpar-pendentes')->dailyAt('03:30')->timezone(config('gabaritu.fuso'))->withoutOverlapping();

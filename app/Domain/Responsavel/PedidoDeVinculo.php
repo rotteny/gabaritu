@@ -4,6 +4,7 @@ namespace App\Domain\Responsavel;
 
 use App\Enums\TipoConta;
 use App\Enums\TipoConvite;
+use App\Jobs\ProcessarPedidoDeVinculo;
 use App\Mail\AutorizacaoConfirmada;
 use App\Mail\PedidoDeResponsavelAoAluno;
 use App\Mail\PedidoDeVinculoAosResponsaveis;
@@ -27,12 +28,21 @@ class PedidoDeVinculo
 
     private const int TAMANHO_DO_TOKEN = 48;
 
-    public function __construct(private readonly RegistradorDeVinculo $registrador) {}
+    public function __construct(private readonly RegistradorDeVinculo $registrador, private readonly RegistroDeAceites $aceites) {}
 
+    /**
+     * Só o limite diário roda antes da resposta. A busca do e-mail, a criação do pedido e o envio rodam depois
+     * dela, no mesmo caminho para qualquer e-mail: o tempo de resposta não revela se o destino é um adulto.
+     */
     public function solicitar(User $solicitante, string $email, DadosDeParentesco $parentesco, ?string $ip): void
     {
         $this->limitar($solicitante);
 
+        ProcessarPedidoDeVinculo::dispatch($solicitante->id, $email, $parentesco->parentesco->value, $parentesco->outro, $ip)->afterResponse();
+    }
+
+    public function processar(User $solicitante, string $email, DadosDeParentesco $parentesco, ?string $ip): void
+    {
         $email = Str::lower(trim($email));
         $destino = User::query()->whereRaw('lower(email) = ?', [$email])->first();
 
@@ -181,6 +191,7 @@ class PedidoDeVinculo
         );
         $this->registrador->liberarAluno($aluno);
         $convite->forceFill(['usado_em' => now()])->save();
+        $this->aceites->registrar($convite, $vinculo);
 
         DB::afterCommit(fn () => Mail::to($solicitante->email)->send(new AutorizacaoConfirmada($aluno, $solicitante, $vinculo)));
     }

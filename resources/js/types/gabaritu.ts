@@ -196,6 +196,9 @@ export type ConviteDoCadastro = {
 };
 
 export type ConvitePendente = {
+    id?: number;
+    /** Convite feito pelo aluno: qualquer responsável ativo pode vetar enquanto estiver pendente. */
+    pode_cancelar?: boolean;
     email_mascarado: string;
     tipo: TipoConvite;
     expira_em: string;

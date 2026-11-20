@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Concerns\ParentescoValidationRules;
+use App\Domain\Responsavel\AvisoAosResponsaveis;
 use App\Domain\Responsavel\DadosDeParentesco;
 use App\Domain\Responsavel\EmissorDeConvite;
 use App\Domain\Responsavel\GestorDeVinculos;
@@ -18,7 +19,11 @@ class ContaResponsaveisController extends Controller
 {
     use ParentescoValidationRules;
 
-    public function __construct(private readonly EmissorDeConvite $emissor, private readonly LimitesDeConvite $limites) {}
+    public function __construct(
+        private readonly EmissorDeConvite $emissor,
+        private readonly LimitesDeConvite $limites,
+        private readonly AvisoAosResponsaveis $avisos,
+    ) {}
 
     public function store(Request $request): RedirectResponse
     {
@@ -29,13 +34,14 @@ class ContaResponsaveisController extends Controller
         $this->limites->exigirVagaDeResponsavel($aluno);
         $this->limites->exigirEmailDeNovoResponsavel($aluno, $dados['email']);
 
-        $this->emissor->emitir(
+        $convite = $this->emissor->emitir(
             $aluno,
             TipoConvite::CoresponsavelAluno,
             $dados['email'],
             DadosDeParentesco::de($dados['parentesco'], $dados['parentesco_outro'] ?? null),
             solicitante: $aluno,
         );
+        $this->avisos->conviteDoAluno($convite, $aluno);
 
         return back()->with('status', 'convite-enviado');
     }

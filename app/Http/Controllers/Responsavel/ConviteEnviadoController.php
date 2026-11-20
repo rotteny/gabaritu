@@ -8,6 +8,7 @@ use App\Domain\Responsavel\EmissorDeConvite;
 use App\Domain\Responsavel\LimitesDeConvite;
 use App\Enums\TipoConvite;
 use App\Http\Controllers\Controller;
+use App\Models\ConviteResponsavel;
 use App\Models\User;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
@@ -45,5 +46,16 @@ class ConviteEnviadoController extends Controller
         );
 
         return back()->with('status', 'convite-enviado');
+    }
+
+    /** Veto: qualquer responsável ativo cancela o convite que o aluno fez enquanto estiver pendente. */
+    public function destroy(User $aluno, ConviteResponsavel $convite): RedirectResponse
+    {
+        $this->authorize('acompanhar', $aluno);
+        abort_unless($convite->aluno_id === $aluno->id && $convite->tipo === TipoConvite::CoresponsavelAluno->value && $convite->estaPendente(), 404);
+
+        $convite->forceFill(['invalidado_em' => now()])->save();
+
+        return back();
     }
 }

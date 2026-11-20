@@ -8,6 +8,7 @@ use App\Mail\AvisoRemocaoPorPendencia;
 use App\Models\ConviteResponsavel;
 use App\Models\User;
 use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Mail;
 
 /** Retenção (docs/responsaveis.md, regra 12). */
@@ -47,24 +48,48 @@ class LimpezaDePendentes
 
     private function removerPendentes(): int
     {
-        $removiveis = $this->pendentes()
-            ->where('pendente_desde', '<=', now()->subDays(self::DIAS_PENDENTE))
-            ->where('aviso_remocao_em', '<=', now()->subDays(self::DIAS_DE_AVISO))->get();
+        $candidatos = $this->removiveis()->pluck('id');
 
-        $removiveis->each(fn (User $aluno) => $this->vinculos->apagarUsuario($aluno));
-
-        return $removiveis->count();
+        return $candidatos->filter(fn (int $id) => $this->apagarSeAindaRemovivel($id, fn () => $this->removiveis()))->count();
     }
 
     private function removerResponsaveisSemAluno(): int
     {
-        $sem = User::query()->where('tipo', TipoConta::Responsavel->value)
+        $candidatos = $this->responsaveisSemAluno()->pluck('id');
+
+        return $candidatos->filter(fn (int $id) => $this->apagarSeAindaRemovivel($id, fn () => $this->responsaveisSemAluno()))->count();
+    }
+
+    /** Reconfere o critério com a linha travada, na mesma transação do delete: quem foi autorizado nesse meio tempo fica. */
+    private function apagarSeAindaRemovivel(int $id, callable $criterio): bool
+    {
+        return DB::transaction(function () use ($id, $criterio): bool {
+            $usuario = $criterio()->whereKey($id)->lockForUpdate()->first();
+
+            if ($usuario === null) {
+                return false;
+            }
+
+            $this->vinculos->apagarUsuario($usuario);
+
+            return true;
+        });
+    }
+
+    /** @return Builder<User> */
+    private function removiveis(): Builder
+    {
+        return $this->pendentes()
+            ->where('pendente_desde', '<=', now()->subDays(self::DIAS_PENDENTE))
+            ->where('aviso_remocao_em', '<=', now()->subDays(self::DIAS_DE_AVISO));
+    }
+
+    /** @return Builder<User> */
+    private function responsaveisSemAluno(): Builder
+    {
+        return User::query()->where('tipo', TipoConta::Responsavel->value)
             ->where('sem_aluno_desde', '<=', now()->subDays(self::DIAS_RESPONSAVEL_SEM_ALUNO))
-            ->whereDoesntHave('vinculosAtivosComAlunos')->get();
-
-        $sem->each(fn (User $responsavel) => $this->vinculos->apagarUsuario($responsavel));
-
-        return $sem->count();
+            ->whereDoesntHave('vinculosAtivosComAlunos');
     }
 
     /** @return Builder<User> */

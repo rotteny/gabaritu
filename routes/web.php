@@ -43,6 +43,7 @@ Route::middleware(['auth', 'aluno'])->group(function () {
     Route::put('conta/senha', [ContaController::class, 'senha'])->middleware('throttle:6,1')->name('conta.senha');
     Route::post('conta/responsaveis', [ContaResponsaveisController::class, 'store'])->middleware('throttle:convite-emissao')->name('conta.responsaveis.store');
     Route::post('conta/responsaveis/{responsavel}/contestar', [ContaResponsaveisController::class, 'contestar'])->name('conta.responsaveis.contestar');
+    Route::post('conta/acompanhamento/encerrar', [ContaController::class, 'encerrarAcompanhamento'])->middleware('throttle:6,1')->name('conta.acompanhamento.encerrar');
     Route::delete('conta/responsaveis/convites/{convite}', [ContaResponsaveisController::class, 'destroy'])->name('conta.responsaveis.convites.destroy');
 });
 
@@ -93,6 +94,7 @@ Route::middleware(['auth', 'responsavel'])->prefix('responsavel')->name('respons
     Route::get('alunos/{aluno}', [Responsavel\PainelController::class, 'show'])->name('alunos.show');
     Route::patch('alunos/{aluno}/zoeira', [Responsavel\ZoeiraController::class, 'update'])->name('alunos.zoeira');
     Route::post('alunos/{aluno}/convites', [Responsavel\ConviteEnviadoController::class, 'store'])->middleware('throttle:convite-emissao')->name('alunos.convites');
+    Route::delete('alunos/{aluno}/convites/{convite}', [Responsavel\ConviteEnviadoController::class, 'destroy'])->name('alunos.convites.destroy');
     Route::delete('alunos/{aluno}/vinculo', [Responsavel\VinculoController::class, 'destroy'])->name('alunos.vinculo');
     Route::delete('alunos/{aluno}', [Responsavel\AlunoController::class, 'destroy'])->middleware('throttle:6,1')->name('alunos.destroy');
 });

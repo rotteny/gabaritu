@@ -17,7 +17,11 @@ use Illuminate\Validation\ValidationException;
 
 class AceitadorDeConvite
 {
-    public function __construct(private readonly GestorDeVinculos $vinculos, private readonly RegistradorDeVinculo $registrador) {}
+    public function __construct(
+        private readonly GestorDeVinculos $vinculos,
+        private readonly RegistradorDeVinculo $registrador,
+        private readonly RegistroDeAceites $aceites,
+    ) {}
 
     /**
      * @param  array{parentesco: string, parentesco_outro?: string|null, nome?: string, senha?: string, ano_nascimento?: int|string}  $dados
@@ -32,6 +36,7 @@ class AceitadorDeConvite
             $vinculo = $this->gravarVinculo($aluno, $responsavel, $dados, $ip);
             $this->encerrarVinculoSubstituido($atual, $responsavel);
             $atual->forceFill(['usado_em' => now()])->save();
+            $this->aceites->registrar($atual, $vinculo);
 
             return [$responsavel, $aluno, $this->registrador->liberarAluno($aluno), $vinculo];
         });
