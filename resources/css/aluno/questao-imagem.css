@@ -162,12 +162,41 @@
     font-weight: 600;
 }
 
-/* Na reação, só sobram a certa e a escolhida: as outras saem da grade e as miniaturas diminuem */
-.q-alts--grade li:has(.q-alt--recolhida) {
+/* Na reação: a certa e a escolhida ficam com miniatura pequena; as outras viram só a letra */
+.q-alts--grade.q-alts--travada {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 12px;
+}
+.q-alts--grade.q-alts--travada .q-alts-item {
+    flex: 0 1 clamp(80px, 22vw, 150px);
+}
+.q-alts--grade.q-alts--travada li:has(.q-alt--recolhida) {
+    flex: none;
+    animation: none;
+}
+.q-alts--grade .q-alt--recolhida {
+    width: auto;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    rotate: none;
+}
+.q-alts--grade .q-alt--recolhida .q-alt-letra {
+    position: static;
+}
+.q-alts--grade .q-alt--recolhida .q-alt-img,
+.q-alts--grade .q-alt--recolhida .q-alt-texto {
     display: none;
 }
 .q-alts--grade.q-alts--travada .q-alt-img {
-    max-height: clamp(36px, 8dvh, 110px);
+    max-height: clamp(30px, 7dvh, 90px);
+}
+/* Efeitos decorativos não esticam a área rolável */
+.q-alts--grade .q-explosao {
+    overflow: hidden;
 }
 
 @media (max-width: 899px) and (max-height: 700px) {
