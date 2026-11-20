@@ -44,10 +44,11 @@ defineProps<{
         <p v-else class="gb-aviso gb-aviso--info" role="status">
             Enviamos um convite para
             <strong>{{ email_responsavel_mascarado }}</strong
-            ><template v-if="convite_expira_em">
-                . Ele vale até
-                <strong>{{ formatarData(convite_expira_em) }}</strong></template
-            >.
+            >{{
+                convite_expira_em
+                    ? `. Ele vale até ${formatarData(convite_expira_em)}.`
+                    : '.'
+            }}
         </p>
         <p v-if="recusado" class="gb-miudo">
             O convite era para {{ email_responsavel_mascarado }}.
