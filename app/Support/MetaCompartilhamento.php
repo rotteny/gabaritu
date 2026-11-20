@@ -20,7 +20,7 @@ class MetaCompartilhamento
     /** @var array{titulo: string, descricao: string} */
     private const array PADRAO = [
         'titulo' => 'Gabaritu: estude pro ENEM de graça com o Peixoto',
-        'descricao' => 'Plataforma gratuita e open source de estudo pro ENEM, pra quem tem 13 anos ou mais. O Peixoto zoa a resposta, nunca você. Sem anúncio.',
+        'descricao' => 'Estudar pro ENEM pode ser divertido. No Gabaritu é de graça, e o Peixoto, um baiacu exagerado, transforma cada questão numa cena de novela.',
     ];
 
     /** @var array<string, array{titulo: string, descricao: string}> */
