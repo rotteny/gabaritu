@@ -13,13 +13,21 @@ class PaginaDeErro
 {
     private const array STATUS_COM_PAGINA = [403, 404, 419, 429, 500, 503];
 
+    /** O painel admin é sóbrio: erro dele não usa o Peixoto nem a conta do aluno. */
+    private static function ehDoAdmin(Request $requisicao): bool
+    {
+        $prefixo = (string) config('gabaritu.admin_prefixo');
+
+        return $requisicao->is($prefixo, $prefixo.'/*');
+    }
+
     private const array STATUS_DE_SERVIDOR = [500, 503];
 
     public static function responder(Response $resposta, Request $requisicao): Response
     {
         $status = $resposta->getStatusCode();
 
-        if (! in_array($status, self::STATUS_COM_PAGINA, true) || self::deveMostrarDetalhes($status)) {
+        if (! in_array($status, self::STATUS_COM_PAGINA, true) || self::deveMostrarDetalhes($status) || self::ehDoAdmin($requisicao)) {
             return $resposta;
         }
 

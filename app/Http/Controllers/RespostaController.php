@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Domain\Metricas\RegistradorDeMetricas;
 use App\Domain\Tentativa\ResponderQuestao;
 use App\Models\Tentativa;
 use Illuminate\Http\JsonResponse;
@@ -10,7 +11,7 @@ use Illuminate\Support\Facades\Gate;
 
 class RespostaController extends Controller
 {
-    public function store(Request $request, Tentativa $tentativa, ResponderQuestao $responder): JsonResponse
+    public function store(Request $request, Tentativa $tentativa, ResponderQuestao $responder, RegistradorDeMetricas $metricas): JsonResponse
     {
         Gate::authorize('ver', $tentativa);
 
@@ -26,6 +27,8 @@ class RespostaController extends Controller
             (int) $dados['alternativa_id'],
             $request->session(),
         );
+
+        $metricas->resposta($request->user());
 
         $etiqueta = $resultado->correta ? null : $resultado->alternativaEscolhida?->etiqueta;
 

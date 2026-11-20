@@ -11,3 +11,8 @@ parameters:
         - routes/
 
     level: 7
+
+    ignoreErrors:
+        # O Larastan junta os providers de todos os guards em `$request->user()`; no site o usuário é sempre `User`
+        # (o `Admin` só existe no guard `admin`, que usa `Auth::guard('admin')`).
+        - '#App\\Models\\Admin\|App\\Models\\User#'

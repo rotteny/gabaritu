@@ -13,6 +13,22 @@ return [
 
     'idade_minima' => 13,
 
+    /* Prefixo secreto das rotas do painel admin (docs/admin.md). Sem barras nas pontas; vazio cai em "admin". */
+    'admin_prefixo' => trim((string) env('GABARITU_ADMIN_PREFIXO', 'admin'), '/') ?: 'admin',
+
+    'admin' => [
+        'inatividade_minutos' => 30,
+        'reconfirmacao_minutos' => 15,
+        'login_tentativas_por_minuto' => 5,
+        'codigos_recuperacao' => 8,
+        'senha_minima' => 12,
+        'por_pagina' => 25,
+        /* Questão suspeita: amostra mínima, acerto fora da faixa ou distrator mais escolhido que a correta. */
+        'suspeita' => ['min_respostas' => 20, 'acerto_min' => 0.15, 'acerto_max' => 0.95],
+        /* Tentativa de questionário sem finalizar há mais que isso conta como abandonada. */
+        'abandono_horas' => 24,
+    ],
+
     /* Versão da página /privacidade gravada nos aceites. Mudou o texto, mude a versão. */
     'privacidade_versao' => '2026-11-24',
 

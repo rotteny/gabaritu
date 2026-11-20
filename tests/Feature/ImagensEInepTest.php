@@ -247,6 +247,18 @@ describe('importador autoral', function () {
 });
 
 describe('importador INEP (--fonte-externa)', function () {
+    it('o reimport não desfaz a decisão jurídica tomada no painel, mas respeita uma decisão explícita do JSON', function () {
+        $fonte = fonteInep([itemInep('enem-2024-010')]);
+        app(ImportadorInep::class)->importar($fonte);
+        Questao::where('codigo', 'enem-2024-010')->update(['revisao_juridica' => 'remover']);
+
+        app(ImportadorInep::class)->importar($fonte);
+        expect(Questao::where('codigo', 'enem-2024-010')->value('revisao_juridica'))->toBe('remover');
+
+        app(ImportadorInep::class)->importar(fonteInep([itemInep('enem-2024-010', ['revisao_juridica' => 'liberada'])]));
+        expect(Questao::where('codigo', 'enem-2024-010')->value('revisao_juridica'))->toBe('liberada');
+    });
+
     it('importa, é idempotente pelo id e guarda os metadados', function () {
         $fonte = fonteInep([itemInep('enem-2024-001'), itemInep('enem-2024-002', ['anulada' => true, 'alternativas' => array_map(fn ($l) => ['letra' => $l, 'texto' => $l, 'correta' => false], str_split('ABCDE')), 'lingua' => 'ingles'])]);
 

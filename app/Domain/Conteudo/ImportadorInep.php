@@ -142,8 +142,13 @@ class ImportadorInep
             ...$this->imagens->daAlternativa($alt, $this->pastaDa($alt, $pasta), $politica),
         ], $item['alternativas']);
 
+        $atributos = $this->atributos($item, $altPendente, array_column($linhas, 'texto'));
+        if (($item['revisao_juridica'] ?? 'pendente') === 'pendente' && $this->temDecisaoJuridica($item['id'])) {
+            unset($atributos['revisao_juridica']); // a decisão tomada no painel admin sobrevive ao reimport
+        }
+
         $questao = Questao::updateOrCreate(['codigo' => $item['id']], [
-            ...$this->atributos($item, $altPendente, array_column($linhas, 'texto')),
+            ...$atributos,
             ...$this->classificacao($item),
             ...$imagem,
         ]);
@@ -153,6 +158,11 @@ class ImportadorInep
             ['questao_id', 'letra'],
             ['texto', 'correta', 'etiqueta_id', 'imagem_url', 'imagem_alt', 'imagem_largura', 'imagem_altura'],
         );
+    }
+
+    private function temDecisaoJuridica(string $codigo): bool
+    {
+        return Questao::query()->where('codigo', $codigo)->whereNotNull('revisao_juridica')->where('revisao_juridica', '!=', 'pendente')->exists();
     }
 
     /**

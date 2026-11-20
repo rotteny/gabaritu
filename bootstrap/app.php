@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Middleware\AdminAutenticado;
+use App\Http\Middleware\AdminComDoisFatores;
 use App\Http\Middleware\ExigirAluno;
 use App\Http\Middleware\ExigirAlunoPendente;
 use App\Http\Middleware\ExigirContaDeAluno;
@@ -7,12 +9,14 @@ use App\Http\Middleware\ExigirResponsavel;
 use App\Http\Middleware\HandleAppearance;
 use App\Http\Middleware\HandleInertiaRequests;
 use App\Http\Middleware\ModoEmBreve;
+use App\Http\Middleware\SessaoDoAdmin;
 use App\Support\PaginaDeErro;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Middleware;
 use Illuminate\Http\Middleware\AddLinkHeadersForPreloadedAssets;
 use Illuminate\Http\Request;
+use Illuminate\Session\Middleware\StartSession;
 use Symfony\Component\HttpFoundation\Response;
 
 return Application::configure(basePath: dirname(__DIR__))
@@ -37,9 +41,14 @@ return Application::configure(basePath: dirname(__DIR__))
             'aluno.pendente' => ExigirAlunoPendente::class,
             'aluno.conta' => ExigirContaDeAluno::class,
             'responsavel' => ExigirResponsavel::class,
+            'admin.autenticado' => AdminAutenticado::class,
+            'admin.dois-fatores' => AdminComDoisFatores::class,
         ]);
 
+        $middleware->prependToPriorityList(before: StartSession::class, prepend: SessaoDoAdmin::class);
+
         $middleware->web(prepend: [
+            SessaoDoAdmin::class,
             ModoEmBreve::class,
         ], append: [
             HandleAppearance::class,

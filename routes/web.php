@@ -99,6 +99,9 @@ Route::middleware(['auth', 'responsavel'])->prefix('responsavel')->name('respons
     Route::delete('alunos/{aluno}', [Responsavel\AlunoController::class, 'destroy'])->middleware('throttle:6,1')->name('alunos.destroy');
 });
 
+// Painel admin: prefixo configurável (GABARITU_ADMIN_PREFIXO), conta, guard, sessão e 2FA próprios.
+Route::prefix(config('gabaritu.admin_prefixo'))->name('admin.')->group(base_path('routes/admin.php'));
+
 // Fallback no grupo web: sem ele o 404 de URL inexistente nasce sem sessão e o aluno aparece deslogado.
 Route::fallback(fn () => abort(404));
 

@@ -2,6 +2,8 @@
 
 namespace App\Providers;
 
+use App\Domain\Metricas\RegistradorDeMetricas;
+use App\Models\User;
 use App\Support\MetaCompartilhamento;
 use Carbon\CarbonImmutable;
 use Illuminate\Auth\Events\Login;
@@ -38,7 +40,21 @@ class AppServiceProvider extends ServiceProvider
             url()->current(),
         )));
 
-        Event::listen(Login::class, fn (Login $evento) => $evento->user->forceFill(['ultimo_acesso_em' => now()])->saveQuietly());
+        Event::listen(Login::class, $this->aoEntrar(...));
+    }
+
+    /** Só o login do site (guard web); o do painel admin tem fluxo e conta próprios. */
+    private function aoEntrar(Login $evento): void
+    {
+        if ($evento->guard !== 'web' || ! $evento->user instanceof User) {
+            return;
+        }
+
+        $evento->user->forceFill(['ultimo_acesso_em' => now()])->saveQuietly();
+
+        if (! $evento->user->ehResponsavel()) {
+            app(RegistradorDeMetricas::class)->login($evento->user);
+        }
     }
 
     /** Convite e aceite do responsável (docs/responsaveis.md, regra 14). */
