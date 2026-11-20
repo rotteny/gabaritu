@@ -21,7 +21,7 @@ return [
         'reconfirmacao_minutos' => 15,
         'login_tentativas_por_minuto' => 5,
         'codigos_recuperacao' => 8,
-        'senha_minima' => 12,
+        'senha_minima' => 8,
         'por_pagina' => 25,
         /* Questão suspeita: amostra mínima, acerto fora da faixa ou distrator mais escolhido que a correta. */
         'suspeita' => ['min_respostas' => 20, 'acerto_min' => 0.15, 'acerto_max' => 0.95, 'min_reports' => 3],

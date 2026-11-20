@@ -92,7 +92,8 @@ class GerenciarAdmin extends Command
     private function pedirSenha(): ?string
     {
         $senha = (string) $this->secret('Senha (não aparece na tela)');
-        $regra = Password::min((int) config('gabaritu.admin.senha_minima'))->mixedCase()->numbers();
+        // Decisão do dono (20/11): mesma linha dos alunos, 8 caracteres + não vazada; o 2FA obrigatório é a proteção principal.
+        $regra = Password::min((int) config('gabaritu.admin.senha_minima'))->uncompromised();
 
         $validador = Validator::make(['senha' => $senha], ['senha' => ['required', $regra]]);
         if ($validador->fails()) {

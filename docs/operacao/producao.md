@@ -135,7 +135,7 @@ A borda é o nginx do Laradock (não há Apache/cPanel na frente deste site).
 Detalhes de produto e segurança em `docs/admin.md`. Em produção:
 
 - **Prefixo:** `GABARITU_ADMIN_PREFIXO` no `.env` (modelo em `infra/producao/env.producao.template`). O painel responde em `https://gabaritu.gorilash.com.br/<prefixo>/entrar`. Sem a variável, o prefixo é `admin` (adivinhável: sempre defina). Depois de mudar: recriar os containers e rodar `config:cache` e `route:cache` (o prefixo entra no cache de rotas). O prefixo aparece no log do nginx; não o compartilhe.
-- **Criar o admin (uma vez, só o dono):** `scripts/producao-compose.sh exec app php artisan gabaritu:admin criar dono@exemplo.com`. A senha é pedida num prompt oculto (mínimo de 12 caracteres, maiúscula, minúscula e número); nunca passe por argumento. O comando exige terminal interativo (`exec` sem `-T`).
+- **Criar o admin (uma vez, só o dono):** `scripts/producao-compose.sh exec app php artisan gabaritu:admin criar dono@exemplo.com`. A senha é pedida num prompt oculto (mínimo de 8 caracteres e não pode estar em vazamentos conhecidos); nunca passe por argumento. O comando exige terminal interativo (`exec` sem `-T`).
 - **Primeiro login:** o painel obriga configurar o 2FA (QR para o app autenticador) e mostra 8 códigos de recuperação uma única vez. Guarde-os fora do servidor. Faça isso logo após criar a conta: até o 2FA ser confirmado, quem souber a senha poderia cadastrar o próprio autenticador.
 - **Trocar a senha:** `gabaritu:admin senha <email>` (derruba as sessões abertas).
 - **Perdeu o celular e os códigos:** `gabaritu:admin 2fa-reset <email>`; no próximo login o painel pede novo QR e novos códigos.
