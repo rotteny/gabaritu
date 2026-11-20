@@ -14,6 +14,7 @@ import '../../css/landing/base.css';
 import '../../css/landing/peixoto.css';
 import '../../css/aluno/base.css';
 import '../../css/aluno/paginas.css';
+import '../../css/aluno/responsavel.css';
 
 defineProps<{ title?: string; description?: string }>();
 

@@ -1,0 +1,18 @@
+{
+    "component": "aluno/AguardandoResponsavel",
+    "aluno": {
+        "status": "aguardando_responsavel",
+        "idade": 15
+    },
+    "props": {
+        "email_responsavel_mascarado": "m***a@gmail.com",
+        "convite_expira_em": "2026-11-26T20:00:00-03:00",
+        "recusado": false,
+        "reenvios_restantes": 2,
+        "fala": {
+            "texto": "Calma, o mar não seca: é só o seu responsável abrir o e-mail.",
+            "humor": "ajuda",
+            "variacao_id": 1
+        }
+    }
+}

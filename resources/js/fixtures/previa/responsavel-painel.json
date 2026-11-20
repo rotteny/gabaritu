@@ -1,0 +1,81 @@
+{
+    "component": "responsavel/Painel",
+    "usuario": {
+        "id": 9,
+        "tipo": "responsavel",
+        "nome": "Maria Silva",
+        "email": "maria.silva@gmail.com"
+    },
+    "props": {
+        "alunos": [
+            {
+                "id": 1,
+                "apelido": "Estudante",
+                "serie": "2em",
+                "idade": 16,
+                "status": "ativo",
+                "teto_zoeira_responsavel": "sarc",
+                "responsaveis": [
+                    {
+                        "nome": "Maria Silva",
+                        "parentesco": "mae",
+                        "email_mascarado": "m***a@gmail.com",
+                        "sou_eu": true
+                    },
+                    {
+                        "nome": "João Silva",
+                        "parentesco": "pai",
+                        "email_mascarado": "j***o@gmail.com",
+                        "sou_eu": false
+                    }
+                ],
+                "convites_pendentes": [
+                    {
+                        "email_mascarado": "a***a@gmail.com",
+                        "tipo": "coresponsavel_aluno",
+                        "expira_em": "2026-11-26T20:00:00-03:00"
+                    }
+                ],
+                "notas": [
+                    {
+                        "slug": "matematica",
+                        "nome": "Matemática",
+                        "nota": 612.4
+                    },
+                    {
+                        "slug": "biologia",
+                        "nome": "Biologia",
+                        "nota": 701.0
+                    },
+                    {
+                        "slug": "historia",
+                        "nome": "História",
+                        "nota": null
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "apelido": "Caçula com apelido bem comprido mesmo",
+                "serie": "9ano",
+                "idade": 14,
+                "status": "aguardando_responsavel",
+                "teto_zoeira_responsavel": "sem",
+                "responsaveis": [
+                    {
+                        "nome": "Maria Silva",
+                        "parentesco": "mae",
+                        "email_mascarado": "m***a@gmail.com",
+                        "sou_eu": true
+                    }
+                ],
+                "convites_pendentes": []
+            }
+        ],
+        "fala": {
+            "texto": "Seus alunos estão nadando bem.",
+            "humor": "feliz",
+            "variacao_id": 3
+        }
+    }
+}

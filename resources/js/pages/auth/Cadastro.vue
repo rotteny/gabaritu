@@ -1,8 +1,11 @@
 <script setup lang="ts">
 import { Head, Link, useForm } from '@inertiajs/vue3';
+import { computed } from 'vue';
 import Aviso from '@/components/aluno/Aviso.vue';
 import Campo from '@/components/aluno/Campo.vue';
+import CampoParentesco from '@/components/responsavel/CampoParentesco.vue';
 import GrupoOpcoes from '@/components/aluno/GrupoOpcoes.vue';
+import { ehMenorDeIdade } from '@/lib/responsavel';
 import { rotas } from '@/lib/rotas';
 
 defineOptions({
@@ -27,20 +30,37 @@ const form = useForm({
     senha_confirmation: '',
     ano_nascimento: '' as string | number,
     serie: '2em',
+    email_responsavel: '',
+    parentesco_responsavel: 'mae',
+    parentesco_outro: '',
     aceite_privacidade: false,
 });
 
+const menor = computed(() => ehMenorDeIdade(form.ano_nascimento));
+
 const enviar = () =>
-    form.post(rotas.cadastro, {
-        onFinish: () => form.reset('senha', 'senha_confirmation'),
-    });
+    form
+        .transform((d) =>
+            menor.value
+                ? d
+                : {
+                      ...d,
+                      email_responsavel: '',
+                      parentesco_responsavel: '',
+                      parentesco_outro: '',
+                  },
+        )
+        .post(rotas.cadastro, {
+            onFinish: () => form.reset('senha', 'senha_confirmation'),
+        });
 </script>
 
 <template>
     <Head title="Criar conta" />
     <Aviso tipo="info">
         Guardamos só apelido, ano de nascimento, série, e-mail e suas respostas.
-        Ninguém além de você vê o seu desempenho.
+        Só você e o seu responsável (se você for menor de 18) veem o seu
+        desempenho.
         <Link :href="rotas.privacidade" class="gb-link"
             >Ler tudo sobre privacidade</Link
         >
@@ -89,6 +109,31 @@ const enviar = () =>
             :erro="form.errors.ano_nascimento"
             obrigatorio
         />
+        <fieldset v-if="menor" class="gb-form gb-fieldset-resp">
+            <legend class="gb-legenda">Seu responsável</legend>
+            <Aviso tipo="info">
+                Quem tem menos de 18 anos precisa da autorização de um
+                responsável (pai, mãe, avó/avô ou tutor), por lei. Enviamos um
+                convite para esse e-mail e você só começa depois que ele
+                autorizar.
+            </Aviso>
+            <Campo
+                v-model="form.email_responsavel"
+                rotulo="E-mail do seu responsável"
+                tipo="email"
+                autocomplete="off"
+                ajuda="Tem de ser diferente do seu e-mail."
+                :erro="form.errors.email_responsavel"
+                obrigatorio
+            />
+            <CampoParentesco
+                v-model:parentesco="form.parentesco_responsavel"
+                v-model:outro="form.parentesco_outro"
+                rotulo="Parentesco dele com você"
+                :erro-parentesco="form.errors.parentesco_responsavel"
+                :erro-outro="form.errors.parentesco_outro"
+            />
+        </fieldset>
         <GrupoOpcoes
             v-model="form.serie"
             legenda="Série"
@@ -99,7 +144,11 @@ const enviar = () =>
             <label class="gb-check">
                 <input v-model="form.aceite_privacidade" type="checkbox" />
                 <span>
-                    Li e concordo com a
+                    Li e concordo com os
+                    <Link :href="rotas.termos" class="gb-link"
+                        >Termos de uso</Link
+                    >
+                    e a
                     <Link :href="rotas.privacidade" class="gb-link"
                         >política de privacidade</Link
                     >.

@@ -14,6 +14,7 @@ import '../../css/landing/base.css';
 import '../../css/landing/peixoto.css';
 import '../../css/aluno/base.css';
 import '../../css/aluno/paginas.css';
+import '../../css/aluno/responsavel.css';
 
 const { aluno, gabaritu } = useAluno();
 const reduzido = useMovimentoReduzido();
@@ -22,11 +23,17 @@ const repositorioUrl = computed(
     () => gabaritu.value?.repositorio_url ?? REPOSITORIO_PADRAO,
 );
 
-const itens = [
+const itensCompletos = [
     { rotulo: 'Início', href: rotas.inicio },
     { rotulo: 'Desempenho', href: rotas.desempenho },
     { rotulo: 'Conta', href: rotas.conta },
 ];
+// Aluno aguardando o responsável só alcança a própria conta.
+const itens = computed(() =>
+    aluno.value?.status === 'aguardando_responsavel'
+        ? itensCompletos.filter((i) => i.href === rotas.conta)
+        : itensCompletos,
+);
 
 const caminho = computed(() => page.url.split('?')[0]);
 const ativo = (href: string) =>

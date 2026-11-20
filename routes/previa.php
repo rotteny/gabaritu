@@ -27,7 +27,7 @@ Route::get('_previa/{pagina}', function (string $pagina) {
 
     return Inertia::render($fixture['component'], [
         ...$fixture['props'],
-        'auth' => ['user' => ($fixture['anonimo'] ?? false) ? null : $aluno],
+        'auth' => ['user' => ($fixture['anonimo'] ?? false) ? null : ($fixture['usuario'] ?? $aluno)],
         'gabaritu' => $compartilhado['gabaritu'],
     ]);
 })->name('previa');

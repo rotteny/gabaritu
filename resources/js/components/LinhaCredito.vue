@@ -15,6 +15,10 @@ defineProps<{ repositorioUrl: string }>();
         ·
         <LinkExterno :href="repositorioUrl">código aberto</LinkExterno> no
         GitHub ·
+        <Link :href="rotas.termos">Termos</Link>
+        ·
+        <Link :href="rotas.privacidade">Privacidade</Link>
+        ·
         <Link :href="rotas.quemSomos">Quem somos</Link>
     </p>
 </template>

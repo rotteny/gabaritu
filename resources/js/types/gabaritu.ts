@@ -19,12 +19,24 @@ export type Preferencias = {
     ultima_materia: string | null;
 };
 
+export type StatusAluno = 'ativo' | 'aguardando_responsavel';
+
 export type Aluno = {
     id: number;
+    tipo?: 'aluno';
+    status?: StatusAluno;
     apelido: string;
     serie: Serie;
     idade: number;
     preferencias: Preferencias;
+};
+
+/** Usuário logado do tipo responsável (auth.user.tipo = 'responsavel'). */
+export type UsuarioResponsavel = {
+    id: number;
+    tipo: 'responsavel';
+    nome: string;
+    email?: string;
 };
 
 export type DadosGabaritu = {
@@ -34,7 +46,7 @@ export type DadosGabaritu = {
 };
 
 export type PropsCompartilhadas = {
-    auth: { user: Aluno | null };
+    auth: { user: Aluno | UsuarioResponsavel | null };
     gabaritu: DadosGabaritu;
 };
 
@@ -117,4 +129,57 @@ export type DesempenhoAssunto = {
 
 export type DesempenhoMateria = Omit<DesempenhoAssunto, never> & {
     assuntos: DesempenhoAssunto[];
+};
+
+/* Responsável legal (docs/responsaveis.md) */
+export type Parentesco = 'pai' | 'mae' | 'avo' | 'tutor' | 'outro';
+export type TipoConvite =
+    | 'autorizacao'
+    | 'coresponsavel'
+    | 'coresponsavel_aluno'
+    | 'transferencia';
+
+export type ResponsavelDoAluno = {
+    nome: string;
+    parentesco: Parentesco;
+    email_mascarado: string;
+    sou_eu?: boolean;
+};
+
+export type ConvitePendente = {
+    email_mascarado: string;
+    tipo: TipoConvite;
+    expira_em: string;
+};
+
+export type NotaResumo = { slug: string; nome: string; nota: number | null };
+
+export type AlunoAcompanhado = {
+    id: number;
+    apelido: string;
+    serie: Serie;
+    idade: number;
+    status: StatusAluno;
+    teto_zoeira_responsavel: Zoeira;
+    responsaveis: ResponsavelDoAluno[];
+    convites_pendentes: ConvitePendente[];
+    /** Resumo por matéria; opcional, fora do contrato original. */
+    notas?: NotaResumo[];
+};
+
+export type ConviteDados = {
+    aluno: { apelido: string; serie: Serie };
+    email: string;
+    tipo: TipoConvite;
+    parentesco: Parentesco;
+    parentesco_outro: string | null;
+    expira_em: string;
+};
+
+export type ResponsavelDoAlunoConta = Omit<ResponsavelDoAluno, 'sou_eu'>;
+export type ConviteDoAluno = {
+    id: number;
+    email_mascarado: string;
+    parentesco: Parentesco;
+    expira_em: string;
 };

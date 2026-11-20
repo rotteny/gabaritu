@@ -1,0 +1,18 @@
+{
+    "component": "aluno/AguardandoResponsavel",
+    "aluno": {
+        "status": "aguardando_responsavel",
+        "idade": 15
+    },
+    "props": {
+        "email_responsavel_mascarado": "m***a@gmail.com",
+        "convite_expira_em": null,
+        "recusado": true,
+        "reenvios_restantes": 3,
+        "fala": {
+            "texto": "Foi mal, essa onda não foi. Fala com ele e tenta de novo.",
+            "humor": "neutro",
+            "variacao_id": 2
+        }
+    }
+}

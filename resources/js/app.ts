@@ -2,6 +2,7 @@ import { createInertiaApp } from '@inertiajs/vue3';
 import { initializeTheme } from '@/composables/useAppearance';
 import AlunoLayout from '@/layouts/AlunoLayout.vue';
 import AuthLayout from '@/layouts/AuthLayout.vue';
+import ResponsavelLayout from '@/layouts/ResponsavelLayout.vue';
 import QuestaoLayout from '@/layouts/QuestaoLayout.vue';
 import { initializeFlashToast } from '@/lib/flashToast';
 import { instalarDestravamento } from '@/lib/motorSom';
@@ -21,6 +22,8 @@ void createInertiaApp({
                 return null;
             case name === 'Questao':
                 return QuestaoLayout;
+            case name.startsWith('responsavel/'):
+                return ResponsavelLayout;
             case name.startsWith('auth/'):
                 return AuthLayout;
             default:

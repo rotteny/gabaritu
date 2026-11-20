@@ -1,0 +1,139 @@
+{
+    "component": "responsavel/Aluno",
+    "usuario": {
+        "id": 9,
+        "tipo": "responsavel",
+        "nome": "Maria Silva",
+        "email": "maria.silva@gmail.com"
+    },
+    "props": {
+        "aluno": {
+            "id": 1,
+            "apelido": "Estudante",
+            "serie": "2em",
+            "idade": 16,
+            "status": "ativo",
+            "teto_zoeira_responsavel": "sarc",
+            "responsaveis": [
+                {
+                    "nome": "Maria Silva",
+                    "parentesco": "mae",
+                    "email_mascarado": "m***a@gmail.com",
+                    "sou_eu": true
+                },
+                {
+                    "nome": "João Silva",
+                    "parentesco": "pai",
+                    "email_mascarado": "j***o@gmail.com",
+                    "sou_eu": false
+                }
+            ],
+            "convites_pendentes": [
+                {
+                    "email_mascarado": "a***a@gmail.com",
+                    "tipo": "coresponsavel_aluno",
+                    "expira_em": "2026-11-26T20:00:00-03:00"
+                }
+            ],
+            "notas": [
+                {
+                    "slug": "matematica",
+                    "nome": "Matemática",
+                    "nota": 612.4
+                },
+                {
+                    "slug": "biologia",
+                    "nome": "Biologia",
+                    "nota": 701.0
+                },
+                {
+                    "slug": "historia",
+                    "nome": "História",
+                    "nota": null
+                }
+            ]
+        },
+        "materias": [
+            {
+                "slug": "matematica",
+                "nome": "Matemática",
+                "nota": 560,
+                "amostra_baixa": false,
+                "evolucao": [
+                    {
+                        "data": "2026-11-10",
+                        "nota": 480
+                    },
+                    {
+                        "data": "2026-11-12",
+                        "nota": 500
+                    },
+                    {
+                        "data": "2026-11-14",
+                        "nota": 490
+                    },
+                    {
+                        "data": "2026-11-16",
+                        "nota": 530
+                    },
+                    {
+                        "data": "2026-11-18",
+                        "nota": 560
+                    }
+                ],
+                "diagnostico": [
+                    {
+                        "etiqueta": "conceito",
+                        "nome": "confundir conceitos",
+                        "percentual": 60
+                    },
+                    {
+                        "etiqueta": "conta",
+                        "nome": "erro de conta",
+                        "percentual": 30
+                    }
+                ],
+                "assuntos": [
+                    {
+                        "slug": "porcentagem",
+                        "nome": "Porcentagem",
+                        "nota": 580,
+                        "amostra_baixa": true,
+                        "evolucao": [
+                            {
+                                "data": "2026-11-10",
+                                "nota": 480
+                            },
+                            {
+                                "data": "2026-11-12",
+                                "nota": 500
+                            },
+                            {
+                                "data": "2026-11-14",
+                                "nota": 490
+                            }
+                        ],
+                        "diagnostico": []
+                    },
+                    {
+                        "slug": "geometria",
+                        "nome": "Geometria",
+                        "nota": null,
+                        "amostra_baixa": false,
+                        "evolucao": [],
+                        "diagnostico": []
+                    }
+                ]
+            },
+            {
+                "slug": "biologia",
+                "nome": "Biologia",
+                "nota": null,
+                "amostra_baixa": false,
+                "evolucao": [],
+                "diagnostico": [],
+                "assuntos": []
+            }
+        ]
+    }
+}
