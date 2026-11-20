@@ -54,6 +54,7 @@ CMD ["php-fpm"]
 
 FROM nginx:${NGINX_VERSION}-alpine AS web
 RUN rm -f /etc/nginx/conf.d/default.conf
+COPY infra/producao/nginx/log-mascarado.conf /etc/nginx/conf.d/log-mascarado.conf
 COPY infra/producao/nginx/web.conf /etc/nginx/conf.d/web.conf
 COPY --from=app /var/www/html/public /var/www/html/public
 EXPOSE 80

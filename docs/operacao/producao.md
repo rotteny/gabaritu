@@ -6,12 +6,13 @@ Ambiente: `https://gabaritu.gorilash.com.br`. Servidor: `45.178.177.3` (usuário
 
 ## Como é montado
 
-Projeto compose isolado `gabaritu` (`infra/producao/compose.yaml`), sem Redis (sessão, cache e fila em banco) e sem worker/scheduler (nada roda em fila com o cadastro fechado; ao abrir, adicionar `queue:work` e `schedule:work`).
+Projeto compose isolado `gabaritu` (`infra/producao/compose.yaml`), sem Redis (sessão, cache e fila em banco), sem worker (nada roda em fila com o cadastro fechado; ao abrir, adicionar `queue:work`) e com `scheduler` (`schedule:work`).
 
 | Serviço        | Imagem                       | Função                                                                                      |
 | -------------- | ---------------------------- | ------------------------------------------------------------------------------------------- |
 | `db`           | `postgres:18.6-trixie`       | banco próprio (`gabaritu`), volume `pgdata`, 384 MB                                         |
 | `app`          | `gabaritu-app` (PHP 8.4 FPM) | php-fpm, 256 MB                                                                             |
+| `scheduler`    | `gabaritu-app` (mesma imagem e `.env`) | `php artisan schedule:work`, 128 MB; roda `gabaritu:limpar-pendentes` |
 | `gabaritu-web` | `gabaritu-web` (nginx)       | serve `public/` e fala FastCGI com o `app`; alias `gabaritu-web` na rede `laradock_backend` |
 
 - Borda: o nginx do Laradock termina o TLS e faz proxy para `gabaritu-web` (vhost `/app/laradock/nginx/sites/gabaritu.conf`, fonte em `infra/producao/nginx/edge/`). Cabeçalhos de segurança ficam lá.
@@ -104,7 +105,19 @@ scripts/producao-compose.sh up -d
 
 ## Abrir o cadastro (depois da revisão de segurança)
 
-Trocar `GABARITU_CADASTRO_ABERTO=true` no `.env` do servidor, escolher o serviço de e-mail transacional (`MAIL_MAILER`), subir `queue:work`/`schedule:work` e rodar um deploy (o container relê o `.env` ao recriar).
+Trocar `GABARITU_CADASTRO_ABERTO=true` no `.env` do servidor, escolher o serviço de e-mail transacional (`MAIL_MAILER`), subir `queue:work` e rodar um deploy (o container relê o `.env` ao recriar).
 
 ## Agendador (scheduler)
-O comando `gabaritu:limpar-pendentes` (diário, 03:30 de Brasília) apaga alunos pendentes há mais de 30 dias (com aviso 3 dias antes), convites vencidos e responsáveis sem aluno há 30 dias. Ele só roda se o scheduler estiver de pé, e **a produção hoje não tem scheduler**: é preciso subir `php artisan schedule:work` (processo no container) ou um cron a cada minuto com `php artisan schedule:run`. Pendência de deploy; este repositório não mexe no servidor.
+
+Serviço `scheduler` no compose (`php artisan schedule:work`, `restart: unless-stopped`, mesma imagem e `.env` do `app`). Sobe no primeiro deploy da branch que traz o comando `gabaritu:limpar-pendentes` (diário, 03:30 de Brasília): apaga alunos pendentes há mais de 30 dias (aviso 3 dias antes), convites vencidos e responsáveis sem aluno há 30 dias. Conferir depois do deploy: `scripts/producao-compose.sh ps scheduler` e `logs --tail 20 scheduler`.
+
+## Logs sem token, retenção e CSP
+
+A borda é o nginx do Laradock (não há Apache/cPanel na frente deste site).
+
+- **Máscara:** `infra/producao/nginx/log-mascarado.conf` (`map` sobre `$request_uri` + `log_format gabaritu_mascarado`). Troca por `[oculto]` o token de `/responsavel/convite/`, `/redefinir-senha/` e `/responsavel/redefinir-senha/`, e os valores de `?convite=` e `email=`; o Referer sai como `-`. Na borda é instalado como `/app/laradock/nginx/sites/gabaritu-log.conf` pelo `scripts/producao-edge.sh https`; no nginx do container `gabaritu-web` entra pela imagem (`conf.d/`), no próximo deploy. Exemplo de linha (dados fictícios):
+  `IP - - [20/Nov/2026:02:38:11 +0000] "GET /responsavel/convite/[oculto]?convite=[oculto]&email=[oculto] HTTP/2.0" 404 6778 "-" "curl/8.5.0"`
+- **Limite:** o `error.log` do nginx pode registrar a URI crua em erros de upstream; não dá para mascarar. Fica só a retenção curta.
+- **Retenção de 14 dias:** o logrotate do container nginx da borda rotaciona todo dia (`rotate 32`, regra de todos os sites). Para o Gabaritu, `scripts/producao-edge.sh logs` instala `/etc/cron.d/gabaritu-logs-retencao`, que apaga `gabaritu-*.log.*` com mais de 14 dias (acesso e erro). Logs do Docker: `max-size: 5m`, `max-file: 14` em todos os serviços do compose (teto por tamanho, o `json-file` não rotaciona por idade).
+- **CSP:** header `Content-Security-Policy-Report-Only` no vhost de borda (`gabaritu.https.conf`): tudo `'self'` (Vite build e fontes Titan One/Nunito, que o plugin Bunny baixa e serve de `/build/assets`), `style-src` com `'unsafe-inline'` (o `<style>` das fontes e `style=` do Vue), `img-src` com `data:`, `frame-ancestors 'none'`. Checado em produção com Chromium headless: `/`, `/quem-somos` e `/privacidade` sem nenhuma mensagem de console. Para impor, trocar o nome do header por `Content-Security-Policy` e rodar `scripts/producao-edge.sh https`, depois de varrer as telas novas (responsável, aluno logado) com o cadastro aberto em local.
+- **Aplicado no servidor em 19/11/2026:** vhost de borda (máscara + CSP) e o cron de retenção. Backup do vhost anterior: `/app/laradock/gabaritu.conf.bak-<data>`. Pendentes do deploy: scheduler, máscara no nginx do container e `logging` do compose.
