@@ -2,7 +2,8 @@
 import { Link, usePage } from '@inertiajs/vue3';
 import { computed } from 'vue';
 import FundoAquario from '@/components/aluno/FundoAquario.vue';
-import AvatarAluno from '@/components/aluno/AvatarAluno.vue';
+import { AVATAR_PADRAO } from '@/data/avatares';
+import TrocarAvatar from '@/components/aluno/TrocarAvatar.vue';
 import BotaoSair from '@/components/aluno/BotaoSair.vue';
 import LinhaCredito from '@/components/LinhaCredito.vue';
 import MarcaGabaritu from '@/components/MarcaGabaritu.vue';
@@ -74,24 +75,24 @@ const ativo = (href: string) =>
                     <Link :href="rotas.entrar">Entrar</Link>
                 </nav>
                 <BotaoSom />
-                <Link
-                    v-if="aluno?.avatar"
-                    :href="rotas.conta"
-                    class="gb-nav-avatar"
-                    :aria-label="`Sua conta (${aluno.apelido})`"
-                >
-                    <AvatarAluno
-                        :slug="aluno.avatar"
-                        :tamanho="32"
-                        decorativo
-                    />
-                </Link>
+                <div v-if="aluno" class="gb-conta-topo">
+                    <TrocarAvatar :atual="aluno.avatar ?? AVATAR_PADRAO" />
+                    <Link
+                        :href="rotas.conta"
+                        class="gb-nav-apelido"
+                        :title="aluno.apelido"
+                    >
+                        {{ aluno.apelido }}
+                    </Link>
+                </div>
                 <BotaoSair v-if="aluno" compacto />
             </div>
         </header>
         <main id="conteudo" class="gb-pagina">
             <slot />
         </main>
-        <LinhaCredito :repositorio-url="repositorioUrl" />
+        <footer class="gb-rodape">
+            <LinhaCredito :repositorio-url="repositorioUrl" />
+        </footer>
     </div>
 </template>

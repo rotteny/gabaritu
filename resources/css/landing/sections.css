@@ -347,6 +347,8 @@
 }
 
 .l-footer {
+    position: relative;
+    z-index: 2;
     padding-block: 36px 28px;
     background: var(--sand);
     border-top: var(--line) solid var(--ink);

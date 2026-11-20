@@ -20,11 +20,11 @@ const salvar = () => form.patch(rotas.contaPerfil, { preserveScroll: true });
         aria-labelledby="avatar-titulo"
         @submit.prevent="salvar"
     >
-        <h2 id="avatar-titulo" class="gb-subtitulo">Seu bicho</h2>
+        <h2 id="avatar-titulo" class="gb-subtitulo">Seu avatar</h2>
         <EscolhaAvatar
             v-model="form.avatar"
             :avatares="avatares"
-            legenda="Escolha o bicho que representa você"
+            legenda="Escolha o avatar que representa você"
             :erro="form.errors.avatar"
         />
         <p
@@ -32,14 +32,14 @@ const salvar = () => form.patch(rotas.contaPerfil, { preserveScroll: true });
             class="gb-aviso gb-aviso--erro"
             role="alert"
         >
-            Não deu para trocar o bicho. Tente de novo.
+            Não deu para trocar o avatar. Tente de novo.
         </p>
         <p
             v-if="form.recentlySuccessful"
             class="gb-aviso gb-aviso--ok"
             role="status"
         >
-            Bicho trocado.
+            Avatar trocado.
         </p>
         <div class="gb-acoes">
             <button
@@ -47,7 +47,7 @@ const salvar = () => form.patch(rotas.contaPerfil, { preserveScroll: true });
                 class="l-btn l-btn--orange"
                 :disabled="form.processing || !form.avatar"
             >
-                Salvar o bicho
+                Salvar o avatar
             </button>
         </div>
     </form>

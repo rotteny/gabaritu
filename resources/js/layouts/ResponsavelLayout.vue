@@ -69,6 +69,8 @@ const ativo = (href: string) =>
         >
             <slot />
         </main>
-        <LinhaCredito :repositorio-url="repositorioUrl" />
+        <footer class="gb-rodape">
+            <LinhaCredito :repositorio-url="repositorioUrl" />
+        </footer>
     </div>
 </template>

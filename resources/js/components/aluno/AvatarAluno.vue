@@ -6,7 +6,7 @@ const props = withDefaults(
     defineProps<{
         slug?: string | null;
         tamanho?: number;
-        /** Quando o nome do bicho já está escrito ao lado, o avatar é só decorativo. */
+        /** Quando o nome do avatar já está escrito ao lado, o avatar é só decorativo. */
         decorativo?: boolean;
     }>(),
     { slug: null, tamanho: 48, decorativo: false },

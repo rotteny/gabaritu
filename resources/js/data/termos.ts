@@ -26,7 +26,7 @@ export const SECOES_TERMOS: SecaoLegal[] = [
             'Cuidar da própria senha e não usar a conta de outra pessoa.',
             'Saber quem o acompanha: a página Conta mostra os seus responsáveis e o que eles veem.',
             'Pedir a inclusão de outro responsável pela página Conta.',
-            'Escolher o seu avatar, um bicho marinho de uma lista pronta (não há upload de foto).',
+            'Escolher o seu avatar, um animal marinho de uma lista pronta (não há upload de foto).',
             'Com 18 anos ou mais, encerrar o acompanhamento pela página Conta.',
             'Apagar a própria conta quando quiser.',
         ],

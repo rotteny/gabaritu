@@ -49,7 +49,9 @@ const repositorioUrl = computed(
                 <p v-if="description" class="gb-texto">{{ description }}</p>
                 <slot />
             </section>
-            <LinhaCredito :repositorio-url="repositorioUrl" />
         </main>
+        <footer class="gb-rodape">
+            <LinhaCredito :repositorio-url="repositorioUrl" />
+        </footer>
     </div>
 </template>

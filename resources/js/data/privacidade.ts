@@ -26,7 +26,7 @@ export const SECOES_PRIVACIDADE: SecaoLegal[] = [
             ['Série', 'pra organizar o seu estudo.'],
             [
                 'Avatar',
-                'um bicho marinho que você escolhe de uma lista pronta. Não existe upload de foto: não guardamos imagem de ninguém.',
+                'um animal marinho que você escolhe de uma lista pronta. Não existe upload de foto: não guardamos imagem de ninguém.',
             ],
             ['E-mail', 'pra você entrar e recuperar a senha.'],
             [

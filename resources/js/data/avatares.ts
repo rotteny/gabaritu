@@ -1,4 +1,4 @@
-/** Bichos marinhos para o avatar do aluno. SVGs em public/avatares/{slug}.svg (e PNG 2x em public/email/avatares). */
+/** Avatares de animais marinhos do aluno. SVGs em public/avatares/{slug}.svg (e PNG 2x em public/email/avatares). */
 export const AVATARES = [
     { slug: 'peixe-palhaco', nome: 'Peixe-palhaço' },
     { slug: 'caranguejo', nome: 'Caranguejo' },
@@ -17,4 +17,5 @@ export const AVATARES = [
 export type AvatarSlug = (typeof AVATARES)[number]['slug'];
 
 export const nomeDoAvatar = (slug: string): string =>
-    AVATARES.find((a) => a.slug === slug)?.nome ?? 'Bicho marinho';
+    AVATARES.find((a) => a.slug === slug)?.nome ?? 'Avatar';
+export const AVATAR_PADRAO: AvatarSlug = 'peixe-palhaco';
