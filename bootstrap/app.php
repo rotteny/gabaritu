@@ -57,6 +57,9 @@ return Application::configure(basePath: dirname(__DIR__))
         ]);
     })
     ->withExceptions(function (Exceptions $exceptions): void {
+        // Nada digitado em senha ou código volta para a sessão (`_old_input`) quando a validação falha.
+        $exceptions->dontFlash(['senha', 'senha_confirmation', 'codigo', 'recuperacao', 'password', 'password_confirmation', 'current_password']);
+
         $exceptions->shouldRenderJsonWhen(
             fn (Request $request) => $request->is('api/*') || $request->expectsJson(),
         );

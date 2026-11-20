@@ -4,7 +4,7 @@ namespace App\Domain\Admin;
 
 use Illuminate\Support\Facades\DB;
 
-/** CSV só com números agregados: nunca e-mail, apelido nem id de aluno. Texto que começaria com =, +, - ou @ ganha aspa simples (injeção em planilha). */
+/** CSV só com números agregados: nunca e-mail, apelido nem id de aluno. Texto que começaria com =, +, -, @, tab ou retorno de carro ganha aspa simples (injeção em planilha). */
 class ExportadorDeCsv
 {
     /** @var list<string> */
@@ -26,7 +26,7 @@ class ExportadorDeCsv
 
     public static function proteger(mixed $valor): mixed
     {
-        return is_string($valor) && $valor !== '' && str_contains('=+-@', $valor[0]) ? "'".$valor : $valor;
+        return is_string($valor) && $valor !== '' && str_contains("=+-@\t\r", $valor[0]) ? "'".$valor : $valor;
     }
 
     /** @return array{cabecalho: list<string>, linhas: iterable<list<scalar|null>>} */

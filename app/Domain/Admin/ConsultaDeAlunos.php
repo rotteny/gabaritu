@@ -127,12 +127,12 @@ class ConsultaDeAlunos
     }
 
     /** @param  Builder<User>  $consulta */
-    private function buscar(Builder $consulta, string $termo): void
+    private function buscar(Builder $consulta, string $busca): void
     {
-        $termo = BuscaDeTexto::escapar($termo);
+        $termo = BuscaDeTexto::escapar($busca);
         $consulta->where(fn (Builder $q) => $q
             ->whereRaw('lower(users.apelido) like ?', ["%{$termo}%"])
-            ->orWhereRaw('lower(users.email) like ?', ["{$termo}%"]));
+            ->orWhereRaw('lower(users.email) = ?', [mb_strtolower(trim($busca))]));
     }
 
     /** @param  Builder<User>  $consulta */

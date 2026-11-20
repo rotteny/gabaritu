@@ -57,7 +57,7 @@ class AlunosController extends Controller
         return [
             'url' => route($rota, $alvo, absolute: false),
             'exige_codigo' => ! (new EstadoDaSessao($request->session()))->reconfirmadoRecentemente(),
-            'email' => $request->session()->get(RevelarEmailController::FLASH_EMAIL),
+            'email' => RevelarEmailController::emailRevelado($request, $alvo),
         ];
     }
 }

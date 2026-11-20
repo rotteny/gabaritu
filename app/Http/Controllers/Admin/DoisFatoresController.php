@@ -100,7 +100,9 @@ class DoisFatoresController extends Controller
     private function concluirLogin(Request $request, Admin $admin, AcaoDeAuditoria $acao): void
     {
         $request->session()->regenerate();
-        (new EstadoDaSessao($request->session()))->marcarDoisFatoresCumprido();
+        $estado = new EstadoDaSessao($request->session());
+        $estado->atualizarAssinatura($admin->refresh());
+        $estado->marcarDoisFatoresCumprido();
         $admin->forceFill(['ultimo_login_em' => now()])->save();
         $this->auditoria->registrar($admin, $acao);
     }

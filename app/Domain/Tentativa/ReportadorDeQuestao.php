@@ -23,10 +23,18 @@ class ReportadorDeQuestao
             return ResultadoDoReport::NaoRespondeu;
         }
 
-        if ($this->reportsDeHoje($aluno) >= self::LIMITE_POR_DIA) {
-            return ResultadoDoReport::LimiteDiario;
-        }
+        // A linha do aluno fica travada: duas requisições simultâneas não passam juntas pelo limite diário.
+        return DB::transaction(function () use ($aluno, $questao, $motivo, $comentario): ResultadoDoReport {
+            User::query()->whereKey($aluno->id)->lockForUpdate()->first();
 
+            return $this->reportsDeHoje($aluno) >= self::LIMITE_POR_DIA
+                ? ResultadoDoReport::LimiteDiario
+                : $this->gravar($aluno, $questao, $motivo, $comentario);
+        });
+    }
+
+    private function gravar(User $aluno, Questao $questao, MotivoDoReport $motivo, ?string $comentario): ResultadoDoReport
+    {
         $gravou = ReportQuestao::query()->insertOrIgnore([
             'questao_id' => $questao->id,
             'user_id' => $aluno->id,

@@ -17,7 +17,7 @@ class ConsultaDeResponsaveis
     public function listar(?string $busca): LengthAwarePaginator
     {
         return $this->comResumo()
-            ->when(filled($busca), fn (Builder $q) => $q->whereRaw('lower(users.email) like ?', [BuscaDeTexto::escapar((string) $busca).'%']))
+            ->when(filled($busca), fn (Builder $q) => $q->whereRaw('lower(users.email) = ?', [mb_strtolower(trim((string) $busca))]))
             ->orderByDesc('users.created_at')->orderByDesc('users.id')
             ->paginate((int) config('gabaritu.admin.por_pagina'))->withQueryString();
     }

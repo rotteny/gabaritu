@@ -20,11 +20,11 @@ Fonte única entre o `ESCANOR` (backend) e a `BULMA` (páginas). Decisões do do
    - **Cards:** total de alunos (por status), responsáveis, cadastros hoje, 7 dias e 30 dias, alunos ativos hoje e em 7 dias, respostas hoje.
    - **Gráficos:** cadastros por dia (30, 90 dias ou tudo), ativos, logins e respostas por dia, e o funil cadastro → responsável autorizou (só para menor de 18) → primeira resposta → voltou em outro dia.
 2. **Alunos:**
-   - **Busca:** por apelido ou e-mail exato/prefixo, com filtros de status, série e "tem responsável".
+   - **Busca:** por apelido (prefixo) ou e-mail EXATO (nunca por prefixo, para não reconstruir o endereço sem "revelar"), com filtros de status, série e "tem responsável".
    - **Lista:** apelido, e-mail mascarado, série, idade, status, cadastro, última atividade (data, sem hora) e nº de respostas.
    - **Ficha:** os mesmos dados, mais responsáveis vinculados (e-mail mascarado e parentesco), pedidos e convites pendentes, desempenho resumido por matéria e o botão "revelar e-mail".
 3. **Responsáveis:**
-   - **Busca:** por e-mail.
+   - **Busca:** por e-mail exato.
    - **Lista:** e-mail mascarado, nº de alunos vinculados, convites pendentes e cadastro.
    - **Ficha:** os alunos vinculados, só pelo apelido, e o botão de revelar.
 4. **Questões:**
@@ -129,7 +129,7 @@ type AlunoLinha = {
   status: string; cadastro: string; ultima_atividade: string | null; respostas: number; tem_responsavel: boolean; url: string
 }
 ```
-Busca: apelido (contém) ou e-mail (prefixo/exato). 25 por página.
+Busca: apelido (contém) ou e-mail exato (inteiro, sem diferenciar maiúsculas). 25 por página.
 
 ### `admin/Aluno` (abrir a ficha grava auditoria)
 ```ts
@@ -143,7 +143,7 @@ Busca: apelido (contém) ou e-mail (prefixo/exato). 25 por página.
 ```
 **Revelar e-mail:** POST `revelar.url` `{ motivo: string /* 5 a 200 */; codigo?: string }`. `codigo` (TOTP de 6 dígitos) é obrigatório quando `exige_codigo` for `true` (reconfirmação vencida, 15 min). Erros em `errors.motivo` / `errors.codigo`. Sucesso redireciona para a mesma ficha, com `revelar.email` preenchido **só nessa visita** (flash): mostrar e, se quiser, limpar da tela depois de alguns segundos.
 
-### `admin/Responsaveis` (GET `?busca=&page=`; busca por prefixo do e-mail)
+### `admin/Responsaveis` (GET `?busca=&page=`; busca pelo e-mail exato)
 ```ts
 { filtros: { busca: string | null }; responsaveis: Paginado<{ id: number; email_mascarado: string; alunos_vinculados: number; convites_pendentes: number; cadastro: string; url: string }> }
 ```
@@ -271,3 +271,14 @@ type FalaRank = { id: number; texto: string; nivel: string; chave: string; votos
 
 ### Aluno (site): reportar erro
 Ver `docs/contrato-paginas.md`, resposta de `POST /tentativas/{t}/respostas` (`report`) e `POST /questoes/{questao}/reports`.
+
+## Revisão de segurança (`NEZUKO`): decisões e riscos aceitos
+
+- **Novo login limpa o 2FA da sessão:** `EstadoDaSessao::iniciar()` apaga `dois_fatores_em` e `reconfirmado_em`; entrar como B depois de A sempre cai em `/dois-fatores`.
+- **Assinatura da sessão:** o HMAC cobre a senha e o `confirmado_em` do 2FA; `senha` e `2fa-reset` derrubam as sessões abertas.
+- **Senha e códigos nunca vão para a sessão:** `dontFlash` em `bootstrap/app.php`; `SESSION_ENCRYPT=true` no template de produção.
+- **Auditoria imutável no banco:** trigger `admin_auditoria_imutavel` (única mudança permitida: `admin_id` virar null quando o admin é apagado).
+- **CSV:** células iniciadas por `= + - @`, tab ou retorno de carro ganham apóstrofo.
+- **E-mail revelado:** o flash carrega `id` e `tipo` do alvo e só aparece na ficha correspondente.
+- **Limite de 20 reports/dia:** contagem e gravação sob `lockForUpdate` na linha do aluno.
+- **Risco aceito, bloqueio de login por e-mail:** o limite de 5 tentativas/min por e-mail permite que um terceiro segure o login de um admin conhecido (DoS de bloqueio). Aceito: são poucos admins, o bloqueio dura 1 minuto, e a alternativa (sem limite por e-mail) facilita força bruta.

@@ -27,6 +27,6 @@ function comoAdmin(Admin $admin, bool $reconfirmado = true): void
         'admin.atividade_em' => $agora,
         'admin.dois_fatores_em' => $agora,
         'admin.reconfirmado_em' => $reconfirmado ? $agora : $agora - 3600,
-        'admin.assinatura_da_senha' => hash_hmac('sha256', $admin->getAuthPassword(), (string) config('app.key')),
+        'admin.assinatura_da_senha' => hash_hmac('sha256', $admin->getAuthPassword().'|'.($admin->confirmado_em?->getTimestamp() ?? 0), (string) config('app.key')),
     ]);
 }

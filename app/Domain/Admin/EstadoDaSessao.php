@@ -18,10 +18,18 @@ class EstadoDaSessao
 
     public function __construct(private readonly Session $sessao) {}
 
+    /** Começa a sessão de um login novo: nada do 2FA de um login anterior (outro admin, inclusive) sobrevive. */
     public function iniciar(Admin $admin): void
     {
+        $this->sessao->forget([self::DOIS_FATORES, self::RECONFIRMADO]);
         $this->sessao->put(self::ASSINATURA_DA_SENHA, $this->assinaturaDaSenha($admin));
         $this->registrarAtividade();
+    }
+
+    /** Depois de confirmar o 2FA (que muda `confirmado_em`), a própria sessão passa a valer com a nova assinatura. */
+    public function atualizarAssinatura(Admin $admin): void
+    {
+        $this->sessao->put(self::ASSINATURA_DA_SENHA, $this->assinaturaDaSenha($admin));
     }
 
     public function registrarAtividade(): void
@@ -37,7 +45,7 @@ class EstadoDaSessao
         return ! is_int($ultima) || now()->getTimestamp() - $ultima > $limite;
     }
 
-    /** A senha mudou (comando `senha`) depois que esta sessão começou: a sessão cai. */
+    /** A senha mudou ou o 2FA foi reiniciado/refeito (comandos `senha` e `2fa-reset`) depois que esta sessão começou: a sessão cai. */
     public function senhaMudou(Admin $admin): bool
     {
         return ! hash_equals((string) $this->sessao->get(self::ASSINATURA_DA_SENHA), $this->assinaturaDaSenha($admin));
@@ -68,6 +76,8 @@ class EstadoDaSessao
 
     private function assinaturaDaSenha(Admin $admin): string
     {
-        return hash_hmac('sha256', $admin->getAuthPassword(), (string) config('app.key'));
+        $versaoDoDoisFatores = $admin->confirmado_em?->getTimestamp() ?? 0;
+
+        return hash_hmac('sha256', $admin->getAuthPassword().'|'.$versaoDoDoisFatores, (string) config('app.key'));
     }
 }

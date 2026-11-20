@@ -41,7 +41,7 @@ class ResponsaveisController extends Controller
             'revelar' => [
                 'url' => route('admin.responsaveis.revelar-email', $registro, absolute: false),
                 'exige_codigo' => ! (new EstadoDaSessao($request->session()))->reconfirmadoRecentemente(),
-                'email' => $request->session()->get(RevelarEmailController::FLASH_EMAIL),
+                'email' => RevelarEmailController::emailRevelado($request, $registro),
             ],
         ]);
     }

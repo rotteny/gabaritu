@@ -52,7 +52,7 @@ it('filtra alunos por busca, status e tem responsável', function () {
     $apelidos = fn (array $q) => collect($this->get('/admin/alunos?'.http_build_query($q))->inertiaProps('alunos.dados'))->pluck('apelido')->sort()->values()->all();
 
     expect($apelidos(['busca' => 'zec']))->toBe(['Zeca'])
-        ->and($apelidos(['busca' => mb_substr($pendente->email, 0, 6)]))->toContain('Caio')
+        ->and($apelidos(['busca' => $pendente->email]))->toContain('Caio')
         ->and($apelidos(['status' => 'aguardando_responsavel']))->toBe(['Caio'])
         ->and($apelidos(['tem_responsavel' => 'sim']))->toBe(['Bia'])
         ->and($apelidos(['tem_responsavel' => 'nao']))->toBe(['Caio', 'Zeca'])

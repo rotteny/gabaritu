@@ -54,7 +54,7 @@ class RevelarEmailController extends Controller
 
         $this->auditoria->registrar($admin, AcaoDeAuditoria::RevelarEmail, $alvo, trim($dados['motivo']));
 
-        return redirect()->route($rotaDaFicha, $alvo)->with(self::FLASH_EMAIL, $alvo->email);
+        return redirect()->route($rotaDaFicha, $alvo)->with(self::FLASH_EMAIL, ['id' => $alvo->id, 'tipo' => $alvo->tipo, 'email' => $alvo->email]);
     }
 
     private function reconfirmar(Request $request, Admin $admin, EstadoDaSessao $estado, string $codigo): void
@@ -66,6 +66,16 @@ class RevelarEmailController extends Controller
         }
 
         $estado->reconfirmar();
+    }
+
+    /** O e-mail revelado só aparece na ficha do alvo para o qual foi revelado. */
+    public static function emailRevelado(Request $request, User $alvo): ?string
+    {
+        $revelado = $request->session()->get(self::FLASH_EMAIL);
+
+        return is_array($revelado) && ($revelado['id'] ?? null) === $alvo->id && ($revelado['tipo'] ?? null) === $alvo->tipo
+            ? (string) $revelado['email']
+            : null;
     }
 
     private function conta(int $id, TipoConta $tipo): User
