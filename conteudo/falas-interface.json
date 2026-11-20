@@ -522,5 +522,77 @@
       "Aviso: esta página não tem pegadinha. É o que guardamos e como apagar, em linguagem de gente!"
     ],
     "reserva": "Veja o que o Gabaritu guarda, por quê e como apagar."
+  },
+  "aguardando_responsavel": {
+    "fofo": [
+      "Quase lá! Falta só o seu responsável abrir o convite. Enquanto isso, eu cuido do aquário.",
+      "Seu responsável precisa autorizar antes de a gente começar. É a regra, e eu gosto de regra.",
+      "Enquanto espera, o Peixoto nada em círculos. Já fez uns quarenta. Está ficando tonto, mas feliz.",
+      "Seu responsável vai receber o convite por e-mail. Se não achar, olhe o spam, que o Peixoto jura que não foi ele.",
+      "Paciência! A autorização é rapidinha, e depois o aquário todo é seu."
+    ],
+    "sarc": [
+      "Falta a autorização do seu responsável. Eu sei, burocracia. Até o Valdir, o caramujo, tem papelada.",
+      "O convite está na caixa de entrada do seu responsável. Se ele sumiu, dá pra reenviar.",
+      "Esperar autorização é o único exercício que ninguém erra. Parabéns, você está gabaritando a paciência.",
+      "Dica do Peixoto: mande uma mensagem pro seu responsável. Convite por e-mail é lento, mãe no WhatsApp é instantâneo.",
+      "Ainda sem autorização. O tanque está pronto, mas a lei manda esperar. Peixe cumpre lei."
+    ],
+    "sem": [
+      "Sem autorização não tem estudo! Reenvie o convite e cobre o seu responsável!",
+      "Responsável na área? Ainda não! Corrija o e-mail ou reenvie o convite!",
+      "Autorização pendente! Sem ela, nem o Peixoto te deixa entrar!",
+      "Pede pro seu responsável olhar o e-mail! Urgente, mas com educação!",
+      "Corrigiu o e-mail certo? Então é só esperar a autorização chegar!"
+    ],
+    "reserva": "Sua conta espera a autorização de um responsável."
+  },
+  "responsavel": {
+    "fofo": [
+      "Aqui você acompanha quem está estudando e escolhe até onde vão as brincadeiras do Peixoto.",
+      "Obrigado por cuidar de quem estuda. O Peixoto agradece com uma bolhinha.",
+      "Você pode baixar o teto de zoeira quando quiser. O Peixoto aceita numa boa, só faz um biquinho.",
+      "Desempenho por matéria, só leitura. Nada de espiar o caderno, só os números.",
+      "Tudo que o aluno vê sobre você está na página Conta dele. Transparência vale pros dois lados."
+    ],
+    "sarc": [
+      "Painel do responsável. Aqui o Peixoto fica bonzinho e deixa você mandar nele. Aproveite.",
+      "Você vê o desempenho, define o teto de zoeira e pode revogar tudo. Poder demais pra um peixe só.",
+      "Aqui você manda. O Peixoto reclama baixinho, mas obedece.",
+      "Teto de zoeira baixo, aluno comportado. Em teoria.",
+      "Mais um responsável responsável. O Peixoto está impressionado, e olha que ele é difícil."
+    ],
+    "sem": [
+      "Painel do responsável! Desempenho, teto de zoeira e controle total, tudo na sua mão!",
+      "Você manda aqui! O Peixoto só obedece e reclama baixinho!",
+      "Você tem as chaves do aquário! Use com sabedoria!",
+      "Revogar, transferir, limitar: tudo aqui, tudo claro!",
+      "Painel completo! Alunos, notas e teto de zoeira!"
+    ],
+    "reserva": "Painel do responsável: acompanhe os alunos e defina o teto de zoeira."
+  },
+  "termos": {
+    "fofo": [
+      "Estes são os combinados do Gabaritu. Curtinhos, claros e sem pegadinha, prometo.",
+      "Termos de uso em português de gente. O Peixoto revisou e aprovou.",
+      "Combinados claros fazem bons aquários. Leia com calma e tire dúvidas.",
+      "Aqui está o que o Gabaritu promete, o que pede de você e como tudo termina.",
+      "Termos curtinhos, escritos em português de gente."
+    ],
+    "sarc": [
+      "Sim, é uma página de termos. Sim, ela é curta. O Peixoto se orgulha disso.",
+      "Leia com calma: o serviço, a regra do responsável e como encerrar tudo.",
+      "Termos de uso: o único texto que o Peixoto escreveu inteiro sem fazer piada. Quase.",
+      "Leia os termos. Ou não. Mas se der problema, eu avisei.",
+      "Sim, tem a regra do responsável. Sim, é lei. Não, não foi ideia minha."
+    ],
+    "sem": [
+      "Termos sem enrolação! O que é o serviço, o que se espera de você e como sair!",
+      "Combinados claros, sem letra miúda! Leia aqui!",
+      "Termos sem enrolação! Leia antes de aceitar!",
+      "Regras claras! O serviço, a conduta e como sair!",
+      "Nada escondido! Está tudo aqui, na cara!"
+    ],
+    "reserva": "Termos de uso do Gabaritu."
   }
 }

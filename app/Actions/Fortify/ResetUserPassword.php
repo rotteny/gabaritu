@@ -4,9 +4,11 @@ namespace App\Actions\Fortify;
 
 use App\Concerns\PasswordValidationRules;
 use App\Models\User;
+use Illuminate\Auth\Passwords\PasswordBroker;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Str;
+use Illuminate\Validation\ValidationException;
 use Laravel\Fortify\Contracts\ResetsUserPasswords;
 
 class ResetUserPassword implements ResetsUserPasswords
@@ -20,6 +22,10 @@ class ResetUserPassword implements ResetsUserPasswords
      */
     public function reset(User $user, array $input): void
     {
+        if ($user->ehResponsavel()) {
+            throw ValidationException::withMessages(['email' => trans(PasswordBroker::INVALID_TOKEN)]);
+        }
+
         Validator::make([
             'senha' => $input['password'] ?? null,
             'senha_confirmation' => $input['password_confirmation'] ?? null,

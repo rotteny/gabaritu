@@ -29,10 +29,14 @@ trait ProfileValidationRules
         return ['required', Rule::enum(Serie::class)];
     }
 
-    /** @return array<int, Unique|string> */
+    /** @return array<int, \Closure|Unique|string> */
     protected function emailRules(): array
     {
-        return ['required', 'string', 'email', 'max:255', Rule::unique(User::class)];
+        return ['required', 'string', 'email', 'max:255', Rule::unique(User::class), function (string $atributo, mixed $valor, \Closure $falhar): void {
+            if (is_string($valor) && User::query()->whereRaw('lower(email) = ?', [mb_strtolower(trim($valor))])->exists()) {
+                $falhar(__('validation.unique', ['attribute' => $atributo]));
+            }
+        }];
     }
 
     /** @return array<int, \Closure|ValidationRule|string> */

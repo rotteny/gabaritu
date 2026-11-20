@@ -105,3 +105,6 @@ scripts/producao-compose.sh up -d
 ## Abrir o cadastro (depois da revisão de segurança)
 
 Trocar `GABARITU_CADASTRO_ABERTO=true` no `.env` do servidor, escolher o serviço de e-mail transacional (`MAIL_MAILER`), subir `queue:work`/`schedule:work` e rodar um deploy (o container relê o `.env` ao recriar).
+
+## Agendador (scheduler)
+O comando `gabaritu:limpar-pendentes` (diário, 03:30 de Brasília) apaga alunos pendentes há mais de 30 dias (com aviso 3 dias antes), convites vencidos e responsáveis sem aluno há 30 dias. Ele só roda se o scheduler estiver de pé, e **a produção hoje não tem scheduler**: é preciso subir `php artisan schedule:work` (processo no container) ou um cron a cada minuto com `php artisan schedule:run`. Pendência de deploy; este repositório não mexe no servidor.
