@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Support\MetaCompartilhamento;
 use Carbon\CarbonImmutable;
 use Illuminate\Auth\Events\Login;
 use Illuminate\Cache\RateLimiting\Limit;
@@ -10,6 +11,7 @@ use Illuminate\Support\Facades\Date;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\RateLimiter;
+use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Validation\Rules\Password;
 
@@ -30,6 +32,11 @@ class AppServiceProvider extends ServiceProvider
     {
         $this->configureDefaults();
         $this->configureRateLimiting();
+
+        View::composer('app', fn ($view) => $view->with('meta', MetaCompartilhamento::para(
+            request()->route()?->getName(),
+            url()->current(),
+        )));
 
         Event::listen(Login::class, fn (Login $evento) => $evento->user->forceFill(['ultimo_acesso_em' => now()])->saveQuietly());
     }

@@ -49,12 +49,7 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-    <Head title="Gabaritu: estude pro ENEM com um baiacu">
-        <meta
-            name="description"
-            content="Plataforma gratuita e open source de estudo pro ENEM, pra quem tem 13 anos ou mais. Acertou, vira festa. Errou, o Peixoto zoa a resposta e explica o porquê."
-        />
-    </Head>
+    <Head title="Gabaritu: estude pro ENEM com um baiacu" />
     <div class="landing">
         <a href="#conteudo" class="l-skip">Pular para o conteúdo</a>
         <header class="l-header">
