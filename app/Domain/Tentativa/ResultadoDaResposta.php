@@ -11,7 +11,7 @@ final readonly class ResultadoDaResposta
         public bool $correta,
         public Alternativa $alternativaCorreta,
         public ?Alternativa $alternativaEscolhida,
-        public string $explicacao,
+        public ?string $explicacao,
         public Fala $fala,
         public bool $freioAtivo,
         public bool $chute,

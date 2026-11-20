@@ -12,6 +12,8 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 #[Unguarded]
 class Questionario extends Model
 {
+    public const string TIPO_INEP = 'inep';
+
     /** @return BelongsTo<Assunto, $this> */
     public function assunto(): BelongsTo
     {

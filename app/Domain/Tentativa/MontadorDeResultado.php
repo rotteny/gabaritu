@@ -6,7 +6,6 @@ use App\Domain\Desempenho\ServicoDeNota;
 use App\Domain\Falas\Fala;
 use App\Domain\Falas\FalaService;
 use App\Models\DesempenhoAssuntoHistorico;
-use App\Models\Questao;
 use App\Models\Questionario;
 use App\Models\Tentativa;
 use App\Models\User;
@@ -25,7 +24,7 @@ class MontadorDeResultado
     /** @return array<string, mixed> */
     public function montar(User $aluno, Tentativa $tentativa): array
     {
-        $validas = $tentativa->respostas()->whereHas('questao', fn ($q) => $q->where('status', Questao::STATUS_ATIVA));
+        $validas = $tentativa->respostas()->whereHas('questao', fn ($q) => $q->servivel());
         $total = (clone $validas)->count();
         $acertos = (clone $validas)->where('correta', true)->count();
 
@@ -122,6 +121,8 @@ class MontadorDeResultado
         $proximo = Questionario::query()
             ->where('assunto_id', $atual->assunto_id)
             ->where('ordem', '>', $atual->ordem)
+            ->where('tipo', $atual->tipo)
+            ->when($atual->tipo === Questionario::TIPO_INEP, fn ($q) => $q->whereHas('questoes', fn ($questoes) => $questoes->servivel()))
             ->orderBy('ordem')
             ->first();
 

@@ -24,7 +24,9 @@ class MateriaController extends Controller
         $aluno = $request->user();
         $aluno->update(['ultima_materia' => $materia->slug]);
 
-        $assuntos = $materia->assuntos()->with('questionarios')->get();
+        $assuntos = $materia->assuntos()->with(['questionarios' => fn ($q) => $q->where(
+            fn ($tipo) => $tipo->where('tipo', '!=', Questionario::TIPO_INEP)->orWhereHas('questoes', fn ($questoes) => $questoes->servivel()),
+        )])->get();
         $desempenhos = DesempenhoAssunto::query()->where('user_id', $aluno->id)
             ->whereIn('assunto_id', $assuntos->modelKeys())->get()->keyBy('assunto_id');
         $melhores = Tentativa::query()->where('user_id', $aluno->id)->whereNotNull('finalizada_em')

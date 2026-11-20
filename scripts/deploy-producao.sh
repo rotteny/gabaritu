@@ -15,6 +15,9 @@ KEEP_SHA_IMAGES=3
 PREDEPLOY_BACKUP_DIR="${PREDEPLOY_BACKUP_DIR:-$HOME/backups/gabaritu-predeploy}"
 KEEP_PREDEPLOY_DUMPS=5
 
+EXTERNAL_DIR="${EXTERNAL_DIR:-$APP_DIR/conteudo-externo/enem}"   # material do INEP, fora do git (docs/operacao/producao.md)
+EXTERNAL_MOUNT=/conteudo-externo/enem
+
 compose() { "$APP_DIR/scripts/producao-compose.sh" "$@"; }
 log() { echo "[deploy-producao] $*"; }
 
@@ -36,6 +39,16 @@ backup_before_migrate() {
   mv "$target.partial" "$target"
   ls -1t "$PREDEPLOY_BACKUP_DIR"/*.dump | tail -n +$((KEEP_PREDEPLOY_DUMPS + 1)) | xargs -r rm -f
   log "backup: $target"
+}
+
+# Com a pasta do INEP no servidor, monta-a só neste run (somente leitura) e importa junto; sem ela, importa só o conteúdo autoral.
+import_content() {
+  if [[ -d "$EXTERNAL_DIR" ]]; then
+    log "fonte externa encontrada em $EXTERNAL_DIR"
+    compose run --rm -T --no-deps -v "$EXTERNAL_DIR:$EXTERNAL_MOUNT:ro" app php artisan gabaritu:importar-conteudo --fonte-externa="$EXTERNAL_MOUNT"
+  else
+    compose run --rm -T --no-deps app php artisan gabaritu:importar-conteudo
+  fi
 }
 
 tag_all() { # $1 origem, $2 destino
@@ -78,7 +91,7 @@ main() {
   compose run --rm -T --no-deps app php artisan migrate --force
 
   log "importar conteúdo com a imagem nova (idempotente)"
-  compose run --rm -T --no-deps app php artisan gabaritu:importar-conteudo
+  import_content
 
   keep_previous
   tag_all "$sha" current

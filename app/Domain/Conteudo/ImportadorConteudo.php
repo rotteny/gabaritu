@@ -2,6 +2,10 @@
 
 namespace App\Domain\Conteudo;
 
+use App\Domain\Conteudo\Imagens\ArmazemDeImagens;
+use App\Domain\Conteudo\Imagens\ImagemInvalida;
+use App\Domain\Conteudo\Imagens\ImagensDoItem;
+use App\Domain\Conteudo\Imagens\PoliticaDeImagem;
 use App\Domain\Nota\ChuteLimite;
 use App\Enums\Nivel;
 use App\Models\Alternativa;
@@ -37,17 +41,33 @@ class ImportadorConteudo
     /** @var list<array{questao: string, falas: array<string, string>}> */
     private array $falasEspecificas = [];
 
+    /** @var list<string> */
+    private array $erros = [];
+
+    public function __construct(
+        private readonly ImagensDoItem $imagens,
+        private readonly ArmazemDeImagens $armazem,
+    ) {}
+
     /** @return array<string, int> */
     public function importar(string $pastaMaterias, string $arquivoInterface): array
     {
         $this->contagem = ['materias' => 0, 'assuntos' => 0, 'questionarios' => 0, 'questoes' => 0, 'falas' => 0];
+        $this->erros = [];
+        $this->falasEspecificas = [];
 
         DB::transaction(function () use ($pastaMaterias, $arquivoInterface): void {
             foreach ($this->pastasDeMaterias($pastaMaterias) as $ordem => $pasta) {
                 $this->importarMateria($pasta, $ordem + 1);
             }
             $this->importarFalasDeInterface($arquivoInterface);
+
+            if ($this->erros !== []) {
+                throw new ImportacaoRecusada($this->erros);
+            }
         });
+
+        $this->armazem->removerOrfas();
 
         return $this->contagem;
     }
@@ -82,7 +102,7 @@ class ImportadorConteudo
         $assuntos = $this->importarAssuntos($materia, $dados['assuntos']);
 
         foreach ($assuntos as $slug => $assunto) {
-            $this->importarQuestoes($assunto, $etiquetas, $pasta.'/questoes/'.$slug.'.json');
+            $this->importarQuestoes($assunto, $etiquetas, $pasta.'/questoes/'.$slug.'.json', $pasta.'/imagens');
         }
 
         $this->importarFalasDaMateria($pasta, $materia);
@@ -120,13 +140,17 @@ class ImportadorConteudo
     }
 
     /** @param  array<string, int>  $etiquetas */
-    private function importarQuestoes(Assunto $assunto, array $etiquetas, string $arquivo): void
+    private function importarQuestoes(Assunto $assunto, array $etiquetas, string $arquivo, string $pastaImagens): void
     {
         $questionarios = [];
         foreach ($this->json($arquivo) as $item) {
             $ordem = (int) $item['questionario'];
             $questionarios[$ordem] ??= $this->questionario($assunto, $ordem);
-            $this->importarQuestao($assunto, $questionarios[$ordem], $item, $etiquetas);
+            try {
+                $this->importarQuestao($assunto, $questionarios[$ordem], $item, $etiquetas, $pastaImagens);
+            } catch (ImagemInvalida $e) {
+                $this->erros[] = "questão {$item['id']}: ".$e->getMessage();
+            }
         }
     }
 
@@ -144,8 +168,11 @@ class ImportadorConteudo
      * @param  array<string, mixed>  $item
      * @param  array<string, int>  $etiquetas
      */
-    private function importarQuestao(Assunto $assunto, Questionario $questionario, array $item, array $etiquetas): void
+    private function importarQuestao(Assunto $assunto, Questionario $questionario, array $item, array $etiquetas, string $pastaImagens): void
     {
+        $politica = PoliticaDeImagem::autoral();
+        $imagemDaQuestao = $this->imagens->daQuestao($item, $pastaImagens, $politica);
+        $linhasDeAlternativas = $this->linhasDeAlternativas($item['alternativas'], $etiquetas, $pastaImagens, $politica);
         $textos = array_column($item['alternativas'], 'texto');
         $questao = Questao::updateOrCreate(['codigo' => $item['id']], [
             'assunto_id' => $assunto->id,
@@ -157,24 +184,35 @@ class ImportadorConteudo
             'fonte' => $item['fonte'] ?? null,
             'licenca' => $item['licenca'] ?? null,
             'chute_limite_ms' => ChuteLimite::calcular($item['enunciado'], $textos),
+            ...$imagemDaQuestao,
         ]);
         $this->contagem['questoes']++;
 
         Alternativa::upsert(
-            array_map(fn (array $alt) => [
-                'questao_id' => $questao->id,
-                'letra' => $alt['letra'],
-                'texto' => $alt['texto'],
-                'correta' => (bool) $alt['correta'],
-                'etiqueta_id' => $alt['etiqueta'] ? ($etiquetas[$alt['etiqueta']] ?? throw new RuntimeException("Etiqueta desconhecida: {$alt['etiqueta']}")) : null,
-            ], $item['alternativas']),
+            array_map(fn (array $linha) => ['questao_id' => $questao->id, ...$linha], $linhasDeAlternativas),
             ['questao_id', 'letra'],
-            ['texto', 'correta', 'etiqueta_id'],
+            ['texto', 'correta', 'etiqueta_id', 'imagem_url', 'imagem_alt', 'imagem_largura', 'imagem_altura'],
         );
 
         if (! empty($item['fala_especifica'])) {
             $this->falasEspecificas[] = ['questao' => $item['id'], 'falas' => $item['fala_especifica']];
         }
+    }
+
+    /**
+     * @param  list<array<string, mixed>>  $alternativas
+     * @param  array<string, int>  $etiquetas
+     * @return list<array<string, mixed>>
+     */
+    private function linhasDeAlternativas(array $alternativas, array $etiquetas, string $pastaImagens, PoliticaDeImagem $politica): array
+    {
+        return array_map(fn (array $alt) => [
+            'letra' => $alt['letra'],
+            'texto' => $alt['texto'],
+            'correta' => (bool) $alt['correta'],
+            'etiqueta_id' => $alt['etiqueta'] ? ($etiquetas[$alt['etiqueta']] ?? throw new RuntimeException("Etiqueta desconhecida: {$alt['etiqueta']}")) : null,
+            ...$this->imagens->daAlternativa($alt, $pastaImagens, $politica),
+        ], $alternativas);
     }
 
     private function importarFalasDaMateria(string $pasta, Materia $materia): void

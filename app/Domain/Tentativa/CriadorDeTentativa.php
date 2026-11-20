@@ -31,7 +31,7 @@ class CriadorDeTentativa
 
         $ids = Questao::query()
             ->where('questionario_id', $questionario->id)
-            ->where('status', Questao::STATUS_ATIVA)
+            ->servivel()
             ->orderBy('id')
             ->pluck('id');
 
@@ -61,7 +61,7 @@ class CriadorDeTentativa
     {
         $ids = $origem->respostas()
             ->where('correta', false)
-            ->whereHas('questao', fn ($q) => $q->where('status', Questao::STATUS_ATIVA))
+            ->whereHas('questao', fn ($q) => $q->servivel())
             ->orderBy('id')
             ->pluck('questao_id');
 

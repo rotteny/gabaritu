@@ -50,7 +50,7 @@ class FilaDeRevisao
         return Revisao::query()
             ->where('user_id', $aluno->id)
             ->where('proxima_em', '<=', $this->hoje()->toDateString())
-            ->whereHas('questao', fn (Builder $q) => $q->where('status', Questao::STATUS_ATIVA));
+            ->whereHas('questao', fn (Builder $q) => $q->servivel());
     }
 
     public function vagasHoje(User $aluno): int

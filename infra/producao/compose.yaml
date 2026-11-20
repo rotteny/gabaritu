@@ -46,6 +46,8 @@ services:
         logging: *logging
         networks: [internal]
         mem_limit: 256m
+        volumes:
+            - imagens:/var/www/html/public/conteudo/img
         depends_on:
             db: { condition: service_healthy }
 
@@ -71,6 +73,8 @@ services:
             internal: {}
             edge: { aliases: [gabaritu-web] }
         mem_limit: 64m
+        volumes:
+            - imagens:/var/www/html/public/conteudo/img:ro
         depends_on: [app]
         healthcheck:
             test:
@@ -90,3 +94,4 @@ networks:
 
 volumes:
     pgdata: {}
+    imagens: {}

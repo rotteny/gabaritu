@@ -53,6 +53,10 @@ cd /app/www/gabaritu && scripts/deploy-producao.sh <sha|ref>  # outra ref (rollb
 
 **Conteúdo:** `conteudo/` (matérias, questões, falas) e `lang/` vão na imagem do `app` (ver `infra/producao/Dockerfile`). O importador é idempotente: reexecutar não duplica. Só entra conteúdo que estiver no commit; para mudar o banco de questões, commit na `main` e deploy.
 
+**Imagens das questões:** o importador grava `public/conteudo/img/<hash>.<ext>` (ignorado pelo git). Como o importador roda num container descartável (`run --rm`) e quem serve é o `gabaritu-web`, a pasta é o volume nomeado `imagens`, montado em escrita no `app` e somente leitura no `gabaritu-web`; o nginx interno serve `/conteudo/img/` com cache imutável e CSP `sandbox`. A CSP da borda (`img-src 'self' data:`) já permite essas imagens, sem mudança. A imagem do `app` precisa da extensão `gd` (o importador recodifica PNG/WebP para tirar metadados).
+
+**Questões do ENEM (INEP):** o material não vai para o git. Copie os JSON e imagens para `/app/www/gabaritu/conteudo-externo/enem/` (legível pelo uid do `www-data`, `chmod -R a+rX`). Se essa pasta existir, o deploy monta-a só no run do importador (`-v ...:/conteudo-externo/enem:ro`) e roda `gabaritu:importar-conteudo --fonte-externa=/conteudo-externo/enem`; sem a pasta, roda só o conteúdo autoral. A importação é idempotente pelo `id` e recusa tudo (rollback) se algum item ou imagem for inválido, o que aborta o deploy antes de virar o `current`. Para o aluno ver as questões, o `.env` precisa de `GABARITU_EXIBIR_INEP=true` (já no `env.producao.template`; num `.env` existente, adicione à mão). Só entram em questionário as questões classificadas (`materia` + `assunto`), em questionários `ENEM <ano> · <n>` de até 10 questões, por assunto e ano; anuladas, com `alt_pendente` ou com `revisao_juridica: remover` nunca aparecem. `gabaritu:inep --relatorio` mostra a contagem e `gabaritu:inep --remover` apaga tudo do INEP (questões, respostas, imagens e arquivos), gravando em `storage/logs/auditoria.log`; apagar respostas não recalcula a nota agregada por assunto.
+
 Reimportar à mão, no servidor (usa a imagem `current`):
 
 ```bash

@@ -8,6 +8,7 @@ use App\Models\DesempenhoAssunto;
 use App\Models\DesempenhoAssuntoHistorico;
 use App\Models\Etiqueta;
 use App\Models\Materia;
+use App\Models\Questao;
 use App\Models\Resposta;
 use App\Models\User;
 use Illuminate\Support\Collection;
@@ -104,7 +105,7 @@ class PainelDeDesempenho
             ->join('questoes', 'questoes.id', '=', 'respostas.questao_id')
             ->join('assuntos', 'assuntos.id', '=', 'questoes.assunto_id')
             ->join('alternativas', 'alternativas.id', '=', 'respostas.alternativa_id')
-            ->where('questoes.status', 'ativa')
+            ->whereIn('questoes.id', Questao::query()->servivel()->select('questoes.id'))
             ->where($coluna, $id)
             ->orderByDesc('respostas.id')
             ->limit((int) config('gabaritu.diagnostico.janela'))

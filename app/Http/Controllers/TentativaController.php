@@ -22,6 +22,11 @@ class TentativaController extends Controller
 
     public function store(Request $request, Questionario $questionario, CriadorDeTentativa $criador): RedirectResponse
     {
+        abort_if(
+            $questionario->tipo === Questionario::TIPO_INEP && ! $questionario->questoes()->servivel()->exists(),
+            404,
+        );
+
         $tentativa = $criador->doQuestionario($request->user(), $questionario);
 
         return redirect()->route('tentativas.show', $tentativa);

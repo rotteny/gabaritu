@@ -8,7 +8,7 @@ ARG NGINX_VERSION=1.27
 
 FROM php:${PHP_VERSION}-fpm-alpine AS php-base
 COPY --from=ghcr.io/mlocati/php-extension-installer:2 /usr/bin/install-php-extensions /usr/local/bin/
-RUN install-php-extensions pdo_pgsql intl bcmath mbstring opcache \
+RUN install-php-extensions pdo_pgsql intl bcmath mbstring opcache gd \
     && rm -f /usr/local/bin/install-php-extensions
 WORKDIR /var/www/html
 
@@ -45,7 +45,8 @@ RUN cp "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini" \
     && printf 'memory_limit=256M\nexpose_php=0\nopcache.validate_timestamps=0\n' > "$PHP_INI_DIR/conf.d/zz-gabaritu.ini"
 COPY --from=vendor --chown=www-data:www-data /var/www/html ./
 COPY --from=front --chown=www-data:www-data /var/www/html/public/build ./public/build
-RUN chown -R www-data:www-data storage bootstrap/cache
+# public/conteudo/img é um volume compartilhado com o web (docs/operacao/producao.md); o dono precisa ser o www-data.
+RUN mkdir -p public/conteudo/img && chown -R www-data:www-data storage bootstrap/cache public/conteudo
 COPY --chmod=0755 infra/producao/entrypoint.sh /usr/local/bin/gabaritu-entrypoint
 USER www-data
 EXPOSE 9000

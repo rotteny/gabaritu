@@ -17,7 +17,7 @@ return [
     'privacidade_versao' => '2026-11-23',
 
     /* Versão da página /termos gravada no aceite do responsável. Mudou o texto, mude a versão. */
-    'termos_versao' => '2026-11-23',
+    'termos_versao' => '2026-11-24',
 
     /* Avatares do aluno: lista fixa de bichos marinhos; não há upload de foto (não guardamos imagem de menor). */
     'avatar_padrao' => 'peixe-palhaco',
@@ -75,4 +75,16 @@ return [
     ],
 
     'conteudo_path' => 'conteudo/materias',
+
+    /* Questões de origem INEP (ENEM oficial), em análise jurídica: docs/imagens-questoes.md. Desligado, não aparecem para o aluno. */
+    'exibir_inep' => (bool) env('GABARITU_EXIBIR_INEP', false),
+
+    /* Imagens de questões e alternativas: docs/imagens-questoes.md. Caminho relativo a public/, nome pelo hash do conteúdo. */
+    'imagens' => [
+        'pasta' => public_path('conteudo/img'),
+        'url_base' => '/conteudo/img',
+        'max_svg_autoral_bytes' => 60 * 1024,
+        'max_externa_bytes' => 400 * 1024,
+        'max_pixels' => 16_000_000,
+    ],
 ];

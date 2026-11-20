@@ -43,6 +43,14 @@ export const SECOES_TERMOS: SecaoLegal[] = [
         ],
     },
     {
+        id: 'enem',
+        titulo: 'Questões do ENEM',
+        paragrafos: [
+            'Parte das questões do Gabaritu é reproduzida das provas oficiais do ENEM, do INEP/MEC, com a fonte indicada em cada questão, para fins educacionais e sem fins lucrativos.',
+            'Se você é titular de algum texto ou imagem usado nessas questões e quer a remoção, escreva para gabaritu@gorilash.com.br. A remoção é feita em até 5 dias úteis.',
+        ],
+    },
+    {
         id: 'conduta',
         titulo: 'Conduta',
         paragrafos: ['Ao usar o Gabaritu, você concorda em não:'],

@@ -16,7 +16,7 @@ class ApresentadorDeQuestao
 
         return $tentativa->itens()
             ->whereNotIn('questao_id', $respondidas)
-            ->whereHas('questao', fn ($q) => $q->where('status', Questao::STATUS_ATIVA))
+            ->whereHas('questao', fn ($q) => $q->servivel())
             ->with('questao.alternativas', 'questao.assunto.materia')
             ->first();
     }
@@ -28,7 +28,13 @@ class ApresentadorDeQuestao
         }
     }
 
-    /** @return array{id: int, contexto: string|null, enunciado: string, alternativas: array<int, array{id: int, letra: string, texto: string}>} */
+    /**
+     * @return array{
+     *     id: int, contexto: string|null, enunciado: string,
+     *     imagem: array{url: string, alt: string, largura: int, altura: int}|null, fonte: string|null,
+     *     alternativas: array<int, array{id: int, letra: string, texto: string, imagem: array{url: string, alt: string, largura: int, altura: int}|null}>
+     * }
+     */
     public function questao(Tentativa $tentativa, Questao $questao): array
     {
         $embaralhadas = $questao->alternativas
@@ -39,10 +45,13 @@ class ApresentadorDeQuestao
             'id' => $questao->id,
             'contexto' => $questao->contexto,
             'enunciado' => $questao->enunciado,
+            'imagem' => $questao->imagemParaProps(),
+            'fonte' => $questao->fonteParaProps(),
             'alternativas' => $embaralhadas->map(fn ($alternativa, int $posicao) => [
                 'id' => $alternativa->id,
                 'letra' => self::LETRAS[$posicao],
                 'texto' => $alternativa->texto,
+                'imagem' => $alternativa->imagemParaProps(),
             ])->values()->all(),
         ];
     }
