@@ -1,0 +1,17 @@
+{
+    "component": "responsavel/Conta",
+    "usuario": {
+        "id": 9,
+        "tipo": "responsavel",
+        "nome": "Maria Silva",
+        "email": "maria.silva@gmail.com"
+    },
+    "props": {
+        "responsavel": {
+            "nome": "Maria Silva",
+            "email": "maria.silva@gmail.com",
+            "ano_nascimento": 1984
+        },
+        "alunos_unicos": ["Caçula com apelido bem comprido mesmo"]
+    }
+}

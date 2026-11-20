@@ -1,0 +1,24 @@
+{
+    "component": "responsavel/Convite",
+    "usuario": {
+        "id": 9,
+        "tipo": "responsavel",
+        "nome": "Maria Silva"
+    },
+    "props": {
+        "convite": {
+            "aluno": {
+                "apelido": "Estudante",
+                "serie": "2em"
+            },
+            "email": "maria.silva@gmail.com",
+            "tipo": "transferencia",
+            "parentesco": "mae",
+            "parentesco_outro": null,
+            "expira_em": "2026-11-26T20:00:00-03:00"
+        },
+        "tem_conta": true,
+        "logado_como_destinatario": true,
+        "token": "abc123"
+    }
+}

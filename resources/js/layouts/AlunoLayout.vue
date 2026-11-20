@@ -2,6 +2,7 @@
 import { Link, usePage } from '@inertiajs/vue3';
 import { computed } from 'vue';
 import FundoAquario from '@/components/aluno/FundoAquario.vue';
+import AvatarAluno from '@/components/aluno/AvatarAluno.vue';
 import BotaoSair from '@/components/aluno/BotaoSair.vue';
 import LinhaCredito from '@/components/LinhaCredito.vue';
 import MarcaGabaritu from '@/components/MarcaGabaritu.vue';
@@ -14,6 +15,7 @@ import '../../css/landing/base.css';
 import '../../css/landing/peixoto.css';
 import '../../css/aluno/base.css';
 import '../../css/aluno/paginas.css';
+import '../../css/aluno/responsavel.css';
 
 const { aluno, gabaritu } = useAluno();
 const reduzido = useMovimentoReduzido();
@@ -22,11 +24,17 @@ const repositorioUrl = computed(
     () => gabaritu.value?.repositorio_url ?? REPOSITORIO_PADRAO,
 );
 
-const itens = [
+const itensCompletos = [
     { rotulo: 'Início', href: rotas.inicio },
     { rotulo: 'Desempenho', href: rotas.desempenho },
     { rotulo: 'Conta', href: rotas.conta },
 ];
+// Aluno aguardando o responsável só alcança a própria conta.
+const itens = computed(() =>
+    aluno.value?.status === 'aguardando_responsavel'
+        ? itensCompletos.filter((i) => i.href === rotas.conta)
+        : itensCompletos,
+);
 
 const caminho = computed(() => page.url.split('?')[0]);
 const ativo = (href: string) =>
@@ -66,6 +74,18 @@ const ativo = (href: string) =>
                     <Link :href="rotas.entrar">Entrar</Link>
                 </nav>
                 <BotaoSom />
+                <Link
+                    v-if="aluno?.avatar"
+                    :href="rotas.conta"
+                    class="gb-nav-avatar"
+                    :aria-label="`Sua conta (${aluno.apelido})`"
+                >
+                    <AvatarAluno
+                        :slug="aluno.avatar"
+                        :tamanho="32"
+                        decorativo
+                    />
+                </Link>
                 <BotaoSair v-if="aluno" compacto />
             </div>
         </header>

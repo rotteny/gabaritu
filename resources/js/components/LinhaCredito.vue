@@ -14,7 +14,11 @@ defineProps<{ repositorioUrl: string }>();
         <LinkExterno :href="AUTOR_URL">rotteny</LinkExterno>
         ·
         <LinkExterno :href="repositorioUrl">código aberto</LinkExterno> no
-        GitHub · <Link :href="rotas.quemSomos">Quem somos</Link> ·
+        GitHub ·
+        <Link :href="rotas.termos">Termos</Link>
+        ·
         <Link :href="rotas.privacidade">Privacidade</Link>
+        ·
+        <Link :href="rotas.quemSomos">Quem somos</Link>
     </p>
 </template>

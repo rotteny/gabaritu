@@ -71,9 +71,13 @@ export function iniciarSomGlobal() {
     ligarAoMotor();
     reterMusica();
     router.on('navigate', (evento) => {
-        const prefs = (
+        const usuario = (
             evento.detail.page.props as unknown as Partial<PropsCompartilhadas>
-        ).auth?.user?.preferencias;
+        ).auth?.user;
+        const prefs =
+            usuario && usuario.tipo !== 'responsavel'
+                ? usuario.preferencias
+                : undefined;
 
         if (prefs) {
             somLigado.value = prefs.som;
