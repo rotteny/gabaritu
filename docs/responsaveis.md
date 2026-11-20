@@ -42,6 +42,16 @@ Pelo art. 24 do ECA Digital (Lei 15.211/2025, em vigor desde 17/03/2026), a cont
 13. **Papéis.** A tabela `users` ganha `tipo` (`aluno` ou `responsavel`). O responsável não estuda: só acessa o painel e a própria conta. Aluno não acessa `/responsavel`. Um e-mail tem uma conta só.
 14. **Segurança.** Toda rota do responsável checa se o vínculo é ativo e se o aluno é dele (IDOR), com rate limit em convite, reenvio e aceite. A resposta do convite não revela se o e-mail tem conta.
 
+## Dados mínimos do responsável (decisão do dono)
+O responsável informa só o necessário para identificá-lo e responsabilizá-lo. Os dados guardados são:
+- **Nome:** identifica quem autorizou.
+- **E-mail:** login, contato e prova de que o convite chegou a ele.
+- **Ano de nascimento:** confirma que ele tem 18 anos ou mais.
+- **Parentesco.**
+- **Registro do aceite:** data e hora, IP, versão dos termos e as declarações, como prova da autorização.
+
+**Proibido pedir:** CPF, RG, telefone, endereço, data de nascimento completa, foto ou documento. Se no futuro um advogado ou uma regulamentação da ANPD exigir verificação mais forte da idade ou da guarda, isso entra como mudança versionada nos Termos. Por ora fica em `docs/lgpd/` como "verificar com advogado".
+
 ## Rotas e páginas (Inertia)
 | Rota | Página | Props / campos |
 |---|---|---|
