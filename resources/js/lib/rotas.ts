@@ -15,6 +15,7 @@ export const rotas = {
     aguardando: '/aguardando-responsavel',
     reenviarConvite: '/aguardando-responsavel/reenviar',
     emailResponsavel: '/aguardando-responsavel/email',
+    contaAvatar: '/conta/avatar',
     contaResponsaveis: '/conta/responsaveis',
     cancelarConviteAluno: (id: number) => `/conta/responsaveis/convites/${id}`,
     painel: '/responsavel',

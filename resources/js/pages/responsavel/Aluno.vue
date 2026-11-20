@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { Head, Link } from '@inertiajs/vue3';
 import { ArrowLeft } from '@lucide/vue';
+import AvatarAluno from '@/components/aluno/AvatarAluno.vue';
 import DesempenhoLista from '@/components/aluno/DesempenhoLista.vue';
 import StatusAlunoTag from '@/components/responsavel/StatusAlunoTag.vue';
 import { rotas } from '@/lib/rotas';
@@ -16,6 +17,7 @@ defineProps<{ aluno: AlunoAcompanhado; materias: DesempenhoMateria[] }>();
         <ArrowLeft :size="18" aria-hidden="true" /> Meus alunos
     </Link>
     <header class="gb-aluno-topo">
+        <AvatarAluno :slug="aluno.avatar" :tamanho="56" />
         <h1 class="gb-titulo">Acompanhando: {{ aluno.apelido }}</h1>
         <StatusAlunoTag :status="aluno.status" />
     </header>

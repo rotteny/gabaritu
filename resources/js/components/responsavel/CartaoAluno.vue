@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { Link } from '@inertiajs/vue3';
+import AvatarAluno from '@/components/aluno/AvatarAluno.vue';
 import AcoesAluno from '@/components/responsavel/AcoesAluno.vue';
 import ListaResponsaveis from '@/components/responsavel/ListaResponsaveis.vue';
 import NotasResumo from '@/components/responsavel/NotasResumo.vue';
@@ -15,6 +16,7 @@ defineProps<{ aluno: AlunoAcompanhado }>();
 <template>
     <article class="gb-cartao gb-form" :aria-label="`Aluno ${aluno.apelido}`">
         <header class="gb-aluno-topo">
+            <AvatarAluno :slug="aluno.avatar" :tamanho="48" />
             <h2 class="gb-subtitulo">{{ aluno.apelido }}</h2>
             <StatusAlunoTag :status="aluno.status" />
         </header>

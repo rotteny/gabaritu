@@ -2,6 +2,7 @@
 import { Head, Link, useForm } from '@inertiajs/vue3';
 import { computed } from 'vue';
 import Aviso from '@/components/aluno/Aviso.vue';
+import EscolhaAvatar from '@/components/aluno/EscolhaAvatar.vue';
 import Campo from '@/components/aluno/Campo.vue';
 import CampoParentesco from '@/components/responsavel/CampoParentesco.vue';
 import GrupoOpcoes from '@/components/aluno/GrupoOpcoes.vue';
@@ -30,6 +31,7 @@ const form = useForm({
     senha_confirmation: '',
     ano_nascimento: '' as string | number,
     serie: '2em',
+    avatar: '',
     email_responsavel: '',
     parentesco_responsavel: 'mae',
     parentesco_outro: '',
@@ -40,16 +42,17 @@ const menor = computed(() => ehMenorDeIdade(form.ano_nascimento));
 
 const enviar = () =>
     form
-        .transform((d) =>
-            menor.value
-                ? d
+        .transform((d) => {
+            const base = d.avatar ? d : { ...d, avatar: undefined };
+            return menor.value
+                ? base
                 : {
-                      ...d,
+                      ...base,
                       email_responsavel: '',
                       parentesco_responsavel: '',
                       parentesco_outro: '',
-                  },
-        )
+                  };
+        })
         .post(rotas.cadastro, {
             onFinish: () => form.reset('senha', 'senha_confirmation'),
         });
@@ -139,6 +142,12 @@ const enviar = () =>
             legenda="Série"
             :opcoes="SERIES"
             :erro="form.errors.serie"
+        />
+        <EscolhaAvatar
+            v-model="form.avatar"
+            legenda="Escolha seu bicho (opcional)"
+            ajuda="Se você não escolher, a gente sorteia um. Dá para trocar depois na página Conta."
+            :erro="form.errors.avatar"
         />
         <div>
             <label class="gb-check">

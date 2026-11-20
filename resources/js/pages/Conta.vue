@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { Head, Link } from '@inertiajs/vue3';
+import AvatarConta from '@/components/aluno/AvatarConta.vue';
 import ApagarConta from '@/components/aluno/ApagarConta.vue';
 import BotaoSair from '@/components/aluno/BotaoSair.vue';
 import PerfilConta from '@/components/aluno/PerfilConta.vue';
@@ -29,6 +30,7 @@ const { aluno } = useAluno();
     <Head title="Conta" />
     <h1 class="gb-titulo">Sua conta</h1>
     <template v-if="aluno">
+        <AvatarConta :atual="aluno.avatar" />
         <PreferenciasConta :preferencias="aluno.preferencias" />
         <PerfilConta :aluno="aluno" />
         <QuemAcompanha

@@ -19,12 +19,15 @@ export type Preferencias = {
     ultima_materia: string | null;
 };
 
+export type AvatarAluno = import('@/data/avatares').AvatarSlug;
+
 export type StatusAluno = 'ativo' | 'aguardando_responsavel';
 
 export type Aluno = {
     id: number;
     tipo?: 'aluno';
     status?: StatusAluno;
+    avatar?: AvatarAluno | null;
     apelido: string;
     serie: Serie;
     idade: number;
@@ -156,6 +159,7 @@ export type NotaResumo = { slug: string; nome: string; nota: number | null };
 
 export type AlunoAcompanhado = {
     id: number;
+    avatar?: AvatarAluno | null;
     apelido: string;
     serie: Serie;
     idade: number;

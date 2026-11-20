@@ -2,6 +2,7 @@
 import { Link, usePage } from '@inertiajs/vue3';
 import { computed } from 'vue';
 import FundoAquario from '@/components/aluno/FundoAquario.vue';
+import AvatarAluno from '@/components/aluno/AvatarAluno.vue';
 import BotaoSair from '@/components/aluno/BotaoSair.vue';
 import LinhaCredito from '@/components/LinhaCredito.vue';
 import MarcaGabaritu from '@/components/MarcaGabaritu.vue';
@@ -73,6 +74,18 @@ const ativo = (href: string) =>
                     <Link :href="rotas.entrar">Entrar</Link>
                 </nav>
                 <BotaoSom />
+                <Link
+                    v-if="aluno?.avatar"
+                    :href="rotas.conta"
+                    class="gb-nav-avatar"
+                    :aria-label="`Sua conta (${aluno.apelido})`"
+                >
+                    <AvatarAluno
+                        :slug="aluno.avatar"
+                        :tamanho="32"
+                        decorativo
+                    />
+                </Link>
                 <BotaoSair v-if="aluno" compacto />
             </div>
         </header>
