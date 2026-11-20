@@ -75,8 +75,8 @@ it('respeita o teto de zoeira por idade ao sortear', function () {
 });
 
 it('ignora variação vencida e ainda não vigente', function () {
-    criarFala('z', 'vencida')->update(['validade_em' => now()->subDay()->toDateString()]);
-    criarFala('z', 'futura')->update(['inicio_em' => now()->addDay()->toDateString()]);
+    criarFala('z', 'vencida')->update(['validade_em' => now(config('gabaritu.fuso'))->subDay()->toDateString()]);
+    criarFala('z', 'futura')->update(['inicio_em' => now(config('gabaritu.fuso'))->addDay()->toDateString()]);
     criarFala('z', 'valida');
 
     $texto = app(FalaService::class)->sortear($this->aluno, ['z'], 'neutro')->texto;
