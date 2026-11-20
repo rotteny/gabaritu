@@ -4,10 +4,13 @@ import EscolhaAvatar from '@/components/aluno/EscolhaAvatar.vue';
 import { rotas } from '@/lib/rotas';
 import type { AvatarAluno } from '@/types/gabaritu';
 
-const props = defineProps<{ atual?: AvatarAluno | null }>();
+const props = defineProps<{
+    atual?: AvatarAluno | null;
+    avatares?: string[];
+}>();
 
 const form = useForm({ avatar: props.atual ?? '' });
-const salvar = () => form.patch(rotas.contaAvatar, { preserveScroll: true });
+const salvar = () => form.patch(rotas.contaPerfil, { preserveScroll: true });
 </script>
 
 <template>
@@ -20,6 +23,7 @@ const salvar = () => form.patch(rotas.contaAvatar, { preserveScroll: true });
         <h2 id="avatar-titulo" class="gb-subtitulo">Seu bicho</h2>
         <EscolhaAvatar
             v-model="form.avatar"
+            :avatares="avatares"
             legenda="Escolha o bicho que representa você"
             :erro="form.errors.avatar"
         />

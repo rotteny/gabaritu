@@ -22,6 +22,12 @@ void createInertiaApp({
                 return null;
             case name === 'Questao':
                 return QuestaoLayout;
+            case [
+                'responsavel/Entrar',
+                'responsavel/EsqueciSenha',
+                'responsavel/RedefinirSenha',
+            ].includes(name):
+                return AuthLayout;
             case name.startsWith('responsavel/'):
                 return ResponsavelLayout;
             case name.startsWith('auth/'):

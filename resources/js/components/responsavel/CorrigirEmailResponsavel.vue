@@ -1,24 +1,43 @@
 <script setup lang="ts">
 import { useForm } from '@inertiajs/vue3';
 import { ref } from 'vue';
+import CampoParentesco from '@/components/responsavel/CampoParentesco.vue';
 import Campo from '@/components/aluno/Campo.vue';
 import { rotas } from '@/lib/rotas';
 
-const aberto = ref(false);
-const form = useForm({ email_responsavel: '' });
+const props = defineProps<{ pedeParentesco?: boolean }>();
+
+const aberto = ref(props.pedeParentesco === true);
+const form = useForm({
+    email_responsavel: '',
+    parentesco_responsavel: 'mae',
+    parentesco_outro: '',
+});
 const salvar = () =>
-    form.patch(rotas.emailResponsavel, {
-        preserveScroll: true,
-        onSuccess: () => {
-            form.reset();
-            aberto.value = false;
-        },
-    });
+    form
+        .transform((d) =>
+            props.pedeParentesco
+                ? d
+                : { email_responsavel: d.email_responsavel },
+        )
+        .patch(rotas.emailResponsavel, {
+            preserveScroll: true,
+            onSuccess: () => {
+                form.reset();
+                aberto.value = false;
+            },
+        });
 </script>
 
 <template>
     <div class="gb-bloco">
-        <h3>Digitou o e-mail errado?</h3>
+        <h3>
+            {{
+                pedeParentesco
+                    ? 'Quem é o seu responsável?'
+                    : 'Digitou o e-mail errado?'
+            }}
+        </h3>
         <div v-if="!aberto" class="gb-acoes">
             <button
                 type="button"
@@ -37,6 +56,14 @@ const salvar = () =>
                 ajuda="O convite anterior deixa de valer e um novo é enviado."
                 :erro="form.errors.email_responsavel"
                 obrigatorio
+            />
+            <CampoParentesco
+                v-if="pedeParentesco"
+                v-model:parentesco="form.parentesco_responsavel"
+                v-model:outro="form.parentesco_outro"
+                rotulo="Parentesco dele com você"
+                :erro-parentesco="form.errors.parentesco_responsavel"
+                :erro-outro="form.errors.parentesco_outro"
             />
             <div class="gb-acoes">
                 <button

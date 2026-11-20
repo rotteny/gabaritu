@@ -9,16 +9,24 @@ import SenhaConta from '@/components/aluno/SenhaConta.vue';
 import { useAluno } from '@/composables/useAluno';
 import QuemAcompanha from '@/components/aluno/QuemAcompanha.vue';
 import { rotas } from '@/lib/rotas';
-import type { ConviteDoAluno, ResponsavelDoAlunoConta } from '@/types/gabaritu';
+import type {
+    ConviteDoAluno,
+    PedidoDeVinculo,
+    ResponsavelDoAlunoConta,
+} from '@/types/gabaritu';
 
 withDefaults(
     defineProps<{
+        avatares?: string[];
         responsaveis?: ResponsavelDoAlunoConta[];
+        pedidos_vinculo?: PedidoDeVinculo[];
         convites_responsavel?: ConviteDoAluno[];
         pode_convidar?: boolean;
     }>(),
     {
+        avatares: undefined,
         responsaveis: () => [],
+        pedidos_vinculo: () => [],
         convites_responsavel: () => [],
         pode_convidar: true,
     },
@@ -30,13 +38,18 @@ const { aluno } = useAluno();
     <Head title="Conta" />
     <h1 class="gb-titulo">Sua conta</h1>
     <template v-if="aluno">
-        <AvatarConta :atual="aluno.avatar" />
+        <AvatarConta :atual="aluno.avatar" :avatares="avatares" />
         <PreferenciasConta :preferencias="aluno.preferencias" />
         <PerfilConta :aluno="aluno" />
         <QuemAcompanha
-            v-if="responsaveis.length > 0 || convites_responsavel.length > 0"
+            v-if="
+                responsaveis.length > 0 ||
+                convites_responsavel.length > 0 ||
+                pedidos_vinculo.length > 0
+            "
             :responsaveis="responsaveis"
             :convites="convites_responsavel"
+            :pedidos="pedidos_vinculo"
             :pode-convidar="pode_convidar"
         />
         <SenhaConta />

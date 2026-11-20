@@ -8,7 +8,7 @@ import { formatarData } from '@/lib/responsavel';
 import type { Fala } from '@/types/gabaritu';
 
 defineProps<{
-    email_responsavel_mascarado: string;
+    email_responsavel_mascarado: string | null;
     convite_expira_em: string | null;
     recusado: boolean;
     reenvios_restantes: number;
@@ -41,7 +41,11 @@ defineProps<{
             Seu responsável recusou a autorização. Converse com ele e, se foi
             engano ou o e-mail estava errado, corrija o e-mail abaixo.
         </p>
-        <p v-else class="gb-aviso gb-aviso--info" role="status">
+        <p
+            v-else-if="email_responsavel_mascarado"
+            class="gb-aviso gb-aviso--info"
+            role="status"
+        >
             Enviamos um convite para
             <strong>{{ email_responsavel_mascarado }}</strong
             >{{
@@ -50,11 +54,20 @@ defineProps<{
                     : '.'
             }}
         </p>
-        <p v-if="recusado" class="gb-miudo">
+        <p v-else class="gb-aviso gb-aviso--info" role="status">
+            Você ficou sem responsável. Diga quem é a pessoa que vai autorizar o
+            seu acesso.
+        </p>
+        <p v-if="recusado && email_responsavel_mascarado" class="gb-miudo">
             O convite era para {{ email_responsavel_mascarado }}.
         </p>
-        <ReenviarConvite v-if="!recusado" :restantes="reenvios_restantes" />
-        <CorrigirEmailResponsavel />
+        <ReenviarConvite
+            v-if="!recusado && email_responsavel_mascarado"
+            :restantes="reenvios_restantes"
+        />
+        <CorrigirEmailResponsavel
+            :pede-parentesco="!email_responsavel_mascarado"
+        />
         <p class="gb-miudo">
             Sem autorização em 30 dias, a conta é apagada. Você também pode
             apagar a conta antes, na página Conta.

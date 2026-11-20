@@ -1,10 +1,20 @@
 <script setup lang="ts">
 import { Head } from '@inertiajs/vue3';
 import FalaPeixoto from '@/components/aluno/FalaPeixoto.vue';
+import AdicionarAluno from '@/components/responsavel/AdicionarAluno.vue';
+import PedidosEnviados from '@/components/responsavel/PedidosEnviados.vue';
 import CartaoAluno from '@/components/responsavel/CartaoAluno.vue';
-import type { AlunoAcompanhado, Fala } from '@/types/gabaritu';
+import type { AlunoAcompanhado, Fala, PedidoEnviado } from '@/types/gabaritu';
 
-defineProps<{ alunos: AlunoAcompanhado[]; fala?: Fala | null }>();
+withDefaults(
+    defineProps<{
+        alunos: AlunoAcompanhado[];
+        pedidos_enviados?: PedidoEnviado[];
+        status?: string | null;
+        fala?: Fala | null;
+    }>(),
+    { pedidos_enviados: () => [], status: null, fala: null },
+);
 </script>
 
 <template>
@@ -21,6 +31,10 @@ defineProps<{ alunos: AlunoAcompanhado[]; fala?: Fala | null }>();
     </p>
     <div class="gb-resp-grade">
         <CartaoAluno v-for="a in alunos" :key="a.id" :aluno="a" />
+    </div>
+    <div class="gb-resp-grade">
+        <AdicionarAluno :status="status" />
+        <PedidosEnviados :pedidos="pedidos_enviados" />
     </div>
     <FalaPeixoto v-if="fala" :fala="fala" />
 </template>

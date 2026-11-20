@@ -1,5 +1,7 @@
 <script setup lang="ts">
+import { Link } from '@inertiajs/vue3';
 import { Mail } from '@lucide/vue';
+import { rotas } from '@/lib/rotas';
 import LinhaCredito from '@/components/LinhaCredito.vue';
 
 defineProps<{ emailContato: string; repositorioUrl: string }>();
@@ -13,6 +15,9 @@ defineProps<{ emailContato: string; repositorioUrl: string }>();
                 <a :href="`mailto:${emailContato}`" class="l-mail">
                     <Mail class="size-5" aria-hidden="true" />{{ emailContato }}
                 </a>
+                <p class="l-resp-link">
+                    <Link :href="rotas.entrarResponsavel">Sou responsável</Link>
+                </p>
             </div>
             <LinhaCredito :repositorio-url="repositorioUrl" />
         </div>

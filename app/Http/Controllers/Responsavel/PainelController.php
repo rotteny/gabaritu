@@ -24,6 +24,7 @@ class PainelController extends Controller
 
         return Inertia::render('responsavel/Painel', [
             'alunos' => $alunos,
+            'status' => $request->session()->get('status'),
             'pedidos_enviados' => $this->apresentador->pedidosEnviados($responsavel),
             'fala' => $falas->sortear($responsavel, ['responsavel'], Fala::HUMOR_NEUTRO),
         ]);

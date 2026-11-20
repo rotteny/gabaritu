@@ -15,7 +15,22 @@ export const rotas = {
     aguardando: '/aguardando-responsavel',
     reenviarConvite: '/aguardando-responsavel/reenviar',
     emailResponsavel: '/aguardando-responsavel/email',
-    contaAvatar: '/conta/avatar',
+    contaPerfil: '/conta/perfil',
+    contestarResponsavel: (id: number) => `/conta/responsaveis/${id}/contestar`,
+    aceitarPedido: (id: number) => `/conta/pedidos/${id}/aceitar`,
+    recusarPedido: (id: number) => `/conta/pedidos/${id}/recusar`,
+    entrarResponsavel: '/responsavel/entrar',
+    esqueciSenhaResponsavel: '/responsavel/esqueci-senha',
+    redefinirSenhaResponsavel: '/responsavel/redefinir-senha',
+    pedidos: '/responsavel/pedidos',
+    pedido: (id: number) => `/responsavel/pedidos/${id}`,
+    aprovarPedido: (id: number) => `/responsavel/pedidos/${id}/aprovar`,
+    recusarPedidoResponsavel: (id: number) =>
+        `/responsavel/pedidos/${id}/recusar`,
+    removerSuspenso: (aluno: number, responsavel: number) =>
+        `/responsavel/alunos/${aluno}/suspensos/${responsavel}`,
+    restaurarSuspenso: (aluno: number, responsavel: number) =>
+        `/responsavel/alunos/${aluno}/suspensos/${responsavel}/restaurar`,
     contaResponsaveis: '/conta/responsaveis',
     cancelarConviteAluno: (id: number) => `/conta/responsaveis/convites/${id}`,
     painel: '/responsavel',

@@ -470,3 +470,15 @@
         padding-bottom: 12px;
     }
 }
+
+.l-resp-link {
+    margin: 10px 0 0;
+    font-size: 15px;
+    font-weight: 800;
+}
+.l-resp-link a {
+    color: var(--ink);
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+}

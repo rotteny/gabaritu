@@ -4,6 +4,7 @@ import AvatarAluno from '@/components/aluno/AvatarAluno.vue';
 import AcoesAluno from '@/components/responsavel/AcoesAluno.vue';
 import ListaResponsaveis from '@/components/responsavel/ListaResponsaveis.vue';
 import NotasResumo from '@/components/responsavel/NotasResumo.vue';
+import PedidosPendentes from '@/components/responsavel/PedidosPendentes.vue';
 import StatusAlunoTag from '@/components/responsavel/StatusAlunoTag.vue';
 import TetoZoeira from '@/components/responsavel/TetoZoeira.vue';
 import { rotas } from '@/lib/rotas';
@@ -39,7 +40,13 @@ defineProps<{ aluno: AlunoAcompanhado }>();
             :aluno-id="aluno.id"
             :teto="aluno.teto_zoeira_responsavel"
         />
+        <PedidosPendentes
+            :apelido="aluno.apelido"
+            :pedidos="aluno.pedidos_pendentes ?? []"
+        />
         <ListaResponsaveis
+            :aluno-id="aluno.id"
+            :apelido="aluno.apelido"
             :responsaveis="aluno.responsaveis"
             :convites="aluno.convites_pendentes"
         />

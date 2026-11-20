@@ -15,7 +15,7 @@ const recusar = () => form.post(rotas.recusarConvite(props.token));
         <div class="gb-acoes">
             <Link
                 v-if="mostrarEntrar"
-                :href="`${rotas.entrar}?redirect=${encodeURIComponent(rotas.conviteResponsavel(token))}`"
+                :href="`${rotas.entrarResponsavel}?redirect=${encodeURIComponent(rotas.conviteResponsavel(token))}`"
                 class="l-btn l-btn--orange"
             >
                 Entrar e autorizar

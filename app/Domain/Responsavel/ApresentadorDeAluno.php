@@ -29,7 +29,7 @@ class ApresentadorDeAluno
             'teto_zoeira_responsavel' => $aluno->zoeira_responsavel ?? 'sem',
             'notas' => $this->notasPorMateria($aluno),
             'responsaveis' => $this->responsaveis($aluno)
-                ->map(fn (VinculoResponsavel $v) => [...$this->dadosDoVinculo($v), 'sou_eu' => $v->responsavel_id === $responsavel->id])->all(),
+                ->map(fn (VinculoResponsavel $v) => ['id' => $v->responsavel_id, ...$this->dadosDoVinculo($v), 'sou_eu' => $v->responsavel_id === $responsavel->id])->all(),
             'convites_pendentes' => $this->convites($aluno)->filter(fn (ConviteResponsavel $c) => ! TipoConvite::from($c->tipo)->ehPedidoDoResponsavel())
                 ->map(fn (ConviteResponsavel $c) => [
                     'email_mascarado' => EmailMascarado::de($c->email),

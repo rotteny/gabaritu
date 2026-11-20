@@ -1,9 +1,21 @@
 <script setup lang="ts">
-import { useId } from 'vue';
+import { computed, useId } from 'vue';
 import AvatarAluno from '@/components/aluno/AvatarAluno.vue';
-import { AVATARES } from '@/data/avatares';
+import { AVATARES, nomeDoAvatar } from '@/data/avatares';
 
-defineProps<{ legenda: string; ajuda?: string; erro?: string }>();
+const props = defineProps<{
+    legenda: string;
+    ajuda?: string;
+    erro?: string;
+    /** Slugs disponíveis (vêm do backend); sem ela, usa a lista local. */
+    avatares?: readonly string[];
+}>();
+
+const opcoes = computed(() =>
+    props.avatares
+        ? props.avatares.map((slug) => ({ slug, nome: nomeDoAvatar(slug) }))
+        : AVATARES,
+);
 
 /** Vazio quando ninguém foi escolhido (o backend sorteia). */
 const modelo = defineModel<string>({ required: true });
@@ -15,7 +27,7 @@ const nome = useId();
         <legend class="gb-legenda">{{ legenda }}</legend>
         <p v-if="ajuda" class="gb-ajuda">{{ ajuda }}</p>
         <div class="gb-avatares">
-            <label v-for="a in AVATARES" :key="a.slug" class="gb-avatar-opcao">
+            <label v-for="a in opcoes" :key="a.slug" class="gb-avatar-opcao">
                 <input
                     v-model="modelo"
                     type="radio"

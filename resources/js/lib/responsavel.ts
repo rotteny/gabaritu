@@ -29,6 +29,11 @@ export const ehMenorDeIdade = (ano: string | number): boolean => {
     return new Date().getFullYear() - n - 1 < 18;
 };
 
+export const nomeDoVinculo = (r: {
+    parentesco: Parentesco;
+    parentesco_outro: string | null;
+}): string => rotuloParentesco(r.parentesco, r.parentesco_outro);
+
 export const rotuloParentesco = (
     valor: Parentesco,
     outro?: string | null,
