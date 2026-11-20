@@ -32,31 +32,36 @@ Pelo art. 24 do ECA Digital (Lei 15.211/2025, em vigor desde 17/03/2026), a cont
 7. **Ao menos 1 responsável.** O aluno menor sempre tem pelo menos 1 vínculo ativo para ficar `ativo`. Nenhuma ação deixa um aluno `ativo` com zero vínculos.
 8. **Um responsável, vários alunos.** Uma conta de responsável pode estar ligada a N alunos, e um aluno a N responsáveis.
 9. **Aluno que faz 18 anos.** Os vínculos continuam (o aluno pode encerrar pela Conta, opção "encerrar acompanhamento", só quando tiver 18 anos ou mais). Fica fora do MVP se complicar; registre como pendência.
-10. **O aluno sabe que é acompanhado.** A Conta do aluno mostra quem são os responsáveis (nome e e-mail mascarado) e o que eles veem.
-11. **Retenção.**
+10. **O aluno sabe que é acompanhado.** A Conta do aluno mostra quem são os responsáveis (nome, parentesco e e-mail mascarado), os convites pendentes e o que eles veem.
+    - **O aluno pede a inclusão de um responsável.** Ele informa o e-mail e o parentesco e o sistema envia um convite do tipo `coresponsavel_aluno`. O responsável entra pelo mesmo fluxo de convite: cria a conta ou faz login, declara e autoriza. Também vale para o aluno ativo, com limite de 3 convites por dia e no máximo 5 responsáveis por aluno. O aluno pode cancelar o convite pendente, mas não pode remover um responsável ativo: só o próprio responsável revoga o vínculo.
+11. **Parentesco.** Todo vínculo tem `parentesco`: `pai`, `mae`, `avo` (avó ou avô), `tutor` (tutor ou guardião legal), `outro` (com texto livre curto: tio, padrasto…). O responsável confirma ou corrige o parentesco ao autorizar. A declaração passa a ser "sou responsável legal por este aluno (pai, mãe, avó/avô, tutor ou guardião com a guarda)". Quem pede o convite (aluno ou responsável) informa o parentesco esperado.
+12. **Retenção.**
     - Aluno que fica `aguardando_responsavel` por mais de **30 dias** é apagado por um comando agendado (`gabaritu:limpar-pendentes`), com aviso por e-mail 3 dias antes.
     - Convites vencidos são apagados.
     - Conta de responsável sem nenhum aluno por 30 dias é apagada pelo mesmo comando.
-12. **Papéis.** A tabela `users` ganha `tipo` (`aluno` ou `responsavel`). O responsável não estuda: só acessa o painel e a própria conta. Aluno não acessa `/responsavel`. Um e-mail tem uma conta só.
-13. **Segurança.** Toda rota do responsável checa se o vínculo é ativo e se o aluno é dele (IDOR), com rate limit em convite, reenvio e aceite. A resposta do convite não revela se o e-mail tem conta.
+13. **Papéis.** A tabela `users` ganha `tipo` (`aluno` ou `responsavel`). O responsável não estuda: só acessa o painel e a própria conta. Aluno não acessa `/responsavel`. Um e-mail tem uma conta só.
+14. **Segurança.** Toda rota do responsável checa se o vínculo é ativo e se o aluno é dele (IDOR), com rate limit em convite, reenvio e aceite. A resposta do convite não revela se o e-mail tem conta.
 
 ## Rotas e páginas (Inertia)
 | Rota | Página | Props / campos |
 |---|---|---|
-| `POST /cadastro` | (existente) | + `email_responsavel` (obrigatório se a idade for < 18; diferente do `email`). Aluno menor: redirect para `/aguardando-responsavel`. |
+| `POST /cadastro` | (existente) | + `email_responsavel`, `parentesco_responsavel`, `parentesco_outro?` (obrigatório se a idade for < 18; diferente do `email`). Aluno menor: redirect para `/aguardando-responsavel`. |
 | `GET /aguardando-responsavel` | `aluno/AguardandoResponsavel.vue` | `email_responsavel_mascarado`, `convite_expira_em`, `recusado: boolean`, `reenvios_restantes`, `fala` |
 | `POST /aguardando-responsavel/reenviar` | redirect | throttle |
 | `PATCH /aguardando-responsavel/email` | redirect | `email_responsavel` |
-| `GET /responsavel/convite/{token}` | `responsavel/Convite.vue` | `convite: { aluno: { apelido, serie }, email, tipo: 'autorizacao'|'coresponsavel'|'transferencia', expira_em }`, `tem_conta: boolean`, `logado_como_destinatario: boolean`; token inválido ou vencido: página de erro clara |
-| `POST /responsavel/convite/{token}` | redirect → `/responsavel` | sem conta: `nome, senha, senha_confirmation, ano_nascimento, declara_responsavel, aceite_termos`; com conta (logado): `declara_responsavel, aceite_termos` |
+| `GET /responsavel/convite/{token}` | `responsavel/Convite.vue` | `convite: { aluno: { apelido, serie }, email, tipo: 'autorizacao'|'coresponsavel'|'coresponsavel_aluno'|'transferencia', parentesco, parentesco_outro, expira_em }`, `tem_conta: boolean`, `logado_como_destinatario: boolean`; token inválido ou vencido: página de erro clara |
+| `POST /responsavel/convite/{token}` | redirect → `/responsavel` | sem conta: `nome, senha, senha_confirmation, ano_nascimento, parentesco, parentesco_outro?, declara_responsavel, aceite_termos`; com conta (logado): `parentesco, parentesco_outro?, declara_responsavel, aceite_termos` |
 | `POST /responsavel/convite/{token}/recusar` | redirect → `/` | — |
-| `GET /responsavel` | `responsavel/Painel.vue` | `alunos: [{ id, apelido, serie, idade, status, teto_zoeira_responsavel, responsaveis: [{ nome, email_mascarado, sou_eu }], convites_pendentes: [{ email_mascarado, tipo, expira_em }] }]`, `fala` |
+| `GET /responsavel` | `responsavel/Painel.vue` | `alunos: [{ id, apelido, serie, idade, status, teto_zoeira_responsavel, responsaveis: [{ nome, parentesco, email_mascarado, sou_eu }], convites_pendentes: [{ email_mascarado, tipo, expira_em }] }]`, `fala` |
 | `GET /responsavel/alunos/{aluno}` | `responsavel/Aluno.vue` | `aluno` (como acima) + o mesmo payload de desempenho de `/desempenho` |
 | `PATCH /responsavel/alunos/{aluno}/zoeira` | redirect | `teto: 'fofo'|'sarc'|'sem'` (`sem` = sem limite do responsável) |
-| `POST /responsavel/alunos/{aluno}/convites` | redirect | `email`, `tipo: 'coresponsavel'|'transferencia'` |
+| `POST /responsavel/alunos/{aluno}/convites` | redirect | `email`, `parentesco`, `parentesco_outro?`, `tipo: 'coresponsavel'|'transferencia'` |
 | `DELETE /responsavel/alunos/{aluno}/vinculo` | redirect | revogar o próprio vínculo (bloqueado se for o único: 422 com mensagem clara) |
 | `DELETE /responsavel/alunos/{aluno}` | redirect | `senha` → apaga o aluno |
 | `GET /responsavel/conta` | `responsavel/Conta.vue` | dados do responsável, trocar senha, apagar a própria conta (bloqueado enquanto for o único responsável de algum aluno) |
+| `GET /conta` (aluno, existente) | `Conta.vue` | + `responsaveis: [{ nome, parentesco, email_mascarado }]`, `convites_responsavel: [{ id, email_mascarado, parentesco, expira_em }]`, `pode_convidar: boolean` |
+| `POST /conta/responsaveis` | redirect | `email`, `parentesco`, `parentesco_outro?` (throttle 3/dia, máx. 5 responsáveis) |
+| `DELETE /conta/responsaveis/convites/{convite}` | redirect | cancela um convite pendente do próprio aluno |
 | `GET /termos` | `Termos.vue` | pública, inclusive com o cadastro fechado |
 
 **Login:** responsável cai em `/responsavel`; aluno pendente cai em `/aguardando-responsavel`.
