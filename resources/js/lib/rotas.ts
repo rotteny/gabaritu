@@ -4,6 +4,7 @@ export const rotas = {
     desempenho: '/desempenho',
     conta: '/conta',
     privacidade: '/privacidade',
+    quemSomos: '/quem-somos',
     revisao: '/revisao',
     entrar: '/entrar',
     cadastro: '/cadastro',

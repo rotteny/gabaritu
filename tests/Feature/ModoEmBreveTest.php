@@ -47,3 +47,13 @@ describe('aberto', function () {
         $this->get('/robots.txt')->assertDontSee('Disallow: /');
     });
 });
+
+describe('quem somos', function () {
+    it('é pública com o cadastro fechado e com ele aberto', function (bool $aberto) {
+        config(['gabaritu.cadastro_aberto' => $aberto]);
+
+        $this->get('/quem-somos')
+            ->assertOk()
+            ->assertInertia(fn ($page) => $page->component('QuemSomos'));
+    })->with([false, true]);
+});

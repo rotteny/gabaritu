@@ -6,6 +6,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\InicioController;
 use App\Http\Controllers\MateriaController;
 use App\Http\Controllers\PrivacidadeController;
+use App\Http\Controllers\QuemSomosController;
 use App\Http\Controllers\RespostaController;
 use App\Http\Controllers\RevisaoController;
 use App\Http\Controllers\RobotsController;
@@ -16,6 +17,7 @@ Route::get('robots.txt', RobotsController::class);
 
 Route::get('/', HomeController::class)->name('home');
 Route::get('privacidade', PrivacidadeController::class)->name('privacidade');
+Route::get('quem-somos', QuemSomosController::class)->name('quem-somos');
 
 Route::middleware('auth')->group(function () {
     Route::get('inicio', InicioController::class)->name('inicio');

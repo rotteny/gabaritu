@@ -313,3 +313,27 @@
         margin: 0;
     }
 }
+
+/* Quem somos */
+.gb-quadro-grafia {
+    display: grid;
+    gap: 8px;
+    margin-top: 6px;
+    padding: 12px 14px;
+    background: var(--white);
+    border: 3px solid var(--ink);
+    border-radius: 14px 10px 16px 11px;
+    box-shadow: 3px 3px 0 var(--ink);
+}
+.gb-quadro-grafia .gb-subtitulo {
+    margin: 0;
+    font-size: 18px;
+}
+.gb-quadro-palavras {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
