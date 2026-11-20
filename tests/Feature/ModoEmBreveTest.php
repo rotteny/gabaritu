@@ -57,3 +57,9 @@ describe('quem somos', function () {
             ->assertInertia(fn ($page) => $page->component('QuemSomos'));
     })->with([false, true]);
 });
+
+it('compartilha cadastro_aberto pra esconder Entrar na área pública fechada', function (bool $aberto) {
+    config(['gabaritu.cadastro_aberto' => $aberto]);
+
+    $this->get('/quem-somos')->assertInertia(fn ($page) => $page->where('gabaritu.cadastro_aberto', $aberto));
+})->with([false, true]);

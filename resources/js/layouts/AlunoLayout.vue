@@ -58,7 +58,11 @@ const ativo = (href: string) =>
                         {{ item.rotulo }}
                     </Link>
                 </nav>
-                <nav v-else class="gb-nav" aria-label="Principal">
+                <nav
+                    v-else-if="gabaritu?.cadastro_aberto"
+                    class="gb-nav"
+                    aria-label="Principal"
+                >
                     <Link :href="rotas.entrar">Entrar</Link>
                 </nav>
                 <BotaoSom />

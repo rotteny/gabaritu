@@ -15,7 +15,7 @@ defineProps<{ cadastroAberto: boolean; repositorioUrl: string }>();
             <Link :href="login()" class="l-btn l-btn--white">Entrar</Link>
         </template>
         <template v-else>
-            <span class="l-badge">Abre em breve</span>
+            <span class="l-badge">Em breve: o cadastro abre logo!</span>
             <a
                 :href="repositorioUrl"
                 class="l-btn l-btn--yellow"
