@@ -6,6 +6,7 @@ use App\Models\User;
 use Illuminate\Auth\Notifications\ResetPassword;
 use Illuminate\Http\Response;
 use Illuminate\Mail\Markdown;
+use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Support\Facades\URL;
 
 /**
@@ -67,8 +68,9 @@ final class PreviaEmails
 
         if ($nome === 'redefinir-senha') {
             $mensagem = (new ResetPassword('token-de-exemplo'))->toMail(new User(['email' => 'estudante@exemplo.com']));
-            $html = $markdown->render('notifications::email', $mensagem->data());
-            $puro = $markdown->renderText('notifications::email', $mensagem->data());
+            $dadosMensagem = $mensagem instanceof MailMessage ? $mensagem->data() : [];
+            $html = $markdown->render('notifications::email', $dadosMensagem);
+            $puro = $markdown->renderText('notifications::email', $dadosMensagem);
         } else {
             $view = str_replace('-com-conta', '', "previa.emails.{$nome}");
             $html = $markdown->render($view, $dados);
