@@ -13,22 +13,10 @@ it('a lista de avatares é a fixa de bichos marinhos', function () {
     ]);
 });
 
-it('o cadastro aceita o avatar escolhido', function () {
+it('o cadastro sempre começa com o peixe-palhaço e ignora avatar enviado', function () {
     $this->post('/cadastro', dadosDeCadastro(['avatar' => 'polvo']))->assertSessionHasNoErrors();
 
-    expect(User::firstOrFail()->avatar)->toBe('polvo');
-});
-
-it('o cadastro sorteia um avatar da lista quando não vem nenhum', function () {
-    $this->post('/cadastro', dadosDeCadastro())->assertSessionHasNoErrors();
-
-    expect(User::firstOrFail()->avatar)->toBeIn(config('gabaritu.avatares'));
-});
-
-it('o cadastro recusa avatar fora da lista', function () {
-    $this->post('/cadastro', dadosDeCadastro(['avatar' => 'tubarao-martelo']))->assertSessionHasErrors('avatar');
-
-    expect(User::count())->toBe(0);
+    expect(User::firstOrFail()->avatar)->toBe('peixe-palhaco');
 });
 
 it('PATCH /conta/perfil troca o avatar e recusa valor inválido com 422', function () {

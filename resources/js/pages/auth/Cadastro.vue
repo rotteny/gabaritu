@@ -2,7 +2,6 @@
 import { Head, Link, useForm } from '@inertiajs/vue3';
 import { computed } from 'vue';
 import Aviso from '@/components/aluno/Aviso.vue';
-import EscolhaAvatar from '@/components/aluno/EscolhaAvatar.vue';
 import Campo from '@/components/aluno/Campo.vue';
 import ConviteNoCadastro from '@/components/responsavel/ConviteNoCadastro.vue';
 import ResponsavelNoCadastro from '@/components/responsavel/ResponsavelNoCadastro.vue';
@@ -37,7 +36,6 @@ const form = useForm({
     senha_confirmation: '',
     ano_nascimento: '' as string | number,
     serie: '2em',
-    avatar: '',
     email_responsavel: '',
     parentesco_responsavel: 'mae',
     parentesco_outro: '',
@@ -60,7 +58,6 @@ const enviar = () =>
             const { confirma_responsavel, ...resto } = d;
             const base: Record<string, unknown> = {
                 ...resto,
-                avatar: d.avatar || undefined,
             };
             if (props.convite_responsavel) {
                 base.convite = props.convite_responsavel.token;
@@ -152,12 +149,6 @@ const enviar = () =>
             legenda="Série"
             :opcoes="SERIES"
             :erro="form.errors.serie"
-        />
-        <EscolhaAvatar
-            v-model="form.avatar"
-            legenda="Escolha seu bicho (opcional)"
-            ajuda="Se você não escolher, a gente sorteia um. Dá para trocar depois na página Conta."
-            :erro="form.errors.avatar"
         />
         <div>
             <label class="gb-check">

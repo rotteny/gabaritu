@@ -11,10 +11,8 @@ use App\Domain\Responsavel\PedidoDeVinculo;
 use App\Mail\CadastroConfirmado;
 use App\Models\ConviteResponsavel;
 use App\Models\User;
-use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Validator;
-use Illuminate\Validation\Rule;
 use Illuminate\Validation\Rules\Password;
 use Illuminate\Validation\ValidationException;
 use Laravel\Fortify\Contracts\CreatesNewUsers;
@@ -41,7 +39,6 @@ class CreateNewUser implements CreatesNewUsers
             'ano_nascimento' => $this->anoNascimentoRules(),
             'serie' => $this->serieRules(),
             'aceite_privacidade' => ['accepted'],
-            'avatar' => ['nullable', Rule::in(config('gabaritu.avatares'))],
             ...($menor && ! $vincular ? $this->regrasDoResponsavel((string) ($input['email'] ?? '')) : []),
         ], [
             'aceite_privacidade.accepted' => 'Para criar a conta, é preciso aceitar a política de privacidade.',
@@ -54,7 +51,7 @@ class CreateNewUser implements CreatesNewUsers
             'password' => $dados['senha'],
             'ano_nascimento' => (int) $dados['ano_nascimento'],
             'serie' => $dados['serie'],
-            'avatar' => $dados['avatar'] ?? Arr::random(config('gabaritu.avatares')),
+            'avatar' => config('gabaritu.avatar_padrao'),
             'zoeira' => self::ZOEIRA_INICIAL,
         ]);
         // Fora do fillable de propósito: só o cadastro grava o aceite.

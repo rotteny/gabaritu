@@ -17,7 +17,7 @@ const opcoes = computed(() =>
         : AVATARES,
 );
 
-/** Vazio quando ninguém foi escolhido (o backend sorteia). */
+/** Vazio quando ainda não há escolha. */
 const modelo = defineModel<string>({ required: true });
 const nome = useId();
 </script>

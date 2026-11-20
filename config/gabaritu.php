@@ -20,6 +20,8 @@ return [
     'termos_versao' => '2026-11-22',
 
     /* Avatares do aluno: lista fixa de bichos marinhos; não há upload de foto (não guardamos imagem de menor). */
+    'avatar_padrao' => 'peixe-palhaco',
+
     'avatares' => [
         'peixe-palhaco', 'caranguejo', 'polvo', 'tartaruga', 'agua-viva', 'cavalo-marinho',
         'estrela-do-mar', 'golfinho', 'baleia', 'lula', 'ourico', 'lagosta',
