@@ -171,7 +171,7 @@ describe('co-responsável e transferência', function () {
     it('o co-responsável entra sem tirar o primeiro', function () {
         $primeiro = User::factory()->responsavel()->create();
         $aluno = User::factory()->comResponsavel($primeiro)->create();
-        [, $token] = conviteComToken(['aluno_id' => $aluno->id, 'tipo' => 'coresponsavel', 'email' => 'pai@exemplo.test', 'parentesco' => 'pai']);
+        [, $token] = conviteComToken(['aluno_id' => $aluno->id, 'solicitante_id' => $primeiro->id, 'tipo' => 'coresponsavel', 'email' => 'pai@exemplo.test', 'parentesco' => 'pai']);
 
         $this->post("/responsavel/convite/{$token}", dadosDeAceiteNovo(['parentesco' => 'pai']))->assertRedirect('/responsavel');
 
@@ -187,7 +187,7 @@ describe('co-responsável e transferência', function () {
         $convite = ConviteResponsavel::firstOrFail();
         expect($aluno->responsaveis()->pluck('users.id')->all())->toBe([$antigo->id]);
 
-        [, $token] = conviteComToken(['aluno_id' => $aluno->id, 'tipo' => 'transferencia', 'email' => 'novo@exemplo.test', 'substitui_responsavel_id' => $antigo->id]);
+        [, $token] = conviteComToken(['aluno_id' => $aluno->id, 'solicitante_id' => $antigo->id, 'tipo' => 'transferencia', 'email' => 'novo@exemplo.test', 'substitui_responsavel_id' => $antigo->id]);
         $this->post('/logout');
         $this->post("/responsavel/convite/{$token}", dadosDeAceiteNovo(['parentesco' => 'tutor']))->assertRedirect('/responsavel');
 

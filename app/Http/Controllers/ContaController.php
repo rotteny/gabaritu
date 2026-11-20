@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Concerns\PasswordValidationRules;
 use App\Domain\Responsavel\ApresentadorDeAluno;
+use App\Domain\Responsavel\GestorDeVinculos;
 use App\Domain\Responsavel\LimitesDeConvite;
 use App\Enums\Nivel;
 use App\Enums\Serie;
@@ -79,7 +80,7 @@ class ContaController extends Controller
         return back();
     }
 
-    public function destroy(Request $request): RedirectResponse
+    public function destroy(Request $request, GestorDeVinculos $vinculos): RedirectResponse
     {
         $request->validate(['senha' => $this->currentPasswordRules()]);
         $aluno = $request->user();
@@ -88,11 +89,8 @@ class ContaController extends Controller
         $request->session()->invalidate();
         $request->session()->regenerateToken();
 
-        DB::transaction(function () use ($aluno): void {
-            DB::table('sessions')->where('user_id', $aluno->id)->delete();
-            DB::table('password_reset_tokens')->where('email', $aluno->email)->delete();
-            $aluno->delete();
-        });
+        // Apaga sessões, token de senha e o aluno, e marca o responsável que ficou sem aluno (entra na limpeza de 30 dias).
+        $vinculos->apagarAluno($aluno);
 
         return redirect('/');
     }

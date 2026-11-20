@@ -79,6 +79,21 @@ class ConviteResponsavel extends Model
             && $this->invalidado_em === null && $this->expira_em->isFuture();
     }
 
+    /**
+     * Convite emitido por um responsável (co-responsável ou transferência) só vale enquanto quem emitiu
+     * continua com vínculo ativo: revogado, contestado (suspenso), transferido ou apagado, o convite morre junto.
+     */
+    public function emissorSegueAutorizado(): bool
+    {
+        if (! in_array($this->tipo, [TipoConvite::Coresponsavel->value, TipoConvite::Transferencia->value], true)) {
+            return true;
+        }
+
+        return $this->solicitante_id !== null && VinculoResponsavel::query()
+            ->where('aluno_id', $this->aluno_id)->where('responsavel_id', $this->solicitante_id)
+            ->where('status', VinculoResponsavel::ATIVO)->exists();
+    }
+
     /** @return BelongsTo<User, $this> */
     public function solicitante(): BelongsTo
     {

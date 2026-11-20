@@ -61,7 +61,7 @@ class AceitadorDeConvite
     {
         $atual = ConviteResponsavel::query()->lockForUpdate()->find($convite->id);
 
-        if ($atual === null || ! $atual->estaPendente()) {
+        if ($atual === null || ! $atual->estaPendente() || ! $atual->emissorSegueAutorizado()) {
             throw new ConviteIndisponivel;
         }
 

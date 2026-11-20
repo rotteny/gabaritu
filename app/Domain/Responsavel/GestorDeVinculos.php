@@ -15,13 +15,16 @@ class GestorDeVinculos
     /** Invariante: aluno menor ativo sempre mantém ao menos 1 vínculo ativo. */
     public function revogar(User $aluno, User $responsavel): void
     {
-        if ($aluno->precisaDeResponsavel() && $aluno->vinculosAtivosComResponsaveis()->count() <= 1) {
-            throw ValidationException::withMessages([
-                'vinculo' => 'Você é o único responsável por este aluno. Transfira a responsabilidade para outra pessoa ou apague a conta do aluno.',
-            ]);
-        }
-
         DB::transaction(function () use ($aluno, $responsavel): void {
+            // A trava no aluno serializa revogações, contestações e exclusões simultâneas: a contagem abaixo já é a final.
+            $aluno = $this->travarAluno($aluno);
+
+            if ($aluno->precisaDeResponsavel() && $aluno->vinculosAtivosComResponsaveis()->count() <= 1) {
+                throw ValidationException::withMessages([
+                    'vinculo' => 'Você é o único responsável por este aluno. Transfira a responsabilidade para outra pessoa ou apague a conta do aluno.',
+                ]);
+            }
+
             $aluno->vinculosComResponsaveis()->where('responsavel_id', $responsavel->id)->delete();
             $this->marcarSemAluno($responsavel);
             $this->voltarParaPendenteSeFicouSemResponsavel($aluno);
@@ -40,8 +43,11 @@ class GestorDeVinculos
 
     public function apagarResponsavel(User $responsavel): void
     {
-        $this->exigirPodeApagarResponsavel($responsavel);
-        $this->apagarUsuario($responsavel);
+        DB::transaction(function () use ($responsavel): void {
+            $this->travarAlunosDe($responsavel);
+            $this->exigirPodeApagarResponsavel($responsavel);
+            $this->apagarUsuario($responsavel);
+        });
     }
 
     public function exigirPodeApagarResponsavel(User $responsavel): void
@@ -81,12 +87,14 @@ class GestorDeVinculos
     /** O aluno diz que aquela pessoa não é seu responsável: o acesso é suspenso na hora. */
     public function contestar(User $aluno, User $contestado): void
     {
-        $vinculo = $aluno->vinculosAtivosComResponsaveis()->where('responsavel_id', $contestado->id)->firstOrFail();
-
-        DB::transaction(function () use ($aluno, $contestado, $vinculo): void {
+        $vinculo = DB::transaction(function () use ($aluno, $contestado): VinculoResponsavel {
+            $aluno = $this->travarAluno($aluno);
+            $vinculo = $aluno->vinculosAtivosComResponsaveis()->where('responsavel_id', $contestado->id)->firstOrFail();
             $vinculo->forceFill(['status' => VinculoResponsavel::SUSPENSO, 'suspenso_em' => now()])->save();
             $this->marcarSemAluno($contestado);
             $this->voltarParaPendenteSeFicouSemResponsavel($aluno);
+
+            return $vinculo;
         });
 
         $destinos = $aluno->responsaveis()->pluck('email')->push((string) config('gabaritu.email_contato'))->all();
@@ -97,15 +105,35 @@ class GestorDeVinculos
 
     public function confirmarRemocao(User $aluno, User $alvo): void
     {
-        $aluno->vinculosComResponsaveis()->where('responsavel_id', $alvo->id)->where('status', VinculoResponsavel::SUSPENSO)->firstOrFail()->delete();
-        $this->marcarSemAluno($alvo);
+        DB::transaction(function () use ($aluno, $alvo): void {
+            $this->travarAluno($aluno)->vinculosComResponsaveis()->where('responsavel_id', $alvo->id)
+                ->where('status', VinculoResponsavel::SUSPENSO)->firstOrFail()->delete();
+            $this->marcarSemAluno($alvo);
+        });
     }
 
     public function restaurar(User $aluno, User $alvo): void
     {
-        $vinculo = $aluno->vinculosComResponsaveis()->where('responsavel_id', $alvo->id)->where('status', VinculoResponsavel::SUSPENSO)->firstOrFail();
+        DB::transaction(function () use ($aluno, $alvo): void {
+            $vinculo = $this->travarAluno($aluno)->vinculosComResponsaveis()->where('responsavel_id', $alvo->id)
+                ->where('status', VinculoResponsavel::SUSPENSO)->firstOrFail();
 
-        $vinculo->forceFill(['status' => VinculoResponsavel::ATIVO, 'suspenso_em' => null])->save();
-        $alvo->forceFill(['sem_aluno_desde' => null])->save();
+            $vinculo->forceFill(['status' => VinculoResponsavel::ATIVO, 'suspenso_em' => null])->save();
+            $alvo->forceFill(['sem_aluno_desde' => null])->save();
+        });
+    }
+
+    /** Relê o aluno com trava de linha (SELECT ... FOR UPDATE); só tem efeito dentro de uma transação. */
+    private function travarAluno(User $aluno): User
+    {
+        return User::query()->lockForUpdate()->findOrFail($aluno->id);
+    }
+
+    /** Trava, em ordem de id (evita deadlock), todos os alunos ligados ao responsável. */
+    private function travarAlunosDe(User $responsavel): void
+    {
+        $ids = VinculoResponsavel::query()->where('responsavel_id', $responsavel->id)->pluck('aluno_id');
+
+        User::query()->whereIn('id', $ids)->orderBy('id')->lockForUpdate()->get();
     }
 }

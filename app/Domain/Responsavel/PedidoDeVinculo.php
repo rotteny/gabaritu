@@ -109,7 +109,8 @@ class PedidoDeVinculo
     {
         return $destino->tipo === TipoConta::Aluno->value
             && $destino->precisaDeResponsavel()
-            && ! $destino->responsaveis()->where('users.id', $solicitante->id)->exists();
+            // Qualquer vínculo, inclusive suspenso: quem o aluno contestou não volta por um pedido novo.
+            && ! $destino->vinculosComResponsaveis()->where('responsavel_id', $solicitante->id)->exists();
     }
 
     private function pedirParaNovoAluno(User $solicitante, string $email, DadosDeParentesco $parentesco, ?string $ip): void
@@ -153,11 +154,23 @@ class PedidoDeVinculo
 
     private function concluirSePronto(ConviteResponsavel $convite, User $aluno): void
     {
-        if ($convite->aluno_aceitou_em === null || ($convite->exige_aprovacao && $convite->aprovado_em === null)) {
+        if ($convite->aluno_aceitou_em === null) {
             return;
         }
 
+        $aluno = User::query()->lockForUpdate()->findOrFail($aluno->id);
         $solicitante = User::query()->findOrFail($convite->solicitante_id);
+
+        // A exigência é avaliada na conclusão, não só na criação: se o aluno ganhou responsável depois do pedido,
+        // um deles passa a ter de aprovar (senão o adulto pedia antes da autorização e entrava sem ninguém saber).
+        if (! $convite->exige_aprovacao && $this->exigirAprovacaoSeHouverResponsavel($convite, $aluno, $solicitante)) {
+            return;
+        }
+
+        if ($convite->exige_aprovacao && $convite->aprovado_em === null) {
+            return;
+        }
+
         $vinculo = $this->registrador->registrar(
             $aluno,
             $solicitante,
@@ -170,6 +183,20 @@ class PedidoDeVinculo
         $convite->forceFill(['usado_em' => now()])->save();
 
         DB::afterCommit(fn () => Mail::to($solicitante->email)->send(new AutorizacaoConfirmada($aluno, $solicitante, $vinculo)));
+    }
+
+    private function exigirAprovacaoSeHouverResponsavel(ConviteResponsavel $convite, User $aluno, User $solicitante): bool
+    {
+        $atuais = $aluno->responsaveis()->where('users.id', '!=', $solicitante->id)->get();
+
+        if ($atuais->isEmpty()) {
+            return false;
+        }
+
+        $convite->forceFill(['exige_aprovacao' => true])->save();
+        DB::afterCommit(fn () => $atuais->each(fn (User $atual) => Mail::to($atual->email)->send(new PedidoDeVinculoAosResponsaveis($convite, $aluno, $solicitante))));
+
+        return true;
     }
 
     private function resolver(ConviteResponsavel $convite, callable $acao): void

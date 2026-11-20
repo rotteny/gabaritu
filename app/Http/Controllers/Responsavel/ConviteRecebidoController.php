@@ -97,7 +97,7 @@ class ConviteRecebidoController extends Controller
     {
         $convite = ConviteResponsavel::query()->paraResponsavel()->with('aluno')->where('token_hash', ConviteResponsavel::hashDoToken($token))->first();
 
-        return $convite?->estaPendente() ? $convite : null;
+        return $convite !== null && $convite->estaPendente() && $convite->emissorSegueAutorizado() ? $convite : null;
     }
 
     /** Token inexistente, usado, recusado ou vencido: a mesma página, sem convite (`vencido` só quando o prazo passou). */
