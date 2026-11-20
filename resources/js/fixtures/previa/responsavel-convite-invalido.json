@@ -1,0 +1,8 @@
+{
+    "component": "responsavel/Convite",
+    "anonimo": true,
+    "props": {
+        "convite": null,
+        "vencido": false
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "component": "Conta",
+    "props": {
+        "responsaveis": [
+            {
+                "nome": "Maria Silva",
+                "parentesco": "mae",
+                "email_mascarado": "m***a@gmail.com"
+            },
+            {
+                "nome": "João Silva",
+                "parentesco": "pai",
+                "email_mascarado": "j***o@gmail.com"
+            }
+        ],
+        "convites_responsavel": [
+            {
+                "id": 4,
+                "email_mascarado": "a***a@gmail.com",
+                "parentesco": "avo",
+                "expira_em": "2026-11-26T20:00:00-03:00"
+            }
+        ],
+        "pode_convidar": true
+    }
+}

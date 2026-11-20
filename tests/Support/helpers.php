@@ -3,6 +3,7 @@
 use App\Models\Alternativa;
 use App\Models\Assunto;
 use App\Models\ChaveFala;
+use App\Models\ConviteResponsavel;
 use App\Models\Etiqueta;
 use App\Models\Materia;
 use App\Models\Questao;
@@ -92,4 +93,46 @@ function responderAtual(User $aluno, Tentativa $tentativa, bool $certa, int $esp
         'questao_id' => $questao['id'],
         'alternativa_id' => $alvo->id,
     ]);
+}
+
+/** Convite com token conhecido. @return array{0: App\Models\ConviteResponsavel, 1: string} */
+function conviteComToken(array $atributos = [], ?string $token = null): array
+{
+    $token ??= 'token-de-teste-'.bin2hex(random_bytes(8));
+    $convite = ConviteResponsavel::factory()->comToken($token)->create($atributos);
+
+    return [$convite, $token];
+}
+
+function dadosDeAceiteNovo(array $sobrescrever = []): array
+{
+    return [
+        'nome' => 'Maria da Silva',
+        'senha' => 'senha-bem-longa-123',
+        'senha_confirmation' => 'senha-bem-longa-123',
+        'ano_nascimento' => (int) now()->format('Y') - 40,
+        'parentesco' => 'mae',
+        'declara_responsavel' => true,
+        'aceite_termos' => true,
+        ...$sobrescrever,
+    ];
+}
+
+function dadosDeAceiteExistente(array $sobrescrever = []): array
+{
+    return ['parentesco' => 'mae', 'declara_responsavel' => true, 'aceite_termos' => true, ...$sobrescrever];
+}
+
+function dadosDeCadastro(array $sobrescrever = []): array
+{
+    return [
+        'apelido' => 'Peixotinho',
+        'email' => 'aluno@exemplo.test',
+        'senha' => 'senha-bem-longa-123',
+        'senha_confirmation' => 'senha-bem-longa-123',
+        'ano_nascimento' => (int) now()->format('Y') - 30,
+        'serie' => '2em',
+        'aceite_privacidade' => true,
+        ...$sobrescrever,
+    ];
 }

@@ -1,9 +1,15 @@
 <script setup lang="ts">
 import { Head, Link, useForm } from '@inertiajs/vue3';
+import { computed } from 'vue';
 import Aviso from '@/components/aluno/Aviso.vue';
+import EscolhaAvatar from '@/components/aluno/EscolhaAvatar.vue';
 import Campo from '@/components/aluno/Campo.vue';
+import ConviteNoCadastro from '@/components/responsavel/ConviteNoCadastro.vue';
+import ResponsavelNoCadastro from '@/components/responsavel/ResponsavelNoCadastro.vue';
 import GrupoOpcoes from '@/components/aluno/GrupoOpcoes.vue';
+import { ehMenorDeIdade } from '@/lib/responsavel';
 import { rotas } from '@/lib/rotas';
+import type { ConviteDoCadastro } from '@/types/gabaritu';
 
 defineOptions({
     layout: {
@@ -20,27 +26,64 @@ const SERIES = [
     { valor: 'cursinho', rotulo: 'Cursinho' },
 ];
 
+const props = defineProps<{
+    convite_responsavel?: ConviteDoCadastro | null;
+}>();
+
 const form = useForm({
     apelido: '',
-    email: '',
+    email: props.convite_responsavel?.email ?? '',
     senha: '',
     senha_confirmation: '',
     ano_nascimento: '' as string | number,
     serie: '2em',
+    avatar: '',
+    email_responsavel: '',
+    parentesco_responsavel: 'mae',
+    parentesco_outro: '',
+    confirma_responsavel: false,
     aceite_privacidade: false,
 });
 
+const menor = computed(() => ehMenorDeIdade(form.ano_nascimento));
+
+// Com o convite confirmado, o aluno menor nasce vinculado e não precisa indicar outro e-mail.
+const pedeResponsavel = computed(
+    () =>
+        menor.value &&
+        !(props.convite_responsavel && form.confirma_responsavel),
+);
+
 const enviar = () =>
-    form.post(rotas.cadastro, {
-        onFinish: () => form.reset('senha', 'senha_confirmation'),
-    });
+    form
+        .transform((d) => {
+            const { confirma_responsavel, ...resto } = d;
+            const base: Record<string, unknown> = {
+                ...resto,
+                avatar: d.avatar || undefined,
+            };
+            if (props.convite_responsavel) {
+                base.convite = props.convite_responsavel.token;
+                base.confirma_responsavel = confirma_responsavel;
+            }
+            if (!pedeResponsavel.value) {
+                base.email_responsavel = '';
+                base.parentesco_responsavel = '';
+                base.parentesco_outro = '';
+            }
+            return base;
+        })
+        .post(rotas.cadastro, {
+            onFinish: () => form.reset('senha', 'senha_confirmation'),
+        });
 </script>
 
 <template>
     <Head title="Criar conta" />
     <Aviso tipo="info">
         Guardamos só apelido, ano de nascimento, série, e-mail e suas respostas.
-        Ninguém além de você vê o seu desempenho.
+        Só você e o seu responsável (se você for menor de 18) veem o seu
+        desempenho.
         <Link :href="rotas.privacidade" class="gb-link"
             >Ler tudo sobre privacidade</Link
         >
@@ -89,17 +132,42 @@ const enviar = () =>
             :erro="form.errors.ano_nascimento"
             obrigatorio
         />
+        <ConviteNoCadastro
+            v-if="convite_responsavel"
+            v-model:confirma="form.confirma_responsavel"
+            :convite="convite_responsavel"
+            :erro="(form.errors as Record<string, string>).convite"
+        />
+        <ResponsavelNoCadastro
+            v-if="pedeResponsavel"
+            v-model:email="form.email_responsavel"
+            v-model:parentesco="form.parentesco_responsavel"
+            v-model:outro="form.parentesco_outro"
+            :erro-email="form.errors.email_responsavel"
+            :erro-parentesco="form.errors.parentesco_responsavel"
+            :erro-outro="form.errors.parentesco_outro"
+        />
         <GrupoOpcoes
             v-model="form.serie"
             legenda="Série"
             :opcoes="SERIES"
             :erro="form.errors.serie"
         />
+        <EscolhaAvatar
+            v-model="form.avatar"
+            legenda="Escolha seu bicho (opcional)"
+            ajuda="Se você não escolher, a gente sorteia um. Dá para trocar depois na página Conta."
+            :erro="form.errors.avatar"
+        />
         <div>
             <label class="gb-check">
                 <input v-model="form.aceite_privacidade" type="checkbox" />
                 <span>
-                    Li e concordo com a
+                    Li e concordo com os
+                    <Link :href="rotas.termos" class="gb-link"
+                        >Termos de uso</Link
+                    >
+                    e a
                     <Link :href="rotas.privacidade" class="gb-link"
                         >política de privacidade</Link
                     >.

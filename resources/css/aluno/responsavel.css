@@ -1,0 +1,238 @@
+/* Responsável legal: seletor, cartões de aluno, cabeçalho sóbrio. Tokens de landing/base.css. */
+.gb-entrada select {
+    flex: 1;
+    min-width: 0;
+    min-height: 48px;
+    padding: 6px 12px;
+    background: var(--white);
+    border: var(--line) solid var(--ink);
+    border-radius: 14px 10px 15px 11px;
+    color: var(--ink);
+    font: inherit;
+}
+.gb-entrada select[aria-invalid='true'] {
+    background: #ffd9d1;
+}
+.gb-campo input:focus-visible,
+.gb-campo select:focus-visible {
+    outline: 3px solid var(--purple-d);
+    outline-offset: 2px;
+}
+
+.gb-resp-grade {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 18px;
+}
+@media (min-width: 900px) {
+    .gb-resp-grade {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        align-items: start;
+    }
+}
+
+.gb-aluno-topo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 12px;
+}
+.gb-aluno-topo .gb-subtitulo {
+    margin: 0;
+    overflow-wrap: anywhere;
+}
+.gb-aluno-meta {
+    margin: 0;
+    font-size: 15px;
+}
+.gb-bloco {
+    display: grid;
+    gap: 8px;
+    padding-top: 12px;
+    border-top: 3px dashed var(--ink);
+}
+.gb-bloco h3 {
+    margin: 0;
+    font-family: var(--font-display);
+    font-size: 16px;
+    font-weight: 400;
+}
+.gb-notas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.gb-notas li {
+    display: grid;
+    padding: 6px 10px;
+    background: var(--white);
+    border: 3px solid var(--ink);
+    border-radius: 12px 8px 13px 9px;
+}
+.gb-notas strong {
+    font-family: var(--font-display);
+    font-size: 20px;
+    font-weight: 400;
+}
+.gb-lista-linhas {
+    display: grid;
+    gap: 6px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 15px;
+}
+.gb-lista-linhas li {
+    overflow-wrap: anywhere;
+}
+.gb-acoes-aluno {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.gb-btn-mini {
+    min-height: 44px;
+    padding: 4px 14px;
+    font-size: 15px;
+    box-shadow: 3px 3px 0 var(--ink);
+}
+.gb-confirma {
+    display: grid;
+    gap: 10px;
+    padding: 12px;
+    background: var(--white);
+    border: 3px solid var(--ink);
+    border-radius: 14px 10px 16px 11px;
+}
+.gb-voltar-link {
+    justify-self: start;
+}
+
+/* Cabeçalho do responsável: mais sóbrio, sem HUD de aluno */
+.gb-topo--resp .gb-topo-in {
+    justify-content: space-between;
+}
+.gb-peixoto-mini {
+    width: 64px;
+    flex: none;
+}
+.gb-convite-peixe {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.gb-convite-lista {
+    display: grid;
+    gap: 6px;
+    margin: 0;
+    padding-left: 22px;
+}
+.gb-contagem {
+    font-variant-numeric: tabular-nums;
+}
+.gb-legal h2 {
+    scroll-margin-top: 80px;
+}
+.gb-legal-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 10px;
+}
+.gb-legal-indice {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 14px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 15px;
+}
+.gb-fieldset-resp {
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Avatares do aluno */
+.gb-avatar {
+    flex: none;
+    display: block;
+    border-radius: 50%;
+}
+.gb-avatares {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+}
+.gb-avatar-opcao {
+    position: relative;
+    display: grid;
+    justify-items: center;
+    gap: 4px;
+    padding: 6px 4px;
+    border: 3px solid transparent;
+    border-radius: 16px 11px 17px 12px;
+    cursor: pointer;
+    text-align: center;
+}
+.gb-avatar-opcao input {
+    position: absolute;
+    opacity: 0;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    cursor: pointer;
+}
+.gb-avatar-opcao:hover {
+    background: var(--white);
+}
+.gb-avatar-opcao:has(input:checked) {
+    background: var(--yellow);
+    border-color: var(--ink);
+    box-shadow: 3px 3px 0 var(--ink);
+}
+.gb-avatar-opcao:has(input:focus-visible) {
+    outline: 3px solid var(--purple-d);
+    outline-offset: 2px;
+}
+.gb-avatar-nome {
+    font-size: 13px;
+    line-height: 1.15;
+    overflow-wrap: normal;
+}
+.gb-nav-avatar {
+    display: inline-flex;
+    flex: none;
+    border: 3px solid var(--ink);
+    border-radius: 50%;
+    background: var(--white);
+}
+.gb-nav-avatar:focus-visible {
+    outline: 3px solid var(--purple-d);
+    outline-offset: 2px;
+}
+.gb-aluno-topo .gb-avatar {
+    border: 3px solid var(--ink);
+}
+
+.gb-link-botao {
+    padding: 0;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    font: inherit;
+    font-size: 14px;
+    text-align: left;
+}
+.gb-contestar {
+    margin-top: 4px;
+}
+.gb-suspenso {
+    display: grid;
+    gap: 8px;
+}

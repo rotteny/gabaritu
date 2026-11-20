@@ -3,9 +3,12 @@ import { useForm } from '@inertiajs/vue3';
 import Campo from '@/components/aluno/Campo.vue';
 import { rotas } from '@/lib/rotas';
 
+const props = withDefaults(defineProps<{ url?: string }>(), {
+    url: rotas.conta + '/senha',
+});
 const form = useForm({ senha_atual: '', senha: '', senha_confirmation: '' });
 const salvar = () =>
-    form.put(rotas.conta + '/senha', {
+    form.put(props.url, {
         preserveScroll: true,
         onSuccess: () => form.reset(),
     });

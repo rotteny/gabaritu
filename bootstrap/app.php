@@ -1,5 +1,9 @@
 <?php
 
+use App\Http\Middleware\ExigirAluno;
+use App\Http\Middleware\ExigirAlunoPendente;
+use App\Http\Middleware\ExigirContaDeAluno;
+use App\Http\Middleware\ExigirResponsavel;
 use App\Http\Middleware\HandleAppearance;
 use App\Http\Middleware\HandleInertiaRequests;
 use App\Http\Middleware\ModoEmBreve;
@@ -24,6 +28,16 @@ return Application::configure(basePath: dirname(__DIR__))
         // env() direto: a configuração de middleware é montada na construção do app, fora do config/.
         $proxies = env('TRUSTED_PROXIES'); // @phpstan-ignore larastan.noEnvCallsOutsideOfConfig
         $middleware->trustProxies(at: is_string($proxies) && $proxies !== '' ? $proxies : null);
+
+        $middleware->redirectGuestsTo(fn (Request $request) => $request->is('responsavel', 'responsavel/*') ? '/responsavel/entrar' : '/entrar');
+        $middleware->redirectUsersTo(fn (Request $request) => $request->user()?->caminhoInicial() ?? '/inicio');
+
+        $middleware->alias([
+            'aluno' => ExigirAluno::class,
+            'aluno.pendente' => ExigirAlunoPendente::class,
+            'aluno.conta' => ExigirContaDeAluno::class,
+            'responsavel' => ExigirResponsavel::class,
+        ]);
 
         $middleware->web(prepend: [
             ModoEmBreve::class,

@@ -3,6 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Concerns\PasswordValidationRules;
+use App\Domain\Responsavel\ApresentadorDeAluno;
+use App\Domain\Responsavel\EncerradorDeAcompanhamento;
+use App\Domain\Responsavel\GestorDeVinculos;
+use App\Domain\Responsavel\LimitesDeConvite;
 use App\Enums\Nivel;
 use App\Enums\Serie;
 use App\Models\User;
@@ -20,13 +24,19 @@ class ContaController extends Controller
 {
     use PasswordValidationRules;
 
-    public function show(Request $request): Response
+    public function show(Request $request, ApresentadorDeAluno $apresentador, LimitesDeConvite $limites): Response
     {
         $aluno = $request->user();
 
         return Inertia::render('Conta', [
-            'perfil' => ['apelido' => $aluno->apelido, 'email' => $aluno->email, 'serie' => $aluno->serie],
+            'perfil' => ['apelido' => $aluno->apelido, 'email' => $aluno->email, 'serie' => $aluno->serie, 'avatar' => $aluno->avatar],
+            'avatares' => config('gabaritu.avatares'),
             'series' => array_map(fn (Serie $serie) => $serie->value, Serie::cases()),
+            'responsaveis' => $apresentador->responsaveisParaAluno($aluno),
+            'convites_responsavel' => $apresentador->convitesParaAluno($aluno),
+            'pedidos_vinculo' => $apresentador->pedidosParaAluno($aluno),
+            'pode_encerrar_acompanhamento' => ! $aluno->precisaDeResponsavel() && $aluno->vinculosComResponsaveis()->exists(),
+            'pode_convidar' => ! $aluno->aguardaResponsavel() && $limites->podeConvidar($aluno),
         ]);
     }
 
@@ -49,11 +59,19 @@ class ContaController extends Controller
     public function perfil(Request $request): RedirectResponse
     {
         $request->user()->update($request->validate([
-            'apelido' => ['required', 'string', 'min:2', 'max:30'],
-            'serie' => ['required', Rule::enum(Serie::class)],
+            'apelido' => ['sometimes', 'required', 'string', 'min:2', 'max:30'],
+            'serie' => ['sometimes', 'required', Rule::enum(Serie::class)],
+            'avatar' => ['sometimes', 'required', Rule::in(config('gabaritu.avatares'))],
         ]));
 
         return back();
+    }
+
+    public function encerrarAcompanhamento(Request $request, EncerradorDeAcompanhamento $encerrador): RedirectResponse
+    {
+        $encerrador->encerrar($request->user());
+
+        return back()->with('status', 'acompanhamento-encerrado');
     }
 
     public function senha(Request $request): RedirectResponse
@@ -71,7 +89,7 @@ class ContaController extends Controller
         return back();
     }
 
-    public function destroy(Request $request): RedirectResponse
+    public function destroy(Request $request, GestorDeVinculos $vinculos): RedirectResponse
     {
         $request->validate(['senha' => $this->currentPasswordRules()]);
         $aluno = $request->user();
@@ -80,11 +98,8 @@ class ContaController extends Controller
         $request->session()->invalidate();
         $request->session()->regenerateToken();
 
-        DB::transaction(function () use ($aluno): void {
-            DB::table('sessions')->where('user_id', $aluno->id)->delete();
-            DB::table('password_reset_tokens')->where('email', $aluno->email)->delete();
-            $aluno->delete();
-        });
+        // Apaga sessões, token de senha e o aluno, e marca o responsável que ficou sem aluno (entra na limpeza de 30 dias).
+        $vinculos->apagarAluno($aluno);
 
         return redirect('/');
     }
@@ -92,7 +107,11 @@ class ContaController extends Controller
     private function recusarZoeiraAcimaDoTeto(User $aluno, ?string $zoeira): void
     {
         if ($zoeira !== null && Nivel::from($zoeira)->ordem() > $aluno->zoeiraMaxima()->ordem()) {
-            throw ValidationException::withMessages(['zoeira' => 'Esse nível de zoeira só é liberado a partir dos 15 anos.']);
+            $porIdade = Nivel::from($zoeira)->ordem() > $aluno->zoeiraMaximaPorIdade()->ordem();
+
+            throw ValidationException::withMessages(['zoeira' => $porIdade
+                ? 'Esse nível de zoeira só é liberado a partir dos 15 anos.'
+                : 'O seu responsável limitou o nível de zoeira. Esse nível não está liberado para você.']);
         }
     }
 }

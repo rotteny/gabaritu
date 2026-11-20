@@ -4,6 +4,7 @@
 #   scripts/producao-edge.sh http    # vhost só com ACME (nginx -t + reload gracioso do nginx compartilhado)
 #   scripts/producao-edge.sh cert    # mapeia o lineage no hook de renovação e emite o certificado (HTTP-01)
 #   scripts/producao-edge.sh https   # vhost definitivo com TLS e cabeçalhos de segurança (nginx -t + reload)
+#   scripts/producao-edge.sh logs    # retenção de 14 dias dos logs do gabaritu no host (cron diário, precisa de sudo)
 # Se `nginx -t` falhar, NADA é recarregado.
 set -euo pipefail
 
@@ -19,6 +20,8 @@ nginx_in_laradock() { (cd "$LARADOCK_DIR" && docker compose exec -T nginx nginx 
 
 install_vhost() { # $1 = http | https
   [[ ! -f "$SITE_CONF" ]] || cp -p "$SITE_CONF" "$SITE_CONF.bak-$(date +%Y%m%d-%H%M%S)"
+  # Formato de log mascarado (http context); "gabaritu-log" ordena antes de "gabaritu" no include.
+  [[ "$1" != https ]] || install -m 644 "$APP_DIR/infra/producao/nginx/log-mascarado.conf" "$LARADOCK_DIR/nginx/sites/gabaritu-log.conf"
   install -m 644 "$EDGE_SRC/gabaritu.$1.conf" "$SITE_CONF"
   if ! nginx_in_laradock -t; then
     echo "nginx -t falhou: vhost NÃO recarregado (arquivo em $SITE_CONF; restaure o .bak ou remova)"; exit 1
@@ -49,12 +52,21 @@ issue_certificate() {
 
 smoke_https() {
   curl -fsS -o /dev/null -w 'https /up: %{http_code}\n' "https://$HOST_NAME/up"
-  curl -sSI "https://$HOST_NAME/" | grep -iE '^(HTTP|strict-transport|x-frame|x-content-type|referrer|permissions|cross-origin)'
+  curl -sSI "https://$HOST_NAME/" | grep -iE '^(HTTP|strict-transport|x-frame|x-content-type|referrer|permissions|cross-origin|content-security)'
+}
+
+# A rotação diária é do logrotate do container nginx (rotate 32, vale para todos os sites); aqui só se apaga o que passa de 14 dias.
+install_log_retention() {
+  local cron_file=/etc/cron.d/gabaritu-logs-retencao
+  echo "20 4 * * * root find $LARADOCK_DIR/logs/nginx -maxdepth 1 -name 'gabaritu-*.log.*' -mtime +14 -delete" | sudo tee "$cron_file" >/dev/null
+  sudo chmod 644 "$cron_file"
+  echo "retenção de 14 dias instalada em $cron_file"
 }
 
 case "${1:-}" in
   http)  install_vhost http ;;
   cert)  issue_certificate ;;
   https) install_vhost https; smoke_https ;;
-  *) echo "uso: $0 {http|cert|https}"; exit 2 ;;
+  logs)  install_log_retention ;;
+  *) echo "uso: $0 {http|cert|https|logs}"; exit 2 ;;
 esac

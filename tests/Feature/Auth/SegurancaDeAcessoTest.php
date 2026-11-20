@@ -17,7 +17,7 @@ function sessaoGravada(User $aluno): string
 it('grava quando e qual versão da política o aluno aceitou', function () {
     $this->post('/cadastro', [
         'apelido' => 'Peixotinho', 'email' => 'aluno@exemplo.test', 'senha' => 'senha-bem-longa-123',
-        'senha_confirmation' => 'senha-bem-longa-123', 'ano_nascimento' => (int) now()->format('Y') - 17,
+        'senha_confirmation' => 'senha-bem-longa-123', 'ano_nascimento' => (int) now()->format('Y') - 30,
         'serie' => '2em', 'aceite_privacidade' => true,
     ])->assertRedirect('/inicio');
 
