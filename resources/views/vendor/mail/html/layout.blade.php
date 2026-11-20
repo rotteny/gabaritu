@@ -28,7 +28,7 @@
 <td class="body" style="padding:0 0 4px;">
 <table class="inner-body" width="100%" bgcolor="#fff6d9" cellpadding="0" cellspacing="0" role="presentation" style="background-color:#fff6d9;border:3px solid #1b1030;border-right:8px solid #1b1030;border-bottom:8px solid #1b1030;">
 <tr>
-<td class="content-cell" style="padding:28px 28px 24px;font-family:'Nunito','Segoe UI',Arial,sans-serif;font-weight:700;font-size:16px;line-height:24px;color:#1b1030;">
+<td class="content-cell" style="padding:28px 28px 24px;font-family:'Nunito','Segoe UI',Arial,sans-serif;font-weight:500;font-size:16px;line-height:24px;color:#1b1030;">
 {!! Illuminate\Mail\Markdown::parse($slot) !!}
 
 {!! $subcopy ?? '' !!}

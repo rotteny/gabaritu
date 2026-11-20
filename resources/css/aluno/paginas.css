@@ -168,7 +168,8 @@
 }
 .gb-detalhes summary {
     cursor: pointer;
-    font-family: var(--font-display);
+    font-family: var(--font-body);
+    font-weight: 700;
     font-size: 17px;
 }
 .gb-detalhes .gb-desempenho {
@@ -285,9 +286,9 @@
     margin: 0;
 }
 .gb-definicoes dt {
-    font-family: var(--font-display);
+    font-family: var(--font-body);
+    font-weight: 700;
     font-size: 16px;
-    font-weight: 400;
 }
 .gb-definicoes dd {
     margin: 0 0 6px;

@@ -16,7 +16,7 @@ export default defineConfig({
                     weights: [400],
                 }),
                 bunny('Nunito', {
-                    weights: [600, 800, 900],
+                    weights: [500, 600, 700, 800, 900],
                 }),
             ],
         }),

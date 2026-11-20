@@ -101,7 +101,8 @@
 }
 .l-exam-grade {
     fill: var(--red);
-    font-family: var(--font-display);
+    font-family: var(--font-body);
+    font-weight: 700;
     font-size: 12px;
 }
 
@@ -225,7 +226,7 @@
     background: var(--white);
     border: 3px solid var(--ink);
     border-radius: 14px 9px 15px 10px;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .l-level--fofo {
@@ -298,7 +299,7 @@
     cursor: pointer;
     font: inherit;
     font-size: 18px;
-    font-weight: 800;
+    font-weight: 600;
     text-align: left;
     transition:
         transform 0.08s,
@@ -334,7 +335,8 @@
     background: var(--yellow);
     border: 3px solid var(--ink);
     border-radius: 50%;
-    font-family: var(--font-display);
+    font-family: var(--font-body);
+    font-weight: 700;
     font-size: 16px;
 }
 .l-why {
@@ -474,7 +476,7 @@
 .l-resp-link {
     margin: 10px 0 0;
     font-size: 15px;
-    font-weight: 800;
+    font-weight: 700;
 }
 .l-resp-link a {
     color: var(--ink);
