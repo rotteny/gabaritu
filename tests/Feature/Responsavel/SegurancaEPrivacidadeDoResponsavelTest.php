@@ -81,7 +81,7 @@ describe('termos e versão dos textos', function () {
     });
 
     it('termos e política usam a mesma versão dos textos', function () {
-        expect(config('gabaritu.termos_versao'))->toBe('2026-11-24')->and(config('gabaritu.privacidade_versao'))->toBe('2026-11-23');
+        expect(config('gabaritu.termos_versao'))->toBe('2026-11-24')->and(config('gabaritu.privacidade_versao'))->toBe('2026-11-24');
     });
 });
 

@@ -14,7 +14,7 @@ return [
     'idade_minima' => 13,
 
     /* Versão da página /privacidade gravada nos aceites. Mudou o texto, mude a versão. */
-    'privacidade_versao' => '2026-11-23',
+    'privacidade_versao' => '2026-11-24',
 
     /* Versão da página /termos gravada no aceite do responsável. Mudou o texto, mude a versão. */
     'termos_versao' => '2026-11-24',
