@@ -38,6 +38,10 @@ export const SECOES_PRIVACIDADE: SecaoLegal[] = [
                 'nível de zoeira, som, reduzir movimento e a última matéria que você abriu.',
             ],
             [
+                'Reports de erro',
+                'ao reportar erro numa questão, guardamos o motivo e o comentário, ligados à sua conta, só para corrigir a questão. Apagamos junto com a conta.',
+            ],
+            [
                 'E-mail e parentesco do responsável',
                 'só se você tem menos de 18 anos: pra enviar o convite de autorização.',
             ],

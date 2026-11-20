@@ -113,6 +113,19 @@ export type QuestaoDados = {
 
 export type RespostaProxima = { url: string } | { resultado_url: string };
 
+export type MotivoReport =
+    | 'enunciado'
+    | 'imagem'
+    | 'gabarito'
+    | 'explicacao'
+    | 'outro';
+
+export type ConfigReport = {
+    url: string;
+    motivos: { valor: MotivoReport; rotulo: string }[];
+    max_comentario: number;
+};
+
 export type RespostaApi = {
     correta: boolean;
     alternativa_correta_id: number;
@@ -122,6 +135,7 @@ export type RespostaApi = {
     freio_ativo: boolean;
     chute: boolean;
     proxima: RespostaProxima;
+    report?: ConfigReport;
 };
 
 export type PontoEvolucao = { data: string; nota: number };

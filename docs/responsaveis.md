@@ -149,7 +149,7 @@ Não inventar fato jurídico: o que for duvidoso entra em `docs/lgpd/` como "ver
 Lista fixa em `config('gabaritu.avatares')` (12 bichos marinhos), sem upload de foto, de propósito (não guardamos imagem de menor). `avatar` é opcional no cadastro (sorteado se faltar) e editável em `PATCH /conta/perfil` (422 fora da lista). Props: `auth.user.avatar`, `perfil.avatar` e `avatares` na Conta, `avatar` de cada aluno no painel e em `/responsavel/alunos/{aluno}`.
 
 ## Versão dos textos
-`config('gabaritu.termos_versao')` e `privacidade_versao` valem `2026-11-22` (mesmo valor). Mudou o texto, mude a versão.
+`config('gabaritu.termos_versao')` e `privacidade_versao` valem `2026-11-25` (mesmo valor). Mudou o texto, mude a versão.
 
 ## Detalhes de implementação (mudanças em relação ao desenho inicial)
 - `responsaveis[].parentesco_outro` e `autorizado_em` acrescentados; no painel, `status` do vínculo.

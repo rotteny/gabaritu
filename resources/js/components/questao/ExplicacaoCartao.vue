@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { useTemplateRef, onMounted } from 'vue';
+import ReportarErro from '@/components/questao/ReportarErro.vue';
 import type { RespostaApi } from '@/types/gabaritu';
 
 defineProps<{ resposta: RespostaApi; ultima: boolean }>();
@@ -22,13 +23,16 @@ onMounted(() => botao.value?.focus({ preventScroll: true }));
                 {{ resposta.explicacao ?? 'Explicação em breve' }}
             </p>
         </section>
-        <button
-            ref="botao"
-            type="button"
-            class="l-btn l-btn--orange q-proxima"
-            @click="$emit('proxima')"
-        >
-            {{ ultima ? 'Ver meu resultado' : 'Próxima questão' }}
-        </button>
+        <div class="q-acoes">
+            <ReportarErro v-if="resposta.report" :report="resposta.report" />
+            <button
+                ref="botao"
+                type="button"
+                class="l-btn l-btn--orange q-proxima"
+                @click="$emit('proxima')"
+            >
+                {{ ultima ? 'Ver meu resultado' : 'Próxima questão' }}
+            </button>
+        </div>
     </div>
 </template>

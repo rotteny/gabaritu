@@ -1,5 +1,7 @@
 import { createInertiaApp } from '@inertiajs/vue3';
 import { initializeTheme } from '@/composables/useAppearance';
+import AdminAuthLayout from '@/layouts/AdminAuthLayout.vue';
+import AdminLayout from '@/layouts/AdminLayout.vue';
 import AlunoLayout from '@/layouts/AlunoLayout.vue';
 import AuthLayout from '@/layouts/AuthLayout.vue';
 import ResponsavelLayout from '@/layouts/ResponsavelLayout.vue';
@@ -20,6 +22,10 @@ void createInertiaApp({
         switch (true) {
             case name === 'Landing':
                 return null;
+            case ['admin/Login', 'admin/DoisFatores'].includes(name):
+                return AdminAuthLayout;
+            case name.startsWith('admin/'):
+                return AdminLayout;
             case name === 'Questao':
                 return QuestaoLayout;
             case [

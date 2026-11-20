@@ -38,10 +38,10 @@ return [
     ],
 
     /* Versão da página /privacidade gravada nos aceites. Mudou o texto, mude a versão. */
-    'privacidade_versao' => '2026-11-24',
+    'privacidade_versao' => '2026-11-25',
 
     /* Versão da página /termos gravada no aceite do responsável. Mudou o texto, mude a versão. */
-    'termos_versao' => '2026-11-24',
+    'termos_versao' => '2026-11-25',
 
     /* Avatares do aluno: lista fixa de bichos marinhos; não há upload de foto (não guardamos imagem de menor). */
     'avatar_padrao' => 'peixe-palhaco',
