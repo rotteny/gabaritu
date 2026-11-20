@@ -45,7 +45,7 @@ const salvar = () =>
         >
             <AvatarAluno :slug="atual" :tamanho="32" decorativo />
         </DialogTrigger>
-        <DialogPortal>
+        <DialogPortal to=".gb">
             <DialogOverlay class="gb-dialogo-fundo" />
             <DialogContent class="gb-dialogo gb-cartao">
                 <DialogClose class="gb-dialogo-fechar" aria-label="Fechar">

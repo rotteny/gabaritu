@@ -1,4 +1,6 @@
 <script setup lang="ts">
+/** `baixa`: areia rasa, para a tela de questão (sem rodapé e sem rolagem). */
+const { baixa = false } = defineProps<{ baixa?: boolean }>();
 const bolhas = [
     { x: '6%', s: '18px', t: '16s', d: '0s' },
     { x: '22%', s: '26px', t: '21s', d: '-6s' },
@@ -20,13 +22,31 @@ const bolhas = [
             <polygon class="gb-raio" points="40,0 100,0 40,700 -50,700" />
             <polygon class="gb-raio" points="190,0 235,0 200,700 120,700" />
             <polygon class="gb-raio" points="310,0 360,0 360,700 270,700" />
-            <path class="gb-alga-o" d="M14 690 Q-2 650 16 628 Q32 608 14 584" />
-            <path class="gb-alga" d="M14 690 Q-2 650 16 628 Q32 608 14 584" />
+            <g :transform="baixa ? undefined : 'translate(0 -72)'">
+                <path
+                    class="gb-alga-o"
+                    d="M14 690 Q-2 650 16 628 Q32 608 14 584"
+                />
+                <path
+                    class="gb-alga"
+                    d="M14 690 Q-2 650 16 628 Q32 608 14 584"
+                />
+            </g>
             <path
                 class="gb-areia"
-                d="M-6 682 Q60 668 130 680 T260 678 T406 682 V710 H-6Z"
+                :d="
+                    baixa
+                        ? 'M-6 682 Q60 668 130 680 T260 678 T406 682 V710 H-6Z'
+                        : 'M-6 618 Q60 604 130 616 T260 614 T406 618 V710 H-6Z'
+                "
             />
-            <ellipse class="gb-pedra" cx="190" cy="692" rx="18" ry="9" />
+            <ellipse
+                class="gb-pedra"
+                :cx="baixa ? 190 : 340"
+                :cy="baixa ? 692 : 618"
+                rx="18"
+                ry="9"
+            />
         </svg>
         <svg
             class="gb-cena gb-cena--desk"
@@ -37,15 +57,33 @@ const bolhas = [
             <polygon class="gb-raio" points="100,0 200,0 80,768 -60,768" />
             <polygon class="gb-raio" points="520,0 600,0 540,768 420,768" />
             <polygon class="gb-raio" points="900,0 960,0 1000,768 880,768" />
-            <path class="gb-alga-o" d="M40 750 Q10 700 44 668 Q70 640 40 600" />
-            <path class="gb-alga" d="M40 750 Q10 700 44 668 Q70 640 40 600" />
-            <path class="gb-alga-o" d="M1320 752 Q1296 710 1324 680" />
-            <path class="gb-alga" d="M1320 752 Q1296 710 1324 680" />
+            <g :transform="baixa ? undefined : 'translate(0 -66)'">
+                <path
+                    class="gb-alga-o"
+                    d="M40 750 Q10 700 44 668 Q70 640 40 600"
+                />
+                <path
+                    class="gb-alga"
+                    d="M40 750 Q10 700 44 668 Q70 640 40 600"
+                />
+                <path class="gb-alga-o" d="M1320 752 Q1296 710 1324 680" />
+                <path class="gb-alga" d="M1320 752 Q1296 710 1324 680" />
+            </g>
             <path
                 class="gb-areia"
-                d="M-6 742 Q200 724 400 740 T800 738 T1200 740 T1372 742 V780 H-6Z"
+                :d="
+                    baixa
+                        ? 'M-6 742 Q200 724 400 740 T800 738 T1200 740 T1372 742 V780 H-6Z'
+                        : 'M-6 684 Q200 666 400 682 T800 680 T1200 682 T1372 684 V780 H-6Z'
+                "
             />
-            <ellipse class="gb-pedra" cx="640" cy="752" rx="26" ry="11" />
+            <ellipse
+                class="gb-pedra"
+                :cx="baixa ? 640 : 1120"
+                :cy="baixa ? 752 : 686"
+                rx="26"
+                ry="11"
+            />
         </svg>
         <div class="gb-bolhas">
             <span

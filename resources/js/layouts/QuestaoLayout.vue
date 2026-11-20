@@ -13,7 +13,7 @@ const reduzido = useMovimentoReduzido();
 
 <template>
     <div class="gb gb-questao" :data-reduzir="reduzido">
-        <FundoAquario />
+        <FundoAquario baixa />
         <slot />
     </div>
 </template>
