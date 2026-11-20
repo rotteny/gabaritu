@@ -29,10 +29,10 @@ class PainelDeDesempenho
             return [];
         }
 
-        $desempenhos = DesempenhoAssunto::query()->where('user_id', $aluno->id)->get()->keyBy('assunto_id');
+        $desempenhos = DesempenhoAssunto::query()->where('user_id', $aluno->id)->whereHas('assunto', fn ($q) => $q->servivel())->get()->keyBy('assunto_id');
         $evolucao = $this->evolucao($aluno);
 
-        return Materia::query()->whereIn('id', $materiaIds)->with('assuntos')->orderBy('ordem')->get()
+        return Materia::query()->whereIn('id', $materiaIds)->with(['assuntos' => fn ($q) => $q->servivel()])->orderBy('ordem')->get()
             ->map(fn (Materia $materia) => [
                 'slug' => $materia->slug,
                 'nome' => $materia->nome,

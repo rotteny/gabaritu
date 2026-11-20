@@ -3,10 +3,53 @@
   "nome": "Português",
   "area": "Linguagens, Códigos e suas Tecnologias",
   "assuntos": [
-    { "slug": "interpretacao-de-texto", "nome": "Interpretação de texto", "ordem": 1, "por_que": "é a base de quase toda questão de Linguagens: tese, inferência, ironia, relação entre texto e imagem e efeitos de sentido aparecem todo ano." },
-    { "slug": "variacao-linguistica", "nome": "Variação linguística", "ordem": 2, "por_que": "o ENEM cobra todo ano a ideia de que falar diferente não é falar errado, com regionalismos, gírias, registros e preconceito linguístico." },
-    { "slug": "funcoes-da-linguagem", "nome": "Funções da linguagem", "ordem": 3, "por_que": "as seis funções de Jakobson são reconhecidas em anúncios, poemas, tirinhas e textos do dia a dia, e é pergunta recorrente." },
-    { "slug": "figuras-de-linguagem", "nome": "Figuras de linguagem", "ordem": 4, "por_que": "metáfora, ironia, metonímia, hipérbole e companhia dão o efeito de sentido que a prova pede para você identificar." },
-    { "slug": "coesao-e-coerencia", "nome": "Coesão e coerência", "ordem": 5, "por_que": "conectivos, pronomes e retomadas entram tanto em questões de gramática contextualizada quanto na competência 4 da redação." }
+    {
+      "slug": "interpretacao-de-texto",
+      "nome": "Interpretação de texto",
+      "ordem": 1,
+      "por_que": "é a base de quase toda questão de Linguagens: tese, inferência, ironia, relação entre texto e imagem e efeitos de sentido aparecem todo ano."
+    },
+    {
+      "slug": "variacao-linguistica",
+      "nome": "Variação linguística",
+      "ordem": 2,
+      "por_que": "o ENEM cobra todo ano a ideia de que falar diferente não é falar errado, com regionalismos, gírias, registros e preconceito linguístico."
+    },
+    {
+      "slug": "funcoes-da-linguagem",
+      "nome": "Funções da linguagem",
+      "ordem": 3,
+      "por_que": "as seis funções de Jakobson são reconhecidas em anúncios, poemas, tirinhas e textos do dia a dia, e é pergunta recorrente."
+    },
+    {
+      "slug": "figuras-de-linguagem",
+      "nome": "Figuras de linguagem",
+      "ordem": 4,
+      "por_que": "metáfora, ironia, metonímia, hipérbole e companhia dão o efeito de sentido que a prova pede para você identificar."
+    },
+    {
+      "slug": "coesao-e-coerencia",
+      "nome": "Coesão e coerência",
+      "ordem": 5,
+      "por_que": "conectivos, pronomes e retomadas entram tanto em questões de gramática contextualizada quanto na competência 4 da redação."
+    },
+    {
+      "slug": "generos-textuais",
+      "nome": "Gêneros textuais",
+      "ordem": 6,
+      "por_que": "Reconhecer gêneros, tipos textuais, suportes e função social de cada texto."
+    },
+    {
+      "slug": "argumentacao-e-estrategias",
+      "nome": "Argumentação e estratégias",
+      "ordem": 7,
+      "por_que": "Identificar teses, argumentos e recursos de persuasão usados para convencer o leitor."
+    },
+    {
+      "slug": "texto-multimodal-e-publicidade",
+      "nome": "Texto multimodal e publicidade",
+      "ordem": 8,
+      "por_que": "Interpretar a combinação de linguagem verbal e não verbal em anúncios, cartazes, charges e quadrinhos."
+    }
   ]
 }

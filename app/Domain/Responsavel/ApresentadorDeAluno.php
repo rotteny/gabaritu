@@ -116,7 +116,7 @@ class ApresentadorDeAluno
     /** @return array<int, array{slug: string, nome: string, nota: int|null}> */
     private function notasPorMateria(User $aluno): array
     {
-        $desempenhos = DesempenhoAssunto::query()->where('user_id', $aluno->id)->with('assunto')->get()
+        $desempenhos = DesempenhoAssunto::query()->where('user_id', $aluno->id)->whereHas('assunto', fn ($q) => $q->servivel())->with('assunto')->get()
             ->groupBy(fn (DesempenhoAssunto $d) => $d->assunto->materia_id);
 
         return Materia::query()->whereIn('id', $desempenhos->keys())->orderBy('ordem')->get()

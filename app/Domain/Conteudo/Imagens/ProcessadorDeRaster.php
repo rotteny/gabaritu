@@ -13,6 +13,12 @@ class ProcessadorDeRaster
 
     private const int COMPRESSAO_PNG = 9;
 
+    private const int POSICAO_TIPO_DE_COR_PNG = 25;
+
+    private const int PNG_CINZA_ALFA = 4;
+
+    private const int PNG_RGBA = 6;
+
     public function processar(string $bytes, string $extensao): ImagemPronta
     {
         $formato = $this->formatoPelosMagicBytes($bytes);
@@ -28,7 +34,7 @@ class ProcessadorDeRaster
             throw new ImagemInvalida('não foi possível decodificar a imagem (arquivo corrompido ou animado)');
         }
 
-        $saida = $this->recodificar($imagem, $formato);
+        $saida = $this->recodificar($imagem, $formato, $this->temAlpha($bytes, $formato));
 
         return new ImagemPronta($saida, $formato, imagesx($imagem), imagesy($imagem));
     }
@@ -40,6 +46,14 @@ class ProcessadorDeRaster
             strlen($bytes) >= 12 && str_starts_with($bytes, 'RIFF') && substr($bytes, 8, 4) === 'WEBP' => 'webp',
             default => null,
         };
+    }
+
+    /** PNG sem canal alfa continua sem: salvar com alfa inflaria o arquivo em cerca de um terço. */
+    private function temAlpha(string $bytes, string $formato): bool
+    {
+        $tipoDeCor = ord($bytes[self::POSICAO_TIPO_DE_COR_PNG] ?? "\0");
+
+        return $formato === 'png' && (in_array($tipoDeCor, [self::PNG_CINZA_ALFA, self::PNG_RGBA], true) || str_contains($bytes, 'tRNS'));
     }
 
     private function conferirDimensoes(string $bytes): void
@@ -55,11 +69,16 @@ class ProcessadorDeRaster
         }
     }
 
-    private function recodificar(GdImage $imagem, string $formato): string
+    private function recodificar(GdImage $imagem, string $formato, bool $temAlpha): string
     {
-        imagepalettetotruecolor($imagem);
-        imagealphablending($imagem, false);
-        imagesavealpha($imagem, true);
+        if ($formato === 'webp') {
+            imagepalettetotruecolor($imagem);
+        }
+
+        if ($formato === 'webp' || $temAlpha) {
+            imagealphablending($imagem, false);
+            imagesavealpha($imagem, true);
+        }
 
         ob_start();
         $ok = $formato === 'png'

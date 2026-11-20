@@ -82,7 +82,19 @@ class GerenciarInep extends Command
 
         $resumo = $removedor->remover(get_current_user());
         $this->info("Apagado: {$resumo['questoes']} questões, {$resumo['alternativas']} alternativas, {$resumo['respostas']} respostas, {$resumo['imagens']} imagens, ".count($resumo['arquivos']).' arquivos. Auditoria em storage/logs/auditoria.log.');
+        $this->avisarAssuntosVazios($resumo['assuntos_vazios']);
 
         return self::SUCCESS;
+    }
+
+    /** @param  list<string>  $assuntos */
+    private function avisarAssuntosVazios(array $assuntos): void
+    {
+        if ($assuntos === []) {
+            return;
+        }
+
+        $this->warn(count($assuntos).' assuntos ficaram sem nenhuma questão (continuam no banco, mas somem das telas):');
+        $this->line('  '.implode("\n  ", $assuntos));
     }
 }

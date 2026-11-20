@@ -142,6 +142,10 @@ class ImportadorConteudo
     /** @param  array<string, int>  $etiquetas */
     private function importarQuestoes(Assunto $assunto, array $etiquetas, string $arquivo, string $pastaImagens): void
     {
+        if (! is_file($arquivo)) {
+            return;
+        }
+
         $questionarios = [];
         foreach ($this->json($arquivo) as $item) {
             $ordem = (int) $item['questionario'];

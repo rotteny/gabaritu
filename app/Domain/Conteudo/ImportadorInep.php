@@ -25,9 +25,18 @@ use RuntimeException;
  */
 class ImportadorInep
 {
-    private const array APLICACOES = ['regular', 'ppl', 'reaplicacao'];
+    /** O ENEM 2020 foi aplicado em janeiro de 2021: a extração marca como `regular_impressa_2021-01`. */
+    private const string PADRAO_DE_APLICACAO = '/^(regular|ppl|reaplicacao)(_[\w-]+)?$/';
 
     private const array STATUS_JURIDICO = ['pendente', 'liberada', 'remover'];
+
+    /** Intermediário da extração e relatório de falhas: não são questões a importar. */
+    private const array ARQUIVOS_IGNORADOS = ['questoes_extraidas.json', 'falhas.json'];
+
+    private const array PASTAS_DE_IMAGENS = ['img', 'imagens'];
+
+    /** O JSON da extração traz o código da língua (en, es); as matérias usam o nome. */
+    private const array LINGUA_PARA_MATERIA = ['en' => 'ingles', 'es' => 'espanhol'];
 
     private const string LETRAS = 'ABCDE';
 
@@ -79,7 +88,7 @@ class ImportadorInep
         $iterador = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($pasta, RecursiveDirectoryIterator::SKIP_DOTS));
 
         foreach ($iterador as $arquivo) {
-            if ($arquivo->isFile() && strtolower($arquivo->getExtension()) === 'json') {
+            if ($arquivo->isFile() && strtolower($arquivo->getExtension()) === 'json' && ! in_array($arquivo->getFilename(), self::ARQUIVOS_IGNORADOS, true)) {
                 $arquivos[] = $arquivo->getPathname();
             }
         }
@@ -122,7 +131,7 @@ class ImportadorInep
     private function importarQuestao(array $item, string $pasta): void
     {
         $this->validar($item);
-        $altPendente = (bool) ($item['alt_pendente'] ?? false);
+        $altPendente = $this->altPendente($item);
         $politica = PoliticaDeImagem::inep($altPendente);
         $imagem = $this->imagens->daQuestao($item, $this->pastaDa($item, $pasta), $politica);
         $linhas = array_map(fn (array $alt) => [
@@ -144,6 +153,19 @@ class ImportadorInep
             ['questao_id', 'letra'],
             ['texto', 'correta', 'etiqueta_id', 'imagem_url', 'imagem_alt', 'imagem_largura', 'imagem_altura'],
         );
+    }
+
+    /**
+     * O flag pode vir no item ou dentro de qualquer `imagem` (enunciado ou alternativa), como no JSON da extração.
+     *
+     * @param  array<string, mixed>  $item
+     */
+    private function altPendente(array $item): bool
+    {
+        $imagens = [$item['imagem'] ?? null, ...array_column($item['alternativas'] ?? [], 'imagem')];
+
+        return (bool) ($item['alt_pendente'] ?? false)
+            || array_any($imagens, fn ($imagem) => is_array($imagem) && ! empty($imagem['alt_pendente']));
     }
 
     /**
@@ -202,6 +224,7 @@ class ImportadorInep
     private function exigirLinguaCompativel(?string $lingua, string $slugDaMateria): void
     {
         $lingua = $lingua === null ? null : Str::ascii(mb_strtolower($lingua));
+        $lingua = self::LINGUA_PARA_MATERIA[$lingua] ?? $lingua;
 
         if ($lingua !== null && $lingua !== '' && $lingua !== $slugDaMateria) {
             throw new InvalidArgumentException("questão de língua {$lingua} só pode ser classificada na matéria {$lingua} (veio {$slugDaMateria})");
@@ -213,7 +236,13 @@ class ImportadorInep
     {
         $arquivo = $declarante['imagem']['arquivo'] ?? null;
 
-        return is_string($arquivo) && is_file($pasta.'/imagens/'.$arquivo) ? $pasta.'/imagens' : $pasta;
+        foreach (is_string($arquivo) ? self::PASTAS_DE_IMAGENS : [] as $subpasta) {
+            if (is_file("{$pasta}/{$subpasta}/{$arquivo}")) {
+                return "{$pasta}/{$subpasta}";
+            }
+        }
+
+        return $pasta;
     }
 
     /** @param  array<string, mixed>  $item */
@@ -231,7 +260,7 @@ class ImportadorInep
     private function validarOrigemRef(mixed $ref): void
     {
         $this->exigir(is_array($ref) && is_int($ref['ano'] ?? null), 'origem_ref.ano obrigatório (inteiro)');
-        $this->exigir(in_array($ref['aplicacao'] ?? null, self::APLICACOES, true), 'origem_ref.aplicacao precisa ser regular, ppl ou reaplicacao');
+        $this->exigir(is_string($ref['aplicacao'] ?? null) && preg_match(self::PADRAO_DE_APLICACAO, $ref['aplicacao']) === 1, 'origem_ref.aplicacao precisa ser regular, ppl ou reaplicacao (com sufixo opcional, ex.: regular_impressa_2021-01)');
         $this->exigir(isset($ref['numero']), 'origem_ref.numero obrigatório');
     }
 

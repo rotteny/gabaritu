@@ -17,11 +17,11 @@ class InicioController extends Controller
     public function __invoke(Request $request, FalaService $falas, ServicoDeNota $nota, FilaDeRevisao $fila): Response
     {
         $aluno = $request->user();
-        $desempenhos = DesempenhoAssunto::query()->where('user_id', $aluno->id)->with('assunto')->get()
+        $desempenhos = DesempenhoAssunto::query()->where('user_id', $aluno->id)->whereHas('assunto', fn ($q) => $q->servivel())->with('assunto')->get()
             ->groupBy(fn (DesempenhoAssunto $d) => $d->assunto->materia_id);
         $revisaoPorMateria = $fila->vencidasPorMateria($aluno);
 
-        $materias = Materia::query()->withCount('assuntos')->orderBy('ordem')->get()
+        $materias = Materia::query()->withCount(['assuntos' => fn ($q) => $q->servivel()])->orderBy('ordem')->get()
             ->map(fn (Materia $materia) => [
                 'slug' => $materia->slug,
                 'nome' => $materia->nome,

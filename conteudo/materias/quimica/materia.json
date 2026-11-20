@@ -3,10 +3,41 @@
   "nome": "Química",
   "area": "Ciências da Natureza e suas Tecnologias",
   "assuntos": [
-    { "slug": "estequiometria", "nome": "Estequiometria e Cálculos Químicos", "ordem": 1, "por_que": "mol, massa molar, reagente limitante e rendimento aparecem em contas de contexto industrial e ambiental quase todo ano." },
-    { "slug": "solucoes-ph", "nome": "Soluções, Concentração e pH", "ordem": 2, "por_que": "concentração, diluição e escala de pH ligam a Química a alimentos, saúde, limpeza e meio ambiente, com contas curtas." },
-    { "slug": "quimica-organica", "nome": "Química Orgânica", "ordem": 3, "por_que": "funções orgânicas, nomenclatura, isomeria e polaridade de compostos são o tema mais recorrente da Química no ENEM." },
-    { "slug": "termoquimica", "nome": "Termoquímica", "ordem": 4, "por_que": "calor de reação, combustíveis e comparação de energia liberada aparecem em questões de matriz energética e meio ambiente." },
-    { "slug": "eletroquimica", "nome": "Eletroquímica", "ordem": 5, "por_que": "pilhas, baterias, corrosão e eletrólise são cobradas com contexto de tecnologia e meio ambiente." }
+    {
+      "slug": "estequiometria",
+      "nome": "Estequiometria e Cálculos Químicos",
+      "ordem": 1,
+      "por_que": "mol, massa molar, reagente limitante e rendimento aparecem em contas de contexto industrial e ambiental quase todo ano."
+    },
+    {
+      "slug": "solucoes-ph",
+      "nome": "Soluções, Concentração e pH",
+      "ordem": 2,
+      "por_que": "concentração, diluição e escala de pH ligam a Química a alimentos, saúde, limpeza e meio ambiente, com contas curtas."
+    },
+    {
+      "slug": "quimica-organica",
+      "nome": "Química Orgânica",
+      "ordem": 3,
+      "por_que": "funções orgânicas, nomenclatura, isomeria e polaridade de compostos são o tema mais recorrente da Química no ENEM."
+    },
+    {
+      "slug": "termoquimica",
+      "nome": "Termoquímica",
+      "ordem": 4,
+      "por_que": "calor de reação, combustíveis e comparação de energia liberada aparecem em questões de matriz energética e meio ambiente."
+    },
+    {
+      "slug": "eletroquimica",
+      "nome": "Eletroquímica",
+      "ordem": 5,
+      "por_que": "pilhas, baterias, corrosão e eletrólise são cobradas com contexto de tecnologia e meio ambiente."
+    },
+    {
+      "slug": "quimica-ambiental",
+      "nome": "Química ambiental",
+      "ordem": 6,
+      "por_que": "Poluição, resíduos, química verde e remediação de ambientes."
+    }
   ]
 }

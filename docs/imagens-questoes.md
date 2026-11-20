@@ -47,7 +47,7 @@ O dono pediu em 20/11 para copiar as questões oficiais do ENEM e marcar a orige
 - **Fora do repo público:** o material extraído fica em `~/workspace/gabaritu-enem` (git local, sem remote) e entra pelo importador com `--fonte-externa=<caminho>`. Nada de INEP vai para `conteudo/` nem para o GitHub.
 - **Metadados na questão:**
   - `origem: "inep"`;
-  - `origem_ref: { ano, aplicacao: "regular"|"ppl"|"reaplicacao", dia, caderno, cor, numero, url_prova, url_gabarito }`;
+  - `origem_ref: { ano, aplicacao: "regular"|"ppl"|"reaplicacao" (com sufixo opcional, ex.: "regular_impressa_2021-01" no ENEM 2020), dia, caderno, cor, numero, url_prova, url_gabarito }`;
   - `revisao_juridica: "pendente"|"liberada"|"remover"`.
   As autorais ficam com `origem: "autoral"`.
 - **Imagens INEP:** aceita PNG e WebP (recorte da prova), além de SVG, com até 400 KB por arquivo. O `alt` continua obrigatório; quando a extração automática não souber descrever, recebe `alt_pendente: true` e a questão não é exibida.

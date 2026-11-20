@@ -348,7 +348,7 @@ describe('visibilidade (GABARITU_EXIBIR_INEP)', function () {
         expect(config('gabaritu.exibir_inep'))->toBeFalse();
 
         $this->actingAs($this->aluno)->get('/materias/fisica')
-            ->assertInertia(fn ($page) => $page->has('assuntos.0.questionarios', 0));
+            ->assertInertia(fn ($page) => $page->has('assuntos', 0));
         $this->actingAs($this->aluno)->post("/questionarios/{$this->questionarioInep->id}/tentativas")->assertNotFound();
         expect(Questao::servivel()->count())->toBe(0);
     });

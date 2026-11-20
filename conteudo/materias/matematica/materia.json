@@ -3,10 +3,71 @@
   "nome": "Matemática",
   "area": "Matemática e suas Tecnologias",
   "assuntos": [
-    { "slug": "razao-proporcao", "nome": "Razão, proporção e regra de três", "ordem": 1, "por_que": "Escala, velocidade, receita e divisão proporcional aparecem em quase toda prova, em todos os níveis." },
-    { "slug": "porcentagem", "nome": "Porcentagem", "ordem": 2, "por_que": "Descontos, juros e variações percentuais são o tema mais clássico de Matemática do dia a dia no ENEM." },
-    { "slug": "estatistica-probabilidade", "nome": "Estatística e probabilidade", "ordem": 3, "por_que": "Média, mediana, moda e chance de eventos aparecem em gráficos, tabelas e situações de sorteio." },
-    { "slug": "geometria", "nome": "Geometria plana e espacial", "ordem": 4, "por_que": "Áreas, perímetros e volumes são cobrados em situações de construção, embalagem e planta." },
-    { "slug": "funcoes", "nome": "Funções afim e quadrática", "ordem": 5, "por_que": "Modelar custo, lucro e movimentos com função de 1º e 2º grau é recorrente na prova." }
+    {
+      "slug": "razao-proporcao",
+      "nome": "Razão, proporção e regra de três",
+      "ordem": 1,
+      "por_que": "Escala, velocidade, receita e divisão proporcional aparecem em quase toda prova, em todos os níveis."
+    },
+    {
+      "slug": "porcentagem",
+      "nome": "Porcentagem",
+      "ordem": 2,
+      "por_que": "Descontos, juros e variações percentuais são o tema mais clássico de Matemática do dia a dia no ENEM."
+    },
+    {
+      "slug": "estatistica-probabilidade",
+      "nome": "Estatística e probabilidade",
+      "ordem": 3,
+      "por_que": "Média, mediana, moda e chance de eventos aparecem em gráficos, tabelas e situações de sorteio."
+    },
+    {
+      "slug": "geometria",
+      "nome": "Geometria plana e espacial",
+      "ordem": 4,
+      "por_que": "Áreas, perímetros e volumes são cobrados em situações de construção, embalagem e planta."
+    },
+    {
+      "slug": "funcoes",
+      "nome": "Funções afim e quadrática",
+      "ordem": 5,
+      "por_que": "Modelar custo, lucro e movimentos com função de 1º e 2º grau é recorrente na prova."
+    },
+    {
+      "slug": "grandezas-medidas-escalas",
+      "nome": "Grandezas, medidas e escalas",
+      "ordem": 6,
+      "por_que": "Escalas, unidades de medida, conversões e grandezas derivadas (vazão, densidade, rendimento)."
+    },
+    {
+      "slug": "leitura-graficos-tabelas",
+      "nome": "Leitura de gráficos e tabelas",
+      "ordem": 7,
+      "por_que": "Extrair, comparar e interpretar dados apresentados em gráficos, quadros e tabelas."
+    },
+    {
+      "slug": "analise-combinatoria",
+      "nome": "Análise combinatória",
+      "ordem": 8,
+      "por_que": "Princípio multiplicativo, arranjos, permutações, combinações e contagem."
+    },
+    {
+      "slug": "sequencias-progressoes",
+      "nome": "Sequências e progressões",
+      "ordem": 9,
+      "por_que": "Padrões numéricos, progressões aritméticas e geométricas e termos gerais."
+    },
+    {
+      "slug": "funcoes-exponencial-logaritmica",
+      "nome": "Funções exponencial e logarítmica",
+      "ordem": 10,
+      "por_que": "Crescimento e decaimento exponencial, logaritmos e escalas logarítmicas."
+    },
+    {
+      "slug": "numeros-operacoes",
+      "nome": "Números e operações",
+      "ordem": 11,
+      "por_que": "Sistemas de numeração, notação científica, divisibilidade, MMC e MDC."
+    }
   ]
 }

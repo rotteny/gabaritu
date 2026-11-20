@@ -3,10 +3,47 @@
   "nome": "História",
   "area": "Ciências Humanas e suas Tecnologias",
   "assuntos": [
-    { "slug": "brasil-colonia-escravidao", "nome": "Brasil Colônia e escravidão", "ordem": 1, "por_que": "o ENEM cobra sempre a economia açucareira, a mineração, o tráfico atlântico e a resistência de indígenas e africanos." },
-    { "slug": "brasil-imperio-republica-velha", "nome": "Brasil Império e Primeira República", "ordem": 2, "por_que": "independência, abolição, café e coronelismo aparecem com texto de época e pedem leitura crítica de fonte." },
-    { "slug": "era-vargas-ditadura-militar", "nome": "Era Vargas e Ditadura Militar", "ordem": 3, "por_que": "direitos trabalhistas, Estado Novo, 1964 e censura estão entre os temas mais recorrentes da prova." },
-    { "slug": "revolucao-industrial-iluminismo", "nome": "Revolução Industrial e Iluminismo", "ordem": 4, "por_que": "trabalho, urbanização, liberalismo e revoluções burguesas ligam o mundo moderno ao atual." },
-    { "slug": "guerras-mundiais-guerra-fria", "nome": "Guerras Mundiais e Guerra Fria", "ordem": 5, "por_que": "totalitarismos, Holocausto, bipolaridade e descolonização são cobrados em todo ano." }
+    {
+      "slug": "brasil-colonia-escravidao",
+      "nome": "Brasil Colônia e escravidão",
+      "ordem": 1,
+      "por_que": "o ENEM cobra sempre a economia açucareira, a mineração, o tráfico atlântico e a resistência de indígenas e africanos."
+    },
+    {
+      "slug": "brasil-imperio-republica-velha",
+      "nome": "Brasil Império e Primeira República",
+      "ordem": 2,
+      "por_que": "independência, abolição, café e coronelismo aparecem com texto de época e pedem leitura crítica de fonte."
+    },
+    {
+      "slug": "era-vargas-ditadura-militar",
+      "nome": "Era Vargas e Ditadura Militar",
+      "ordem": 3,
+      "por_que": "direitos trabalhistas, Estado Novo, 1964 e censura estão entre os temas mais recorrentes da prova."
+    },
+    {
+      "slug": "revolucao-industrial-iluminismo",
+      "nome": "Revolução Industrial e Iluminismo",
+      "ordem": 4,
+      "por_que": "trabalho, urbanização, liberalismo e revoluções burguesas ligam o mundo moderno ao atual."
+    },
+    {
+      "slug": "guerras-mundiais-guerra-fria",
+      "nome": "Guerras Mundiais e Guerra Fria",
+      "ordem": 5,
+      "por_que": "totalitarismos, Holocausto, bipolaridade e descolonização são cobrados em todo ano."
+    },
+    {
+      "slug": "antiguidade-idade-media",
+      "nome": "Antiguidade e Idade Média",
+      "ordem": 6,
+      "por_que": "Mesopotâmia, Grécia e Roma, cristianismo primitivo, feudalismo, Igreja e cultura medieval."
+    },
+    {
+      "slug": "africa-povos-indigenas",
+      "nome": "África e povos indígenas",
+      "ordem": 7,
+      "por_que": "Sociedades africanas, impérios pré-colombianos, resistência e protagonismo indígena."
+    }
   ]
 }

@@ -4,6 +4,7 @@ namespace App\Domain\Conteudo;
 
 use App\Domain\Conteudo\Imagens\ArmazemDeImagens;
 use App\Models\Alternativa;
+use App\Models\Assunto;
 use App\Models\Questao;
 use App\Models\Resposta;
 use Illuminate\Support\Facades\DB;
@@ -17,11 +18,12 @@ class RemovedorDeInep
         private readonly AgrupadorDeQuestionariosInep $agrupador,
     ) {}
 
-    /** @return array{questoes: int, alternativas: int, respostas: int, imagens: int, arquivos: list<string>} */
+    /** @return array{questoes: int, alternativas: int, respostas: int, imagens: int, arquivos: list<string>, assuntos_vazios: list<string>} */
     public function remover(string $executor): array
     {
         $ids = Questao::query()->where('origem', Questao::ORIGEM_INEP)->pluck('id')->map(fn ($id) => (int) $id)->values();
         $codigos = Questao::query()->whereIn('id', $ids)->pluck('codigo')->all();
+        $assuntosAfetados = Questao::query()->whereIn('id', $ids)->whereNotNull('assunto_id')->distinct()->pluck('assunto_id')->all();
 
         $resumo = DB::transaction(function () use ($ids): array {
             $contagem = [
@@ -37,12 +39,13 @@ class RemovedorDeInep
         });
 
         $arquivos = $this->armazem->removerOrfas();
-        $resumo += ['arquivos' => $arquivos];
+        $resumo += ['arquivos' => $arquivos, 'assuntos_vazios' => $this->assuntosSemQuestao($assuntosAfetados)];
 
         Log::channel('auditoria')->info('gabaritu:inep --remover', [
             'executor' => $executor,
             ...array_diff_key($resumo, ['arquivos' => 1]),
             'arquivos' => $arquivos,
+            'assuntos_vazios' => $resumo['assuntos_vazios'],
             'questoes_codigos' => $codigos,
         ]);
 
@@ -54,5 +57,17 @@ class RemovedorDeInep
     {
         return Questao::query()->whereIn('id', $ids)->whereNotNull('imagem_url')->count()
             + Alternativa::query()->whereIn('questao_id', $ids)->whereNotNull('imagem_url')->count();
+    }
+
+    /**
+     * @param  array<int, mixed>  $assuntoIds
+     * @return list<string> "materia/assunto" dos que ficaram sem nenhuma questão
+     */
+    private function assuntosSemQuestao(array $assuntoIds): array
+    {
+        $assuntos = Assunto::query()->with('materia')->whereIn('id', $assuntoIds)->whereDoesntHave('questoes')
+            ->orderBy('materia_id')->orderBy('ordem')->get();
+
+        return array_values($assuntos->map(fn (Assunto $assunto) => $assunto->materia->slug.'/'.$assunto->slug)->all());
     }
 }
