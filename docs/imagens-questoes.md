@@ -41,3 +41,16 @@ Este documento é a fonte única de verdade entre o conteúdo, o backend (`ESCAN
   - **Zoom:** tocar ou clicar na imagem abre um diálogo de zoom com o `alt` visível. Com Esc, o foco volta para a imagem.
 - **Alternativas com imagem:** grade de miniaturas com a letra, em que cada miniatura ainda é um botão de resposta. O zoom fica num botão próprio, para não responder sem querer.
 - **Renderização:** o SVG aparece sempre via `<img>`, nunca inline, para nenhum código rodar.
+
+## Questões de origem INEP (ENEM oficial), em análise jurídica
+O dono pediu em 20/11 para copiar as questões oficiais do ENEM e marcar a origem; o advogado vai decidir se ficam ou se são apagadas.
+- **Fora do repo público:** o material extraído fica em `~/workspace/gabaritu-enem` (git local, sem remote) e entra pelo importador com `--fonte-externa=<caminho>`. Nada de INEP vai para `conteudo/` nem para o GitHub.
+- **Metadados na questão:**
+  - `origem: "inep"`;
+  - `origem_ref: { ano, aplicacao: "regular"|"ppl"|"reaplicacao", dia, caderno, cor, numero, url_prova, url_gabarito }`;
+  - `revisao_juridica: "pendente"|"liberada"|"remover"`.
+  As autorais ficam com `origem: "autoral"`.
+- **Imagens INEP:** aceita PNG e WebP (recorte da prova), além de SVG, com até 400 KB por arquivo. O `alt` continua obrigatório; quando a extração automática não souber descrever, recebe `alt_pendente: true` e a questão não é exibida.
+- **Visibilidade:** `config('gabaritu.exibir_inep')` (env `GABARITU_EXIBIR_INEP`, padrão `false`). Desligado, as questões INEP não entram em questionário, revisão nem sorteio. Fazem exceção o comando de listagem e o relatório.
+- **Apagar em lote:** `php artisan gabaritu:inep --remover` apaga as questões INEP, as respostas a elas e as imagens, e grava o que apagou num log de auditoria. Já `--relatorio` lista a contagem por ano, área e status.
+- **Atribuição:** onde aparecerem, mostram "Fonte: ENEM <ano>, INEP/MEC".
