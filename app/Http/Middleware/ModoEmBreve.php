@@ -8,7 +8,7 @@ use Symfony\Component\HttpFoundation\Response;
 
 class ModoEmBreve
 {
-    private const array ROTAS_PUBLICAS = ['/', 'robots.txt', 'quem-somos'];
+    private const array ROTAS_PUBLICAS = ['/', 'robots.txt', 'quem-somos', 'privacidade'];
 
     public function handle(Request $request, Closure $next): Response
     {

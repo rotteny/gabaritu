@@ -63,3 +63,11 @@ it('compartilha cadastro_aberto pra esconder Entrar na área pública fechada', 
 
     $this->get('/quem-somos')->assertInertia(fn ($page) => $page->where('gabaritu.cadastro_aberto', $aberto));
 })->with([false, true]);
+
+it('privacidade é pública com o cadastro fechado e com ele aberto', function (bool $aberto) {
+    config(['gabaritu.cadastro_aberto' => $aberto]);
+
+    $this->get('/privacidade')
+        ->assertOk()
+        ->assertInertia(fn ($page) => $page->component('Privacidade'));
+})->with([false, true]);
