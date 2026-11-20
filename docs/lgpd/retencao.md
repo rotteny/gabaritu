@@ -15,8 +15,8 @@ Responsável: `DELETE /responsavel/alunos/{aluno}` (apaga o aluno, com a senha d
 O que **não** é apagado na hora:
 
 - **Backups** (`/data/backups/gabaritu/`, pg_dump diário): o dado some sozinho em até **7 dias**, com a rotação. A página `/privacidade` diz "tudo some" sem citar esse prazo. **[decidir]** se acrescenta a frase "cópias de segurança são apagadas em até 7 dias".
-- **Log de acesso do nginx de borda** (IP, URL, navegador): segue a rotação do servidor. **[decidir]** o prazo e configurar o logrotate.
-- **Log da aplicação**: vai para o stderr do container (`LOG_CHANNEL=stderr`, `LOG_LEVEL=warning`); a rotação é a do driver de log do Docker. **[decidir]** `max-size`/`max-file` no compose.
+- **Log de acesso do nginx de borda** (IP, URL, navegador): **14 dias** (cron `/etc/cron.d/gabaritu-logs-retencao` e logrotate diário). Tokens de convite, de redefinição de senha e e-mails na URL são gravados como `[oculto]`.
+- **Log da aplicação**: vai para o stderr do container (`LOG_CHANNEL=stderr`, `LOG_LEVEL=warning`); a rotação é a do driver de log do Docker, com `max-size 5m` e `max-file 14` no compose.
 
 ## Prazos
 
