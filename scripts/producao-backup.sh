@@ -6,6 +6,9 @@
 set -euo pipefail
 
 BACKUP_ROOT="${BACKUP_ROOT:-/data/backups/gabaritu}"
+# Pasta só com um marcador vazio (<timestamp>.ok) montada read-only no app: o painel de saúde lê a data dele
+# sem ver os dumps (BACKUP_ROOT é 0700 root).
+STATUS_DIR="${STATUS_DIR:-/data/backups/gabaritu-status}"
 RETENTION_DAYS="${RETENTION_DAYS:-7}"
 COMPOSE_PROJECT=gabaritu
 INSTALLED_PATH=/usr/local/sbin/gabaritu-backup
@@ -34,12 +37,20 @@ prune_old() {
   find "$BACKUP_ROOT" -maxdepth 1 -type f \( -name '*.dump' -o -name '*.dump.sha256' \) -mtime +"$RETENTION_DAYS" -delete
 }
 
+mark_success() {
+  install -d -m 755 "$STATUS_DIR"
+  find "$STATUS_DIR" -maxdepth 1 -type f -name '*.ok' -delete
+  touch "$STATUS_DIR/$(date +%Y%m%d-%H%M%S).ok"
+  chmod 644 "$STATUS_DIR"/*.ok
+}
+
 run() {
   require_root
   install -d -m 700 "$BACKUP_ROOT"
   local target; target="$BACKUP_ROOT/$(date +%Y%m%d-%H%M%S).dump"
   dump_database "$target"
   prune_old
+  mark_success
   log "ok: $target ($(du -h "$target" | cut -f1))"
 }
 

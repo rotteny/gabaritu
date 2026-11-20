@@ -51,6 +51,16 @@ import_content() {
   fi
 }
 
+# O painel de saúde lê o commit do deploy do .env (env_file): upsert idempotente, vale também para `up` manual depois.
+record_version() { # $1 sha
+  local env_file="$APP_DIR/.env"
+  if grep -q '^GABARITU_VERSAO=' "$env_file"; then
+    sed -i "s|^GABARITU_VERSAO=.*|GABARITU_VERSAO=$1|" "$env_file"
+  else
+    echo "GABARITU_VERSAO=$1" >> "$env_file"
+  fi
+}
+
 tag_all() { # $1 origem, $2 destino
   for image in "${IMAGES[@]}"; do docker tag "$image:$1" "$image:$2"; done
 }
@@ -93,6 +103,7 @@ main() {
   log "importar conteúdo com a imagem nova (idempotente)"
   import_content
 
+  record_version "$sha"
   keep_previous
   tag_all "$sha" current
   unset APP_TAG

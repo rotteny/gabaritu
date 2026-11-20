@@ -42,12 +42,16 @@ services:
         build:
             { context: ., dockerfile: infra/producao/Dockerfile, target: app }
         env_file: .env
+        # Painel de saúde: só o marcador do último backup, nunca os dumps.
+        environment:
+            GABARITU_BACKUP_DIR: /backup-status
         restart: unless-stopped
         logging: *logging
         networks: [internal]
         mem_limit: 256m
         volumes:
             - imagens:/var/www/html/public/conteudo/img
+            - ${BACKUP_STATUS_DIR:-/data/backups/gabaritu-status}:/backup-status:ro
         depends_on:
             db: { condition: service_healthy }
 
