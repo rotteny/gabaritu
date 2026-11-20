@@ -636,7 +636,7 @@
     "questionario": 3,
     "dificuldade": 1,
     "contexto": "Regularidades estatísticas",
-    "enunciado": "Durkheim notou que certas taxas, como as de casamento ou de alfabetização, variavam de modo estável entre as sociedades e os grupos. Ele concluiu que",
+    "enunciado": "Na visão de Durkheim, quando taxas como as de casamento ou de natalidade se mantêm estáveis numa sociedade ao longo dos anos, mesmo com cada pessoa decidindo por conta própria, isso indica que",
     "alternativas": [
       {
         "letra": "A",
@@ -664,12 +664,12 @@
       },
       {
         "letra": "E",
-        "texto": "não podem ser estudados cientificamente",
+        "texto": "esses fenômenos não podem ser estudados cientificamente",
         "correta": false,
         "etiqueta": "soc-absoluto"
       }
     ],
-    "explicacao": "Regularidades que se repetem em escala social sugerem causas sociais, e não apenas decisões individuais isoladas. Esse foi um argumento central para a sociologia como ciência.",
+    "explicacao": "Para Durkheim, regularidades que se repetem em escala social mostram causas sociais (os fatos sociais), e não só decisões individuais isoladas. Esse foi um argumento central para a sociologia ser uma ciência.",
     "fala_especifica": null,
     "fonte": "autoral-ia",
     "licenca": "CC-BY-SA-4.0"

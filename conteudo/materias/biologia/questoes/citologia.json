@@ -1,282 +1,902 @@
 [
   {
-    "id": "bio-citologia-001", "materia": "biologia", "assunto": "citologia", "questionario": 1, "dificuldade": -1,
+    "id": "bio-citologia-001",
+    "materia": "biologia",
+    "assunto": "citologia",
+    "questionario": 1,
+    "dificuldade": -1,
     "contexto": "Usina de energia da célula",
     "enunciado": "Depois de uma corrida, os músculos precisam de muita energia. Qual organela é responsável pela respiração celular aeróbia, que produz a maior parte do ATP das células animais?",
     "alternativas": [
-      { "letra": "A", "texto": "Cloroplasto", "correta": false, "etiqueta": "bio-confundiu-organela" },
-      { "letra": "B", "texto": "Mitocôndria", "correta": true, "etiqueta": null },
-      { "letra": "C", "texto": "Ribossomo", "correta": false, "etiqueta": "bio-confundiu-organela" },
-      { "letra": "D", "texto": "Lisossomo", "correta": false, "etiqueta": "bio-confundiu-organela" },
-      { "letra": "E", "texto": "Complexo golgiense", "correta": false, "etiqueta": "bio-confundiu-organela" }
+      {
+        "letra": "A",
+        "texto": "Cloroplasto",
+        "correta": false,
+        "etiqueta": "bio-confundiu-organela"
+      },
+      {
+        "letra": "B",
+        "texto": "Mitocôndria",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "Ribossomo",
+        "correta": false,
+        "etiqueta": "bio-confundiu-organela"
+      },
+      {
+        "letra": "D",
+        "texto": "Lisossomo",
+        "correta": false,
+        "etiqueta": "bio-confundiu-organela"
+      },
+      {
+        "letra": "E",
+        "texto": "Complexo golgiense",
+        "correta": false,
+        "etiqueta": "bio-confundiu-organela"
+      }
     ],
     "explicacao": "A mitocôndria é onde acontece a maior parte da respiração aeróbia, com liberação de energia na forma de ATP. O cloroplasto faz fotossíntese (e só existe em plantas e algas), o ribossomo produz proteínas e o lisossomo faz digestão intracelular.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-citologia-002", "materia": "biologia", "assunto": "citologia", "questionario": 1, "dificuldade": -1,
+    "id": "bio-citologia-002",
+    "materia": "biologia",
+    "assunto": "citologia",
+    "questionario": 1,
+    "dificuldade": -1,
     "contexto": "Célula sem núcleo definido",
     "enunciado": "Os procariontes são células sem núcleo delimitado por membrana. Qual dos seres abaixo é formado por células procariontes?",
     "alternativas": [
-      { "letra": "A", "texto": "Uma ameba", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
-      { "letra": "B", "texto": "Uma levedura do pão", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
-      { "letra": "C", "texto": "Uma célula da pele humana", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
-      { "letra": "D", "texto": "Uma bactéria", "correta": true, "etiqueta": null },
-      { "letra": "E", "texto": "Uma célula de folha de planta", "correta": false, "etiqueta": "bio-confundiu-conceitos" }
+      {
+        "letra": "A",
+        "texto": "Uma ameba",
+        "correta": false,
+        "etiqueta": "bio-confundiu-conceitos"
+      },
+      {
+        "letra": "B",
+        "texto": "Uma levedura do pão",
+        "correta": false,
+        "etiqueta": "bio-confundiu-conceitos"
+      },
+      {
+        "letra": "C",
+        "texto": "Uma célula da pele humana",
+        "correta": false,
+        "etiqueta": "bio-confundiu-conceitos"
+      },
+      {
+        "letra": "D",
+        "texto": "Uma bactéria",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "Uma célula de folha de planta",
+        "correta": false,
+        "etiqueta": "bio-confundiu-conceitos"
+      }
     ],
     "explicacao": "As bactérias são procariontes: o DNA fica solto no citoplasma. Ameba, levedura, célula humana e célula vegetal são eucariontes, com núcleo delimitado.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-citologia-003", "materia": "biologia", "assunto": "citologia", "questionario": 1, "dificuldade": 0,
+    "id": "bio-citologia-003",
+    "materia": "biologia",
+    "assunto": "citologia",
+    "questionario": 1,
+    "dificuldade": 0,
     "contexto": "Alface na salmoura",
     "enunciado": "Uma folha de alface fresca, colocada em uma tigela com água e muito sal, murcha em poucos minutos. Qual processo explica esse fenômeno?",
     "alternativas": [
-      { "letra": "A", "texto": "A água sai das células para o meio mais concentrado em sal, por osmose.", "correta": true, "etiqueta": null },
-      { "letra": "B", "texto": "O sal entra nas células por osmose e faz a folha murchar.", "correta": false, "etiqueta": "bio-confundiu-processos" },
-      { "letra": "C", "texto": "A água entra nas células, que incham e perdem a firmeza.", "correta": false, "etiqueta": "bio-sentido-fluxo" },
-      { "letra": "D", "texto": "O sal destrói a parede celular por uma reação química.", "correta": false, "etiqueta": "bio-senso-comum" },
-      { "letra": "E", "texto": "Transporte ativo, com gasto de ATP, bombeia a água para fora das células.", "correta": false, "etiqueta": "bio-confundiu-processos" }
+      {
+        "letra": "A",
+        "texto": "A água sai das células para o meio mais concentrado em sal, por osmose.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "O sal entra nas células por osmose e faz a folha murchar.",
+        "correta": false,
+        "etiqueta": "bio-confundiu-processos"
+      },
+      {
+        "letra": "C",
+        "texto": "A água entra nas células, que incham e perdem a firmeza.",
+        "correta": false,
+        "etiqueta": "bio-sentido-fluxo"
+      },
+      {
+        "letra": "D",
+        "texto": "O sal destrói a parede celular por uma reação química.",
+        "correta": false,
+        "etiqueta": "bio-senso-comum"
+      },
+      {
+        "letra": "E",
+        "texto": "Transporte ativo, com gasto de ATP, bombeia a água para fora das células.",
+        "correta": false,
+        "etiqueta": "bio-confundiu-processos"
+      }
     ],
     "explicacao": "Osmose é a passagem de água por uma membrana, do meio menos concentrado para o mais concentrado em solutos. Com muito sal fora das células, a água sai delas e a folha murcha. A osmose é um transporte passivo, sem gasto de ATP.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-citologia-004", "materia": "biologia", "assunto": "citologia", "questionario": 1, "dificuldade": 0,
+    "id": "bio-citologia-004",
+    "materia": "biologia",
+    "assunto": "citologia",
+    "questionario": 1,
+    "dificuldade": 0,
     "contexto": "O oxigênio da planta",
     "enunciado": "Durante a fotossíntese, as plantas liberam gás oxigênio (O2) para o ambiente. De qual molécula vem esse oxigênio?",
     "alternativas": [
-      { "letra": "A", "texto": "Do gás carbônico (CO2) absorvido pelas folhas.", "correta": false, "etiqueta": "bio-confundiu-processos" },
-      { "letra": "B", "texto": "Da glicose produzida na fotossíntese.", "correta": false, "etiqueta": "bio-sentido-fluxo" },
-      { "letra": "C", "texto": "Do ar que as raízes absorvem do solo.", "correta": false, "etiqueta": "bio-senso-comum" },
-      { "letra": "D", "texto": "Da respiração das mitocôndrias da própria planta.", "correta": false, "etiqueta": "bio-confundiu-processos" },
-      { "letra": "E", "texto": "Da quebra da molécula de água, na fase luminosa.", "correta": true, "etiqueta": null }
+      {
+        "letra": "A",
+        "texto": "Do gás carbônico (CO2) absorvido pelas folhas.",
+        "correta": false,
+        "etiqueta": "bio-confundiu-processos"
+      },
+      {
+        "letra": "B",
+        "texto": "Da glicose produzida na fotossíntese.",
+        "correta": false,
+        "etiqueta": "bio-sentido-fluxo"
+      },
+      {
+        "letra": "C",
+        "texto": "Do ar que as raízes absorvem do solo.",
+        "correta": false,
+        "etiqueta": "bio-senso-comum"
+      },
+      {
+        "letra": "D",
+        "texto": "Da respiração das mitocôndrias da própria planta.",
+        "correta": false,
+        "etiqueta": "bio-confundiu-processos"
+      },
+      {
+        "letra": "E",
+        "texto": "Da quebra da molécula de água, na fase luminosa.",
+        "correta": true,
+        "etiqueta": null
+      }
     ],
     "explicacao": "Na etapa luminosa, a luz quebra moléculas de água (fotólise) e libera O2. O carbono do CO2 vai para a glicose, e o oxigênio do CO2 acaba na glicose e na água formada. A respiração das mitocôndrias consome O2, não o produz.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-citologia-005", "materia": "biologia", "assunto": "citologia", "questionario": 1, "dificuldade": 1,
+    "id": "bio-citologia-005",
+    "materia": "biologia",
+    "assunto": "citologia",
+    "questionario": 1,
+    "dificuldade": 1,
     "contexto": "Cãibra no sprint",
     "enunciado": "Em um sprint de 100 metros, o oxigênio não chega aos músculos na velocidade em que as células o consomem, e há acúmulo de ácido lático nas fibras musculares. O que explica a produção de ácido lático?",
     "alternativas": [
-      { "letra": "A", "texto": "As mitocôndrias deixam de existir nas fibras durante o esforço.", "correta": false, "etiqueta": "bio-confundiu-organela" },
-      { "letra": "B", "texto": "A fermentação rende mais ATP que a respiração aeróbia, e por isso é preferida no esforço.", "correta": false, "etiqueta": "bio-inverteu-causa-efeito" },
-      { "letra": "C", "texto": "Com pouco oxigênio, as células obtêm ATP pela fermentação lática, um processo rápido que rende bem menos energia.", "correta": true, "etiqueta": null },
-      { "letra": "D", "texto": "O ácido lático vem da degradação de proteínas presentes no suor.", "correta": false, "etiqueta": "bio-senso-comum" },
-      { "letra": "E", "texto": "O músculo só realiza fermentação, em qualquer situação.", "correta": false, "etiqueta": "bio-generalizou" }
+      {
+        "letra": "A",
+        "texto": "As mitocôndrias deixam de existir nas fibras durante o esforço.",
+        "correta": false,
+        "etiqueta": "bio-confundiu-organela"
+      },
+      {
+        "letra": "B",
+        "texto": "A fermentação rende mais ATP que a respiração aeróbia, e por isso é preferida no esforço.",
+        "correta": false,
+        "etiqueta": "bio-inverteu-causa-efeito"
+      },
+      {
+        "letra": "C",
+        "texto": "Com pouco oxigênio, as células obtêm ATP pela fermentação lática, um processo rápido que rende bem menos energia.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "O ácido lático vem da degradação de proteínas presentes no suor.",
+        "correta": false,
+        "etiqueta": "bio-senso-comum"
+      },
+      {
+        "letra": "E",
+        "texto": "O músculo só realiza fermentação, em qualquer situação.",
+        "correta": false,
+        "etiqueta": "bio-generalizou"
+      }
     ],
     "explicacao": "Sem oxigênio suficiente, a célula muscular recorre à fermentação lática, que produz ATP rapidamente, mas rende só 2 ATP por glicose, contra cerca de 30 da respiração aeróbia. As mitocôndrias continuam lá, e em repouso o músculo respira normalmente.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-citologia-006", "materia": "biologia", "assunto": "citologia", "questionario": 2, "dificuldade": -1,
+    "id": "bio-citologia-006",
+    "materia": "biologia",
+    "assunto": "citologia",
+    "questionario": 2,
+    "dificuldade": -1,
     "contexto": "O chefe da célula",
     "enunciado": "Nas células eucariontes, o núcleo tem uma função central. Qual é ela?",
     "alternativas": [
-      { "letra": "A", "texto": "Produzir energia por respiração celular.", "correta": false, "etiqueta": "bio-confundiu-organela" },
-      { "letra": "B", "texto": "Realizar a síntese de todas as proteínas da célula.", "correta": false, "etiqueta": "bio-confundiu-organela" },
-      { "letra": "C", "texto": "Guardar o material genético e controlar as atividades da célula.", "correta": true, "etiqueta": null },
-      { "letra": "D", "texto": "Armazenar água e sais minerais.", "correta": false, "etiqueta": "bio-confundiu-organela" },
-      { "letra": "E", "texto": "Digerir partículas que entram na célula.", "correta": false, "etiqueta": "bio-confundiu-organela" }
+      {
+        "letra": "A",
+        "texto": "Produzir energia por respiração celular.",
+        "correta": false,
+        "etiqueta": "bio-confundiu-organela"
+      },
+      {
+        "letra": "B",
+        "texto": "Realizar a síntese de todas as proteínas da célula.",
+        "correta": false,
+        "etiqueta": "bio-confundiu-organela"
+      },
+      {
+        "letra": "C",
+        "texto": "Guardar o material genético e controlar as atividades da célula.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "Armazenar água e sais minerais.",
+        "correta": false,
+        "etiqueta": "bio-confundiu-organela"
+      },
+      {
+        "letra": "E",
+        "texto": "Digerir partículas que entram na célula.",
+        "correta": false,
+        "etiqueta": "bio-confundiu-organela"
+      }
     ],
     "explicacao": "No núcleo fica o DNA, que contém as instruções para a atividade da célula. A energia vem das mitocôndrias, as proteínas são sintetizadas nos ribossomos, a água é armazenada nos vacúolos e a digestão é feita pelos lisossomos.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-citologia-007", "materia": "biologia", "assunto": "citologia", "questionario": 2, "dificuldade": 0,
+    "id": "bio-citologia-007",
+    "materia": "biologia",
+    "assunto": "citologia",
+    "questionario": 2,
+    "dificuldade": 0,
     "contexto": "Mitose e cromossomos",
     "enunciado": "Uma célula somática de um inseto tem 8 cromossomos. Ela se divide por mitose. Quantos cromossomos terá cada célula-filha?",
     "alternativas": [
-      { "letra": "A", "texto": "8", "correta": true, "etiqueta": null },
-      { "letra": "B", "texto": "4", "correta": false, "etiqueta": "bio-confundiu-processos" },
-      { "letra": "C", "texto": "16", "correta": false, "etiqueta": "bio-erro-calculo" },
-      { "letra": "D", "texto": "2", "correta": false, "etiqueta": "bio-erro-calculo" },
-      { "letra": "E", "texto": "12", "correta": false, "etiqueta": "bio-erro-calculo" }
+      {
+        "letra": "A",
+        "texto": "8",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "4",
+        "correta": false,
+        "etiqueta": "bio-confundiu-processos"
+      },
+      {
+        "letra": "C",
+        "texto": "16",
+        "correta": false,
+        "etiqueta": "bio-erro-calculo"
+      },
+      {
+        "letra": "D",
+        "texto": "2",
+        "correta": false,
+        "etiqueta": "bio-erro-calculo"
+      },
+      {
+        "letra": "E",
+        "texto": "12",
+        "correta": false,
+        "etiqueta": "bio-erro-calculo"
+      }
     ],
     "explicacao": "Na mitose, o DNA é duplicado antes da divisão e distribuído igualmente, então as células-filhas têm o mesmo número de cromossomos da célula-mãe: 8. Reduzir à metade (4) é característica da meiose.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-citologia-008", "materia": "biologia", "assunto": "citologia", "questionario": 2, "dificuldade": 0,
+    "id": "bio-citologia-008",
+    "materia": "biologia",
+    "assunto": "citologia",
+    "questionario": 2,
+    "dificuldade": 0,
     "contexto": "Porteiro da célula",
     "enunciado": "A membrana plasmática é descrita como uma barreira com permeabilidade seletiva. O que essa expressão significa?",
     "alternativas": [
-      { "letra": "A", "texto": "A membrana impede a passagem de qualquer substância.", "correta": false, "etiqueta": "bio-generalizou" },
-      { "letra": "B", "texto": "A membrana deixa passar tudo, e só a concentração define o movimento.", "correta": false, "etiqueta": "bio-generalizou" },
-      { "letra": "C", "texto": "A membrana é rígida, feita de celulose, e dá forma à célula.", "correta": false, "etiqueta": "bio-confundiu-organela" },
-      { "letra": "D", "texto": "A membrana deixa passar apenas água.", "correta": false, "etiqueta": "bio-generalizou" },
-      { "letra": "E", "texto": "A membrana controla quais substâncias entram e saem, deixando passar umas com mais facilidade que outras.", "correta": true, "etiqueta": null }
+      {
+        "letra": "A",
+        "texto": "A membrana impede a passagem de qualquer substância.",
+        "correta": false,
+        "etiqueta": "bio-generalizou"
+      },
+      {
+        "letra": "B",
+        "texto": "A membrana deixa passar tudo, e só a concentração define o movimento.",
+        "correta": false,
+        "etiqueta": "bio-generalizou"
+      },
+      {
+        "letra": "C",
+        "texto": "A membrana é rígida, feita de celulose, e dá forma à célula.",
+        "correta": false,
+        "etiqueta": "bio-confundiu-organela"
+      },
+      {
+        "letra": "D",
+        "texto": "A membrana deixa passar apenas água.",
+        "correta": false,
+        "etiqueta": "bio-generalizou"
+      },
+      {
+        "letra": "E",
+        "texto": "A membrana controla quais substâncias entram e saem, deixando passar umas com mais facilidade que outras.",
+        "correta": true,
+        "etiqueta": null
+      }
     ],
     "explicacao": "A membrana, formada por lipídios e proteínas, regula o trânsito: gases e água passam com facilidade, e outras substâncias dependem de proteínas transportadoras. A parede de celulose é outra estrutura, presente em plantas.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-citologia-009", "materia": "biologia", "assunto": "citologia", "questionario": 2, "dificuldade": 1,
+    "id": "bio-citologia-009",
+    "materia": "biologia",
+    "assunto": "citologia",
+    "questionario": 2,
+    "dificuldade": 1,
     "contexto": "Planta no armário escuro",
     "enunciado": "Uma planta em vaso foi mantida por 24 horas dentro de um armário totalmente escuro e bem fechado. Considerando só os processos da planta, o que ocorreu com a concentração de gás carbônico dentro do armário?",
     "alternativas": [
-      { "letra": "A", "texto": "Diminuiu, pois a planta faz fotossíntese mesmo no escuro.", "correta": false, "etiqueta": "bio-confundiu-processos" },
-      { "letra": "B", "texto": "Aumentou, pois sem luz só ocorre a respiração, que libera CO2.", "correta": true, "etiqueta": null },
-      { "letra": "C", "texto": "Não mudou, pois plantas não respiram.", "correta": false, "etiqueta": "bio-senso-comum" },
-      { "letra": "D", "texto": "Diminuiu, pois a planta absorve CO2 para realizar a respiração.", "correta": false, "etiqueta": "bio-confundiu-processos" },
-      { "letra": "E", "texto": "Aumentou apenas se houvesse animais dentro do armário.", "correta": false, "etiqueta": "bio-ignorou-dado" }
+      {
+        "letra": "A",
+        "texto": "Diminuiu, pois a planta faz fotossíntese mesmo no escuro.",
+        "correta": false,
+        "etiqueta": "bio-confundiu-processos"
+      },
+      {
+        "letra": "B",
+        "texto": "Aumentou, pois sem luz só ocorre a respiração, que libera CO2.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "Não mudou, pois plantas não respiram.",
+        "correta": false,
+        "etiqueta": "bio-senso-comum"
+      },
+      {
+        "letra": "D",
+        "texto": "Diminuiu, pois a planta absorve CO2 para realizar a respiração.",
+        "correta": false,
+        "etiqueta": "bio-confundiu-processos"
+      },
+      {
+        "letra": "E",
+        "texto": "Aumentou apenas se houvesse animais dentro do armário.",
+        "correta": false,
+        "etiqueta": "bio-ignorou-dado"
+      }
     ],
     "explicacao": "A planta respira o tempo todo, consumindo O2 e liberando CO2. A fotossíntese só acontece com luz. No escuro, só há respiração, e o CO2 aumenta no armário fechado.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-citologia-010", "materia": "biologia", "assunto": "citologia", "questionario": 2, "dificuldade": 1,
+    "id": "bio-citologia-010",
+    "materia": "biologia",
+    "assunto": "citologia",
+    "questionario": 2,
+    "dificuldade": 1,
     "contexto": "Soro fisiológico",
     "enunciado": "O soro fisiológico (solução de NaCl a 0,9%) é usado para limpar feridas e lavar o nariz sem agredir as células. Qual a razão disso?",
     "alternativas": [
-      { "letra": "A", "texto": "É hipertônico em relação às células, então as faz murchar e mata as bactérias.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
-      { "letra": "B", "texto": "É hipotônico em relação às células, então a água entra nelas e as hidrata.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
-      { "letra": "C", "texto": "A água destilada seria melhor, pois é pura.", "correta": false, "etiqueta": "bio-senso-comum" },
-      { "letra": "D", "texto": "É isotônico em relação às células do corpo, então não há ganho nem perda de água por osmose.", "correta": true, "etiqueta": null },
-      { "letra": "E", "texto": "Contém glicose, que alimenta as células da ferida.", "correta": false, "etiqueta": "bio-ignorou-dado" }
+      {
+        "letra": "A",
+        "texto": "É hipertônico em relação às células, então as faz murchar e mata as bactérias.",
+        "correta": false,
+        "etiqueta": "bio-confundiu-conceitos"
+      },
+      {
+        "letra": "B",
+        "texto": "É hipotônico em relação às células, então a água entra nelas e as hidrata.",
+        "correta": false,
+        "etiqueta": "bio-confundiu-conceitos"
+      },
+      {
+        "letra": "C",
+        "texto": "A água destilada seria melhor, pois é pura.",
+        "correta": false,
+        "etiqueta": "bio-senso-comum"
+      },
+      {
+        "letra": "D",
+        "texto": "É isotônico em relação às células do corpo, então não há ganho nem perda de água por osmose.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "Contém glicose, que alimenta as células da ferida.",
+        "correta": false,
+        "etiqueta": "bio-ignorou-dado"
+      }
     ],
     "explicacao": "A concentração de 0,9% de NaCl é parecida com a dos líquidos do corpo (isotônica), de modo que as células não ganham nem perdem água. Em água destilada, as células absorveriam água e poderiam estourar. O soro do enunciado só tem sal e água.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-citologia-011", "materia": "biologia", "assunto": "citologia", "questionario": 3, "dificuldade": -1,
+    "id": "bio-citologia-011",
+    "materia": "biologia",
+    "assunto": "citologia",
+    "questionario": 3,
+    "dificuldade": -1,
     "contexto": "Quem faz fotossíntese",
     "enunciado": "O cloroplasto é a organela onde ocorre a fotossíntese. Em qual das células abaixo é possível encontrar cloroplastos?",
     "alternativas": [
-      { "letra": "A", "texto": "Célula da pele humana", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
-      { "letra": "B", "texto": "Neurônio", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
-      { "letra": "C", "texto": "Hemácia", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
-      { "letra": "D", "texto": "Levedura do fermento", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
-      { "letra": "E", "texto": "Célula da folha de uma planta", "correta": true, "etiqueta": null }
+      {
+        "letra": "A",
+        "texto": "Célula da pele humana",
+        "correta": false,
+        "etiqueta": "bio-confundiu-conceitos"
+      },
+      {
+        "letra": "B",
+        "texto": "Neurônio",
+        "correta": false,
+        "etiqueta": "bio-confundiu-conceitos"
+      },
+      {
+        "letra": "C",
+        "texto": "Hemácia",
+        "correta": false,
+        "etiqueta": "bio-confundiu-conceitos"
+      },
+      {
+        "letra": "D",
+        "texto": "Levedura do fermento",
+        "correta": false,
+        "etiqueta": "bio-confundiu-conceitos"
+      },
+      {
+        "letra": "E",
+        "texto": "Célula da folha de uma planta",
+        "correta": true,
+        "etiqueta": null
+      }
     ],
     "explicacao": "Cloroplastos, com clorofila, existem em plantas e algas. Células humanas e leveduras (que são fungos) não fazem fotossíntese e não têm cloroplastos.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-citologia-012", "materia": "biologia", "assunto": "citologia", "questionario": 3, "dificuldade": -1,
+    "id": "bio-citologia-012",
+    "materia": "biologia",
+    "assunto": "citologia",
+    "questionario": 3,
+    "dificuldade": -1,
     "contexto": "Fábrica de proteínas",
     "enunciado": "Os ribossomos estão espalhados no citoplasma e presos ao retículo endoplasmático rugoso. Qual é a função dessas estruturas?",
     "alternativas": [
-      { "letra": "A", "texto": "Realizar a fotossíntese", "correta": false, "etiqueta": "bio-confundiu-organela" },
-      { "letra": "B", "texto": "Realizar a respiração celular", "correta": false, "etiqueta": "bio-confundiu-organela" },
-      { "letra": "C", "texto": "Sintetizar proteínas", "correta": true, "etiqueta": null },
-      { "letra": "D", "texto": "Fazer a digestão intracelular", "correta": false, "etiqueta": "bio-confundiu-organela" },
-      { "letra": "E", "texto": "Armazenar o DNA da célula", "correta": false, "etiqueta": "bio-confundiu-organela" }
+      {
+        "letra": "A",
+        "texto": "Realizar a fotossíntese",
+        "correta": false,
+        "etiqueta": "bio-confundiu-organela"
+      },
+      {
+        "letra": "B",
+        "texto": "Realizar a respiração celular",
+        "correta": false,
+        "etiqueta": "bio-confundiu-organela"
+      },
+      {
+        "letra": "C",
+        "texto": "Sintetizar proteínas",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "Fazer a digestão intracelular",
+        "correta": false,
+        "etiqueta": "bio-confundiu-organela"
+      },
+      {
+        "letra": "E",
+        "texto": "Armazenar o DNA da célula",
+        "correta": false,
+        "etiqueta": "bio-confundiu-organela"
+      }
     ],
     "explicacao": "Os ribossomos leem o RNA mensageiro e montam as proteínas. A fotossíntese acontece nos cloroplastos, a respiração nas mitocôndrias, a digestão nos lisossomos e o DNA fica no núcleo.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-citologia-013", "materia": "biologia", "assunto": "citologia", "questionario": 3, "dificuldade": 0,
+    "id": "bio-citologia-013",
+    "materia": "biologia",
+    "assunto": "citologia",
+    "questionario": 3,
+    "dificuldade": 0,
     "contexto": "Quando a divisão sai do controle",
     "enunciado": "O câncer é um conjunto de doenças que surgem a partir de mudanças no material genético de uma célula. Qual a principal característica celular do câncer?",
     "alternativas": [
-      { "letra": "A", "texto": "Morte excessiva de células por apoptose.", "correta": false, "etiqueta": "bio-confundiu-processos" },
-      { "letra": "B", "texto": "Infecção das células por bactérias.", "correta": false, "etiqueta": "bio-generalizou" },
-      { "letra": "C", "texto": "Ausência total de divisão celular.", "correta": false, "etiqueta": "bio-inverteu-causa-efeito" },
-      { "letra": "D", "texto": "Multiplicação descontrolada de células que escapam dos mecanismos de controle do ciclo celular.", "correta": true, "etiqueta": null },
-      { "letra": "E", "texto": "Contágio entre pessoas por contato com as células doentes.", "correta": false, "etiqueta": "bio-senso-comum" }
+      {
+        "letra": "A",
+        "texto": "Morte excessiva de células por apoptose.",
+        "correta": false,
+        "etiqueta": "bio-confundiu-processos"
+      },
+      {
+        "letra": "B",
+        "texto": "Infecção das células por bactérias.",
+        "correta": false,
+        "etiqueta": "bio-generalizou"
+      },
+      {
+        "letra": "C",
+        "texto": "Ausência total de divisão celular.",
+        "correta": false,
+        "etiqueta": "bio-inverteu-causa-efeito"
+      },
+      {
+        "letra": "D",
+        "texto": "Multiplicação descontrolada de células que escapam dos mecanismos de controle do ciclo celular.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "Contágio entre pessoas por contato com as células doentes.",
+        "correta": false,
+        "etiqueta": "bio-senso-comum"
+      }
     ],
     "explicacao": "Nas células cancerosas, mutações afetam genes que controlam a divisão, e as células se multiplicam sem controle e formam tumores. Não é infecção por bactérias nem contagiosa. Apoptose excessiva seria o oposto do problema do câncer.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-citologia-014", "materia": "biologia", "assunto": "citologia", "questionario": 3, "dificuldade": 0,
+    "id": "bio-citologia-014",
+    "materia": "biologia",
+    "assunto": "citologia",
+    "questionario": 3,
+    "dificuldade": 0,
     "contexto": "Células-tronco",
     "enunciado": "As células-tronco são estudadas para tratar doenças como lesões na medula espinhal e problemas no sangue. Qual característica desperta tanto interesse nessas células?",
     "alternativas": [
-      { "letra": "A", "texto": "Elas se multiplicam e podem se diferenciar em diversos tipos de células especializadas.", "correta": true, "etiqueta": null },
-      { "letra": "B", "texto": "São células já especializadas, que não se dividem mais.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
-      { "letra": "C", "texto": "Existem apenas em embriões e desaparecem depois do nascimento.", "correta": false, "etiqueta": "bio-generalizou" },
-      { "letra": "D", "texto": "São obtidas apenas de células mortas.", "correta": false, "etiqueta": "bio-senso-comum" },
-      { "letra": "E", "texto": "Ao serem transplantadas, sempre formam um órgão completo.", "correta": false, "etiqueta": "bio-generalizou" }
+      {
+        "letra": "A",
+        "texto": "Elas se multiplicam e podem se diferenciar em diversos tipos de células especializadas.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "São células já especializadas, que não se dividem mais.",
+        "correta": false,
+        "etiqueta": "bio-confundiu-conceitos"
+      },
+      {
+        "letra": "C",
+        "texto": "Existem apenas em embriões e desaparecem depois do nascimento.",
+        "correta": false,
+        "etiqueta": "bio-generalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "São obtidas apenas de células mortas.",
+        "correta": false,
+        "etiqueta": "bio-senso-comum"
+      },
+      {
+        "letra": "E",
+        "texto": "Ao serem transplantadas, sempre formam um órgão completo.",
+        "correta": false,
+        "etiqueta": "bio-generalizou"
+      }
     ],
     "explicacao": "Células-tronco são pouco especializadas, dividem-se e podem originar tipos celulares diferentes. Isso permite repor tecidos lesionados. Elas existem também em adultos (como na medula óssea), e o resultado dos tratamentos depende de cada caso.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-citologia-015", "materia": "biologia", "assunto": "citologia", "questionario": 3, "dificuldade": 1,
+    "id": "bio-citologia-015",
+    "materia": "biologia",
+    "assunto": "citologia",
+    "questionario": 3,
+    "dificuldade": 1,
     "contexto": "Bactéria que se multiplica",
     "enunciado": "Uma bactéria se divide por fissão binária a cada 20 minutos. Partindo de uma única bactéria e supondo que todas sobrevivam, quantas bactérias existirão após 2 horas?",
     "alternativas": [
-      { "letra": "A", "texto": "6", "correta": false, "etiqueta": "bio-erro-calculo" },
-      { "letra": "B", "texto": "64", "correta": true, "etiqueta": null },
-      { "letra": "C", "texto": "12", "correta": false, "etiqueta": "bio-erro-calculo" },
-      { "letra": "D", "texto": "120", "correta": false, "etiqueta": "bio-ignorou-dado" },
-      { "letra": "E", "texto": "32", "correta": false, "etiqueta": "bio-erro-calculo" }
+      {
+        "letra": "A",
+        "texto": "6",
+        "correta": false,
+        "etiqueta": "bio-erro-calculo"
+      },
+      {
+        "letra": "B",
+        "texto": "64",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "12",
+        "correta": false,
+        "etiqueta": "bio-erro-calculo"
+      },
+      {
+        "letra": "D",
+        "texto": "120",
+        "correta": false,
+        "etiqueta": "bio-ignorou-dado"
+      },
+      {
+        "letra": "E",
+        "texto": "32",
+        "correta": false,
+        "etiqueta": "bio-erro-calculo"
+      }
     ],
     "explicacao": "2 horas são 120 minutos, que dão 120 ÷ 20 = 6 divisões. A cada divisão, o número dobra: 2⁶ = 64 bactérias. Responder 6 ou 12 trata o crescimento como soma, e não como dobros sucessivos. Já 32 é o valor após 5 divisões.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-citologia-016", "materia": "biologia", "assunto": "citologia", "questionario": 4, "dificuldade": -1,
+    "id": "bio-citologia-016",
+    "materia": "biologia",
+    "assunto": "citologia",
+    "questionario": 4,
+    "dificuldade": -1,
     "contexto": "Casca firme da planta",
     "enunciado": "Qual estrutura, presente nas células vegetais e ausente nas células animais, forma um envoltório rígido de celulose externo à membrana plasmática?",
     "alternativas": [
-      { "letra": "A", "texto": "Membrana plasmática", "correta": false, "etiqueta": "bio-confundiu-organela" },
-      { "letra": "B", "texto": "Mitocôndria", "correta": false, "etiqueta": "bio-confundiu-organela" },
-      { "letra": "C", "texto": "Lisossomo", "correta": false, "etiqueta": "bio-confundiu-organela" },
-      { "letra": "D", "texto": "Parede celular", "correta": true, "etiqueta": null },
-      { "letra": "E", "texto": "Centríolo", "correta": false, "etiqueta": "bio-confundiu-organela" }
+      {
+        "letra": "A",
+        "texto": "Membrana plasmática",
+        "correta": false,
+        "etiqueta": "bio-confundiu-organela"
+      },
+      {
+        "letra": "B",
+        "texto": "Mitocôndria",
+        "correta": false,
+        "etiqueta": "bio-confundiu-organela"
+      },
+      {
+        "letra": "C",
+        "texto": "Lisossomo",
+        "correta": false,
+        "etiqueta": "bio-confundiu-organela"
+      },
+      {
+        "letra": "D",
+        "texto": "Parede celular",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "Centríolo",
+        "correta": false,
+        "etiqueta": "bio-confundiu-organela"
+      }
     ],
     "explicacao": "A parede celular, de celulose, dá sustentação e proteção às células vegetais. A membrana plasmática existe em todas as células, e as outras estruturas são organelas internas.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-citologia-017", "materia": "biologia", "assunto": "citologia", "questionario": 4, "dificuldade": 0,
+    "id": "bio-citologia-017",
+    "materia": "biologia",
+    "assunto": "citologia",
+    "questionario": 4,
+    "dificuldade": 0,
     "contexto": "Pão que cresce",
-    "enunciado": "Ao preparar pão, a massa com fermento biológico (leveduras) cresce depois de algumas horas de descanso. Qual é a principal causa do crescimento da massa?",
+    "enunciado": "Ao preparar pão, a massa com fermento biológico (leveduras) cresce durante algumas horas de descanso, antes de ir ao forno. O que faz a massa crescer nesse descanso?",
     "alternativas": [
-      { "letra": "A", "texto": "O O2 produzido pela fotossíntese das leveduras.", "correta": false, "etiqueta": "bio-confundiu-processos" },
-      { "letra": "B", "texto": "O CO2 liberado na fermentação feita pelas leveduras, que forma bolhas na massa.", "correta": true, "etiqueta": null },
-      { "letra": "C", "texto": "O calor da cozinha, que faz o fermento inchar como uma esponja.", "correta": false, "etiqueta": "bio-senso-comum" },
-      { "letra": "D", "texto": "O fermento é um sal que reage com a água e libera gás.", "correta": false, "etiqueta": "bio-senso-comum" },
-      { "letra": "E", "texto": "O álcool formado na fermentação, que vira gás e infla a massa.", "correta": false, "etiqueta": "bio-meia-verdade" }
+      {
+        "letra": "A",
+        "texto": "O O2 produzido pela fotossíntese das leveduras.",
+        "correta": false,
+        "etiqueta": "bio-confundiu-processos"
+      },
+      {
+        "letra": "B",
+        "texto": "O CO2 liberado na fermentação feita pelas leveduras, que forma bolhas na massa.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "O calor da cozinha, que faz o fermento inchar como uma esponja.",
+        "correta": false,
+        "etiqueta": "bio-senso-comum"
+      },
+      {
+        "letra": "D",
+        "texto": "O fermento é um sal que reage com a água e libera gás.",
+        "correta": false,
+        "etiqueta": "bio-senso-comum"
+      },
+      {
+        "letra": "E",
+        "texto": "O álcool formado na fermentação, que infla a massa como um balão.",
+        "correta": false,
+        "etiqueta": "bio-meia-verdade"
+      }
     ],
-    "explicacao": "As leveduras fermentam o açúcar da massa e produzem CO2 e álcool. O gás carbônico fica preso na massa e a faz crescer. O álcool também se forma, mas evapora no forno e não é o que infla a massa. Leveduras são fungos e não fazem fotossíntese.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "explicacao": "As leveduras fermentam o açúcar da massa e produzem CO2 e álcool. O gás carbônico fica preso na massa e a faz crescer no descanso. O álcool fica dissolvido na massa e evapora só no forno, então não é ele que infla. Leveduras são fungos e não fazem fotossíntese.",
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-citologia-018", "materia": "biologia", "assunto": "citologia", "questionario": 4, "dificuldade": 0,
+    "id": "bio-citologia-018",
+    "materia": "biologia",
+    "assunto": "citologia",
+    "questionario": 4,
+    "dificuldade": 0,
     "contexto": "Herança das mitocôndrias",
     "enunciado": "As mitocôndrias têm DNA próprio. Uma doença causada por mutação nesse DNA mitocondrial costuma ser transmitida pela mãe a todos os filhos. Por quê?",
     "alternativas": [
-      { "letra": "A", "texto": "Porque o espermatozoide tem muitas mitocôndrias e as passa ao embrião.", "correta": false, "etiqueta": "bio-meia-verdade" },
-      { "letra": "B", "texto": "Porque pai e mãe passam a mesma quantidade de mitocôndrias ao embrião.", "correta": false, "etiqueta": "bio-generalizou" },
-      { "letra": "C", "texto": "Porque as mitocôndrias do embrião vêm praticamente todas do óvulo.", "correta": true, "etiqueta": null },
-      { "letra": "D", "texto": "Porque as mitocôndrias são adquiridas do ambiente depois do nascimento.", "correta": false, "etiqueta": "bio-senso-comum" },
-      { "letra": "E", "texto": "Porque meninas herdam da mãe e meninos herdam do pai.", "correta": false, "etiqueta": "bio-confundiu-conceitos" }
+      {
+        "letra": "A",
+        "texto": "Porque o espermatozoide tem muitas mitocôndrias e as passa ao embrião.",
+        "correta": false,
+        "etiqueta": "bio-meia-verdade"
+      },
+      {
+        "letra": "B",
+        "texto": "Porque pai e mãe passam a mesma quantidade de mitocôndrias ao embrião.",
+        "correta": false,
+        "etiqueta": "bio-generalizou"
+      },
+      {
+        "letra": "C",
+        "texto": "Porque as mitocôndrias do embrião vêm praticamente todas do óvulo.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "Porque as mitocôndrias são adquiridas do ambiente depois do nascimento.",
+        "correta": false,
+        "etiqueta": "bio-senso-comum"
+      },
+      {
+        "letra": "E",
+        "texto": "Porque meninas herdam da mãe e meninos herdam do pai.",
+        "correta": false,
+        "etiqueta": "bio-confundiu-conceitos"
+      }
     ],
     "explicacao": "O óvulo é uma célula grande, cheia de citoplasma e mitocôndrias. As mitocôndrias do espermatozoide, em geral, não entram no zigoto ou são eliminadas. Por isso o DNA mitocondrial é herdado da mãe, por filhos e filhas.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-citologia-019", "materia": "biologia", "assunto": "citologia", "questionario": 4, "dificuldade": 1,
+    "id": "bio-citologia-019",
+    "materia": "biologia",
+    "assunto": "citologia",
+    "questionario": 4,
+    "dificuldade": 1,
     "contexto": "Batata no laboratório",
     "enunciado": "Três fatias iguais de batata ficaram por uma hora em soluções salinas diferentes. A fatia da solução X aumentou 5% de massa, a da solução Y diminuiu 8% e a da solução Z manteve a massa. Em relação às células da batata, as soluções X, Y e Z são, respectivamente:",
     "alternativas": [
-      { "letra": "A", "texto": "hipertônica, hipotônica e isotônica.", "correta": false, "etiqueta": "bio-sentido-fluxo" },
-      { "letra": "B", "texto": "hipotônica, hipotônica e hipertônica.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
-      { "letra": "C", "texto": "isotônica, hipertônica e hipotônica.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
-      { "letra": "D", "texto": "isotônica, isotônica e sem sal.", "correta": false, "etiqueta": "bio-ignorou-dado" },
-      { "letra": "E", "texto": "hipotônica, hipertônica e isotônica.", "correta": true, "etiqueta": null }
+      {
+        "letra": "A",
+        "texto": "hipertônica, hipotônica e isotônica.",
+        "correta": false,
+        "etiqueta": "bio-sentido-fluxo"
+      },
+      {
+        "letra": "B",
+        "texto": "hipotônica, hipotônica e hipertônica.",
+        "correta": false,
+        "etiqueta": "bio-confundiu-conceitos"
+      },
+      {
+        "letra": "C",
+        "texto": "isotônica, hipertônica e hipotônica.",
+        "correta": false,
+        "etiqueta": "bio-confundiu-conceitos"
+      },
+      {
+        "letra": "D",
+        "texto": "isotônica, isotônica e sem sal.",
+        "correta": false,
+        "etiqueta": "bio-ignorou-dado"
+      },
+      {
+        "letra": "E",
+        "texto": "hipotônica, hipertônica e isotônica.",
+        "correta": true,
+        "etiqueta": null
+      }
     ],
     "explicacao": "Se a fatia ganhou massa, a água entrou: a solução é menos concentrada que as células (hipotônica). Se perdeu massa, a água saiu: a solução é mais concentrada (hipertônica). Se a massa não mudou, as concentrações são iguais (isotônica).",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-citologia-020", "materia": "biologia", "assunto": "citologia", "questionario": 4, "dificuldade": 1,
+    "id": "bio-citologia-020",
+    "materia": "biologia",
+    "assunto": "citologia",
+    "questionario": 4,
+    "dificuldade": 1,
     "contexto": "Pra que serve respirar",
     "enunciado": "Na respiração celular aeróbia, as células consomem gás oxigênio. Qual é o destino do O2 dentro da célula?",
     "alternativas": [
-      { "letra": "A", "texto": "Funciona como aceptor final de elétrons na cadeia respiratória e forma água.", "correta": true, "etiqueta": null },
-      { "letra": "B", "texto": "É incorporado à glicose para formar moléculas maiores.", "correta": false, "etiqueta": "bio-sentido-fluxo" },
-      { "letra": "C", "texto": "É liberado como CO2 diretamente pela membrana.", "correta": false, "etiqueta": "bio-confundiu-processos" },
-      { "letra": "D", "texto": "É quebrado para formar glicose na mitocôndria.", "correta": false, "etiqueta": "bio-sentido-fluxo" },
-      { "letra": "E", "texto": "É armazenado na forma de ATP para uso posterior.", "correta": false, "etiqueta": "bio-confundiu-conceitos" }
+      {
+        "letra": "A",
+        "texto": "Funciona como aceptor final de elétrons na cadeia respiratória e forma água.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "É incorporado à glicose para formar moléculas maiores.",
+        "correta": false,
+        "etiqueta": "bio-sentido-fluxo"
+      },
+      {
+        "letra": "C",
+        "texto": "É liberado como CO2 diretamente pela membrana.",
+        "correta": false,
+        "etiqueta": "bio-confundiu-processos"
+      },
+      {
+        "letra": "D",
+        "texto": "É quebrado para formar glicose na mitocôndria.",
+        "correta": false,
+        "etiqueta": "bio-sentido-fluxo"
+      },
+      {
+        "letra": "E",
+        "texto": "É armazenado na forma de ATP para uso posterior.",
+        "correta": false,
+        "etiqueta": "bio-confundiu-conceitos"
+      }
     ],
     "explicacao": "Na etapa final da respiração, o O2 recebe elétrons e prótons e forma água. O CO2 liberado vem da quebra da glicose, não do O2. O ATP é formado com a energia desse processo, e não armazena oxigênio.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   }
 ]

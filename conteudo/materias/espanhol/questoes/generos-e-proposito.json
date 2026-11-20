@@ -456,7 +456,7 @@
     "questionario": 3,
     "dificuldade": -1,
     "contexto": "Gato sumido",
-    "enunciado": "Se perdió gato blanco llamado Nieve. Llamar al 555-0123.\n\nO objetivo do anúncio é",
+    "enunciado": "Se perdió un gato blanco llamado Nieve. Si lo ve, llame al 555-0123.\n\nO objetivo do anúncio é",
     "alternativas": [
       {
         "letra": "A",
@@ -489,7 +489,7 @@
         "etiqueta": "esp-tom-errado"
       }
     ],
-    "explicacao": "\"Se perdió\" indica o desaparecimento, e o telefone serve para quem tiver notícias.",
+    "explicacao": "\"Se perdió\" indica o desaparecimento, e \"si lo ve, llame\" pede que quem vir o gato telefone.",
     "fala_especifica": null,
     "fonte": "autoral-ia",
     "licenca": "CC-BY-SA-4.0"

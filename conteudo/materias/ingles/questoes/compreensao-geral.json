@@ -636,7 +636,7 @@
     "questionario": 3,
     "dificuldade": 1,
     "contexto": "Entrada no museu",
-    "enunciado": "The museum is free on the first Sunday of every month, but only until noon. After that, tickets cost 20 reais, unless you are under 12 or over 65, who never pay.\n\nNo primeiro domingo do mês, às 15h, quem terá de pagar o ingresso?",
+    "enunciado": "The museum is free on the first Sunday of every month, but only until noon. After that, tickets cost 20 reais. Children under 12 and people over 65 never pay.\n\nNo primeiro domingo do mês, às 15h, quem terá de pagar o ingresso?",
     "alternativas": [
       {
         "letra": "A",

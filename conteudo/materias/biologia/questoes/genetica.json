@@ -1,282 +1,902 @@
 [
   {
-    "id": "bio-genetica-001", "materia": "biologia", "assunto": "genetica", "questionario": 1, "dificuldade": -1,
+    "id": "bio-genetica-001",
+    "materia": "biologia",
+    "assunto": "genetica",
+    "questionario": 1,
+    "dificuldade": -1,
     "contexto": "Ervilha de Mendel",
     "enunciado": "Em ervilhas, o alelo R (semente lisa) é dominante sobre r (semente rugosa). Uma planta de genótipo Rr tem semente lisa. Em relação a esse gene, ela é classificada como:",
     "alternativas": [
-      { "letra": "A", "texto": "homozigota dominante", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
-      { "letra": "B", "texto": "heterozigota", "correta": true, "etiqueta": null },
-      { "letra": "C", "texto": "homozigota recessiva", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
-      { "letra": "D", "texto": "pura, pois tem fenótipo dominante", "correta": false, "etiqueta": "bio-erro-dominancia" },
-      { "letra": "E", "texto": "haploide", "correta": false, "etiqueta": "bio-confundiu-conceitos" }
+      {
+        "letra": "A",
+        "texto": "homozigota dominante",
+        "correta": false,
+        "etiqueta": "bio-confundiu-conceitos"
+      },
+      {
+        "letra": "B",
+        "texto": "heterozigota",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "homozigota recessiva",
+        "correta": false,
+        "etiqueta": "bio-confundiu-conceitos"
+      },
+      {
+        "letra": "D",
+        "texto": "pura, pois tem fenótipo dominante",
+        "correta": false,
+        "etiqueta": "bio-erro-dominancia"
+      },
+      {
+        "letra": "E",
+        "texto": "haploide",
+        "correta": false,
+        "etiqueta": "bio-confundiu-conceitos"
+      }
     ],
     "explicacao": "Heterozigoto é quem tem dois alelos diferentes para o gene, no caso R e r. O fenótipo liso aparece porque R é dominante, mas o genótipo continua sendo Rr. Homozigoto seria RR ou rr.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-genetica-002", "materia": "biologia", "assunto": "genetica", "questionario": 1, "dificuldade": -1,
+    "id": "bio-genetica-002",
+    "materia": "biologia",
+    "assunto": "genetica",
+    "questionario": 1,
+    "dificuldade": -1,
     "contexto": "Cromossomos no espermatozoide",
     "enunciado": "As células do corpo humano (somáticas) têm 46 cromossomos. Quantos cromossomos tem um espermatozoide de um homem saudável?",
     "alternativas": [
-      { "letra": "A", "texto": "46", "correta": false, "etiqueta": "bio-confundiu-processos" },
-      { "letra": "B", "texto": "92", "correta": false, "etiqueta": "bio-erro-calculo" },
-      { "letra": "C", "texto": "44", "correta": false, "etiqueta": "bio-ignorou-dado" },
-      { "letra": "D", "texto": "23", "correta": true, "etiqueta": null },
-      { "letra": "E", "texto": "2", "correta": false, "etiqueta": "bio-confundiu-conceitos" }
+      {
+        "letra": "A",
+        "texto": "46",
+        "correta": false,
+        "etiqueta": "bio-confundiu-processos"
+      },
+      {
+        "letra": "B",
+        "texto": "92",
+        "correta": false,
+        "etiqueta": "bio-erro-calculo"
+      },
+      {
+        "letra": "C",
+        "texto": "44",
+        "correta": false,
+        "etiqueta": "bio-ignorou-dado"
+      },
+      {
+        "letra": "D",
+        "texto": "23",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "2",
+        "correta": false,
+        "etiqueta": "bio-confundiu-conceitos"
+      }
     ],
     "explicacao": "Os gametas são formados por meiose e ficam com metade dos cromossomos da célula somática: 46 ÷ 2 = 23. Na fecundação, os 23 do espermatozoide se juntam aos 23 do óvulo e voltam a formar 46.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-genetica-003", "materia": "biologia", "assunto": "genetica", "questionario": 1, "dificuldade": 0,
+    "id": "bio-genetica-003",
+    "materia": "biologia",
+    "assunto": "genetica",
+    "questionario": 1,
+    "dificuldade": 0,
     "contexto": "Casal sem albinismo, filho albino?",
     "enunciado": "O albinismo é uma condição autossômica recessiva (aa). Um casal sem albinismo, ambos heterozigotos (Aa), planeja ter um filho. Qual a probabilidade de a criança ser albina?",
     "alternativas": [
-      { "letra": "A", "texto": "25%", "correta": true, "etiqueta": null },
-      { "letra": "B", "texto": "50%", "correta": false, "etiqueta": "bio-erro-probabilidade" },
-      { "letra": "C", "texto": "75%", "correta": false, "etiqueta": "bio-ignorou-dado" },
-      { "letra": "D", "texto": "12,5%", "correta": false, "etiqueta": "bio-erro-probabilidade" },
-      { "letra": "E", "texto": "0%, pois os pais não são albinos", "correta": false, "etiqueta": "bio-erro-dominancia" }
+      {
+        "letra": "A",
+        "texto": "25%",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "50%",
+        "correta": false,
+        "etiqueta": "bio-erro-probabilidade"
+      },
+      {
+        "letra": "C",
+        "texto": "75%",
+        "correta": false,
+        "etiqueta": "bio-ignorou-dado"
+      },
+      {
+        "letra": "D",
+        "texto": "12,5%",
+        "correta": false,
+        "etiqueta": "bio-erro-probabilidade"
+      },
+      {
+        "letra": "E",
+        "texto": "0%, pois os pais não são albinos",
+        "correta": false,
+        "etiqueta": "bio-erro-dominancia"
+      }
     ],
     "explicacao": "Aa × Aa gera AA, Aa, Aa e aa, isto é, 1 em 4 é aa (25%). Os 75% são a chance de a criança ter fenótipo normal. Pais sem albinismo podem, sim, ter filho albino, quando os dois carregam o alelo recessivo.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-genetica-004", "materia": "biologia", "assunto": "genetica", "questionario": 1, "dificuldade": 0,
+    "id": "bio-genetica-004",
+    "materia": "biologia",
+    "assunto": "genetica",
+    "questionario": 1,
+    "dificuldade": 0,
     "contexto": "Tipos sanguíneos na família",
     "enunciado": "Um homem de sangue AB (IAIB) e uma mulher de sangue O (ii) vão ter filhos. Quais tipos sanguíneos os filhos do casal podem ter?",
     "alternativas": [
-      { "letra": "A", "texto": "Apenas A", "correta": false, "etiqueta": "bio-ignorou-dado" },
-      { "letra": "B", "texto": "A, B, AB e O", "correta": false, "etiqueta": "bio-generalizou" },
-      { "letra": "C", "texto": "Apenas AB, pois os alelos do pai se somam", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
-      { "letra": "D", "texto": "Apenas O e AB", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
-      { "letra": "E", "texto": "A ou B", "correta": true, "etiqueta": null }
+      {
+        "letra": "A",
+        "texto": "Apenas A",
+        "correta": false,
+        "etiqueta": "bio-ignorou-dado"
+      },
+      {
+        "letra": "B",
+        "texto": "A, B, AB e O",
+        "correta": false,
+        "etiqueta": "bio-generalizou"
+      },
+      {
+        "letra": "C",
+        "texto": "Apenas AB, pois os alelos do pai se somam",
+        "correta": false,
+        "etiqueta": "bio-confundiu-conceitos"
+      },
+      {
+        "letra": "D",
+        "texto": "Apenas O e AB",
+        "correta": false,
+        "etiqueta": "bio-confundiu-conceitos"
+      },
+      {
+        "letra": "E",
+        "texto": "A ou B",
+        "correta": true,
+        "etiqueta": null
+      }
     ],
     "explicacao": "O pai passa IA ou IB, e a mãe só pode passar i. Os filhos serão IAi (tipo A) ou IBi (tipo B). Os tipos AB e O são impossíveis, pois exigiriam um alelo IB e outro IA da parte da mãe, ou dois alelos i vindos do pai.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-genetica-005", "materia": "biologia", "assunto": "genetica", "questionario": 1, "dificuldade": 1,
+    "id": "bio-genetica-005",
+    "materia": "biologia",
+    "assunto": "genetica",
+    "questionario": 1,
+    "dificuldade": 1,
     "contexto": "Dois filhos, duas probabilidades",
     "enunciado": "A fibrose cística é uma condição autossômica recessiva (ff). Um casal sem a doença, ambos heterozigotos (Ff), terá dois filhos, em gestações separadas. Qual a probabilidade de os dois filhos terem fibrose cística?",
     "alternativas": [
-      { "letra": "A", "texto": "1/2", "correta": false, "etiqueta": "bio-erro-probabilidade" },
-      { "letra": "B", "texto": "1/4", "correta": false, "etiqueta": "bio-ignorou-dado" },
-      { "letra": "C", "texto": "1/16", "correta": true, "etiqueta": null },
-      { "letra": "D", "texto": "3/16", "correta": false, "etiqueta": "bio-erro-probabilidade" },
-      { "letra": "E", "texto": "1/8", "correta": false, "etiqueta": "bio-erro-probabilidade" }
+      {
+        "letra": "A",
+        "texto": "1/2",
+        "correta": false,
+        "etiqueta": "bio-erro-probabilidade"
+      },
+      {
+        "letra": "B",
+        "texto": "1/4",
+        "correta": false,
+        "etiqueta": "bio-ignorou-dado"
+      },
+      {
+        "letra": "C",
+        "texto": "1/16",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "3/16",
+        "correta": false,
+        "etiqueta": "bio-erro-probabilidade"
+      },
+      {
+        "letra": "E",
+        "texto": "1/8",
+        "correta": false,
+        "etiqueta": "bio-erro-probabilidade"
+      }
     ],
     "explicacao": "Para cada filho, a chance de ff é 1/4. Os dois eventos são independentes, então multiplicamos: 1/4 × 1/4 = 1/16. Responder 1/4 considera só um filho, e 3/16 seria a chance de um filho afetado e o outro não, em uma ordem específica.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-genetica-006", "materia": "biologia", "assunto": "genetica", "questionario": 2, "dificuldade": -1,
+    "id": "bio-genetica-006",
+    "materia": "biologia",
+    "assunto": "genetica",
+    "questionario": 2,
+    "dificuldade": -1,
     "contexto": "Pareamento de bases",
     "enunciado": "Na molécula de DNA, as duas fitas se mantêm unidas porque as bases nitrogenadas formam pares específicos. Qual base se liga à adenina (A)?",
     "alternativas": [
-      { "letra": "A", "texto": "Uracila", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
-      { "letra": "B", "texto": "Citosina", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
-      { "letra": "C", "texto": "Timina", "correta": true, "etiqueta": null },
-      { "letra": "D", "texto": "Guanina", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
-      { "letra": "E", "texto": "Ribose", "correta": false, "etiqueta": "bio-confundiu-conceitos" }
+      {
+        "letra": "A",
+        "texto": "Uracila",
+        "correta": false,
+        "etiqueta": "bio-confundiu-conceitos"
+      },
+      {
+        "letra": "B",
+        "texto": "Citosina",
+        "correta": false,
+        "etiqueta": "bio-confundiu-conceitos"
+      },
+      {
+        "letra": "C",
+        "texto": "Timina",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "Guanina",
+        "correta": false,
+        "etiqueta": "bio-confundiu-conceitos"
+      },
+      {
+        "letra": "E",
+        "texto": "Ribose",
+        "correta": false,
+        "etiqueta": "bio-confundiu-conceitos"
+      }
     ],
     "explicacao": "No DNA, A pareia com T e C pareia com G. A uracila só existe no RNA, no lugar da timina. Ribose é um açúcar, não uma base nitrogenada.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-genetica-007", "materia": "biologia", "assunto": "genetica", "questionario": 2, "dificuldade": 0,
+    "id": "bio-genetica-007",
+    "materia": "biologia",
+    "assunto": "genetica",
+    "questionario": 2,
+    "dificuldade": 0,
     "contexto": "Do DNA ao RNA",
     "enunciado": "Um trecho da fita molde de um gene tem a sequência TAC CGA. Durante a transcrição, é produzido um RNA mensageiro a partir dessa fita. Qual é a sequência desse RNA?",
     "alternativas": [
-      { "letra": "A", "texto": "AUG GCU", "correta": true, "etiqueta": null },
-      { "letra": "B", "texto": "ATG GCT", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
-      { "letra": "C", "texto": "TAC CGA", "correta": false, "etiqueta": "bio-ignorou-dado" },
-      { "letra": "D", "texto": "UAC CGA", "correta": false, "etiqueta": "bio-confundiu-processos" },
-      { "letra": "E", "texto": "AUG CGA", "correta": false, "etiqueta": "bio-erro-calculo" }
+      {
+        "letra": "A",
+        "texto": "AUG GCU",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "ATG GCT",
+        "correta": false,
+        "etiqueta": "bio-confundiu-conceitos"
+      },
+      {
+        "letra": "C",
+        "texto": "TAC CGA",
+        "correta": false,
+        "etiqueta": "bio-ignorou-dado"
+      },
+      {
+        "letra": "D",
+        "texto": "UAC CGA",
+        "correta": false,
+        "etiqueta": "bio-confundiu-processos"
+      },
+      {
+        "letra": "E",
+        "texto": "AUG CGA",
+        "correta": false,
+        "etiqueta": "bio-erro-calculo"
+      }
     ],
     "explicacao": "O RNA é complementar à fita molde: T pareia com A, A com U (no RNA não há timina), C com G e G com C. Então TAC vira AUG e CGA vira GCU. A opção ATG GCT usa timina, que não existe no RNA.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-genetica-008", "materia": "biologia", "assunto": "genetica", "questionario": 2, "dificuldade": 0,
+    "id": "bio-genetica-008",
+    "materia": "biologia",
+    "assunto": "genetica",
+    "questionario": 2,
+    "dificuldade": 0,
     "contexto": "Mutação da praia",
     "enunciado": "Após muitos verões sem protetor solar, uma pessoa desenvolve uma mutação em células da pele que causa um câncer. Ela poderá passar essa mutação aos filhos?",
     "alternativas": [
-      { "letra": "A", "texto": "Sim, pois toda mutação é transmitida aos descendentes.", "correta": false, "etiqueta": "bio-generalizou" },
-      { "letra": "B", "texto": "Sim, pois o filho herda as características que o pai adquiriu ao longo da vida.", "correta": false, "etiqueta": "bio-lamarckismo" },
-      { "letra": "C", "texto": "Sim, se a mutação for dominante, mesmo que esteja só na pele.", "correta": false, "etiqueta": "bio-erro-dominancia" },
-      { "letra": "D", "texto": "Não, pois mutações nunca são transmitidas, nem as que ocorrem nos gametas.", "correta": false, "etiqueta": "bio-generalizou" },
-      { "letra": "E", "texto": "Não, pois a mutação ocorreu em células somáticas, que não formam gametas.", "correta": true, "etiqueta": null }
+      {
+        "letra": "A",
+        "texto": "Sim, pois toda mutação é transmitida aos descendentes.",
+        "correta": false,
+        "etiqueta": "bio-generalizou"
+      },
+      {
+        "letra": "B",
+        "texto": "Sim, pois o filho herda as características que o pai adquiriu ao longo da vida.",
+        "correta": false,
+        "etiqueta": "bio-lamarckismo"
+      },
+      {
+        "letra": "C",
+        "texto": "Sim, se a mutação for dominante, mesmo que esteja só na pele.",
+        "correta": false,
+        "etiqueta": "bio-erro-dominancia"
+      },
+      {
+        "letra": "D",
+        "texto": "Não, pois mutações nunca são transmitidas, nem as que ocorrem nos gametas.",
+        "correta": false,
+        "etiqueta": "bio-generalizou"
+      },
+      {
+        "letra": "E",
+        "texto": "Não, pois a mutação ocorreu em células somáticas, que não formam gametas.",
+        "correta": true,
+        "etiqueta": null
+      }
     ],
     "explicacao": "Só são herdadas as mutações que ocorrem em células germinativas, as que originam óvulos e espermatozoides. Mutação em célula da pele fica no próprio indivíduo. Ser dominante não muda isso.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-genetica-009", "materia": "biologia", "assunto": "genetica", "questionario": 2, "dificuldade": 1,
+    "id": "bio-genetica-009",
+    "materia": "biologia",
+    "assunto": "genetica",
+    "questionario": 2,
+    "dificuldade": 1,
     "contexto": "Insulina de bactéria",
     "enunciado": "A insulina usada no tratamento do diabetes é produzida por bactérias nas quais foi inserido o gene humano da insulina. O sucesso dessa técnica depende de um fato sobre o código genético. Qual?",
     "alternativas": [
-      { "letra": "A", "texto": "As bactérias têm núcleo e organelas como as células humanas.", "correta": false, "etiqueta": "bio-confundiu-organela" },
-      { "letra": "B", "texto": "O código genético é praticamente universal, então a bactéria lê o gene humano e produz a mesma proteína.", "correta": true, "etiqueta": null },
-      { "letra": "C", "texto": "A bactéria se transforma em célula humana depois de receber o gene.", "correta": false, "etiqueta": "bio-senso-comum" },
-      { "letra": "D", "texto": "As bactérias já produzem insulina naturalmente, e o gene só aumenta a quantidade.", "correta": false, "etiqueta": "bio-ignorou-dado" },
-      { "letra": "E", "texto": "As enzimas de restrição sintetizam a insulina dentro da bactéria.", "correta": false, "etiqueta": "bio-confundiu-conceitos" }
+      {
+        "letra": "A",
+        "texto": "As bactérias têm núcleo e organelas como as células humanas.",
+        "correta": false,
+        "etiqueta": "bio-confundiu-organela"
+      },
+      {
+        "letra": "B",
+        "texto": "O código genético é praticamente universal, então a bactéria lê o gene humano e produz a mesma proteína.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "A bactéria se transforma em célula humana depois de receber o gene.",
+        "correta": false,
+        "etiqueta": "bio-senso-comum"
+      },
+      {
+        "letra": "D",
+        "texto": "As bactérias já produzem insulina naturalmente, e o gene só aumenta a quantidade.",
+        "correta": false,
+        "etiqueta": "bio-ignorou-dado"
+      },
+      {
+        "letra": "E",
+        "texto": "As enzimas de restrição sintetizam a insulina dentro da bactéria.",
+        "correta": false,
+        "etiqueta": "bio-confundiu-conceitos"
+      }
     ],
     "explicacao": "Como quase todos os seres vivos usam o mesmo código (os mesmos trincas de bases para os mesmos aminoácidos), a bactéria consegue ler o gene humano e fabricar a insulina. As enzimas de restrição só servem para cortar o DNA na hora de inserir o gene.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-genetica-010", "materia": "biologia", "assunto": "genetica", "questionario": 2, "dificuldade": 1,
+    "id": "bio-genetica-010",
+    "materia": "biologia",
+    "assunto": "genetica",
+    "questionario": 2,
+    "dificuldade": 1,
     "contexto": "Daltonismo e herança ligada ao X",
-    "enunciado": "O daltonismo é determinado por um alelo recessivo (d) no cromossomo X. Uma mulher de visão normal, portadora do alelo (XDXd), tem filhos com um homem de visão normal (XDY). Qual a probabilidade de nascer um menino daltônico?",
+    "enunciado": "O daltonismo é determinado por um alelo recessivo (d) no cromossomo X. Uma mulher de visão normal, portadora do alelo (XDXd), tem filhos com um homem de visão normal (XDY). Qual a probabilidade de o próximo filho do casal, sem saber o sexo, ser um menino daltônico?",
     "alternativas": [
-      { "letra": "A", "texto": "1/2", "correta": false, "etiqueta": "bio-ignorou-dado" },
-      { "letra": "B", "texto": "1/8", "correta": false, "etiqueta": "bio-erro-probabilidade" },
-      { "letra": "C", "texto": "3/4", "correta": false, "etiqueta": "bio-erro-dominancia" },
-      { "letra": "D", "texto": "1/4", "correta": true, "etiqueta": null },
-      { "letra": "E", "texto": "Zero, pois a mãe enxerga normalmente", "correta": false, "etiqueta": "bio-senso-comum" }
+      {
+        "letra": "A",
+        "texto": "1/2",
+        "correta": false,
+        "etiqueta": "bio-ignorou-dado"
+      },
+      {
+        "letra": "B",
+        "texto": "1/8",
+        "correta": false,
+        "etiqueta": "bio-erro-probabilidade"
+      },
+      {
+        "letra": "C",
+        "texto": "3/4",
+        "correta": false,
+        "etiqueta": "bio-erro-dominancia"
+      },
+      {
+        "letra": "D",
+        "texto": "1/4",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "Zero, pois a mãe enxerga normalmente",
+        "correta": false,
+        "etiqueta": "bio-senso-comum"
+      }
     ],
     "explicacao": "O cruzamento XDXd × XDY gera XDXD, XDXd, XDY e XdY, cada um com 1/4. O único menino daltônico é XdY, que tem 1/4 de chance. A chance de 1/2 vale só entre os meninos (metade deles é daltônico). A mãe portadora enxerga bem, mas passa o alelo.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-genetica-011", "materia": "biologia", "assunto": "genetica", "questionario": 3, "dificuldade": -1,
+    "id": "bio-genetica-011",
+    "materia": "biologia",
+    "assunto": "genetica",
+    "questionario": 3,
+    "dificuldade": -1,
     "contexto": "Menino ou menina?",
     "enunciado": "Na espécie humana, a mulher tem cromossomos sexuais XX e o homem tem XY. Qual dos gametas determina o sexo biológico do bebê?",
     "alternativas": [
-      { "letra": "A", "texto": "O óvulo, que pode carregar X ou Y.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
-      { "letra": "B", "texto": "A mãe, pela alimentação durante a gravidez.", "correta": false, "etiqueta": "bio-senso-comum" },
-      { "letra": "C", "texto": "Os dois igualmente, pois cada um fornece um X e um Y.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
-      { "letra": "D", "texto": "O tipo sanguíneo dos pais.", "correta": false, "etiqueta": "bio-senso-comum" },
-      { "letra": "E", "texto": "O espermatozoide, que pode carregar X ou Y.", "correta": true, "etiqueta": null }
+      {
+        "letra": "A",
+        "texto": "O óvulo, que pode carregar X ou Y.",
+        "correta": false,
+        "etiqueta": "bio-confundiu-conceitos"
+      },
+      {
+        "letra": "B",
+        "texto": "A mãe, pela alimentação durante a gravidez.",
+        "correta": false,
+        "etiqueta": "bio-senso-comum"
+      },
+      {
+        "letra": "C",
+        "texto": "Os dois igualmente, pois cada um fornece um X e um Y.",
+        "correta": false,
+        "etiqueta": "bio-confundiu-conceitos"
+      },
+      {
+        "letra": "D",
+        "texto": "O tipo sanguíneo dos pais.",
+        "correta": false,
+        "etiqueta": "bio-senso-comum"
+      },
+      {
+        "letra": "E",
+        "texto": "O espermatozoide, que pode carregar X ou Y.",
+        "correta": true,
+        "etiqueta": null
+      }
     ],
     "explicacao": "Todo óvulo carrega um X. O espermatozoide pode levar X (resulta em XX, menina) ou Y (resulta em XY, menino). Por isso é ele que define o sexo biológico.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-genetica-012", "materia": "biologia", "assunto": "genetica", "questionario": 3, "dificuldade": -1,
+    "id": "bio-genetica-012",
+    "materia": "biologia",
+    "assunto": "genetica",
+    "questionario": 3,
+    "dificuldade": -1,
     "contexto": "O que é um gene?",
     "enunciado": "Em uma aula, a professora diz que cada característica hereditária depende de genes. Do ponto de vista molecular, o que é um gene?",
     "alternativas": [
-      { "letra": "A", "texto": "Uma célula que forma o embrião.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
-      { "letra": "B", "texto": "Uma proteína que forma o cromossomo.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
-      { "letra": "C", "texto": "Um trecho de DNA com a informação para produzir uma proteína ou um RNA.", "correta": true, "etiqueta": null },
-      { "letra": "D", "texto": "Um gameta com metade dos cromossomos.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
-      { "letra": "E", "texto": "Um cromossomo inteiro, com todas as informações da pessoa.", "correta": false, "etiqueta": "bio-confundiu-conceitos" }
+      {
+        "letra": "A",
+        "texto": "Uma célula que forma o embrião.",
+        "correta": false,
+        "etiqueta": "bio-confundiu-conceitos"
+      },
+      {
+        "letra": "B",
+        "texto": "Uma proteína que forma o cromossomo.",
+        "correta": false,
+        "etiqueta": "bio-confundiu-conceitos"
+      },
+      {
+        "letra": "C",
+        "texto": "Um trecho de DNA com a informação para produzir uma proteína ou um RNA.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "Um gameta com metade dos cromossomos.",
+        "correta": false,
+        "etiqueta": "bio-confundiu-conceitos"
+      },
+      {
+        "letra": "E",
+        "texto": "Um cromossomo inteiro, com todas as informações da pessoa.",
+        "correta": false,
+        "etiqueta": "bio-confundiu-conceitos"
+      }
     ],
     "explicacao": "Gene é um segmento de DNA que contém a instrução para fabricar uma proteína (ou um RNA funcional). Um cromossomo tem milhares de genes, e é feito de DNA enrolado em proteínas.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-genetica-013", "materia": "biologia", "assunto": "genetica", "questionario": 3, "dificuldade": 0,
+    "id": "bio-genetica-013",
+    "materia": "biologia",
+    "assunto": "genetica",
+    "questionario": 3,
+    "dificuldade": 0,
     "contexto": "Segunda lei de Mendel",
     "enunciado": "Em ervilhas, a cor (V, amarela; v, verde) e a textura (R, lisa; r, rugosa) da semente são determinadas por genes em cromossomos diferentes. Quantos tipos de gametas uma planta de genótipo VvRr produz?",
     "alternativas": [
-      { "letra": "A", "texto": "2", "correta": false, "etiqueta": "bio-ignorou-dado" },
-      { "letra": "B", "texto": "3", "correta": false, "etiqueta": "bio-erro-calculo" },
-      { "letra": "C", "texto": "8", "correta": false, "etiqueta": "bio-erro-probabilidade" },
-      { "letra": "D", "texto": "4", "correta": true, "etiqueta": null },
-      { "letra": "E", "texto": "16", "correta": false, "etiqueta": "bio-erro-probabilidade" }
+      {
+        "letra": "A",
+        "texto": "2",
+        "correta": false,
+        "etiqueta": "bio-ignorou-dado"
+      },
+      {
+        "letra": "B",
+        "texto": "3",
+        "correta": false,
+        "etiqueta": "bio-erro-calculo"
+      },
+      {
+        "letra": "C",
+        "texto": "8",
+        "correta": false,
+        "etiqueta": "bio-erro-probabilidade"
+      },
+      {
+        "letra": "D",
+        "texto": "4",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "16",
+        "correta": false,
+        "etiqueta": "bio-erro-probabilidade"
+      }
     ],
     "explicacao": "Com genes que segregam de forma independente, cada gene dá 2 possibilidades e elas se combinam: 2 × 2 = 4 (VR, Vr, vR e vr). Considerar só um gene daria 2, e 16 é o número de combinações do cruzamento VvRr × VvRr.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-genetica-014", "materia": "biologia", "assunto": "genetica", "questionario": 3, "dificuldade": 0,
+    "id": "bio-genetica-014",
+    "materia": "biologia",
+    "assunto": "genetica",
+    "questionario": 3,
+    "dificuldade": 0,
     "contexto": "Dedos a mais na família",
     "enunciado": "A polidactilia (dedos extras) é, em certas famílias, uma condição autossômica dominante. Um casal em que ambos têm polidactilia teve um filho sem a condição. Quais são os genótipos dos pais?",
     "alternativas": [
-      { "letra": "A", "texto": "Ambos heterozigotos (Pp).", "correta": true, "etiqueta": null },
-      { "letra": "B", "texto": "Ambos homozigotos dominantes (PP).", "correta": false, "etiqueta": "bio-ignorou-dado" },
-      { "letra": "C", "texto": "Pai PP e mãe pp.", "correta": false, "etiqueta": "bio-ignorou-dado" },
-      { "letra": "D", "texto": "Ambos homozigotos recessivos (pp).", "correta": false, "etiqueta": "bio-erro-dominancia" },
-      { "letra": "E", "texto": "Impossível: dois pais com a condição só têm filhos com a condição.", "correta": false, "etiqueta": "bio-erro-dominancia" }
+      {
+        "letra": "A",
+        "texto": "Ambos heterozigotos (Pp).",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "Ambos homozigotos dominantes (PP).",
+        "correta": false,
+        "etiqueta": "bio-ignorou-dado"
+      },
+      {
+        "letra": "C",
+        "texto": "Pai PP e mãe pp.",
+        "correta": false,
+        "etiqueta": "bio-ignorou-dado"
+      },
+      {
+        "letra": "D",
+        "texto": "Ambos homozigotos recessivos (pp).",
+        "correta": false,
+        "etiqueta": "bio-erro-dominancia"
+      },
+      {
+        "letra": "E",
+        "texto": "Impossível: dois pais com a condição só têm filhos com a condição.",
+        "correta": false,
+        "etiqueta": "bio-erro-dominancia"
+      }
     ],
     "explicacao": "O filho sem a condição é pp, então recebeu um p de cada um. Como os pais têm polidactilia (fenótipo dominante) e carregam p, os dois são Pp. PP × PP daria só filhos com a condição, e pp não teria polidactilia.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-genetica-015", "materia": "biologia", "assunto": "genetica", "questionario": 3, "dificuldade": 1,
+    "id": "bio-genetica-015",
+    "materia": "biologia",
+    "assunto": "genetica",
+    "questionario": 3,
+    "dificuldade": 1,
     "contexto": "O raio cai duas vezes no mesmo lugar?",
     "enunciado": "Um casal sem fibrose cística (condição recessiva, ff) já tem um filho com a doença. Eles pensam em ter outro filho. Qual a probabilidade de o segundo filho também ter fibrose cística?",
     "alternativas": [
-      { "letra": "A", "texto": "Zero, pois já tiveram um filho afetado.", "correta": false, "etiqueta": "bio-senso-comum" },
-      { "letra": "B", "texto": "1/4", "correta": true, "etiqueta": null },
-      { "letra": "C", "texto": "1/2", "correta": false, "etiqueta": "bio-erro-probabilidade" },
-      { "letra": "D", "texto": "1/16", "correta": false, "etiqueta": "bio-erro-probabilidade" },
-      { "letra": "E", "texto": "3/4", "correta": false, "etiqueta": "bio-ignorou-dado" }
+      {
+        "letra": "A",
+        "texto": "Zero, pois já tiveram um filho afetado.",
+        "correta": false,
+        "etiqueta": "bio-senso-comum"
+      },
+      {
+        "letra": "B",
+        "texto": "1/4",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "1/2",
+        "correta": false,
+        "etiqueta": "bio-erro-probabilidade"
+      },
+      {
+        "letra": "D",
+        "texto": "1/16",
+        "correta": false,
+        "etiqueta": "bio-erro-probabilidade"
+      },
+      {
+        "letra": "E",
+        "texto": "3/4",
+        "correta": false,
+        "etiqueta": "bio-ignorou-dado"
+      }
     ],
     "explicacao": "Como tiveram um filho ff, ambos os pais são Ff. A cada gestação, a chance de ff é 1/4, independentemente do que ocorreu antes: o primeiro filho não 'gasta' a probabilidade. Multiplicar por 1/4 de novo (1/16) seria a chance de dois filhos afetados antes de nascer qualquer um.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-genetica-016", "materia": "biologia", "assunto": "genetica", "questionario": 4, "dificuldade": -1,
+    "id": "bio-genetica-016",
+    "materia": "biologia",
+    "assunto": "genetica",
+    "questionario": 4,
+    "dificuldade": -1,
     "contexto": "De onde vêm óvulo e espermatozoide",
     "enunciado": "Qual tipo de divisão celular origina os gametas (óvulos e espermatozoides) e reduz o número de cromossomos à metade?",
     "alternativas": [
-      { "letra": "A", "texto": "Mitose", "correta": false, "etiqueta": "bio-confundiu-processos" },
-      { "letra": "B", "texto": "Fecundação", "correta": false, "etiqueta": "bio-confundiu-processos" },
-      { "letra": "C", "texto": "Clonagem", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
-      { "letra": "D", "texto": "Meiose", "correta": true, "etiqueta": null },
-      { "letra": "E", "texto": "Fotossíntese", "correta": false, "etiqueta": "bio-senso-comum" }
+      {
+        "letra": "A",
+        "texto": "Mitose",
+        "correta": false,
+        "etiqueta": "bio-confundiu-processos"
+      },
+      {
+        "letra": "B",
+        "texto": "Fecundação",
+        "correta": false,
+        "etiqueta": "bio-confundiu-processos"
+      },
+      {
+        "letra": "C",
+        "texto": "Clonagem",
+        "correta": false,
+        "etiqueta": "bio-confundiu-conceitos"
+      },
+      {
+        "letra": "D",
+        "texto": "Meiose",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "E",
+        "texto": "Fotossíntese",
+        "correta": false,
+        "etiqueta": "bio-senso-comum"
+      }
     ],
     "explicacao": "A meiose reduz o número de cromossomos à metade e forma os gametas. A mitose mantém o número de cromossomos e serve para crescimento e renovação de células. Na fecundação, os gametas se unem e restabelecem o número normal.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-genetica-017", "materia": "biologia", "assunto": "genetica", "questionario": 4, "dificuldade": 0,
+    "id": "bio-genetica-017",
+    "materia": "biologia",
+    "assunto": "genetica",
+    "questionario": 4,
+    "dificuldade": 0,
     "contexto": "Teste de paternidade por DNA",
     "enunciado": "Em um teste de paternidade por DNA, comparam-se trechos do material genético da criança, da mãe e do suposto pai. Qual critério indica que o homem pode ser o pai biológico?",
     "alternativas": [
-      { "letra": "A", "texto": "Ele tem o mesmo tipo sanguíneo que a criança.", "correta": false, "etiqueta": "bio-meia-verdade" },
-      { "letra": "B", "texto": "As marcas de DNA da criança que não vieram da mãe aparecem no DNA dele.", "correta": true, "etiqueta": null },
-      { "letra": "C", "texto": "Ele tem a mesma cor de pele da criança.", "correta": false, "etiqueta": "bio-senso-comum" },
-      { "letra": "D", "texto": "O DNA dele é idêntico ao da criança.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
-      { "letra": "E", "texto": "Ele tem os mesmos cromossomos sexuais que a criança.", "correta": false, "etiqueta": "bio-generalizou" }
+      {
+        "letra": "A",
+        "texto": "Ele tem o mesmo tipo sanguíneo que a criança.",
+        "correta": false,
+        "etiqueta": "bio-meia-verdade"
+      },
+      {
+        "letra": "B",
+        "texto": "As marcas de DNA da criança que não vieram da mãe aparecem no DNA dele.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "C",
+        "texto": "Ele tem a mesma cor de pele da criança.",
+        "correta": false,
+        "etiqueta": "bio-senso-comum"
+      },
+      {
+        "letra": "D",
+        "texto": "O DNA dele é idêntico ao da criança.",
+        "correta": false,
+        "etiqueta": "bio-confundiu-conceitos"
+      },
+      {
+        "letra": "E",
+        "texto": "Ele tem os mesmos cromossomos sexuais que a criança.",
+        "correta": false,
+        "etiqueta": "bio-generalizou"
+      }
     ],
     "explicacao": "A criança recebe metade do DNA de cada genitor. O que não veio da mãe tem de ter vindo do pai biológico, então essas marcas precisam aparecer no DNA dele. DNA idêntico seria de um clone ou de um gêmeo idêntico. Tipo sanguíneo igual é comum entre pessoas sem parentesco e não prova nada.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-genetica-018", "materia": "biologia", "assunto": "genetica", "questionario": 4, "dificuldade": 0,
+    "id": "bio-genetica-018",
+    "materia": "biologia",
+    "assunto": "genetica",
+    "questionario": 4,
+    "dificuldade": 0,
     "contexto": "Flor-maravilha",
     "enunciado": "Na flor-maravilha, não há dominância entre os alelos: o cruzamento de plantas de flor vermelha (VV) com plantas de flor branca (BB) gera só plantas de flor rosa (VB). Cruzando duas plantas de flor rosa entre si, qual a proporção esperada de descendentes?",
     "alternativas": [
-      { "letra": "A", "texto": "100% de flores rosa", "correta": false, "etiqueta": "bio-ignorou-dado" },
-      { "letra": "B", "texto": "75% vermelhas e 25% brancas", "correta": false, "etiqueta": "bio-erro-dominancia" },
-      { "letra": "C", "texto": "25% vermelhas, 50% rosa e 25% brancas", "correta": true, "etiqueta": null },
-      { "letra": "D", "texto": "50% vermelhas e 50% brancas", "correta": false, "etiqueta": "bio-erro-probabilidade" },
-      { "letra": "E", "texto": "50% rosa e 50% vermelhas", "correta": false, "etiqueta": "bio-erro-probabilidade" }
+      {
+        "letra": "A",
+        "texto": "100% de flores rosa",
+        "correta": false,
+        "etiqueta": "bio-ignorou-dado"
+      },
+      {
+        "letra": "B",
+        "texto": "75% vermelhas e 25% brancas",
+        "correta": false,
+        "etiqueta": "bio-erro-dominancia"
+      },
+      {
+        "letra": "C",
+        "texto": "25% vermelhas, 50% rosa e 25% brancas",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "D",
+        "texto": "50% vermelhas e 50% brancas",
+        "correta": false,
+        "etiqueta": "bio-erro-probabilidade"
+      },
+      {
+        "letra": "E",
+        "texto": "50% rosa e 50% vermelhas",
+        "correta": false,
+        "etiqueta": "bio-erro-probabilidade"
+      }
     ],
     "explicacao": "VB × VB gera VV, VB, VB e BB: 1/4 vermelhas, 2/4 rosa e 1/4 brancas. Como não há dominância, cada genótipo tem um fenótipo próprio, e a proporção fenotípica é igual à genotípica, 1:2:1.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-genetica-019", "materia": "biologia", "assunto": "genetica", "questionario": 4, "dificuldade": 1,
+    "id": "bio-genetica-019",
+    "materia": "biologia",
+    "assunto": "genetica",
+    "questionario": 4,
+    "dificuldade": 1,
     "contexto": "Rh e sexo do bebê",
     "enunciado": "O fator Rh positivo é dominante (D) sobre o negativo (d). Uma mulher Rh negativo (dd) e um homem Rh positivo heterozigoto (Dd) terão um filho. Qual a probabilidade de a criança ser menino e Rh negativo?",
     "alternativas": [
-      { "letra": "A", "texto": "1/2", "correta": false, "etiqueta": "bio-ignorou-dado" },
-      { "letra": "B", "texto": "1/3", "correta": false, "etiqueta": "bio-erro-calculo" },
-      { "letra": "C", "texto": "3/4", "correta": false, "etiqueta": "bio-erro-dominancia" },
-      { "letra": "D", "texto": "1/8", "correta": false, "etiqueta": "bio-erro-probabilidade" },
-      { "letra": "E", "texto": "1/4", "correta": true, "etiqueta": null }
+      {
+        "letra": "A",
+        "texto": "1/2",
+        "correta": false,
+        "etiqueta": "bio-ignorou-dado"
+      },
+      {
+        "letra": "B",
+        "texto": "1/3",
+        "correta": false,
+        "etiqueta": "bio-erro-calculo"
+      },
+      {
+        "letra": "C",
+        "texto": "3/4",
+        "correta": false,
+        "etiqueta": "bio-erro-dominancia"
+      },
+      {
+        "letra": "D",
+        "texto": "1/8",
+        "correta": false,
+        "etiqueta": "bio-erro-probabilidade"
+      },
+      {
+        "letra": "E",
+        "texto": "1/4",
+        "correta": true,
+        "etiqueta": null
+      }
     ],
     "explicacao": "dd × Dd gera Dd e dd, cada um com 1/2, então a chance de Rh negativo é 1/2. A chance de menino é também 1/2. Como os eventos são independentes, 1/2 × 1/2 = 1/4. Responder 1/2 ignora o sexo da criança.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   },
   {
-    "id": "bio-genetica-020", "materia": "biologia", "assunto": "genetica", "questionario": 4, "dificuldade": 1,
+    "id": "bio-genetica-020",
+    "materia": "biologia",
+    "assunto": "genetica",
+    "questionario": 4,
+    "dificuldade": 1,
     "contexto": "Gêmeos idênticos, alturas diferentes",
     "enunciado": "Dois irmãos gêmeos idênticos foram criados em cidades diferentes. Na vida adulta, um deles é 5 cm mais alto que o outro, apesar de terem o mesmo material genético. Qual a melhor explicação para essa diferença?",
     "alternativas": [
-      { "letra": "A", "texto": "O fenótipo resulta da interação entre genótipo e ambiente, e eles viveram em ambientes diferentes, com nutrição e hábitos distintos.", "correta": true, "etiqueta": null },
-      { "letra": "B", "texto": "Houve troca de genes entre eles depois do nascimento.", "correta": false, "etiqueta": "bio-lamarckismo" },
-      { "letra": "C", "texto": "Gêmeos idênticos nunca diferem em nenhuma característica.", "correta": false, "etiqueta": "bio-generalizou" },
-      { "letra": "D", "texto": "Eles se originaram de dois óvulos diferentes, por isso têm genes diferentes.", "correta": false, "etiqueta": "bio-confundiu-conceitos" },
-      { "letra": "E", "texto": "O mais alto tem mais genes dominantes que o irmão.", "correta": false, "etiqueta": "bio-erro-dominancia" }
+      {
+        "letra": "A",
+        "texto": "O fenótipo resulta da interação entre genótipo e ambiente, e eles viveram em ambientes diferentes, com nutrição e hábitos distintos.",
+        "correta": true,
+        "etiqueta": null
+      },
+      {
+        "letra": "B",
+        "texto": "Houve troca de genes entre eles depois do nascimento.",
+        "correta": false,
+        "etiqueta": "bio-lamarckismo"
+      },
+      {
+        "letra": "C",
+        "texto": "Gêmeos idênticos nunca diferem em nenhuma característica.",
+        "correta": false,
+        "etiqueta": "bio-generalizou"
+      },
+      {
+        "letra": "D",
+        "texto": "Eles se originaram de dois óvulos diferentes, por isso têm genes diferentes.",
+        "correta": false,
+        "etiqueta": "bio-confundiu-conceitos"
+      },
+      {
+        "letra": "E",
+        "texto": "O mais alto tem mais genes dominantes que o irmão.",
+        "correta": false,
+        "etiqueta": "bio-erro-dominancia"
+      }
     ],
     "explicacao": "Gêmeos idênticos vêm de um mesmo zigoto e têm o mesmo genótipo. Ainda assim, o ambiente (alimentação, saúde, atividade física) influencia como os genes se manifestam, e por isso o fenótipo pode ser diferente. Gêmeos de dois óvulos são fraternos, não idênticos.",
-    "fala_especifica": null, "fonte": "autoral-ia", "licenca": "CC-BY-SA-4.0"
+    "fala_especifica": null,
+    "fonte": "autoral-ia",
+    "licenca": "CC-BY-SA-4.0"
   }
 ]

@@ -366,7 +366,7 @@
     "questionario": 2,
     "dificuldade": 1,
     "contexto": "Metas de redução",
-    "enunciado": "Em 1997, no Japão, foi aberto à assinatura um tratado que fixou metas de redução das emissões de gases de efeito estufa para os países desenvolvidos. Trata-se do",
+    "enunciado": "Em 1997, no Japão, foi adotado um tratado que fixou metas de redução das emissões de gases de efeito estufa para os países desenvolvidos. Trata-se do",
     "alternativas": [
       {
         "letra": "A",
@@ -399,7 +399,7 @@
         "etiqueta": "geo-cronologia"
       }
     ],
-    "explicacao": "O Protocolo de Kyoto (1997) tratou das emissões de gases de efeito estufa. O de Montreal (1987) cuidou das substâncias que atingem o ozônio, e o Acordo de Paris é de 2015.",
+    "explicacao": "O Protocolo de Kyoto foi adotado em 1997 e tratou das emissões de gases de efeito estufa. O de Montreal (1987) cuidou das substâncias que atingem o ozônio, e o Acordo de Paris é de 2015.",
     "fala_especifica": null,
     "fonte": "autoral-ia",
     "licenca": "CC-BY-SA-4.0"
