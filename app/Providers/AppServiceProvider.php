@@ -65,14 +65,12 @@ class AppServiceProvider extends ServiceProvider
             app()->isProduction(),
         );
 
-        Password::defaults(fn (): ?Password => app()->isProduction()
-            ? Password::min(12)
-                ->mixedCase()
-                ->letters()
-                ->numbers()
-                ->symbols()
-                ->uncompromised()
-            : null,
+        // Regra decidida pelo dono (20/11): pelo menos 8 caracteres, sem exigir
+        // símbolo/maiúscula (linha NIST). Em produção, bloqueia senha vazada (HIBP);
+        // fora dela não chama a API externa. A dica das telas diz "Pelo menos 8 caracteres".
+        Password::defaults(fn (): Password => app()->isProduction()
+            ? Password::min(8)->uncompromised()
+            : Password::min(8),
         );
     }
 }
