@@ -9,7 +9,7 @@ set -euo pipefail
 
 APP_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 REF="${1:-origin/main}"
-SERVICES=(app gabaritu-web)
+SERVICES=(app scheduler gabaritu-web)
 IMAGES=(gabaritu-app gabaritu-web)
 KEEP_SHA_IMAGES=3
 PREDEPLOY_BACKUP_DIR="${PREDEPLOY_BACKUP_DIR:-$HOME/backups/gabaritu-predeploy}"
