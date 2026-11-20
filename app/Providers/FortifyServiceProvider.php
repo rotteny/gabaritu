@@ -6,13 +6,19 @@ use App\Actions\Fortify\CreateNewUser;
 use App\Actions\Fortify\ResetUserPassword;
 use App\Enums\Serie;
 use App\Http\Responses\RecuperacaoSemRevelarEmail;
+use App\Http\Responses\RedirecionarPorTipo;
+use App\Models\User;
+use App\Support\RedirectInterno;
 use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\RateLimiter;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;
 use Inertia\Inertia;
 use Laravel\Fortify\Contracts\FailedPasswordResetLinkRequestResponse;
+use Laravel\Fortify\Contracts\LoginResponse as LoginResponseContract;
+use Laravel\Fortify\Contracts\RegisterResponse as RegisterResponseContract;
 use Laravel\Fortify\Fortify;
 
 class FortifyServiceProvider extends ServiceProvider
@@ -23,6 +29,8 @@ class FortifyServiceProvider extends ServiceProvider
     public function register(): void
     {
         $this->app->bind(FailedPasswordResetLinkRequestResponse::class, RecuperacaoSemRevelarEmail::class);
+        $this->app->singleton(LoginResponseContract::class, RedirecionarPorTipo::class);
+        $this->app->singleton(RegisterResponseContract::class, RedirecionarPorTipo::class);
     }
 
     /**
@@ -42,6 +50,13 @@ class FortifyServiceProvider extends ServiceProvider
     {
         Fortify::resetUserPasswordsUsing(ResetUserPassword::class);
         Fortify::createUsersUsing(CreateNewUser::class);
+        // /entrar é só de aluno; a credencial de responsável cai na mesma mensagem genérica.
+        Fortify::authenticateUsing(function (Request $request): ?User {
+            $usuario = User::query()->whereRaw('lower(email) = ?', [mb_strtolower(trim((string) $request->input('email')))])->first();
+
+            return $usuario !== null && ! $usuario->ehResponsavel() && Hash::check((string) $request->input('password'), $usuario->password)
+                ? $usuario : null;
+        });
     }
 
     /**
@@ -49,9 +64,11 @@ class FortifyServiceProvider extends ServiceProvider
      */
     private function configureViews(): void
     {
-        Fortify::loginView(fn (Request $request) => Inertia::render('auth/Entrar', [
-            'status' => $request->session()->get('status'),
-        ]));
+        Fortify::loginView(function (Request $request) {
+            RedirectInterno::guardar($request);
+
+            return Inertia::render('auth/Entrar', ['status' => $request->session()->get('status')]);
+        });
 
         Fortify::registerView(fn () => Inertia::render('auth/Cadastro', [
             'series' => array_map(fn (Serie $serie) => $serie->value, Serie::cases()),

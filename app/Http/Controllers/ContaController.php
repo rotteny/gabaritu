@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Concerns\PasswordValidationRules;
+use App\Domain\Responsavel\ApresentadorDeAluno;
+use App\Domain\Responsavel\LimitesDeConvite;
 use App\Enums\Nivel;
 use App\Enums\Serie;
 use App\Models\User;
@@ -20,13 +22,16 @@ class ContaController extends Controller
 {
     use PasswordValidationRules;
 
-    public function show(Request $request): Response
+    public function show(Request $request, ApresentadorDeAluno $apresentador, LimitesDeConvite $limites): Response
     {
         $aluno = $request->user();
 
         return Inertia::render('Conta', [
             'perfil' => ['apelido' => $aluno->apelido, 'email' => $aluno->email, 'serie' => $aluno->serie],
             'series' => array_map(fn (Serie $serie) => $serie->value, Serie::cases()),
+            'responsaveis' => $apresentador->responsaveisParaAluno($aluno),
+            'convites_responsavel' => $apresentador->convitesParaAluno($aluno),
+            'pode_convidar' => ! $aluno->aguardaResponsavel() && $limites->podeConvidar($aluno),
         ]);
     }
 
@@ -92,7 +97,11 @@ class ContaController extends Controller
     private function recusarZoeiraAcimaDoTeto(User $aluno, ?string $zoeira): void
     {
         if ($zoeira !== null && Nivel::from($zoeira)->ordem() > $aluno->zoeiraMaxima()->ordem()) {
-            throw ValidationException::withMessages(['zoeira' => 'Esse nível de zoeira só é liberado a partir dos 15 anos.']);
+            $porIdade = Nivel::from($zoeira)->ordem() > $aluno->zoeiraMaximaPorIdade()->ordem();
+
+            throw ValidationException::withMessages(['zoeira' => $porIdade
+                ? 'Esse nível de zoeira só é liberado a partir dos 15 anos.'
+                : 'O seu responsável limitou o nível de zoeira. Esse nível não está liberado para você.']);
         }
     }
 }

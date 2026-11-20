@@ -13,8 +13,11 @@ return [
 
     'idade_minima' => 13,
 
-    /* Versão da página /privacidade gravada no aceite do cadastro. Mudou o texto, mude a versão. */
-    'privacidade_versao' => '2026-11-19',
+    /* Versão da página /privacidade gravada nos aceites. Mudou o texto, mude a versão. */
+    'privacidade_versao' => '2026-11-20',
+
+    /* Versão da página /termos gravada no aceite do responsável. Mudou o texto, mude a versão. */
+    'termos_versao' => '2026-11-20',
 
     'fuso' => 'America/Sao_Paulo',
 

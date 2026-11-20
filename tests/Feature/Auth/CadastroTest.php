@@ -2,20 +2,6 @@
 
 use App\Models\User;
 
-function dadosDeCadastro(array $sobrescrever = []): array
-{
-    return [
-        'apelido' => 'Peixotinho',
-        'email' => 'aluno@exemplo.test',
-        'senha' => 'senha-bem-longa-123',
-        'senha_confirmation' => 'senha-bem-longa-123',
-        'ano_nascimento' => (int) now()->format('Y') - 17,
-        'serie' => '2em',
-        'aceite_privacidade' => true,
-        ...$sobrescrever,
-    ];
-}
-
 it('mostra a página de cadastro do contrato', function () {
     $this->get('/cadastro')->assertOk()->assertInertia(fn ($page) => $page->component('auth/Cadastro'));
     $this->get('/entrar')->assertOk()->assertInertia(fn ($page) => $page->component('auth/Entrar'));
@@ -33,7 +19,8 @@ it('cria a conta, entra e manda para o início', function () {
 it('aceita exatamente 13 anos (idade = ano atual − ano de nascimento − 1)', function () {
     $anoLimite = (int) now()->format('Y') - 14;
 
-    $this->post('/cadastro', dadosDeCadastro(['ano_nascimento' => $anoLimite]))->assertRedirect('/inicio');
+    $this->post('/cadastro', dadosDeCadastro(['ano_nascimento' => $anoLimite, 'email_responsavel' => 'mae@exemplo.test', 'parentesco_responsavel' => 'mae']))
+        ->assertRedirect('/aguardando-responsavel');
 });
 
 it('recusa menor de 13 anos e não cria conta', function (int $anosAtras) {
