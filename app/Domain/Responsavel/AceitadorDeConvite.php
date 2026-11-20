@@ -17,7 +17,7 @@ use Illuminate\Validation\ValidationException;
 
 class AceitadorDeConvite
 {
-    public function __construct(private readonly GestorDeVinculos $vinculos) {}
+    public function __construct(private readonly GestorDeVinculos $vinculos, private readonly RegistradorDeVinculo $registrador) {}
 
     /**
      * @param  array{parentesco: string, parentesco_outro?: string|null, nome?: string, senha?: string, ano_nascimento?: int|string}  $dados
@@ -33,7 +33,7 @@ class AceitadorDeConvite
             $this->encerrarVinculoSubstituido($atual, $responsavel);
             $atual->forceFill(['usado_em' => now()])->save();
 
-            return [$responsavel, $aluno, $this->ativar($aluno), $vinculo];
+            return [$responsavel, $aluno, $this->registrador->liberarAluno($aluno), $vinculo];
         });
 
         [$responsavel, $aluno, $foiAtivado, $vinculo] = $resultado;
@@ -92,22 +92,7 @@ class AceitadorDeConvite
     {
         $parentesco = DadosDeParentesco::de((string) $dados['parentesco'], $dados['parentesco_outro'] ?? null);
 
-        $vinculo = VinculoResponsavel::query()->updateOrCreate(
-            ['aluno_id' => $aluno->id, 'responsavel_id' => $responsavel->id],
-            [
-                'parentesco' => $parentesco->parentesco->value,
-                'parentesco_outro' => $parentesco->outro,
-                'aceito_em' => now(),
-                'termos_versao' => (string) config('gabaritu.termos_versao'),
-                'privacidade_versao' => (string) config('gabaritu.privacidade_versao'),
-                'aceite_ip' => $ip,
-                'declara_responsavel' => true,
-                'aceite_termos' => true,
-            ],
-        );
-        $responsavel->forceFill(['sem_aluno_desde' => null])->save();
-
-        return $vinculo;
+        return $this->registrador->registrar($aluno, $responsavel, $parentesco, now(), $ip);
     }
 
     private function encerrarVinculoSubstituido(ConviteResponsavel $convite, User $novo): void
@@ -123,16 +108,5 @@ class AceitadorDeConvite
         if ($antigo !== null) {
             $this->vinculos->marcarSemAluno($antigo);
         }
-    }
-
-    private function ativar(User $aluno): bool
-    {
-        if (! $aluno->aguardaResponsavel()) {
-            return false;
-        }
-
-        $aluno->forceFill(['status' => StatusConta::Ativo->value, 'pendente_desde' => null, 'aviso_remocao_em' => null])->save();
-
-        return true;
     }
 }

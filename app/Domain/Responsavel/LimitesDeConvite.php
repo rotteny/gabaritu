@@ -69,7 +69,7 @@ class LimitesDeConvite
         $pendentes = ConviteResponsavel::query()->pendentes()->where('aluno_id', $aluno->id)
             ->whereIn('tipo', [TipoConvite::Coresponsavel->value, TipoConvite::CoresponsavelAluno->value])->count();
 
-        return $aluno->vinculosComResponsaveis()->count() + $pendentes;
+        return $aluno->vinculosAtivosComResponsaveis()->count() + $pendentes;
     }
 
     private function criadosNoDia(User $aluno, TipoConvite $tipo): int

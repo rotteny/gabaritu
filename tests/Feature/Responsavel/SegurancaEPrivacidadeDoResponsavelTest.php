@@ -47,7 +47,7 @@ describe('dados mínimos do responsável', function () {
         expect(Schema::getColumnType('users', 'ano_nascimento'))->toBeIn(['int2', 'smallint', 'integer', 'int4']);
         expect(Schema::getColumnListing('vinculos_responsavel'))->toEqualCanonicalizing([
             'id', 'aluno_id', 'responsavel_id', 'parentesco', 'parentesco_outro', 'aceito_em', 'termos_versao',
-            'privacidade_versao', 'aceite_ip', 'declara_responsavel', 'aceite_termos', 'created_at', 'updated_at',
+            'privacidade_versao', 'aceite_ip', 'declara_responsavel', 'aceite_termos', 'status', 'suspenso_em', 'created_at', 'updated_at',
         ]);
     });
 

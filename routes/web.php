@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AguardandoResponsavelController;
 use App\Http\Controllers\ContaController;
+use App\Http\Controllers\ContaPedidosController;
 use App\Http\Controllers\ContaResponsaveisController;
 use App\Http\Controllers\DesempenhoController;
 use App\Http\Controllers\HomeController;
@@ -41,6 +42,7 @@ Route::middleware(['auth', 'aluno'])->group(function () {
     Route::patch('conta/perfil', [ContaController::class, 'perfil'])->name('conta.perfil');
     Route::put('conta/senha', [ContaController::class, 'senha'])->middleware('throttle:6,1')->name('conta.senha');
     Route::post('conta/responsaveis', [ContaResponsaveisController::class, 'store'])->middleware('throttle:convite-emissao')->name('conta.responsaveis.store');
+    Route::post('conta/responsaveis/{responsavel}/contestar', [ContaResponsaveisController::class, 'contestar'])->name('conta.responsaveis.contestar');
     Route::delete('conta/responsaveis/convites/{convite}', [ContaResponsaveisController::class, 'destroy'])->name('conta.responsaveis.convites.destroy');
 });
 
@@ -48,6 +50,8 @@ Route::middleware(['auth', 'aluno'])->group(function () {
 Route::middleware(['auth', 'aluno.conta'])->group(function () {
     Route::get('conta', [ContaController::class, 'show'])->name('conta');
     Route::delete('conta', [ContaController::class, 'destroy'])->middleware('throttle:6,1')->name('conta.destroy');
+    Route::post('conta/pedidos/{convite}/aceitar', [ContaPedidosController::class, 'aceitar'])->name('conta.pedidos.aceitar');
+    Route::post('conta/pedidos/{convite}/recusar', [ContaPedidosController::class, 'recusar'])->name('conta.pedidos.recusar');
 });
 
 Route::middleware(['auth', 'aluno.pendente'])->prefix('aguardando-responsavel')->group(function () {
@@ -78,6 +82,13 @@ Route::middleware(['auth', 'responsavel'])->prefix('responsavel')->name('respons
     Route::get('conta', [Responsavel\ContaController::class, 'show'])->name('conta');
     Route::put('conta/senha', [Responsavel\ContaController::class, 'senha'])->middleware('throttle:6,1')->name('conta.senha');
     Route::delete('conta', [Responsavel\ContaController::class, 'destroy'])->middleware('throttle:6,1')->name('conta.destroy');
+
+    Route::post('pedidos', [Responsavel\PedidoController::class, 'store'])->middleware('throttle:convite-emissao')->name('pedidos.store');
+    Route::post('pedidos/{convite}/aprovar', [Responsavel\PedidoController::class, 'aprovar'])->name('pedidos.aprovar');
+    Route::post('pedidos/{convite}/recusar', [Responsavel\PedidoController::class, 'recusar'])->name('pedidos.recusar');
+    Route::delete('pedidos/{convite}', [Responsavel\PedidoController::class, 'destroy'])->name('pedidos.destroy');
+    Route::delete('alunos/{aluno}/suspensos/{responsavel}', [Responsavel\VinculoSuspensoController::class, 'remover'])->name('alunos.suspensos.remover');
+    Route::post('alunos/{aluno}/suspensos/{responsavel}/restaurar', [Responsavel\VinculoSuspensoController::class, 'restaurar'])->name('alunos.suspensos.restaurar');
 
     Route::get('alunos/{aluno}', [Responsavel\PainelController::class, 'show'])->name('alunos.show');
     Route::patch('alunos/{aluno}/zoeira', [Responsavel\ZoeiraController::class, 'update'])->name('alunos.zoeira');

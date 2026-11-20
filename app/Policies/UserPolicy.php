@@ -11,7 +11,7 @@ class UserPolicy
     public function acompanhar(User $responsavel, User $aluno): Response
     {
         $vinculado = $responsavel->ehResponsavel()
-            && $aluno->vinculosComResponsaveis()->where('responsavel_id', $responsavel->id)->exists();
+            && $aluno->vinculosAtivosComResponsaveis()->where('responsavel_id', $responsavel->id)->exists();
 
         return $vinculado ? Response::allow() : Response::denyAsNotFound();
     }

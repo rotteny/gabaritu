@@ -28,6 +28,7 @@ class ConviteDeResponsavel extends Mailable
             TipoConvite::Autorizacao, TipoConvite::CoresponsavelAluno => "{$apelido} pediu que você seja responsável no Gabaritu",
             TipoConvite::Coresponsavel => "Convite para acompanhar {$apelido} no Gabaritu",
             TipoConvite::Transferencia => "Convite para assumir a responsabilidade por {$apelido} no Gabaritu",
+            default => throw new \LogicException('Pedido do responsável usa PedidoDeResponsavelAoAluno.'),
         });
     }
 
@@ -38,6 +39,7 @@ class ConviteDeResponsavel extends Mailable
                 TipoConvite::Autorizacao, TipoConvite::CoresponsavelAluno => 'mail.responsavel.convite-solicitacao',
                 TipoConvite::Coresponsavel => 'mail.responsavel.convite-coresponsavel',
                 TipoConvite::Transferencia => 'mail.responsavel.convite-transferencia',
+                default => throw new \LogicException('Pedido do responsável usa PedidoDeResponsavelAoAluno.'),
             },
             with: [
                 'apelido' => $this->aluno->apelido,

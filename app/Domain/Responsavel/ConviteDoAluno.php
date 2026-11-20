@@ -8,6 +8,7 @@ use App\Enums\TipoConvite;
 use App\Models\ConviteResponsavel;
 use App\Models\User;
 use Illuminate\Support\Str;
+use Illuminate\Validation\ValidationException;
 
 /** Convite de autorização do aluno menor: cadastro, reenvio e correção do e-mail. */
 class ConviteDoAluno
@@ -30,14 +31,21 @@ class ConviteDoAluno
 
     public function reenviar(User $aluno): void
     {
+        if ($aluno->email_responsavel === null || $aluno->parentesco_responsavel === null) {
+            throw ValidationException::withMessages(['reenvio' => 'Informe o e-mail e o parentesco do responsável para enviar o convite.']);
+        }
+
         $this->limites->exigirReenvio($aluno, 'reenvio');
         $this->emitir($aluno);
     }
 
-    public function corrigirEmail(User $aluno, string $email): void
+    public function corrigirEmail(User $aluno, string $email, ?DadosDeParentesco $parentesco = null): void
     {
         $this->limites->exigirReenvio($aluno, 'email_responsavel');
-        $aluno->forceFill(['email_responsavel' => Str::lower(trim($email))])->save();
+        $aluno->forceFill([
+            'email_responsavel' => Str::lower(trim($email)),
+            ...($parentesco === null ? [] : ['parentesco_responsavel' => $parentesco->parentesco->value, 'parentesco_responsavel_outro' => $parentesco->outro]),
+        ])->save();
         $this->emitir($aluno);
     }
 

@@ -31,7 +31,7 @@ class ContaController extends Controller
                 'ano_nascimento' => $responsavel->ano_nascimento,
             ],
             'alunos_unicos' => $responsavel->alunos()->get()
-                ->filter(fn (User $aluno) => $aluno->vinculosComResponsaveis()->count() <= 1)
+                ->filter(fn (User $aluno) => $aluno->vinculosAtivosComResponsaveis()->count() <= 1)
                 ->pluck('apelido')->values()->all(),
         ]);
     }

@@ -60,7 +60,7 @@ class LimpezaDePendentes
     {
         $sem = User::query()->where('tipo', TipoConta::Responsavel->value)
             ->where('sem_aluno_desde', '<=', now()->subDays(self::DIAS_RESPONSAVEL_SEM_ALUNO))
-            ->whereDoesntHave('vinculosComAlunos')->get();
+            ->whereDoesntHave('vinculosAtivosComAlunos')->get();
 
         $sem->each(fn (User $responsavel) => $this->vinculos->apagarUsuario($responsavel));
 

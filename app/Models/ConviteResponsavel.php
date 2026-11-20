@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Enums\TipoConvite;
 use Database\Factories\ConviteResponsavelFactory;
 use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Attributes\Table;
@@ -27,10 +28,17 @@ use Illuminate\Support\Carbon;
  * @property Carbon|null $usado_em
  * @property Carbon|null $recusado_em
  * @property Carbon|null $invalidado_em
+ * @property string|null $aceite_ip
+ * @property Carbon|null $aceite_em
+ * @property string|null $termos_versao
+ * @property bool $exige_aprovacao
+ * @property int|null $aprovado_por_id
+ * @property Carbon|null $aprovado_em
+ * @property Carbon|null $aluno_aceitou_em
  * @property Carbon|null $created_at
  */
 #[Table('convites_responsavel')]
-#[Fillable(['aluno_id', 'solicitante_id', 'substitui_responsavel_id', 'tipo', 'email', 'parentesco', 'parentesco_outro', 'token_hash', 'expira_em'])]
+#[Fillable(['aluno_id', 'solicitante_id', 'substitui_responsavel_id', 'tipo', 'email', 'parentesco', 'parentesco_outro', 'token_hash', 'expira_em', 'aceite_ip', 'aceite_em', 'termos_versao', 'exige_aprovacao', 'aprovado_por_id'])]
 class ConviteResponsavel extends Model
 {
     /** @use HasFactory<ConviteResponsavelFactory> */
@@ -39,7 +47,7 @@ class ConviteResponsavel extends Model
     /** @return array<string, string> */
     protected function casts(): array
     {
-        return ['expira_em' => 'datetime', 'usado_em' => 'datetime', 'recusado_em' => 'datetime', 'invalidado_em' => 'datetime'];
+        return ['aceite_em' => 'datetime', 'aprovado_em' => 'datetime', 'aluno_aceitou_em' => 'datetime', 'exige_aprovacao' => 'boolean', 'expira_em' => 'datetime', 'usado_em' => 'datetime', 'recusado_em' => 'datetime', 'invalidado_em' => 'datetime'];
     }
 
     public static function hashDoToken(string $token): string
@@ -53,10 +61,28 @@ class ConviteResponsavel extends Model
         $consulta->whereNull('usado_em')->whereNull('recusado_em')->whereNull('invalidado_em')->where('expira_em', '>', now());
     }
 
+    /** @param  Builder<ConviteResponsavel>  $consulta */
+    public function scopeParaResponsavel(Builder $consulta): void
+    {
+        $consulta->whereIn('tipo', TipoConvite::paraResponsavel());
+    }
+
+    /** @param  Builder<ConviteResponsavel>  $consulta */
+    public function scopePedidos(Builder $consulta): void
+    {
+        $consulta->whereIn('tipo', TipoConvite::pedidos());
+    }
+
     public function estaPendente(): bool
     {
         return $this->usado_em === null && $this->recusado_em === null
             && $this->invalidado_em === null && $this->expira_em->isFuture();
+    }
+
+    /** @return BelongsTo<User, $this> */
+    public function solicitante(): BelongsTo
+    {
+        return $this->belongsTo(User::class, 'solicitante_id');
     }
 
     /** @return BelongsTo<User, $this> */

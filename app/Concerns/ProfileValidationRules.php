@@ -29,7 +29,7 @@ trait ProfileValidationRules
         return ['required', Rule::enum(Serie::class)];
     }
 
-    /** @return array<int, Unique|string> */
+    /** @return array<int, \Closure|Unique|string> */
     protected function emailRules(): array
     {
         return ['required', 'string', 'email', 'max:255', Rule::unique(User::class), function (string $atributo, mixed $valor, \Closure $falhar): void {

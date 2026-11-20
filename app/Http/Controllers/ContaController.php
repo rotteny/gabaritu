@@ -27,10 +27,12 @@ class ContaController extends Controller
         $aluno = $request->user();
 
         return Inertia::render('Conta', [
-            'perfil' => ['apelido' => $aluno->apelido, 'email' => $aluno->email, 'serie' => $aluno->serie],
+            'perfil' => ['apelido' => $aluno->apelido, 'email' => $aluno->email, 'serie' => $aluno->serie, 'avatar' => $aluno->avatar],
+            'avatares' => config('gabaritu.avatares'),
             'series' => array_map(fn (Serie $serie) => $serie->value, Serie::cases()),
             'responsaveis' => $apresentador->responsaveisParaAluno($aluno),
             'convites_responsavel' => $apresentador->convitesParaAluno($aluno),
+            'pedidos_vinculo' => $apresentador->pedidosParaAluno($aluno),
             'pode_convidar' => ! $aluno->aguardaResponsavel() && $limites->podeConvidar($aluno),
         ]);
     }
@@ -56,6 +58,7 @@ class ContaController extends Controller
         $request->user()->update($request->validate([
             'apelido' => ['required', 'string', 'min:2', 'max:30'],
             'serie' => ['required', Rule::enum(Serie::class)],
+            'avatar' => ['sometimes', 'required', Rule::in(config('gabaritu.avatares'))],
         ]));
 
         return back();

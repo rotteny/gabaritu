@@ -26,6 +26,7 @@ use Illuminate\Support\Carbon;
  * @property bool $som
  * @property bool $musica
  * @property bool $reduzir_movimento
+ * @property string|null $avatar
  * @property string|null $ultima_materia
  * @property string $password
  * @property string|null $remember_token
@@ -43,7 +44,7 @@ use Illuminate\Support\Carbon;
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
  */
-#[Fillable(['apelido', 'email', 'password', 'ano_nascimento', 'serie', 'zoeira', 'som', 'musica', 'reduzir_movimento', 'ultima_materia'])]
+#[Fillable(['apelido', 'email', 'password', 'ano_nascimento', 'serie', 'zoeira', 'som', 'musica', 'reduzir_movimento', 'ultima_materia', 'avatar'])]
 #[Hidden(['password', 'remember_token'])]
 class User extends Authenticatable
 {
@@ -132,6 +133,7 @@ class User extends Authenticatable
             'id' => $this->id,
             'apelido' => $this->apelido,
             'serie' => $this->serie,
+            'avatar' => $this->avatar,
             'idade' => $this->idade(),
             'tipo' => $this->tipo,
             'status' => $this->status,
@@ -183,16 +185,28 @@ class User extends Authenticatable
         return $this->hasMany(VinculoResponsavel::class, 'responsavel_id');
     }
 
-    /** @return BelongsToMany<User, $this> */
-    public function responsaveis(): BelongsToMany
+    /** @return HasMany<VinculoResponsavel, $this> */
+    public function vinculosAtivosComResponsaveis(): HasMany
     {
-        return $this->belongsToMany(self::class, 'vinculos_responsavel', 'aluno_id', 'responsavel_id');
+        return $this->vinculosComResponsaveis()->where('status', VinculoResponsavel::ATIVO);
     }
 
-    /** @return BelongsToMany<User, $this> */
+    /** @return HasMany<VinculoResponsavel, $this> */
+    public function vinculosAtivosComAlunos(): HasMany
+    {
+        return $this->vinculosComAlunos()->where('status', VinculoResponsavel::ATIVO);
+    }
+
+    /** @return BelongsToMany<User, $this> responsáveis com vínculo ativo */
+    public function responsaveis(): BelongsToMany
+    {
+        return $this->belongsToMany(self::class, 'vinculos_responsavel', 'aluno_id', 'responsavel_id')->wherePivot('status', VinculoResponsavel::ATIVO);
+    }
+
+    /** @return BelongsToMany<User, $this> alunos com vínculo ativo */
     public function alunos(): BelongsToMany
     {
-        return $this->belongsToMany(self::class, 'vinculos_responsavel', 'responsavel_id', 'aluno_id');
+        return $this->belongsToMany(self::class, 'vinculos_responsavel', 'responsavel_id', 'aluno_id')->wherePivot('status', VinculoResponsavel::ATIVO);
     }
 
     /** @return HasMany<ConviteResponsavel, $this> */

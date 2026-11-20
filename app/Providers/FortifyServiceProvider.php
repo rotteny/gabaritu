@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use App\Actions\Fortify\CreateNewUser;
 use App\Actions\Fortify\ResetUserPassword;
+use App\Domain\Responsavel\PedidoDeVinculo;
 use App\Enums\Serie;
 use App\Http\Responses\RecuperacaoSemRevelarEmail;
 use App\Http\Responses\RedirecionarPorTipo;
@@ -70,10 +71,22 @@ class FortifyServiceProvider extends ServiceProvider
             return Inertia::render('auth/Entrar', ['status' => $request->session()->get('status')]);
         });
 
-        Fortify::registerView(fn () => Inertia::render('auth/Cadastro', [
-            'series' => array_map(fn (Serie $serie) => $serie->value, Serie::cases()),
-            'idade_minima' => (int) config('gabaritu.idade_minima'),
-        ]));
+        Fortify::registerView(function (Request $request) {
+            $convite = app(PedidoDeVinculo::class)->localizarParaCadastro($request->query('convite'));
+
+            return Inertia::render('auth/Cadastro', [
+                'series' => array_map(fn (Serie $serie) => $serie->value, Serie::cases()),
+                'idade_minima' => (int) config('gabaritu.idade_minima'),
+                'convite_responsavel' => $convite === null ? null : [
+                    'token' => $request->query('convite'),
+                    'responsavel' => ['nome' => $convite->solicitante?->apelido],
+                    'email' => $convite->email,
+                    'parentesco' => $convite->parentesco,
+                    'parentesco_outro' => $convite->parentesco_outro,
+                    'expira_em' => $convite->expira_em->toIso8601String(),
+                ],
+            ]);
+        });
 
         Fortify::requestPasswordResetLinkView(fn (Request $request) => Inertia::render('auth/EsqueciSenha', [
             'status' => $request->session()->get('status'),

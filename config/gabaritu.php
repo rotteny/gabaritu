@@ -19,6 +19,12 @@ return [
     /* Versão da página /termos gravada no aceite do responsável. Mudou o texto, mude a versão. */
     'termos_versao' => '2026-11-20',
 
+    /* Avatares do aluno: lista fixa de bichos marinhos; não há upload de foto (não guardamos imagem de menor). */
+    'avatares' => [
+        'peixe-palhaco', 'caranguejo', 'polvo', 'tartaruga', 'agua-viva', 'cavalo-marinho',
+        'estrela-do-mar', 'golfinho', 'baleia', 'lula', 'ourico', 'lagosta',
+    ],
+
     'fuso' => 'America/Sao_Paulo',
 
     /* Regras de nota, revisão e freio: docs/regras-nota.md */

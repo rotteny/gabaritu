@@ -5,9 +5,11 @@ namespace App\Http\Controllers;
 use App\Concerns\ParentescoValidationRules;
 use App\Domain\Responsavel\DadosDeParentesco;
 use App\Domain\Responsavel\EmissorDeConvite;
+use App\Domain\Responsavel\GestorDeVinculos;
 use App\Domain\Responsavel\LimitesDeConvite;
 use App\Enums\TipoConvite;
 use App\Models\ConviteResponsavel;
+use App\Models\User;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 
@@ -36,6 +38,14 @@ class ContaResponsaveisController extends Controller
         );
 
         return back()->with('status', 'convite-enviado');
+    }
+
+    /** "Essa pessoa não é meu responsável": suspende o acesso dele na hora. */
+    public function contestar(Request $request, User $responsavel, GestorDeVinculos $vinculos): RedirectResponse
+    {
+        $vinculos->contestar($request->user(), $responsavel);
+
+        return back();
     }
 
     public function destroy(Request $request, ConviteResponsavel $convite): RedirectResponse

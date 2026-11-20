@@ -24,9 +24,11 @@ use Illuminate\Support\Carbon;
  * @property string|null $aceite_ip
  * @property bool $declara_responsavel
  * @property bool $aceite_termos
+ * @property string $status
+ * @property Carbon|null $suspenso_em
  */
 #[Table('vinculos_responsavel')]
-#[Fillable(['aluno_id', 'responsavel_id', 'parentesco', 'parentesco_outro', 'aceito_em', 'termos_versao', 'privacidade_versao', 'aceite_ip', 'declara_responsavel', 'aceite_termos'])]
+#[Fillable(['aluno_id', 'responsavel_id', 'parentesco', 'parentesco_outro', 'aceito_em', 'termos_versao', 'privacidade_versao', 'aceite_ip', 'declara_responsavel', 'aceite_termos', 'status'])]
 class VinculoResponsavel extends Model
 {
     /** @use HasFactory<VinculoResponsavelFactory> */
@@ -35,7 +37,16 @@ class VinculoResponsavel extends Model
     /** @return array<string, string> */
     protected function casts(): array
     {
-        return ['aceito_em' => 'datetime', 'declara_responsavel' => 'boolean', 'aceite_termos' => 'boolean'];
+        return ['aceito_em' => 'datetime', 'suspenso_em' => 'datetime', 'declara_responsavel' => 'boolean', 'aceite_termos' => 'boolean'];
+    }
+
+    public const string ATIVO = 'ativo';
+
+    public const string SUSPENSO = 'suspenso';
+
+    public function estaAtivo(): bool
+    {
+        return $this->status === self::ATIVO;
     }
 
     /** @return BelongsTo<User, $this> */

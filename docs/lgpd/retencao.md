@@ -4,6 +4,8 @@ O que existe hoje no código e no servidor, e o que falta decidir. Itens **[deci
 
 ## Exclusão pelo titular
 
+Responsável: `DELETE /responsavel/alunos/{aluno}` (apaga o aluno, com a senha do responsável) e `DELETE /responsavel/conta` (apaga a própria conta; bloqueado enquanto for o único responsável de um aluno menor). Os vínculos e convites caem em cascata.
+
 `DELETE /conta` (`ContaController::destroy`), com senha:
 
 - apaga o usuário; as tabelas do aluno têm `cascadeOnDelete` (tentativas, itens, respostas, desempenho, histórico, revisão, feedback de fala, passkeys);
@@ -23,6 +25,10 @@ O que **não** é apagado na hora:
 | Conta e dados de estudo | até o titular apagar | **[decidir]** apagar conta sem acesso há 24 meses, com aviso por e-mail antes (exige o e-mail transacional) |
 | Sessões no banco | expiram em 120 min; a linha sai na limpeza do coletor de sessões | manter |
 | Token de recuperação de senha | expira em 60 min | manter |
+| Aluno `aguardando_responsavel` | 30 dias; aviso por e-mail 3 dias antes; só é apagado depois do aviso (`gabaritu:limpar-pendentes`, diário) | manter; exige scheduler em produção (`docs/operacao/producao.md`) |
+| Convites de responsável e pedidos de vínculo | 7 dias; vencidos apagados pelo mesmo comando | manter |
+| Conta de responsável sem aluno ativo | 30 dias, depois apagada pelo mesmo comando | manter |
+| Vínculo e registro do aceite (data e hora, IP, versões, declarações) | enquanto o vínculo existir; some junto com o aluno ou com o responsável | **[verificar com advogado]** se a prova do aceite deve sobreviver ao fim do vínculo e por quanto tempo |
 | Backups | 7 dias | manter |
 | Log de acesso (nginx) | rotação do servidor (não documentada) | **[decidir]** 30 dias, ou 6 meses se a guarda do Marco Civil for aplicável **[verificar com advogado]** |
 

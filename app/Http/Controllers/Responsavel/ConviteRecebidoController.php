@@ -95,7 +95,7 @@ class ConviteRecebidoController extends Controller
 
     private function localizar(string $token): ?ConviteResponsavel
     {
-        $convite = ConviteResponsavel::query()->with('aluno')->where('token_hash', ConviteResponsavel::hashDoToken($token))->first();
+        $convite = ConviteResponsavel::query()->paraResponsavel()->with('aluno')->where('token_hash', ConviteResponsavel::hashDoToken($token))->first();
 
         return $convite?->estaPendente() ? $convite : null;
     }
