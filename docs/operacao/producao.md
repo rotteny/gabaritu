@@ -16,7 +16,7 @@ Projeto compose isolado `gabaritu` (`infra/producao/compose.yaml`), sem Redis (s
 
 - Borda: o nginx do Laradock termina o TLS e faz proxy para `gabaritu-web` (vhost `/app/laradock/nginx/sites/gabaritu.conf`, fonte em `infra/producao/nginx/edge/`). Cabeçalhos de segurança ficam lá.
 - Proxy confiável: `TRUSTED_PROXIES=172.16.0.0/12` (bridges do Docker). Sem isso o Laravel geraria URLs `http`.
-- E-mail: `MAIL_MAILER=log` (serviço transacional ainda não escolhido). A caixa de contato `gabaritu@gorilash.com.br` é só para receber (cPanel da HostGator, conta `gorilash`, 1 GB); a senha fica em `~/servers/gorilash/gabaritu-mail.env` na máquina do dono, fora de qualquer repo.
+- E-mail: SMTP da HostGator (`MAIL_MAILER=smtp`, `MAIL_SCHEME=smtps`, `mail.gorilash.com.br:465`, remetente e usuário `gabaritu@gorilash.com.br`, nome "Gabaritu"). A senha fica só no `.env` do servidor e em `~/servers/gorilash/gabaritu-mail.env` na máquina do dono. As notificações (recuperação de senha) saem síncronas, não vão para a fila, então não há worker; se um e-mail passar a usar `ShouldQueue`, subir `queue:work`. SPF e DKIM do domínio existem; DMARC está em `p=none`. Teste: `Mail::raw` dentro do `app` para a própria caixa.
 
 ## Arquivos no servidor
 
