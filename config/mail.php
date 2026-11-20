@@ -35,6 +35,14 @@ return [
     |
     */
 
+    /*
+    | Tema Markdown dos e-mails: resources/views/vendor/mail/html/themes/gabaritu.css
+    */
+    'markdown' => [
+        'theme' => 'gabaritu',
+        'paths' => [resource_path('views/vendor/mail')],
+    ],
+
     'mailers' => [
 
         'smtp' => [

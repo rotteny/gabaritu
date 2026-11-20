@@ -5,8 +5,21 @@
  * resources/js/fixtures/previa/{pagina}.json. Só é carregada com APP_ENV=local (ver routes/web.php).
  */
 
+use App\Support\PreviaEmails;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
+
+// Prévia dos e-mails: /_previa/emails lista; /{nome} em HTML; /{nome}/texto em texto puro.
+Route::get('_previa/emails', function () {
+    abort_unless(app()->isLocal(), 404);
+
+    return PreviaEmails::indice();
+});
+Route::get('_previa/emails/{nome}/{formato?}', function (string $nome, ?string $formato = null) {
+    abort_unless(app()->isLocal(), 404);
+
+    return PreviaEmails::renderizar($nome, $formato === 'texto');
+})->where('formato', 'texto');
 
 Route::get('_previa/{pagina}', function (string $pagina) {
     abort_unless(app()->isLocal(), 404);

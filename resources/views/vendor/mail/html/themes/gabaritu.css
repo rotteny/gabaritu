@@ -1,0 +1,40 @@
+/* Tema Markdown do Gabaritu. Valores de docs do design system (tokens.json).
+   O Laravel inlina este CSS; o layout e os componentes já trazem estilo inline próprio. */
+body {
+    background-color: #35c9ee;
+    color: #1b1030;
+    font-family: 'Nunito', 'Segoe UI', Arial, sans-serif;
+    font-weight: 700;
+}
+h1 {
+    margin: 0 0 16px;
+    color: #1b1030;
+    font-family: 'Titan One', 'Arial Black', Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32px;
+}
+h2, h3 {
+    margin: 0 0 8px;
+    color: #1b1030;
+    font-family: 'Titan One', 'Arial Black', Arial, sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 24px;
+}
+p, ul, ol, li {
+    color: #1b1030;
+    font-size: 16px;
+    line-height: 24px;
+}
+p { margin: 0 0 16px; }
+ul, ol { margin: 0 0 16px; padding-left: 22px; }
+li { margin-bottom: 6px; }
+strong { font-weight: 800; }
+a { color: #4d2aa8; text-decoration: underline; }
+img { max-width: 100%; }
+hr { border: 0; border-top: 3px dashed #1b1030; margin: 20px 0; }
+/* Só tabelas geradas por Markdown (div.table); as tabelas de layout têm estilo inline. */
+.table table { width: 100%; border-collapse: collapse; margin-bottom: 16px; }
+.table th { text-align: left; border-bottom: 3px solid #1b1030; padding: 6px; }
+.table td { padding: 6px; }
