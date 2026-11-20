@@ -50,5 +50,5 @@ export const formatarData = (iso: string): string =>
         timeZone: 'America/Sao_Paulo',
     });
 
-export const VERSAO_TEXTOS = '2026-11-22';
+export const VERSAO_TEXTOS = '2026-11-23';
 export const DATA_TEXTOS = '22 de novembro de 2026';
