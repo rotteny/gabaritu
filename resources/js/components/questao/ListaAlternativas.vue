@@ -1,7 +1,10 @@
 <script setup lang="ts">
+import { Maximize2 } from '@lucide/vue';
+import { computed } from 'vue';
 import AlternativaBotao from '@/components/questao/AlternativaBotao.vue';
 import type { EstadoAlternativa } from '@/components/questao/AlternativaBotao.vue';
 import type { FaseQuestao } from '@/composables/useQuestao';
+import ZoomImagem from '@/components/questao/ZoomImagem.vue';
 import type { Alternativa, RespostaApi } from '@/types/gabaritu';
 
 const props = defineProps<{
@@ -12,6 +15,8 @@ const props = defineProps<{
     efeitos: boolean;
 }>();
 defineEmits<{ escolher: [alternativa: Alternativa] }>();
+
+const emGrade = computed(() => props.alternativas.some((a) => a.imagem));
 
 function estadoDe(a: Alternativa): EstadoAlternativa {
     const r = props.resposta;
@@ -31,10 +36,13 @@ function estadoDe(a: Alternativa): EstadoAlternativa {
 <template>
     <ul
         class="q-alts"
-        :class="{ 'q-alts--travada': fase !== 'perguntando' }"
+        :class="{
+            'q-alts--travada': fase !== 'perguntando',
+            'q-alts--grade': emGrade,
+        }"
         aria-label="Alternativas"
     >
-        <li v-for="a in alternativas" :key="a.id">
+        <li v-for="a in alternativas" :key="a.id" class="q-alts-item">
             <AlternativaBotao
                 :alternativa="a"
                 :estado="estadoDe(a)"
@@ -43,6 +51,14 @@ function estadoDe(a: Alternativa): EstadoAlternativa {
                 :escolhida="escolhida?.id === a.id"
                 @escolher="fase === 'perguntando' && $emit('escolher', a)"
             />
+            <ZoomImagem
+                v-if="a.imagem && estadoDe(a) !== 'recolhida'"
+                class="q-alt-zoom"
+                :imagem="a.imagem"
+                :rotulo="`Ampliar alternativa ${a.letra}`"
+            >
+                <Maximize2 :size="16" aria-hidden="true" />
+            </ZoomImagem>
         </li>
     </ul>
 </template>

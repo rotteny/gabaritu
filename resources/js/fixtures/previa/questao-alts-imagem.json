@@ -1,0 +1,89 @@
+{
+    "component": "Questao",
+    "props": {
+        "tentativa": {
+            "id": 1,
+            "tipo": "questionario",
+            "titulo": "Organelas e energia da célula",
+            "materia": {
+                "slug": "biologia",
+                "nome": "Biologia"
+            },
+            "assunto": {
+                "slug": "citologia",
+                "nome": "Citologia"
+            },
+            "posicao": 1,
+            "total": 3
+        },
+        "questao": {
+            "id": 11,
+            "contexto": null,
+            "enunciado": "Qual organela da célula produz a maior parte do ATP, a energia que ela usa?",
+            "alternativas": [
+                {
+                    "id": 101,
+                    "letra": "A",
+                    "texto": "",
+                    "imagem": {
+                        "url": "/previa-img/alt-a.png",
+                        "alt": "Círculo laranja",
+                        "largura": 240,
+                        "altura": 240
+                    }
+                },
+                {
+                    "id": 102,
+                    "letra": "B",
+                    "texto": "",
+                    "imagem": {
+                        "url": "/previa-img/alt-b.png",
+                        "alt": "Quadrado azul",
+                        "largura": 240,
+                        "altura": 240
+                    }
+                },
+                {
+                    "id": 103,
+                    "letra": "C",
+                    "texto": "",
+                    "imagem": {
+                        "url": "/previa-img/alt-c.png",
+                        "alt": "Triângulo verde",
+                        "largura": 240,
+                        "altura": 240
+                    }
+                },
+                {
+                    "id": 104,
+                    "letra": "D",
+                    "texto": "",
+                    "imagem": {
+                        "url": "/previa-img/alt-d.png",
+                        "alt": "Anel roxo",
+                        "largura": 240,
+                        "altura": 240
+                    }
+                },
+                {
+                    "id": 105,
+                    "letra": "E",
+                    "texto": "",
+                    "imagem": {
+                        "url": "/previa-img/alt-e.png",
+                        "alt": "Três barras amarelas crescentes",
+                        "largura": 240,
+                        "altura": 240
+                    }
+                }
+            ],
+            "imagem": null,
+            "fonte": "ENEM 2024, INEP/MEC"
+        },
+        "fala": {
+            "texto": "Escolhe uma alternativa. Eu fico aqui, de boa.",
+            "humor": "neutro",
+            "variacao_id": 1
+        }
+    }
+}

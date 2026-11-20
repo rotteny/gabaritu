@@ -24,7 +24,10 @@ defineEmits<{ escolher: [] }>();
     <button
         type="button"
         class="q-alt"
-        :class="`q-alt--${estado}`"
+        :class="[
+            `q-alt--${estado}`,
+            { 'q-alt--miniatura': alternativa.imagem },
+        ]"
         :aria-disabled="travada"
         :aria-hidden="estado === 'recolhida' ? 'true' : undefined"
         :tabindex="estado === 'recolhida' ? -1 : undefined"
@@ -33,6 +36,14 @@ defineEmits<{ escolher: [] }>();
         <span class="q-alt-letra" aria-hidden="true">{{
             alternativa.letra
         }}</span>
+        <img
+            v-if="alternativa.imagem"
+            class="q-alt-img"
+            :src="alternativa.imagem.url"
+            :alt="alternativa.imagem.alt"
+            :width="alternativa.imagem.largura"
+            :height="alternativa.imagem.altura"
+        />
         <span class="q-alt-texto">
             <span class="gb-sr">Alternativa {{ alternativa.letra }}.</span>
             {{ alternativa.texto }}

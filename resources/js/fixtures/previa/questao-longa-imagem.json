@@ -1,0 +1,69 @@
+{
+    "component": "Questao",
+    "props": {
+        "tentativa": {
+            "id": 1,
+            "tipo": "questionario",
+            "titulo": "Organelas e energia da célula",
+            "materia": {
+                "slug": "biologia",
+                "nome": "Biologia"
+            },
+            "assunto": {
+                "slug": "citologia",
+                "nome": "Citologia"
+            },
+            "posicao": 1,
+            "total": 3
+        },
+        "questao": {
+            "id": 11,
+            "contexto": "Texto de apoio: As células eucariotas possuem compartimentos internos, as organelas, cada uma com uma função específica na manutenção da vida celular. As células eucariotas possuem compartimentos internos, as organelas, cada uma com uma função específica na manutenção da vida celular. As células eucariotas possuem compartimentos internos, as organelas, cada uma com uma função específica na manutenção da vida celular. As células eucariotas possuem compartimentos internos, as organelas, cada uma com uma função específica na manutenção da vida celular. As células eucariotas possuem compartimentos internos, as organelas, cada uma com uma função específica na manutenção da vida celular.",
+            "enunciado": "Com base no texto e no gráfico, qual organela é responsável pela respiração celular?",
+            "alternativas": [
+                {
+                    "id": 101,
+                    "letra": "A",
+                    "texto": "Ribossomo, que sintetiza proteínas",
+                    "imagem": null
+                },
+                {
+                    "id": 102,
+                    "letra": "B",
+                    "texto": "Mitocôndria, que libera energia",
+                    "imagem": null
+                },
+                {
+                    "id": 103,
+                    "letra": "C",
+                    "texto": "Lisossomo, que digere substâncias",
+                    "imagem": null
+                },
+                {
+                    "id": 104,
+                    "letra": "D",
+                    "texto": "Complexo golgiense, que empacota",
+                    "imagem": null
+                },
+                {
+                    "id": 105,
+                    "letra": "E",
+                    "texto": "Retículo endoplasmático liso",
+                    "imagem": null
+                }
+            ],
+            "imagem": {
+                "url": "/previa-img/grafico.svg",
+                "alt": "Gráfico de linha crescente: a grandeza sobe com o tempo, com pequena queda no terceiro ponto.",
+                "largura": 400,
+                "altura": 240
+            },
+            "fonte": "ENEM 2024, INEP/MEC"
+        },
+        "fala": {
+            "texto": "Escolhe uma alternativa. Eu fico aqui, de boa.",
+            "humor": "neutro",
+            "variacao_id": 1
+        }
+    }
+}

@@ -78,10 +78,18 @@ export type AssuntoResumo = {
     questionarios: QuestionarioResumo[];
 };
 
+export type ImagemQuestao = {
+    url: string;
+    alt: string;
+    largura: number;
+    altura: number;
+};
+
 export type Alternativa = {
     id: number;
     letra: 'A' | 'B' | 'C' | 'D' | 'E';
     texto: string;
+    imagem: ImagemQuestao | null;
 };
 
 export type Tentativa = {
@@ -98,6 +106,8 @@ export type QuestaoDados = {
     id: number;
     contexto: string | null;
     enunciado: string;
+    imagem: ImagemQuestao | null;
+    fonte: string | null;
     alternativas: Alternativa[];
 };
 
@@ -107,7 +117,7 @@ export type RespostaApi = {
     correta: boolean;
     alternativa_correta_id: number;
     etiqueta: { id: number; nome: string } | null;
-    explicacao: string;
+    explicacao: string | null;
     fala: Fala;
     freio_ativo: boolean;
     chute: boolean;

@@ -1,0 +1,69 @@
+{
+    "component": "Questao",
+    "props": {
+        "tentativa": {
+            "id": 1,
+            "tipo": "questionario",
+            "titulo": "Organelas e energia da célula",
+            "materia": {
+                "slug": "biologia",
+                "nome": "Biologia"
+            },
+            "assunto": {
+                "slug": "citologia",
+                "nome": "Citologia"
+            },
+            "posicao": 1,
+            "total": 3
+        },
+        "questao": {
+            "id": 11,
+            "contexto": null,
+            "enunciado": "Qual organela da célula produz a maior parte do ATP, a energia que ela usa?",
+            "alternativas": [
+                {
+                    "id": 101,
+                    "letra": "A",
+                    "texto": "Ribossomo",
+                    "imagem": null
+                },
+                {
+                    "id": 102,
+                    "letra": "B",
+                    "texto": "Mitocôndria",
+                    "imagem": null
+                },
+                {
+                    "id": 103,
+                    "letra": "C",
+                    "texto": "Lisossomo",
+                    "imagem": null
+                },
+                {
+                    "id": 104,
+                    "letra": "D",
+                    "texto": "Complexo de Golgi",
+                    "imagem": null
+                },
+                {
+                    "id": 105,
+                    "letra": "E",
+                    "texto": "Retículo endoplasmático rugoso",
+                    "imagem": null
+                }
+            ],
+            "imagem": {
+                "url": "/previa-img/recorte-grafico.png",
+                "alt": "Gráfico de barras com cinco colunas de alturas diferentes; a quarta coluna é a maior.",
+                "largura": 800,
+                "altura": 450
+            },
+            "fonte": "ENEM 2024, INEP/MEC"
+        },
+        "fala": {
+            "texto": "Escolhe uma alternativa. Eu fico aqui, de boa.",
+            "humor": "neutro",
+            "variacao_id": 1
+        }
+    }
+}

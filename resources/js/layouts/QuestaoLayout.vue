@@ -6,6 +6,7 @@ import '../../css/landing/base.css';
 import '../../css/landing/peixoto.css';
 import '../../css/aluno/base.css';
 import '../../css/aluno/questao.css';
+import '../../css/aluno/questao-imagem.css';
 
 useTelaFixa();
 const reduzido = useMovimentoReduzido();

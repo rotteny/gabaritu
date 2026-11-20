@@ -54,6 +54,8 @@ const efeitos = computed(
                 <EnunciadoCartao
                     :contexto="questao.contexto"
                     :enunciado="questao.enunciado"
+                    :imagem="questao.imagem"
+                    :fonte="questao.fonte"
                     :compacto="reagindo"
                 />
                 <ListaAlternativas

@@ -18,7 +18,9 @@ onMounted(() => botao.value?.focus({ preventScroll: true }));
                     resposta.etiqueta.nome
                 }}</span>
             </h2>
-            <p>{{ resposta.explicacao }}</p>
+            <p :class="{ 'q-explicacao-breve': !resposta.explicacao }">
+                {{ resposta.explicacao ?? 'Explicação em breve' }}
+            </p>
         </section>
         <button
             ref="botao"

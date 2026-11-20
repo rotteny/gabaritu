@@ -21,7 +21,11 @@ export async function responderNaPrevia(
         correta,
         alternativa_correta_id: dados.alternativa_correta_id,
         etiqueta: correta ? null : { id: 1, nome: 'Confundiu as organelas' },
-        explicacao: dados.explicacao,
+        explicacao: new URLSearchParams(window.location.search).has(
+            'sem-explicacao',
+        )
+            ? null
+            : dados.explicacao,
         fala: { ...fala, variacao_id: null },
         freio_ativo: !correta && freio,
         chute: false,
