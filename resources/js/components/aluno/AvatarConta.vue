@@ -28,6 +28,13 @@ const salvar = () => form.patch(rotas.contaPerfil, { preserveScroll: true });
             :erro="form.errors.avatar"
         />
         <p
+            v-if="form.hasErrors && !form.errors.avatar"
+            class="gb-aviso gb-aviso--erro"
+            role="alert"
+        >
+            Não deu para trocar o bicho. Tente de novo.
+        </p>
+        <p
             v-if="form.recentlySuccessful"
             class="gb-aviso gb-aviso--ok"
             role="status"

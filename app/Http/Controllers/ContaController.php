@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Concerns\PasswordValidationRules;
 use App\Domain\Responsavel\ApresentadorDeAluno;
+use App\Domain\Responsavel\EncerradorDeAcompanhamento;
 use App\Domain\Responsavel\GestorDeVinculos;
 use App\Domain\Responsavel\LimitesDeConvite;
 use App\Enums\Nivel;
@@ -34,6 +35,7 @@ class ContaController extends Controller
             'responsaveis' => $apresentador->responsaveisParaAluno($aluno),
             'convites_responsavel' => $apresentador->convitesParaAluno($aluno),
             'pedidos_vinculo' => $apresentador->pedidosParaAluno($aluno),
+            'pode_encerrar_acompanhamento' => ! $aluno->precisaDeResponsavel() && $aluno->vinculosComResponsaveis()->exists(),
             'pode_convidar' => ! $aluno->aguardaResponsavel() && $limites->podeConvidar($aluno),
         ]);
     }
@@ -57,12 +59,19 @@ class ContaController extends Controller
     public function perfil(Request $request): RedirectResponse
     {
         $request->user()->update($request->validate([
-            'apelido' => ['required', 'string', 'min:2', 'max:30'],
-            'serie' => ['required', Rule::enum(Serie::class)],
+            'apelido' => ['sometimes', 'required', 'string', 'min:2', 'max:30'],
+            'serie' => ['sometimes', 'required', Rule::enum(Serie::class)],
             'avatar' => ['sometimes', 'required', Rule::in(config('gabaritu.avatares'))],
         ]));
 
         return back();
+    }
+
+    public function encerrarAcompanhamento(Request $request, EncerradorDeAcompanhamento $encerrador): RedirectResponse
+    {
+        $encerrador->encerrar($request->user());
+
+        return back()->with('status', 'acompanhamento-encerrado');
     }
 
     public function senha(Request $request): RedirectResponse
