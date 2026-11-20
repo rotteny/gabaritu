@@ -33,5 +33,15 @@ Route::middleware('admin.autenticado')->group(function () {
         Route::patch('questoes/{questao}/status-juridico', Admin\StatusJuridicoController::class)->whereNumber('questao')->name('questoes.status-juridico');
 
         Route::get('respostas', Admin\RespostasController::class)->name('respostas');
+
+        Route::get('reports', [Admin\ReportsController::class, 'index'])->name('reports');
+        Route::patch('reports/questao/{questao}', [Admin\ReportsController::class, 'updateQuestao'])->whereNumber('questao')->name('reports.questao');
+        Route::patch('reports/{report}', [Admin\ReportsController::class, 'update'])->whereNumber('report')->name('reports.update');
+
+        Route::get('retencao', Admin\RetencaoController::class)->name('retencao');
+        Route::get('pendencias', Admin\PendenciasController::class)->name('pendencias');
+        Route::get('saude', Admin\SaudeController::class)->name('saude');
+        Route::get('falas', Admin\FalasController::class)->name('falas');
+        Route::get('exportar/{tipo}', Admin\ExportarController::class)->name('exportar');
     });
 });

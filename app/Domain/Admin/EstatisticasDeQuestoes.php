@@ -2,6 +2,7 @@
 
 namespace App\Domain\Admin;
 
+use App\Enums\StatusDoReport;
 use App\Models\AdminAuditoria;
 use App\Models\Questao;
 use Illuminate\Database\Query\Builder;
@@ -62,6 +63,15 @@ class EstatisticasDeQuestoes
         return $pagina->through(fn ($q) => $this->linha($q, $distribuicao[$q->id] ?? []));
     }
 
+    /** Todas as questões com os números (sem paginar), para o CSV agregado.
+     *
+     * @return Collection<int, array<string, mixed>>
+     */
+    public function todasParaExportar(): Collection
+    {
+        return $this->consultaDaLista([])->orderBy('q.codigo')->get()->map(fn (stdClass $q) => $this->linha($q, []));
+    }
+
     /** @return array<string, mixed> */
     public function ficha(Questao $questao): array
     {
@@ -81,6 +91,12 @@ class EstatisticasDeQuestoes
             'fonte' => $questao->fonteParaProps(),
             'historico_juridico' => $this->historicoJuridico($questao),
         ];
+    }
+
+    /** @return Builder */
+    private function reportsAbertos()
+    {
+        return DB::table('reports_questao')->where('status', StatusDoReport::Aberto->value)->selectRaw('questao_id, count(*) as abertos')->groupBy('questao_id');
     }
 
     /** @return Builder */
@@ -104,8 +120,9 @@ class EstatisticasDeQuestoes
             ->leftJoin('assuntos as a', 'a.id', '=', 'q.assunto_id')
             ->leftJoin('materias as m', 'm.id', '=', 'a.materia_id')
             ->leftJoinSub($this->estatisticas(), 'e', 'e.questao_id', '=', 'q.id')
+            ->leftJoinSub($this->reportsAbertos(), 'rp', 'rp.questao_id', '=', 'q.id')
             ->select('q.id', 'q.codigo', 'q.origem', 'q.revisao_juridica', 'q.assunto_id', 'q.area', 'a.nome as assunto', 'm.nome as materia')
-            ->selectRaw('coalesce(e.total, 0) as total, coalesce(e.acertos, 0) as acertos, coalesce(e.soma_ms, 0) as soma_ms, coalesce(e.maior_distrator, 0) as maior_distrator');
+            ->selectRaw('coalesce(e.total, 0) as total, coalesce(e.acertos, 0) as acertos, coalesce(e.soma_ms, 0) as soma_ms, coalesce(e.maior_distrator, 0) as maior_distrator, coalesce(rp.abertos, 0) as reports_abertos');
 
         return $this->aplicarFiltros($consulta, $filtros);
     }
@@ -135,7 +152,7 @@ class EstatisticasDeQuestoes
     /** @return literal-string */
     private function condicaoDeSuspeita(): string
     {
-        return 'e.total >= ? and (e.acertos::float8 / e.total < ? or e.acertos::float8 / e.total > ? or e.maior_distrator > e.acertos)';
+        return '((e.total >= ? and (e.acertos::float8 / e.total < ? or e.acertos::float8 / e.total > ? or e.maior_distrator > e.acertos)) or coalesce(rp.abertos, 0) >= ?)';
     }
 
     /** @return list<int|float> */
@@ -143,12 +160,12 @@ class EstatisticasDeQuestoes
     {
         $limites = config('gabaritu.admin.suspeita');
 
-        return [$limites['min_respostas'], $limites['acerto_min'], $limites['acerto_max']];
+        return [$limites['min_respostas'], $limites['acerto_min'], $limites['acerto_max'], $limites['min_reports']];
     }
 
     private function suspeitasTotal(): int
     {
-        return DB::query()->fromSub($this->estatisticas(), 'e')->whereRaw($this->condicaoDeSuspeita(), $this->limitesDeSuspeita())->count();
+        return $this->consultaDaLista(['suspeita' => true])->count();
     }
 
     /**
@@ -187,7 +204,7 @@ class EstatisticasDeQuestoes
     {
         $total = (int) $q->total;
         $acerto = $total === 0 ? null : round($q->acertos / $total * 100, self::CASAS_DA_PORCENTAGEM);
-        $motivos = $this->motivosDeSuspeita($total, (int) $q->acertos, (int) $q->maior_distrator);
+        $motivos = $this->motivosDeSuspeita($total, (int) $q->acertos, (int) $q->maior_distrator, (int) $q->reports_abertos);
 
         return [
             'id' => (int) $q->id,
@@ -201,6 +218,7 @@ class EstatisticasDeQuestoes
             'pct_acerto' => $acerto,
             'tempo_medio_ms' => $total === 0 ? null : (int) round($q->soma_ms / $total),
             'distribuicao' => $distribuicao,
+            'reports_abertos' => (int) $q->reports_abertos,
             'suspeita' => $motivos !== [],
             'motivos_suspeita' => $motivos,
             'url' => route('admin.questoes.show', $q->id, absolute: false),
@@ -208,18 +226,16 @@ class EstatisticasDeQuestoes
     }
 
     /** @return list<string> */
-    private function motivosDeSuspeita(int $total, int $acertos, int $maiorDistrator): array
+    private function motivosDeSuspeita(int $total, int $acertos, int $maiorDistrator, int $reportsAbertos): array
     {
         $limites = config('gabaritu.admin.suspeita');
-
-        if ($total < $limites['min_respostas']) {
-            return [];
-        }
+        $amostraSuficiente = $total >= $limites['min_respostas'];
 
         return array_keys(array_filter([
-            'acerto_baixo' => $acertos / $total < $limites['acerto_min'],
-            'acerto_alto' => $acertos / $total > $limites['acerto_max'],
-            'distrator_domina' => $maiorDistrator > $acertos,
+            'acerto_baixo' => $amostraSuficiente && $acertos / $total < $limites['acerto_min'],
+            'acerto_alto' => $amostraSuficiente && $acertos / $total > $limites['acerto_max'],
+            'distrator_domina' => $amostraSuficiente && $maiorDistrator > $acertos,
+            'reports' => $reportsAbertos >= $limites['min_reports'],
         ]));
     }
 

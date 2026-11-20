@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Domain\Metricas\RegistradorDeMetricas;
 use App\Enums\Nivel;
 use App\Enums\StatusConta;
 use App\Enums\TipoConta;
@@ -49,6 +50,11 @@ use Illuminate\Support\Carbon;
 class User extends Authenticatable
 {
     public const int IDADE_MAIORIDADE = 18;
+
+    protected static function booted(): void
+    {
+        static::deleted(fn (self $conta) => app(RegistradorDeMetricas::class)->contaApagada($conta));
+    }
 
     /** @var array<string, mixed> */
     protected $attributes = ['tipo' => 'aluno', 'status' => 'ativo'];

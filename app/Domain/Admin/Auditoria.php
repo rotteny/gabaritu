@@ -5,6 +5,7 @@ namespace App\Domain\Admin;
 use App\Models\Admin;
 use App\Models\AdminAuditoria;
 use App\Models\Questao;
+use App\Models\ReportQuestao;
 use App\Models\User;
 use Illuminate\Database\Eloquent\Model;
 
@@ -30,6 +31,7 @@ class Auditoria
         return match (true) {
             $alvo instanceof Admin => 'admin',
             $alvo instanceof Questao => 'questao',
+            $alvo instanceof ReportQuestao => 'report',
             $alvo instanceof User => $alvo->ehResponsavel() ? 'responsavel' : 'aluno',
             default => strtolower(class_basename($alvo)),
         };

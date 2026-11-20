@@ -10,6 +10,7 @@ use App\Http\Controllers\InicioController;
 use App\Http\Controllers\MateriaController;
 use App\Http\Controllers\PrivacidadeController;
 use App\Http\Controllers\QuemSomosController;
+use App\Http\Controllers\ReportQuestaoController;
 use App\Http\Controllers\Responsavel;
 use App\Http\Controllers\RespostaController;
 use App\Http\Controllers\RevisaoController;
@@ -37,6 +38,9 @@ Route::middleware(['auth', 'aluno'])->group(function () {
     Route::post('tentativas/{tentativa}/revisao', [TentativaController::class, 'revisarErradas'])->name('tentativas.revisar-erradas');
     Route::post('tentativas/{tentativa}/respostas', [RespostaController::class, 'store'])
         ->middleware('throttle:120,1')->name('respostas.store');
+
+    Route::post('questoes/{questao}/reports', [ReportQuestaoController::class, 'store'])
+        ->middleware('throttle:30,1')->name('questoes.reports.store');
 
     Route::patch('conta/preferencias', [ContaController::class, 'preferencias'])->name('conta.preferencias');
     Route::patch('conta/perfil', [ContaController::class, 'perfil'])->name('conta.perfil');

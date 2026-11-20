@@ -42,6 +42,20 @@ class RegistradorDeMetricas
         $this->depoisDaResposta(fn () => $this->incrementar(Metrica::VisitasLanding));
     }
 
+    /**
+     * Conta a exclusão no mês (só o número). Roda dentro da transação que apaga a conta: se ela desfaz, o contador também.
+     */
+    public function contaApagada(User $conta): void
+    {
+        $coluna = $conta->ehResponsavel() ? 'responsaveis' : 'alunos';
+        $mes = now(config('gabaritu.fuso'))->startOfMonth()->format('Y-m-d');
+
+        DB::statement(
+            "insert into contas_apagadas_mes (mes, {$coluna}) values (?, 1) on conflict (mes) do update set {$coluna} = contas_apagadas_mes.{$coluna} + 1",
+            [$mes],
+        );
+    }
+
     public function incrementar(Metrica $metrica, ?string $dia = null): void
     {
         $coluna = $metrica->value;

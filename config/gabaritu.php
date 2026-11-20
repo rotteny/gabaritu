@@ -24,9 +24,17 @@ return [
         'senha_minima' => 12,
         'por_pagina' => 25,
         /* Questão suspeita: amostra mínima, acerto fora da faixa ou distrator mais escolhido que a correta. */
-        'suspeita' => ['min_respostas' => 20, 'acerto_min' => 0.15, 'acerto_max' => 0.95],
+        'suspeita' => ['min_respostas' => 20, 'acerto_min' => 0.15, 'acerto_max' => 0.95, 'min_reports' => 3],
         /* Tentativa de questionário sem finalizar há mais que isso conta como abandonada. */
         'abandono_horas' => 24,
+        /* Pendências legais: autorização de responsável parada há mais que isso aparece na lista. */
+        'autorizacao_parada_dias' => 7,
+        /* Retenção: coortes semanais exibidas e marcos (dias depois do cadastro). */
+        'retencao' => ['semanas' => 12, 'marcos' => [1, 7, 30]],
+        'itens_por_lista' => 50,
+        /* Saúde: diretório dos backups locais (vazio = não configurado) e versão do deploy (commit). */
+        'backup_diretorio' => env('GABARITU_BACKUP_DIR'),
+        'versao' => env('GABARITU_VERSAO'),
     ],
 
     /* Versão da página /privacidade gravada nos aceites. Mudou o texto, mude a versão. */

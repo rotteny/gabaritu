@@ -63,10 +63,19 @@ Request: `{ questao_id, alternativa_id }`
   fala: Fala,                         // sorteada por aluno, sem repetir as recentes; respeita nível, idade, freio e validade
   freio_ativo: boolean,
   chute: boolean,                     // tempo menor que o limite da questão (não aparece pro aluno como acusação)
-  proxima: { url: string } | { resultado_url: string }
+  proxima: { url: string } | { resultado_url: string },
+  report: { url: string, motivos: { valor: 'enunciado' | 'imagem' | 'gabarito' | 'explicacao' | 'outro', rotulo: string }[], max_comentario: number }  // 300
 }
 ```
 Erro de validação ou questão já respondida → 422, com mensagem clara.
+
+### `POST {report.url}` (= `/questoes/{questao}/reports`) → JSON, sem recarregar a página
+Botão "Reportar erro" no painel de explicação (discreto; o formulário abre em dialog, a tela da questão continua sem scroll). Só depois de responder.
+Request: `{ motivo: 'enunciado' | 'imagem' | 'gabarito' | 'explicacao' | 'outro', comentario?: string /* até 300 */ }`
+- `201 { ok: true }`
+- `422 { message }` já reportou esta questão (1 por aluno por questão) ou dado inválido (`errors`)
+- `429 { message }` 20 reports no dia
+- `403 { message }` ainda não respondeu a questão
 
 ## Sorteio de fala (backend)
 - Chave por evento: `acerto`, `acerto_apos_erro`, `erro:<etiqueta>`, `erro_especifico:<questao>` (quando existe `fala_especifica`), `freio`, `boas_vindas`, `proxima`, `resultado:<faixa>`, `inicio`, `vazio:<tela>`, `erro_http:<status>`.

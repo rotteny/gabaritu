@@ -11,6 +11,8 @@ enum AcaoDeAuditoria: string
     case AbrirResponsavel = 'abrir_responsavel';
     case RevelarEmail = 'revelar_email';
     case StatusJuridicoAlterado = 'status_juridico_alterado';
+    case ReportAtualizado = 'report_atualizado';
+    case ExportarCsv = 'exportar_csv';
     case AdminCriado = 'admin_criado';
     case SenhaTrocada = 'senha_trocada';
     case DoisFatoresResetado = 'dois_fatores_resetado';

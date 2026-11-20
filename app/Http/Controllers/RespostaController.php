@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Domain\Metricas\RegistradorDeMetricas;
+use App\Domain\Tentativa\ReportadorDeQuestao;
 use App\Domain\Tentativa\ResponderQuestao;
+use App\Enums\MotivoDoReport;
 use App\Models\Tentativa;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
@@ -40,6 +42,11 @@ class RespostaController extends Controller
             'fala' => $resultado->fala,
             'freio_ativo' => $resultado->freioAtivo,
             'chute' => $resultado->chute,
+            'report' => [
+                'url' => route('questoes.reports.store', $resultado->alternativaCorreta->questao_id, absolute: false),
+                'motivos' => MotivoDoReport::opcoes(),
+                'max_comentario' => ReportadorDeQuestao::MAXIMO_DO_COMENTARIO,
+            ],
             'proxima' => $resultado->tentativaTerminou
                 ? ['resultado_url' => route('tentativas.resultado', $tentativa, absolute: false)]
                 : ['url' => route('tentativas.show', $tentativa, absolute: false)],

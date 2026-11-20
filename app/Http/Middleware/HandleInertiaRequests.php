@@ -92,7 +92,18 @@ class HandleInertiaRequests extends Middleware
                 'responsaveis' => route('admin.responsaveis', absolute: false),
                 'questoes' => route('admin.questoes', absolute: false),
                 'respostas' => route('admin.respostas', absolute: false),
+                'reports' => route('admin.reports', absolute: false),
+                'retencao' => route('admin.retencao', absolute: false),
+                'pendencias' => route('admin.pendencias', absolute: false),
+                'saude' => route('admin.saude', absolute: false),
+                'falas' => route('admin.falas', absolute: false),
                 'sair' => route('admin.logout', absolute: false),
+            ],
+            'exportar' => [
+                'metricas' => route('admin.exportar', 'metricas', absolute: false),
+                'cadastros' => route('admin.exportar', 'cadastros', absolute: false),
+                'questoes' => route('admin.exportar', 'questoes', absolute: false),
+                'retencao' => route('admin.exportar', 'retencao', absolute: false),
             ],
         ];
     }
