@@ -36,7 +36,7 @@ function pastaDeMateriaSemQuestoes(): array
 function assuntoSoComInep(Assunto $irmao, string $slug = 'so-inep'): Assunto
 {
     $assunto = Assunto::create(['materia_id' => $irmao->materia_id, 'slug' => $slug, 'nome' => 'Só INEP', 'ordem' => 2]);
-    $questionario = Questionario::create(['assunto_id' => $assunto->id, 'titulo' => 'ENEM 2024 · 1', 'ordem' => 2401, 'tipo' => Questionario::TIPO_INEP]);
+    $questionario = Questionario::create(['assunto_id' => $assunto->id, 'titulo' => 'ENEM · 1', 'ordem' => 2001, 'tipo' => Questionario::TIPO_INEP]);
     $questao = Questao::create([
         'codigo' => "inep-{$slug}", 'assunto_id' => $assunto->id, 'questionario_id' => $questionario->id, 'dificuldade' => 2,
         'enunciado' => 'Enunciado', 'explicacao' => 'x', 'chute_limite_ms' => 3000, 'origem' => Questao::ORIGEM_INEP,

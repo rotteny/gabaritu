@@ -20,6 +20,12 @@ class Questionario extends Model
         return $this->belongsTo(Assunto::class);
     }
 
+    /** @return HasMany<Tentativa, $this> */
+    public function tentativas(): HasMany
+    {
+        return $this->hasMany(Tentativa::class);
+    }
+
     /** @return HasMany<Questao, $this> */
     public function questoes(): HasMany
     {

@@ -14,6 +14,7 @@ use App\Models\Questao;
 use App\Models\Questionario;
 use App\Models\Resposta;
 use App\Models\RevisaoEspacada;
+use App\Models\Tentativa;
 use App\Models\User;
 use Illuminate\Support\Facades\File;
 
@@ -308,22 +309,38 @@ describe('importador INEP (--fonte-externa)', function () {
         expect(Questao::first()->assunto_id)->not->toBeNull();
     });
 
-    it('monta questionários ENEM <ano> · <n> de até 10 questões, separados dos autorais', function () {
+    it('monta questionários ENEM · <n> por assunto, misturando os anos, de 10 em 10 e sem sobra pequena', function () {
         $assunto = criarAssuntoDeTeste();
         Questionario::create(['assunto_id' => $assunto->id, 'titulo' => 'Questionário 1', 'ordem' => 1]);
-        $itens = array_map(fn (int $i) => classificar(itemInep(sprintf('q%02d', $i))), range(1, 23));
+        $itens = array_map(fn (int $i) => classificar(itemInep(sprintf('q%02d', $i), ['origem_ref' => ['ano' => 2024, 'aplicacao' => 'regular', 'numero' => $i]])), range(1, 23));
         $itens[] = classificar(itemInep('q-2023', ['origem_ref' => ['ano' => 2023, 'aplicacao' => 'regular', 'numero' => 1]]));
         $itens[] = itemInep('sem-classificacao');
 
         app(ImportadorInep::class)->importar(fonteInep($itens));
+        $primeira = Questao::query()->pluck('questionario_id', 'codigo')->all();
         app(ImportadorInep::class)->importar(fonteInep($itens));
 
         $inep = Questionario::where('tipo', 'inep')->orderBy('ordem')->withCount('questoes')->get();
 
-        expect($inep->pluck('titulo')->all())->toBe(['ENEM 2023 · 1', 'ENEM 2024 · 1', 'ENEM 2024 · 2', 'ENEM 2024 · 3'])
-            ->and($inep->pluck('questoes_count')->all())->toBe([1, 10, 10, 3])
+        expect($inep->pluck('titulo')->all())->toBe(['ENEM · 1', 'ENEM · 2'])
+            ->and($inep->pluck('questoes_count')->all())->toBe([10, 14])
+            ->and(Questao::where('codigo', 'q01')->first()->questionario_id)->toBe($inep[0]->id)
+            ->and(Questao::where('codigo', 'q-2023')->first()->questionario_id)->toBe($inep[1]->id)
+            ->and(Questao::query()->pluck('questionario_id', 'codigo')->all())->toEqual($primeira)
             ->and(Questionario::where('tipo', '!=', 'inep')->count())->toBe(1)
             ->and(Questao::where('codigo', 'sem-classificacao')->first()->questionario_id)->toBeNull();
+    });
+
+    it('questionário que ficou vazio sai se não tem tentativas e fica (escondido) se tem', function () {
+        $assunto = criarAssuntoDeTeste();
+        $velho = Questionario::create(['assunto_id' => $assunto->id, 'titulo' => 'ENEM · 9', 'ordem' => 2009, 'tipo' => 'inep']);
+        $comTentativa = Questionario::create(['assunto_id' => $assunto->id, 'titulo' => 'ENEM · 8', 'ordem' => 2008, 'tipo' => 'inep']);
+        Tentativa::create(['user_id' => User::factory()->create()->id, 'questionario_id' => $comTentativa->id, 'tipo' => 'assunto', 'seed' => 1, 'iniciada_em' => now()]);
+
+        app(ImportadorInep::class)->importar(fonteInep([classificar(itemInep('q1'))]));
+
+        expect(Questionario::whereKey($velho->id)->exists())->toBeFalse()
+            ->and(Questionario::whereKey($comTentativa->id)->exists())->toBeTrue();
     });
 });
 
@@ -358,7 +375,7 @@ describe('visibilidade (GABARITU_EXIBIR_INEP)', function () {
 
         expect(Questao::servivel()->pluck('codigo')->sort()->values()->all())->toBe(['q1', 'q2']);
         $this->actingAs($this->aluno)->get('/materias/fisica')
-            ->assertInertia(fn ($page) => $page->has('assuntos.0.questionarios', 1)->where('assuntos.0.questionarios.0.titulo', 'ENEM 2024 · 1'));
+            ->assertInertia(fn ($page) => $page->has('assuntos.0.questionarios', 1)->where('assuntos.0.questionarios.0.titulo', 'ENEM · 1'));
     });
 
     it('revisão espaçada e tentativa de erradas respeitam a flag', function () {
@@ -455,7 +472,7 @@ describe('gabaritu:inep', function () {
         $this->artisan('gabaritu:inep', ['--remover' => true, '--force' => true])->assertSuccessful();
 
         expect(Questao::where('origem', 'inep')->count())->toBe(0)->and(Resposta::count())->toBe(0)
-            ->and(Questionario::where('tipo', 'inep')->count())->toBe(0)
+            ->and(Questionario::where('tipo', 'inep')->has('questoes')->count())->toBe(0)
             ->and(Questao::count())->toBe(1)->and(Alternativa::count())->toBe(5)
             ->and(File::files($this->pastaDeImagens))->toBeEmpty()
             ->and(file_get_contents($log))->toContain('"questoes":1')->toContain('q1')->toContain('.png');
