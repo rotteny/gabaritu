@@ -10,6 +10,7 @@ use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Str;
 use Illuminate\Validation\Rule;
 use Illuminate\Validation\ValidationException;
 use Inertia\Inertia;
@@ -62,7 +63,10 @@ class ContaController extends Controller
             'senha' => $this->passwordRules(),
         ]);
 
-        $request->user()->update(['password' => $dados['senha']]);
+        $aluno = $request->user();
+        $aluno->forceFill(['password' => $dados['senha'], 'remember_token' => Str::random(60)])->save();
+        // Senha nova derruba quem estava logado em outro aparelho (inclusive o "lembrar de mim").
+        DB::table('sessions')->where('user_id', $aluno->id)->where('id', '!=', $request->session()->getId())->delete();
 
         return back();
     }

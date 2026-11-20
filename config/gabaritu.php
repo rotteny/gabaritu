@@ -13,6 +13,9 @@ return [
 
     'idade_minima' => 13,
 
+    /* Versão da página /privacidade gravada no aceite do cadastro. Mudou o texto, mude a versão. */
+    'privacidade_versao' => '2026-11-19',
+
     'fuso' => 'America/Sao_Paulo',
 
     /* Regras de nota, revisão e freio: docs/regras-nota.md */

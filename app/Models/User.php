@@ -25,6 +25,8 @@ use Illuminate\Support\Carbon;
  * @property string|null $ultima_materia
  * @property string $password
  * @property string|null $remember_token
+ * @property Carbon|null $privacidade_aceita_em
+ * @property string|null $privacidade_versao
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
  */
@@ -44,6 +46,7 @@ class User extends Authenticatable
             'musica' => 'boolean',
             'reduzir_movimento' => 'boolean',
             'ano_nascimento' => 'integer',
+            'privacidade_aceita_em' => 'datetime',
         ];
     }
 

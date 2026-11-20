@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Middleware\LimitarFormulariosDeAcesso;
 use App\Http\Middleware\TraduzirCamposDeLogin;
 use Laravel\Fortify\Features;
 
@@ -102,7 +103,7 @@ return [
     |
     */
 
-    'middleware' => ['web', TraduzirCamposDeLogin::class],
+    'middleware' => ['web', TraduzirCamposDeLogin::class, LimitarFormulariosDeAcesso::class],
 
     /*
     |--------------------------------------------------------------------------

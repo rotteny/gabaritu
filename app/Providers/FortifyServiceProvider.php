@@ -83,5 +83,16 @@ class FortifyServiceProvider extends ServiceProvider
             return Limit::perMinute(5)->by($throttleKey);
         });
 
+        // Por IP com folga para a sala de aula atrás do mesmo NAT; por e-mail para não virar canhão de spam.
+        RateLimiter::for('cadastro', fn (Request $request) => [
+            Limit::perMinute(10)->by('cadastro|'.$request->ip()),
+            Limit::perHour(60)->by('cadastro-hora|'.$request->ip()),
+        ]);
+
+        RateLimiter::for('recuperacao-senha', fn (Request $request) => [
+            Limit::perMinute(5)->by('recuperacao|'.$request->ip()),
+            Limit::perHour(5)->by('recuperacao-email|'.Str::lower((string) $request->input('email'))),
+        ]);
+
     }
 }

@@ -28,7 +28,7 @@ class CreateNewUser implements CreatesNewUsers
             'aceite_privacidade.accepted' => 'Para criar a conta, é preciso aceitar a política de privacidade.',
         ])->validate();
 
-        return User::create([
+        $aluno = new User([
             'apelido' => $dados['apelido'],
             'email' => $dados['email'],
             'password' => $dados['senha'],
@@ -36,6 +36,13 @@ class CreateNewUser implements CreatesNewUsers
             'serie' => $dados['serie'],
             'zoeira' => self::ZOEIRA_INICIAL,
         ]);
+        // Fora do fillable de propósito: só o cadastro grava o aceite.
+        $aluno->forceFill([
+            'privacidade_aceita_em' => now(),
+            'privacidade_versao' => (string) config('gabaritu.privacidade_versao'),
+        ])->save();
+
+        return $aluno;
     }
 
     /** @return array<int, mixed> */
