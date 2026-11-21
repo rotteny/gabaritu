@@ -101,14 +101,9 @@ class FalaService
     private function elegiveis(string $chave, Nivel $nivel, int $idade, bool $reserva): Collection
     {
         $hoje = now(config('gabaritu.fuso'))->toDateString();
-        $chaveId = ChaveFala::query()->where('chave', $chave)->value('id');
-
-        if ($chaveId === null) {
-            return new Collection;
-        }
 
         return VariacaoFala::query()
-            ->where('chave_fala_id', $chaveId)
+            ->whereIn('chave_fala_id', ChaveFala::query()->where('chave', $chave)->select('id'))
             ->where('reserva', $reserva)
             ->where('status_revisao', 'aprovada')
             ->whereIn('nivel', $nivel->ateEste())

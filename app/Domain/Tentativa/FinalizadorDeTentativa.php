@@ -10,7 +10,7 @@ class FinalizadorDeTentativa
 
     public function finalizarSeCompleta(Tentativa $tentativa): bool
     {
-        if ($this->apresentador->itemAtual($tentativa) !== null) {
+        if ($this->apresentador->temItemPendente($tentativa)) {
             return false;
         }
 

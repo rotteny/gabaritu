@@ -21,6 +21,14 @@ class ApresentadorDeQuestao
             ->first();
     }
 
+    public function temItemPendente(Tentativa $tentativa): bool
+    {
+        return $tentativa->itens()
+            ->whereNotIn('questao_id', $tentativa->respostas()->select('questao_id'))
+            ->whereHas('questao', fn ($q) => $q->servivel())
+            ->exists();
+    }
+
     public function marcarServida(TentativaQuestao $item): void
     {
         if ($item->servida_em === null) {
