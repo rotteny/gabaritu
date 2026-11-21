@@ -47,6 +47,7 @@ export const rotas = {
     materia: (slug: string) => `/materias/${slug}`,
     novaTentativa: (questionarioId: number) =>
         `/questionarios/${questionarioId}/tentativas`,
+    tentativa: (tentativaId: number) => `/tentativas/${tentativaId}`,
     respostas: (tentativaId: number) => `/tentativas/${tentativaId}/respostas`,
     revisarErradas: (tentativaId: number) =>
         `/tentativas/${tentativaId}/revisao`,

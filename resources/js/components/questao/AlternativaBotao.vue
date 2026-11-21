@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { computed } from 'vue';
 import DemoSlime from '@/components/landing/DemoSlime.vue';
 import ExplosaoEstrela from '@/components/questao/ExplosaoEstrela.vue';
 import type { Alternativa } from '@/types/gabaritu';
@@ -10,7 +11,7 @@ export type EstadoAlternativa =
     | 'errada'
     | 'recolhida';
 
-defineProps<{
+const props = defineProps<{
     alternativa: Alternativa;
     estado: EstadoAlternativa;
     travada: boolean;
@@ -18,6 +19,11 @@ defineProps<{
     escolhida: boolean;
 }>();
 defineEmits<{ escolher: [] }>();
+
+// Só há reação depois que o servidor decidiu: "pendente" nunca explode.
+const reagiu = computed(
+    () => props.estado === 'certa' || props.estado === 'errada',
+);
 </script>
 
 <template>
@@ -29,6 +35,7 @@ defineEmits<{ escolher: [] }>();
             { 'q-alt--miniatura': alternativa.imagem },
         ]"
         :aria-disabled="travada"
+        :aria-busy="estado === 'pendente' && travada ? 'true' : undefined"
         :aria-hidden="estado === 'recolhida' ? 'true' : undefined"
         :tabindex="estado === 'recolhida' ? -1 : undefined"
         @click="$emit('escolher')"
@@ -54,7 +61,7 @@ defineEmits<{ escolher: [] }>();
                 Resposta errada.</span
             >
         </span>
-        <template v-if="efeitos && escolhida">
+        <template v-if="efeitos && escolhida && reagiu">
             <ExplosaoEstrela :tipo="estado === 'certa' ? 'acerto' : 'erro'" />
             <DemoSlime v-if="estado === 'errada'" :ativa="true" />
         </template>

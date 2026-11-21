@@ -39,10 +39,15 @@ const efeitos = computed(
             :texto-completo="q.textoCompleto.value"
             :digitado="q.digitado.value"
             :reacao="efeitos ? reacao : null"
+            :esperando="q.esperando.value"
             :pode-pular="q.fase.value === 'reagindo' && q.falando.value"
             @pular="q.pularAnimacao"
         />
-        <main class="q-jogo" :data-fase="q.fase.value">
+        <main
+            class="q-jogo"
+            :data-fase="q.fase.value"
+            :aria-busy="q.fase.value === 'enviando'"
+        >
             <div class="q-conteudo">
                 <p
                     v-if="q.erroEnvio.value"
@@ -50,6 +55,14 @@ const efeitos = computed(
                     role="alert"
                 >
                     {{ q.erroEnvio.value }}
+                    <button
+                        v-if="q.escolhida.value"
+                        type="button"
+                        class="q-tentar"
+                        @click="q.tentarDeNovo"
+                    >
+                        Tentar de novo
+                    </button>
                 </p>
                 <EnunciadoCartao
                     :contexto="questao.contexto"

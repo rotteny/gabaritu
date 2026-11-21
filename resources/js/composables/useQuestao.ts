@@ -3,11 +3,14 @@ import { computed, onBeforeUnmount, ref } from 'vue';
 import type { Ref } from 'vue';
 import { usePodeFalar } from '@/composables/usePodeFalar';
 import { useFalaDigitada } from '@/composables/useFalaDigitada';
+import { useEsperaResposta } from '@/composables/useEsperaResposta';
 import { useMovimentoReduzido } from '@/composables/useMovimentoReduzido';
 import { useControleSom } from '@/composables/useMusica';
 import { humorDaFala } from '@/lib/grito';
 import { useSomPeixoto } from '@/composables/useSomPeixoto';
+import { ErroHttp } from '@/lib/http';
 import { enviarResposta } from '@/lib/respostas';
+import { rotas } from '@/lib/rotas';
 import type {
     Alternativa,
     Fala,
@@ -31,6 +34,7 @@ export function useQuestao({ tentativa, questao, abertura }: Entrada) {
     const som = useSomPeixoto(somLocal);
     const podeFalar = usePodeFalar(() => document.querySelector('.q-palco'));
     const fala = useFalaDigitada(reduzido, som.bipe, podeFalar);
+    const espera = useEsperaResposta();
 
     const fase = ref<FaseQuestao>('perguntando');
     const escolhida = ref<Alternativa | null>(null);
@@ -39,9 +43,13 @@ export function useQuestao({ tentativa, questao, abertura }: Entrada) {
     const falaAtual = ref<Fala>(abertura.value);
     const efeitosPulados = ref(false);
     let montado = true;
+    const cancelador = new AbortController();
 
+    // Enquanto a resposta não chega o humor é neutro: a fala de abertura não decide reação.
     const humor = computed(() =>
-        humorDaFala(falaAtual.value.texto, falaAtual.value.humor),
+        espera.visivel.value
+            ? 'neutro'
+            : humorDaFala(falaAtual.value.texto, falaAtual.value.humor),
     );
     const acertou = computed(() => resposta.value?.correta === true);
     const freio = computed(() => resposta.value?.freio_ativo === true);
@@ -50,6 +58,11 @@ export function useQuestao({ tentativa, questao, abertura }: Entrada) {
     );
 
     void fala.falar(abertura.value.texto, abertura.value.humor);
+
+    /** 422 = a tela está defasada (ex.: já respondida): pede o estado real ao servidor. */
+    function recarregarEstado() {
+        router.visit(rotas.tentativa(tentativa.value.id), { replace: true });
+    }
 
     async function responder(alternativa: Alternativa) {
         if (fase.value !== 'perguntando') {
@@ -60,14 +73,35 @@ export function useQuestao({ tentativa, questao, abertura }: Entrada) {
         erroEnvio.value = null;
         escolhida.value = alternativa;
         fase.value = 'enviando';
+        fala.pular();
+        espera.iniciar();
+
+        let recebida: RespostaApi;
 
         try {
-            resposta.value = await enviarResposta(tentativa.value.id, {
-                questao_id: questao.value.id,
-                alternativa_id: alternativa.id,
-            });
+            recebida = await enviarResposta(
+                tentativa.value.id,
+                {
+                    questao_id: questao.value.id,
+                    alternativa_id: alternativa.id,
+                },
+                cancelador.signal,
+            );
+            await espera.encerrar();
         } catch (e) {
-            escolhida.value = null;
+            espera.cancelar();
+
+            if (!montado) {
+                return;
+            }
+
+            if (e instanceof ErroHttp && e.status === 422) {
+                recarregarEstado();
+
+                return;
+            }
+
+            // Mantém a escolha marcada: "tentar de novo" reenvia a mesma alternativa.
             fase.value = 'perguntando';
             erroEnvio.value =
                 e instanceof Error ? e.message : 'Não deu pra enviar.';
@@ -75,22 +109,33 @@ export function useQuestao({ tentativa, questao, abertura }: Entrada) {
             return;
         }
 
-        fase.value = 'reagindo';
-        falaAtual.value = resposta.value.fala;
+        if (!montado) {
+            return;
+        }
 
-        if (resposta.value.correta) {
+        resposta.value = recebida;
+        fase.value = 'reagindo';
+        falaAtual.value = recebida.fala;
+
+        if (recebida.correta) {
             som.acerto();
-        } else if (!resposta.value.freio_ativo) {
+        } else if (!recebida.freio_ativo) {
             som.erro();
         }
 
         const terminou = await fala.falar(
-            resposta.value.fala.texto,
-            resposta.value.fala.humor,
+            recebida.fala.texto,
+            recebida.fala.humor,
         );
 
         if (terminou && montado && fase.value === 'reagindo') {
             fase.value = 'explicada';
+        }
+    }
+
+    function tentarDeNovo() {
+        if (escolhida.value) {
+            void responder(escolhida.value);
         }
     }
 
@@ -115,6 +160,7 @@ export function useQuestao({ tentativa, questao, abertura }: Entrada) {
 
     onBeforeUnmount(() => {
         montado = false;
+        cancelador.abort();
         fala.pular();
     });
 
@@ -123,6 +169,7 @@ export function useQuestao({ tentativa, questao, abertura }: Entrada) {
         escolhida,
         resposta,
         erroEnvio,
+        esperando: espera.visivel,
         humor,
         acertou,
         freio,
@@ -133,6 +180,7 @@ export function useQuestao({ tentativa, questao, abertura }: Entrada) {
         falando: fala.falando,
         textoCompleto: computed(() => falaAtual.value.texto),
         responder,
+        tentarDeNovo,
         pularAnimacao,
         proxima,
     };

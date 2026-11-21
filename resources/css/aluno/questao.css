@@ -123,6 +123,37 @@
 .q-ato--erro {
     animation: q-treme 0.8s linear;
 }
+.q-pensando {
+    position: absolute;
+    inset: 0;
+    display: block;
+}
+.q-pensando i {
+    font-style: normal;
+    animation: q-ponto 1.2s ease-in-out infinite;
+}
+.q-pensando i:nth-child(2) {
+    animation-delay: 0.2s;
+}
+.q-pensando i:nth-child(3) {
+    animation-delay: 0.4s;
+}
+.q-peixe--pensando .pei-pupil {
+    animation: q-olha 1.3s ease-in-out infinite;
+}
+.q-tentar {
+    margin-left: 8px;
+    padding: 1px 10px;
+    background: var(--yellow);
+    border: 2px solid var(--ink);
+    border-radius: 999px;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+}
+.q-alt--pendente[aria-busy='true'] {
+    animation: q-pulsa 1s ease-in-out infinite;
+}
 .q-balao {
     grid-area: balao;
     position: relative;
@@ -549,6 +580,29 @@
     transition-duration: 0.01ms !important;
 }
 
+@keyframes q-olha {
+    0%,
+    100% {
+        transform: translateX(-4px);
+    }
+    50% {
+        transform: translateX(4px);
+    }
+}
+@keyframes q-ponto {
+    0%,
+    100% {
+        opacity: 0.25;
+    }
+    40% {
+        opacity: 1;
+    }
+}
+@keyframes q-pulsa {
+    50% {
+        opacity: 0.75;
+    }
+}
 @keyframes q-giro {
     0% {
         transform: translateY(0) rotate(0);
@@ -620,6 +674,16 @@
     .q-alts li:has(.q-alt--recolhida) {
         display: none;
     }
+    .q-peixe--pensando .pei-pupil,
+    .q-pensando i,
+    .q-alt--pendente[aria-busy='true'] {
+        animation: none;
+    }
+}
+.gb[data-reduzir='true'] .q-peixe--pensando .pei-pupil,
+.gb[data-reduzir='true'] .q-pensando i,
+.gb[data-reduzir='true'] .q-alt--pendente[aria-busy='true'] {
+    animation: none;
 }
 .gb[data-reduzir='true'] .q-alts li:has(.q-alt--recolhida) {
     display: none;

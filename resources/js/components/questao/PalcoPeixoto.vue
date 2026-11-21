@@ -11,6 +11,8 @@ const props = defineProps<{
     digitado: string;
     reacao: 'acerto' | 'erro' | null;
     podePular: boolean;
+    /** Resposta a caminho: o balão mostra o rótulo de espera e o Peixoto fica em suspense. */
+    esperando?: boolean;
 }>();
 defineEmits<{ pular: [] }>();
 const grito = computed(() => ehGrito(props.textoCompleto));
@@ -25,10 +27,13 @@ const grito = computed(() => ehGrito(props.textoCompleto));
         >
             <span class="q-balao-corpo" aria-hidden="true">
                 <span class="q-fantasma">{{ textoCompleto }}</span>
-                <span class="q-digitado">{{ digitado }}</span>
+                <span v-if="esperando" class="q-pensando">
+                    Conferindo<i>.</i><i>.</i><i>.</i>
+                </span>
+                <span v-else class="q-digitado">{{ digitado }}</span>
             </span>
             <span class="gb-sr" role="status" aria-live="polite">{{
-                textoCompleto
+                esperando ? 'Conferindo a resposta' : textoCompleto
             }}</span>
             <button
                 v-if="podePular"
@@ -39,7 +44,11 @@ const grito = computed(() => ehGrito(props.textoCompleto));
                 Pular animação
             </button>
         </div>
-        <div class="q-peixe" aria-hidden="true">
+        <div
+            class="q-peixe"
+            :class="{ 'q-peixe--pensando': esperando }"
+            aria-hidden="true"
+        >
             <div class="q-flutua">
                 <div class="q-infla" :style="{ '--puff': INCHACO[humor] }">
                     <div class="q-ato" :class="reacao && `q-ato--${reacao}`">
