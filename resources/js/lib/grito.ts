@@ -17,7 +17,14 @@ export function ehGrito(texto: string): boolean {
     return maiusculas / total > LIMITE_GRITO;
 }
 
-/** Grito sempre deixa o Peixoto bravo e inchado, seja qual for o humor do contrato. */
+/**
+ * Grito deixa o Peixoto bravo e inchado, exceto no acerto (feliz) e no modo ajuda:
+ * decisão do dono (21/11), acerto gritado continua com cara feliz. O balão de grito vale igual.
+ */
 export function humorDaFala(texto: string, humor: HumorFala): HumorFala {
+    if (humor === 'feliz' || humor === 'ajuda') {
+        return humor;
+    }
+
     return ehGrito(texto) ? 'bravo' : humor;
 }

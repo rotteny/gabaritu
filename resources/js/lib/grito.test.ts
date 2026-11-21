@@ -27,6 +27,16 @@ describe('humorDaFala', () => {
         expect(humorDaFala('NÃO ACREDITO!', 'neutro')).toBe('bravo');
     });
 
+    it('acerto gritado continua feliz', () => {
+        expect(humorDaFala('CERTÍSSIMO! EU TÔ CHORANDO!', 'feliz')).toBe(
+            'feliz',
+        );
+    });
+
+    it('modo ajuda não incha com grito', () => {
+        expect(humorDaFala('RESPIRA, VAMOS JUNTOS!', 'ajuda')).toBe('ajuda');
+    });
+
     it('fala normal mantém o humor', () => {
         expect(humorDaFala('Boa, acertou.', 'feliz')).toBe('feliz');
     });
