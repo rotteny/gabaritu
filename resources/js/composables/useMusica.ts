@@ -1,16 +1,22 @@
-import { router } from '@inertiajs/vue3';
-import { computed, ref, watch } from 'vue';
-import { useAluno } from '@/composables/useAluno';
-import { definirMusicaAtiva, reterMusica } from '@/lib/motorMusica';
-import { destravarSom } from '@/lib/motorSom';
-import { rotas } from '@/lib/rotas';
-import type { PropsCompartilhadas } from '@/types/gabaritu';
+import { router } from "@inertiajs/vue3";
+import { computed, ref, watch } from "vue";
+import { useAluno } from "@/composables/useAluno";
+import { definirMusicaAtiva, reterMusica } from "@/lib/motorMusica";
+import { destravarSom } from "@/lib/motorSom";
+import { rotas } from "@/lib/rotas";
+import type { PropsCompartilhadas } from "@/types/gabaritu";
 
 /** Estado único (som de efeitos e música) compartilhado entre layouts, questão e landing. */
 const somLigado = ref(true);
 const musicaLigada = ref(true);
+/** Páginas sem som nenhum (painel admin): não toca música nem efeito, qualquer que seja a preferência. */
+const areaSilenciosa = ref(false);
+const componenteSilencioso = (componente: string | undefined) =>
+    typeof componente === "string" && componente.startsWith("admin/");
 /** Leitura do estado de som sem efeitos colaterais (não liga a música ao motor). */
-export const somLigadoRef = somLigado;
+export const somLigadoRef = computed(
+    () => somLigado.value && !areaSilenciosa.value,
+);
 let ligadoAoMotor = false;
 
 function ligarAoMotor() {
@@ -20,8 +26,9 @@ function ligarAoMotor() {
 
     ligadoAoMotor = true;
     watch(
-        [somLigado, musicaLigada],
-        ([som, musica]) => definirMusicaAtiva(som && musica),
+        [somLigado, musicaLigada, areaSilenciosa],
+        ([som, musica, silencio]) =>
+            definirMusicaAtiva(som && musica && !silencio),
         { immediate: true },
     );
 }
@@ -33,7 +40,7 @@ export function useControleSom() {
     return { somLigado, musicaLigada };
 }
 
-const CHAVE_LOCAL = 'gabaritu:som';
+const CHAVE_LOCAL = "gabaritu:som";
 
 function lerLocal(): { som: boolean; musica: boolean } | null {
     try {
@@ -59,6 +66,25 @@ function gravarLocal() {
     }
 }
 
+/** Componente da primeira página, lido do HTML que o servidor entregou (antes do primeiro navigate). */
+function componenteInicial(): string | undefined {
+    if (typeof document === "undefined") {
+        return undefined;
+    }
+
+    const bruto =
+        document.querySelector("script[data-page]")?.textContent ??
+        document.getElementById("app")?.dataset.page;
+
+    try {
+        return bruto
+            ? (JSON.parse(bruto) as { component?: string }).component
+            : undefined;
+    } catch {
+        return undefined;
+    }
+}
+
 /** Raiz do app: música e som valem em qualquer página Inertia, inclusive a landing. Chamar uma vez. */
 export function iniciarSomGlobal() {
     const local = lerLocal();
@@ -68,14 +94,18 @@ export function iniciarSomGlobal() {
         musicaLigada.value = local.musica !== false;
     }
 
+    areaSilenciosa.value = componenteSilencioso(componenteInicial());
     ligarAoMotor();
     reterMusica();
-    router.on('navigate', (evento) => {
+    router.on("navigate", (evento) => {
+        areaSilenciosa.value = componenteSilencioso(
+            evento.detail.page.component,
+        );
         const usuario = (
             evento.detail.page.props as unknown as Partial<PropsCompartilhadas>
         ).auth?.user;
         const prefs =
-            usuario && usuario.tipo !== 'responsavel'
+            usuario && usuario.tipo !== "responsavel"
                 ? usuario.preferencias
                 : undefined;
 
@@ -102,12 +132,12 @@ export function useAlternarSom() {
 
         if (preferencias.value) {
             router.patch(
-                rotas.conta + '/preferencias',
+                rotas.conta + "/preferencias",
                 { som: novo, musica: novo },
                 {
                     preserveScroll: true,
                     preserveState: true,
-                    only: ['auth', 'errors'],
+                    only: ["auth", "errors"],
                 },
             );
         } else {
