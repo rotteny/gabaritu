@@ -42,7 +42,8 @@ RUN APP_KEY=base64:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA= npm run build
 
 FROM php-base AS app
 RUN cp "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini" \
-    && printf 'memory_limit=256M\nexpose_php=0\nopcache.validate_timestamps=0\n' > "$PHP_INI_DIR/conf.d/zz-gabaritu.ini"
+    && printf 'memory_limit=256M\nexpose_php=0\nopcache.validate_timestamps=0\nopcache.memory_consumption=256\n' > "$PHP_INI_DIR/conf.d/zz-gabaritu.ini"
+COPY infra/producao/php-fpm-pool.conf /usr/local/etc/php-fpm.d/zz-gabaritu.conf
 COPY --from=vendor --chown=www-data:www-data /var/www/html ./
 COPY --from=front --chown=www-data:www-data /var/www/html/public/build ./public/build
 # public/conteudo/img é um volume compartilhado com o web (docs/operacao/producao.md); o dono precisa ser o www-data.
