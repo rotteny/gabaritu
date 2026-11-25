@@ -431,10 +431,6 @@
 .nadador {
     transition: opacity 0.3s;
 }
-.nadador--discreto {
-    opacity: 0.7;
-}
-
 /*
  * Balão de grito (fala com mais de 60% das letras em maiúscula): contorno espetado de quadrinhos.
  * Dois polígonos empilhados (tinta por baixo, papel por cima) fazem o traço grosso; o rabicho em raio
